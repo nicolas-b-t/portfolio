@@ -1,159 +1,185 @@
 # Portfólio
 
-Currículo e portfólio estático em português (Brasil e Portugal), inglês e
-espanhol (template sul-americano e variante de Espanha), feito com
-HTML e CSS, sem JavaScript. O projeto prioriza robustez, compatibilidade,
-acessibilidade, portabilidade e poucas tecnologias e dependências.
+Este projeto apresenta o currículo e os projetos de Nicolas Beraldes Tarifa.
+O site usa HTML e CSS, sem JavaScript.
+As cinco versões atendem aos públicos brasileiro, português, inglês,
+sul-americano e espanhol de Espanha.
+
+Os objetivos são robustez, compatibilidade, acessibilidade, portabilidade e
+minimalismo. O projeto usa poucas tecnologias e dependências.
+
+## Regras de redação
+
+Toda a documentação autoral e todo o texto apresentado devem seguir os
+princípios da ASD-STE100, edição 9, adaptados ao idioma usado.
+As [orientações do projeto](AGENTS.md) definem a regra e os critérios de revisão.
+
+No português, usamos termos consistentes, voz ativa e frases curtas.
+As instruções apresentam uma ação por frase. Os parágrafos apresentam um assunto
+por vez. Esta adaptação não declara conformidade formal com STE.
+
+A referência oficial está em
+`docs/referencias/asd-ste100/ASD-STE100-issue-9-2025-01-15.pdf`.
+O guia local está em `docs/guia-de-redacao.md`.
+Preservamos os documentos oficiais, as licenças e as fontes recebidas sem edição.
 
 ## Estrutura
 
 ```text
 .
-├── AGENTS.md                # Regras e orientações de desenvolvimento
-├── .editorconfig            # Convenções para editores compatíveis
-├── .github/workflows/pages.yml # Deploy no GitHub Pages
+├── AGENTS.md                    # Regras de desenvolvimento e redação
+├── .editorconfig                # Formatação nos editores compatíveis
+├── .github/workflows/pages.yml  # Publicação no GitHub Pages
 ├── static/
-│   ├── index.html           # Escolha de idioma
-│   ├── pt-BR/               # HTML, CSS e recursos em português
-│   ├── pt-PT/               # Português de Portugal
-│   ├── en/                  # HTML, CSS e recursos em inglês
-│   ├── es-419/              # Espanhol neutro para a América do Sul
-│   ├── es-ES/               # Espanhol de Espanha
-│   ├── media/realfort/      # Fotos otimizadas compartilhadas
-│   └── README.md            # Organização das versões estáticas
-└── docs/                    # Somente local, fora do versionamento Git
-    ├── analise-estatica.md   # Análise inicial e pendências
-    ├── acessibilidade.md    # Alterações, verificações e limites
-    ├── fontes-do-conteudo.md # Fontes das informações profissionais
-    ├── competencias-e-evidencias.md # Bases das competências explícitas e inferidas
-    ├── otimizacao-imagens.json # Dimensões e compressão das fotos
-    ├── pendencias.md        # Lembrete sobre acesso aos projetos privados
-    ├── historico-de-desenvolvimento.md # Etapas e decisões deste desenvolvimento
-    ├── avaliacao-do-desenvolvimento.md # Avaliação e recomendações ao responsável
+│   ├── index.html               # Escolha de idioma
+│   ├── pt-BR/                   # Português brasileiro
+│   ├── pt-PT/                   # Português de Portugal
+│   ├── en/                      # Inglês
+│   ├── es-419/                  # Espanhol para o público sul-americano
+│   ├── es-ES/                   # Espanhol de Espanha
+│   ├── media/realfort/           # Fotografias compartilhadas
+│   └── README.md                # Organização das páginas
+└── docs/                        # Documentação somente local
+    ├── guia-de-redacao.md        # Adaptação dos princípios da ASD-STE100
+    ├── analise-estatica.md       # Análise inicial
+    ├── acessibilidade.md        # Alterações e verificações
+    ├── fontes-do-conteudo.md    # Origem das informações profissionais
+    ├── competencias-e-evidencias.md # Evidências das competências
+    ├── coa-competencias.md      # Proposta de reorganização e resultado
+    ├── otimizacao-imagens.json  # Dimensões, compressão e integridade
+    ├── pendencias.md            # Tarefas futuras
+    ├── historico-de-desenvolvimento.md # Etapas e decisões
+    ├── avaliacao-do-desenvolvimento.md # Avaliação e recomendações
+    ├── fontes/academico/        # PDFs do SGCS e do curso de GTI
     └── referencias/
-        ├── w3c/            # Documentos oficiais, licença e proveniência
-        └── asd-ste100/     # Referência de redação técnica e PDF somente local
+        ├── w3c/                # Acessibilidade
+        ├── asd-ste100/          # Redação técnica
+        └── idiomas/            # STANAG 6001 e QECR/CEFR
 ```
 
-A pasta `static/` é a única fonte do site publicado. As versões antigas foram
-removidas. Cada idioma tem seu próprio CSS e favicon; alterações nesses recursos
-precisam ser mantidas consistentes.
+A pasta `static/` contém o site publicado. Removemos as páginas antigas.
+Cada idioma mantém seu CSS e favicon. As cinco cópias desses recursos devem
+permanecer consistentes.
 
-A pasta `docs/` permanece neste ambiente, ignorada pelo Git; seu conteúdo não
-acompanha clones, commits ou pushes. Os caminhos de documentação citados abaixo
-referem-se às cópias locais. `AGENTS.md`, `.editorconfig` e este README continuam
-versionados na raiz para orientar quem obtiver o projeto pelo GitHub.
+A pasta `docs/` fica somente neste ambiente e é ignorada pelo Git.
+Seus arquivos não acompanham clones, commits ou pushes.
+Os caminhos de `docs/` citados neste README identificam arquivos locais.
+As instruções da raiz permanecem versionadas no GitHub.
 
 ## Executar para desenvolvimento
 
-Não há dependências de pacotes para instalar nem etapa de build.
-Com Python 3 disponível, execute na raiz do repositório:
+O site não exige instalação de pacotes nem compilação.
+Com Python 3 disponível, execute este comando na raiz do repositório:
 
 ```sh
 python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 ```
 
-A página inicial oferece a escolha de idioma; as versões ficam em `/pt-BR/`,
-`/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`. Se a porta estiver ocupada, escolha
-outra. Use `Ctrl+C` para encerrar.
-O servidor Python é somente uma ferramenta de desenvolvimento; o site
-publicado não depende de Python ou de um backend.
+Abra `http://127.0.0.1:8001/` no navegador.
+A página inicial permite escolher o idioma.
+As versões ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
 
-## Deploy no GitHub Pages
+Se a porta estiver ocupada, escolha outra porta.
+Use `Ctrl+C` para encerrar o servidor.
+O servidor Python serve para desenvolvimento. O site publicado não depende de
+Python ou de um servidor de aplicação.
 
-O workflow `.github/workflows/pages.yml` publica os arquivos de `static/`
-a cada push em `main`, sem compilar o site. Também permite execução manual
-pela aba Actions. As ações oficiais são fixadas por SHA de commit.
+## Publicar no GitHub Pages
 
-Em **Settings → Pages → Build and deployment → Source**, selecione
-**GitHub Actions**. GitHub Actions deve estar habilitado, e o ambiente
-`github-pages` deve permitir deploy da branch `main`.
+O workflow `.github/workflows/pages.yml` publica `static/` após cada push em
+`main`. A aba Actions também permite iniciar a publicação manualmente.
+As ações oficiais usam referências fixadas por SHA de commit.
 
-O workflow usa permissões `contents: read`, `pages: write` e `id-token: write`.
-Não requer secrets personalizados. O artefato exclui `static/README.md` e não
-inclui documentos, referências W3C ou instruções da raiz do repositório.
+Nas configurações do repositório, abra **Settings → Pages → Build and deployment → Source**.
+Selecione **GitHub Actions**.
+Habilite GitHub Actions no repositório.
+Permita que o ambiente `github-pages` publique a branch `main`.
 
-Endereço do site: https://nicolas-b-t.github.io/portfolio/
-As páginas ficam sob `/portfolio/`, nas pastas de cada idioma.
+O workflow usa as permissões `contents: read`, `pages: write` e `id-token: write`.
+Ele não exige segredos personalizados.
+O artefato exclui `static/README.md`, documentos locais e instruções da raiz.
+
+Site: https://nicolas-b-t.github.io/portfolio/
+As páginas usam o caminho `/portfolio/`, seguido da pasta de cada idioma.
 
 ## Editar e verificar
 
-Leia [AGENTS.md](AGENTS.md) antes de alterar o projeto. Edite o `index.html`
-na pasta de cada idioma em `static/`. A apresentação pessoal está em revisão,
-com experiência de suporte de TI, telecomunicações e formação complementar
-extraídas dos currículos e das demais fontes enviadas.
-Preserve a correspondência entre traduções e revise `lang`,
-`hreflang` e os links de troca de idioma.
-
-O escopo atual da revisão das competências é somente a página principal
+Leia [AGENTS.md](AGENTS.md) antes de editar.
+A revisão atual abrange toda a documentação autoral e somente
 `static/pt-BR/index.html`, conforme decisão de 9 de outubro de 2026.
-A aplicação do COA está autorizada nessa página; as demais páginas e idiomas
-aguardam uma revisão posterior. Durante esta etapa, a sincronização do conteúdo
-entre traduções fica adiada, e os commits devem indicar “pt-BR, página principal”.
+As demais páginas e idiomas aguardam revisão posterior.
+Os commits devem indicar o escopo “pt-BR, página principal”.
 
-O template sul-americano usa espanhol neutro com `es-419`, etiqueta BCP 47 que
-abrange América Latina e Caribe. A variante europeia usa `es-ES` para Espanha.
-Não há detecção automática de idioma ou redirecionamento: a escolha é do visitante.
+O conteúdo profissional usa currículos, certificados, relatos e confirmações
+do responsável. Confira os fatos e seus limites antes de alterar o texto.
+Quando uma revisão incluir traduções, confira `lang`, `hreflang` e os links
+entre idiomas.
 
-Após alterações, confira:
+Após editar, confira:
 
 - Entrega das páginas, CSS e favicon por HTTP.
 - Links relativos, âncoras e troca de idioma.
-- Validade do HTML/CSS quando pertinente.
-- Teclado, foco visível, contraste, zoom e telas pequenas para mudanças visuais.
-- Temas claro e escuro, preferência por movimento reduzido e impressão.
+- Validade do HTML e CSS, conforme a mudança.
+- Teclado, foco, contraste, zoom e telas pequenas.
+- Temas claro e escuro, movimento reduzido e impressão.
+- Clareza dos textos, consistência dos termos e preservação dos fatos.
 
-Execute também:
+Execute este comando:
 
 ```sh
 git diff --check
 ```
 
-Não há suíte de testes automatizados no projeto. Verificações automáticas
-não substituem a avaliação manual de acessibilidade.
+O repositório não contém uma suíte de testes automatizados.
+As verificações automáticas não substituem a avaliação manual de acessibilidade
+ou a revisão das informações profissionais.
 
-## Padrões e estado atual
+## Conteúdo e padrões
 
-O site deve permanecer sem scripts, frameworks, rastreadores ou widgets que
-dependam de JavaScript. Use HTML semântico, CSS amplamente suportado, fontes
-do sistema, recursos locais e caminhos relativos.
+O site usa HTML semântico, CSS amplamente suportado, fontes do sistema e caminhos
+relativos. Ele funciona sem scripts, frameworks, rastreadores ou widgets que
+exijam JavaScript.
 
-WCAG 2.2 nível AA é o alvo de acessibilidade, não uma certificação já obtida.
-A análise inicial local está em `docs/analise-estatica.md`.
-O conteúdo profissional está sendo preenchido a partir de fontes verificáveis.
-As fontes e pendências estão em `docs/fontes-do-conteudo.md`. A área de agradecimentos
-e recomendações está em `rede.html` em cada idioma, separada da página principal
-e acessível pelo rodapé. A galeria de trabalho está em `galeria.html` em cada
-idioma, com fotos WebP/JPEG responsivas compartilhadas em `static/media/realfort/`.
-As fotos não são incorporadas ao currículo principal. Não publique documentos
-privados junto com o site.
+WCAG 2.2 nível AA é o alvo de acessibilidade.
+Os testes realizados não certificam conformidade com todos os critérios.
+O registro local está em `docs/acessibilidade.md`.
 
-O arquivo local `docs/historico-de-desenvolvimento.md` reúne as
-etapas e decisões do projeto. `docs/avaliacao-do-desenvolvimento.md`
-registra observações sobre as ações do responsável e recomendações práticas.
-O acesso independente aos repositórios privados está anotado em
-`docs/pendencias.md` para ser retomado posteriormente.
+Cada idioma contém `rede.html`, com agradecimentos e convites para conhecer
+perfis, e `galeria.html`, com fotografias profissionais.
+O rodapé liga essas páginas ao currículo principal.
+As fotografias usam WebP e JPEG responsivos em `static/media/realfort/`.
+O currículo principal não carrega fotografias.
 
-A seção de competências apresenta itens curtos em formato de tags, distribuídos
-em três categorias: técnicas (Hard skills), sociais (Soft skills) e habilidades
-práticas e operacionais, com subcategorias para facilitar a consulta. Os itens
-seguem “habilidade, observação”, com observações somente quando necessárias.
-A formação é indicada no agrupamento, e os itens usam listas HTML. A
-matriz local `docs/competencias-e-evidencias.md` registra as fontes e
-os limites das inferências; os currículos integrais permanecem fora do projeto.
+As competências usam listas de tags em três categorias: técnicas, sociais e
+habilidades práticas e operacionais. As subcategorias organizam os assuntos.
+O formato é “habilidade, observação”, com observações somente quando necessárias.
+Os projetos e a formação também apresentam competências no seu contexto.
+O curso de GTI permanece em andamento.
 
-As referências locais descritas em `docs/referencias/w3c/README.md` são cópias documentais e
-podem conter scripts originais. Preserve-as intactas e não as incorpore ao site.
-Na hospedagem, publique apenas os arquivos necessários ao portfólio.
+As fontes estão em `docs/fontes-do-conteudo.md`.
+A matriz `docs/competencias-e-evidencias.md` registra evidências e limites das
+inferências. Os currículos e certificados integrais permanecem fora do projeto.
+Os PDFs acadêmicos ficam somente em `docs/fontes/academico/`.
+Não publique documentos privados junto com o site.
 
-A referência local `docs/referencias/asd-ste100/README.md` identifica a
-edição 9 de Simplified Technical English. Seu PDF oficial fica somente na
-cópia local do projeto, assim como os demais arquivos de `docs/`.
+O histórico está em `docs/historico-de-desenvolvimento.md`.
+A avaliação está em `docs/avaliacao-do-desenvolvimento.md`.
+O acesso independente aos repositórios privados permanece pendente em
+`docs/pendencias.md`.
 
-O `.editorconfig` define UTF-8, indentação de dois espaços e finais de linha
-LF, com exceções para Markdown, scripts Windows e referências oficiais.
-Ele não reformata arquivos automaticamente nem acrescenta dependências ao site.
+As referências oficiais podem conter scripts originais.
+Preserve as cópias e seus avisos. Publique somente os arquivos necessários ao site.
 
-A identificação visível `ES-SAM` distingue o espanhol sul-americano nos seletores.
-É uma abreviação do projeto; `es-419` permanece como etiqueta padrão em
-`lang`, `hreflang` e no caminho da página.
+O `.editorconfig` orienta UTF-8, indentação de dois espaços e finais de linha LF.
+Ele contém exceções para Markdown, scripts Windows e referências oficiais.
+Ele não reformata arquivos automaticamente.
+
+## Idiomas
+
+O visitante escolhe o idioma, sem detecção automática ou redirecionamento.
+A etiqueta `es-419` abrange América Latina e Caribe.
+O projeto usa espanhol neutro para seu público sul-americano.
+
+A marca visível `ES-SAM` facilita a identificação dessa versão.
+Ela é uma abreviação do projeto. `es-419` permanece em `lang`, `hreflang` e nos caminhos.
+A etiqueta `es-ES` identifica a variante de Espanha.

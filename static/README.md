@@ -1,42 +1,53 @@
-# Versões estáticas por idioma
+# Páginas por idioma
 
-- `pt-BR/index.html`: português brasileiro.
-- `pt-PT/index.html`: português de Portugal.
-- `en/index.html`: inglês.
-- `es-419/index.html`: espanhol neutro para o público sul-americano.
-- `es-ES/index.html`: espanhol de Espanha.
+A pasta `static/` contém o site publicado.
+A página `index.html` permite escolher o idioma.
 
-Cada pasta também contém `rede.html`, com agradecimentos e recomendações de
-contatos, e `galeria.html`, com fotografias profissionais otimizadas. O rodapé
-do portfólio aponta para essas páginas separadas. As fotografias são compartilhadas
-em `media/realfort/`, com versões WebP e JPEG; não se deve duplicá-las por idioma.
+| Pasta | Público ou idioma |
+| --- | --- |
+| `pt-BR/` | Português brasileiro |
+| `pt-PT/` | Português de Portugal |
+| `en/` | Inglês |
+| `es-419/` | Espanhol neutro para o público sul-americano |
+| `es-ES/` | Espanhol de Espanha |
 
-`es-419` é a etiqueta BCP 47 para América Latina e Caribe, uma região maior
-que a América do Sul. Não existe uma etiqueta regional equivalente apenas
-para a América do Sul; o template usa redação neutra, sem escolher um país.
-`es-ES` representa a variante de Espanha, não todos os falantes na Europa.
+Cada pasta contém o currículo em `index.html`, os agradecimentos em `rede.html`
+e a galeria em `galeria.html`. O rodapé liga o currículo às páginas separadas.
+As fotografias WebP e JPEG ficam em `media/realfort/`, compartilhadas pelos idiomas.
+Não duplique as fotografias por idioma.
 
-Cada idioma mantém seu HTML, CSS e favicon. Os links de troca de idioma
-apontam para a pasta irmã. Esta pasta é a única fonte do site publicado.
-Ao alterar o estilo compartilhado, atualize as cinco cópias de `styles.css`.
+Cada idioma mantém seu HTML, CSS e favicon.
+Os links de idioma apontam para as pastas vizinhas.
+Ao alterar o estilo comum, atualize as cinco cópias de `styles.css`.
 
-As correções de acessibilidade foram aplicadas somente às versões desta pasta.
-O registro local de alterações e verificações está em `../docs/acessibilidade.md`;
-a pasta `docs/` é ignorada pelo Git e não acompanha clones do repositório.
+A etiqueta `es-419` abrange América Latina e Caribe.
+Não existe uma etiqueta regional equivalente apenas para a América do Sul.
+A redação é neutra, sem escolher um país.
+A marca visível `ES-SAM` identifica o público sul-americano.
+A etiqueta `es-ES` identifica a variante de Espanha.
 
-Para servir somente estas versões, na raiz do repositório execute:
+## Redação e escopo
+
+Siga os princípios da ASD-STE100, edição 9, adaptados ao idioma do texto.
+Consulte [AGENTS.md](../AGENTS.md) para os critérios.
+A revisão atual inclui toda a documentação autoral e somente
+`pt-BR/index.html`. As demais páginas e idiomas aguardam revisão posterior.
+
+Aplicamos as correções de acessibilidade somente às versões em `static/`.
+O registro está em `docs/acessibilidade.md`, relativo à raiz do repositório.
+A pasta `docs/` é somente local e não acompanha clones.
+
+## Conferir as páginas
+
+Na raiz do repositório, execute este comando:
 
 ```sh
 python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 ```
 
-As páginas ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
-A raiz apresenta a escolha
-de idioma. O servidor Python é apenas para desenvolvimento.
+Abra `http://127.0.0.1:8001/` no navegador.
+As versões ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
+O servidor Python serve apenas para desenvolvimento.
 
 O workflow `.github/workflows/pages.yml` publica esta pasta no GitHub Pages.
-`README.md` é documentação e é excluído do artefato de publicação.
-
-A identificação visível `ES-SAM` distingue o espanhol sul-americano nos seletores.
-É uma abreviação do projeto; `es-419` permanece como etiqueta padrão em
-`lang`, `hreflang` e no caminho da página.
+Ele exclui este README do artefato de publicação.
