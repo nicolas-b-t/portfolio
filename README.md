@@ -130,8 +130,9 @@ O acesso independente aos repositórios privados está anotado em
 
 A seção de competências apresenta itens curtos em formato de tags, distribuídos
 em três categorias: técnicas (Hard skills), sociais (Soft skills) e habilidades
-práticas e operacionais. Os itens usam listas HTML e preservam indicações de
-formação, apoio e supervisão. A
+práticas e operacionais, com subcategorias para facilitar a consulta. Os itens
+seguem “habilidade, observação”, com observações somente quando necessárias.
+A formação é indicada no agrupamento, e os itens usam listas HTML. A
 matriz local `docs/competencias-e-evidencias.md` registra as fontes e
 os limites das inferências; os currículos integrais permanecem fora do projeto.
 

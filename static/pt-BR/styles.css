@@ -277,11 +277,27 @@ p {
 
 /* ---------- Skills ---------- */
 
+.skill-category + .skill-category {
+  margin-top: 2rem;
+}
+
+.skill-subheading {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 1rem 0 0.5rem;
+}
+
+.skill-note {
+  color: var(--muted);
+  font-weight: 400;
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 0 0 1.75rem;
+  margin: 0;
   padding: 0;
   list-style: none;
 }

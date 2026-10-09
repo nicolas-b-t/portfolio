@@ -67,6 +67,10 @@ Use o mínimo de tecnologias e dependências necessário para atender ao conteú
   compartilhados quando uma reorganização da estrutura estiver no escopo.
 - Use caminhos relativos para recursos e páginas internas, de modo que o site
   possa ser servido em diferentes hospedagens e subdiretórios.
+- Nas competências, preserve as três categorias principais e organize as tags
+  em subcategorias. Use o formato “habilidade, observação”, reservando a
+  observação para informações necessárias; sinalize formação no agrupamento
+  quando isso evitar repetição nos itens.
 - Preserve o funcionamento como arquivos estáticos, sem exigir backend,
   framework, gerenciador de pacotes ou etapa de build.
 - Não inclua credenciais ou configurações específicas de uma máquina no site.
