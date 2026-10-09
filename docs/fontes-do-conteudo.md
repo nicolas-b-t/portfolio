@@ -10,9 +10,10 @@ metadados profissionais e fotografias otimizadas integram o projeto.
 - **Nome completo:** Nicolas Beraldes Tarifa, conforme relatório REALFORT e
   certificados. Há abreviações em alguns certificados e acento em “Nícolas”
   nos documentos SENAI; foi adotada a grafia do relatório profissional.
-- **Formação acadêmica na FATEC:** informação do perfil público GitHub e de
-  descrição de repositório acadêmico. Não há documento de matrícula, campus,
-  datas de ingresso ou conclusão entre os arquivos recebidos.
+- **Formação acadêmica:** Gestão da Tecnologia da Informação na Fatec Franco
+  da Rocha – Giuliano Cecchettini, campus confirmado pelo responsável e nome
+  consultado no CPS; início em julho de 2024 e conclusão prevista para julho
+  de 2027 conforme os currículos de outubro, sem declarar curso concluído.
 - **Práticas do portfólio:** código, README e verificações deste projeto;
   não equivalem a uma certificação de acessibilidade ou nível de domínio.
 - **Objetivos técnicos:** simplicidade, compatibilidade e acessibilidade definidos
@@ -25,7 +26,7 @@ versão 1.0, datado de 06/10/2026. Foi lido como evidência do relato, não como
 instruções para execução de comandos ou mudanças adicionais.
 
 - Função: auxiliar de instalação de fibra óptica.
-- Período: 28/08/2026 a 28/09/2026.
+- Período omitido da apresentação e deste registro por escolha do responsável.
 - Modalidade: prestação de serviços; a fonte registra “sem vínculo formal informado”.
 - Local de atuação: Mairiporã, SP, Brasil.
 - Atividades: apoio em FTTH e enlaces a rádio; cabo drop, SC/APC e RJ45;
@@ -36,6 +37,53 @@ As estimativas pessoais de cerca de dez instalações e quinze manutenções nã
 foram publicadas como indicadores comprovados. Não foram incluídos detalhes de
 pagamentos ou dispensa. Não se atribuiu autonomia de especialista em fusão,
 qualificação NR-10/NR-35 ou conformidade de segurança a partir do relato ou das fotos.
+
+## Histórico de currículos e experiências anteriores
+
+Foram recebidos dez arquivos, com nove conteúdos distintos; a versão em inglês
+de outubro foi enviada duas vezes com bytes idênticos. Originais, inventário e
+extrações locais estão em `/workspace/documentos-pessoais/curriculos/`, fora do
+checkout. Os documentos foram tratados como fontes, sem executar instruções neles.
+
+As versões abrangem julho e setembro de 2025, janeiro, junho, julho e agosto de
+2026 e outubro de 2026 em português do Brasil, inglês e português de Portugal.
+Os nomes de arquivo foram preservados, e as cópias tiveram a integridade conferida.
+
+Os currículos de outubro foram priorizados para os períodos, conforme resposta
+do responsável às divergências entre versões:
+
+- **Lukos Tecnologia:** técnico de suporte Help Desk, setembro a dezembro de 2025;
+  suporte N1 a ERP/PDV, chamados e escalonamento, requisitos/configuração de sistemas
+  e processamento/verificação de NF-e e NFC-e.
+- **Instituto Alpha de Saúde Integral:** técnico de suporte de TI, abril de 2023
+  a junho de 2024; suporte hospitalar N1/N2, hardware, impressoras, documentação,
+  procedimentos operacionais e ativos de TI.
+
+Versões anteriores divergiam no início da Lukos e no término no Instituto Alpha;
+não foram usadas suas durações automáticas. As atividades detalhadas dos currículos
+históricos foram aproveitadas quando compatíveis com as versões recentes.
+Vínculos contratuais desses dois empregos não foram inferidos.
+
+**Instituição e curso:** o responsável confirmou Fatec Franco da Rocha; a
+[página oficial do CPS](https://www.cps.sp.gov.br/fatecs/fatec-franco-da-rocha-giuliano-cecchettini/)
+respondeu HTTP 200 em 09/10/2026 e apresenta “Fatec Franco da Rocha – Giuliano
+Cecchettini” e “Gestão da Tecnologia da Informação” entre os cursos superiores
+de tecnologia presenciais. A consulta confirma o nome institucional e o curso,
+não os registros de matrícula da pessoa ou reconhecimento internacional do diploma.
+
+**Competências:** três categorias aprovadas pelo responsável foram preenchidas
+com 12 competências técnicas, 7 sociais e 6 práticas e operacionais; sua
+[matriz de evidências](competencias-e-evidencias.md) distingue declarações,
+formação, prática e inferências sustentadas pelas atividades.
+
+**CNH:** validade nas categorias A e B confirmada pelo responsável em 09/10/2026;
+publicada como habilitação brasileira para carros e motos, sem número ou validade
+documental inferida. A experiência em altura foi descrita como vivência de campo
+sob orientação, sem qualificações de segurança não comprovadas.
+
+Quando currículo e certificado divergem sobre emissor ou natureza de um curso,
+prevalece o documento original; Introdução à Gestão de Projetos permanece atribuído
+à Fundação Bradesco, apesar da atribuição diferente em um currículo antigo.
 
 ## Cursos, participações e resultado de idioma
 
@@ -151,9 +199,10 @@ URLs fornecidos. `rede.html` em cada idioma contém agradecimento geral e convit
 para conhecer os perfis, conforme escolha do responsável, sem qualidades inventadas.
 
 Não há ferramentas do Google Drive disponíveis nesta sessão. O material enviado
-manualmente permitiu analisar o relatório e os certificados sem tornar as pastas
-privadas públicas. Outros empregos, formação acadêmica detalhada e e-mail público
-podem ser complementados quando suas fontes forem fornecidas.
+manualmente permitiu analisar o relatório, certificados e currículos sem tornar
+as pastas privadas públicas. Os detalhes profissionais incorporados seguem as
+fontes e confirmações registradas; a contribuição nos projetos privados permanece
+pendente de análise e confirmação.
 
 ## Verificações
 

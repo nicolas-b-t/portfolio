@@ -5,9 +5,10 @@ Data da revisão: 9 de outubro de 2026. Alvo: nível AA.
 
 ## Escopo e decisões
 
-Conforme escolha do responsável, as alterações foram aplicadas somente em
+Conforme escolha do responsável, as primeiras alterações foram aplicadas em
 `static/pt-BR/` e `static/en/`. Posteriormente, o responsável autorizou remover
-as versões antigas e publicar somente `static/` por GitHub Actions.
+as versões antigas e publicar somente `static/` por GitHub Actions. O escopo
+atual inclui as cinco versões de idioma e suas páginas complementares.
 O site continua sem JavaScript e sem novas dependências de execução.
 
 Também foram escolhidos: cabeçalho no fluxo normal da página, azul preservado
@@ -50,6 +51,25 @@ de projetos ainda sem destino.
 
 As ferramentas de teste usam automação externa ao site. Nenhum script de teste
 ou biblioteca foi incorporado às páginas.
+
+### Currículos e competências
+
+As cinco versões receberam o histórico profissional dos currículos e três
+listas semânticas: 12 competências técnicas, 7 sociais e 6 habilidades práticas
+e operacionais. Cada item tem um rótulo e uma descrição; não há gráficos ou
+notas de domínio. As expressões inglesas dos títulos têm identificação de idioma.
+As fontes e critérios estão em [competencias-e-evidencias.md](competencias-e-evidencias.md).
+
+Nesta atualização, as 16 páginas passaram no Nu HTML Checker local sem erros
+ou avisos, e 413 referências locais foram conferidas. As cinco folhas CSS
+permanecem idênticas; não foram incorporados JavaScript nem documentos privados.
+
+Em Chromium com JavaScript desativado, as cinco páginas principais passaram
+nos testes de foco do link de salto e abertura/fechamento dos cursos por teclado.
+Os 30 cenários de idioma, tema claro/escuro e largura de 240/320/1280 px
+não apresentaram transbordamento horizontal, inclusive com espaçamento de texto
+aumentado. As três listas continuam visíveis no modo de impressão, e as capturas
+da seção em 320 px claro e 1280 px escuro foram inspecionadas.
 
 ## Limitações e próximos passos
 

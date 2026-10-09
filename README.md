@@ -25,6 +25,7 @@ acessibilidade, portabilidade e poucas tecnologias e dependências.
     ├── analise-estatica.md   # Análise inicial e pendências
     ├── acessibilidade.md    # Alterações, verificações e limites
     ├── fontes-do-conteudo.md # Fontes das informações profissionais
+    ├── competencias-e-evidencias.md # Bases das competências explícitas e inferidas
     ├── otimizacao-imagens.json # Dimensões e compressão das fotos
     ├── pendencias.md        # Lembrete sobre acesso aos projetos privados
     ├── historico-de-desenvolvimento.md # Etapas e decisões deste desenvolvimento
@@ -72,7 +73,8 @@ As páginas ficam sob `/portfolio/`, nas pastas de cada idioma.
 
 Leia [AGENTS.md](AGENTS.md) antes de alterar o projeto. Edite o `index.html`
 na pasta de cada idioma em `static/`. A apresentação pessoal está em revisão,
-com experiência de telecomunicações e formação complementar extraídas das fontes enviadas.
+com experiência de suporte de TI, telecomunicações e formação complementar
+extraídas dos currículos e das demais fontes enviadas.
 Preserve a correspondência entre traduções e revise `lang`,
 `hreflang` e os links de troca de idioma.
 
@@ -118,6 +120,11 @@ etapas e decisões do projeto. A [avaliação do desenvolvimento](docs/avaliacao
 registra observações sobre as ações do responsável e recomendações práticas.
 O acesso independente aos repositórios privados está anotado em
 [pendências](docs/pendencias.md) para ser retomado posteriormente.
+
+A seção de competências usa três categorias: técnicas (Hard skills), sociais
+(Soft skills) e habilidades práticas e operacionais. A
+[matriz de evidências](docs/competencias-e-evidencias.md) registra as fontes e
+os limites das inferências; os currículos integrais permanecem fora do projeto.
 
 As [referências W3C](docs/referencias/w3c/README.md) são cópias documentais e
 podem conter scripts originais. Preserve-as intactas e não as incorpore ao site.

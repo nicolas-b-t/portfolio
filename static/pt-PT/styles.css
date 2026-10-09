@@ -275,23 +275,16 @@ p {
   border: var(--line) solid var(--ink);
 }
 
-/* ---------- Tags ---------- */
+/* ---------- Skills ---------- */
 
-.tags {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 0;
-  margin: 0;
+.skill-list {
+  max-width: 68ch;
+  padding-left: 1.25rem;
+  margin: 0 0 1.75rem;
 }
 
-.tags li {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  border: 2px solid var(--ink);
-  padding: 0.25rem 0.6rem;
-  background: var(--panel);
+.skill-list li + li {
+  margin-top: 0.65rem;
 }
 
 /* ---------- Buttons / links ---------- */
@@ -362,10 +355,6 @@ p {
 }
 
 /* ---------- Courses and professional gallery ---------- */
-
-.tags + h3 {
-  margin-top: 1.5rem;
-}
 
 .course-details {
   margin-bottom: 2rem;

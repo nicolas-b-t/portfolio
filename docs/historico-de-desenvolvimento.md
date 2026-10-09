@@ -89,7 +89,7 @@
   - Criamos `rede.html` nos cinco idiomas com acesso pelo rodapé do currículo.
 - Analisamos o relatório profissional e os documentos de formação recebidos.
   - Extraímos do relatório a experiência como auxiliar de instalação de fibra óptica na REALFORT TELECOM.
-  - Registramos o período de 28 de agosto a 28 de setembro de 2026 e a modalidade informada na fonte.
+  - Registramos inicialmente as datas e a modalidade da REALFORT, retirando posteriormente o período por escolha do responsável.
   - Descrevemos práticas de redes, fibra óptica, equipamentos e apoio técnico sem ampliar a autonomia relatada.
   - Mantivemos explícita a supervisão nas atividades de fusão de fibra.
   - Excluímos estimativas pessoais de produtividade e detalhes privados que não eram necessários ao currículo.
@@ -142,3 +142,18 @@
   - Reunimos neste arquivo o histórico hierárquico das decisões e atividades da conversa.
   - Preparamos uma avaliação das ações do responsável com recomendações para sua evolução como desenvolvedor.
   - Reunimos as alterações de conteúdo e documentação para o commit, push e verificação da próxima versão publicada.
+  - Publicamos conteúdo profissional, galeria e registros no commit `c2c39b7` e confirmamos o deploy com 42 arquivos públicos conferidos.
+- Complementamos o portfólio com o histórico de currículos e reorganizamos as competências.
+  - Preservamos dez anexos de currículos com nove conteúdos distintos fora da pasta do projeto.
+  - Extraímos dados profissionais das versões de 2025 e 2026 sem publicar os documentos integrais.
+  - Priorizamos os períodos dos currículos de outubro após confirmar divergências com o responsável.
+  - Adicionamos as experiências de suporte no Instituto Alpha e Help Desk na Lukos Tecnologia.
+  - Confirmamos com o responsável o campus e consultamos o nome Fatec Franco da Rocha – Giuliano Cecchettini na fonte oficial do CPS.
+  - Apresentamos o curso em andamento com início em julho de 2024 e conclusão prevista para julho de 2027 conforme os currículos.
+  - Retiramos o período da REALFORT da apresentação por solicitação do responsável.
+  - Separamos as competências em técnicas, sociais e habilidades práticas e operacionais.
+  - Incluímos competências explícitas e práticas implícitas sustentadas pelas atividades descritas nas fontes.
+  - Registramos a CNH brasileira válida A e B confirmada pelo responsável e a vivência de campo em altura sem atribuir qualificação NR-35.
+  - Mantivemos as cinco versões equivalentes e registramos uma matriz pública das evidências usadas.
+  - Validamos as 16 páginas, 413 referências locais e 30 cenários de apresentação das páginas principais com JavaScript desativado.
+  - Conferimos teclado, espaçamento de texto, visibilidade das competências na impressão e capturas em tela pequena e tema escuro.
