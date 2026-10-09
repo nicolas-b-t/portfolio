@@ -85,6 +85,12 @@ extraídas dos currículos e das demais fontes enviadas.
 Preserve a correspondência entre traduções e revise `lang`,
 `hreflang` e os links de troca de idioma.
 
+O escopo atual da revisão das competências é somente a página principal
+`static/pt-BR/index.html`, conforme decisão de 9 de outubro de 2026.
+A aplicação do COA está autorizada nessa página; as demais páginas e idiomas
+aguardam uma revisão posterior. Durante esta etapa, a sincronização do conteúdo
+entre traduções fica adiada, e os commits devem indicar “pt-BR, página principal”.
+
 O template sul-americano usa espanhol neutro com `es-419`, etiqueta BCP 47 que
 abrange América Latina e Caribe. A variante europeia usa `es-ES` para Espanha.
 Não há detecção automática de idioma ou redirecionamento: a escolha é do visitante.

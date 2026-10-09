@@ -57,6 +57,14 @@ Use o mínimo de tecnologias e dependências necessário para atender ao conteú
 
 ## Idiomas, estrutura e portabilidade
 
+- O escopo atual da revisão das competências é somente a página principal
+  `static/pt-BR/index.html`, conforme decisão do responsável em 9 de outubro de
+  2026. A aplicação do COA está autorizada nessa página; a revisão das demais
+  páginas e idiomas fica para uma decisão posterior. Esta restrição prevalece
+  sobre a orientação geral de sincronizar o conteúdo entre traduções.
+- Os commits dessa revisão devem informar explicitamente o escopo “pt-BR,
+  página principal” no título ou na descrição. Registros de escopo nas instruções
+  da raiz são permitidos; preserve a documentação detalhada somente em `docs/`.
 - Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
   `hreflang` e links de troca de idioma corretos. `es-419` usa redação neutra
   para o público sul-americano; a etiqueta abrange América Latina e Caribe.
