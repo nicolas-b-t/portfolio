@@ -6,6 +6,11 @@
 - `es-419/index.html`: espanhol neutro para o público sul-americano.
 - `es-ES/index.html`: espanhol de Espanha.
 
+Cada pasta também contém `rede.html`, com agradecimentos e recomendações de
+contatos, e `galeria.html`, com fotografias profissionais otimizadas. O rodapé
+do portfólio aponta para essas páginas separadas. As fotografias são compartilhadas
+em `media/realfort/`, com versões WebP e JPEG; não se deve duplicá-las por idioma.
+
 `es-419` é a etiqueta BCP 47 para América Latina e Caribe, uma região maior
 que a América do Sul. Não existe uma etiqueta regional equivalente apenas
 para a América do Sul; o template usa redação neutra, sem escolher um país.

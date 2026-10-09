@@ -361,6 +361,65 @@ p {
   }
 }
 
+/* ---------- Courses and professional gallery ---------- */
+
+.tags + h3 {
+  margin-top: 1.5rem;
+}
+
+.course-details {
+  margin-bottom: 2rem;
+}
+
+.course-details summary {
+  cursor: pointer;
+  min-height: 24px;
+  padding: 0.5rem 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.course-list {
+  padding-left: 1.5rem;
+}
+
+.course-list li {
+  margin: 1.5rem 0;
+}
+
+.course-list h4 {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  gap: var(--gap);
+  align-items: start;
+}
+
+.photo-card {
+  margin: 0;
+  border: var(--line) solid var(--ink);
+  background: var(--panel);
+}
+
+.photo-card picture,
+.photo-card img {
+  display: block;
+  width: 100%;
+}
+
+.photo-card img {
+  height: auto;
+}
+
+.photo-card figcaption {
+  padding: 1rem;
+}
+
 /* ---------- Print (CV) ---------- */
 
 @media print {

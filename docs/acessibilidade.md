@@ -53,6 +53,26 @@ ou biblioteca foi incorporado às páginas.
 
 ## Limitações e próximos passos
 
+### Conteúdo profissional e galeria
+
+O conteúdo pessoal foi complementado com o relatório REALFORT e o ZIP de
+certificados enviados pelo responsável. A seção nativa `details`/`summary`
+permite abrir os 17 cursos e formações por teclado, sem JavaScript; o resultado
+TOEIC é apresentado separadamente. As fontes e limites de interpretação estão
+em [fontes-do-conteudo.md](fontes-do-conteudo.md).
+
+`galeria.html` nos cinco idiomas reúne quatro fotografias com `picture`, WebP,
+fallback JPEG, dimensões explícitas, `srcset`, `sizes`, carregamento lazy,
+legendas e alternativas textuais. O currículo principal não incorpora nem
+requisita fotografias. Imagens otimizadas são compartilhadas pelos idiomas,
+com proporção e pessoas preservadas; os originais estão fora da pasta publicada.
+
+Foram verificados os temas claro/escuro, reflow 240/320/1280 px, abertura dos
+cursos por teclado, foco do link de salto, navegação entre as páginas e idiomas,
+carregamento de fotos e retorno ao currículo. A galeria foi verificada também
+nos limites de seus breakpoints. As 16 páginas HTML passaram no Nu HTML Checker
+local, sem envio dos dados pessoais ao serviço remoto.
+
 ### Ampliação dos templates de idioma
 
 Foram adicionados `pt-PT`, `es-419` e `es-ES`, com conteúdo de exemplo traduzido,
@@ -74,9 +94,12 @@ com leitores de tela e outros navegadores, zoom real de 200%/400%, cores forçad
 e revisão completa do conteúdo e da impressão. Larguras reduzidas são uma
 verificação de reflow, não substituem todos os testes de zoom.
 
-O conteúdo profissional e os contatos ainda são exemplos. Os links de contato
-externos precisam receber destinos reais antes da publicação. Quando houver URLs
-dos projetos, substitua os avisos por links com nomes que identifiquem cada projeto.
+O conteúdo profissional foi complementado com as fontes recebidas, e os links
+de contato e dos projetos já têm destinos reais fornecidos pelo responsável.
+As descrições de Optigrow e SGCS usam somente seu conteúdo público; a análise
+dos repositórios privados e a contribuição individual continuam pendentes.
+As traduções e os dados profissionais ainda precisam da revisão editorial do
+responsável, sem apresentar exemplos antigos como informações confirmadas.
 
 Não houve validação independente completa da folha CSS ou teste de todos os
 critérios WCAG. Os testes registrados correspondem às alterações desta revisão.
