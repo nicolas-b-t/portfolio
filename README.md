@@ -21,7 +21,7 @@ acessibilidade, portabilidade e poucas tecnologias e dependências.
 │   ├── es-ES/               # Espanhol de Espanha
 │   ├── media/realfort/      # Fotos otimizadas compartilhadas
 │   └── README.md            # Organização das versões estáticas
-└── docs/
+└── docs/                    # Somente local, fora do versionamento Git
     ├── analise-estatica.md   # Análise inicial e pendências
     ├── acessibilidade.md    # Alterações, verificações e limites
     ├── fontes-do-conteudo.md # Fontes das informações profissionais
@@ -30,12 +30,19 @@ acessibilidade, portabilidade e poucas tecnologias e dependências.
     ├── pendencias.md        # Lembrete sobre acesso aos projetos privados
     ├── historico-de-desenvolvimento.md # Etapas e decisões deste desenvolvimento
     ├── avaliacao-do-desenvolvimento.md # Avaliação e recomendações ao responsável
-    └── referencias/w3c/     # Documentos oficiais, licença e proveniência
+    └── referencias/
+        ├── w3c/            # Documentos oficiais, licença e proveniência
+        └── asd-ste100/     # Referência de redação técnica e PDF somente local
 ```
 
 A pasta `static/` é a única fonte do site publicado. As versões antigas foram
 removidas. Cada idioma tem seu próprio CSS e favicon; alterações nesses recursos
 precisam ser mantidas consistentes.
+
+A pasta `docs/` permanece neste ambiente, ignorada pelo Git; seu conteúdo não
+acompanha clones, commits ou pushes. Os caminhos de documentação citados abaixo
+referem-se às cópias locais. `AGENTS.md`, `.editorconfig` e este README continuam
+versionados na raiz para orientar quem obtiver o projeto pelo GitHub.
 
 ## Executar para desenvolvimento
 
@@ -106,29 +113,33 @@ dependam de JavaScript. Use HTML semântico, CSS amplamente suportado, fontes
 do sistema, recursos locais e caminhos relativos.
 
 WCAG 2.2 nível AA é o alvo de acessibilidade, não uma certificação já obtida.
-Veja a [análise inicial](docs/analise-estatica.md) para os problemas registrados.
+A análise inicial local está em `docs/analise-estatica.md`.
 O conteúdo profissional está sendo preenchido a partir de fontes verificáveis.
-Veja [fontes e pendências](docs/fontes-do-conteudo.md). A área de agradecimentos
+As fontes e pendências estão em `docs/fontes-do-conteudo.md`. A área de agradecimentos
 e recomendações está em `rede.html` em cada idioma, separada da página principal
 e acessível pelo rodapé. A galeria de trabalho está em `galeria.html` em cada
 idioma, com fotos WebP/JPEG responsivas compartilhadas em `static/media/realfort/`.
 As fotos não são incorporadas ao currículo principal. Não publique documentos
 privados junto com o site.
 
-O [histórico do desenvolvimento](docs/historico-de-desenvolvimento.md) reúne as
-etapas e decisões do projeto. A [avaliação do desenvolvimento](docs/avaliacao-do-desenvolvimento.md)
+O arquivo local `docs/historico-de-desenvolvimento.md` reúne as
+etapas e decisões do projeto. `docs/avaliacao-do-desenvolvimento.md`
 registra observações sobre as ações do responsável e recomendações práticas.
 O acesso independente aos repositórios privados está anotado em
-[pendências](docs/pendencias.md) para ser retomado posteriormente.
+`docs/pendencias.md` para ser retomado posteriormente.
 
 A seção de competências usa três categorias: técnicas (Hard skills), sociais
 (Soft skills) e habilidades práticas e operacionais. A
-[matriz de evidências](docs/competencias-e-evidencias.md) registra as fontes e
+matriz local `docs/competencias-e-evidencias.md` registra as fontes e
 os limites das inferências; os currículos integrais permanecem fora do projeto.
 
-As [referências W3C](docs/referencias/w3c/README.md) são cópias documentais e
+As referências locais descritas em `docs/referencias/w3c/README.md` são cópias documentais e
 podem conter scripts originais. Preserve-as intactas e não as incorpore ao site.
 Na hospedagem, publique apenas os arquivos necessários ao portfólio.
+
+A referência local `docs/referencias/asd-ste100/README.md` identifica a
+edição 9 de Simplified Technical English. Seu PDF oficial fica somente na
+cópia local do projeto, assim como os demais arquivos de `docs/`.
 
 O `.editorconfig` define UTF-8, indentação de dois espaços e finais de linha
 LF, com exceções para Markdown, scripts Windows e referências oficiais.

@@ -24,6 +24,9 @@ Use o mínimo de tecnologias e dependências necessário para atender ao conteú
 - Documentos oficiais de terceiros em `docs/referencias/` são referências,
   não páginas do portfólio. Preserve suas cópias e avisos de licença intactos,
   inclusive scripts presentes nos documentos originais. Não os incorpore ao site.
+- A pasta `docs/` contém documentação e referências somente locais, ignoradas
+  pelo Git. Preserve os arquivos no ambiente, sem incluí-los em commits ou pushes
+  nem usar `git add --force` para contornar essa decisão do responsável.
 
 ## HTML, CSS e compatibilidade
 

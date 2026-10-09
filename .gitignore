@@ -10,3 +10,6 @@ desktop.ini
 
 # Logs
 *.log
+
+# Documentação e referências mantidas somente no ambiente local
+/docs/

@@ -21,7 +21,8 @@ apontam para a pasta irmã. Esta pasta é a única fonte do site publicado.
 Ao alterar o estilo compartilhado, atualize as cinco cópias de `styles.css`.
 
 As correções de acessibilidade foram aplicadas somente às versões desta pasta.
-Consulte o [registro de alterações e verificações](../docs/acessibilidade.md).
+O registro local de alterações e verificações está em `../docs/acessibilidade.md`;
+a pasta `docs/` é ignorada pelo Git e não acompanha clones do repositório.
 
 Para servir somente estas versões, na raiz do repositório execute:
 
