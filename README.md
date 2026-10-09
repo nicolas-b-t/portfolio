@@ -1,6 +1,7 @@
 # Portfólio
 
-Currículo e portfólio estático em português brasileiro e inglês, feito com
+Currículo e portfólio estático em português (Brasil e Portugal), inglês e
+espanhol (template sul-americano e variante de Espanha), feito com
 HTML e CSS, sem JavaScript. O projeto prioriza robustez, compatibilidade,
 acessibilidade, portabilidade e poucas tecnologias e dependências.
 
@@ -14,7 +15,10 @@ acessibilidade, portabilidade e poucas tecnologias e dependências.
 ├── static/
 │   ├── index.html           # Escolha de idioma
 │   ├── pt-BR/               # HTML, CSS e recursos em português
+│   ├── pt-PT/               # Português de Portugal
 │   ├── en/                  # HTML, CSS e recursos em inglês
+│   ├── es-419/              # Espanhol neutro para a América do Sul
+│   ├── es-ES/               # Espanhol de Espanha
 │   └── README.md            # Organização das versões estáticas
 └── docs/
     ├── analise-estatica.md   # Análise inicial e pendências
@@ -34,8 +38,9 @@ Com Python 3 disponível, execute na raiz do repositório:
 python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 ```
 
-A página inicial oferece a escolha de idioma; as versões ficam em `/pt-BR/`
-e `/en/`. Se a porta estiver ocupada, escolha outra. Use `Ctrl+C` para encerrar.
+A página inicial oferece a escolha de idioma; as versões ficam em `/pt-BR/`,
+`/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`. Se a porta estiver ocupada, escolha
+outra. Use `Ctrl+C` para encerrar.
 O servidor Python é somente uma ferramenta de desenvolvimento; o site
 publicado não depende de Python ou de um backend.
 
@@ -54,14 +59,18 @@ Não requer secrets personalizados. O artefato exclui `static/README.md` e não
 inclui documentos, referências W3C ou instruções da raiz do repositório.
 
 Endereço do site: https://nicolas-b-t.github.io/portfolio/
-As páginas de idioma ficam em `/portfolio/pt-BR/` e `/portfolio/en/`.
+As páginas ficam sob `/portfolio/`, nas pastas de cada idioma.
 
 ## Editar e verificar
 
-Leia [AGENTS.md](AGENTS.md) antes de alterar o projeto. Edite as páginas em
-`static/pt-BR/index.html` e `static/en/index.html` para trabalhar nas páginas
-por idioma. Preserve a correspondência entre traduções e revise `lang`,
+Leia [AGENTS.md](AGENTS.md) antes de alterar o projeto. Edite o `index.html`
+na pasta de cada idioma em `static/`. Os textos ainda são templates de exemplo.
+Preserve a correspondência entre traduções e revise `lang`,
 `hreflang` e os links de troca de idioma.
+
+O template sul-americano usa espanhol neutro com `es-419`, etiqueta BCP 47 que
+abrange América Latina e Caribe. A variante europeia usa `es-ES` para Espanha.
+Não há detecção automática de idioma ou redirecionamento: a escolha é do visitante.
 
 Após alterações, confira:
 
@@ -98,3 +107,7 @@ Na hospedagem, publique apenas os arquivos necessários ao portfólio.
 O `.editorconfig` define UTF-8, indentação de dois espaços e finais de linha
 LF, com exceções para Markdown, scripts Windows e referências oficiais.
 Ele não reformata arquivos automaticamente nem acrescenta dependências ao site.
+
+A identificação visível `ES-SAM` distingue o espanhol sul-americano nos seletores.
+É uma abreviação do projeto; `es-419` permanece como etiqueta padrão em
+`lang`, `hreflang` e no caminho da página.

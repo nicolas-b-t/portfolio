@@ -53,6 +53,22 @@ ou biblioteca foi incorporado às páginas.
 
 ## Limitações e próximos passos
 
+### Ampliação dos templates de idioma
+
+Foram adicionados `pt-PT`, `es-419` e `es-ES`, com conteúdo de exemplo traduzido,
+seletores com nomes de idioma e região e alternativas `hreflang` recíprocas.
+O seletor permite quebra de linha para acomodar os cinco idiomas em telas estreitas.
+`x-default` agora aponta para a página de escolha de idioma.
+
+Na ampliação, as seis páginas HTML passaram no validador Nu da W3C sem mensagens.
+Foram verificadas 123 referências locais e os recursos servidos por HTTP.
+As cinco versões passaram nos testes de Chromium com JavaScript desativado,
+nos temas claro/escuro: larguras de 240/320/1280 px, link de salto, alvos do seletor
+de idioma e espaçamento de texto aumentado. Foi inspecionada também uma imagem
+do topo da versão espanhola de Espanha em 320 px. CSS e favicon são idênticos
+entre as cinco versões. As traduções são templates e ainda precisam de revisão
+editorial com o conteúdo profissional definitivo.
+
 Esta revisão não certifica conformidade WCAG AA. Ainda são necessários testes
 com leitores de tela e outros navegadores, zoom real de 200%/400%, cores forçadas
 e revisão completa do conteúdo e da impressão. Larguras reduzidas são uma

@@ -54,11 +54,12 @@ Use o mínimo de tecnologias e dependências necessário para atender ao conteú
 
 ## Idiomas, estrutura e portabilidade
 
-- Mantenha as versões em português brasileiro (`pt-BR`) e inglês (`en`), com
-  `lang`, `hreflang` e links de troca de idioma corretos.
+- Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
+  `hreflang` e links de troca de idioma corretos. `es-419` usa redação neutra
+  para o público sul-americano; a etiqueta abrange América Latina e Caribe.
 - A pasta `static/` é a única fonte do site publicado. `static/index.html`
-  permite escolher o idioma; `static/pt-BR/` e `static/en/` contêm as páginas.
-- Revise o impacto de alterações nas duas traduções. Enquanto houver CSS e
+  permite escolher o idioma; cada etiqueta tem sua própria pasta de páginas.
+- Revise o impacto de alterações nas cinco versões. Enquanto houver CSS e
   recursos duplicados por idioma, mantenha-os consistentes. Prefira recursos
   compartilhados quando uma reorganização da estrutura estiver no escopo.
 - Use caminhos relativos para recursos e páginas internas, de modo que o site
@@ -75,7 +76,8 @@ Use o mínimo de tecnologias e dependências necessário para atender ao conteú
   sem pedido explícito do usuário.
 - Para verificar `static/`, execute na raiz:
   `python3 -m http.server 8001 --bind 127.0.0.1 --directory static`.
-  A escolha de idioma está em `/`, e as páginas em `/pt-BR/` e `/en/`;
+  A escolha de idioma está em `/`, e as páginas em `/pt-BR/`, `/pt-PT/`,
+  `/en/`, `/es-419/` e `/es-ES/`;
   use outra porta se estiver ocupada.
   O servidor Python é uma ferramenta de desenvolvimento, não uma dependência
   do site publicado.
