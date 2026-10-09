@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Preserva quebras de linha explícitas em Markdown.
+[*.md]
+trim_trailing_whitespace = false
+
+# Alinha com as exceções existentes em .gitattributes.
+[*.{bat,cmd,ps1}]
+end_of_line = crlf
+
+# Cópias oficiais devem permanecer intactas, incluindo seus hashes.
+[docs/referencias/**]
+charset = unset
+end_of_line = unset
+indent_style = unset
+indent_size = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset

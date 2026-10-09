@@ -24,3 +24,8 @@
 *.woff binary
 *.woff2 binary
 *.pdf  binary
+
+# Preserva bytes e formatação das cópias oficiais da W3C.
+docs/referencias/w3c/*.html -text -whitespace
+docs/referencias/w3c/LICENSE-W3C.md -text -whitespace
+*.tar.gz binary

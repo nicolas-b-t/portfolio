@@ -1,0 +1,415 @@
+/* =========================================================
+   Portfolio / CV - neo-brutalist minimal
+   Zero JS. System fonts. Shared by PT and EN pages.
+   ========================================================= */
+
+:root {
+  --bg: #fffdf5;
+  --ink: #0a0a0a;
+  --muted: #4a4a4a;
+  --accent: #2f4bff;
+  --button-text: #ffffff;
+  --panel: #ffffff;
+  --line: 3px;
+  --shadow: 6px 6px 0 var(--ink);
+  --shadow-sm: 4px 4px 0 var(--ink);
+  --gap: 1.5rem;
+  --radius: 0;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101014;
+    --ink: #f4f4ef;
+    --muted: #b6b6b0;
+    --accent: #8ea2ff;
+    --button-text: #101014;
+    --panel: #18181f;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  -webkit-text-size-adjust: 100%;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--ink);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+:focus {
+  outline: var(--line) solid var(--accent);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--bg);
+  color: var(--ink);
+  max-width: 100%;
+  padding: 0.75rem 1rem;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* ---------- Layout ---------- */
+
+.wrap {
+  width: 100%;
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+section.wrap {
+  padding: 3rem 1.25rem;
+  border-top: var(--line) solid var(--ink);
+}
+
+section:first-of-type {
+  border-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-mono);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.35rem, 3.5vw, 2rem);
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  max-width: 60ch;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  border-bottom: var(--line) solid var(--ink);
+  padding: 1rem 0;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: inline-block;
+  min-height: 24px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.lang-switch a,
+.lang-switch span {
+  display: inline-flex;
+  align-items: center;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0.15rem 0.5rem;
+  border: 2px solid var(--ink);
+  text-decoration: none;
+}
+
+.lang-switch .is-current {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  padding: 3.5rem 1.25rem;
+}
+
+.hero .kicker {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.hero .lead {
+  font-size: 1.15rem;
+}
+
+/* ---------- Grid / cards ---------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+  gap: var(--gap);
+}
+
+.card {
+  border: var(--line) solid var(--ink);
+  background: var(--panel);
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.5rem;
+}
+
+/* ---------- Timeline ---------- */
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline li {
+  border-left: var(--line) solid var(--ink);
+  padding: 0 0 1.5rem 1.25rem;
+  position: relative;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -0.6rem;
+  top: 0.4rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: var(--accent);
+  border: var(--line) solid var(--ink);
+}
+
+/* ---------- Tags ---------- */
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.tags li {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  border: 2px solid var(--ink);
+  padding: 0.25rem 0.6rem;
+  background: var(--panel);
+}
+
+/* ---------- Buttons / links ---------- */
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  border: var(--line) solid var(--ink);
+  background: var(--accent);
+  color: var(--button-text);
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn:hover {
+  color: var(--button-text);
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn.ghost:hover {
+  color: var(--accent);
+}
+
+/* ---------- Contact ---------- */
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.contact-list li {
+  font-family: var(--font-mono);
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: var(--line) solid var(--ink);
+  padding: 1.5rem 0;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* ---------- Reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .btn:hover {
+    transform: none;
+  }
+}
+
+/* ---------- Print (CV) ---------- */
+
+@media print {
+  :root {
+    --bg: #fff;
+    --ink: #000;
+    --muted: #333;
+    --panel: #fff;
+    --accent: #000;
+  }
+
+  .site-header,
+  .lang-switch,
+  .skip-link,
+  .btn,
+  .site-footer .noprint {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.4;
+    background: #fff;
+    color: #000;
+  }
+
+  .wrap {
+    max-width: none;
+    padding: 0;
+  }
+
+  section.wrap {
+    padding: 0.75rem 0;
+    break-inside: avoid;
+  }
+
+  .card,
+  .btn {
+    box-shadow: none;
+  }
+
+  .card {
+    border-width: 1px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+  }
+
+  .timeline li {
+    padding-bottom: 0.75rem;
+  }
+}
