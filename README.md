@@ -128,8 +128,10 @@ registra observações sobre as ações do responsável e recomendações práti
 O acesso independente aos repositórios privados está anotado em
 `docs/pendencias.md` para ser retomado posteriormente.
 
-A seção de competências usa três categorias: técnicas (Hard skills), sociais
-(Soft skills) e habilidades práticas e operacionais. A
+A seção de competências apresenta itens curtos em formato de tags, distribuídos
+em três categorias: técnicas (Hard skills), sociais (Soft skills) e habilidades
+práticas e operacionais. Os itens usam listas HTML e preservam indicações de
+formação, apoio e supervisão. A
 matriz local `docs/competencias-e-evidencias.md` registra as fontes e
 os limites das inferências; os currículos integrais permanecem fora do projeto.
 
