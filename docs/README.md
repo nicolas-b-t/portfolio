@@ -1,3 +1,6 @@
+> **Branch rodrigo:** a adaptação atual está em [docs/rodrigo/README.md](rodrigo/README.md). A página em pt-BR apresenta Rodrigo.
+> O conteúdo abaixo registra o projeto original de Nicolas.
+
 # Documentação do portfólio
 
 O projeto permanece pessoal e pertence a Nicolas Beraldes Tarifa.

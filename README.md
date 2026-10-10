@@ -1,3 +1,6 @@
+> **Branch rodrigo:** a adaptação atual está em [docs/rodrigo/README.md](docs/rodrigo/README.md). A página em pt-BR apresenta Rodrigo.
+> O conteúdo abaixo registra o projeto original de Nicolas.
+
 # Portfólio
 
 Este projeto apresenta o currículo e os projetos de Nicolas Beraldes Tarifa.
