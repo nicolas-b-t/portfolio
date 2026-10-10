@@ -20,7 +20,7 @@ por vez. Esta adaptação não declara conformidade formal com STE.
 
 A referência oficial está em
 `docs/referencias/asd-ste100/ASD-STE100-issue-9-2025-01-15.pdf`.
-O guia local está em `docs/guia-de-redacao.md`.
+O guia de redação está em `docs/guia-de-redacao.md`.
 Preservamos os documentos oficiais, as licenças e as fontes recebidas sem edição.
 
 ## Estrutura
@@ -39,7 +39,7 @@ Preservamos os documentos oficiais, as licenças e as fontes recebidas sem ediç
 │   ├── es-ES/                   # Espanhol de Espanha
 │   ├── media/realfort/           # Fotografias compartilhadas
 │   └── README.md                # Organização das páginas
-└── docs/                        # Documentação somente local
+└── docs/                        # Documentação e referências
     ├── guia-de-redacao.md        # Adaptação dos princípios da ASD-STE100
     ├── analise-estatica.md       # Análise inicial
     ├── acessibilidade.md        # Alterações e verificações
@@ -50,7 +50,7 @@ Preservamos os documentos oficiais, as licenças e as fontes recebidas sem ediç
     ├── pendencias.md            # Tarefas futuras
     ├── historico-de-desenvolvimento.md # Etapas e decisões
     ├── avaliacao-do-desenvolvimento.md # Avaliação e recomendações
-    ├── fontes/academico/        # PDFs do SGCS e do curso de GTI
+    ├── fontes/academico/        # Fontes acadêmicas e índices
     └── referencias/
         ├── w3c/                # Acessibilidade
         ├── asd-ste100/          # Redação técnica
@@ -61,10 +61,15 @@ A pasta `static/` contém o site publicado. Removemos as páginas antigas.
 Cada idioma mantém seu CSS e favicon. As cinco cópias desses recursos devem
 permanecer consistentes.
 
-A pasta `docs/` fica somente neste ambiente e é ignorada pelo Git.
-Seus arquivos não acompanham clones, commits ou pushes.
-Os caminhos de `docs/` citados neste README identificam arquivos locais.
-As instruções da raiz permanecem versionadas no GitHub.
+A documentação de `docs/` voltou a ser versionada em 10 de outubro de 2026.
+Consulte o [índice de documentos](docs/README.md) para os registros e guias.
+Seis PDFs permanecem locais por restrição de reprodução ou identificadores de terceiros.
+O [guia de recuperação](docs/recuperar-referencias.md) explica como completar as referências.
+Os originais excluídos permanecem intactos neste ambiente.
+
+O projeto permanece pessoal.
+A adaptação como modelo para colegas e amigos será uma etapa futura.
+Essa intenção não autoriza reutilizar identidade, contatos ou fotografias pessoais.
 
 ## Executar para desenvolvimento
 
@@ -97,7 +102,7 @@ Permita que o ambiente `github-pages` publique a branch `main`.
 
 O workflow usa as permissões `contents: read`, `pages: write` e `id-token: write`.
 Ele não exige segredos personalizados.
-O artefato exclui `static/README.md`, documentos locais e instruções da raiz.
+O artefato exclui `static/README.md`, a pasta `docs/` e as instruções da raiz.
 
 Site: https://nicolas-b-t.github.io/portfolio/
 As páginas usam o caminho `/portfolio/`, seguido da pasta de cada idioma.
@@ -142,7 +147,7 @@ exijam JavaScript.
 
 WCAG 2.2 nível AA é o alvo de acessibilidade.
 Os testes realizados não certificam conformidade com todos os critérios.
-O registro local está em `docs/acessibilidade.md`.
+O registro está em `docs/acessibilidade.md`.
 
 Cada idioma contém `rede.html`, com agradecimentos e convites para conhecer
 perfis, e `galeria.html`, com fotografias profissionais.
@@ -159,11 +164,15 @@ O curso de GTI permanece em andamento.
 As fontes estão em `docs/fontes-do-conteudo.md`.
 A matriz `docs/competencias-e-evidencias.md` registra evidências e limites das
 inferências. Os currículos e certificados integrais permanecem fora do projeto.
-Os PDFs acadêmicos ficam somente em `docs/fontes/academico/`.
-Não publique documentos privados junto com o site.
+As fontes acadêmicas ficam em `docs/fontes/academico/`.
+O PPC recebido permanece local porque contém identificadores pessoais de terceiros.
+O site publicado recebe somente `static/`.
 
-O histórico está em `docs/historico-de-desenvolvimento.md`.
-A avaliação está em `docs/avaliacao-do-desenvolvimento.md`.
+O [histórico consolidado](docs/historico-consolidado-2026-10-10.md) reúne as etapas atuais.
+A [nova avaliação](docs/avaliacao-do-desenvolvimento-2026-10-10.md) analisa ações e escolhas do responsável.
+Os registros anteriores permanecem disponíveis.
+O [autoteste de inglês](docs/autoavaliacao-ingles.md) está pausado para retomada posterior.
+O [guia do autoteste](docs/guia-autoteste-ingles.md) explica como usar as referências.
 O acesso independente aos repositórios privados permanece pendente em
 `docs/pendencias.md`.
 

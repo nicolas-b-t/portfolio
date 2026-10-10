@@ -1,0 +1,24 @@
+{
+  "documento": "ASD-STE100 Simplified Technical English — Standard for technical documentation",
+  "edicao": 9,
+  "data_edicao": "2025-01-15",
+  "consultado_em_utc": "2026-10-09T17:10:12+00:00",
+  "fonte_pdf": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf",
+  "url_final_download": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf",
+  "status_http_download": 200,
+  "tipo_download": "application/pdf",
+  "fontes_confirmacao": [
+    "https://www.asd-ste100.org/",
+    "https://www.asd-ste100.org/about_STE.html",
+    "https://www.asd-ste100.org/STE_faq.html"
+  ],
+  "arquivo_local": "ASD-STE100-issue-9-2025-01-15.pdf",
+  "paginas": 434,
+  "bytes": 3316157,
+  "sha256": "d1f4ea9e7cd6e46b47aa9057209f99e78c0e9cfc4e27a5b07895b05c1a166431",
+  "hash_publicado_pelo_autor": false,
+  "metadados_pdf_modificado_em_utc": "2026-03-02T15:09:15+00:00",
+  "preservado_sem_alteracoes": true,
+  "versionado_no_git": false,
+  "motivo_exclusao_git": "Aviso de direitos autorais condiciona reprodução/publicação à autorização escrita da ASD, com exceções específicas; nenhuma autorização de redistribuição pública foi presumida."
+}

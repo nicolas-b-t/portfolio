@@ -45,7 +45,7 @@ Para textos em português, aplique estas regras do projeto:
 Esta é uma política de redação baseada na norma inglesa, não uma tradução
 oficial nem uma certificação STE. Nos demais idiomas, preserve a gramática
 local e aplique os mesmos princípios de clareza e precisão.
-O guia detalhado está em `docs/guia-de-redacao.md`, somente local.
+O guia detalhado está em `docs/guia-de-redacao.md`, versionado no repositório.
 
 ## Objetivos
 
@@ -68,9 +68,13 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   publicado. Não acrescente dependências sem necessidade demonstrada.
 - Preserve as cópias oficiais e seus avisos de licença em `docs/referencias/`,
   inclusive scripts dos documentos originais. Não os incorpore ao site.
-- A pasta `docs/` contém documentação e referências somente locais, ignoradas
-  pelo Git. Preserve os arquivos no ambiente. Não os inclua em commits ou pushes.
-  Não use `git add --force` para contornar essa decisão do responsável.
+- A documentação de `docs/` é versionada desde 10 de outubro de 2026.
+  Essa decisão substitui a exclusão anterior da pasta inteira.
+  Preserve as exceções específicas do `.gitignore` para PDFs restritos e dados privados.
+  Não use `git add --force` para incluir essas exceções.
+  Mantenha os originais excluídos no ambiente e documente sua recuperação.
+- O projeto permanece pessoal. A adaptação como modelo para colegas e amigos
+  está planejada para uma etapa futura, sem autorização para reutilizar dados pessoais.
 
 ## HTML, CSS e compatibilidade
 
@@ -109,7 +113,7 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   Esta restrição prevalece sobre a orientação geral de sincronizar traduções.
 - Os commits dessa revisão devem informar explicitamente o escopo “pt-BR,
   página principal” no título ou na descrição. Registros de escopo nas instruções
-  da raiz são permitidos. Preserve a documentação detalhada somente em `docs/`.
+  da raiz são permitidos. Mantenha a documentação detalhada em `docs/`, agora versionada.
 - Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
   `hreflang` e links de troca de idioma corretos. `es-419` usa redação neutra
   para o público sul-americano. A etiqueta abrange América Latina e Caribe.

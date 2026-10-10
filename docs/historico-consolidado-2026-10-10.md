@@ -1,0 +1,74 @@
+# Histórico consolidado do desenvolvimento
+
+- Este registro reúne as ações desta conversa até 10 de outubro de 2026.
+  - O histórico anterior permanece disponível para consulta detalhada.
+- Preparamos o ambiente na nuvem para trabalhar no repositório do portfólio.
+  - Explicamos diretórios, processos, inicialização, autenticação e limites do ambiente remoto.
+  - Usamos Python para conferir o site por HTTP durante o desenvolvimento.
+- Analisamos o site original antes de alterar sua estrutura.
+  - Identificamos conteúdo de exemplo, links sem destino e problemas de apresentação.
+  - Criamos `static/` e ajustamos os caminhos relativos.
+- Definimos os princípios de desenvolvimento do projeto.
+  - Priorizamos robustez, compatibilidade, acessibilidade, portabilidade e minimalismo.
+  - Estabelecemos HTML e CSS sem JavaScript, frameworks ou dependências desnecessárias.
+  - Criamos instruções na raiz, README e EditorConfig.
+- Reunimos referências de acessibilidade e redação técnica.
+  - Preservamos documentos da W3C com versões, fontes, licenças e hashes.
+  - Distinguimos a recomendação WCAG 2.2 do rascunho consultado.
+  - Obtivemos a ASD-STE100, edição 9, para consulta local.
+- Aplicamos correções de acessibilidade nas versões estáticas.
+  - Ajustamos cabeçalho, contraste, foco, navegação e comportamento em telas estreitas.
+  - Substituímos links indisponíveis por texto explicativo.
+  - Conferimos teclado, temas, zoom e HTML sem declarar certificação WCAG.
+- Consolidamos a publicação do site.
+  - Removemos as páginas antigas após autorização do responsável.
+  - Configuramos GitHub Actions para publicar somente `static/` no GitHub Pages.
+  - Orientamos a configuração do Pages e verificamos publicações concluídas.
+- Criamos cinco versões de idioma.
+  - Mantivemos pt-BR, pt-PT, inglês, es-419 e es-ES com navegação entre versões.
+  - Acrescentamos ES-SAM como identificação visível do espanhol sul-americano.
+- Substituímos os exemplos por informações profissionais sustentadas por fontes.
+  - Analisamos relatório da REALFORT, currículos e certificados recebidos manualmente.
+  - Confirmamos períodos divergentes, habilitação e identificação da Fatec.
+  - Apresentamos experiência, formação e TOEIC sem ampliar qualificações comprovadas.
+  - Preservamos currículos e certificados integrais fora do projeto.
+- Criamos páginas complementares ao currículo.
+  - Reunimos agradecimentos e links de quatro contatos em uma página separada.
+  - Otimizamos quatro fotografias sem alterar pessoas ou enquadramento.
+  - Criamos uma galeria responsiva separada da página principal.
+- Incorporamos os projetos Portfólio, Optigrow e SGCS.
+  - Inspecionamos os sites publicados e registramos limites do acesso ao código privado.
+  - Descrevemos o Optigrow como parceria com Rodrigo para estudar o mercado digital em Portugal.
+  - Identificamos pesquisa, documentação e infraestrutura como contribuições de Nicolas no Optigrow.
+  - Ligamos o projeto ao contato de Rodrigo e o identificamos como principal desenvolvedor.
+  - Apresentamos SGCS como pesquisa acadêmica e aplicação desenvolvidas em equipe.
+  - Registramos gestão de equipe, Trello e entregáveis como responsabilidades declaradas de Nicolas.
+- Reorganizamos as competências para reduzir texto e redundância.
+  - Separamos competências técnicas, sociais e habilidades práticas e operacionais.
+  - Adotamos tags com subcategorias e observações somente quando necessárias.
+  - Aplicamos o COA para reunir manutenção em suporte e atividades de fibra em redes.
+  - Limitamos as revisões seguintes à página principal pt-BR por decisão do responsável.
+  - Acrescentamos desenvolvimento com agentes de IA e documentação técnica às competências.
+  - Apresentamos competências contextualizadas nos projetos e na formação em andamento.
+- Aplicamos princípios da ASD-STE100 à redação autoral.
+  - Adaptamos clareza, termos consistentes, voz ativa e frases curtas ao português.
+  - Preservamos documentos oficiais, fatos profissionais e citações literais.
+  - Mantivemos as demais páginas e idiomas para revisão posterior.
+- Refinamos a página principal pt-BR.
+  - Trocamos o detalhe de duas emendas pela descrição de atividade como aprendiz.
+  - Retiramos o desenvolvimento do portfólio da seção Experiência.
+  - Posicionamos Formação antes de Projetos e Contato no início do menu.
+  - Incluímos o e-mail profissional e português brasileiro nativo.
+- Iniciamos uma autoavaliação de inglês com duas referências independentes.
+  - Reunimos documentos do QECR e do STANAG 6001 para consulta por habilidade.
+  - Registramos hábitos de consumo, facilidade de leitura e limitações de fala declarados pelo responsável.
+  - Analisamos uma atividade de leitura com quatro respostas corretas e uma parcial.
+  - Analisamos um e-mail argumentativo de 155 palavras escrito em cerca de dez minutos no celular.
+  - Identificamos argumentação compreensível e erros recorrentes de gramática na escrita.
+  - Mantivemos níveis finais pendentes e não publicamos uma classificação de inglês no currículo.
+- Preparamos a continuidade e a reprodução do trabalho.
+  - Registramos a autenticação independente dos projetos privados como tarefa futura sem iniciar login.
+  - Preservamos os registros anteriores e criamos este histórico e uma nova avaliação do desenvolvimento.
+  - Pausamos o autoteste completo e documentamos seu plano e suas instruções de retomada.
+  - Restabelecemos o versionamento de documentos com exceções para reprodução restrita e identificadores de terceiros.
+  - Mantivemos o projeto pessoal e registramos a intenção futura de adaptá-lo como modelo.

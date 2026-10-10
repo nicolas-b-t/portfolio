@@ -1,0 +1,60 @@
+{
+  "origem": "BILC / OTAN",
+  "arquivos": [
+    {
+      "arquivo": "STANAG-6001-edicao-5.pdf",
+      "url": "https://nato-bilc.org/wp-content/uploads/2024/11/6001EFed05.pdf",
+      "url_final": "https://nato-bilc.org/wp-content/uploads/2024/11/6001EFed05.pdf",
+      "pagina_fonte": "https://nato-bilc.org/stanag-6001/",
+      "obtido_em_utc": "2026-10-09T19:15:14.311082+00:00",
+      "bytes": 68896,
+      "paginas": 6,
+      "mime": "application/pdf",
+      "sha256": "4d6cd9de0cefc6b7ae9817e381c3bbbf08c7a04556b4f64970e06f1c0ac32f28"
+    },
+    {
+      "arquivo": "ATrainP-5-edicao-A-versao-2-en.pdf",
+      "url": "https://nato-bilc.org/wp-content/uploads/2024/11/ATrainP-5-EDA-V2-E.pdf",
+      "url_final": "https://nato-bilc.org/wp-content/uploads/2024/11/ATrainP-5-EDA-V2-E.pdf",
+      "pagina_fonte": "https://nato-bilc.org/stanag-6001/",
+      "obtido_em_utc": "2026-10-09T19:15:14.142524+00:00",
+      "bytes": 448092,
+      "paginas": 32,
+      "mime": "application/pdf",
+      "sha256": "00499022f3fba7fd03fce5ece4de3c5b08c37e2055e68159a1dccbc923e7d420"
+    },
+    {
+      "arquivo": "ATrainP-5-edicao-A-versao-2-fr.pdf",
+      "url": "https://nato-bilc.org/wp-content/uploads/2024/11/ATrainP-5-EDA-V2-F.pdf",
+      "url_final": "https://nato-bilc.org/wp-content/uploads/2024/11/ATrainP-5-EDA-V2-F.pdf",
+      "pagina_fonte": "https://nato-bilc.org/stanag-6001/",
+      "obtido_em_utc": "2026-10-09T19:15:14.414113+00:00",
+      "bytes": 426560,
+      "paginas": 34,
+      "mime": "application/pdf",
+      "sha256": "68559305b5fe1e8d9700dc1789d93d0d089b647d19eefe629587cf01a1d2c4c5"
+    },
+    {
+      "arquivo": "STANAG-6001-visao-geral-2019.pdf",
+      "url": "https://nato-bilc.org/wp-content/uploads/2024/11/STANAG-6001-Overview-Feb-2019.pdf",
+      "url_final": "https://nato-bilc.org/wp-content/uploads/2024/11/STANAG-6001-Overview-Feb-2019.pdf",
+      "pagina_fonte": "https://nato-bilc.org/stanag-6001/",
+      "obtido_em_utc": "2026-10-09T19:15:13.681744+00:00",
+      "bytes": 82200,
+      "paginas": 1,
+      "mime": "application/pdf",
+      "sha256": "c82c82d30151d8d67f2842565ea5206a5d87c8094d7673ccf10b28eff4e4d42b"
+    },
+    {
+      "arquivo": "STANAG-6001-para-nao-especialistas-2013.pdf",
+      "url": "https://nato-bilc.org/wp-content/uploads/2024/11/STANAG-for-Non-Specialists_Modified_June2013-doc-3.pdf",
+      "url_final": "https://nato-bilc.org/wp-content/uploads/2024/11/STANAG-for-Non-Specialists_Modified_June2013-doc-3.pdf",
+      "pagina_fonte": "https://nato-bilc.org/stanag-6001/",
+      "obtido_em_utc": "2026-10-09T19:15:14.514521+00:00",
+      "bytes": 451671,
+      "paginas": 1,
+      "mime": "application/pdf",
+      "sha256": "139debf908d61c5428c1cb12133839d083a60f472a2aac3541253fbf3b656803"
+    }
+  ]
+}

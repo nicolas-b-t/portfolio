@@ -1,0 +1,71 @@
+{
+  "origem": "Conselho da Europa / Europass",
+  "arquivos": [
+    {
+      "arquivo": "CEFR-texto-integral-2001-en.pdf",
+      "url": "https://rm.coe.int/1680459f97",
+      "url_final": "https://rm.coe.int/1680459f97",
+      "pagina_fonte": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+      "obtido_em_utc": "2026-10-09T19:15:44.383616+00:00",
+      "bytes": 1226464,
+      "paginas": 273,
+      "mime": "application/pdf",
+      "sha256": "7de77b26baf5e1eddd02b50ea0dcc114de4b0a50bc5a5851a5dab241e4f04172"
+    },
+    {
+      "arquivo": "CEFR-volume-complementar-2020-en.pdf",
+      "url": "https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4",
+      "url_final": "https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4",
+      "pagina_fonte": "https://www.coe.int/en/web/common-european-framework-reference-languages/the-cefr-descriptors",
+      "obtido_em_utc": "2026-10-09T19:15:44.396112+00:00",
+      "bytes": 1784779,
+      "paginas": 278,
+      "mime": "application/pdf",
+      "sha256": "bfbd8c74090419ac4b9b352d6ba26e180713b31f45265d7d775b7c36dd7ad1b1"
+    },
+    {
+      "arquivo": "CEFR-grade-autoavaliacao-en.pdf",
+      "url": "https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52",
+      "url_final": "https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52",
+      "pagina_fonte": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+      "obtido_em_utc": "2026-10-09T19:15:43.889278+00:00",
+      "bytes": 79689,
+      "paginas": 1,
+      "mime": "application/pdf",
+      "sha256": "0ef7c81cecbecf6a55be52bc2a78cd872256022898e2bd673e81872e8a063a0a"
+    },
+    {
+      "arquivo": "QECR-grelha-autoavaliacao-pt.pdf",
+      "url": "https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb63",
+      "url_final": "https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb63",
+      "pagina_fonte": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+      "obtido_em_utc": "2026-10-09T19:15:43.850620+00:00",
+      "bytes": 21771,
+      "paginas": 1,
+      "mime": "application/pdf",
+      "sha256": "98b31a9bb8ff817f308f5fb782aa935d5e4634cd869f6448f92fd786e7d20af9"
+    },
+    {
+      "arquivo": "Europass-autoavaliacao-en.html",
+      "url": "https://europass.europa.eu/en/common-european-framework-reference-language-skills",
+      "url_final": "https://europass.europa.eu/en/common-european-framework-reference-language-skills",
+      "pagina_fonte": "https://europass.europa.eu/en/common-european-framework-reference-language-skills",
+      "obtido_em_utc": "2026-10-09T19:15:43.022749+00:00",
+      "bytes": 338495,
+      "paginas": null,
+      "mime": "text/html",
+      "sha256": "8f25a52793e0fff28745d74f71292faba4cf3da1ac390bb2c9779f63db870fc7"
+    },
+    {
+      "arquivo": "Europass-autoavaliacao-pt.html",
+      "url": "https://europass.europa.eu/pt/common-european-framework-reference-language-skills",
+      "url_final": "https://europass.europa.eu/pt/common-european-framework-reference-language-skills",
+      "pagina_fonte": "https://europass.europa.eu/pt/common-european-framework-reference-language-skills",
+      "obtido_em_utc": "2026-10-09T19:15:43.317037+00:00",
+      "bytes": 343021,
+      "paginas": null,
+      "mime": "text/html",
+      "sha256": "6de209d9d302302d4cc82d704d73522ee887efc645a72e7c3e945409d376c6ff"
+    }
+  ]
+}

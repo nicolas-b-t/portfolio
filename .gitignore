@@ -11,5 +11,15 @@ desktop.ini
 # Logs
 *.log
 
-# Documentação e referências mantidas somente no ambiente local
-/docs/
+# Referências com restrição explícita de reprodução
+/docs/referencias/asd-ste100/ASD-STE100-issue-9-2025-01-15.pdf
+/docs/referencias/idiomas/otan/STANAG-6001-edicao-5.pdf
+/docs/referencias/idiomas/otan/ATrainP-5-edicao-A-versao-2-en.pdf
+/docs/referencias/idiomas/otan/ATrainP-5-edicao-A-versao-2-fr.pdf
+/docs/referencias/idiomas/qecr-cefr/CEFR-volume-complementar-2020-en.pdf
+
+# Fonte acadêmica recebida com identificadores pessoais de terceiros
+/docs/fontes/academico/PPC_GTI.pdf
+
+# Registros privados de futuros participantes do autoteste
+/docs/autotestes-pessoais/

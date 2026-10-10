@@ -1,0 +1,20 @@
+{
+  "documentos": [
+    {
+      "arquivo": "PI-IV_ENTREGA_FINAL.pdf",
+      "origem": "Anexo fornecido pelo responsável nesta conversa",
+      "recebido_em_utc": "2026-10-09T22:00:23.110192+00:00",
+      "bytes": 5910056,
+      "sha256": "b0b260a317c155b998a9c556012371af9f5e4871f415c254be9c48b11658fa7b",
+      "extracao_local": "/tmp/portfolio-PI-IV_ENTREGA_FINAL.txt"
+    },
+    {
+      "arquivo": "PPC_GTI.pdf",
+      "origem": "Anexo fornecido pelo responsável nesta conversa",
+      "recebido_em_utc": "2026-10-09T22:00:23.356816+00:00",
+      "bytes": 1584623,
+      "sha256": "d8dfa8645c76bb89c82d266ed7a646e54e770049d8f00da8721124351b829b9f",
+      "extracao_local": "/tmp/portfolio-PPC_GTI.txt"
+    }
+  ]
+}

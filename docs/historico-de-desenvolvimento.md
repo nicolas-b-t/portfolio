@@ -1,0 +1,239 @@
+# Histórico de desenvolvimento
+
+- Organizamos este histórico em 9 de outubro de 2026, seguindo a ordem do trabalho realizado nesta conversa.
+  - Este registro descreve o trabalho concluído e a preparação da próxima publicação, sem antecipar seu resultado.
+- Começamos preparando o ambiente na nuvem para trabalhar no repositório `nicolas-b-t/portfolio`.
+  - Aplicamos o fluxo de configuração do ambiente cloud ao projeto.
+  - Confirmamos a presença do repositório no ambiente remoto.
+  - Discutimos a diferença entre a máquina remota, a máquina local e a interface do Codex.
+  - Explicamos variáveis de ambiente, instruções de inicialização e scripts de instalação.
+  - Explicamos como as credenciais de autenticação se relacionam com o acesso ao GitHub.
+  - Discutimos a possibilidade de manter mais de um repositório no mesmo ambiente.
+  - Esclarecemos a relação entre o sistema operacional, seus processos e os diretórios do ambiente.
+  - Explicamos referências locais e a função do favicon do site.
+  - Usamos um servidor Python para conferir o site por HTTP durante o desenvolvimento.
+  - Definimos que Python não seria uma dependência do site publicado.
+- Analisamos a estrutura inicial do portfólio antes de alterar o conteúdo.
+  - Encontramos páginas em português e inglês feitas com HTML e CSS.
+  - Confirmamos a ausência de JavaScript, backend e ferramentas de build no site inicial.
+  - Registramos conteúdo de exemplo, links de projetos sem destino e problemas de apresentação.
+  - Criamos a pasta `static/` com cópias organizadas por idioma.
+  - Ajustamos os caminhos relativos para as cópias funcionarem em sua nova estrutura.
+  - Mantivemos temporariamente as páginas antigas enquanto trabalhávamos nas cópias.
+  - Registramos a análise inicial em `docs/analise-estatica.md`.
+- Reunimos referências oficiais de acessibilidade da W3C no repositório.
+  - Investigamos a falha inicial de acesso ao portal da W3C.
+  - Repetimos o download depois que o responsável removeu as restrições de rede.
+  - Guardamos a recomendação WCAG 2.2 de 12 de dezembro de 2024 e suas fontes oficiais.
+  - Guardamos separadamente o rascunho observado de 4 de outubro de 2026.
+  - Preservamos os documentos oficiais e seus avisos de licença sem modificações.
+  - Registramos fontes, versões, tamanhos e hashes SHA-256 em um manifesto.
+  - Explicamos que a verificação por hash foi uma iniciativa técnica e não comprova sozinha a autenticidade do conteúdo.
+  - Esclarecemos que as referências são cópias datadas e não se atualizam automaticamente.
+- Definimos regras para manter o projeto simples e portátil.
+  - Adotamos robustez, compatibilidade, acessibilidade, portabilidade e minimalismo como objetivos.
+  - Estabelecemos o funcionamento integral do site com HTML e CSS, sem JavaScript.
+  - Priorizamos HTML semântico, recursos nativos, fontes do sistema e arquivos locais.
+  - Evitamos frameworks, rastreadores e dependências sem necessidade demonstrada.
+  - Definimos WCAG 2.2 nível AA como alvo de acessibilidade.
+  - Criamos `AGENTS.md` na raiz com as regras de desenvolvimento.
+  - Criamos `.editorconfig` para orientar a formatação em editores compatíveis.
+  - Criamos e atualizamos o `README.md` com estrutura, execução, manutenção e publicação.
+  - Mantivemos regras de finais de linha em `.gitattributes` sem alterar os arquivos oficiais da W3C.
+- Aplicamos correções de acessibilidade após consultar o responsável pelas decisões visuais.
+  - Limitamos as primeiras correções às versões em `static/`, conforme a escolha do responsável.
+  - Colocamos o cabeçalho no fluxo normal para evitar que encobrisse conteúdo e foco.
+  - Mantivemos o azul dos botões no tema escuro e trocamos seu texto para uma cor escura com contraste suficiente.
+  - Substituímos links de projeto sem destino por avisos em texto.
+  - Melhoramos o link para pular ao conteúdo e a indicação de foco do teclado.
+  - Corrigimos a estrutura da navegação de idiomas e ampliamos os alvos dos menus.
+  - Ajustamos espaçamento lateral, quebra de palavras e colunas para telas estreitas.
+  - Respeitamos a preferência por movimento reduzido.
+  - Conferimos HTML, contraste, teclado, temas claro e escuro e reorganização do conteúdo em navegador.
+  - Registramos as mudanças e os limites da verificação em `docs/acessibilidade.md`.
+  - Esclarecemos que os testes realizados não certificam conformidade completa com WCAG.
+- Consolidamos o site em `static/` e configuramos a publicação automática.
+  - Removemos as páginas antigas depois da autorização do responsável.
+  - Adotamos `static/` como única fonte do site publicado.
+  - Criamos um workflow do GitHub Actions para publicar no GitHub Pages.
+  - Fixamos as ações oficiais por SHA de commit e concedemos as permissões necessárias ao deploy.
+  - Mantivemos documentos internos e referências W3C fora do artefato publicado.
+  - Realizamos commit e push da consolidação no commit `240c539`.
+  - Encontramos uma limitação de permissão ao tentar alterar a configuração do Pages pela integração.
+  - Orientamos o responsável a selecionar GitHub Actions como origem de publicação.
+  - Explicamos o funcionamento do GitHub Actions durante essa configuração.
+  - Confirmamos a configuração manual e o sucesso da publicação no GitHub Pages.
+- Ampliamos o portfólio para cinco versões de idioma.
+  - Mantivemos português do Brasil e inglês.
+  - Criamos versões para português de Portugal, espanhol sul-americano e espanhol de Espanha.
+  - Usamos as etiquetas `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`.
+  - Explicamos que `es-419` abrange América Latina e Caribe apesar do público sul-americano escolhido.
+  - Adicionamos a marca visível `ES-SAM` para facilitar a identificação da variante sul-americana.
+  - Criamos uma página inicial de escolha de idioma e links recíprocos entre as versões.
+  - Mantivemos CSS e favicon consistentes entre os cinco idiomas.
+  - Validamos as páginas, os recursos locais e a navegação nas novas versões.
+  - Realizamos commit e push dos idiomas no commit `a2158eb` e confirmamos seu deploy.
+- Passamos dos templates para o conteúdo profissional do responsável.
+  - Solicitamos fontes para preencher experiências, competências e projetos sem inventar informações.
+  - Tentamos usar as pastas privadas de currículos, certificações e trabalhos do Google Drive.
+  - Constatamos a ausência de ferramentas do Google Drive disponíveis na sessão.
+  - Recebemos os documentos privados manualmente para continuar a análise.
+  - Tentamos consultar o LinkedIn do responsável e encontramos uma exigência de autenticação.
+  - Usamos nome e informações acadêmicas disponíveis nas fontes recebidas e no perfil público do GitHub.
+  - Mantivemos pendentes os detalhes acadêmicos e profissionais ainda sem confirmação.
+- Criamos uma área separada para agradecer e recomendar o conhecimento de outros perfis.
+  - Recebemos os links de Ismael Jackson B., Rodrigo Nascimento, Rikelme Fernandes Lopes e Marcos Paulo Flores de Liz.
+  - Tentamos consultar esses perfis no LinkedIn e encontramos a mesma limitação de acesso.
+  - Adotamos um agradecimento geral e um convite para conhecer os perfis, conforme a escolha do responsável.
+  - Evitamos atribuir cargos, qualidades ou relações específicas sem confirmação.
+  - Criamos `rede.html` nos cinco idiomas com acesso pelo rodapé do currículo.
+- Analisamos o relatório profissional e os documentos de formação recebidos.
+  - Extraímos do relatório a experiência como auxiliar de instalação de fibra óptica na REALFORT TELECOM.
+  - Registramos inicialmente as datas e a modalidade da REALFORT, retirando posteriormente o período por escolha do responsável.
+  - Descrevemos práticas de redes, fibra óptica, equipamentos e apoio técnico sem ampliar a autonomia relatada.
+  - Mantivemos explícita a supervisão nas atividades de fusão de fibra.
+  - Excluímos estimativas pessoais de produtividade e detalhes privados que não eram necessários ao currículo.
+  - Analisamos e deduplicamos 31 arquivos de certificados em 18 registros distintos.
+  - Incluímos 17 cursos e formações em uma lista que pode ser aberta por teclado sem JavaScript.
+  - Apresentamos separadamente o resultado TOEIC Listening & Reading de 910 pontos.
+  - Distinguimos conclusão de curso, participação e resultado de exame nas descrições.
+  - Evitamos converter cursos em certificações profissionais ou o TOEIC em uma afirmação de fluência geral.
+  - Atualizamos as cinco versões com experiência, competências e formação complementar.
+  - Registramos a origem das informações e suas limitações em `docs/fontes-do-conteudo.md`.
+  - Mantivemos documentos integrais e identificadores pessoais fora do repositório publicado.
+- Preparamos uma galeria profissional separada do currículo principal.
+  - Recebemos quatro fotografias de trabalho com redes e fibra óptica.
+  - Confirmamos a autorização para manter o rosto do responsável nas imagens.
+  - Aplicamos apenas orientação, conversão de cor, remoção de metadados e redução de resolução e tamanho.
+  - Preservamos as pessoas, a aparência, o enquadramento e a proporção das fotografias.
+  - Criamos variantes WebP e JPEG com arquivos menores e maiores.
+  - Reduzimos em cerca de 73% o tamanho total das variantes WebP menores em relação aos originais.
+  - Compartilhamos as imagens otimizadas entre os cinco idiomas em `static/media/realfort/`.
+  - Criamos `galeria.html` nos cinco idiomas com legendas, textos alternativos e imagens responsivas.
+  - Mantivemos as fotografias fora da página principal, que contém apenas um link para a galeria.
+  - Registramos tamanhos, dimensões e hashes em `docs/otimizacao-imagens.json`.
+  - Preservamos os originais fora da pasta publicada.
+- Investigamos os projetos Portfólio, Optigrow e SGCS para apresentá-los no site.
+  - Analisamos o próprio portfólio e descrevemos suas tecnologias e práticas verificadas.
+  - Recebemos os endereços dos repositórios privados Optigrow e SGCS.
+  - Tentamos acessá-los pela API e pelo Git no terminal com a autenticação disponível.
+  - Encontramos respostas de falta de autorização e não conseguimos baixar os dois repositórios.
+  - Confirmamos que a integração acessava o portfólio, mas não incluía os outros projetos entre os autorizados.
+  - Recebemos os links públicos `https://optigrow.vercel.app/` e `https://sgcs-seven.vercel.app/`.
+  - Inspecionamos o conteúdo público dos sites sem enviar formulários nem acessar áreas autenticadas.
+  - Adicionamos Optigrow aos projetos e mantivemos SGCS em próximos projetos, conforme o pedido do responsável.
+  - Incluímos os links publicados e descrições limitadas ao conteúdo público nas cinco versões.
+  - Mantivemos pendentes a análise do código, a arquitetura e a participação individual nos projetos privados.
+- Avaliamos formas de autenticação independente para uma tarefa futura.
+  - Consultamos documentação sobre tokens pessoais, login pela GitHub CLI e chaves SSH de deploy.
+  - Explicamos que uma variável pode fornecer um token à CLI, mas não autentica automaticamente o Git.
+  - Discutimos permissões, expiração, revogação e limitações de acesso como colaborador externo.
+  - Indicamos o mecanismo seguro de segredos do ambiente para fornecer credenciais posteriormente.
+  - Não iniciamos login, alteramos autenticação ou fizemos novos downloads durante essa investigação.
+- Verificamos as alterações de conteúdo e galeria antes da próxima publicação.
+  - Validamos as 16 páginas HTML localmente sem enviar o conteúdo pessoal ao serviço remoto.
+  - Conferimos 413 referências locais, incluindo imagens responsivas e destinos internos.
+  - Testamos navegação por teclado, cursos expansíveis, temas e telas pequenas com JavaScript desativado.
+  - Conferimos a entrega HTTP, as proporções das fotos e a troca de idioma nas páginas separadas.
+  - Confirmamos a preservação das referências oficiais e a ausência de documentos privados no site.
+  - Mantivemos explícitos os testes de acessibilidade e conteúdo ainda pendentes.
+- Organizamos os registros solicitados para acompanhar a continuidade do desenvolvimento.
+  - Criamos um lembrete no repositório para retomar a autenticação dos projetos privados.
+  - Reunimos neste arquivo o histórico hierárquico das decisões e atividades da conversa.
+  - Preparamos uma avaliação das ações do responsável com recomendações para sua evolução como desenvolvedor.
+  - Reunimos as alterações de conteúdo e documentação para o commit, push e verificação da próxima versão publicada.
+  - Publicamos conteúdo profissional, galeria e registros no commit `c2c39b7` e confirmamos o deploy com 42 arquivos públicos conferidos.
+- Complementamos o portfólio com o histórico de currículos e reorganizamos as competências.
+  - Preservamos dez anexos de currículos com nove conteúdos distintos fora da pasta do projeto.
+  - Extraímos dados profissionais das versões de 2025 e 2026 sem publicar os documentos integrais.
+  - Priorizamos os períodos dos currículos de outubro após confirmar divergências com o responsável.
+  - Adicionamos as experiências de suporte no Instituto Alpha e Help Desk na Lukos Tecnologia.
+  - Confirmamos com o responsável o campus e consultamos o nome Fatec Franco da Rocha – Giuliano Cecchettini na fonte oficial do CPS.
+  - Apresentamos o curso em andamento com início em julho de 2024 e conclusão prevista para julho de 2027 conforme os currículos.
+  - Retiramos o período da REALFORT da apresentação por solicitação do responsável.
+  - Separamos as competências em técnicas, sociais e habilidades práticas e operacionais.
+  - Incluímos competências explícitas e práticas implícitas sustentadas pelas atividades descritas nas fontes.
+  - Registramos a CNH brasileira válida A e B confirmada pelo responsável e a vivência de campo em altura sem atribuir qualificação NR-35.
+  - Mantivemos as cinco versões equivalentes e registramos uma matriz pública das evidências usadas.
+  - Validamos as 16 páginas, 413 referências locais e 30 cenários de apresentação das páginas principais com JavaScript desativado.
+  - Conferimos teclado, espaçamento de texto, visibilidade das competências na impressão e capturas em tela pequena e tema escuro.
+- Acrescentamos a ASD-STE100 às referências locais de redação técnica.
+  - Confirmamos a edição 9 de 15 de janeiro de 2025 nas fontes oficiais e baixamos o PDF completo diretamente do domínio do STEMG.
+  - Preservamos os bytes e avisos do documento e registramos sua origem, tamanho e hash de integridade.
+  - Mantivemos o PDF na pasta do projeto, ignorado pelo Git devido às condições de reprodução e publicação.
+- Mantivemos toda a pasta `docs/` somente no ambiente local por decisão do responsável.
+  - Adicionamos a pasta ao `.gitignore` e retiramos seus arquivos do índice do Git preservando as cópias locais.
+  - Atualizamos as instruções da raiz e os caminhos do README para diferenciar os arquivos locais dos arquivos disponíveis no GitHub.
+- Iniciamos a revisão das competências com uma apresentação compacta em tags.
+  - Substituímos os textos descritivos por termos curtos nas três categorias e nas cinco versões de idioma.
+  - Apresentamos a carteira de habilitação brasileira A e B junto de direção de carros e motos conforme o exemplo do responsável.
+  - Preservamos as indicações de formação introdutória, apoio técnico e atividades sob supervisão.
+  - Conferimos listas acessíveis, contraste, teclado, telas pequenas, espaçamento de texto, texto ampliado e impressão.
+  - Publicamos as tags no commit `a082255` e confirmamos o deploy e os 42 arquivos públicos.
+- Otimizamos as tags com subcategorias e observações somente quando necessárias.
+  - Organizamos o conteúdo anterior em 11 subcategorias dentro das três categorias principais nas cinco versões.
+  - Aplicamos “habilidade, observação” e substituímos o detalhe de duas emendas supervisionadas por “aprendiz” na tag de fusão óptica.
+  - Indicamos formação no título do agrupamento e preservamos as observações de apoio, escopo do TOEIC e habilitação brasileira.
+  - Reduzimos a seção em português do Brasil de 180 para 149 palavras incluindo os novos títulos.
+  - Conferimos os 49 itens na árvore de acessibilidade e nos PDFs, além de temas, contraste, teclado, telas pequenas e texto ampliado.
+  - Publicamos a revisão no commit `824a8b6` e confirmamos o deploy e os 42 arquivos públicos.
+- Analisamos as sobreposições e propusemos um COA para a próxima revisão das competências.
+  - Propusemos mover manutenção de computadores e periféricos para Suporte de TI e atividades específicas de fibra para Redes.
+  - Propusemos reunir as tags de manutenção e as tags de condução preservando seus escopos.
+  - Registramos uma proposta de dez subcategorias e 46 tags para revisão do responsável.
+- Aplicamos o COA com escopo limitado à página principal em português brasileiro.
+  - Confirmamos a decisão do responsável de revisar somente `static/pt-BR/index.html` nesta etapa.
+  - Registramos a restrição nas instruções da raiz, no README e na documentação local para orientar os próximos commits.
+  - Reunimos manutenção de computadores e periféricos em Suporte de TI e movemos atividades específicas de fibra para Redes.
+  - Consolidamos condução e habilitação em uma tag e organizamos as habilidades gerais em Campo e ferramentas.
+  - Mantivemos três categorias principais com dez subcategorias e 46 tags na página em português brasileiro.
+  - Preservamos as demais páginas, idiomas e folhas CSS para revisão posterior.
+  - Conferimos teclado, contraste, reflow, espaçamento, texto ampliado e as 46 tags na impressão somente da página principal pt-BR.
+  - Validamos o HTML alterado sem erros e confirmamos as 413 referências locais e a preservação dos demais arquivos do site.
+  - Realizamos commit e push em `fecc004` com o escopo pt-BR, página principal, explícito no título e na descrição.
+  - Confirmamos o deploy no GitHub Actions e a correspondência dos 42 arquivos publicados com a versão local.
+- Reunimos referências oficiais para uma futura autoavaliação dos idiomas.
+  - Identificamos o STANAG 6001 da OTAN e a publicação ATrainP-5 como a referência militar mencionada pelo responsável.
+  - Explicamos a avaliação por habilidade e diferenciamos autoavaliação, exame e resultado histórico do TOEIC.
+  - Baixamos cinco publicações do BILC e os textos e grades do QECR/CEFR com cópias das páginas Europass em inglês e português.
+  - Organizamos onze documentos em `docs/referencias/idiomas/` com índice e manifestos de origem e integridade somente locais.
+- Refinamos os rótulos de competências somente na página principal pt-BR conforme novas solicitações do responsável.
+  - Retiramos “apoio” das tags Rádio/PoE e OTDR preservando os detalhes existentes na experiência profissional.
+  - Removemos as observações de formação dos títulos Programação e dados e Gestão e produtividade.
+  - Substituímos “Alicates/furadeira” por “Ferramentas elétricas e pneumáticas” em Campo e ferramentas.
+  - Verificamos HTML, teclado, contraste, telas pequenas, espaçamento, texto ampliado e impressão da página alterada.
+  - Realizamos commit e push em `a542348` com o escopo da página principal pt-BR explícito.
+  - Confirmamos o deploy no workflow `37986645870` e a correspondência da página publicada com o arquivo local.
+- Incorporamos competências do desenvolvimento assistido somente na página principal pt-BR.
+  - Mantivemos Gestão de projetos, já presente, e complementamos sua evidência com as decisões de objetivos, prioridades e escopo deste portfólio.
+  - Adicionamos Desenvolvimento com agentes de IA em Programação e dados.
+  - Ampliamos Manuais/POPs para Documentação técnica/Manuais/POPs em Suporte de TI.
+  - Mantivemos dez subcategorias com 47 tags e preservamos as demais páginas e idiomas.
+  - Verificamos HTML, teclado, contraste, telas pequenas, espaçamento, texto ampliado e impressão da página pt-BR.
+  - Realizamos commit e push em `383632c` com o escopo da página principal pt-BR explícito.
+  - Confirmamos o deploy no workflow `37995030904` e a correspondência da página publicada com o arquivo local.
+- Complementamos Projetos e Formação com competências contextualizadas somente na página principal pt-BR.
+  - Preservamos os PDFs PI-IV_ENTREGA_FINAL e PPC_GTI em `docs/fontes/academico/` com cópias e hashes conferidos.
+  - Confirmamos a atuação do responsável como gestor do SGCS, com administração do Trello, entregáveis e equipe.
+  - Apresentamos SGCS como projeto acadêmico composto por pesquisa e MVP, distinguindo gestão individual e tecnologias da equipe.
+  - Movemos SGCS para Projetos e preservamos a âncora antiga para manter os links existentes.
+  - Acrescentamos 12 tags ao portfólio e 14 ao SGCS com a mesma apresentação das competências superiores.
+  - Extraímos 19 competências principais do PPC e as organizamos em Formação como competências em desenvolvimento.
+  - Mantivemos as 47 tags superiores e as demais páginas e idiomas sem alterações.
+  - Verificamos as 92 tags na acessibilidade e impressão, além de HTML, 412 referências locais, teclado, contraste e telas pequenas.
+  - Realizamos commit e push em `2c2f0f2` com o escopo da página principal pt-BR explícito e os PDFs mantidos somente locais.
+  - Confirmamos o deploy no workflow `37997376369` e a correspondência da página publicada com o arquivo local.
+- Complementamos o Optigrow com a participação e a parceria confirmadas pelo responsável.
+  - Apresentamos o primeiro projeto conjunto com o sócio e amigo Rodrigo como parte do estudo do mercado digital em Portugal.
+  - Acrescentamos tags de pesquisa de mercado, documentação técnica e preparação de infraestrutura, com Rodrigo identificado como principal desenvolvedor.
+  - Ligamos o Optigrow ao contato de Rodrigo acrescentando somente uma âncora ao cartão existente em `static/pt-BR/rede.html`.
+  - Mantivemos o conteúdo principal no escopo pt-BR, com os demais idiomas e páginas preservados.
+  - Verificamos as duas páginas sem erros de HTML e testamos o link para o contato pelo teclado, além de telas pequenas e impressão.
+  - Realizamos commit e push em `0a4a49f`, explicitando o escopo pt-BR e a única exceção da âncora de Rodrigo em `rede.html`.
+  - Confirmamos o deploy no workflow `37997925820` e conferimos as duas páginas publicadas com os arquivos locais.
+
+- Consolidamos novos registros em 10 de outubro de 2026.
+  - O [novo histórico](historico-consolidado-2026-10-10.md) reúne também as etapas seguintes desta conversa.
+  - A [nova avaliação](avaliacao-do-desenvolvimento-2026-10-10.md) analisa decisões, métodos e oportunidades de melhoria.
+  - O [guia do autoteste](guia-autoteste-ingles.md) documenta a retomada posterior da avaliação de inglês.
+  - A documentação voltou ao versionamento com exceções específicas para referências restritas e identificadores de terceiros.

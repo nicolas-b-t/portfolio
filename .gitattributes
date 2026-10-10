@@ -29,3 +29,6 @@
 docs/referencias/w3c/*.html -text -whitespace
 docs/referencias/w3c/LICENSE-W3C.md -text -whitespace
 *.tar.gz binary
+
+# Preserva bytes das cópias oficiais do Europass.
+docs/referencias/idiomas/qecr-cefr/*.html -text -whitespace
