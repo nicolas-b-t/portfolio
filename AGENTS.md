@@ -139,6 +139,10 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   Não sobrescreva arquivos do usuário sem necessidade.
 - Use o checkout existente. Cada tarefa na nuvem já é isolada.
   Não crie worktrees sem pedido explícito do usuário.
+- Após concluir uma tarefa, remova os arquivos criados exclusivamente para orientar ou planejar sua execução.
+  Antes da remoção, registre decisões duradouras na documentação permanente, quando necessário.
+  Atualize os índices e links que apontem para os arquivos removidos.
+  Preserve instruções permanentes, históricos, avaliações, fontes e referências.
 - Para verificar `static/`, execute na raiz:
   `python3 -m http.server 8001 --bind 127.0.0.1 --directory static`.
   A escolha de idioma está em `/`, e as páginas em `/pt-BR/`, `/pt-PT/`,

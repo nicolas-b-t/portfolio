@@ -34,7 +34,7 @@ A revisão atual inclui toda a documentação autoral e somente
 `pt-BR/index.html`. As demais páginas e idiomas aguardam revisão posterior.
 
 Aplicamos as correções de acessibilidade somente às versões em `static/`.
-O registro está em `docs/acessibilidade.md`, relativo à raiz do repositório.
+Os [históricos de desenvolvimento](../docs/README.md) registram as etapas e verificações realizadas.
 A documentação de `docs/` acompanha clones, com as exceções indicadas no `.gitignore`.
 
 ## Conferir as páginas

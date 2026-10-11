@@ -40,16 +40,16 @@ Preservamos os documentos oficiais, as licenças e as fontes recebidas sem ediç
 │   ├── media/realfort/           # Fotografias compartilhadas
 │   └── README.md                # Organização das páginas
 └── docs/                        # Documentação e referências
-    ├── guia-de-redacao.md        # Adaptação dos princípios da ASD-STE100
-    ├── analise-estatica.md       # Análise inicial
-    ├── acessibilidade.md        # Alterações e verificações
-    ├── fontes-do-conteudo.md    # Origem das informações profissionais
-    ├── competencias-e-evidencias.md # Evidências das competências
-    ├── coa-competencias.md      # Proposta de reorganização e resultado
+    ├── README.md               # Índice e padrão de nomes
+    ├── guia-de-redacao.md       # Adaptação dos princípios da ASD-STE100
+    ├── autoavaliacao-ingles.md  # Plano, amostras e estado da avaliação
+    ├── guia-autoteste-ingles.md # Instruções para retomar o autoteste
     ├── otimizacao-imagens.json  # Dimensões, compressão e integridade
     ├── pendencias.md            # Tarefas futuras
-    ├── historico-de-desenvolvimento.md # Etapas e decisões
-    ├── avaliacao-do-desenvolvimento.md # Avaliação e recomendações
+    ├── historico-de-desenvolvimento-2026-10-09.md # Registro detalhado de 9 de outubro
+    ├── historico-de-desenvolvimento-2026-10-10.md # Registro consolidado de 10 de outubro
+    ├── avaliacao-do-desenvolvimento-2026-10-09.md # Avaliação de 9 de outubro
+    ├── avaliacao-do-desenvolvimento-2026-10-10.md # Avaliação de 10 de outubro
     ├── fontes/academico/        # Fontes acadêmicas e índices
     └── referencias/
         ├── w3c/                # Acessibilidade
@@ -62,10 +62,10 @@ Cada idioma mantém seu CSS e favicon. As cinco cópias desses recursos devem
 permanecer consistentes.
 
 A documentação de `docs/` voltou a ser versionada em 10 de outubro de 2026.
-Consulte o [índice de documentos](docs/README.md) para os registros e guias.
-Seis PDFs permanecem locais por restrição de reprodução ou identificadores de terceiros.
-O [guia de recuperação](docs/recuperar-referencias.md) explica como completar as referências.
-Os originais excluídos permanecem intactos neste ambiente.
+Consulte o [índice de documentos](docs/README.md) para os registros, guias e o padrão de nomes.
+Seis PDFs são excluídos do Git por restrição de reprodução ou identificadores de terceiros.
+Esses arquivos não acompanham o clone.
+Os [índices e manifestos](docs/README.md#referencias-locais) registram fontes, caminhos e hashes para consulta e recuperação.
 
 O projeto permanece pessoal.
 A adaptação como modelo para colegas e amigos será uma etapa futura.
@@ -117,6 +117,11 @@ Os commits devem indicar o escopo “pt-BR, página principal”.
 
 O conteúdo profissional usa currículos, certificados, relatos e confirmações
 do responsável. Confira os fatos e seus limites antes de alterar o texto.
+
+Após concluir uma tarefa, remova os arquivos temporários criados para orientar sua execução.
+Registre decisões duradouras na documentação permanente e atualize os links afetados.
+Preserve históricos, avaliações, fontes, referências e instruções permanentes.
+
 Quando uma revisão incluir traduções, confira `lang`, `hreflang` e os links
 entre idiomas.
 
@@ -147,7 +152,7 @@ exijam JavaScript.
 
 WCAG 2.2 nível AA é o alvo de acessibilidade.
 Os testes realizados não certificam conformidade com todos os critérios.
-O registro está em `docs/acessibilidade.md`.
+Os [históricos de desenvolvimento](docs/README.md) registram as etapas e verificações realizadas.
 
 Cada idioma contém `rede.html`, com agradecimentos e convites para conhecer
 perfis, e `galeria.html`, com fotografias profissionais.
@@ -158,17 +163,19 @@ O currículo principal não carrega fotografias.
 As competências usam listas de tags em três categorias: técnicas, sociais e
 habilidades práticas e operacionais. As subcategorias organizam os assuntos.
 O formato é “habilidade, observação”, com observações somente quando necessárias.
-Os projetos e a formação também apresentam competências no seu contexto.
+Na página principal pt-BR, os projetos e a formação apresentam competências no seu contexto.
 O curso de GTI permanece em andamento.
+Essa página inclui português brasileiro nativo e contato por e-mail.
+O Optigrow identifica a parceria com Rodrigo e oferece acesso ao seu contato.
+O SGCS integra Projetos, com gestão individual e trabalho da equipe descritos separadamente.
+As demais versões aguardam revisão para incorporar as alterações recentes de conteúdo.
 
-As fontes estão em `docs/fontes-do-conteudo.md`.
-A matriz `docs/competencias-e-evidencias.md` registra evidências e limites das
-inferências. Os currículos e certificados integrais permanecem fora do projeto.
-As fontes acadêmicas ficam em `docs/fontes/academico/`.
-O PPC recebido permanece local porque contém identificadores pessoais de terceiros.
+Os currículos e certificados integrais permanecem fora do projeto.
+As [fontes acadêmicas](docs/fontes/academico/README.md) registram documentos, evidências e limites das inferências.
+O PPC recebido é excluído do Git porque contém identificadores pessoais de terceiros.
 O site publicado recebe somente `static/`.
 
-O [histórico consolidado](docs/historico-consolidado-2026-10-10.md) reúne as etapas atuais.
+O [histórico consolidado](docs/historico-de-desenvolvimento-2026-10-10.md) reúne as etapas atuais.
 A [nova avaliação](docs/avaliacao-do-desenvolvimento-2026-10-10.md) analisa ações e escolhas do responsável.
 Os registros anteriores permanecem disponíveis.
 O [autoteste de inglês](docs/autoavaliacao-ingles.md) está pausado para retomada posterior.

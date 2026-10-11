@@ -1,4 +1,4 @@
-# Avaliação do desenvolvimento
+# Avaliação do desenvolvimento — 9 de outubro de 2026
 
 Registro de 9 de outubro de 2026, baseado nas perguntas, decisões e revisões
 feitas nesta conversa sobre o portfólio.
@@ -91,7 +91,7 @@ reproduzir a alteração e demonstrar sua verificação sem depender de uma resp
 pronta da assistência.
 
 As [orientações do projeto](../AGENTS.md), o [README](../README.md) e as
-[fontes do conteúdo](fontes-do-conteudo.md) oferecem referências para esse trabalho.
+[fontes acadêmicas](fontes/academico/README.md) oferecem referências para esse trabalho.
 
 ## Avaliação posterior
 

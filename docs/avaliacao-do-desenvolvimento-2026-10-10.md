@@ -1,4 +1,4 @@
-# Avaliação do processo de desenvolvimento
+# Avaliação do desenvolvimento — 10 de outubro de 2026
 
 Esta avaliação considera as ações e decisões observadas nesta conversa até 10 de outubro de 2026.
 O papel mais demonstrado foi definir requisitos, revisar conteúdo e orientar o trabalho assistido.

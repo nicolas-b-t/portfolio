@@ -1,4 +1,4 @@
-# Histórico de desenvolvimento
+# Histórico de desenvolvimento — 9 de outubro de 2026
 
 - Organizamos este histórico em 9 de outubro de 2026, seguindo a ordem do trabalho realizado nesta conversa.
   - Este registro descreve o trabalho concluído e a preparação da próxima publicação, sem antecipar seu resultado.
@@ -233,7 +233,7 @@
   - Confirmamos o deploy no workflow `37997925820` e conferimos as duas páginas publicadas com os arquivos locais.
 
 - Consolidamos novos registros em 10 de outubro de 2026.
-  - O [novo histórico](historico-consolidado-2026-10-10.md) reúne também as etapas seguintes desta conversa.
+  - O [novo histórico](historico-de-desenvolvimento-2026-10-10.md) reúne também as etapas seguintes desta conversa.
   - A [nova avaliação](avaliacao-do-desenvolvimento-2026-10-10.md) analisa decisões, métodos e oportunidades de melhoria.
   - O [guia do autoteste](guia-autoteste-ingles.md) documenta a retomada posterior da avaliação de inglês.
   - A documentação voltou ao versionamento com exceções específicas para referências restritas e identificadores de terceiros.

@@ -47,6 +47,6 @@ Os demais idiomas e páginas não fazem parte desta revisão.
 
 ## Recuperação
 
-Consulte o [guia de recuperação](../../recuperar-referencias.md) para obter o PPC após clonar.
+Consulte o [índice de referências locais](../../README.md#referencias-locais) para obter o PPC após clonar.
 Os caminhos de extração no manifesto registram arquivos temporários da análise anterior.
 Eles não são necessários para executar o site ou consultar esta síntese.

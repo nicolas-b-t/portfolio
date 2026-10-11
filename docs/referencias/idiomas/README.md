@@ -64,4 +64,4 @@ a assinatura ou validação independente da autenticidade.
 Os documentos foram preservados sem edição, com seus avisos de autoria e
 licença. Três PDFs da OTAN e o volume complementar de 2020 restringem reprodução sem autorização.
 Esses quatro arquivos permanecem locais e são excluídos pelo `.gitignore`.
-Consulte o [guia de recuperação](../../recuperar-referencias.md) para obter as referências após clonar.
+Consulte o [índice de referências locais](../../README.md#referencias-locais) para obter as referências após clonar.

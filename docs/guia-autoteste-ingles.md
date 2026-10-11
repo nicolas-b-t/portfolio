@@ -12,7 +12,7 @@ Consulte [o plano e as amostras](autoavaliacao-ingles.md).
 3. Consulte o volume complementar do QECR, de 2020, para descritores detalhados.
 4. Consulte a ATrainP-5, edição A, versão 2, para os descritores militares.
 5. Use os anexos A e B da ATrainP-5 para níveis completos e intermediários.
-6. Se faltar um PDF, siga o [guia de recuperação](recuperar-referencias.md).
+6. Se faltar um PDF, siga o [índice de referências locais](README.md#referencias-locais).
 
 A grelha apresenta os níveis A1–C2 do QECR.
 O volume complementar inclui descritores e uma grade de avaliação escrita no apêndice 4.

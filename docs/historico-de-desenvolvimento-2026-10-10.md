@@ -1,7 +1,7 @@
-# Histórico consolidado do desenvolvimento
+# Histórico de desenvolvimento — 10 de outubro de 2026
 
 - Este registro reúne as ações desta conversa até 10 de outubro de 2026.
-  - O histórico anterior permanece disponível para consulta detalhada.
+  - O [histórico de 9 de outubro](historico-de-desenvolvimento-2026-10-09.md) permanece disponível para consulta detalhada.
 - Preparamos o ambiente na nuvem para trabalhar no repositório do portfólio.
   - Explicamos diretórios, processos, inicialização, autenticação e limites do ambiente remoto.
   - Usamos Python para conferir o site por HTTP durante o desenvolvimento.
