@@ -1,8 +1,10 @@
-# Referências W3C — acessibilidade
+# Referências W3C — acessibilidade e CSS
 
 Consulta: 9 de outubro de 2026. Escopo: Web Content Accessibility Guidelines
 (WCAG), as diretrizes de acessibilidade aplicáveis ao portfólio. Esta pasta
-não reúne todas as especificações W3C de HTML, CSS e outras tecnologias.
+não reúne todas as especificações W3C.
+A [seleção web ampliada](../README.md) inclui CSS, ARIA em HTML e WCAG-EM, consultados em 12 de outubro de 2026.
+O [manifesto web](../manifesto-web-2026-10-12.json) registra as novas cópias e suas licenças.
 
 ## Recomendação publicada
 

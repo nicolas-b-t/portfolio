@@ -1,0 +1,644 @@
+{
+  "principal": {
+    "reflow320": {
+      "width": 320,
+      "scrollWidth": 305
+    },
+    "skip": {
+      "focus": "main",
+      "hash": "#main"
+    },
+    "keyboard": [
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Fale comigo"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "View in English"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "RealFort Sistemas"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Ver registros fotográficos de redes e eletrônica"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Lukos Tecnologia"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Instituto Alpha de Saúde Integral"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Fatec Franco da Rocha – Giuliano Cecchettini"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Conforme o Projeto pedagógico do Curso (PPC)"
+      },
+      {
+        "outline": "solid",
+        "tag": "SUMMARY",
+        "text": "Ver 17 cursos e formações complementares"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Código deste portfólio"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Visitar o Optigrow"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Repositório privado do Optigrow"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Conhecer Rodrigo Nascimento"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Visitar o SGCS"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Repositório privado do SGCS"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "E-mail — beraldesnicolas@gmail.com"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "LinkedIn — Nicolas Beraldes Tarifa"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "GitHub — nicolas-b-t"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Galeria de trabalho"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Agradecimentos e recomendações"
+      },
+      {
+        "outline": "none",
+        "tag": "BODY",
+        "text": "Ir para o conteúdo\n\n  \n    \n      Nicolas Beraldes Tarifa\n      \n        Contato\n        S"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Ir para o conteúdo"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Nicolas Beraldes Tarifa"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contato"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Sobre"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Habilidades"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Experiência"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Formação"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projetos"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Português (Portugal)"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "English"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Español (Sudamérica · ES-SAM)"
+      },
+      {
+        "outline": "solid",
+        "tag": "A",
+        "text": "Español (España)"
+      }
+    ],
+    "coursesOpen": {
+      "courses": 17,
+      "open": true,
+      "scroll": 305,
+      "width": 320
+    },
+    "reverse": "Conforme o Projeto pedagógico do Curso (PPC)",
+    "landscape": {
+      "scroll": 625,
+      "width": 640
+    },
+    "text200Open": {
+      "courses": 17,
+      "open": true,
+      "scroll": 305,
+      "width": 320
+    }
+  },
+  "galeria": {
+    "images": [
+      {
+        "alt": "Nicolas diante de um rack de telecomunicações com cabos e conexões de fibra óptica.",
+        "loaded": true
+      },
+      {
+        "alt": "Nicolas trabalhando em uma escada junto a um poste, com capacete e cinturão de segurança visíveis.",
+        "loaded": true
+      },
+      {
+        "alt": "Nicolas junto a cabos de uma rede aérea em um poste.",
+        "loaded": true
+      },
+      {
+        "alt": "Equipamento de fusão de fibra óptica e ferramentas de trabalho.",
+        "loaded": false
+      },
+      {
+        "alt": "Três caixas transparentes com splitters ópticos e cabos, sobre uma caixa de ferramentas aberta.",
+        "loaded": false
+      },
+      {
+        "alt": "Tela de um OTDR Maxprint com o traçado de uma medição de fibra óptica.",
+        "loaded": false
+      },
+      {
+        "alt": "Profissional em uma escada junto a um poste de rede aérea, em uma estrada rural.",
+        "loaded": false
+      },
+      {
+        "alt": "Nicolas com capacete e cinturão de segurança junto aos cabos de uma rede aérea urbana.",
+        "loaded": false
+      },
+      {
+        "alt": "Bancada com central de alarme, multímetro e ferramentas. Uma pessoa manuseia um conector.",
+        "loaded": false
+      }
+    ],
+    "links": 19,
+    "scroll": 305,
+    "width": 320,
+    "skip": {
+      "focus": "main",
+      "hash": "#main"
+    },
+    "keyboard": [
+      {
+        "outline": "solid",
+        "text": "Redes"
+      },
+      {
+        "outline": "solid",
+        "text": "Eletrônica"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "solid",
+        "text": "Ver fotografia em tamanho maior"
+      },
+      {
+        "outline": "none",
+        "text": "Ir para o conteúdo\n\n  \n    \n      Nicolas Beraldes Tarifa\n      \n"
+      },
+      {
+        "outline": "solid",
+        "text": "Ir para o conteúdo"
+      },
+      {
+        "outline": "solid",
+        "text": "Nicolas Beraldes Tarifa"
+      },
+      {
+        "outline": "solid",
+        "text": "Voltar ao portfólio"
+      },
+      {
+        "outline": "solid",
+        "text": "Agradecimentos e recomendações"
+      },
+      {
+        "outline": "solid",
+        "text": "Português (Portugal)"
+      },
+      {
+        "outline": "solid",
+        "text": "English"
+      },
+      {
+        "outline": "solid",
+        "text": "Español (Sudamérica · ES-SAM)"
+      },
+      {
+        "outline": "solid",
+        "text": "Español (España)"
+      },
+      {
+        "outline": "solid",
+        "text": "Redes"
+      }
+    ],
+    "loadedAfterKeyboard": [
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp"
+      }
+    ],
+    "landscape": {
+      "scroll": 625,
+      "width": 640
+    },
+    "photos": [
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/rack-optico-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-1280.jpg"
+      },
+      {
+        "image": true,
+        "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-1280.jpg"
+      }
+    ],
+    "targets": [
+      {
+        "height": 24,
+        "text": "Voltar ao portfólio",
+        "width": 160.3125
+      },
+      {
+        "height": 24,
+        "text": "Agradecimentos e recomendações",
+        "width": 253.125
+      },
+      {
+        "height": 31.828125,
+        "text": "Português (Portugal)",
+        "width": 188.75
+      },
+      {
+        "height": 31.828125,
+        "text": "English",
+        "width": 79.0625
+      },
+      {
+        "height": 31.828125,
+        "text": "Español (Sudamérica · ES-SAM)",
+        "width": 264.6875
+      },
+      {
+        "height": 31.828125,
+        "text": "Español (España)",
+        "width": 155
+      },
+      {
+        "height": 24,
+        "text": "Redes",
+        "width": 42.1875
+      },
+      {
+        "height": 24,
+        "text": "Eletrônica",
+        "width": 84.375
+      },
+      {
+        "height": 208.875,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 408.515625,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 208.875,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 208.875,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 206.84375,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 208.875,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 408.375,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 208.875,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      },
+      {
+        "height": 523.71875,
+        "text": "Ver fotografia em tamanho maior",
+        "width": 259
+      }
+    ],
+    "reverse": "A"
+  },
+  "conditions": [
+    {
+      "bg": "rgb(255, 253, 245)",
+      "clipped": [],
+      "font": "16px",
+      "ink": "rgb(10, 10, 10)",
+      "mode": "spacing",
+      "page": "index",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "bg": "rgb(255, 253, 245)",
+      "clipped": [],
+      "font": "32px",
+      "ink": "rgb(10, 10, 10)",
+      "mode": "text200",
+      "page": "index",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "bg": "rgb(16, 16, 20)",
+      "clipped": [],
+      "font": "16px",
+      "ink": "rgb(244, 244, 239)",
+      "mode": "dark",
+      "page": "index",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "bg": "rgb(255, 253, 245)",
+      "clipped": [],
+      "font": "16px",
+      "ink": "rgb(10, 10, 10)",
+      "mode": "spacing",
+      "page": "galeria",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "bg": "rgb(255, 253, 245)",
+      "clipped": [],
+      "font": "32px",
+      "ink": "rgb(10, 10, 10)",
+      "mode": "text200",
+      "page": "galeria",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "bg": "rgb(16, 16, 20)",
+      "clipped": [],
+      "font": "16px",
+      "ink": "rgb(244, 244, 239)",
+      "mode": "dark",
+      "page": "galeria",
+      "scroll": 305,
+      "width": 320
+    }
+  ],
+  "languages": [
+    {
+      "h1": 1,
+      "lang": "pt-BR",
+      "scroll": 1265,
+      "title": "Nicolas Beraldes Tarifa — Currículo e Portfólio",
+      "url": "/pt-BR/",
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "lang": "pt-PT",
+      "scroll": 1265,
+      "title": "Nicolas Beraldes Tarifa — Currículo e Portefólio",
+      "url": "/pt-PT/",
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "lang": "en",
+      "scroll": 1265,
+      "title": "Nicolas Beraldes Tarifa — Resume and Portfolio",
+      "url": "/en/",
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "lang": "es-419",
+      "scroll": 1265,
+      "title": "Nicolas Beraldes Tarifa — Currículum y Portafolio",
+      "url": "/es-419/",
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "lang": "es-ES",
+      "scroll": 1265,
+      "title": "Nicolas Beraldes Tarifa — Currículum y Portfolio",
+      "url": "/es-ES/",
+      "width": 1280
+    }
+  ],
+  "environment": {
+    "browser": "Codex In-app Browser",
+    "system": "Windows",
+    "version": "Não exposta pela API disponível",
+    "nativeZoom": "Ctrl+plus sem efeito observável. Zoom nativo de 400% não validado."
+  },
+  "local": {
+    "index": {
+      "references": 26,
+      "errors": [],
+      "sha256": "8074418c2670c41c8a64c6ebf66dd21899bcfaf2cd786e45b215dfc453f81298",
+      "scripts": false
+    },
+    "galeria": {
+      "references": 72,
+      "errors": [],
+      "sha256": "1609fea0c2a8ba5fba45d8504c775540662e3fb476ec8104b90a85205caa571b",
+      "scripts": false
+    }
+  },
+  "css": [
+    {
+      "lang": "pt-BR",
+      "sha256": "f923603e96e1b2e7d24879f785eca945199143e1d393d9cd96d73034153ba3c9"
+    },
+    {
+      "lang": "pt-PT",
+      "sha256": "f923603e96e1b2e7d24879f785eca945199143e1d393d9cd96d73034153ba3c9"
+    },
+    {
+      "lang": "en",
+      "sha256": "f923603e96e1b2e7d24879f785eca945199143e1d393d9cd96d73034153ba3c9"
+    },
+    {
+      "lang": "es-419",
+      "sha256": "f923603e96e1b2e7d24879f785eca945199143e1d393d9cd96d73034153ba3c9"
+    },
+    {
+      "lang": "es-ES",
+      "sha256": "f923603e96e1b2e7d24879f785eca945199143e1d393d9cd96d73034153ba3c9"
+    }
+  ],
+  "commit": "d7aebe2"
+}

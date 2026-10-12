@@ -1,0 +1,272 @@
+[
+  {
+    "url": "http://127.0.0.1:8001/pt-BR/assets/favicon.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-BR/styles.css",
+    "status": 200,
+    "type": "text/css"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-BR/index.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-PT/index.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/en/index.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/es-419/index.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/es-ES/index.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/index.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-BR/galeria.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-BR/rede.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-PT/galeria.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/en/galeria.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/es-419/galeria.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/es-ES/galeria.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rack-optico-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rack-optico-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-1280.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rack-optico-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-1280.webp",
+    "status": 200,
+    "type": "application/octet-stream"
+  },
+  {
+    "url": "http://127.0.0.1:8001/pt-PT/rede.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/en/rede.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/es-419/rede.html",
+    "status": 200,
+    "type": "text/html"
+  },
+  {
+    "url": "http://127.0.0.1:8001/es-ES/rede.html",
+    "status": 200,
+    "type": "text/html"
+  }
+]

@@ -1,6 +1,6 @@
-# Páginas por idioma
+# Organização do site
 
-A pasta `static/` contém o site publicado.
+A pasta `static/` contém a fonte do site publicado.
 A página `index.html` permite escolher o idioma.
 
 | Pasta | Público ou idioma |
@@ -11,43 +11,21 @@ A página `index.html` permite escolher o idioma.
 | `es-419/` | Espanhol neutro para o público sul-americano |
 | `es-ES/` | Espanhol de Espanha |
 
-Cada pasta contém o currículo em `index.html`, os agradecimentos em `rede.html`
-e a galeria em `galeria.html`. O rodapé liga o currículo às páginas separadas.
+Cada pasta contém o currículo em `index.html`, os agradecimentos em `rede.html` e a galeria em `galeria.html`.
+O rodapé liga o currículo às páginas complementares.
 As fotografias WebP e JPEG ficam em `media/realfort/`, compartilhadas pelos idiomas.
-Não duplique as fotografias por idioma.
-
 Cada idioma mantém seu HTML, CSS e favicon.
 Os links de idioma apontam para as pastas vizinhas.
-Ao alterar o estilo comum, atualize as cinco cópias de `styles.css`.
 
 A etiqueta `es-419` abrange América Latina e Caribe.
-Não existe uma etiqueta regional equivalente apenas para a América do Sul.
-A redação é neutra, sem escolher um país.
-A marca visível `ES-SAM` identifica o público sul-americano.
+A redação atende ao público sul-americano, identificado pela marca visível `ES-SAM`.
 A etiqueta `es-ES` identifica a variante de Espanha.
 
-## Redação e escopo
+## Manutenção e verificação
 
-Siga os princípios da ASD-STE100, edição 9, adaptados ao idioma do texto.
-Consulte [AGENTS.md](../AGENTS.md) para os critérios.
-A revisão atual inclui toda a documentação autoral e somente
-`pt-BR/index.html`. As demais páginas e idiomas aguardam revisão posterior.
+As regras gerais, o escopo editorial e a consistência dos recursos estão em [AGENTS.md](../AGENTS.md).
+Consulte [a execução local](../README.md#executar-para-desenvolvimento) para servir o site.
+Consulte [o relatório final](../docs/relatorio-final-verificacao-pt-br-2026-10-12.md) para repetir as verificações.
 
-Aplicamos as correções de acessibilidade somente às versões em `static/`.
-Os [históricos de desenvolvimento](../docs/README.md) registram as etapas e verificações realizadas.
-A documentação de `docs/` acompanha clones. Os PDFs privados ficam na cópia pessoal.
-
-## Conferir as páginas
-
-Na raiz do repositório, execute este comando:
-
-```sh
-python3 -m http.server 8001 --bind 127.0.0.1 --directory static
-```
-
-Abra `http://127.0.0.1:8001/` no navegador.
-As versões ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
-O servidor Python serve apenas para desenvolvimento.
-
-O workflow `.github/workflows/pages.yml` publica esta pasta no GitHub Pages.
+O [workflow](../.github/workflows/pages.yml) publica esta pasta no GitHub Pages.
 Ele exclui este README do artefato de publicação.

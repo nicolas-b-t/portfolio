@@ -1,7 +1,6 @@
-# Histórico de desenvolvimento — 10 de outubro de 2026
+# Registro consolidado de desenvolvimento
 
 - Este registro reúne as ações desta conversa até 10 de outubro de 2026.
-  - O [histórico de 9 de outubro](historico-de-desenvolvimento-2026-10-09.md) permanece disponível para consulta detalhada.
 - Preparamos o ambiente na nuvem para trabalhar no repositório do portfólio.
   - Explicamos diretórios, processos, inicialização, autenticação e limites do ambiente remoto.
   - Usamos Python para conferir o site por HTTP durante o desenvolvimento.
@@ -68,7 +67,7 @@
   - Mantivemos níveis finais pendentes e não publicamos uma classificação de inglês no currículo.
 - Preparamos a continuidade e a reprodução do trabalho.
   - Registramos a autenticação independente dos projetos privados como tarefa futura sem iniciar login.
-  - Preservamos os registros anteriores e criamos este histórico e uma nova avaliação do desenvolvimento.
+  - Registramos o desenvolvimento e os limites da avaliação do processo.
   - Pausamos o autoteste completo e documentamos seu plano e suas instruções de retomada.
   - Restabelecemos o versionamento de documentos com exceções para reprodução restrita e identificadores de terceiros.
   - Mantivemos o projeto pessoal e registramos a intenção futura de adaptá-lo como modelo.
@@ -77,7 +76,8 @@
 
 Em 10 de outubro de 2026, o responsável encerrou a investigação de acesso aos repositórios privados.
 O login independente foi concluído, mas os testes de acesso permaneceram bloqueados.
-O [registro de acesso](pendencias.md) reúne os resultados e os limites da autenticação intermediada.
+Os testes retornaram HTTP 404 na API e HTTP 403 na leitura pelo Git.
+A autenticação intermediada impediu confirmar acesso independente aos repositórios.
 
 Removemos a configuração local de diagnóstico e as instruções antigas de retomada.
 Essa remoção não revoga a autorização concedida no GitHub.
@@ -89,3 +89,21 @@ O responsável confirmou que os seis PDFs privados estão preservados na cópia 
 Eles não acompanham este clone.
 Atualizamos descrições e links de recuperação sem alterar os hashes de origem dos manifestos.
 Conferimos os arquivos restantes, os índices e as referências locais.
+
+## Consolidação em 12 de outubro de 2026
+
+Os registros de 9 e 10 de outubro foram consolidados neste documento.
+As avaliações separadas foram substituídas por esta síntese.
+O responsável definiu requisitos, forneceu fontes e revisou conteúdo e resultados.
+Agentes de IA executaram a implementação e parte das verificações.
+Essas atividades não comprovam domínio independente de programação ou nível profissional de desenvolvedor.
+
+A revisão pt-BR organizou tags e subcategorias por ordem alfabética, com Idiomas por último.
+Os nomes das empresas receberam links e RealFort Sistemas substituiu a identificação anterior na página principal.
+A formação recebeu o link do PPC público e preservou as datas do curso.
+A cópia pública identifica a Fatec Assis e difere da fonte recebida da Fatec Franco da Rocha.
+Os arquivos acadêmicos mantêm os registros de origem.
+
+O [relatório final de verificação](relatorio-final-verificacao-pt-br-2026-10-12.md) reúne resultados, evidências, limites e instruções de repetição.
+A conformidade integral WCAG AA permanece não demonstrada.
+A remoção do arquivo de pendências não indica conclusão do autoteste de inglês nem implementação de um modelo reutilizável.

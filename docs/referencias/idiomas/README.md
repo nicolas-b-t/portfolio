@@ -6,7 +6,7 @@ Desde 10 de outubro de 2026, o índice, os manifestos e as cópias não excluíd
 As referências ficam fora do artefato do GitHub Pages.
 Nenhum nível pessoal foi atribuído na coleta.
 Os links dos PDFs privados apontam para o índice de referências locais.
-O [guia do autoteste](../../guia-autoteste-ingles.md) orienta o uso dos descritores.
+O [guia do autoteste](../../autoavaliacao-ingles.md#guia-de-execucao) orienta o uso dos descritores.
 
 ## OTAN — STANAG 6001 e ATrainP-5
 

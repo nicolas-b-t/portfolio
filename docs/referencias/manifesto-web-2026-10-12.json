@@ -1,0 +1,262 @@
+{
+  "consultado_em": "2026-10-12",
+  "escopo": "Referências oficiais para site estático HTML e CSS sem scripts",
+  "documentos": [
+    {
+      "arquivo": "docs/referencias/whatwg/html-living-standard-2026-10-12.html",
+      "titulo": "HTML Living Standard",
+      "aplicacao": "Estrutura, semântica, links, imagens responsivas e controles nativos",
+      "origem": "https://html.spec.whatwg.org/",
+      "status_http": 200,
+      "bytes": 15734684,
+      "sha256": "4de8945f74675c06b1939ef3a26285cff9eca880d9cba8435a637ff24806f107",
+      "estado": "Living Standard",
+      "data_documento": "12 October 2026",
+      "licenca": "https://creativecommons.org/licenses/by/4.0/",
+      "licenca_codigo": "https://opensource.org/licenses/BSD-3-Clause",
+      "snapshot_commit": null,
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/whatwg/encoding-2026-10-12.html",
+      "titulo": "Encoding Living Standard",
+      "aplicacao": "UTF-8 e interpretação de texto",
+      "origem": "https://encoding.spec.whatwg.org/",
+      "status_http": 200,
+      "bytes": 609688,
+      "sha256": "6dc34b5b039ed96a492ac4816fa5c9b5124edc9846fe29b52423b6fb4077eeea",
+      "estado": "Living Standard",
+      "data_documento": "21 May 2026",
+      "licenca": "https://creativecommons.org/licenses/by/4.0/",
+      "licenca_codigo": "https://opensource.org/licenses/BSD-3-Clause",
+      "snapshot_commit": null,
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-snapshot-2026-2026-10-12.html",
+      "titulo": "CSS Snapshot 2026",
+      "aplicacao": "Mapa dos módulos CSS e seus estados",
+      "origem": "https://www.w3.org/TR/2026/NOTE-css-2026-20260622/",
+      "status_http": 200,
+      "bytes": 621957,
+      "sha256": "fddc6c448e08e5eaa22a362c759a3a7c28045da1cdffad2d8421d679d49839d2",
+      "estado": "Group Note",
+      "data_documento": "22 June 2026",
+      "versao_publicada": "https://www.w3.org/TR/2026/NOTE-css-2026-20260622/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-flexbox-1-2026-10-12.html",
+      "titulo": "CSS Flexible Box Layout Level 1",
+      "aplicacao": "Tags e navegação com quebra de linha",
+      "origem": "https://www.w3.org/TR/css-flexbox-1/",
+      "status_http": 200,
+      "bytes": 1525929,
+      "sha256": "b0e3b097bc6db0688d4712968c290cda280f8f750eb998bc358c28df490ff3f5",
+      "estado": "Candidate Recommendation Draft",
+      "data_documento": "14 October 2025",
+      "versao_publicada": "https://www.w3.org/TR/2025/CRD-css-flexbox-1-20251014/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-grid-1-2026-10-12.html",
+      "titulo": "CSS Grid Layout Level 1",
+      "aplicacao": "Grades de projetos e fotografias",
+      "origem": "https://www.w3.org/TR/css-grid-1/",
+      "status_http": 200,
+      "bytes": 957488,
+      "sha256": "53a47980a217f0b976e1ab8fa0b56944421f7e6311deef96a6aa591ddc693317",
+      "estado": "Candidate Recommendation Draft",
+      "data_documento": "26 March 2025",
+      "versao_publicada": "https://www.w3.org/TR/2025/CRD-css-grid-1-20250326/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-values-3-2026-10-12.html",
+      "titulo": "CSS Values and Units Level 3",
+      "aplicacao": "Unidades relativas e cálculos de tamanho",
+      "origem": "https://www.w3.org/TR/css-values-3/",
+      "status_http": 200,
+      "bytes": 371644,
+      "sha256": "dcce1f2ff24d66a05373696e07dda59727303a421ee4593eb433092029df0094",
+      "estado": "Candidate Recommendation Draft",
+      "data_documento": "22 March 2024",
+      "versao_publicada": "https://www.w3.org/TR/2024/CRD-css-values-3-20240322/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-sizing-3-2026-10-12.html",
+      "titulo": "CSS Box Sizing Level 3",
+      "aplicacao": "Dimensionamento fluido e conteúdo longo",
+      "origem": "https://www.w3.org/TR/css-sizing-3/",
+      "status_http": 200,
+      "bytes": 531778,
+      "sha256": "ca0f1db3d5ad0c9799bf9dc04b9c30b4d9adf8d4d6f222787e4759ed81a6bbad",
+      "estado": "Working Draft",
+      "data_documento": "4 September 2026",
+      "versao_publicada": "https://www.w3.org/TR/2026/WD-css-sizing-3-20260904/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-variables-1-2026-10-12.html",
+      "titulo": "CSS Custom Properties Level 1",
+      "aplicacao": "Variáveis de cores, espaçamento e temas",
+      "origem": "https://www.w3.org/TR/css-variables-1/",
+      "status_http": 200,
+      "bytes": 267867,
+      "sha256": "5ce7b2c106af576328f222dd622598f847881f2ba9a64d53d6681d27d07ea0db",
+      "estado": "Candidate Recommendation Snapshot",
+      "data_documento": "16 June 2022",
+      "versao_publicada": "https://www.w3.org/TR/2022/CR-css-variables-1-20220616/",
+      "licenca": "https://www.w3.org/copyright/software-license-2015/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/mediaqueries-5-2026-10-12.html",
+      "titulo": "Media Queries Level 5",
+      "aplicacao": "Temas, movimento reduzido e condições de apresentação",
+      "origem": "https://www.w3.org/TR/mediaqueries-5/",
+      "status_http": 200,
+      "bytes": 697033,
+      "sha256": "9e761f96f6a9935591264b470bdf5e4c1b5b15874c376b9de70e670171671c95",
+      "estado": "Working Draft",
+      "data_documento": "19 February 2026",
+      "versao_publicada": "https://www.w3.org/TR/2026/WD-mediaqueries-5-20260219/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/css-break-3-2026-10-12.html",
+      "titulo": "CSS Fragmentation Level 3",
+      "aplicacao": "Quebras de página na impressão",
+      "origem": "https://www.w3.org/TR/css-break-3/",
+      "status_http": 200,
+      "bytes": 171462,
+      "sha256": "4d47d4b2dd36a28e2b0275833b9734b1d5a0b18299a3f278e238bed8e2ecd509",
+      "estado": "Candidate Recommendation",
+      "data_documento": "4 December 2018",
+      "versao_publicada": "https://www.w3.org/TR/2018/CR-css-break-3-20181204/",
+      "licenca": "https://www.w3.org/copyright/software-license-2015/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/html-aria-2026-10-12.html",
+      "titulo": "ARIA in HTML",
+      "aplicacao": "Uso de ARIA compatível com elementos nativos",
+      "origem": "https://www.w3.org/TR/html-aria/",
+      "status_http": 200,
+      "bytes": 380858,
+      "sha256": "b80a2a4ae66bdb95910f44682e2f2d0874affb77b39ab8ed5de956f2159b7ee2",
+      "estado": "Recommendation",
+      "data_documento": "11 August 2026",
+      "versao_publicada": "https://www.w3.org/TR/2026/REC-html-aria-20260811/",
+      "licenca": "https://www.w3.org/copyright/software-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/w3c/wcag-em-2-2026-10-12.html",
+      "titulo": "WCAG Evaluation Methodology 2.0",
+      "aplicacao": "Método de avaliação de acessibilidade",
+      "origem": "https://www.w3.org/TR/WCAG-EM/",
+      "status_http": 200,
+      "bytes": 152540,
+      "sha256": "601a2613e2bc5c766e8107acf0c6ded0c031d0658dcb40d231f915b7bd9978e3",
+      "estado": "Group Note",
+      "data_documento": "23 July 2026",
+      "versao_publicada": "https://www.w3.org/TR/2026/NOTE-wcag-em-2-20260723/",
+      "licenca": "https://www.w3.org/copyright/document-license-2023/",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/ietf/rfc-5646-2026-10-12.txt",
+      "titulo": "RFC 5646 — Tags for Identifying Languages",
+      "aplicacao": "Etiquetas lang e hreflang",
+      "origem": "https://www.rfc-editor.org/rfc/rfc5646.txt",
+      "status_http": 200,
+      "bytes": 208592,
+      "sha256": "5d9515f053163c80e7294a84d18217dc83471acc7caa9773da2ac40deeec8228",
+      "estado": "Best Current Practice",
+      "licenca": "Aviso Copyright Notice e IETF Trust Legal Provisions preservados no texto integral",
+      "data_documento": "September 2009",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/ietf/rfc-9110-2026-10-12.txt",
+      "titulo": "RFC 9110 — HTTP Semantics",
+      "aplicacao": "Tipos de conteúdo, respostas e requisições condicionais",
+      "origem": "https://www.rfc-editor.org/rfc/rfc9110.txt",
+      "status_http": 200,
+      "bytes": 502941,
+      "sha256": "21c1cdce6ab0e5509b04d84a28000836c7a087cf786efe6f04877ebfff47232a",
+      "estado": "Standards Track",
+      "licenca": "Aviso Copyright Notice e IETF Trust Legal Provisions preservados no texto integral",
+      "data_documento": "June 2022",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/ietf/rfc-9111-2026-10-12.txt",
+      "titulo": "RFC 9111 — HTTP Caching",
+      "aplicacao": "Cache de recursos em hospedagem estática",
+      "origem": "https://www.rfc-editor.org/rfc/rfc9111.txt",
+      "status_http": 200,
+      "bytes": 84477,
+      "sha256": "aeb52adb3279d5f23dae34f68af11bd5cef0a0aff7ffcd014c9ca93c5302cf3e",
+      "estado": "Standards Track",
+      "licenca": "Aviso Copyright Notice e IETF Trust Legal Provisions preservados no texto integral",
+      "data_documento": "June 2022",
+      "copia_integral_sem_edicao": true
+    },
+    {
+      "arquivo": "docs/referencias/ietf/rfc-9649-2026-10-12.txt",
+      "titulo": "RFC 9649 — WebP Image Format",
+      "aplicacao": "Formato das imagens otimizadas",
+      "origem": "https://www.rfc-editor.org/rfc/rfc9649.txt",
+      "status_http": 200,
+      "bytes": 97034,
+      "sha256": "f4d7cd92b015c0b340f10a932bb03e564a758a17df50cbb992c16d8459d60e58",
+      "estado": "Informational",
+      "licenca": "Aviso Copyright Notice e IETF Trust Legal Provisions preservados no texto integral",
+      "data_documento": "November 2024",
+      "copia_integral_sem_edicao": true
+    }
+  ],
+  "licencas": [
+    {
+      "arquivo": "docs/referencias/w3c/licencas/software-documento-2023.html",
+      "origem": "https://www.w3.org/copyright/software-license-2023/",
+      "bytes": 26132,
+      "sha256": "5497437f8e227f2a64def93edfccc6a85088a5c8e1924cacf419090e57c7c058"
+    },
+    {
+      "arquivo": "docs/referencias/w3c/licencas/software-documento-2015.html",
+      "origem": "https://www.w3.org/copyright/software-license-2015/",
+      "bytes": 26502,
+      "sha256": "2771edf32c02af072ebbcdeb174a8fd2f0fd0296865b628c73d9cb17dc847389"
+    },
+    {
+      "arquivo": "docs/referencias/w3c/licencas/documento-2023.html",
+      "origem": "https://www.w3.org/copyright/document-license-2023/",
+      "bytes": 27473,
+      "sha256": "888bd32d1e7b386edd688a588b70873d794563bd8ae9cdeb09089ea50d0da29d"
+    }
+  ],
+  "referencias_existentes": [
+    {
+      "arquivo": "docs/referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html",
+      "origem": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/",
+      "estado": "Recommendation",
+      "observacao": "Cópia já existente. Não duplicada nem substituída."
+    }
+  ],
+  "orientacoes_consultadas": [
+    {
+      "url": "https://web.dev/baseline",
+      "tipo": "Orientação de interoperabilidade. Não é norma de conformidade."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://nicolas-b-t.github.io/portfolio/pt-BR/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "max-age=600",
+      "ETag": "W/\"6acd5b6a-5746\"",
+      "Last-Modified": "Mon, 12 Oct 2026 22:12:58 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "conditional_status": 304
+  },
+  {
+    "url": "https://nicolas-b-t.github.io/portfolio/pt-BR/styles.css",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/css; charset=utf-8",
+      "Cache-Control": "max-age=600",
+      "ETag": "W/\"6acd5b6a-1fae\"",
+      "Last-Modified": "Mon, 12 Oct 2026 22:12:58 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "conditional_status": 304
+  },
+  {
+    "url": "https://nicolas-b-t.github.io/portfolio/media/realfort/rack-optico-640.webp",
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/webp",
+      "Content-Length": "25528",
+      "Cache-Control": "max-age=600",
+      "ETag": "\"6acd5b6a-63b8\"",
+      "Last-Modified": "Mon, 12 Oct 2026 22:12:58 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "conditional_status": 304
+  },
+  {
+    "url": "https://nicolas-b-t.github.io/portfolio/media/realfort/rack-optico-640.jpg",
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/jpeg",
+      "Content-Length": "38175",
+      "Cache-Control": "max-age=600",
+      "ETag": "\"6acd5b6a-951f\"",
+      "Last-Modified": "Mon, 12 Oct 2026 22:12:58 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "conditional_status": 304
+  },
+  {
+    "url": "https://nicolas-b-t.github.io/portfolio/pt-BR/assets/favicon.svg",
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": "max-age=600",
+      "ETag": "W/\"6acd5b6a-199\"",
+      "Last-Modified": "Mon, 12 Oct 2026 22:12:58 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "conditional_status": 304
+  }
+]

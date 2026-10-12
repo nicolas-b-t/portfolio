@@ -1,6 +1,6 @@
 /* =========================================================
    Portfolio / CV - neo-brutalist minimal
-   Zero JS. System fonts. Shared by PT and EN pages.
+   Zero JS. System fonts. Shared by all five language versions.
    ========================================================= */
 
 :root {
@@ -60,6 +60,14 @@ a {
   color: var(--ink);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
+}
+
+main p > a,
+.contact-list a,
+.site-footer a {
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
 }
 
 a:hover {
@@ -380,6 +388,10 @@ p {
 
 /* ---------- Courses and professional gallery ---------- */
 
+.courses-print {
+  display: none;
+}
+
 .course-details {
   margin-bottom: 2rem;
 }
@@ -415,9 +427,15 @@ p {
 
 .photo-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--gap);
   align-items: start;
+}
+
+@media (min-width: 45rem) {
+  .photo-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .photo-card {
@@ -464,7 +482,9 @@ p {
   .lang-switch,
   .skip-link,
   .btn,
-  .site-footer .noprint {
+  .site-footer .noprint,
+  .courses-screen,
+  .photo-link-label {
     display: none !important;
   }
 
@@ -482,7 +502,7 @@ p {
 
   section.wrap {
     padding: 0.75rem 0;
-    break-inside: avoid;
+    break-inside: auto;
   }
 
   .card,
@@ -506,5 +526,33 @@ p {
 
   .timeline li {
     padding-bottom: 0.75rem;
+  }
+
+  .courses-print {
+    display: block;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
+  }
+
+  .card,
+  .photo-card,
+  .course-list li {
+    break-inside: avoid;
+  }
+
+  .photo-gallery {
+    display: block;
+  }
+
+  .photo-card {
+    margin-bottom: 1rem;
+  }
+
+  .photo-card img {
+    width: auto;
+    max-height: 17cm;
+    margin: 0 auto;
   }
 }

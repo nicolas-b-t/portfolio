@@ -1,42 +1,24 @@
 # Documentação do portfólio
 
-O projeto permanece pessoal e pertence a Nicolas Beraldes Tarifa.
-O responsável pretende adaptá-lo futuramente como modelo para amigos e colegas.
-Essa intenção não autoriza reutilizar sua identidade, suas fotografias ou dados de terceiros.
-A adaptação como modelo ainda não foi implementada.
+As [orientações gerais](../AGENTS.md) definem as regras de manutenção e redação.
+Este índice reúne registros, evidências e fontes do projeto.
 
 ## Índice
 
-- [Auditoria WCAG 2.2 — 2026-10-12](auditoria-wcag-pt-br-2026-10-12.md): pt-BR, página principal e galeria. Correções, matriz de critérios e limites da conformidade.
-- [Evidências da auditoria WCAG — 2026-10-12](auditoria-wcag-pt-br-2026-10-12.json): verificações locais, contrastes e integridade dos arquivos auditados.
-- [Histórico de desenvolvimento — 2026-10-10](historico-de-desenvolvimento-2026-10-10.md): decisões e entregas até esta revisão.
-- [Histórico de desenvolvimento — 2026-10-09](historico-de-desenvolvimento-2026-10-09.md): registro detalhado das primeiras etapas.
-- [Avaliação do desenvolvimento — 2026-10-10](avaliacao-do-desenvolvimento-2026-10-10.md): ações, escolhas, limites e recomendações.
-- [Avaliação do desenvolvimento — 2026-10-09](avaliacao-do-desenvolvimento-2026-10-09.md): primeira avaliação do processo.
-- [Plano e resultados do autoteste](autoavaliacao-ingles.md): estado da avaliação e amostras recebidas.
-- [Guia do autoteste](guia-autoteste-ingles.md): instruções para retomar a avaliação.
-- [Guia de redação](guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
-- [Pendências e acesso](pendencias.md): atividades futuras e resultados da investigação encerrada.
-- [Otimização de imagens](otimizacao-imagens.json): dimensões, tamanhos e integridade das variantes.
-- [Referências W3C](referencias/w3c/README.md): acessibilidade e licenças.
-- [Referência ASD-STE100](referencias/asd-ste100/README.md): redação técnica e obtenção da cópia local.
+- [Referências de desenvolvimento web](referencias/README.md): HTML, CSS, acessibilidade, idiomas, HTTP e imagens.
+- [Relatório final de verificação](relatorio-final-verificacao-pt-br-2026-10-12.md): resultados W3C, evidências, limites e instruções de repetição.
+- [Registro de desenvolvimento](registro-de-desenvolvimento.md): decisões e entregas consolidadas.
+- [Autoavaliação de inglês](autoavaliacao-ingles.md): amostras, estado da avaliação e guia de execução.
+- [Guia de redação](guia-de-redacao.md): princípios da ASD-STE100 adaptados ao português.
+- [Otimização de imagens](otimizacao-imagens.json): dimensões, tamanhos e hashes.
+- [Referências W3C](referencias/w3c/README.md): fontes normativas e licenças.
+- [Referência ASD-STE100](referencias/asd-ste100/README.md): fonte e condições de obtenção.
 - [Referências de idiomas](referencias/idiomas/README.md): QECR e STANAG 6001.
 - [Fontes acadêmicas](fontes/academico/README.md): documentos e limites das inferências.
 
-## Nomes dos arquivos
+## Organização e manutenção
 
-Use nomes descritivos em português, sem acentos, com palavras separadas por hífens.
-Históricos e avaliações usam o mesmo nome-base em todas as versões.
-Acrescente a data do registro no formato `AAAA-MM-DD`, antes de `.md`.
-
-- Históricos: `historico-de-desenvolvimento-AAAA-MM-DD.md`.
-- Avaliações: `avaliacao-do-desenvolvimento-AAAA-MM-DD.md`.
-
-A data identifica o registro original. Preserve complementos posteriores no conteúdo.
-Guias e documentos de atualização contínua mantêm nomes sem data.
-Remova arquivos temporários de orientação quando a tarefa correspondente estiver concluída.
-Atualize este índice e os links afetados.
-Preserve os nomes das fontes recebidas e dos documentos oficiais.
+Consulte [a organização da documentação](../AGENTS.md#organização-da-documentação) para nomes, consolidação e manutenção de índices.
 
 ## Versionamento e publicação
 
@@ -48,7 +30,7 @@ Documentos versionados podem ser consultados e baixados diretamente no GitHub.
 
 O responsável preserva alguns PDFs na cópia pessoal por restrições de reprodução ou identificadores de terceiros.
 Esses PDFs não acompanham este clone.
-Mantenha esses arquivos fora do checkout versionado.
+As restrições de versionamento estão em [AGENTS.md](../AGENTS.md#regra-site-sem-javascript).
 Os manifestos preservam as fontes, os tamanhos e os hashes das cópias recebidas.
 Os arquivos originais não foram editados para esta publicação.
 Os currículos e certificados integrais permanecem fora do projeto.
@@ -71,4 +53,4 @@ Obtenha referências oficiais conforme suas condições de uso.
 Solicite ao responsável uma cópia autorizada do PPC.
 Salve cada arquivo no caminho registrado no manifesto.
 Compare seu tamanho e SHA-256 antes de usar a cópia.
-Mantenha os PDFs privados fora do checkout versionado.
+Consulte as condições específicas nos índices das fontes.

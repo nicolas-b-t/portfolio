@@ -108,14 +108,14 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 
 ## Idiomas, estrutura e portabilidade
 
-- A revisão atual abrange toda a documentação autoral e somente a página
-  principal `static/pt-BR/index.html`. O responsável confirmou esse escopo em
-  9 de outubro de 2026 para aplicar os princípios da ASD-STE100.
-  As demais páginas e idiomas aguardam revisão posterior.
-  Esta restrição prevalece sobre a orientação geral de sincronizar traduções.
-- Os commits dessa revisão devem informar explicitamente o escopo “pt-BR,
-  página principal” no título ou na descrição. Registros de escopo nas instruções
-  da raiz são permitidos. Mantenha a documentação detalhada em `docs/`, agora versionada.
+- A revisão atual abrange toda a documentação autoral e as três páginas pt-BR:
+  `index.html`, `galeria.html` e `rede.html`.
+  O responsável ampliou o escopo técnico e editorial em 12 de outubro de 2026.
+  Essa decisão substitui a restrição à página principal de 9 de outubro.
+  As traduções aguardam revisão posterior. Sincronize correções do CSS comum nos cinco idiomas.
+- Os commits dessa revisão devem informar o escopo “pt-BR, página principal, galeria e agradecimentos”.
+  Registros de escopo nas instruções da raiz são permitidos.
+  Mantenha a documentação detalhada em `docs/`, agora versionada.
 - Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
   `hreflang` e links de troca de idioma corretos. `es-419` usa redação neutra
   para o público sul-americano. A etiqueta abrange América Latina e Caribe.
@@ -158,3 +158,25 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 - Execute `git diff --check`.
   Informe verificações, resultados e limitações.
   Não adicione ferramentas ou testes que apenas repitam a implementação.
+
+## Organização da documentação
+
+- Mantenha as regras gerais neste `AGENTS.md` da raiz.
+  Crie instruções em subpastas somente quando houver regras locais necessárias.
+- Use o `README.md` da raiz para apresentação, estrutura, execução e publicação.
+  Substitua regras gerais repetidas por links para este arquivo.
+- Use `docs/README.md` como índice da documentação.
+  Use READMEs locais para organização, origem, licenças e condições específicas das fontes.
+- Mantenha uma síntese vigente por assunto.
+  Antes de remover registros substituídos, preserve decisões e evidências úteis na documentação consolidada.
+  Atualize os índices e links afetados.
+- Use nomes descritivos em português, sem acentos, com palavras separadas por hífens.
+  Use datas `AAAA-MM-DD` em relatórios vinculados a uma versão.
+  Preserve nomes, conteúdo e licenças das fontes oficiais.
+
+## Cursos na tela e na impressão
+
+- Mantenha o controle nativo recolhível na tela e a cópia completa exclusiva para impressão.
+- Ao alterar cursos, atualize as duas cópias de `static/pt-BR/index.html`.
+- Confira igualdade de títulos, instituições, datas e cargas horárias.
+- Confira os 17 cursos uma única vez na impressão, com o controle fechado e aberto.

@@ -1,27 +1,252 @@
-# Auditoria WCAG 2.2 — pt-BR, página principal e galeria
+# Relatório final de verificação — pt-BR, currículo, galeria e agradecimentos
 
-Data: 12 de outubro de 2026. Alvo: WCAG 2.2 nível AA.
-Estado da conformidade: **não demonstrada integralmente nesta avaliação**.
-As verificações locais concluídas não encontraram falhas nas condições examinadas.
-Testes em navegador e com tecnologia assistiva permanecem pendentes.
+Data: 12 de outubro de 2026. Versão examinada: `d7aebe2`. Alvo: WCAG 2.2 AA.
+Este relatório consolida a auditoria de código e os testes posteriores em navegador.
+A conformidade integral permanece não demonstrada. Nenhuma falha foi encontrada nos ensaios descritos.
 
-## Escopo e versão
+## Aplicação das referências técnicas — revisão atual
 
-Esta auditoria cobre integralmente o código de duas páginas em pt-BR:
+Data: 12 de outubro de 2026. Base Git: `d7aebe2`, com alterações locais ainda não publicadas.
+Escopo atual: currículo, galeria e agradecimentos em pt-BR. Correções do CSS foram sincronizadas nos cinco idiomas.
+O responsável autorizou a ampliação técnica e editorial nesta revisão.
+As seções posteriores preservam os resultados da versão anterior. Não descrevem integralmente o estado atual.
 
-- [Página principal](../static/pt-BR/index.html).
-- [Galeria de registros profissionais](../static/pt-BR/galeria.html).
+### Alterações realizadas
 
-O commit-base é `215b72ff4ce3317dd89a6da1e7c3f4023ccdc4c7`.
-A avaliação inclui as correções posteriores presentes no checkout desta entrega.
-O [arquivo de evidências](auditoria-wcag-pt-br-2026-10-12.json) identifica páginas, arquivos CSS e variantes de fotografia por SHA-256.
-Qualquer alteração nesses arquivos exige revisar os resultados afetados.
+- A principal mantém os cursos recolhíveis na tela e uma cópia exclusiva para impressão.
+- As duas cópias preservam os mesmos 17 títulos, instituições, datas e cargas horárias.
+- A impressão oculta o controle original e mostra apenas a cópia completa.
+- Links independentes receberam dimensão mínima de 24 pixels. Links de empresas permanecem dentro dos títulos dos cargos.
+- A grade de fotos usa uma coluna e passa a duas colunas a partir de 45rem.
+- O atributo `sizes` da galeria pt-BR acompanha esse limite e desconta as bordas.
+- As regras de impressão permitem dividir seções longas e evitam quebras dentro de cursos e cartões.
+- As fotografias impressas ficam em uma coluna, com altura máxima de 17 centímetros e proporção preservada.
+- A redação da introdução da galeria e dos agradecimentos usa verbos diretos. Fatos e destinos foram preservados.
 
-As outras páginas e versões de idioma não receberam auditoria completa.
-As alterações de CSS foram sincronizadas nos cinco idiomas, conforme as instruções do projeto.
-Sites externos e fotografias JPEG abertas isoladamente estão fora da avaliação de conformidade.
+As listas sem marcadores preservam `role="list"` pela justificativa de compatibilidade já registrada.
+Esse atributo não substitui a semântica nativa nem os testes com tecnologia assistiva.
+Nenhuma fotografia foi recomprimida. O workflow e a hospedagem não foram alterados.
+Nenhum script foi acrescentado ao site.
 
-## Referência normativa
+### Referências aplicadas
+
+| Referência oficial local | Aplicação |
+| --- | --- |
+| [HTML Living Standard](referencias/whatwg/html-living-standard-2026-10-12.html) e [Encoding](referencias/whatwg/encoding-2026-10-12.html) | Estrutura, UTF-8, controles nativos e imagens responsivas |
+| [ARIA in HTML](referencias/w3c/html-aria-2026-10-12.html) | Nomes, funções, estados e uso dos atributos ARIA |
+| [WCAG 2.2](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html) e [WCAG-EM 2.0](referencias/w3c/wcag-em-2-2026-10-12.html) | Critérios e registro dos ensaios, com limites explícitos |
+| [Grid](referencias/w3c/css-grid-1-2026-10-12.html), [Flexbox](referencias/w3c/css-flexbox-1-2026-10-12.html) e [Fragmentation](referencias/w3c/css-break-3-2026-10-12.html) | Grades, alvos e apresentação para impressão |
+| [RFC 5646](referencias/ietf/rfc-5646-2026-10-12.txt) | Conferência das etiquetas de idioma |
+| [RFC 9110](referencias/ietf/rfc-9110-2026-10-12.txt) e [RFC 9111](referencias/ietf/rfc-9111-2026-10-12.txt) | Tipos de conteúdo, cache e respostas condicionais |
+| [RFC 9649](referencias/ietf/rfc-9649-2026-10-12.txt) | Identificação do formato WebP e preservação da alternativa JPEG |
+
+O [índice das referências](referencias/README.md) distingue recomendações, notas e rascunhos.
+A aplicação não transforma rascunhos em recomendações aprovadas nem implica conformidade com todas as especificações.
+
+### Resultados atuais
+
+| Verificação | Resultado |
+| --- | --- |
+| HTML W3C | Zero erros nas três páginas. Principal: 21 avisos sobre `role="list"`. Galeria e agradecimentos: zero avisos. |
+| CSS W3C, perfil CSS3 | Válido, zero erros e 16 avisos. Avisos sobre variáveis e `-webkit-text-size-adjust`, preservados e justificados. |
+| Estrutura e recursos | Um `h1`, UTF-8 e `lang="pt-BR"` em cada página. Sem IDs duplicados, scripts ou referências inválidas. Os 54 recursos locais únicos retornaram HTTP 200. |
+| Cursos | As cópias são iguais. Na tela aberta, 17 cursos visíveis. Na simulação de impressão, 17 cursos nos estados fechado e aberto. |
+| Teclado | Percurso completo com Tab e Shift+Tab nas três páginas. Salto ao `main` confirmado. Enter e Espaço alternaram os cursos. |
+| Reorganização | Sem excesso de largura a 320 pixels e em paisagem de 640 por 320 pixels nas três páginas. |
+| Texto e espaçamento | Fonte raiz a 200% e os quatro valores de espaçamento WCAG aplicados em variantes temporárias. Sem caixas textuais excedendo a largura. |
+| Temas e movimento | Cores escuras e regras de movimento reduzido conferidas por simulação CSS, sem mudança da preferência real do sistema. |
+| Contraste | Quatorze combinações recalculadas. Todas acima de 4,5:1 nos dois temas. |
+| Fotografias | Nove arquivos maiores abriram por teclado. Descritores de largura coincidem com os pixels reais. Arredondamentos das variantes menores ficam dentro de um pixel. |
+| Grade e seleção | Medidas a 320, 640, 704, 720, 992 e 1280 pixels. WebP de 640 e 1280 pixels selecionados conforme a condição e o cache. |
+| Regressão | As quinze páginas dos cinco idiomas abriram a 320 e 1280 pixels, sem excesso de largura. CSS idêntico por SHA-256. |
+
+Links independentes medidos na principal atendem ao mínimo de 24 pixels por dimensão.
+Os links das empresas integram texto de títulos e usam a exceção de links em linha do critério 2.5.8.
+A diferença entre `sizes` e largura renderizada pode incluir a barra de rolagem.
+O navegador pode reutilizar uma variante maior já carregada. Isso não constitui falha de seleção.
+
+### HTTP da publicação atual
+
+Cinco recursos publicados retornaram `200`. As cinco requisições com `If-None-Match` retornaram `304`.
+As respostas incluem `Cache-Control: max-age=600`, ETag e Last-Modified.
+Foram conferidos HTML, CSS, SVG, WebP e JPEG, com tipos de conteúdo correspondentes.
+Essas medidas descrevem a publicação anterior, não as alterações locais desta revisão.
+
+### Limites da conclusão atual
+
+A API disponível não oferece emulação de mídia nem controle de leitor de tela.
+As regras de impressão foram aplicadas a cópias temporárias para examinar visibilidade e apresentação contínua.
+Essa simulação não confirma paginação real, margens físicas ou cortes entre folhas.
+O zoom nativo não respondeu aos atalhos. A fonte a 200% não substitui esse ensaio.
+Não foram realizados testes com leitor de tela, Safari com VoiceOver ou cancelamento de ponteiro.
+A inspeção da árvore de acessibilidade não substitui esses testes.
+A versão do navegador não foi exposta pela API disponível.
+A conformidade integral WCAG AA permanece não demonstrada.
+
+### Evidências atuais
+
+- [Inspeção, dimensões e hashes](evidencias-wcag-2026-10-12/inspecao-aplicacao.json).
+- [Validação HTML](evidencias-wcag-2026-10-12/validacao-html-aplicacao.json).
+- [Validação CSS](evidencias-wcag-2026-10-12/validacao-css-aplicacao.xml).
+- [Navegador, percursos e medidas](evidencias-wcag-2026-10-12/navegador-aplicacao.json).
+- [Contrastes calculados](evidencias-wcag-2026-10-12/contrastes-aplicacao.json).
+- [Cabeçalhos HTTP](evidencias-wcag-2026-10-12/http-publicacao.json).
+- [Recursos HTTP locais](evidencias-wcag-2026-10-12/recursos-http-locais.json).
+- [Cursos no estilo de impressão simulado](evidencias-wcag-2026-10-12/impressao-css-cursos.png).
+- [Cursos abertos na tela estreita](evidencias-wcag-2026-10-12/cursos-tela-320.png).
+
+### Repetição e manutenção
+
+Use o procedimento de repetição deste relatório também para `/pt-BR/rede.html`.
+Confira todos os cursos uma única vez na impressão real, com o controle fechado e aberto.
+Ao editar cursos, atualize as duas cópias e compare seu conteúdo integral.
+Confira a grade imediatamente antes e depois de 45rem, além da largura máxima de 62rem.
+Registre tamanho de fonte, largura CSS e variante de imagem selecionada.
+Use preferências reais de tema e movimento reduzido quando o ambiente permitir.
+Preserve as respostas dos validadores e os hashes da versão examinada.
+
+## Registro da avaliação anterior
+
+As seções seguintes foram preservadas como evidência da versão `d7aebe2` anterior a esta aplicação.
+
+## Ambiente e método
+
+Os ensaios usaram o Codex In-app Browser no Windows e o servidor Python local na porta 8001.
+A API disponível não informou a versão do navegador.
+A inspeção combinou teclado, árvore de acessibilidade, capturas e medidas do DOM renderizado.
+A árvore do navegador não substitui um ensaio com leitor de tela.
+
+Variantes temporárias aplicaram espaçamento de texto, tamanho de fonte e as cores do tema escuro.
+Essas variantes não adicionaram scripts e foram removidas após os ensaios.
+O tema escuro foi aplicado pelas mesmas regras CSS, sem alterar a preferência do sistema.
+A ampliação de texto usou fonte raiz de 32 pixels, contra 16 pixels na apresentação normal.
+Isso não equivale ao zoom nativo do navegador.
+
+## Resultados
+
+| Ensaio | Resultado e limite |
+| --- | --- |
+| HTML, Nu Html Checker W3C | Zero erros nas duas páginas. Principal: 21 avisos. Galeria: zero avisos. |
+| CSS, serviço W3C, perfil CSS3 | Válido, zero erros e 16 avisos. A primeira requisição POST falhou no serviço. A requisição GET concluiu a validação. |
+| Referências locais | 26 na principal e 72 na galeria, sem destinos ou âncoras inválidos. Inclui CSS, favicon, troca de idioma e variantes de imagem. |
+| Teclado | Tab percorreu todos os controles nas duas páginas e retornou ao início, sem armadilha observada. Shift+Tab foi amostrado. |
+| Link de salto | Enter transferiu o foco para `main` nas duas páginas. |
+| Cursos | Enter e Espaço alternaram o controle nativo. Os 17 cursos apareceram ao abrir. |
+| Foco | Os controles percorridos apresentaram contorno sólido. O link de salto exibiu contorno de três pixels. Não houve sobreposição fixa observada. |
+| Tela estreita | Largura de 320 pixels, com largura de conteúdo de 305 pixels nas duas páginas. Sem rolagem horizontal. |
+| Paisagem | Largura de 640 pixels e altura de 320 pixels. Conteúdo com largura de 625 pixels nas duas páginas. |
+| Texto ampliado | Fonte raiz a 200%, largura de 320 pixels. Sem rolagem horizontal. A principal também foi examinada com cursos abertos. |
+| Espaçamento WCAG | Altura de linha 1,5, parágrafos 2em, letras 0,12em e palavras 0,16em. Nenhuma caixa textual excedeu sua largura disponível. |
+| Tema escuro | Cores esperadas renderizadas nas duas páginas, sem excesso de largura. Não foi testada a mudança da preferência do sistema. |
+| Fotografias | As nove fotos abriram por Enter, carregaram e permitiram retornar à galeria. Imagens com carregamento tardio não foram tratadas como falhas. |
+| Alvos da galeria | Navegação e troca de idioma mediram pelo menos 24 pixels por dimensão. Os nove links de foto excederam esse mínimo. |
+| Cinco idiomas | Páginas principais abriram a 1280 pixels, com `lang` esperado, um `h1` e sem excesso de largura. Inspeção de regressão limitada. |
+| CSS e scripts | Cinco CSS idênticos. Nenhum script ou evento próprio nas duas páginas auditadas. |
+
+Os avisos HTML apontam `role="list"` redundante em listas nativas.
+Esses atributos foram preservados pela justificativa de compatibilidade registrada na auditoria anterior.
+Os avisos CSS tratam da extensão `-webkit-text-size-adjust` e de variáveis não avaliadas estaticamente pelo serviço.
+A validação de sintaxe não comprova acessibilidade.
+Os contrastes calculados anteriormente continuam associados ao mesmo CSS. Não foram recalculados nesta rodada.
+
+## Evidências
+
+- [Saída do validador HTML](validacao-html-pt-br-2026-10-12.json).
+- [Saída do validador CSS](validacao-css-pt-br-2026-10-12.xml).
+- [Percursos, medidas, fotos e hashes](testes-navegador-pt-br-2026-10-12.json).
+- [Galeria com tema escuro a 320 pixels](evidencias-wcag-2026-10-12/galeria-escuro-320.png).
+- [Principal com fonte a 200% e largura de 320 pixels](evidencias-wcag-2026-10-12/principal-texto-200-320.png).
+
+## Limites da conclusão
+
+O atalho de zoom não alterou a largura CSS nem a escala observável no navegador disponível.
+O zoom nativo a 200% e 400% permanece pendente.
+Também permanecem pendentes os ensaios com leitor de tela, Safari com VoiceOver, impressão e preferência real de movimento reduzido.
+Faltam cancelamento de ponteiro, percurso inverso completo e inspeção visual de cada indicador de foco nos dois temas.
+As medidas de alvos desta rodada cobrem a galeria, não todos os links da principal.
+As capturas mostram trechos das páginas, não cada estado ou região.
+
+Os resultados complementam critérios de teclado, salto, reorganização, espaçamento e finalidade dos links.
+A matriz de código abaixo preserva os resultados e limites da avaliação inicial.
+Esta rodada não emite declaração formal de conformidade WCAG.
+
+## Repetir a verificação
+
+Execute os comandos na raiz do repositório. Use Python disponível no ambiente.
+
+```sh
+git status --short
+git rev-parse HEAD
+python3 -m http.server 8001 --bind 127.0.0.1 --directory static
+```
+
+No Windows, substitua `python3` pelo executável Python instalado, se necessário.
+Se a porta estiver ocupada, escolha outra porta.
+
+1. Abra `http://127.0.0.1:8001/pt-BR/`.
+2. Abra `http://127.0.0.1:8001/pt-BR/galeria.html`.
+3. Registre data, commit, sistema, navegador, versão e tecnologia assistiva.
+4. Envie cada HTML ao [Nu Html Checker W3C](https://validator.w3.org/nu/).
+5. Envie `static/pt-BR/styles.css` ao [validador CSS W3C](https://jigsaw.w3.org/css-validator/).
+6. Preserve as respostas dos validadores junto aos hashes dos arquivos examinados.
+7. Percorra cada página com Tab e Shift+Tab.
+8. Ative o link inicial com Enter.
+9. Confirme o foco no conteúdo principal.
+10. Alterne os cursos com Enter e Espaço.
+11. Abra cada fotografia com Enter.
+12. Retorne à galeria pelo comando Voltar.
+13. Confira nomes, funções, listas, títulos e estados com leitor de tela.
+14. Confira o foco em cada controle, incluindo as bordas da tela.
+15. Confira largura de 320 pixels CSS.
+16. Confira uma tela de 640 por 320 pixels CSS.
+17. Amplie o texto a 200%.
+18. Aplique zoom nativo de 400% em uma janela de 1280 pixels CSS.
+19. Confira temas claro e escuro com a preferência real do sistema.
+20. Ative a preferência de movimento reduzido.
+21. Meça os alvos e examine as exceções do critério 2.5.8.
+22. Pressione um link e solte o ponteiro fora dele.
+23. Confirme que o cancelamento não ativa o link.
+24. Imprima a principal com os cursos fechados e abertos.
+25. Confirme a presença do TOEIC nos dois estados.
+26. Imprima a galeria e examine cortes de imagens e legendas.
+27. Abra as cinco versões de idioma.
+28. Confira CSS, favicon, links relativos, âncoras e troca de idioma.
+
+Para testar espaçamento, aplique este CSS somente em uma cópia temporária ou nas ferramentas do navegador.
+
+```css
+* {
+  line-height: 1.5 !important;
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+p { margin-bottom: 2em !important; }
+```
+
+Use `:root { font-size: 200%; }` para repetir a simulação de fonte ampliada.
+Registre essa simulação separadamente do zoom nativo.
+Não publique regras de teste nem acrescente scripts ao site.
+
+Se houver alteração no CSS, recalcule os contrastes dos dois temas.
+Use luminância relativa sRGB e a fórmula `(L1 + 0,05) / (L2 + 0,05)`.
+Compare texto comum com 4,5:1 e indicadores relevantes com 3:1.
+Confira os critérios aplicáveis na recomendação WCAG citada neste relatório.
+
+Ao terminar, remova as cópias temporárias.
+Encerre o servidor com Ctrl+C.
+Execute `git diff --check`.
+Revise `git diff` e `git status --short`.
+Registre falhas, resultados e testes não executados.
+Só declare conformidade integral após reunir evidências suficientes para todos os requisitos aplicáveis.
+
+## Matriz e verificações de código de origem
+
+Esta seção descreve a avaliação anterior à versão `d7aebe2`.
+Suas contagens e estados não representam uma nova auditoria integral da versão atual.
+A principal ganhou quatro links e mudou a ordem das subcategorias.
+Os resultados atuais de navegador e validação estão nas seções anteriores.
+
+### Referência normativa
 
 A referência é a [recomendação WCAG 2.2 de 12 de dezembro de 2024](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html).
 A [versão oficial datada](https://www.w3.org/TR/2024/REC-WCAG22-20241212/) identifica a mesma recomendação.
@@ -34,7 +259,7 @@ A matriz abaixo cobre os 55 critérios desses níveis na WCAG 2.2.
 O critério 4.1.1 foi removido dessa versão e não integra a matriz.
 Os nomes em português são rótulos descritivos. Os links levam ao texto normativo em inglês.
 
-## Método e limites
+### Método e limites
 
 A avaliação combinou leitura do HTML e CSS, inspeção das nove fotografias e verificações locais com Python.
 As verificações examinaram referências, âncoras, estrutura explícita, idiomas, cursos, datas, variantes de imagem e contrastes declarados.
@@ -51,7 +276,7 @@ A galeria usa essas fotos como registros profissionais, sem apresentar uma anál
 O texto incidental de placas e telas não substitui informações textuais do currículo.
 A abertura de JPEG depende do visualizador do navegador. A descrição e a legenda permanecem na galeria.
 
-## Correções e melhorias aplicadas
+### Correções e melhorias aplicadas
 
 | Registro | Condição anterior | Alteração | Critérios relacionados |
 | --- | --- | --- | --- |
@@ -72,7 +297,7 @@ Antes de imprimir os cursos, abra essa seção.
 Os dados do TOEIC não dependem mais do estado desse controle.
 A confirmação do resultado impresso permanece pendente.
 
-## Resultados das verificações locais
+### Resultados das verificações locais
 
 | Verificação | Página principal | Galeria |
 | --- | --- | --- |
@@ -99,7 +324,7 @@ Isso não equivale a uma validação formal do HTML Living Standard.
 Os cinco arquivos CSS são idênticos por SHA-256.
 O comando `git diff --check` não apontou erros de espaçamento.
 
-## Contraste das cores declaradas
+### Contraste das cores declaradas
 
 Os valores abaixo foram arredondados somente para apresentação.
 Os limites foram comparados com os resultados completos, preservados no arquivo de evidências.
@@ -120,7 +345,7 @@ O destaque do foco tem contraste calculado suficiente contra os fundos declarado
 Sua visibilidade efetiva, geometria e relação com as fotografias ainda exigem inspeção no navegador.
 O cálculo não avaliou cores introduzidas por extensões, recursos externos ou modos personalizados do usuário.
 
-## Matriz dos critérios A e AA
+### Matriz dos critérios A e AA
 
 - **V**: verificado pelas evidências descritas, dentro dos limites desta avaliação.
 - **P**: há evidência de código, mas falta confirmação comportamental, visual ou com tecnologia assistiva.
@@ -137,7 +362,7 @@ O cálculo não avaliou cores introduzidas por extensões, recursos externos ou 
 Essas contagens não representam uma porcentagem de conformidade.
 Cada critério aplicável deve ser atendido para demonstrar o nível AA.
 
-### Perceptível
+#### Perceptível
 
 | Critério | Nível | Principal | Galeria | Evidência ou pendência |
 | --- | --- | --- | --- | --- |
@@ -162,7 +387,7 @@ Cada critério aplicável deve ser atendido para demonstrar o nível AA.
 | [1.4.12 Espaçamento de texto](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#text-spacing) | AA | P | P | Sem alturas fixas para conteúdo textual. Falta aplicar os quatro valores normativos no navegador. |
 | [1.4.13 Conteúdo em foco ou apontamento](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#content-on-hover-or-focus) | AA | NA | NA | Nenhum conteúdo adicional aparece somente em foco ou apontamento. |
 
-### Operável
+#### Operável
 
 | Critério | Nível | Principal | Galeria | Evidência ou pendência |
 | --- | --- | --- | --- | --- |
@@ -187,7 +412,7 @@ Cada critério aplicável deve ser atendido para demonstrar o nível AA.
 | [2.5.7 Arrastar](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#dragging-movements) | AA | NA | NA | Sem funções que exigem arrastar. |
 | [2.5.8 Tamanho mínimo dos alvos](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#target-size-minimum) | AA | P | P | Navegação com mínimos de 24 pixels. Fotos em bloco e links textuais em linha. Falta medir alvos e exceções renderizados. |
 
-### Compreensível
+#### Compreensível
 
 | Critério | Nível | Principal | Galeria | Evidência ou pendência |
 | --- | --- | --- | --- | --- |
@@ -205,14 +430,14 @@ Cada critério aplicável deve ser atendido para demonstrar o nível AA.
 | [3.3.7 Entrada redundante](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#redundant-entry) | A | NA | NA | Sem processo de entrada de dados. |
 | [3.3.8 Autenticação acessível](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#accessible-authentication-minimum) | AA | NA | NA | Sem autenticação. |
 
-### Robusto
+#### Robusto
 
 | Critério | Nível | Principal | Galeria | Evidência ou pendência |
 | --- | --- | --- | --- | --- |
 | [4.1.2 Nome, função e valor](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#name-role-value) | A | P | P | Controles e links nativos. Falta confirmar nomes, funções e estado expandido com tecnologia assistiva. |
 | [4.1.3 Mensagens de estado](referencias/w3c/wcag-2.2-recomendacao-2024-12-12.html#status-messages) | AA | NA | NA | Sem mensagens de estado dinâmicas. O estado do controle recolhível pertence ao critério 4.1.2. |
 
-## Avaliação dos requisitos de conformidade
+### Avaliação dos requisitos de conformidade
 
 | Requisito da seção 5.2 | Resultado desta avaliação |
 | --- | --- |
@@ -227,37 +452,10 @@ Ela não emite certificação, selo ou declaração formal de conformidade WCAG.
 Uma declaração posterior deve identificar data, páginas, versão WCAG, nível alcançado e tecnologias utilizadas.
 Ela só pode ser emitida após reunir evidências suficientes para os requisitos aplicáveis.
 
-## Procedimento para concluir a avaliação
 
-Se o ambiente permitir abrir sockets, execute na raiz do repositório:
+## Consolidação dos registros
 
-```sh
-python3 -m http.server 8001 --bind 127.0.0.1 --directory static
-```
-
-Abra `http://127.0.0.1:8001/pt-BR/`.
-Abra também `http://127.0.0.1:8001/pt-BR/galeria.html`.
-Registre navegador, sistema, tecnologia assistiva, versões e data de cada ensaio.
-
-| Ensaio pendente | Procedimento | Resultado necessário |
-| --- | --- | --- |
-| Teclado e foco | Percorra cada página com Tab e Shift+Tab. Ative links com Enter. Alterne os cursos com Enter e Espaço. | Ordem lógica, foco visível e ausência de armadilhas. |
-| Link de salto | Ative o primeiro link de cada página. | O foco e a próxima posição de navegação passam ao conteúdo principal. |
-| Fotos e retorno | Abra cada foto pelo teclado. Retorne com o comando de voltar do navegador. | Imagem disponível e retorno utilizável à galeria. |
-| Leitor de tela | Percorra títulos, listas, regiões e links. Alterne o controle dos cursos. | Estrutura compreensível, nomes úteis e anúncio dos estados aberto e fechado. |
-| Tecnologia assistiva adicional | Confira listas sem marcadores no Safari com VoiceOver. | Experiência, habilidades e contato continuam anunciados como listas. |
-| Redimensionamento | Amplie o texto a 200%. | Nenhum texto ou controle perde conteúdo ou função. |
-| Reorganização | Teste largura de 320 pixels CSS. Teste zoom a 400% em uma janela de 1280 pixels CSS. | Sem rolagem horizontal do conteúdo nem perda de informação. |
-| Orientação | Alterne retrato e paisagem em tela pequena. | Todo o conteúdo permanece disponível. |
-| Espaçamento de texto | Aplique altura de linha de 1,5 e distância entre parágrafos de duas vezes o tamanho da fonte. | Nenhum texto ou controle fica cortado. |
-| Espaçamento entre caracteres | Aplique espaçamento de letras de `0.12em` e de palavras de `0.16em`, junto aos valores anteriores. | Todo o conteúdo e todos os controles continuam utilizáveis. |
-| Temas e contraste visual | Confira temas claro e escuro, incluindo apontamento e foco sobre cada foto. | Texto e indicadores mantêm os contrastes exigidos e o foco permanece identificável. |
-| Alvos e cancelamento | Meça os alvos renderizados. Confira as exceções de 2.5.8. Pressione um link, afaste o ponteiro e solte. | Alvos atendem ao mínimo ou à exceção. Não há ativação involuntária ao cancelar. |
-| Movimento reduzido | Ative a preferência de movimento reduzido. | A rolagem suave e o deslocamento decorativo dos botões são desativados. |
-| Impressão complementar | Imprima a principal com os cursos fechados e abertos. Imprima a galeria. | TOEIC sempre presente. Cursos presentes quando abertos. Conteúdo e fotos sem cortes indevidos. |
-| Validação e regressão | Execute um validador HTML/CSS. Abra as páginas que compartilham o CSS nos outros idiomas. | Nenhum problema novo de estrutura, recursos ou apresentação. |
-
-Para rastrear a versão auditada, compare os hashes do arquivo de evidências com os arquivos atuais.
-Registre uma evidência por ensaio, com captura, saída da ferramenta ou descrição observada.
-Se houver falha, corrija a página e repita os ensaios afetados.
-Depois, atualize a matriz e a avaliação dos requisitos de conformidade.
+Este relatório substitui os relatórios separados de auditoria e testes complementares.
+As evidências originais foram preservadas com sua data, método e versão.
+O arquivo de pendências foi removido por decisão do responsável.
+A remoção desse arquivo não transforma testes não executados em resultados aprovados.
