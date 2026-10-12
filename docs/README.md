@@ -7,6 +7,8 @@ A adaptação como modelo ainda não foi implementada.
 
 ## Índice
 
+- [Auditoria WCAG 2.2 — 2026-10-12](auditoria-wcag-pt-br-2026-10-12.md): pt-BR, página principal e galeria. Correções, matriz de critérios e limites da conformidade.
+- [Evidências da auditoria WCAG — 2026-10-12](auditoria-wcag-pt-br-2026-10-12.json): verificações locais, contrastes e integridade dos arquivos auditados.
 - [Histórico de desenvolvimento — 2026-10-10](historico-de-desenvolvimento-2026-10-10.md): decisões e entregas até esta revisão.
 - [Histórico de desenvolvimento — 2026-10-09](historico-de-desenvolvimento-2026-10-09.md): registro detalhado das primeiras etapas.
 - [Avaliação do desenvolvimento — 2026-10-10](avaliacao-do-desenvolvimento-2026-10-10.md): ações, escolhas, limites e recomendações.
