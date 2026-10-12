@@ -192,6 +192,256 @@
           "sha256": "d03cb78427645c53bebd6abe6f2add27d6cd29eccee71f973026a51fcd6d03be"
         }
       ]
+    },
+    {
+      "base": "central-de-alarme",
+      "source_file": "1-IMG-20260911-WA0043.jpg",
+      "original_width": 720,
+      "original_height": 1280,
+      "original_bytes": 140445,
+      "original_sha256": "6f4b3743806c2d20ed989e7ba32eab18ee5577b232eecb4993b7786ade9725e5",
+      "variants": [
+        {
+          "file": "central-de-alarme-640.webp",
+          "width": 640,
+          "height": 1138,
+          "bytes": 94210,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 32.92,
+          "sha256": "71f72e1fd35ea2a3a66971d987c70b63cfb22cb7803eefca87f5bef804c027b2"
+        },
+        {
+          "file": "central-de-alarme-640.jpg",
+          "width": 640,
+          "height": 1138,
+          "bytes": 119128,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 15.18,
+          "sha256": "6183685f329dbf2114eedcbb8850c2f86aa295c5e9a7c1ae420321c2100ebfab"
+        },
+        {
+          "file": "central-de-alarme-1280.webp",
+          "width": 720,
+          "height": 1280,
+          "bytes": 120434,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 14.25,
+          "sha256": "0c0e92722df65745a8bf3bcd83adae36d69316e886642854e96ee868bc0daf16"
+        },
+        {
+          "file": "central-de-alarme-1280.jpg",
+          "width": 720,
+          "height": 1280,
+          "bytes": 140156,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 0.21,
+          "sha256": "7382755a7c81a6ee7a07b2d171747e431d1c28d7bf5558176cc2125a5dc0d9ec"
+        }
+      ]
+    },
+    {
+      "base": "splitters-opticos",
+      "source_file": "2-IMG-20260914-WA0016.jpg",
+      "original_width": 1280,
+      "original_height": 710,
+      "original_bytes": 119952,
+      "original_sha256": "7a05fff6331f19881aa5e489ef6535e7bbf21d662c55c9ef70e67a8c1f4dae3a",
+      "variants": [
+        {
+          "file": "splitters-opticos-640.webp",
+          "width": 640,
+          "height": 355,
+          "bytes": 25026,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 79.14,
+          "sha256": "8b0f229f02a422fce5ff11d5e2cb25ca20ad00030bdc06cac217f8701e726eaa"
+        },
+        {
+          "file": "splitters-opticos-640.jpg",
+          "width": 640,
+          "height": 355,
+          "bytes": 35826,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 70.13,
+          "sha256": "bace93212877e265e964ed732ddfaa67a23bd6152e74a4bca84ba96ab724f413"
+        },
+        {
+          "file": "splitters-opticos-1280.webp",
+          "width": 1280,
+          "height": 710,
+          "bytes": 85372,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 28.83,
+          "sha256": "13f0526060c93ce42a94c0e5ec5e41084c970545fe16ce1324125dcbb9398f6d"
+        },
+        {
+          "file": "splitters-opticos-1280.jpg",
+          "width": 1280,
+          "height": 710,
+          "bytes": 119180,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 0.64,
+          "sha256": "fea934edd5126aaf5939a755d7e5ffe46b199623e93706b8d18f6c60ec619087"
+        }
+      ]
+    },
+    {
+      "base": "otdr-maxprint",
+      "source_file": "3-IMG-20260916-WA0031.jpg",
+      "original_width": 1280,
+      "original_height": 720,
+      "original_bytes": 69473,
+      "original_sha256": "9431cef57ce7fec29573de6e7ea2a97be522fe4e1997b263109ed12430eb1333",
+      "variants": [
+        {
+          "file": "otdr-maxprint-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 15264,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 78.03,
+          "sha256": "987fc0807dc7599d726fa921a183d1be94e13fcbd258fa12056c0b05546c0e76"
+        },
+        {
+          "file": "otdr-maxprint-640.jpg",
+          "width": 640,
+          "height": 360,
+          "bytes": 25498,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 63.3,
+          "sha256": "96f51809c6b453baa841cb90d5d0293d573cb4917491db44d3f641039d4e35d1"
+        },
+        {
+          "file": "otdr-maxprint-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 48112,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 30.75,
+          "sha256": "3283ee68798659710d87499ea7c68d42b0debeeabe606c2617e6efe3e9f2b4af"
+        },
+        {
+          "file": "otdr-maxprint-1280.jpg",
+          "width": 1280,
+          "height": 720,
+          "bytes": 68937,
+          "format": "jpg",
+          "quality": 72,
+          "saving_percent_vs_original": 0.77,
+          "sha256": "b8d8b48c7b484deb812b5cabfe162868171849b70f88de2ce8dc7ce9c0cd2d03"
+        }
+      ]
+    },
+    {
+      "base": "rede-aerea-rural",
+      "source_file": "4-IMG-20260918-WA0064.jpg",
+      "original_width": 960,
+      "original_height": 1280,
+      "original_bytes": 348606,
+      "original_sha256": "1c86a2c902a150f59c7b4eefe7c64767f0dd4ae113e489fad1565cc55555907d",
+      "variants": [
+        {
+          "file": "rede-aerea-rural-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 159692,
+          "format": "webp",
+          "quality": 70,
+          "saving_percent_vs_original": 54.19,
+          "sha256": "ae2dfd646881a8f62826563fd65be81ec35858dc8af1039e99ab9e693454ee86"
+        },
+        {
+          "file": "rede-aerea-rural-640.jpg",
+          "width": 640,
+          "height": 853,
+          "bytes": 176062,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 49.5,
+          "sha256": "004e82086d6edcddabeebbb495081bc483a9087524719b232e501a04032e75c1"
+        },
+        {
+          "file": "rede-aerea-rural-1280.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 327156,
+          "format": "webp",
+          "quality": 70,
+          "saving_percent_vs_original": 6.15,
+          "sha256": "99e6d5108ea1875a2247b0ff9dae6ae0f091b412793cb46b9749427a079abb05"
+        },
+        {
+          "file": "rede-aerea-rural-1280.jpg",
+          "width": 960,
+          "height": 1280,
+          "bytes": 345010,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 1.03,
+          "sha256": "3d5cb38256ad9031a5e9c476784edb946dda887d4c3160c3d48e24695b4b1565"
+        }
+      ]
+    },
+    {
+      "base": "rede-aerea-urbana-2",
+      "source_file": "5-IMG-20260925-WA0011.jpg",
+      "original_width": 1280,
+      "original_height": 720,
+      "original_bytes": 178186,
+      "original_sha256": "6175cc003821cfc45259e1e0eaec56bc9f0eab4538bd5871be4afcf2d24be5f5",
+      "variants": [
+        {
+          "file": "rede-aerea-urbana-2-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 51502,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 71.1,
+          "sha256": "298af5c7c0f41c01c253e9ff13ac7bd4102880bc9bc21c699553be343586cc4e"
+        },
+        {
+          "file": "rede-aerea-urbana-2-640.jpg",
+          "width": 640,
+          "height": 360,
+          "bytes": 56718,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 68.17,
+          "sha256": "aeef8bf29cb341c971df736aea2b8c04017912e488620098baaa03d4451615ca"
+        },
+        {
+          "file": "rede-aerea-urbana-2-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 156504,
+          "format": "webp",
+          "quality": 78,
+          "saving_percent_vs_original": 12.17,
+          "sha256": "1019ef54394b501cd34314f8d4c6d3a0fb780fada667c84a37309a77d58ba679"
+        },
+        {
+          "file": "rede-aerea-urbana-2-1280.jpg",
+          "width": 1280,
+          "height": 720,
+          "bytes": 177026,
+          "format": "jpg",
+          "quality": 76,
+          "saving_percent_vs_original": 0.65,
+          "sha256": "e326058a89a107081cd9c1066ab53a4d7bf69bda7a32e691719d1af2adb0c9c4"
+        }
+      ]
     }
   ]
 }
