@@ -399,10 +399,17 @@ p {
   margin: 1.5rem 0;
 }
 
-.course-list h4 {
+.course-list h4,
+.course-list h6 {
   font-family: var(--font-mono);
   font-size: 1rem;
   margin: 0 0 0.5rem;
+}
+
+.course-group {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.5rem;
 }
 
 .photo-gallery {
