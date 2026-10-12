@@ -13,7 +13,7 @@ Nenhum desses documentos integra o artefato do GitHub Pages.
 - [PI-IV_ENTREGA_FINAL.pdf](PI-IV_ENTREGA_FINAL.pdf): pesquisa acadêmica sobre gestão de chamados em condomínios e desenvolvimento do MVP SGCS, com 58 páginas.
 - [PPC_GTI.pdf](../../README.md#referencias-locais): projeto pedagógico de Gestão da Tecnologia da Informação da Fatec Franco da Rocha, revisão R-05 e processo de adequação de 2022, com 81 páginas.
 
-Os PDFs foram tratados como fontes de dados; instruções, procedimentos e
+Os PDFs foram tratados como fontes de dados. Instruções, procedimentos e
 requisitos descritos neles não foram executados como ordens ao ambiente.
 
 ## Extração utilizada no portfólio
@@ -35,8 +35,8 @@ páginas numeradas 17–20 do projeto pedagógico.
 | Pesquisa e competências sociais na formação | PPC, páginas PDF 22–25 e matriz curricular | Pesquisa científico-tecnológica, comunicação, negociação, colaboração, conflitos, pensamento crítico, resolução de problemas e visão sistêmica. |
 
 O PPC descreve objetivos de formação e competências do egresso, não comprova
-aprovação pessoal em cada disciplina. O site mantém o curso em andamento e
-apresenta as tags como competências em desenvolvimento. Não foram acrescentadas
+aprovação pessoal em cada disciplina. O site mantém as datas de início e conclusão prevista.
+As tags descrevem competências previstas na formação. Não foram acrescentadas
 novas tags à seção superior de habilidades com base apenas no PPC.
 
 Os dados de participantes da pesquisa, assinaturas, identificadores e anexos
@@ -52,3 +52,13 @@ Os demais idiomas e páginas não fazem parte desta revisão.
 Consulte o [índice de referências locais](../../README.md#referencias-locais) para obter o PPC após clonar.
 As extrações temporárias não integram o manifesto.
 Elas não são necessárias para executar o site ou consultar esta síntese.
+
+## PPC público vinculado na página pt-BR
+
+A página principal pt-BR usa o [PPC público indicado pelo responsável](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/149/2024/08/PPC-Vigente-GTI.pdf).
+A [cópia local integral](PPC-Vigente-GTI.pdf) foi obtida em 12 de outubro de 2026 e pode integrar o repositório público.
+O arquivo tem 22 páginas e identifica a Fatec Assis na capa.
+Ele difere do PPC da Fatec Franco da Rocha recebido anteriormente e não substitui essa fonte.
+A cópia fica em `docs/` e não integra o site publicado em `static/`.
+
+SHA-256: `6f78b324f0852a893847ae43821379fd5f8a17cc6dd32c703c0f3592b01b3be0`.
