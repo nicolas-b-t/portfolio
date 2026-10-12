@@ -24,6 +24,11 @@ A empresa, o cargo e as datas foram informados pelo usuário.
 As funções são descrições gerais de PMO, solicitadas pelo usuário.
 Não foram atribuídos resultados, métricas, ferramentas ou certificações sem evidência.
 
+## Atualização confirmada
+
+Intercâmbio no IPMAIA — Instituto Politécnico da Maia, Portugal.
+Período: 2026 a 2027, confirmado pelo usuário.
+
 ## Currículo recebido — transcrição
 
 Idade: 29 anos, Telefone: (11) 94334-8071
