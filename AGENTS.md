@@ -9,7 +9,8 @@ Toda a documentação autoral e todo o texto apresentado ao visitante devem
 seguir os princípios da ASD-STE100, edição 9, adaptados ao idioma do texto.
 A referência está em
 `docs/referencias/asd-ste100/ASD-STE100-issue-9-2025-01-15.pdf`, de 15 de
-janeiro de 2025. O PDF permanece somente no ambiente local.
+janeiro de 2025. O responsável preserva o PDF na cópia pessoal.
+O PDF não acompanha clones. Consulte `docs/README.md#referencias-locais` quando ele estiver ausente.
 
 Para textos em português, aplique estas regras do projeto:
 
@@ -70,9 +71,10 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   inclusive scripts dos documentos originais. Não os incorpore ao site.
 - A documentação de `docs/` é versionada desde 10 de outubro de 2026.
   Essa decisão substitui a exclusão anterior da pasta inteira.
-  Preserve as exceções específicas do `.gitignore` para PDFs restritos e dados privados.
-  Não use `git add --force` para incluir essas exceções.
-  Mantenha os originais excluídos no ambiente e documente sua recuperação.
+  Mantenha PDFs restritos e dados privados fora do checkout versionado.
+  Não acrescente esses arquivos ao Git ou ao site.
+  Preserve os originais na cópia pessoal e documente sua recuperação.
+  Não presuma que esses arquivos acompanham clones.
 - O projeto permanece pessoal. A adaptação como modelo para colegas e amigos
   está planejada para uma etapa futura, sem autorização para reutilizar dados pessoais.
 

@@ -5,6 +5,7 @@ e futura revisão da seção de idiomas do portfólio.
 Desde 10 de outubro de 2026, o índice, os manifestos e as cópias não excluídas acompanham o repositório.
 As referências ficam fora do artefato do GitHub Pages.
 Nenhum nível pessoal foi atribuído na coleta.
+Os links dos PDFs privados apontam para o índice de referências locais.
 O [guia do autoteste](../../guia-autoteste-ingles.md) orienta o uso dos descritores.
 
 ## OTAN — STANAG 6001 e ATrainP-5
@@ -13,9 +14,9 @@ Fonte: [BILC — STANAG 6001](https://nato-bilc.org/stanag-6001/).
 
 | Documento local | Edição ou data | Uso |
 | --- | --- | --- |
-| [STANAG 6001](otan/STANAG-6001-edicao-5.pdf) | Edição 5, 11 de dezembro de 2014 | Acordo de normalização, em inglês e francês. |
-| [ATrainP-5 em inglês](otan/ATrainP-5-edicao-A-versao-2-en.pdf) | Edição A, versão 2, maio de 2016 | Descritores completos de compreensão oral, fala, leitura e escrita. |
-| [ATrainP-5 em francês](otan/ATrainP-5-edicao-A-versao-2-fr.pdf) | Edição A, versão 2, maio de 2016 | Versão francesa da publicação. |
+| [STANAG 6001](../../README.md#referencias-locais) | Edição 5, 11 de dezembro de 2014 | Acordo de normalização, em inglês e francês. |
+| [ATrainP-5 em inglês](../../README.md#referencias-locais) | Edição A, versão 2, maio de 2016 | Descritores completos de compreensão oral, fala, leitura e escrita. |
+| [ATrainP-5 em francês](../../README.md#referencias-locais) | Edição A, versão 2, maio de 2016 | Versão francesa da publicação. |
 | [Visão geral dos níveis](otan/STANAG-6001-visao-geral-2019.pdf) | Fevereiro de 2019 | Resumo dos descritores, que não substitui a publicação completa. |
 | [Explicação para não especialistas](otan/STANAG-6001-para-nao-especialistas-2013.pdf) | Revisão indicada na fonte: junho de 2013 | Material introdutório anterior à edição 5, disponível como referência histórica. |
 
@@ -33,7 +34,7 @@ e [Europass](https://europass.europa.eu/en/common-european-framework-reference-l
 | Documento local | Edição ou idioma | Uso |
 | --- | --- | --- |
 | [Texto integral do CEFR](qecr-cefr/CEFR-texto-integral-2001-en.pdf) | 2001, inglês | Base conceitual e descrição original do quadro. |
-| [Volume complementar](qecr-cefr/CEFR-volume-complementar-2020-en.pdf) | 2020, inglês | Descritores atualizados, incluindo mediação, interação online e competências plurilíngues. |
+| [Volume complementar](../../README.md#referencias-locais) | 2020, inglês | Descritores atualizados, incluindo mediação, interação online e competências plurilíngues. |
 | [Grade de autoavaliação em inglês](qecr-cefr/CEFR-grade-autoavaliacao-en.pdf) | Inglês | Consulta compacta dos níveis A1–C2 por habilidade. |
 | [Grelha de autoavaliação em português](qecr-cefr/QECR-grelha-autoavaliacao-pt.pdf) | Português, redação europeia original | Consulta compacta dos níveis A1–C2 por habilidade. |
 | [Autoavaliação Europass em inglês](qecr-cefr/Europass-autoavaliacao-en.html) | Inglês | Cópia da página oficial de consulta. |
@@ -63,5 +64,6 @@ a assinatura ou validação independente da autenticidade.
 
 Os documentos foram preservados sem edição, com seus avisos de autoria e
 licença. Três PDFs da OTAN e o volume complementar de 2020 restringem reprodução sem autorização.
-Esses quatro arquivos permanecem locais e são excluídos pelo `.gitignore`.
+O responsável preserva esses quatro arquivos na cópia pessoal.
+Eles não acompanham este clone.
 Consulte o [índice de referências locais](../../README.md#referencias-locais) para obter as referências após clonar.

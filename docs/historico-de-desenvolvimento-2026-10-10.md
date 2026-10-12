@@ -72,3 +72,20 @@
   - Pausamos o autoteste completo e documentamos seu plano e suas instruções de retomada.
   - Restabelecemos o versionamento de documentos com exceções para reprodução restrita e identificadores de terceiros.
   - Mantivemos o projeto pessoal e registramos a intenção futura de adaptá-lo como modelo.
+
+## Encerramento da investigação e limpeza do ambiente
+
+Em 10 de outubro de 2026, o responsável encerrou a investigação de acesso aos repositórios privados.
+O login independente foi concluído, mas os testes de acesso permaneceram bloqueados.
+O [registro de acesso](pendencias.md) reúne os resultados e os limites da autenticação intermediada.
+
+Removemos a configuração local de diagnóstico e as instruções antigas de retomada.
+Essa remoção não revoga a autorização concedida no GitHub.
+Removemos um currículo inglês duplicado e sua extração, com hashes iguais aos arquivos preservados.
+Atualizamos o inventário privado com o mapeamento dos arquivos removidos para os originais.
+Preservamos os arquivos de `/tmp` e os registros históricos.
+
+O responsável confirmou que os seis PDFs privados estão preservados na cópia pessoal.
+Eles não acompanham este clone.
+Atualizamos descrições e links de recuperação sem alterar os hashes de origem dos manifestos.
+Conferimos os arquivos restantes, os índices e as referências locais.

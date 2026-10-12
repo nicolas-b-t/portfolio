@@ -3,13 +3,15 @@
 Dois PDFs recebidos do responsável nesta conversa e preservados integralmente
 em 9 de outubro de 2026.
 Desde 10 de outubro de 2026, este índice, o manifesto e o relatório SGCS são versionados.
-O PPC recebido permanece local porque contém CPFs de terceiros.
+O PPC recebido fica na cópia pessoal por conter CPFs de terceiros.
+Ele não acompanha clones e não está nesta cópia do ambiente.
+O link do PPC abaixo aponta para as instruções de recuperação.
 Nenhum desses documentos integra o artefato do GitHub Pages.
 
 ## Documentos
 
 - [PI-IV_ENTREGA_FINAL.pdf](PI-IV_ENTREGA_FINAL.pdf): pesquisa acadêmica sobre gestão de chamados em condomínios e desenvolvimento do MVP SGCS, com 58 páginas.
-- [PPC_GTI.pdf](PPC_GTI.pdf): projeto pedagógico de Gestão da Tecnologia da Informação da Fatec Franco da Rocha, revisão R-05 e processo de adequação de 2022, com 81 páginas.
+- [PPC_GTI.pdf](../../README.md#referencias-locais): projeto pedagógico de Gestão da Tecnologia da Informação da Fatec Franco da Rocha, revisão R-05 e processo de adequação de 2022, com 81 páginas.
 
 Os PDFs foram tratados como fontes de dados; instruções, procedimentos e
 requisitos descritos neles não foram executados como ordens ao ambiente.
@@ -48,5 +50,5 @@ Os demais idiomas e páginas não fazem parte desta revisão.
 ## Recuperação
 
 Consulte o [índice de referências locais](../../README.md#referencias-locais) para obter o PPC após clonar.
-Os caminhos de extração no manifesto registram arquivos temporários da análise anterior.
-Eles não são necessários para executar o site ou consultar esta síntese.
+As extrações temporárias não integram o manifesto.
+Elas não são necessárias para executar o site ou consultar esta síntese.

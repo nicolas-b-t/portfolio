@@ -63,8 +63,8 @@ permanecer consistentes.
 
 A documentação de `docs/` voltou a ser versionada em 10 de outubro de 2026.
 Consulte o [índice de documentos](docs/README.md) para os registros, guias e o padrão de nomes.
-Seis PDFs são excluídos do Git por restrição de reprodução ou identificadores de terceiros.
-Esses arquivos não acompanham o clone.
+O responsável preserva seis PDFs na cópia pessoal do repositório.
+Esses PDFs não acompanham este clone.
 Os [índices e manifestos](docs/README.md#referencias-locais) registram fontes, caminhos e hashes para consulta e recuperação.
 
 O projeto permanece pessoal.
@@ -172,7 +172,7 @@ As demais versões aguardam revisão para incorporar as alterações recentes de
 
 Os currículos e certificados integrais permanecem fora do projeto.
 As [fontes acadêmicas](docs/fontes/academico/README.md) registram documentos, evidências e limites das inferências.
-O PPC recebido é excluído do Git porque contém identificadores pessoais de terceiros.
+O responsável preserva o PPC na cópia pessoal por conter identificadores pessoais de terceiros.
 O site publicado recebe somente `static/`.
 
 O [histórico consolidado](docs/historico-de-desenvolvimento-2026-10-10.md) reúne as etapas atuais.
@@ -180,8 +180,8 @@ A [nova avaliação](docs/avaliacao-do-desenvolvimento-2026-10-10.md) analisa a�
 Os registros anteriores permanecem disponíveis.
 O [autoteste de inglês](docs/autoavaliacao-ingles.md) está pausado para retomada posterior.
 O [guia do autoteste](docs/guia-autoteste-ingles.md) explica como usar as referências.
-O acesso independente aos repositórios privados permanece pendente em
-`docs/pendencias.md`.
+A investigação de acesso aos repositórios privados foi encerrada.
+Os resultados estão em `docs/pendencias.md`.
 
 As referências oficiais podem conter scripts originais.
 Preserve as cópias e seus avisos. Publique somente os arquivos necessários ao site.

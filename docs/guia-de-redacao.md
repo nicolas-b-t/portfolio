@@ -2,7 +2,8 @@
 
 Este guia aplica os princípios da ASD-STE100, edição 9, aos textos do projeto.
 As regras completas do projeto estão em [AGENTS.md](../AGENTS.md).
-A referência inglesa permanece local por restrição de reprodução.
+O responsável preserva a referência inglesa na cópia pessoal por restrição de reprodução.
+Ela não acompanha clones.
 Consulte [a fonte e as condições](referencias/asd-ste100/README.md).
 
 ## Escrever e revisar

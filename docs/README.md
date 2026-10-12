@@ -14,7 +14,7 @@ A adaptação como modelo ainda não foi implementada.
 - [Plano e resultados do autoteste](autoavaliacao-ingles.md): estado da avaliação e amostras recebidas.
 - [Guia do autoteste](guia-autoteste-ingles.md): instruções para retomar a avaliação.
 - [Guia de redação](guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
-- [Pendências](pendencias.md): atividades futuras e requisitos de acesso.
+- [Pendências e acesso](pendencias.md): atividades futuras e resultados da investigação encerrada.
 - [Otimização de imagens](otimizacao-imagens.json): dimensões, tamanhos e integridade das variantes.
 - [Referências W3C](referencias/w3c/README.md): acessibilidade e licenças.
 - [Referência ASD-STE100](referencias/asd-ste100/README.md): redação técnica e obtenção da cópia local.
@@ -44,8 +44,9 @@ O GitHub Pages continua recebendo somente `static/`.
 Versionar um documento não o adiciona às páginas do currículo.
 Documentos versionados podem ser consultados e baixados diretamente no GitHub.
 
-Alguns PDFs são excluídos do Git por restrição de reprodução ou por conter identificadores de terceiros.
-O `.gitignore` define essas exceções específicas.
+O responsável preserva alguns PDFs na cópia pessoal por restrições de reprodução ou identificadores de terceiros.
+Esses PDFs não acompanham este clone.
+Mantenha esses arquivos fora do checkout versionado.
 Os manifestos preservam as fontes, os tamanhos e os hashes das cópias recebidas.
 Os arquivos originais não foram editados para esta publicação.
 Os currículos e certificados integrais permanecem fora do projeto.
@@ -56,7 +57,7 @@ Consulte os índices e manifestos abaixo para completar as referências locais.
 
 ## Referências locais
 
-Os seis PDFs excluídos não acompanham o clone.
+Os seis PDFs privados não acompanham o clone.
 Os índices identificam documentos e condições de uso.
 Os manifestos registram caminhos, fontes, tamanhos e hashes SHA-256.
 
@@ -68,4 +69,4 @@ Obtenha referências oficiais conforme suas condições de uso.
 Solicite ao responsável uma cópia autorizada do PPC.
 Salve cada arquivo no caminho registrado no manifesto.
 Compare seu tamanho e SHA-256 antes de usar a cópia.
-Preserve as exceções do `.gitignore`.
+Mantenha os PDFs privados fora do checkout versionado.

@@ -35,7 +35,7 @@ A revisão atual inclui toda a documentação autoral e somente
 
 Aplicamos as correções de acessibilidade somente às versões em `static/`.
 Os [históricos de desenvolvimento](../docs/README.md) registram as etapas e verificações realizadas.
-A documentação de `docs/` acompanha clones, com as exceções indicadas no `.gitignore`.
+A documentação de `docs/` acompanha clones. Os PDFs privados ficam na cópia pessoal.
 
 ## Conferir as páginas
 

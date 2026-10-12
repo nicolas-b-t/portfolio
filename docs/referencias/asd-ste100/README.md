@@ -33,11 +33,11 @@ parcial, à autorização escrita da ASD, com direitos especiais para as
 organizações e instituições enumeradas no documento. O vínculo do responsável
 como estudante não foi interpretado como autorização para redistribuição pública.
 
-Por isso, o PDF é destinado à consulta local e permanece ignorado pelo Git.
-A cópia não acompanha clones, commits ou pushes. Não acrescente o PDF
-ao versionamento ou à hospedagem sem confirmar autorização aplicável.
+O responsável preserva o PDF na cópia pessoal do projeto.
+O PDF não acompanha este clone.
+Não acrescente o PDF ao versionamento ou à hospedagem sem confirmar autorização aplicável.
 Desde 10 de outubro de 2026, este índice e o manifesto são versionados.
-A exclusão do PDF permanece específica no `.gitignore`.
+O PDF permanece na cópia pessoal, fora do checkout versionado.
 Consulte o [índice de referências locais](../../README.md#referencias-locais) após clonar.
 
 ## Fontes e atualização
