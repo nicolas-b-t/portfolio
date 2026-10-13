@@ -125,9 +125,10 @@ O [manifesto espanhol](ats/esco/manifesto-espanhol.json) registra a origem e os 
 3. Leia a definição no original quando o nome permitir interpretações diferentes.
 4. Distinga categoria, habilidade, ferramenta e qualificação.
 5. Escolha um nome que preserve o alcance real da atividade.
-6. Use a observação para ferramentas ou limitações necessárias.
-7. Mantenha detalhes específicos nas experiências, projetos ou formação.
-8. Registre a fonte e a justificativa antes de alterar o currículo.
+6. Use uma tecnologia, competência ou qualificação por tag.
+7. Reserve descritores para suporte técnico, fusão de fibra e inglês.
+8. Mantenha detalhes específicos nas experiências, projetos ou formação.
+9. Registre a fonte e a justificativa antes de alterar o currículo.
 
 Uma categoria abrangente deve continuar sustentada pelas atividades realizadas.
 Mantenha ferramentas e limitações quando forem necessárias para explicar o alcance da competência.
@@ -146,6 +147,7 @@ O CSV distingue triagem lexical, relações revisadas semanticamente e ausência
 Os CSVs e o manifesto da análise preservam a versão anterior à adequação dos termos.
 A [adequação posterior](../relatorio-adequacao-termos-ats-2026-10-13.md) foi autorizada e aplicada em 13 de outubro.
 O registro distingue rótulos oficiais, adaptação regional e atividades declaradas.
+A [organização posterior das tags](../relatorio-organizacao-tags-2026-10-13.md) registra conceitos consolidados, tecnologias separadas e repetições removidas.
 
 ### Recuperar os clones editoriais locais
 

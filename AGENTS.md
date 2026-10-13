@@ -33,9 +33,12 @@ Para textos em português, aplique estas regras do projeto:
   Descreva condições, fontes e limites quando forem necessários à compreensão.
 - Use pontos para separar frases. Evite ponto e vírgula na prosa.
   Preserve pontuação exigida por código, dados estruturados e citações.
-- Nas tags, mantenha “habilidade, observação”. Acrescente observações somente
-  quando necessárias. Use “e” para unir competências, sem barras ambíguas.
-  Preserve barras que integrem identificadores técnicos, como SC/APC e N1/N2.
+- Nas tags, use uma tecnologia, competência ou qualificação por item.
+  Separe conceitos independentes. Preserve nomes oficiais que formem uma unidade.
+  Mantenha o formato “habilidade, observação” somente para suporte técnico, fusão de fibra e inglês.
+  Essa organização foi autorizada pelo responsável em 13 de outubro de 2026.
+  Preserve outras limitações nas descrições e nos dados da formação.
+  Evite barras ambíguas. Preserve identificadores técnicos como SC/APC e N1/N2.
 - Preserve nomes oficiais, qualificações, datas, valores e contexto profissional.
   A revisão de texto não autoriza ampliar competências ou remover limitações.
 - Preserve documentos oficiais, fontes recebidas, licenças e citações literais.
@@ -131,8 +134,9 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 - Use caminhos relativos para recursos e páginas internas, de modo que o site
   possa ser servido em diferentes hospedagens e subdiretórios.
 - Nas competências, preserve as três categorias principais.
-  Organize as tags em subcategorias. Use o formato “habilidade, observação”.
-  Reserve observações para informações necessárias.
+  Organize as tags em subcategorias. Integre ferramentas colaborativas em gestão e produtividade.
+  Prefira um conceito abrangente quando as atividades comprovadas sustentarem esse conceito.
+  Remova repetições sem perder a atribuição pessoal, acadêmica ou da equipe.
   Preserve as qualificações aprovadas pelo responsável e a formação em andamento.
 - Preserve o funcionamento como arquivos estáticos, sem exigir backend,
   framework, gerenciador de pacotes ou etapa de build.

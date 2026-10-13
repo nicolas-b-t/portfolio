@@ -27,8 +27,10 @@ Consulte [a fonte e as condições](referencias/guia-de-uso.md#redação-asd-ste
 17. Use pontos para separar frases na prosa.
 18. Revise clareza e precisão manualmente.
 
-Nas tags, use “habilidade, observação”.
-Reserve a observação para informações necessárias.
+Nas tags, use uma tecnologia, competência ou qualificação por item.
+Separe conceitos independentes. Preserve nomes oficiais que formem uma unidade.
+Use “habilidade, observação” somente para suporte técnico, fusão de fibra e inglês.
+Preserve outras limitações nas descrições e nos dados da formação.
 Preserve identificadores técnicos como SC/APC e N1/N2.
 Nomes oficiais e identificadores exigem análise contextual na contagem de palavras.
 Uma contagem automática por espaços serve apenas para triagem.

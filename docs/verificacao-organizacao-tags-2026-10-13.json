@@ -1,0 +1,539 @@
+{
+  "data": "2026-10-13",
+  "javascript_do_site": false,
+  "paginas": [
+    {
+      "idioma": "pt-BR",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "altura_competencias": 2800,
+          "altura_documento": 11005,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-BR",
+          "altura_competencias": 1316,
+          "altura_documento": 6029,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "light",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "altura_competencias": 11076,
+          "altura_documento": 51445,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "dark",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "altura_competencias": 11076,
+          "altura_documento": 51445,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "idioma": "pt-PT",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "altura_competencias": 2851,
+          "altura_documento": 11053,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-PT",
+          "altura_competencias": 1385,
+          "altura_documento": 6098,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "light",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "altura_competencias": 11453,
+          "altura_documento": 52241,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "dark",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "altura_competencias": 11453,
+          "altura_documento": 52241,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "idioma": "en",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "altura_competencias": 2580,
+          "altura_documento": 10702,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "en",
+          "altura_competencias": 1316,
+          "altura_documento": 6010,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "light",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "altura_competencias": 10736,
+          "altura_documento": 50192,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "dark",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "altura_competencias": 10736,
+          "altura_documento": 50192,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "idioma": "es-419",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "altura_competencias": 2982,
+          "altura_documento": 11209,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-419",
+          "altura_competencias": 1385,
+          "altura_documento": 6128,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "light",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "altura_competencias": 11559,
+          "altura_documento": 52195,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "dark",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "altura_competencias": 11559,
+          "altura_documento": 52195,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "idioma": "es-ES",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "altura_competencias": 2982,
+          "altura_documento": 11209,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-ES",
+          "altura_competencias": 1385,
+          "altura_documento": 6128,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "light",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "altura_competencias": 11511,
+          "altura_documento": 52291,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        },
+        {
+          "tema": "dark",
+          "texto": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "altura_competencias": 11511,
+          "altura_documento": 52291,
+          "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+        }
+      ]
+    }
+  ],
+  "comparacoes": [
+    {
+      "idioma": "pt-BR",
+      "largura": 320,
+      "antes": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "pt-BR",
+        "altura_competencias": 3498,
+        "altura_documento": 11965,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "pt-BR",
+        "altura_competencias": 2800,
+        "altura_documento": 11005,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "pt-BR",
+      "largura": 1280,
+      "antes": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "pt-BR",
+        "altura_competencias": 1572,
+        "altura_documento": 6303,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "pt-BR",
+        "altura_competencias": 1316,
+        "altura_documento": 6029,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "pt-PT",
+      "largura": 320,
+      "antes": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "pt-PT",
+        "altura_competencias": 3524,
+        "altura_documento": 11987,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "pt-PT",
+        "altura_competencias": 2851,
+        "altura_documento": 11053,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "pt-PT",
+      "largura": 1280,
+      "antes": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "pt-PT",
+        "altura_competencias": 1547,
+        "altura_documento": 6277,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "pt-PT",
+        "altura_competencias": 1385,
+        "altura_documento": 6098,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "en",
+      "largura": 320,
+      "antes": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "en",
+        "altura_competencias": 3346,
+        "altura_documento": 11774,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "en",
+        "altura_competencias": 2580,
+        "altura_documento": 10702,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "en",
+      "largura": 1280,
+      "antes": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "en",
+        "altura_competencias": 1529,
+        "altura_documento": 6241,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "en",
+        "altura_competencias": 1316,
+        "altura_documento": 6010,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "es-419",
+      "largura": 320,
+      "antes": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "es-419",
+        "altura_competencias": 3593,
+        "altura_documento": 12126,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "es-419",
+        "altura_competencias": 2982,
+        "altura_documento": 11209,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "es-419",
+      "largura": 1280,
+      "antes": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "es-419",
+        "altura_competencias": 1590,
+        "altura_documento": 6352,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "es-419",
+        "altura_competencias": 1385,
+        "altura_documento": 6128,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "es-ES",
+      "largura": 320,
+      "antes": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "es-ES",
+        "altura_competencias": 3593,
+        "altura_documento": 12126,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 320,
+        "conteudo": 320,
+        "idioma": "es-ES",
+        "altura_competencias": 2982,
+        "altura_documento": 11209,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    {
+      "idioma": "es-ES",
+      "largura": 1280,
+      "antes": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "es-ES",
+        "altura_competencias": 1590,
+        "altura_documento": 6352,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      },
+      "depois": {
+        "viewport": 1280,
+        "conteudo": 1280,
+        "idioma": "es-ES",
+        "altura_competencias": 1385,
+        "altura_documento": 6128,
+        "fonte": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+      }
+    }
+  ],
+  "impressao": [
+    {
+      "idioma": "pt-BR",
+      "controle_aberto": false,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "pt-BR",
+      "controle_aberto": true,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "pt-PT",
+      "controle_aberto": false,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "pt-PT",
+      "controle_aberto": true,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "en",
+      "controle_aberto": false,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "en",
+      "controle_aberto": true,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "es-419",
+      "controle_aberto": false,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "es-419",
+      "controle_aberto": true,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "es-ES",
+      "controle_aberto": false,
+      "cursos_visiveis": 17
+    },
+    {
+      "idioma": "es-ES",
+      "controle_aberto": true,
+      "cursos_visiveis": 17
+    }
+  ],
+  "teclado": [
+    {
+      "idioma": "pt-BR",
+      "skip": {
+        "classe": "skip-link",
+        "outline": "solid"
+      },
+      "summary_foco": "solid",
+      "cursos_por_espaco": true,
+      "troca_idioma_por_enter": "en"
+    },
+    {
+      "idioma": "pt-PT",
+      "skip": {
+        "classe": "skip-link",
+        "outline": "solid"
+      },
+      "summary_foco": "solid",
+      "cursos_por_espaco": true,
+      "troca_idioma_por_enter": "en"
+    },
+    {
+      "idioma": "en",
+      "skip": {
+        "classe": "skip-link",
+        "outline": "solid"
+      },
+      "summary_foco": "solid",
+      "cursos_por_espaco": true,
+      "troca_idioma_por_enter": "pt-BR"
+    },
+    {
+      "idioma": "es-419",
+      "skip": {
+        "classe": "skip-link",
+        "outline": "solid"
+      },
+      "summary_foco": "solid",
+      "cursos_por_espaco": true,
+      "troca_idioma_por_enter": "en"
+    },
+    {
+      "idioma": "es-ES",
+      "skip": {
+        "classe": "skip-link",
+        "outline": "solid"
+      },
+      "summary_foco": "solid",
+      "cursos_por_espaco": true,
+      "troca_idioma_por_enter": "en"
+    }
+  ],
+  "falhas": [],
+  "navegador": "151.0.7922.34"
+}

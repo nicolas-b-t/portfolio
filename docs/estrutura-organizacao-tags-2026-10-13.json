@@ -1,0 +1,103 @@
+{
+  "data": "2026-10-13",
+  "paginas_html": 16,
+  "recursos_locais_distintos": 62,
+  "cursos": [
+    {
+      "idioma": "pt-BR",
+      "cursos": 17,
+      "copias_e_dados_preservados": true
+    },
+    {
+      "idioma": "pt-PT",
+      "cursos": 17,
+      "copias_e_dados_preservados": true
+    },
+    {
+      "idioma": "en",
+      "cursos": 17,
+      "copias_e_dados_preservados": true
+    },
+    {
+      "idioma": "es-419",
+      "cursos": 17,
+      "copias_e_dados_preservados": true
+    },
+    {
+      "idioma": "es-ES",
+      "cursos": 17,
+      "copias_e_dados_preservados": true
+    }
+  ],
+  "tags": [
+    {
+      "idioma": "pt-BR",
+      "tags": 105,
+      "conceitos_compostos": [],
+      "descritores": [
+        "Fusão de fibra óptica, aprendiz",
+        "ERP, N1",
+        "PDV, N1",
+        "Suporte Help Desk, N1",
+        "Suporte técnico hospitalar, N1/N2",
+        "Inglês, TOEIC Listening & Reading 910"
+      ]
+    },
+    {
+      "idioma": "pt-PT",
+      "tags": 105,
+      "conceitos_compostos": [],
+      "descritores": [
+        "Fusão de fibra ótica, aprendiz",
+        "Apoio Help Desk, N1",
+        "Apoio informático hospitalar, N1/N2",
+        "ERP, N1",
+        "POS, N1",
+        "Inglês, TOEIC Listening & Reading 910"
+      ]
+    },
+    {
+      "idioma": "en",
+      "tags": 105,
+      "conceitos_compostos": [],
+      "descritores": [
+        "Fibre-optic fusion splicing, learner",
+        "ERP support, L1",
+        "POS support, L1",
+        "Help Desk support, L1",
+        "Hospital IT support, L1/L2",
+        "English, TOEIC Listening & Reading 910"
+      ]
+    },
+    {
+      "idioma": "es-419",
+      "tags": 105,
+      "conceitos_compostos": [],
+      "descritores": [
+        "Empalme de fibra óptica por fusión, aprendiz",
+        "Soporte a ERP, N1",
+        "Soporte a POS, N1",
+        "Soporte Help Desk, N1",
+        "Soporte técnico hospitalario, N1/N2",
+        "Inglés, TOEIC Listening & Reading 910"
+      ]
+    },
+    {
+      "idioma": "es-ES",
+      "tags": 105,
+      "conceitos_compostos": [],
+      "descritores": [
+        "Empalme de fibra óptica por fusión, aprendiz",
+        "Soporte a ERP, N1",
+        "Soporte a POS, N1",
+        "Soporte Help Desk, N1",
+        "Soporte técnico hospitalario, N1/N2",
+        "Inglés, TOEIC Listening & Reading 910"
+      ]
+    }
+  ],
+  "css_sha256": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
+  "falhas": [],
+  "triagem_atomicidade": "Conjunções isoladas por espaços. Preserva identificadores NF-e e NFC-e e o nome oficial do TOEIC.",
+  "mudanca_css": "Somente impressão: impede a quebra interna da seção de contato."
+}

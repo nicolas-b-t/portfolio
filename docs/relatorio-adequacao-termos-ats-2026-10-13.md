@@ -3,6 +3,8 @@
 Data: 13 de outubro de 2026.
 Base: commit cc0cb6d, após a sincronização dos cinco idiomas.
 O responsável autorizou aplicar a adequação dos termos nesta etapa.
+Este relatório preserva a versão anterior à [organização das tags](relatorio-organizacao-tags-2026-10-13.md).
+O registro posterior documenta a compactação autorizada pelo responsável.
 
 ## Resultado
 

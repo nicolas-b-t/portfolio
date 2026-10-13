@@ -95,6 +95,7 @@ As verificações exigidas estão em [AGENTS.md](AGENTS.md#verificação-e-traba
 O [relatório final](docs/relatorio-final-verificacao-pt-br-2026-10-12.md) descreve os ensaios e suas evidências.
 O [relatório dos cinco idiomas](docs/relatorio-sincronizacao-idiomas-2026-10-13.md) registra a sincronização posterior de currículo, galeria e agradecimentos.
 O [relatório de adequação ATS](docs/relatorio-adequacao-termos-ats-2026-10-13.md) registra a nomenclatura aplicada nos cinco currículos.
+O [relatório de organização das tags](docs/relatorio-organizacao-tags-2026-10-13.md) registra a compactação posterior.
 WCAG 2.2 nível AA é o alvo. A conformidade integral ainda não foi demonstrada.
 
 ## Distribuição futura como template

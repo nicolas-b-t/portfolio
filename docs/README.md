@@ -13,6 +13,7 @@ Este índice aponta para instruções, insumos e evidências do projeto.
 | [Relatório de verificação](relatorio-final-verificacao-pt-br-2026-10-12.md) | Ensaios do site, resultados, limites e repetição |
 | [Sincronização dos cinco idiomas](relatorio-sincronizacao-idiomas-2026-10-13.md) | Conteúdo atualizado, verificações e limites da nova revisão |
 | [Adequação dos termos ATS](relatorio-adequacao-termos-ats-2026-10-13.md) | Nomenclatura aplicada nos cinco currículos, evidências e limites |
+| [Organização das tags](relatorio-organizacao-tags-2026-10-13.md) | Consolidação conceitual, tecnologias separadas e redução de repetições |
 
 As regras gerais permanecem no AGENTS.md da raiz.
 Os READMEs autorais locais foram incorporados ao guia consolidado.

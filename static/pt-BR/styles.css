@@ -528,6 +528,12 @@ p {
     padding-bottom: 0.75rem;
   }
 
+  #contato,
+  #contacto,
+  #contact {
+    break-inside: avoid;
+  }
+
   .courses-print {
     display: block;
   }
