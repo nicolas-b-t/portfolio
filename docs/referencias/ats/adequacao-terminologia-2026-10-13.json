@@ -1,0 +1,1511 @@
+{
+  "data": "2026-10-13",
+  "base_git": "cc0cb6d9564abecc87e2563d36f1221e35e934a9",
+  "autorizacao": "Adequar os termos escritos em cada idioma conforme os termos usados por ATS.",
+  "metodo": "Correspondências revisadas, definições locais, rótulos por URI e declarações confirmadas. Adaptação editorial à gramática regional.",
+  "limites": [
+    "Não demonstra o vocabulário interno de todo ATS ou um catálogo universal.",
+    "Não atribui competências por coincidência lexical.",
+    "Não converte cursos em experiência profissional ou qualificações estrangeiras.",
+    "Não converte uso das plataformas em administração corporativa.",
+    "Não executa parser ATS nem calcula pontuação.",
+    "Título, instituição, data e carga horária dos cursos permanecem preservados."
+  ],
+  "origens": {
+    "ESCO": "Comissão Europeia, ESCO v1.2.1. Licença CC BY 4.0 conforme avisos preservados.",
+    "O*NET": "O*NET 31.0 Database, USDOL/ETA. CC BY 4.0. Nomes de produtos, sem endosso das adaptações.",
+    "Solides": "Campos públicos de quatro vagas, conforme manifesto. Não é catálogo integral.",
+    "declaracoes": "Informações do responsável registradas em 12 de outubro de 2026."
+  },
+  "insumos": [
+    {
+      "arquivo": "docs/fontes/competencias-declaradas.json",
+      "sha256": "9c2cbc66aaa3e6bc0c2a1353b158f0eccecd2a50d20e4819aa6fb07f2121ede2"
+    },
+    {
+      "arquivo": "docs/referencias/ats/correspondencias-palavras-chave-2026-10-13.csv",
+      "sha256": "d41e4a912953df2bf7435228a31a8f3d2a9b832c54ae88505376d8892bcf987d"
+    },
+    {
+      "arquivo": "docs/referencias/ats/esco/skills_en.csv",
+      "sha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950"
+    },
+    {
+      "arquivo": "docs/referencias/ats/esco/dicionario-en-pt-es.csv",
+      "sha256": "8ea8af54708faa2c25c887d8f2d7d17b13be27e3fab51030898582577e50f29e"
+    },
+    {
+      "arquivo": "docs/referencias/ats/onet/dicionario-software.csv",
+      "sha256": "4a6db165ebb0b344cc769ce519264591d5b8f700f72e772bf6e2a85a70dbc1fb"
+    },
+    {
+      "arquivo": "docs/referencias/ats/solides/registros-publicos.json",
+      "sha256": "39aed30277d76e3dc185d03891d0cb83ebc51151efdbb88562a0e5b934a38ffd"
+    }
+  ],
+  "arquivos": [
+    {
+      "arquivo": "static/pt-BR/index.html",
+      "sha256_antes": "96182025ac7b3e5febfc437bbee844495abf7f1dc37c761440c6b75bd936cf18",
+      "sha256_depois": "513acd4889f48dd09fe2df44d9c4c28ea450518dc55fd4317a0f1787177a5123"
+    },
+    {
+      "arquivo": "static/pt-PT/index.html",
+      "sha256_antes": "4d657fac69aab70303696b98fd30bc0b0f372e23a3e1061e106abcc90ceba3e0",
+      "sha256_depois": "01fb167c07deeb36d07fe6c77468520f8685bb38b66b4177ebd5a509b2b355a5"
+    },
+    {
+      "arquivo": "static/en/index.html",
+      "sha256_antes": "93dbe565bbb01759971a541a87d2fb511bc7f571480eeab7e06dacc60919e400",
+      "sha256_depois": "5dba7fc52bf1a69d0a8522371be0943874ffde332377e7662d339c7b2146bb7d"
+    },
+    {
+      "arquivo": "static/es-419/index.html",
+      "sha256_antes": "132b65e4e959761ea2ecbecfbfdaedc34375316da2fe3755c78dded768cb3fbd",
+      "sha256_depois": "da03d985d0252682261e2b10bec149553ca195b04679195712fd02cedfe45fa2"
+    },
+    {
+      "arquivo": "static/es-ES/index.html",
+      "sha256_antes": "0a6751d00c470c3451e0859894e19e1ae451eda5413f451f784b25ea89d7da2e",
+      "sha256_depois": "39dbcfdf54136b5b96096dd3da427f12377dd2707060c78fcd1fd643906eb67a"
+    }
+  ],
+  "alteracoes": [
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "introducao_e_metadados",
+      "antes": "suporte hospitalar, Help Desk",
+      "depois": "suporte técnico de TI em hospitais, Help Desk",
+      "ocorrencias": 2,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita o tipo de suporte já descrito na experiência."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "introducao_e_metadados",
+      "antes": "Help Desk para ERP e ponto de venda",
+      "depois": "Help Desk para ERP e sistemas de ponto de venda",
+      "ocorrencias": 2,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita o tipo de suporte já descrito na experiência."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "introducao_e_metadados",
+      "antes": "Help Desk support for ERP and point-of-sale systems",
+      "depois": "Help Desk support for ERP and point-of-sale (POS) systems",
+      "ocorrencias": 2,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita o tipo de suporte já descrito na experiência."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "introducao_e_metadados",
+      "antes": "soporte hospitalario, Help Desk",
+      "depois": "soporte técnico de TI en hospitales, Help Desk",
+      "ocorrencias": 2,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita o tipo de suporte já descrito na experiência."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "introducao_e_metadados",
+      "antes": "soporte hospitalario, Help Desk",
+      "depois": "soporte técnico de TI en hospitales, Help Desk",
+      "ocorrencias": 2,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita o tipo de suporte já descrito na experiência."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Excel e Office",
+      "depois": "Microsoft Excel Microsoft Office e LibreOffice Office 365, uso online",
+      "ocorrencias": 1,
+      "fontes": [
+        "O*NET:2.E.4.i:Microsoft Excel",
+        "O*NET:2.E.1.k:Microsoft Office software",
+        "O*NET:2.E.1.k:LibreOffice",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa os nomes dos produtos declarados e do dicionário. Não atribui domínio da suíte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Excel e Office",
+      "depois": "Microsoft Excel Microsoft Office e LibreOffice Office 365, utilização online",
+      "ocorrencias": 1,
+      "fontes": [
+        "O*NET:2.E.4.i:Microsoft Excel",
+        "O*NET:2.E.1.k:Microsoft Office software",
+        "O*NET:2.E.1.k:LibreOffice",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa os nomes dos produtos declarados e do dicionário. Não atribui domínio da suíte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Excel and Office",
+      "depois": "Microsoft Excel Microsoft Office and LibreOffice Office 365, online use",
+      "ocorrencias": 1,
+      "fontes": [
+        "O*NET:2.E.4.i:Microsoft Excel",
+        "O*NET:2.E.1.k:Microsoft Office software",
+        "O*NET:2.E.1.k:LibreOffice",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa os nomes dos produtos declarados e do dicionário. Não atribui domínio da suíte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Excel y Office",
+      "depois": "Microsoft Excel Microsoft Office y LibreOffice Office 365, uso en línea",
+      "ocorrencias": 1,
+      "fontes": [
+        "O*NET:2.E.4.i:Microsoft Excel",
+        "O*NET:2.E.1.k:Microsoft Office software",
+        "O*NET:2.E.1.k:LibreOffice",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa os nomes dos produtos declarados e do dicionário. Não atribui domínio da suíte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Excel y Office",
+      "depois": "Microsoft Excel Microsoft Office y LibreOffice Office 365, uso en línea",
+      "ocorrencias": 1,
+      "fontes": [
+        "O*NET:2.E.4.i:Microsoft Excel",
+        "O*NET:2.E.1.k:Microsoft Office software",
+        "O*NET:2.E.1.k:LibreOffice",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa os nomes dos produtos declarados e do dicionário. Não atribui domínio da suíte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Programação e dados",
+      "depois": "Ferramentas colaborativas online Uso estas ferramentas no ambiente da equipe. Controlo acessos e permissões, sincronização, histórico de versões e cópias de segurança (backup). Canva GitHub Google Drive Microsoft Teams OneDrive Trello Programação e dados",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/93e65de1-923c-437e-aa5b-e6002967ce71",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Publica as ferramentas e atividades declaradas, restritas ao ambiente da equipe."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Programação e dados",
+      "depois": "Ferramentas colaborativas online Uso estas ferramentas no ambiente da equipa. Controlo acessos e permissões, sincronização, histórico de versões e cópias de segurança. Canva GitHub Google Drive Microsoft Teams OneDrive Trello Programação e dados",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/93e65de1-923c-437e-aa5b-e6002967ce71",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Publica as ferramentas e atividades declaradas, restritas ao ambiente da equipe."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Programming and data",
+      "depois": "Online collaborative tools I use these tools in the team workspace. I manage access and permissions, synchronisation, version history and backups in that workspace. Canva GitHub Google Drive Microsoft Teams OneDrive Trello Programming and data",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/93e65de1-923c-437e-aa5b-e6002967ce71",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Publica as ferramentas e atividades declaradas, restritas ao ambiente da equipe."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Programación y datos",
+      "depois": "Herramientas colaborativas en línea Uso estas herramientas en el entorno del equipo. Gestiono accesos y permisos, sincronización, historial de versiones y copias de seguridad. Canva GitHub Google Drive Microsoft Teams OneDrive Trello Programación y datos",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/93e65de1-923c-437e-aa5b-e6002967ce71",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Publica as ferramentas e atividades declaradas, restritas ao ambiente da equipe."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Programación y datos",
+      "depois": "Herramientas colaborativas en línea Uso estas herramientas en el entorno del equipo. Gestiono accesos y permisos, sincronización, historial de versiones y copias de seguridad. Canva GitHub Google Drive Microsoft Teams OneDrive Trello Programación y datos",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/93e65de1-923c-437e-aa5b-e6002967ce71",
+        "docs/fontes/competencias-declaradas.json"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Publica as ferramentas e atividades declaradas, restritas ao ambiente da equipe."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Fluxo de caixa",
+      "depois": "Fluxo de caixa, formação complementar",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Gestão financeira e capitalização",
+      "depois": "Gestão financeira e capitalização, formação complementar",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Melhoria de processos",
+      "depois": "Melhoria de processos, formação introdutória",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "IA e aprendizado de máquina",
+      "depois": "Inteligência artificial (IA) e aprendizado de máquina, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "JavaScript",
+      "depois": "JavaScript, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Python",
+      "depois": "Python, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Fluxo de caixa",
+      "depois": "Fluxo de caixa, formação complementar",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Gestão financeira e capitalização",
+      "depois": "Gestão financeira e capitalização, formação complementar",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Melhoria de processos",
+      "depois": "Melhoria de processos, formação introdutória",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "IA e aprendizagem automática",
+      "depois": "Inteligência artificial (IA) e aprendizagem automática, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "JavaScript",
+      "depois": "JavaScript, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Python",
+      "depois": "Python, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Cash flow",
+      "depois": "Cash flow, supplementary coursework",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Financial management and capitalisation",
+      "depois": "Financial management and capitalisation, supplementary coursework",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Process improvement",
+      "depois": "Process improvement, introductory training",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "AI and machine learning",
+      "depois": "Artificial intelligence (AI) and machine learning, fundamentals",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "JavaScript",
+      "depois": "JavaScript, fundamentals",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Python",
+      "depois": "Python, fundamentals",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Flujo de caja",
+      "depois": "Flujo de caja, formación complementaria",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Gestión financiera y capitalización",
+      "depois": "Gestión financiera y capitalización, formación complementaria",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Mejora de procesos",
+      "depois": "Mejora de procesos, formación introductoria",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "IA y aprendizaje automático",
+      "depois": "Inteligencia artificial (IA) y aprendizaje automático, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "JavaScript",
+      "depois": "JavaScript, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Python",
+      "depois": "Python, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Flujo de caja",
+      "depois": "Flujo de caja, formación complementaria",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Gestión financiera y capitalización",
+      "depois": "Gestión financiera y capitalización, formación complementaria",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Mejora de procesos",
+      "depois": "Mejora de procesos, formación introductoria",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "IA y aprendizaje automático",
+      "depois": "Inteligencia artificial (IA) y aprendizaje automático, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Explicita a formação que sustenta o termo. Não converte curso em experiência profissional."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "JavaScript",
+      "depois": "JavaScript, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Python",
+      "depois": "Python, fundamentos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#formacao"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Preserva a linguagem e restringe o alcance ao curso Essentials 1."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Ativos de TI",
+      "depois": "Gestão de ativos de TI",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Chamados e escalonamento",
+      "depois": "Resolução de incidentes e escalonamento de chamados",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Documentação técnica, manuais e POPs",
+      "depois": "Documentação técnica e manuais de usuário Procedimentos operacionais padrão (POPs)",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "ERP e PDV, N1",
+      "depois": "Suporte a ERP e PDV, N1",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Manutenção de computadores e periféricos",
+      "depois": "Manutenção de hardware de computadores e periféricos Manutenção de impressoras",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c77db25e-bb51-4a10-b2ad-99b48b1b4a37",
+        "Solides:1890998"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Suporte hospitalar, N1/N2",
+      "depois": "Suporte técnico de TI hospitalar, N1/N2",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Compreensão de necessidades",
+      "depois": "Compreensão das necessidades do cliente",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Comunicação e orientação",
+      "depois": "Comunicação e orientação de usuários",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Ativos de TI",
+      "depois": "Gestão de ativos de TI",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Pedidos de assistência e escalonamento",
+      "depois": "Resolução de incidentes e escalonamento de pedidos de assistência",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Documentação técnica, manuais e procedimentos operacionais padrão",
+      "depois": "Documentação técnica e manuais de utilizador Procedimentos operacionais padrão",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "ERP e ponto de venda, N1",
+      "depois": "Apoio a ERP e ponto de venda (POS), N1",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Manutenção de computadores e periféricos",
+      "depois": "Manutenção de hardware de computadores e periféricos Manutenção de impressoras",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c77db25e-bb51-4a10-b2ad-99b48b1b4a37",
+        "Solides:1890998"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Compreensão de necessidades",
+      "depois": "Compreensão das necessidades do cliente",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Comunicação e orientação",
+      "depois": "Comunicação e orientação de utilizadores",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "IT assets",
+      "depois": "IT asset management",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Tickets and escalation",
+      "depois": "Incident resolution and ticket escalation",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Technical documentation, manuals and SOPs",
+      "depois": "Technical and user documentation Standard operating procedures (SOPs)",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "ERP and POS, L1",
+      "depois": "ERP and point-of-sale (POS) support, L1",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Computer and peripheral maintenance",
+      "depois": "Computer hardware and peripheral maintenance Printer maintenance",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c77db25e-bb51-4a10-b2ad-99b48b1b4a37",
+        "Solides:1890998"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Understanding needs",
+      "depois": "Understanding customer needs",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Communication and guidance",
+      "depois": "Communication and user guidance",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Activos de TI",
+      "depois": "Gestión de activos de TI",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Tickets y escalamiento",
+      "depois": "Resolución de incidentes y escalamiento de tickets",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Documentación técnica, manuales y procedimientos operativos estándar",
+      "depois": "Documentación técnica y manuales de usuario Procedimientos operativos estándar",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "ERP y punto de venta, N1",
+      "depois": "Soporte a ERP y punto de venta (POS), N1",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Mantenimiento de computadoras y periféricos",
+      "depois": "Mantenimiento de hardware de computadoras y periféricos Mantenimiento de impresoras",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c77db25e-bb51-4a10-b2ad-99b48b1b4a37",
+        "Solides:1890998"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Soporte hospitalario, N1/N2",
+      "depois": "Soporte técnico de TI hospitalario, N1/N2",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Comprensión de necesidades",
+      "depois": "Comprensión de las necesidades del cliente",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "Comunicación y orientación",
+      "depois": "Comunicación y orientación a usuarios",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Activos de TI",
+      "depois": "Gestión de activos de TI",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Tickets y escalado",
+      "depois": "Resolución de incidentes y escalado de tickets",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Documentación técnica, manuales y procedimientos operativos estándar",
+      "depois": "Documentación técnica y manuales de usuario Procedimientos operativos estándar",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "ERP y punto de venta, N1",
+      "depois": "Soporte a ERP y punto de venta (POS), N1",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Mantenimiento de ordenadores y periféricos",
+      "depois": "Mantenimiento de hardware de ordenadores y periféricos Mantenimiento de impresoras",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c77db25e-bb51-4a10-b2ad-99b48b1b4a37",
+        "Solides:1890998"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Soporte hospitalario, N1/N2",
+      "depois": "Soporte técnico de TI hospitalario, N1/N2",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Comprensión de necesidades",
+      "depois": "Comprensión de las necesidades del cliente",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "Comunicación y orientación",
+      "depois": "Comunicación y orientación a usuarios",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia atividades já descritas nos empregos, sem ampliar o nível de suporte."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Apoio de TI",
+      "depois": "Apoio informático",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa o substantivo correspondente ao rótulo ESCO português."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "grupos_de_cursos",
+      "antes": "Apoio de TI",
+      "depois": "Apoio informático",
+      "ocorrencias": 2,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+        "Solides:2064833"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Mantém a nomenclatura comum nos grupos de tela e impressão, sem alterar títulos oficiais."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "LAN e FTTH",
+      "depois": "Redes locais (LAN) e FTTH",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Expande LAN e mantém a tecnologia FTTH já declarada."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "competencias",
+      "antes": "Power meter e VFL",
+      "depois": "Medidor de potência óptica (power meter) e VFL",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia o instrumento conforme a atividade óptica descrita."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "LAN e FTTH",
+      "depois": "Redes locais (LAN) e FTTH",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Expande LAN e mantém a tecnologia FTTH já declarada."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "competencias",
+      "antes": "Power meter e VFL",
+      "depois": "Medidor de potência ótica (power meter) e VFL",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia o instrumento conforme a atividade óptica descrita."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "LAN and FTTH",
+      "depois": "Local area networks (LAN) and FTTH",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Expande LAN e mantém a tecnologia FTTH já declarada."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "competencias",
+      "antes": "Power meter and VFL",
+      "depois": "Optical power meter and VFL",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia o instrumento conforme a atividade óptica descrita."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "competencias",
+      "antes": "LAN y FTTH",
+      "depois": "Redes de área local (LAN) y FTTH",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Expande LAN e mantém a tecnologia FTTH já declarada."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "competencias",
+      "antes": "LAN y FTTH",
+      "depois": "Redes de área local (LAN) y FTTH",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#experiencia"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Expande LAN e mantém a tecnologia FTTH já declarada."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Gestão de equipe",
+      "depois": "Liderança de equipe",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta lead a team ao substantivo local. Mantém o escopo no SGCS acadêmico em desenvolvimento."
+    },
+    {
+      "idioma": "pt-BR",
+      "arquivo": "static/pt-BR/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Administro o Trello, gerencio a equipe e acompanho os entregáveis.",
+      "depois": "Administro o Trello, lidero a equipe e acompanho os entregáveis.",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia a liderança já confirmada sem atribuir as atividades de toda a equipe."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Gestão de equipa",
+      "depois": "Liderança de equipa",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta lead a team ao substantivo local. Mantém o escopo no SGCS acadêmico em desenvolvimento."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Administro o Trello, faço a gestão da equipa e acompanho as entregas.",
+      "depois": "Administro o Trello, lidero a equipa e acompanho as entregas.",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia a liderança já confirmada sem atribuir as atividades de toda a equipe."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Team management",
+      "depois": "Team leadership",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta lead a team ao substantivo local. Mantém o escopo no SGCS acadêmico em desenvolvimento."
+    },
+    {
+      "idioma": "en",
+      "arquivo": "static/en/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "I administer Trello, manage the team and track deliverables.",
+      "depois": "I administer Trello, lead the team and track deliverables.",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia a liderança já confirmada sem atribuir as atividades de toda a equipe."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Gestión del equipo",
+      "depois": "Liderazgo de equipo",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta lead a team ao substantivo local. Mantém o escopo no SGCS acadêmico em desenvolvimento."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Administro Trello, gestiono el equipo y sigo los entregables.",
+      "depois": "Administro Trello, dirijo el equipo y hago seguimiento de los entregables.",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia a liderança já confirmada sem atribuir as atividades de toda a equipe."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Gestión del equipo",
+      "depois": "Liderazgo de equipo",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta lead a team ao substantivo local. Mantém o escopo no SGCS acadêmico em desenvolvimento."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "sgcs_gestao",
+      "antes": "Administro Trello, gestiono el equipo y sigo los entregables.",
+      "depois": "Administro Trello, dirijo el equipo y hago seguimiento de los entregables.",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Nomeia a liderança já confirmada sem atribuir as atividades de toda a equipe."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "sgcs_equipe",
+      "antes": "Modelagem de processos",
+      "depois": "Modelação de processos",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#projetos"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Corrige a variante portuguesa no contexto da aplicação desenvolvida pela equipe."
+    },
+    {
+      "idioma": "pt-PT",
+      "arquivo": "static/pt-PT/index.html",
+      "contexto": "sgcs_equipe",
+      "antes": "Prototipação e MVP",
+      "depois": "Prototipagem e MVP",
+      "ocorrencias": 1,
+      "fontes": [
+        "static/pt-BR/index.html#projetos"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Usa a variante portuguesa. Preserva dois conceitos distintos e a autoria da equipe."
+    },
+    {
+      "idioma": "es-419",
+      "arquivo": "static/es-419/index.html",
+      "contexto": "sgcs_equipe",
+      "antes": "Recopilación de requisitos",
+      "depois": "Identificación de requisitos",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta identificar requisitos del cliente. A atividade permanece atribuída à equipe."
+    },
+    {
+      "idioma": "es-ES",
+      "arquivo": "static/es-ES/index.html",
+      "contexto": "sgcs_equipe",
+      "antes": "Recopilación de requisitos",
+      "depois": "Identificación de requisitos",
+      "ocorrencias": 1,
+      "fontes": [
+        "http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64"
+      ],
+      "classe": "adaptacao_editorial_com_evidencia",
+      "justificativa": "Adapta identificar requisitos del cliente. A atividade permanece atribuída à equipe."
+    }
+  ]
+}

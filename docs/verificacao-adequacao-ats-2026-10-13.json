@@ -1,0 +1,958 @@
+{
+  "data": "2026-10-13",
+  "javascript_do_site": false,
+  "paginas": [
+    {
+      "idioma": "pt-BR",
+      "pagina": "index",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "pt-BR",
+      "pagina": "galeria",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "pt-BR",
+      "pagina": "rede",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-BR",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "pt-PT",
+      "pagina": "index",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "pt-PT",
+      "pagina": "galeria",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "pt-PT",
+      "pagina": "rede",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "pt-PT",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "en",
+      "pagina": "index",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "en",
+      "pagina": "galeria",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "en",
+      "pagina": "rede",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "en",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "es-419",
+      "pagina": "index",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "es-419",
+      "pagina": "galeria",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "es-419",
+      "pagina": "rede",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-419",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "es-ES",
+      "pagina": "index",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "es-ES",
+      "pagina": "galeria",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    },
+    {
+      "idioma": "es-ES",
+      "pagina": "rede",
+      "cenarios": [
+        {
+          "largura": 320,
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "largura": 1280,
+          "viewport": 1280,
+          "conteudo": 1280,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "light",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        },
+        {
+          "tema": "dark",
+          "fonte": "200%",
+          "espacamento": "WCAG 1.4.12",
+          "viewport": 320,
+          "conteudo": 320,
+          "idioma": "es-ES",
+          "titulos": 1,
+          "imagens_incompletas": []
+        }
+      ]
+    }
+  ],
+  "teclados": [
+    {
+      "idioma": "pt-BR",
+      "skip": {
+        "classe": "skip-link",
+        "foco": "solid",
+        "largura": "3px"
+      },
+      "summary_foco": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "abrir_fechar_por_espaco": true
+    },
+    {
+      "idioma": "pt-PT",
+      "skip": {
+        "classe": "skip-link",
+        "foco": "solid",
+        "largura": "3px"
+      },
+      "summary_foco": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "abrir_fechar_por_espaco": true
+    },
+    {
+      "idioma": "en",
+      "skip": {
+        "classe": "skip-link",
+        "foco": "solid",
+        "largura": "3px"
+      },
+      "summary_foco": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "abrir_fechar_por_espaco": true
+    },
+    {
+      "idioma": "es-419",
+      "skip": {
+        "classe": "skip-link",
+        "foco": "solid",
+        "largura": "3px"
+      },
+      "summary_foco": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "abrir_fechar_por_espaco": true
+    },
+    {
+      "idioma": "es-ES",
+      "skip": {
+        "classe": "skip-link",
+        "foco": "solid",
+        "largura": "3px"
+      },
+      "summary_foco": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "abrir_fechar_por_espaco": true
+    }
+  ],
+  "impressao": [
+    {
+      "idioma": "pt-BR",
+      "controle_aberto": false,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "pt-BR",
+      "controle_aberto": true,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "pt-PT",
+      "controle_aberto": false,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "pt-PT",
+      "controle_aberto": true,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "en",
+      "controle_aberto": false,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "en",
+      "controle_aberto": true,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "es-419",
+      "controle_aberto": false,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "es-419",
+      "controle_aberto": true,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "es-ES",
+      "controle_aberto": false,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    },
+    {
+      "idioma": "es-ES",
+      "controle_aberto": true,
+      "cursos_visiveis": [
+        "Microsoft Office Specialist Associate",
+        "Formação White Belt Six Sigma",
+        "Como Controlar o Fluxo de Caixa",
+        "Gestão Financeira",
+        "Introdução à Matemática Financeira: Regimes de Capitalização",
+        "Excel Básico",
+        "Introdução à Gestão de Projetos",
+        "Inovação em Gestão de Projetos",
+        "Indicadores Estratégicos - Descomplica",
+        "19ª Edição da Escola de Inovadores (2024-2)",
+        "JavaScript Essentials 1",
+        "Modelagem de Dados",
+        "Python Essentials 1",
+        "AI Fundamentals with IBM SkillsBuild",
+        "Redes de Computadores - Implantação de Redes Locais",
+        "Computer Hardware Basics",
+        "Planeje Suas Metas e Resultados"
+      ],
+      "copia_tela": "none",
+      "copia_impressao": "block"
+    }
+  ],
+  "falhas": [],
+  "navegador": "151.0.7922.34",
+  "falhas_rede": []
+}

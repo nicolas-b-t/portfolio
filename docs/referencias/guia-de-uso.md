@@ -143,7 +143,9 @@ Os textos autorais continuam sujeitos à verificação git diff --check.
 
 A [análise de 13 de outubro](ats/analise-palavras-chave-2026-10-13.md) usa os cinco idiomas e as declarações confirmadas.
 O CSV distingue triagem lexical, relações revisadas semanticamente e ausência de correspondência confirmada.
-As recomendações não foram aplicadas ao currículo.
+Os CSVs e o manifesto da análise preservam a versão anterior à adequação dos termos.
+A [adequação posterior](../relatorio-adequacao-termos-ats-2026-10-13.md) foi autorizada e aplicada em 13 de outubro.
+O registro distingue rótulos oficiais, adaptação regional e atividades declaradas.
 
 ### Recuperar os clones editoriais locais
 
@@ -645,7 +647,8 @@ Os exemplos publicados não são resultados de teste do portfólio.
 16. Preserve as qualificações e o contexto das experiências.
 
 A organização de 12 de outubro preservou insumos e removeu as comparações anteriores.
-A nova análise de 13 de outubro registra correspondências do conteúdo sincronizado, sem aplicar recomendações ao site.
+A análise de 13 de outubro preserva as correspondências do conteúdo sincronizado antes da adequação dos termos.
+O relatório de adequação registra as alterações posteriores nos cinco currículos.
 Uma entrada em um cadastro não comprova reconhecimento automático de qualquer expressão equivalente.
 As classificações não formam um catálogo universal de ATS nem comprovam competência pessoal.
 Não derive uma pontuação de aprovação a partir da presença de termos nesses arquivos.

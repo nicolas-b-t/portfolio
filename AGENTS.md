@@ -195,6 +195,10 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 - Em 13 de outubro de 2026, o responsável autorizou uma nova análise das cinco versões e dos insumos confirmados.
   Preserve as fontes, os contextos, as definições e os limites em cada correspondência.
   Separe triagem vocabular de relações revisadas semanticamente.
-  As recomendações ATS desta etapa não devem ser aplicadas ao site.
+  Essa etapa entregou recomendações separadas do site.
+- Em 13 de outubro de 2026, o responsável autorizou aplicar a adequação dos termos nos cinco idiomas.
+  Use correspondências revisadas e as declarações confirmadas como evidências.
+  Adapte a nomenclatura à variante linguística. Preserve o contexto e os níveis de conhecimento.
+  Não amplie competências a partir de coincidências lexicais ou de requisitos de outras pessoas.
 - Mantenha os clones completos de fontes editoriais em `docs/referencias/ats/repositorios-local/`, fora do Git.
   Versione o manifesto e as sínteses autorais fora dessa pasta.

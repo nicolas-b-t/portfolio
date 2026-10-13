@@ -1,0 +1,126 @@
+{
+  "data": "2026-10-13",
+  "procedimento": "Impressão A4 com 12 mm de margem. Browser isolado por idioma. Renderização PDFium isolada por documento. PDFs de inspeção temporários.",
+  "resultados": [
+    {
+      "idioma": "pt-BR",
+      "paginas_pdf": 9,
+      "titulos_17_uma_vez": true,
+      "contagens": {
+        "Microsoft Office Specialist Associate": 1,
+        "Formação White Belt Six Sigma": 1,
+        "Como Controlar o Fluxo de Caixa": 1,
+        "Gestão Financeira": 1,
+        "Introdução à Matemática Financeira: Regimes de Capitalização": 1,
+        "Excel Básico": 1,
+        "Introdução à Gestão de Projetos": 1,
+        "Inovação em Gestão de Projetos": 1,
+        "Indicadores Estratégicos - Descomplica": 1,
+        "19ª Edição da Escola de Inovadores (2024-2)": 1,
+        "JavaScript Essentials 1": 1,
+        "Modelagem de Dados": 1,
+        "Python Essentials 1": 1,
+        "AI Fundamentals with IBM SkillsBuild": 1,
+        "Redes de Computadores - Implantação de Redes Locais": 1,
+        "Computer Hardware Basics": 1,
+        "Planeje Suas Metas e Resultados": 1
+      }
+    },
+    {
+      "idioma": "pt-PT",
+      "paginas_pdf": 9,
+      "titulos_17_uma_vez": true,
+      "contagens": {
+        "Microsoft Office Specialist Associate": 1,
+        "Formação White Belt Six Sigma": 1,
+        "Como Controlar o Fluxo de Caixa": 1,
+        "Gestão Financeira": 1,
+        "Introdução à Matemática Financeira: Regimes de Capitalização": 1,
+        "Excel Básico": 1,
+        "Introdução à Gestão de Projetos": 1,
+        "Inovação em Gestão de Projetos": 1,
+        "Indicadores Estratégicos - Descomplica": 1,
+        "19ª Edição da Escola de Inovadores (2024-2)": 1,
+        "JavaScript Essentials 1": 1,
+        "Modelagem de Dados": 1,
+        "Python Essentials 1": 1,
+        "AI Fundamentals with IBM SkillsBuild": 1,
+        "Redes de Computadores - Implantação de Redes Locais": 1,
+        "Computer Hardware Basics": 1,
+        "Planeje Suas Metas e Resultados": 1
+      }
+    },
+    {
+      "idioma": "en",
+      "paginas_pdf": 9,
+      "titulos_17_uma_vez": true,
+      "contagens": {
+        "Microsoft Office Specialist Associate": 1,
+        "Formação White Belt Six Sigma": 1,
+        "Como Controlar o Fluxo de Caixa": 1,
+        "Gestão Financeira": 1,
+        "Introdução à Matemática Financeira: Regimes de Capitalização": 1,
+        "Excel Básico": 1,
+        "Introdução à Gestão de Projetos": 1,
+        "Inovação em Gestão de Projetos": 1,
+        "Indicadores Estratégicos - Descomplica": 1,
+        "19ª Edição da Escola de Inovadores (2024-2)": 1,
+        "JavaScript Essentials 1": 1,
+        "Modelagem de Dados": 1,
+        "Python Essentials 1": 1,
+        "AI Fundamentals with IBM SkillsBuild": 1,
+        "Redes de Computadores - Implantação de Redes Locais": 1,
+        "Computer Hardware Basics": 1,
+        "Planeje Suas Metas e Resultados": 1
+      }
+    },
+    {
+      "idioma": "es-419",
+      "paginas_pdf": 9,
+      "titulos_17_uma_vez": true,
+      "contagens": {
+        "Microsoft Office Specialist Associate": 1,
+        "Formação White Belt Six Sigma": 1,
+        "Como Controlar o Fluxo de Caixa": 1,
+        "Gestão Financeira": 1,
+        "Introdução à Matemática Financeira: Regimes de Capitalização": 1,
+        "Excel Básico": 1,
+        "Introdução à Gestão de Projetos": 1,
+        "Inovação em Gestão de Projetos": 1,
+        "Indicadores Estratégicos - Descomplica": 1,
+        "19ª Edição da Escola de Inovadores (2024-2)": 1,
+        "JavaScript Essentials 1": 1,
+        "Modelagem de Dados": 1,
+        "Python Essentials 1": 1,
+        "AI Fundamentals with IBM SkillsBuild": 1,
+        "Redes de Computadores - Implantação de Redes Locais": 1,
+        "Computer Hardware Basics": 1,
+        "Planeje Suas Metas e Resultados": 1
+      }
+    },
+    {
+      "idioma": "es-ES",
+      "paginas_pdf": 9,
+      "titulos_17_uma_vez": true,
+      "contagens": {
+        "Microsoft Office Specialist Associate": 1,
+        "Formação White Belt Six Sigma": 1,
+        "Como Controlar o Fluxo de Caixa": 1,
+        "Gestão Financeira": 1,
+        "Introdução à Matemática Financeira: Regimes de Capitalização": 1,
+        "Excel Básico": 1,
+        "Introdução à Gestão de Projetos": 1,
+        "Inovação em Gestão de Projetos": 1,
+        "Indicadores Estratégicos - Descomplica": 1,
+        "19ª Edição da Escola de Inovadores (2024-2)": 1,
+        "JavaScript Essentials 1": 1,
+        "Modelagem de Dados": 1,
+        "Python Essentials 1": 1,
+        "AI Fundamentals with IBM SkillsBuild": 1,
+        "Redes de Computadores - Implantação de Redes Locais": 1,
+        "Computer Hardware Basics": 1,
+        "Planeje Suas Metas e Resultados": 1
+      }
+    }
+  ]
+}

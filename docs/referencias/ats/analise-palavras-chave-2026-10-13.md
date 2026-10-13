@@ -2,7 +2,10 @@
 
 Data: 13 de outubro de 2026.
 Base: conteúdo sincronizado em pt-BR, pt-PT, inglês, es-419 e es-ES, com as declarações confirmadas do responsável.
-As recomendações deste relatório não foram aplicadas ao site.
+As recomendações não foram aplicadas à versão examinada por este relatório.
+O responsável autorizou a aplicação posterior em 13 de outubro.
+O [relatório de adequação](../../relatorio-adequacao-termos-ats-2026-10-13.md) registra os termos aplicados e suas evidências.
+Os CSVs e o manifesto desta análise preservam a versão anterior à adequação.
 
 ## Resultado e leitura dos arquivos
 
@@ -113,7 +116,8 @@ Não foi escolhida uma vaga específica para orientar a comparação.
 3. Preserve rótulos, limitações e qualificações oficiais.
 4. Registre a justificativa antes de modificar o conteúdo publicado.
 
-A decisão desta etapa limita a entrega à análise e às recomendações.
+A decisão inicial desta etapa limitou a entrega à análise e às recomendações.
+O relatório de adequação registra a autorização posterior e as alterações resultantes.
 Nenhum currículo foi enviado a um serviço externo de avaliação.
 Nenhum parser de ATS ou processo real de seleção foi testado.
 Não há promessa de pontuação, aprovação ou aumento de convites para entrevistas.

@@ -12,6 +12,7 @@ Este índice aponta para instruções, insumos e evidências do projeto.
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
 | [Relatório de verificação](relatorio-final-verificacao-pt-br-2026-10-12.md) | Ensaios do site, resultados, limites e repetição |
 | [Sincronização dos cinco idiomas](relatorio-sincronizacao-idiomas-2026-10-13.md) | Conteúdo atualizado, verificações e limites da nova revisão |
+| [Adequação dos termos ATS](relatorio-adequacao-termos-ats-2026-10-13.md) | Nomenclatura aplicada nos cinco currículos, evidências e limites |
 
 As regras gerais permanecem no AGENTS.md da raiz.
 Os READMEs autorais locais foram incorporados ao guia consolidado.
@@ -31,7 +32,9 @@ As comparações de competências e a proposta editorial anterior foram removida
 As fontes e os dicionários permanecem disponíveis para uma comparação futura.
 
 A nova análise de 13 de outubro usa o conteúdo sincronizado dos cinco idiomas e as declarações confirmadas.
-As recomendações permanecem separadas do conteúdo publicado.
+Essa análise preserva a versão anterior à adequação dos termos.
+O responsável autorizou a aplicação posterior em 13 de outubro.
+O [relatório de adequação](relatorio-adequacao-termos-ats-2026-10-13.md) registra os termos aplicados e suas evidências.
 Consulte o [relatório de palavras-chave](referencias/ats/analise-palavras-chave-2026-10-13.md) e o [CSV de correspondências](referencias/ats/correspondencias-palavras-chave-2026-10-13.csv).
 O [inventário de conteúdo](referencias/ats/inventario-conteudo-2026-10-13.csv) preserva os trechos examinados sem duplicar a cópia de impressão.
 
