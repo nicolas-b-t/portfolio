@@ -8,12 +8,11 @@ Ele oferece versões em pt-BR, pt-PT, inglês, es-419 e es-ES.
 
 Leia [AGENTS.md](AGENTS.md) antes de editar.
 Esse arquivo centraliza regras de desenvolvimento, redação, acessibilidade, escopo e trabalho no repositório.
-O projeto permanece pessoal. A documentação prepara uma futura distribuição como template.
-A cópia genérica ainda não foi criada.
+O projeto permanece pessoal. As fontes e os registros sustentam a manutenção do conteúdo publicado.
 
-- [Guia de uso e manutenção](docs/referencias/guia-de-uso.md): edição, consulta aos dicionários e preparação do template futuro.
+- [Guia de uso e manutenção](docs/referencias/guia-de-uso.md): edição, consulta aos dicionários e recuperação das fontes.
 - [Índice da documentação](docs/README.md): registros, fontes e referências locais.
-- [Relatório final de verificação](docs/relatorio-final-verificacao-pt-br-2026-10-12.md): resultados, limites e procedimento para repetir os testes.
+- [Verificação vigente](docs/relatorio-verificacao-site-2026-10-13.md): conteúdo, resultados, limites e repetição dos testes.
 - [Insumos de competências](docs/referencias/guia-de-uso.md#insumos-ats-e-classificações): dicionários, originais, licenças e limites.
 - [Guia de redação](docs/guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
 
@@ -92,14 +91,5 @@ As páginas usam `/portfolio/`, seguido da pasta de cada idioma.
 ## Verificação
 
 As verificações exigidas estão em [AGENTS.md](AGENTS.md#verificação-e-trabalho-no-repositório).
-O [relatório final](docs/relatorio-final-verificacao-pt-br-2026-10-12.md) descreve os ensaios e suas evidências.
-O [relatório dos cinco idiomas](docs/relatorio-sincronizacao-idiomas-2026-10-13.md) registra a sincronização posterior de currículo, galeria e agradecimentos.
-O [relatório de adequação ATS](docs/relatorio-adequacao-termos-ats-2026-10-13.md) registra a nomenclatura aplicada nos cinco currículos.
-O [relatório de organização das tags](docs/relatorio-organizacao-tags-2026-10-13.md) registra a compactação posterior.
+O [relatório vigente](docs/relatorio-verificacao-site-2026-10-13.md) reúne conteúdo, critérios ATS e resultados dos ensaios.
 WCAG 2.2 nível AA é o alvo. A conformidade integral ainda não foi demonstrada.
-
-## Distribuição futura como template
-
-O [guia de uso](docs/referencias/guia-de-uso.md#preparar-a-distribuição-futura-como-template) identifica conteúdo pessoal, recursos e documentação que precisarão de revisão.
-Ele também descreve a preparação da cópia genérica e das instruções de personalização.
-Os dados pessoais do portfólio atual não foram substituídos nesta organização documental.

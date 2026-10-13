@@ -78,11 +78,8 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   Não acrescente esses arquivos ao Git ou ao site.
   Preserve os originais na cópia pessoal e documente sua recuperação.
   Não presuma que esses arquivos acompanham clones.
-- O projeto permanece pessoal. A adaptação como modelo para colegas e amigos
-  está planejada para uma etapa futura, sem autorização para reutilizar dados pessoais.
-  O responsável autorizou a organização documental para essa distribuição em 12 de outubro de 2026.
+- O projeto permanece pessoal. Não reutilize dados pessoais como modelo de terceiros.
   O guia permanente de uso está em `docs/referencias/guia-de-uso.md`.
-  Essa organização não transforma o portfólio pessoal em uma cópia genérica.
 
 ## HTML, CSS e compatibilidade
 
@@ -193,16 +190,14 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 
 ## Acervo e comparação de competências
 
-- O responsável solicitou remover os resultados de comparação de competências em 12 de outubro de 2026.
-  Preserve fontes, dicionários, manifestos, licenças e declarações recebidas como insumos.
-  Essa decisão permanece registrada como histórico da organização documental.
-- Em 13 de outubro de 2026, o responsável autorizou uma nova análise das cinco versões e dos insumos confirmados.
-  Preserve as fontes, os contextos, as definições e os limites em cada correspondência.
-  Separe triagem vocabular de relações revisadas semanticamente.
-  Essa etapa entregou recomendações separadas do site.
 - Em 13 de outubro de 2026, o responsável autorizou aplicar a adequação dos termos nos cinco idiomas.
   Use correspondências revisadas e as declarações confirmadas como evidências.
   Adapte a nomenclatura à variante linguística. Preserve o contexto e os níveis de conhecimento.
   Não amplie competências a partir de coincidências lexicais ou de requisitos de outras pessoas.
+  Separe triagem vocabular de relações revisadas semanticamente.
+- Preserve fontes, dicionários necessários, manifestos, licenças e declarações recebidas.
+  Mantenha o registro vigente das tags e uma síntese atual de verificação.
+  Em 13 de outubro de 2026, o responsável autorizou retirar exportações duplicadas, relatórios substituídos e tarefas incompletas.
+  Registre decisões duradouras antes de remover materiais substituídos.
 - Mantenha os clones completos de fontes editoriais em `docs/referencias/ats/repositorios-local/`, fora do Git.
   Versione o manifesto e as sínteses autorais fora dessa pasta.

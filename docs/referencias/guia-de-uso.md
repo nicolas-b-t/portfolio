@@ -1,6 +1,6 @@
 # Guia de uso das referências e manutenção
 
-Este guia explica como editar o portfólio, consultar os dicionários e preparar uma futura distribuição como template.
+Este guia explica como editar o portfólio, consultar os dicionários e recuperar fontes necessárias.
 As regras gerais permanecem no [AGENTS.md](../../AGENTS.md).
 A execução local e a configuração da hospedagem permanecem no [README da raiz](../../README.md).
 
@@ -12,9 +12,8 @@ A execução local e a configuração da hospedagem permanecem no [README da rai
 | Editar currículo, galeria ou agradecimentos | [Editar o conteúdo](#editar-o-conteúdo) |
 | Consultar termos de competências | [Usar os dicionários](#usar-os-dicionários-de-competências) |
 | Conferir uma fonte recebida | [Conferir os originais](#conferir-os-originais) |
-| Repetir testes do site | [Relatório de verificação](../relatorio-final-verificacao-pt-br-2026-10-12.md#repetição-e-manutenção) |
+| Repetir testes do site | [Relatório de verificação](../relatorio-verificacao-site-2026-10-13.md#repetição-e-manutenção) |
 | Publicar o portfólio | [Publicação no GitHub Pages](../../README.md#publicar-no-github-pages) |
-| Preparar o template futuro | [Preparar a distribuição](#preparar-a-distribuição-futura-como-template) |
 
 
 ## Localizar os acervos
@@ -76,11 +75,10 @@ Na futura personalização, a quantidade poderá mudar, mas as duas cópias deve
 
 Os dicionários ajudam a consultar nomenclaturas e organizar informações comprovadas.
 Eles não demonstram domínio profissional nem reconhecimento automático do currículo por um ATS.
-O acervo reúne fontes e dicionários. Os resultados anteriores de comparação foram removidos por solicitação do responsável.
+O acervo reúne fontes e dicionários. O registro vigente das tags mantém fontes, definições consultadas e limites.
 
 | Arquivo | Use para |
 | --- | --- |
-| [ESCO em inglês e português](ats/esco/dicionario-en-pt.csv) | Consultar termos, nomes alternativos, tipos e URIs oficiais |
 | [ESCO em inglês, português e espanhol](ats/esco/dicionario-en-pt-es.csv) | Relacionar os três idiomas pela mesma URI oficial |
 | [Software da O*NET](ats/onet/dicionario-software.csv) | Consultar nomes de produtos e suas categorias ocupacionais |
 | [Competências da O*NET](ats/onet/dicionario-competencias.csv) | Consultar habilidades e áreas de conhecimento com descrições |
@@ -106,7 +104,7 @@ Use um leitor de CSV. Não divida o arquivo somente por linhas ou vírgulas.
 No PowerShell, execute na raiz para consultar gestão financeira:
 
 ```powershell
-Import-Csv -LiteralPath 'docs/referencias/ats/esco/dicionario-en-pt.csv' -Encoding UTF8 |
+Import-Csv -LiteralPath 'docs/referencias/ats/esco/dicionario-en-pt-es.csv' -Encoding UTF8 |
     Where-Object { $_.termo_en -eq 'financial management' } |
     Select-Object termo_pt, termo_en, uri_original
 ```
@@ -142,12 +140,9 @@ O arquivo .gitattributes preserva os bytes do acervo ATS, inclusive as quebras d
 As exceções de espaços abrangem somente as cópias originais recebidas.
 Os textos autorais continuam sujeitos à verificação git diff --check.
 
-A [análise de 13 de outubro](ats/analise-palavras-chave-2026-10-13.md) usa os cinco idiomas e as declarações confirmadas.
-O CSV distingue triagem lexical, relações revisadas semanticamente e ausência de correspondência confirmada.
-Os CSVs e o manifesto da análise preservam a versão anterior à adequação dos termos.
-A [adequação posterior](../relatorio-adequacao-termos-ats-2026-10-13.md) foi autorizada e aplicada em 13 de outubro.
-O registro distingue rótulos oficiais, adaptação regional e atividades declaradas.
-A [organização posterior das tags](../relatorio-organizacao-tags-2026-10-13.md) registra conceitos consolidados, tecnologias separadas e repetições removidas.
+O [relatório vigente](../relatorio-verificacao-site-2026-10-13.md) reúne as alterações aplicadas e os limites das correspondências.
+O [registro das tags](ats/verificacao-tags-2026-10-13.json) identifica rótulos, contextos, referências e hashes da versão atual.
+As exportações de comparação e os relatórios substituídos foram retirados por solicitação do responsável.
 
 ### Recuperar os clones editoriais locais
 
@@ -200,56 +195,6 @@ As instruções de extração estão em [Preparar os insumos](#preparar-os-insum
 As [referências locais](../README.md#referências-locais) identificam arquivos que não acompanham clones.
 Originais comerciais sem licença de redistribuição identificada permanecem excluídos do Git.
 Não remova essa exclusão para completar uma publicação.
-
-## Preparar a distribuição futura como template
-
-O responsável pretende disponibilizar o site como template.
-Esta etapa organiza a documentação. A distribuição genérica ainda não foi criada.
-O portfólio atual mantém dados e conteúdo de Nicolas Beraldes Tarifa.
-
-### Substituir conteúdo pessoal
-
-| Área | O que revisar na futura distribuição |
-| --- | --- |
-| Todas as páginas e idiomas | Nome, títulos, descrição da página, rodapés e qualificações |
-| Currículo | Contatos, experiências, empresas, datas, formação, cursos e projetos |
-| Cursos para impressão | A segunda cópia de todos os cursos |
-| Agradecimentos | Nomes, recomendações e links dos contatos |
-| Galeria e fotografias | Pessoas, imagens, legendas, textos alternativos e destinos dos links |
-| Documentos acadêmicos | PPC, trabalhos em equipe e links associados ao currículo pessoal |
-| README e documentação | Endereço do site, identidade do autor e relatos profissionais |
-| Histórico e evidências | Arquivos com informações pessoais ou específicas do portfólio |
-
-1. Defina quais páginas e idiomas o template oferecerá.
-2. Prepare uma cópia de distribuição com conteúdo genérico claramente identificado.
-3. Substitua os dados pessoais em todas as versões oferecidas.
-4. Substitua fotografias e documentos pessoais por recursos próprios do template.
-5. Revise licenças e atribuições dos recursos que serão distribuídos.
-6. Defina a licença do código autoral antes de disponibilizar o template.
-7. Inclua apenas a documentação e as referências necessárias à distribuição.
-8. Confira também o histórico, caso a distribuição inclua commits anteriores.
-9. Verifique caminhos relativos, âncoras e troca de idioma.
-10. Repita os testes afetados pela personalização.
-11. Atualize as instruções de execução e publicação.
-12. Publique somente após concluir a revisão da cópia de distribuição.
-
-O repositório atual não contém uma licença do código autoral na raiz.
-As licenças dos documentos e códigos recebidos pertencem aos respectivos acervos.
-Elas não definem automaticamente a licença do futuro template.
-
-### Entregar instruções para quem personalizar
-
-A documentação do template deverá apresentar os caminhos de conteúdo, os idiomas e os requisitos de execução.
-Ela deverá explicar a atualização das duas cópias dos cursos e a manutenção dos recursos duplicados.
-Também deverá indicar os testes e a configuração da hospedagem escolhida.
-Use este guia como base e ajuste as instruções à estrutura efetivamente distribuída.
-
-O site entregue ao visitante continuará usando somente HTML e CSS.
-A consulta aos dicionários não deve criar uma dependência de API no site publicado.
-O workflow atual publica somente static/.
-Consulte a [configuração de publicação](../../README.md#publicar-no-github-pages) antes de distribuir uma cópia desse workflow.
-
-
 
 ## Referências web
 
@@ -348,7 +293,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath docs/referencias/whatwg/html-living-
 ```
 
 Compare o resultado com o manifesto.
-Use o [relatório de verificação](../relatorio-final-verificacao-pt-br-2026-10-12.md) para repetir os ensaios do projeto.
+Use o [relatório de verificação](../relatorio-verificacao-site-2026-10-13.md) para repetir os ensaios do projeto.
 
 ## Acessibilidade e CSS W3C
 
@@ -477,7 +422,8 @@ Desde 10 de outubro de 2026, os manifestos e as cópias não excluídas acompanh
 As referências ficam fora do artefato do GitHub Pages.
 Nenhum nível pessoal foi atribuído na coleta.
 Os links dos PDFs privados apontam para o índice de referências locais.
-O [guia do autoteste](../autoavaliacao-ingles.md#guia-de-execução) orienta o uso dos descritores.
+A autoavaliação incompleta e suas instruções de retomada foram retiradas na limpeza de 13 de outubro.
+O currículo preserva somente o resultado TOEIC informado, sem converter a pontuação em outro nível.
 
 ### OTAN — STANAG 6001 e ATrainP-5
 
@@ -572,7 +518,7 @@ O [manifesto Odoo](ats/odoo/manifesto.json) e o [manifesto da ampliação](ats/m
 
 | Conjunto | Insumos preservados | Natureza |
 | --- | --- | --- |
-| Odoo Recruitment 19.0 | [CSV](ats/dicionario-ats.csv), [JSON](ats/dicionario-ats.json), XML, código e licença | Cadastro de habilidades ligado ao ATS. Inclui 36 registros iniciais e 52 demonstrativos. |
+| Odoo Recruitment 19.0 | [CSV](ats/dicionario-ats.csv), XML, código e licença | Cadastro de habilidades ligado ao ATS. Inclui 36 registros iniciais e 52 demonstrativos. |
 | OpenCATS | Código de cadastro de tags, integração de parser, [README original](ats/opencats/README.md) e licença | ATS com tags configuráveis. Nenhum catálogo fixo foi obtido. |
 | Horilla | Modelos, cadastro de habilidades, [README original](ats/horilla/README.md) e licença | Recrutamento com títulos configuráveis. Nenhum catálogo fixo foi obtido. |
 | RChilli, Textkernel e Lightcast | [Exemplos publicados](ats/exemplos-comerciais.json) e cópias comerciais locais | Recortes documentais. Os catálogos integrais exigem acesso próprio. |
@@ -593,7 +539,7 @@ Os CSVs ESCO incluem 13.960 linhas por idioma e 21 URIs repetidas.
 Os registros repetidos diferem apenas em modifiedDate.
 O dicionário consolida as URIs e preserva ocorrências e datas de modificação.
 Português, inglês e espanhol possuem os mesmos identificadores. O português segue a classificação europeia.
-A página oficial consultada apresentou 13.485 conceitos. A diferença fica registrada, sem hipótese sobre sua causa.
+A consulta oficial de 13 de outubro apresentou 13.939 conceitos, conforme a versão 1.2.1 preservada.
 
 O arquivo Software Skills possui 31.821 relações entre ocupações e exemplos de software.
 A exportação contém 8.908 pares de nome e categoria, correspondentes a 8.753 nomes distintos.
@@ -648,9 +594,8 @@ Os exemplos publicados não são resultados de teste do portfólio.
 15. Em uma futura comparação, separe coincidência textual, alias oficial e interpretação editorial.
 16. Preserve as qualificações e o contexto das experiências.
 
-A organização de 12 de outubro preservou insumos e removeu as comparações anteriores.
-A análise de 13 de outubro preserva as correspondências do conteúdo sincronizado antes da adequação dos termos.
-O relatório de adequação registra as alterações posteriores nos cinco currículos.
+A análise vigente acompanha as tags aplicadas nos cinco currículos.
+Os resultados antigos de execução foram consolidados e retirados.
 Uma entrada em um cadastro não comprova reconhecimento automático de qualquer expressão equivalente.
 As classificações não formam um catálogo universal de ATS nem comprovam competência pessoal.
 Não derive uma pontuação de aprovação a partir da presença de termos nesses arquivos.
