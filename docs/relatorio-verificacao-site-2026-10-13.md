@@ -1,7 +1,7 @@
 # Conteúdo vigente e verificação do site
 
 Data: 13 de outubro de 2026.
-Base Git: 357b2493307f0f61dcb73c6f61b2c77f1a593d79.
+Base Git da revisão atual: a405feccc20dd20f8762d13c0f6d6488b6467fdb.
 Escopo: cinco idiomas, página principal, galeria e agradecimentos.
 
 ## Alterações aplicadas
@@ -32,6 +32,44 @@ As quatro repetições preservam contextos diferentes.
 Comunicação, gestão financeira e trabalho em equipe reaparecem na formação.
 Documentação técnica reaparece na participação pessoal no Optigrow.
 Os descritores continuam restritos a suporte, fusão de fibra e inglês.
+
+### Organização das experiências e dos projetos
+
+Os parágrafos foram agrupados por tecnologia, atividade e responsabilidade nos cinco idiomas.
+A classificação abaixo orienta a redação. Ela não acrescenta qualificações nem representa categorias oficiais de um fornecedor ATS.
+
+| Experiência ou projeto | Área de cada parágrafo ou grupo |
+| --- | --- |
+| RealFort, parágrafo 1 | Infraestrutura de campo: FTTH, rádio, cabo drop, SC/APC, fusão como aprendiz e vivência orientada em altura |
+| RealFort, parágrafo 2 | Infraestrutura de redes: montagem de conectores RJ45, ONU, ONT, roteadores, PPPoE, Wi-Fi e mesh |
+| RealFort, parágrafo 3 | Medições e diagnóstico óptico: power meter, VFL e apoio ao diagnóstico por OTDR |
+| RealFort, parágrafo 4 | Organização e coordenação operacional: materiais e validação com a base técnica |
+| Lukos, parágrafo 1 | Suporte de TI: N1, ERP, PDV, configuração conforme requisitos, resolução de incidentes e encaminhamento de chamados |
+| Lukos, parágrafo 2 | Processamento de documentos fiscais e verificação dos dados: NF-e e NFC-e |
+| Instituto Alpha, parágrafo 1 | Suporte de TI: N1/N2 hospitalar, incidentes e orientação de usuários |
+| Instituto Alpha, parágrafo 2 | Manutenção de hardware: computadores, periféricos e impressoras |
+| Instituto Alpha, parágrafo 3 | Documentação técnica: manuais de usuário e procedimentos operacionais padrão |
+| Instituto Alpha, parágrafo 4 | Organização e gestão de ativos de TI |
+| Portfólio | Desenvolvimento com agentes de IA e HTML/CSS. Apresentação e impressão. Publicação com GitHub Actions e GitHub Pages |
+| Optigrow | Parceria e distribuição de papéis. Mercado digital, público e escopo comercial |
+| SGCS | Aplicação da equipe. Gestão pessoal do projeto. Pesquisa acadêmica da equipe |
+
+RJ45 passou para o parágrafo de infraestrutura de redes.
+As emendas por fusão e a experiência orientada em altura passaram para a descrição de campo.
+A organização dos materiais ficou separada da execução técnica.
+Na Lukos, suporte, configuração e incidentes passaram a formar um único parágrafo.
+No Instituto Alpha, orientação de usuários passou para o parágrafo de suporte.
+
+O portfólio distingue desenvolvimento, apresentação e publicação.
+O desenvolvimento com agentes de IA já constava nas tags do projeto pessoal.
+Essa informação passou a aparecer também na descrição, sem atribuir domínio independente de desenvolvimento.
+O Optigrow distingue a parceria do contexto comercial, preservando Rodrigo como principal responsável pelo desenvolvimento.
+No SGCS, cada descrição acompanha o título e as tags da área correspondente.
+
+As datas, as qualificações, os níveis, as tags e os títulos oficiais dos cursos foram preservados.
+Fusão, trabalho em altura, OTDR e formação em andamento mantêm seus limites anteriores.
+As áreas administrativas descrevem organização e coordenação já informadas.
+Elas não atribuem gestão logística completa, administração corporativa ou atribuições fiscais novas.
 
 ## Fontes e limites dos termos
 
@@ -116,7 +154,7 @@ Nenhum nível pessoal novo foi atribuído.
 Fontes recebidas, licenças, manifestos, declarações e documentos acadêmicos necessários foram preservados.
 Os clones editoriais completos continuam locais e ignorados.
 As instruções permanentes permanecem no AGENTS.md.
-Os auxiliares, os PDFs de inspeção e o navegador temporário foram removidos antes do commit.
+Os auxiliares, os PDFs de inspeção e o navegador temporário usados nos ensaios não integram os arquivos finais.
 
 ## Resultados da verificação
 
@@ -129,19 +167,25 @@ O [registro de verificação](verificacao-site-2026-10-13.json) preserva os resu
 | Idiomas | lang, hreflang, âncoras e troca de idioma conferidos |
 | CSS | Os cinco arquivos permanecem iguais por SHA-256 |
 | Navegador | Chromium 151.0.7922.34, com JavaScript do site desativado |
-| Reorganização | 15 páginas em 60 cenários. Sem transbordamento horizontal a 320 e 1280 pixels, nos dois temas e com texto a 200% |
+| Reorganização | Cinco currículos reexaminados em 20 cenários. Sem transbordamento horizontal a 320 e 1280 pixels, nos dois temas e com texto a 200% |
 | Teclado | Link de salto, foco visível, troca de idioma e controle nativo dos cursos conferidos |
 | Contraste | 14 pares de cores conferidos. Todas as razões acima de 4,5:1 |
 | Cursos | Títulos, instituições, datas e cargas horárias iguais ao commit-base. 17 cursos em cada cópia |
 | Impressão | Dez PDFs A4, com margens de 12 mm. Cada currículo imprimiu nove páginas e os 17 títulos uma única vez |
 | Fontes | 103 arquivos conferidos com os manifestos, sem divergências |
-| Limpeza | 127 arquivos obsoletos retirados, correspondentes a aproximadamente 39,27 MiB |
+| Limpeza anterior | 127 arquivos obsoletos retirados na consolidação, correspondentes a aproximadamente 39,27 MiB |
 | Git | git diff --check passou. Os clones editoriais permanecem ignorados |
 
 As capturas de [pt-BR](evidencias-site-2026-10-13/pt-BR-competencias-320.png) e [inglês](evidencias-site-2026-10-13/en-competencias-320.png) registram as competências em 320 pixels.
 As duas capturas foram inspecionadas.
 As impressões foram conferidas com os cursos abertos e fechados.
 Os PDFs foram usados somente para inspeção e não integram o repositório final.
+
+A revisão dos parágrafos repetiu os ensaios afetados nos cinco currículos.
+Os 40 cenários anteriores de galeria e agradecimentos permanecem no registro. Essas dez páginas não foram alteradas.
+A triagem por espaços encontrou até 17 palavras por frase e quatro frases por parágrafo nas descrições examinadas.
+As descrições também foram revistas manualmente quanto ao assunto, ao agente e aos limites de cada atividade.
+As fontes, as licenças e os manifestos conferidos na consolidação anterior não foram modificados.
 
 Esta tarefa fez inspeção estrutural do HTML. Não repetiu o Nu HTML Checker ou o validador CSS externo.
 O CSS permaneceu igual. Os resultados anteriores foram substituídos pela conferência vigente.

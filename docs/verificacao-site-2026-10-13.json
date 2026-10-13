@@ -13,9 +13,9 @@
           "lang": "pt-BR",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 1280,
@@ -24,9 +24,9 @@
           "lang": "pt-BR",
           "conteudo": 1280,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -35,9 +35,9 @@
           "lang": "pt-BR",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(16, 16, 20)"
+          "theme": "rgb(16, 16, 20)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -46,9 +46,9 @@
           "lang": "pt-BR",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         }
       ],
       "salto_teclado": true,
@@ -172,9 +172,9 @@
           "lang": "pt-PT",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 1280,
@@ -183,9 +183,9 @@
           "lang": "pt-PT",
           "conteudo": 1280,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -194,9 +194,9 @@
           "lang": "pt-PT",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(16, 16, 20)"
+          "theme": "rgb(16, 16, 20)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -205,9 +205,9 @@
           "lang": "pt-PT",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         }
       ],
       "salto_teclado": true,
@@ -331,9 +331,9 @@
           "lang": "en",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 1280,
@@ -342,9 +342,9 @@
           "lang": "en",
           "conteudo": 1280,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -353,9 +353,9 @@
           "lang": "en",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(16, 16, 20)"
+          "theme": "rgb(16, 16, 20)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -364,9 +364,9 @@
           "lang": "en",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         }
       ],
       "salto_teclado": true,
@@ -490,9 +490,9 @@
           "lang": "es-419",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 1280,
@@ -501,9 +501,9 @@
           "lang": "es-419",
           "conteudo": 1280,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -512,9 +512,9 @@
           "lang": "es-419",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(16, 16, 20)"
+          "theme": "rgb(16, 16, 20)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -523,9 +523,9 @@
           "lang": "es-419",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         }
       ],
       "salto_teclado": true,
@@ -649,9 +649,9 @@
           "lang": "es-ES",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 1280,
@@ -660,9 +660,9 @@
           "lang": "es-ES",
           "conteudo": 1280,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -671,9 +671,9 @@
           "lang": "es-ES",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(16, 16, 20)"
+          "theme": "rgb(16, 16, 20)",
+          "imagens_invalidas": []
         },
         {
           "largura": 320,
@@ -682,9 +682,9 @@
           "lang": "es-ES",
           "conteudo": 320,
           "h1": 1,
-          "imagens_invalidas": [],
           "tags": 105,
-          "theme": "rgb(255, 253, 245)"
+          "theme": "rgb(255, 253, 245)",
+          "imagens_invalidas": []
         }
       ],
       "salto_teclado": true,
@@ -874,7 +874,7 @@
   "limites": [
     "Um motor de navegador. Texto a 200% não substitui o zoom nativo. Não houve teste com leitor de tela."
   ],
-  "navegador": "151.0.7922.34",
+  "navegador": "Chromium 151.0.7922.34",
   "falhas_rede": [],
   "estrutura": {
     "paginas_html": 16,
@@ -1012,17 +1012,17 @@
   "arquivos_site_sha256": {
     "static/en/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/en/galeria.html": "c9163496a01682f8a47797864702c1755747c8cd1cb1f5c6006e52ecf072705c",
-    "static/en/index.html": "ac38325a4cec5ea30870adb80a372333bc3e8132a70ec78d6a6ac3f2f8335b55",
+    "static/en/index.html": "5042f9856e4013b56182495b2e49386c8f494ded6d4455055555ebbdd411bc6a",
     "static/en/rede.html": "f0bf403037cc7eaab0ccbcf3a7f884ed38f4a8ae4ad0fbcd184225a17ca53770",
     "static/en/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
     "static/es-419/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/es-419/galeria.html": "aaf8d713ed33f4e47f1d523514464f7e6ef01c9dc3e316e6bb05ee3c30f86362",
-    "static/es-419/index.html": "e5468f04424c8080666615a876027a7010fa2432b1ae668d88caa28f10ebb5cf",
+    "static/es-419/index.html": "575c33f6798ab545af847af879da1b31aeb2735ad981525f92a9f495d59388df",
     "static/es-419/rede.html": "c8ae47c7fd41b5e8f41c9acaf5aa7aff175832f38f8ab8f7f4babcabe9af28bc",
     "static/es-419/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
     "static/es-ES/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/es-ES/galeria.html": "786ed8ef67003eae4f12e067a3da93e6a6a0876ae503405ab1f69656615c9bb4",
-    "static/es-ES/index.html": "9c0f0258e430623c5c69c4d5aeda3bb0c7c56e2832e0bb39d66184e5fc4d2de3",
+    "static/es-ES/index.html": "bc143d726d9566fe52ce5e695a43b87c86fd5dff23ecf07942b5c72332fbe631",
     "static/es-ES/rede.html": "e4d77dc3bae6a6f3212615dbbfb9ac0f38212cee57996be1e52be0a23c0955b4",
     "static/es-ES/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
     "static/index.html": "a8d8569fd9186ab4cdaa5381342a0b2f57c1fe7acdf5e7c84c7bba1b169b2dac",
@@ -1064,17 +1064,33 @@
     "static/media/realfort/trabalho-em-altura-640.webp": "03e91eb313df191b70e193db03badb6fd153625dbfa4516a36c02539076c202b",
     "static/pt-BR/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/pt-BR/galeria.html": "a31c1e8f77209ca282b08150235ee061f7c6b8a86e43da47195a4d1b738da99a",
-    "static/pt-BR/index.html": "22acd7a69208804d4af90a0155085dc4bda25e9edb8422d48aa83c2495e6461a",
+    "static/pt-BR/index.html": "b426b50785dedb5d3bdfee76194babbaa1e950a287c8edbf34540d0dc7deeac5",
     "static/pt-BR/rede.html": "19fce540da01205489e20fd5682fe366bdac90aa1867ac3cc670e0cc4b751bf8",
     "static/pt-BR/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
     "static/pt-PT/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/pt-PT/galeria.html": "e5bff879febed644202ba3e633b76b3642c6fdbace869b473634d998dd1d7d0e",
-    "static/pt-PT/index.html": "d23504e35a081f1eb6cc064d23dea4fe55959e1c4ed48425f63f856f1b6ed34a",
+    "static/pt-PT/index.html": "04ef8fbad67a08b8cdafeddfe1503d2db0baab67931fd550f64394c22ed950ac",
     "static/pt-PT/rede.html": "01d00cd0733d7dd46426fb061d186f1d12438f9bc42a0b277f6d87696c46c7e1",
     "static/pt-PT/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422"
   },
   "limpeza": {
     "bytes": 41181447,
     "arquivos_obsoletos_removidos": 127
+  },
+  "revisao_atual": {
+    "base_git": "a405feccc20dd20f8762d13c0f6d6488b6467fdb",
+    "tema": "Organização das descrições por tecnologia, atividade e responsabilidade",
+    "paginas_reexaminadas": 5,
+    "cenarios_reexaminados": 20,
+    "limite": "Resultados de galeria e agradecimentos preservados. Essas páginas não foram alteradas.",
+    "frases_descritivas_maximo_palavras_por_espacos": {
+      "pt-BR": 16,
+      "pt-PT": 15,
+      "en": 14,
+      "es-419": 17,
+      "es-ES": 17
+    },
+    "paragrafos_maximo_frases": 4,
+    "tags_datas_niveis_cursos_links_e_ancoras_preservados": true
   }
 }

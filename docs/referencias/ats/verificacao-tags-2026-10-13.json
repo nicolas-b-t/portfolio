@@ -1,6 +1,6 @@
 {
   "data": "2026-10-13",
-  "base_git": "357b2493307f0f61dcb73c6f61b2c77f1a593d79",
+  "base_git": "a405feccc20dd20f8762d13c0f6d6488b6467fdb",
   "normalizacao": "Somente caixa e espaços. Acentos, pontuação, singular/plural e palavras permanecem distintos. A observação é preservada separadamente.",
   "criterio_idiomas": "ESCO pt é consultado para pt-BR e pt-PT. ESCO es é consultado para es-419 e es-ES. Nomes técnicos comuns também consultam nomes ingleses exatos.",
   "criterio_aliases": "Apenas altLabels ESCO e aliases documentados dos exemplos comerciais. O campo synonyms do dataset editorial não é tratado como equivalência.",
@@ -65,35 +65,35 @@
       "manifesto": "docs/referencias/ats/manifesto-fontes-editoriais-2026-10-13.json"
     }
   ],
-  "escopo": "Tags vigentes após aplicar as alterações aprovadas em 13 de outubro de 2026. Registro consolidado para manutenção.",
+  "escopo": "Tags vigentes após a organização dos parágrafos das experiências e dos projetos, nos cinco idiomas.",
   "paginas": {
     "pt-BR": {
       "arquivo": "static/pt-BR/index.html",
-      "sha256": "22acd7a69208804d4af90a0155085dc4bda25e9edb8422d48aa83c2495e6461a",
+      "sha256": "b426b50785dedb5d3bdfee76194babbaa1e950a287c8edbf34540d0dc7deeac5",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "pt-PT": {
       "arquivo": "static/pt-PT/index.html",
-      "sha256": "d23504e35a081f1eb6cc064d23dea4fe55959e1c4ed48425f63f856f1b6ed34a",
+      "sha256": "04ef8fbad67a08b8cdafeddfe1503d2db0baab67931fd550f64394c22ed950ac",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "en": {
       "arquivo": "static/en/index.html",
-      "sha256": "ac38325a4cec5ea30870adb80a372333bc3e8132a70ec78d6a6ac3f2f8335b55",
+      "sha256": "5042f9856e4013b56182495b2e49386c8f494ded6d4455055555ebbdd411bc6a",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "es-419": {
       "arquivo": "static/es-419/index.html",
-      "sha256": "e5468f04424c8080666615a876027a7010fa2432b1ae668d88caa28f10ebb5cf",
+      "sha256": "575c33f6798ab545af847af879da1b31aeb2735ad981525f92a9f495d59388df",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "es-ES": {
       "arquivo": "static/es-ES/index.html",
-      "sha256": "9c0f0258e430623c5c69c4d5aeda3bb0c7c56e2832e0bb39d66184e5fc4d2de3",
+      "sha256": "bc143d726d9566fe52ce5e695a43b87c86fd5dff23ecf07942b5c72332fbe631",
       "tags": 105,
       "rotulos_distintos": 101
     }
@@ -4649,7 +4649,7 @@
         "pt-BR": {
           "rotulo": "Avaliação de soluções",
           "observacao": "",
-          "linha": 204,
+          "linha": 203,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4657,7 +4657,7 @@
         "pt-PT": {
           "rotulo": "Avaliação de soluções",
           "observacao": "",
-          "linha": 204,
+          "linha": 203,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4665,7 +4665,7 @@
         "en": {
           "rotulo": "Solution evaluation",
           "observacao": "",
-          "linha": 204,
+          "linha": 203,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Management and business"
@@ -4673,7 +4673,7 @@
         "es-419": {
           "rotulo": "Evaluación de soluciones",
           "observacao": "",
-          "linha": 204,
+          "linha": 203,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4681,7 +4681,7 @@
         "es-ES": {
           "rotulo": "Evaluación de soluciones",
           "observacao": "",
-          "linha": 204,
+          "linha": 203,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4706,7 +4706,7 @@
         "pt-BR": {
           "rotulo": "Gestão de pessoas",
           "observacao": "",
-          "linha": 205,
+          "linha": 204,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4714,7 +4714,7 @@
         "pt-PT": {
           "rotulo": "Gestão de pessoas",
           "observacao": "",
-          "linha": 205,
+          "linha": 204,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4722,7 +4722,7 @@
         "en": {
           "rotulo": "People management",
           "observacao": "",
-          "linha": 205,
+          "linha": 204,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Management and business"
@@ -4730,7 +4730,7 @@
         "es-419": {
           "rotulo": "Gestión de personas",
           "observacao": "",
-          "linha": 205,
+          "linha": 204,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4738,7 +4738,7 @@
         "es-ES": {
           "rotulo": "Gestión de personas",
           "observacao": "",
-          "linha": 205,
+          "linha": 204,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4763,7 +4763,7 @@
         "pt-BR": {
           "rotulo": "Gestão de processos",
           "observacao": "",
-          "linha": 206,
+          "linha": 205,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4771,7 +4771,7 @@
         "pt-PT": {
           "rotulo": "Gestão de processos",
           "observacao": "",
-          "linha": 206,
+          "linha": 205,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4779,7 +4779,7 @@
         "en": {
           "rotulo": "Process management",
           "observacao": "",
-          "linha": 206,
+          "linha": 205,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Management and business"
@@ -4787,7 +4787,7 @@
         "es-419": {
           "rotulo": "Gestión de procesos",
           "observacao": "",
-          "linha": 206,
+          "linha": 205,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4795,7 +4795,7 @@
         "es-ES": {
           "rotulo": "Gestión de procesos",
           "observacao": "",
-          "linha": 206,
+          "linha": 205,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4820,7 +4820,7 @@
         "pt-BR": {
           "rotulo": "Gestão de projetos de TI",
           "observacao": "",
-          "linha": 207,
+          "linha": 206,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4828,7 +4828,7 @@
         "pt-PT": {
           "rotulo": "Gestão de projetos de TI",
           "observacao": "",
-          "linha": 207,
+          "linha": 206,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4836,7 +4836,7 @@
         "en": {
           "rotulo": "IT project management",
           "observacao": "",
-          "linha": 207,
+          "linha": 206,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "education",
           "grupo": "Management and business"
@@ -4844,7 +4844,7 @@
         "es-419": {
           "rotulo": "Gestión de proyectos de TI",
           "observacao": "",
-          "linha": 207,
+          "linha": 206,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4852,7 +4852,7 @@
         "es-ES": {
           "rotulo": "Gestión de proyectos de TI",
           "observacao": "",
-          "linha": 207,
+          "linha": 206,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4877,7 +4877,7 @@
         "pt-BR": {
           "rotulo": "Gestão financeira",
           "observacao": "",
-          "linha": 208,
+          "linha": 207,
           "relacao_revisada": "literal",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4885,7 +4885,7 @@
         "pt-PT": {
           "rotulo": "Gestão financeira",
           "observacao": "",
-          "linha": 208,
+          "linha": 207,
           "relacao_revisada": "literal",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4893,7 +4893,7 @@
         "en": {
           "rotulo": "Financial management",
           "observacao": "",
-          "linha": 208,
+          "linha": 207,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Management and business"
@@ -4901,7 +4901,7 @@
         "es-419": {
           "rotulo": "Gestión financiera",
           "observacao": "",
-          "linha": 208,
+          "linha": 207,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4909,7 +4909,7 @@
         "es-ES": {
           "rotulo": "Gestión financiera",
           "observacao": "",
-          "linha": 208,
+          "linha": 207,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4934,7 +4934,7 @@
         "pt-BR": {
           "rotulo": "Planejamento estratégico",
           "observacao": "",
-          "linha": 209,
+          "linha": 208,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4942,7 +4942,7 @@
         "pt-PT": {
           "rotulo": "Planeamento estratégico",
           "observacao": "",
-          "linha": 209,
+          "linha": 208,
           "relacao_revisada": "literal",
           "ancora": "formacao",
           "grupo": "Gestão e negócios"
@@ -4950,7 +4950,7 @@
         "en": {
           "rotulo": "Strategic planning",
           "observacao": "",
-          "linha": 209,
+          "linha": 208,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Management and business"
@@ -4958,7 +4958,7 @@
         "es-419": {
           "rotulo": "Planificación estratégica",
           "observacao": "",
-          "linha": 209,
+          "linha": 208,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4966,7 +4966,7 @@
         "es-ES": {
           "rotulo": "Planificación estratégica",
           "observacao": "",
-          "linha": 209,
+          "linha": 208,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Gestión y negocios"
@@ -4991,7 +4991,7 @@
         "pt-BR": {
           "rotulo": "Comunicação",
           "observacao": "",
-          "linha": 213,
+          "linha": 212,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -4999,7 +4999,7 @@
         "pt-PT": {
           "rotulo": "Comunicação",
           "observacao": "",
-          "linha": 213,
+          "linha": 212,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5007,7 +5007,7 @@
         "en": {
           "rotulo": "Communication",
           "observacao": "",
-          "linha": 213,
+          "linha": 212,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5015,7 +5015,7 @@
         "es-419": {
           "rotulo": "Comunicación",
           "observacao": "",
-          "linha": 213,
+          "linha": 212,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5023,7 +5023,7 @@
         "es-ES": {
           "rotulo": "Comunicación",
           "observacao": "",
-          "linha": 213,
+          "linha": 212,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5048,7 +5048,7 @@
         "pt-BR": {
           "rotulo": "Negociação",
           "observacao": "",
-          "linha": 214,
+          "linha": 213,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5056,7 +5056,7 @@
         "pt-PT": {
           "rotulo": "Negociação",
           "observacao": "",
-          "linha": 214,
+          "linha": 213,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5064,7 +5064,7 @@
         "en": {
           "rotulo": "Negotiation",
           "observacao": "",
-          "linha": 214,
+          "linha": 213,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5072,7 +5072,7 @@
         "es-419": {
           "rotulo": "Negociación",
           "observacao": "",
-          "linha": 214,
+          "linha": 213,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5080,7 +5080,7 @@
         "es-ES": {
           "rotulo": "Negociación",
           "observacao": "",
-          "linha": 214,
+          "linha": 213,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5106,7 +5106,7 @@
         "pt-BR": {
           "rotulo": "Gestão de conflitos",
           "observacao": "",
-          "linha": 215,
+          "linha": 214,
           "relacao_revisada": "literal",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5114,7 +5114,7 @@
         "pt-PT": {
           "rotulo": "Gestão de conflitos",
           "observacao": "",
-          "linha": 215,
+          "linha": 214,
           "relacao_revisada": "literal",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5122,7 +5122,7 @@
         "en": {
           "rotulo": "Conflict management",
           "observacao": "",
-          "linha": 215,
+          "linha": 214,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5130,7 +5130,7 @@
         "es-419": {
           "rotulo": "Gestión de conflictos",
           "observacao": "",
-          "linha": 215,
+          "linha": 214,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5138,7 +5138,7 @@
         "es-ES": {
           "rotulo": "Gestión de conflictos",
           "observacao": "",
-          "linha": 215,
+          "linha": 214,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5164,7 +5164,7 @@
         "pt-BR": {
           "rotulo": "Pensamento crítico",
           "observacao": "",
-          "linha": 216,
+          "linha": 215,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5172,7 +5172,7 @@
         "pt-PT": {
           "rotulo": "Pensamento crítico",
           "observacao": "",
-          "linha": 216,
+          "linha": 215,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5180,7 +5180,7 @@
         "en": {
           "rotulo": "Critical thinking",
           "observacao": "",
-          "linha": 216,
+          "linha": 215,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5188,7 +5188,7 @@
         "es-419": {
           "rotulo": "Pensamiento crítico",
           "observacao": "",
-          "linha": 216,
+          "linha": 215,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5196,7 +5196,7 @@
         "es-ES": {
           "rotulo": "Pensamiento crítico",
           "observacao": "",
-          "linha": 216,
+          "linha": 215,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5221,7 +5221,7 @@
         "pt-BR": {
           "rotulo": "Pesquisa acadêmica",
           "observacao": "",
-          "linha": 217,
+          "linha": 216,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5229,7 +5229,7 @@
         "pt-PT": {
           "rotulo": "Investigação académica",
           "observacao": "",
-          "linha": 217,
+          "linha": 216,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5237,7 +5237,7 @@
         "en": {
           "rotulo": "Academic research",
           "observacao": "",
-          "linha": 217,
+          "linha": 216,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5245,7 +5245,7 @@
         "es-419": {
           "rotulo": "Investigación académica",
           "observacao": "",
-          "linha": 217,
+          "linha": 216,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5253,7 +5253,7 @@
         "es-ES": {
           "rotulo": "Investigación académica",
           "observacao": "",
-          "linha": 217,
+          "linha": 216,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5279,7 +5279,7 @@
         "pt-BR": {
           "rotulo": "Resolução de problemas",
           "observacao": "",
-          "linha": 218,
+          "linha": 217,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5287,7 +5287,7 @@
         "pt-PT": {
           "rotulo": "Resolução de problemas",
           "observacao": "",
-          "linha": 218,
+          "linha": 217,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5295,7 +5295,7 @@
         "en": {
           "rotulo": "Problem solving",
           "observacao": "",
-          "linha": 218,
+          "linha": 217,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5303,7 +5303,7 @@
         "es-419": {
           "rotulo": "Resolución de problemas",
           "observacao": "",
-          "linha": 218,
+          "linha": 217,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5311,7 +5311,7 @@
         "es-ES": {
           "rotulo": "Resolución de problemas",
           "observacao": "",
-          "linha": 218,
+          "linha": 217,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5336,7 +5336,7 @@
         "pt-BR": {
           "rotulo": "Trabalho em equipe",
           "observacao": "",
-          "linha": 219,
+          "linha": 218,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5344,7 +5344,7 @@
         "pt-PT": {
           "rotulo": "Trabalho em equipa",
           "observacao": "",
-          "linha": 219,
+          "linha": 218,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5352,7 +5352,7 @@
         "en": {
           "rotulo": "Teamwork",
           "observacao": "",
-          "linha": 219,
+          "linha": 218,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5360,7 +5360,7 @@
         "es-419": {
           "rotulo": "Trabajo en equipo",
           "observacao": "",
-          "linha": 219,
+          "linha": 218,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5368,7 +5368,7 @@
         "es-ES": {
           "rotulo": "Trabajo en equipo",
           "observacao": "",
-          "linha": 219,
+          "linha": 218,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5393,7 +5393,7 @@
         "pt-BR": {
           "rotulo": "Visão sistêmica",
           "observacao": "",
-          "linha": 220,
+          "linha": 219,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Pesquisa e competências sociais"
@@ -5401,7 +5401,7 @@
         "pt-PT": {
           "rotulo": "Visão sistémica",
           "observacao": "",
-          "linha": 220,
+          "linha": 219,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Investigação e competências sociais"
@@ -5409,7 +5409,7 @@
         "en": {
           "rotulo": "Systems thinking",
           "observacao": "",
-          "linha": 220,
+          "linha": 219,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Research and interpersonal skills"
@@ -5417,7 +5417,7 @@
         "es-419": {
           "rotulo": "Visión sistémica",
           "observacao": "",
-          "linha": 220,
+          "linha": 219,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5425,7 +5425,7 @@
         "es-ES": {
           "rotulo": "Visión sistémica",
           "observacao": "",
-          "linha": 220,
+          "linha": 219,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Investigación y competencias sociales"
@@ -5450,7 +5450,7 @@
         "pt-BR": {
           "rotulo": "Banco de dados",
           "observacao": "",
-          "linha": 224,
+          "linha": 223,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5458,7 +5458,7 @@
         "pt-PT": {
           "rotulo": "Bases de dados",
           "observacao": "",
-          "linha": 224,
+          "linha": 223,
           "relacao_revisada": "alias_declarado",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5466,7 +5466,7 @@
         "en": {
           "rotulo": "Databases",
           "observacao": "",
-          "linha": 224,
+          "linha": 223,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5474,7 +5474,7 @@
         "es-419": {
           "rotulo": "Bases de datos",
           "observacao": "",
-          "linha": 224,
+          "linha": 223,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5482,7 +5482,7 @@
         "es-ES": {
           "rotulo": "Bases de datos",
           "observacao": "",
-          "linha": 224,
+          "linha": 223,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5507,7 +5507,7 @@
         "pt-BR": {
           "rotulo": "Diagnóstico de infraestrutura",
           "observacao": "",
-          "linha": 225,
+          "linha": 224,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5515,7 +5515,7 @@
         "pt-PT": {
           "rotulo": "Diagnóstico de infraestrutura",
           "observacao": "",
-          "linha": 225,
+          "linha": 224,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5523,7 +5523,7 @@
         "en": {
           "rotulo": "Infrastructure diagnostics",
           "observacao": "",
-          "linha": 225,
+          "linha": 224,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5531,7 +5531,7 @@
         "es-419": {
           "rotulo": "Diagnóstico de infraestructura",
           "observacao": "",
-          "linha": 225,
+          "linha": 224,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5539,7 +5539,7 @@
         "es-ES": {
           "rotulo": "Diagnóstico de infraestructura",
           "observacao": "",
-          "linha": 225,
+          "linha": 224,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5562,7 +5562,7 @@
         "pt-BR": {
           "rotulo": "Engenharia de software",
           "observacao": "",
-          "linha": 226,
+          "linha": 225,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5570,7 +5570,7 @@
         "pt-PT": {
           "rotulo": "Engenharia de software",
           "observacao": "",
-          "linha": 226,
+          "linha": 225,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5578,7 +5578,7 @@
         "en": {
           "rotulo": "Software engineering",
           "observacao": "",
-          "linha": 226,
+          "linha": 225,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5586,7 +5586,7 @@
         "es-419": {
           "rotulo": "Ingeniería de software",
           "observacao": "",
-          "linha": 226,
+          "linha": 225,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5594,7 +5594,7 @@
         "es-ES": {
           "rotulo": "Ingeniería de software",
           "observacao": "",
-          "linha": 226,
+          "linha": 225,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5619,7 +5619,7 @@
         "pt-BR": {
           "rotulo": "Inteligência de negócios",
           "observacao": "",
-          "linha": 227,
+          "linha": 226,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5627,7 +5627,7 @@
         "pt-PT": {
           "rotulo": "Inteligência de negócios",
           "observacao": "",
-          "linha": 227,
+          "linha": 226,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5635,7 +5635,7 @@
         "en": {
           "rotulo": "Business intelligence",
           "observacao": "",
-          "linha": 227,
+          "linha": 226,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5643,7 +5643,7 @@
         "es-419": {
           "rotulo": "Inteligencia de negocios",
           "observacao": "",
-          "linha": 227,
+          "linha": 226,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5651,7 +5651,7 @@
         "es-ES": {
           "rotulo": "Inteligencia de negocio",
           "observacao": "",
-          "linha": 227,
+          "linha": 226,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5676,7 +5676,7 @@
         "pt-BR": {
           "rotulo": "Programação para internet",
           "observacao": "",
-          "linha": 228,
+          "linha": 227,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5684,7 +5684,7 @@
         "pt-PT": {
           "rotulo": "Programação para internet",
           "observacao": "",
-          "linha": 228,
+          "linha": 227,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5692,7 +5692,7 @@
         "en": {
           "rotulo": "Web programming",
           "observacao": "",
-          "linha": 228,
+          "linha": 227,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5700,7 +5700,7 @@
         "es-419": {
           "rotulo": "Programación web",
           "observacao": "",
-          "linha": 228,
+          "linha": 227,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5708,7 +5708,7 @@
         "es-ES": {
           "rotulo": "Programación web",
           "observacao": "",
-          "linha": 228,
+          "linha": 227,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5733,7 +5733,7 @@
         "pt-BR": {
           "rotulo": "Redes de computadores",
           "observacao": "",
-          "linha": 229,
+          "linha": 228,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5741,7 +5741,7 @@
         "pt-PT": {
           "rotulo": "Redes de computadores",
           "observacao": "",
-          "linha": 229,
+          "linha": 228,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5749,7 +5749,7 @@
         "en": {
           "rotulo": "Computer networks",
           "observacao": "",
-          "linha": 229,
+          "linha": 228,
           "relacao_revisada": "relacao_parcial",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5757,7 +5757,7 @@
         "es-419": {
           "rotulo": "Redes de computadoras",
           "observacao": "",
-          "linha": 229,
+          "linha": 228,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5765,7 +5765,7 @@
         "es-ES": {
           "rotulo": "Redes de ordenadores",
           "observacao": "",
-          "linha": 229,
+          "linha": 228,
           "relacao_revisada": "relacao_parcial",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5790,7 +5790,7 @@
         "pt-BR": {
           "rotulo": "Sistemas operacionais",
           "observacao": "",
-          "linha": 230,
+          "linha": 229,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5798,7 +5798,7 @@
         "pt-PT": {
           "rotulo": "Sistemas operacionais",
           "observacao": "",
-          "linha": 230,
+          "linha": 229,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "formacao",
           "grupo": "Tecnologia e sistemas"
@@ -5806,7 +5806,7 @@
         "en": {
           "rotulo": "Operating systems",
           "observacao": "",
-          "linha": 230,
+          "linha": 229,
           "relacao_revisada": "literal",
           "ancora": "education",
           "grupo": "Technology and systems"
@@ -5814,7 +5814,7 @@
         "es-419": {
           "rotulo": "Sistemas operativos",
           "observacao": "",
-          "linha": 230,
+          "linha": 229,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5822,7 +5822,7 @@
         "es-ES": {
           "rotulo": "Sistemas operativos",
           "observacao": "",
-          "linha": 230,
+          "linha": 229,
           "relacao_revisada": "literal",
           "ancora": "formacion",
           "grupo": "Tecnología y sistemas"
@@ -5846,7 +5846,7 @@
         "pt-BR": {
           "rotulo": "Desenvolvimento com agentes de IA",
           "observacao": "",
-          "linha": 467,
+          "linha": 468,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projetos",
           "grupo": "Desenvolvimento e gestão"
@@ -5854,7 +5854,7 @@
         "pt-PT": {
           "rotulo": "Desenvolvimento com agentes de IA",
           "observacao": "",
-          "linha": 467,
+          "linha": 468,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projetos",
           "grupo": "Desenvolvimento e gestão"
@@ -5862,7 +5862,7 @@
         "en": {
           "rotulo": "Development with AI agents",
           "observacao": "",
-          "linha": 467,
+          "linha": 468,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projects",
           "grupo": "Development and management"
@@ -5870,7 +5870,7 @@
         "es-419": {
           "rotulo": "Desarrollo con agentes de IA",
           "observacao": "",
-          "linha": 467,
+          "linha": 468,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proyectos",
           "grupo": "Desarrollo y gestión"
@@ -5878,7 +5878,7 @@
         "es-ES": {
           "rotulo": "Desarrollo con agentes de IA",
           "observacao": "",
-          "linha": 467,
+          "linha": 468,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proyectos",
           "grupo": "Desarrollo y gestión"
@@ -5900,7 +5900,7 @@
         "pt-BR": {
           "rotulo": "Gestão de escopo",
           "observacao": "",
-          "linha": 468,
+          "linha": 469,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projetos",
           "grupo": "Desenvolvimento e gestão"
@@ -5908,7 +5908,7 @@
         "pt-PT": {
           "rotulo": "Gestão de escopo",
           "observacao": "",
-          "linha": 468,
+          "linha": 469,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projetos",
           "grupo": "Desenvolvimento e gestão"
@@ -5916,7 +5916,7 @@
         "en": {
           "rotulo": "Scope management",
           "observacao": "",
-          "linha": 468,
+          "linha": 469,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projects",
           "grupo": "Development and management"
@@ -5924,7 +5924,7 @@
         "es-419": {
           "rotulo": "Gestión del alcance",
           "observacao": "",
-          "linha": 468,
+          "linha": 469,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "proyectos",
           "grupo": "Desarrollo y gestión"
@@ -5932,7 +5932,7 @@
         "es-ES": {
           "rotulo": "Gestión del alcance",
           "observacao": "",
-          "linha": 468,
+          "linha": 469,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "proyectos",
           "grupo": "Desarrollo y gestión"
@@ -5954,7 +5954,7 @@
         "pt-BR": {
           "rotulo": "Design responsivo",
           "observacao": "",
-          "linha": 472,
+          "linha": 473,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -5962,7 +5962,7 @@
         "pt-PT": {
           "rotulo": "Design responsivo",
           "observacao": "",
-          "linha": 472,
+          "linha": 473,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -5970,7 +5970,7 @@
         "en": {
           "rotulo": "Responsive design",
           "observacao": "",
-          "linha": 472,
+          "linha": 473,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projects",
           "grupo": "Web"
@@ -5978,7 +5978,7 @@
         "es-419": {
           "rotulo": "Diseño adaptable",
           "observacao": "",
-          "linha": 472,
+          "linha": 473,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -5986,7 +5986,7 @@
         "es-ES": {
           "rotulo": "Diseño adaptable",
           "observacao": "",
-          "linha": 472,
+          "linha": 473,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6010,7 +6010,7 @@
         "pt-BR": {
           "rotulo": "Otimização de imagens",
           "observacao": "",
-          "linha": 473,
+          "linha": 474,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -6018,7 +6018,7 @@
         "pt-PT": {
           "rotulo": "Otimização de imagens",
           "observacao": "",
-          "linha": 473,
+          "linha": 474,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -6026,7 +6026,7 @@
         "en": {
           "rotulo": "Image optimisation",
           "observacao": "",
-          "linha": 473,
+          "linha": 474,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projects",
           "grupo": "Web"
@@ -6034,7 +6034,7 @@
         "es-419": {
           "rotulo": "Optimización de imágenes",
           "observacao": "",
-          "linha": 473,
+          "linha": 474,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6042,7 +6042,7 @@
         "es-ES": {
           "rotulo": "Optimización de imágenes",
           "observacao": "",
-          "linha": 473,
+          "linha": 474,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6066,7 +6066,7 @@
         "pt-BR": {
           "rotulo": "Testes de interface",
           "observacao": "",
-          "linha": 474,
+          "linha": 475,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -6074,7 +6074,7 @@
         "pt-PT": {
           "rotulo": "Testes de interface",
           "observacao": "",
-          "linha": 474,
+          "linha": 475,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -6082,7 +6082,7 @@
         "en": {
           "rotulo": "Interface testing",
           "observacao": "",
-          "linha": 474,
+          "linha": 475,
           "relacao_revisada": "relacao_parcial",
           "ancora": "projects",
           "grupo": "Web"
@@ -6090,7 +6090,7 @@
         "es-419": {
           "rotulo": "Pruebas de interfaz",
           "observacao": "",
-          "linha": 474,
+          "linha": 475,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6098,7 +6098,7 @@
         "es-ES": {
           "rotulo": "Pruebas de interfaz",
           "observacao": "",
-          "linha": 474,
+          "linha": 475,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6120,7 +6120,7 @@
         "pt-BR": {
           "rotulo": "Validação HTML",
           "observacao": "",
-          "linha": 475,
+          "linha": 476,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -6128,7 +6128,7 @@
         "pt-PT": {
           "rotulo": "Validação HTML",
           "observacao": "",
-          "linha": 475,
+          "linha": 476,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projetos",
           "grupo": "Web"
@@ -6136,7 +6136,7 @@
         "en": {
           "rotulo": "HTML validation",
           "observacao": "",
-          "linha": 475,
+          "linha": 476,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "projects",
           "grupo": "Web"
@@ -6144,7 +6144,7 @@
         "es-419": {
           "rotulo": "Validación HTML",
           "observacao": "",
-          "linha": 475,
+          "linha": 476,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6152,7 +6152,7 @@
         "es-ES": {
           "rotulo": "Validación HTML",
           "observacao": "",
-          "linha": 475,
+          "linha": 476,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "proyectos",
           "grupo": "Web"
@@ -6176,7 +6176,7 @@
         "pt-BR": {
           "rotulo": "Documentação técnica",
           "observacao": "",
-          "linha": 486,
+          "linha": 487,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "optigrow",
           "grupo": "Minha participação"
@@ -6184,7 +6184,7 @@
         "pt-PT": {
           "rotulo": "Documentação técnica",
           "observacao": "",
-          "linha": 486,
+          "linha": 487,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "optigrow",
           "grupo": "A minha participação"
@@ -6192,7 +6192,7 @@
         "en": {
           "rotulo": "Technical documentation",
           "observacao": "",
-          "linha": 486,
+          "linha": 487,
           "relacao_revisada": "literal",
           "ancora": "optigrow",
           "grupo": "My contribution"
@@ -6200,7 +6200,7 @@
         "es-419": {
           "rotulo": "Documentación técnica",
           "observacao": "",
-          "linha": 486,
+          "linha": 487,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "optigrow",
           "grupo": "Mi participación"
@@ -6208,7 +6208,7 @@
         "es-ES": {
           "rotulo": "Documentación técnica",
           "observacao": "",
-          "linha": 486,
+          "linha": 487,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "optigrow",
           "grupo": "Mi participación"
@@ -6232,7 +6232,7 @@
         "pt-BR": {
           "rotulo": "Pesquisa de mercado",
           "observacao": "",
-          "linha": 487,
+          "linha": 488,
           "relacao_revisada": "relacao_parcial",
           "ancora": "optigrow",
           "grupo": "Minha participação"
@@ -6240,7 +6240,7 @@
         "pt-PT": {
           "rotulo": "Pesquisa de mercado",
           "observacao": "",
-          "linha": 487,
+          "linha": 488,
           "relacao_revisada": "relacao_parcial",
           "ancora": "optigrow",
           "grupo": "A minha participação"
@@ -6248,7 +6248,7 @@
         "en": {
           "rotulo": "Market research",
           "observacao": "",
-          "linha": 487,
+          "linha": 488,
           "relacao_revisada": "relacao_parcial",
           "ancora": "optigrow",
           "grupo": "My contribution"
@@ -6256,7 +6256,7 @@
         "es-419": {
           "rotulo": "Investigación de mercado",
           "observacao": "",
-          "linha": 487,
+          "linha": 488,
           "relacao_revisada": "relacao_parcial",
           "ancora": "optigrow",
           "grupo": "Mi participación"
@@ -6264,7 +6264,7 @@
         "es-ES": {
           "rotulo": "Investigación de mercado",
           "observacao": "",
-          "linha": 487,
+          "linha": 488,
           "relacao_revisada": "relacao_parcial",
           "ancora": "optigrow",
           "grupo": "Mi participación"
@@ -6286,7 +6286,7 @@
         "pt-BR": {
           "rotulo": "Preparação de infraestrutura",
           "observacao": "",
-          "linha": 488,
+          "linha": 489,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "optigrow",
           "grupo": "Minha participação"
@@ -6294,7 +6294,7 @@
         "pt-PT": {
           "rotulo": "Preparação de infraestrutura",
           "observacao": "",
-          "linha": 488,
+          "linha": 489,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "optigrow",
           "grupo": "A minha participação"
@@ -6302,7 +6302,7 @@
         "en": {
           "rotulo": "Infrastructure preparation",
           "observacao": "",
-          "linha": 488,
+          "linha": 489,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "optigrow",
           "grupo": "My contribution"
@@ -6310,7 +6310,7 @@
         "es-419": {
           "rotulo": "Preparación de infraestructura",
           "observacao": "",
-          "linha": 488,
+          "linha": 489,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "optigrow",
           "grupo": "Mi participación"
@@ -6318,7 +6318,7 @@
         "es-ES": {
           "rotulo": "Preparación de infraestructura",
           "observacao": "",
-          "linha": 488,
+          "linha": 489,
           "relacao_revisada": "ausencia_no_recorte_oficial",
           "ancora": "optigrow",
           "grupo": "Mi participación"
@@ -6680,7 +6680,7 @@
         "pt-BR": {
           "rotulo": "Gestão de entregáveis",
           "observacao": "",
-          "linha": 510,
+          "linha": 511,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Gestão do projeto"
@@ -6688,7 +6688,7 @@
         "pt-PT": {
           "rotulo": "Gestão de entregas",
           "observacao": "",
-          "linha": 510,
+          "linha": 511,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Gestão do projeto"
@@ -6696,7 +6696,7 @@
         "en": {
           "rotulo": "Deliverable management",
           "observacao": "",
-          "linha": 510,
+          "linha": 511,
           "relacao_revisada": "relacao_parcial",
           "ancora": "upcoming-projects",
           "grupo": "Project management"
@@ -6704,7 +6704,7 @@
         "es-419": {
           "rotulo": "Gestión de entregables",
           "observacao": "",
-          "linha": 510,
+          "linha": 511,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Gestión del proyecto"
@@ -6712,7 +6712,7 @@
         "es-ES": {
           "rotulo": "Gestión de entregables",
           "observacao": "",
-          "linha": 510,
+          "linha": 511,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Gestión del proyecto"
@@ -6736,7 +6736,7 @@
         "pt-BR": {
           "rotulo": "Liderança de equipe",
           "observacao": "",
-          "linha": 511,
+          "linha": 512,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "proximos-projetos",
           "grupo": "Gestão do projeto"
@@ -6744,7 +6744,7 @@
         "pt-PT": {
           "rotulo": "Liderança de equipa",
           "observacao": "",
-          "linha": 511,
+          "linha": 512,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "proximos-projetos",
           "grupo": "Gestão do projeto"
@@ -6752,7 +6752,7 @@
         "en": {
           "rotulo": "Team leadership",
           "observacao": "",
-          "linha": 511,
+          "linha": 512,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "upcoming-projects",
           "grupo": "Project management"
@@ -6760,7 +6760,7 @@
         "es-419": {
           "rotulo": "Liderazgo de equipo",
           "observacao": "",
-          "linha": 511,
+          "linha": 512,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "proximos-proyectos",
           "grupo": "Gestión del proyecto"
@@ -6768,7 +6768,7 @@
         "es-ES": {
           "rotulo": "Liderazgo de equipo",
           "observacao": "",
-          "linha": 511,
+          "linha": 512,
           "relacao_revisada": "interpretacao_editorial",
           "ancora": "proximos-proyectos",
           "grupo": "Gestión del proyecto"
@@ -6793,7 +6793,7 @@
         "pt-BR": {
           "rotulo": "Análise de dados qualitativos",
           "observacao": "",
-          "linha": 515,
+          "linha": 517,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Pesquisa acadêmica"
@@ -6801,7 +6801,7 @@
         "pt-PT": {
           "rotulo": "Análise de dados qualitativos",
           "observacao": "",
-          "linha": 515,
+          "linha": 517,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Investigação académica"
@@ -6809,7 +6809,7 @@
         "en": {
           "rotulo": "Qualitative data analysis",
           "observacao": "",
-          "linha": 515,
+          "linha": 517,
           "relacao_revisada": "relacao_parcial",
           "ancora": "upcoming-projects",
           "grupo": "Academic research"
@@ -6817,7 +6817,7 @@
         "es-419": {
           "rotulo": "Análisis de datos cualitativos",
           "observacao": "",
-          "linha": 515,
+          "linha": 517,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6825,7 +6825,7 @@
         "es-ES": {
           "rotulo": "Análisis de datos cualitativos",
           "observacao": "",
-          "linha": 515,
+          "linha": 517,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6850,7 +6850,7 @@
         "pt-BR": {
           "rotulo": "Entrevistas",
           "observacao": "",
-          "linha": 516,
+          "linha": 518,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Pesquisa acadêmica"
@@ -6858,7 +6858,7 @@
         "pt-PT": {
           "rotulo": "Entrevistas",
           "observacao": "",
-          "linha": 516,
+          "linha": 518,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Investigação académica"
@@ -6866,7 +6866,7 @@
         "en": {
           "rotulo": "Interviews",
           "observacao": "",
-          "linha": 516,
+          "linha": 518,
           "relacao_revisada": "relacao_parcial",
           "ancora": "upcoming-projects",
           "grupo": "Academic research"
@@ -6874,7 +6874,7 @@
         "es-419": {
           "rotulo": "Entrevistas",
           "observacao": "",
-          "linha": 516,
+          "linha": 518,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6882,7 +6882,7 @@
         "es-ES": {
           "rotulo": "Entrevistas",
           "observacao": "",
-          "linha": 516,
+          "linha": 518,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6907,7 +6907,7 @@
         "pt-BR": {
           "rotulo": "Questionários",
           "observacao": "",
-          "linha": 517,
+          "linha": 519,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Pesquisa acadêmica"
@@ -6915,7 +6915,7 @@
         "pt-PT": {
           "rotulo": "Questionários",
           "observacao": "",
-          "linha": 517,
+          "linha": 519,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Investigação académica"
@@ -6923,7 +6923,7 @@
         "en": {
           "rotulo": "Questionnaires",
           "observacao": "",
-          "linha": 517,
+          "linha": 519,
           "relacao_revisada": "relacao_parcial",
           "ancora": "upcoming-projects",
           "grupo": "Academic research"
@@ -6931,7 +6931,7 @@
         "es-419": {
           "rotulo": "Cuestionarios",
           "observacao": "",
-          "linha": 517,
+          "linha": 519,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6939,7 +6939,7 @@
         "es-ES": {
           "rotulo": "Cuestionarios",
           "observacao": "",
-          "linha": 517,
+          "linha": 519,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6964,7 +6964,7 @@
         "pt-BR": {
           "rotulo": "Estudo de caso",
           "observacao": "",
-          "linha": 518,
+          "linha": 520,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Pesquisa acadêmica"
@@ -6972,7 +6972,7 @@
         "pt-PT": {
           "rotulo": "Estudo de caso",
           "observacao": "",
-          "linha": 518,
+          "linha": 520,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Investigação académica"
@@ -6980,7 +6980,7 @@
         "en": {
           "rotulo": "Case study",
           "observacao": "",
-          "linha": 518,
+          "linha": 520,
           "relacao_revisada": "relacao_parcial",
           "ancora": "upcoming-projects",
           "grupo": "Academic research"
@@ -6988,7 +6988,7 @@
         "es-419": {
           "rotulo": "Estudio de caso",
           "observacao": "",
-          "linha": 518,
+          "linha": 520,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -6996,7 +6996,7 @@
         "es-ES": {
           "rotulo": "Estudio de caso",
           "observacao": "",
-          "linha": 518,
+          "linha": 520,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -7021,7 +7021,7 @@
         "pt-BR": {
           "rotulo": "Pesquisa bibliográfica",
           "observacao": "",
-          "linha": 519,
+          "linha": 521,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Pesquisa acadêmica"
@@ -7029,7 +7029,7 @@
         "pt-PT": {
           "rotulo": "Investigação bibliográfica",
           "observacao": "",
-          "linha": 519,
+          "linha": 521,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-projetos",
           "grupo": "Investigação académica"
@@ -7037,7 +7037,7 @@
         "en": {
           "rotulo": "Literature research",
           "observacao": "",
-          "linha": 519,
+          "linha": 521,
           "relacao_revisada": "relacao_parcial",
           "ancora": "upcoming-projects",
           "grupo": "Academic research"
@@ -7045,7 +7045,7 @@
         "es-419": {
           "rotulo": "Investigación bibliográfica",
           "observacao": "",
-          "linha": 519,
+          "linha": 521,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -7053,7 +7053,7 @@
         "es-ES": {
           "rotulo": "Investigación bibliográfica",
           "observacao": "",
-          "linha": 519,
+          "linha": 521,
           "relacao_revisada": "relacao_parcial",
           "ancora": "proximos-proyectos",
           "grupo": "Investigación académica"
@@ -7187,28 +7187,28 @@
     },
     {
       "arquivo": "static/en/index.html",
-      "bytes": 27942,
-      "sha256": "ac38325a4cec5ea30870adb80a372333bc3e8132a70ec78d6a6ac3f2f8335b55"
+      "bytes": 28038,
+      "sha256": "5042f9856e4013b56182495b2e49386c8f494ded6d4455055555ebbdd411bc6a"
     },
     {
       "arquivo": "static/es-419/index.html",
-      "bytes": 28611,
-      "sha256": "e5468f04424c8080666615a876027a7010fa2432b1ae668d88caa28f10ebb5cf"
+      "bytes": 28720,
+      "sha256": "575c33f6798ab545af847af879da1b31aeb2735ad981525f92a9f495d59388df"
     },
     {
       "arquivo": "static/es-ES/index.html",
-      "bytes": 28618,
-      "sha256": "9c0f0258e430623c5c69c4d5aeda3bb0c7c56e2832e0bb39d66184e5fc4d2de3"
+      "bytes": 28727,
+      "sha256": "bc143d726d9566fe52ce5e695a43b87c86fd5dff23ecf07942b5c72332fbe631"
     },
     {
       "arquivo": "static/pt-BR/index.html",
-      "bytes": 28292,
-      "sha256": "22acd7a69208804d4af90a0155085dc4bda25e9edb8422d48aa83c2495e6461a"
+      "bytes": 28397,
+      "sha256": "b426b50785dedb5d3bdfee76194babbaa1e950a287c8edbf34540d0dc7deeac5"
     },
     {
       "arquivo": "static/pt-PT/index.html",
-      "bytes": 28493,
-      "sha256": "d23504e35a081f1eb6cc064d23dea4fe55959e1c4ed48425f63f856f1b6ed34a"
+      "bytes": 28600,
+      "sha256": "04ef8fbad67a08b8cdafeddfe1503d2db0baab67931fd550f64394c22ed950ac"
     }
   ]
 }

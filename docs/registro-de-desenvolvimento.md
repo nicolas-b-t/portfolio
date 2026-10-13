@@ -70,3 +70,14 @@ Fontes, declarações, licenças e manifestos necessários foram preservados.
 
 O [relatório vigente](relatorio-verificacao-site-2026-10-13.md) reúne alterações, referências, verificações e limites.
 O [registro das tags](referencias/ats/verificacao-tags-2026-10-13.json) acompanha a versão atual dos cinco currículos.
+
+## Organização das descrições — 13 de outubro de 2026
+
+O responsável solicitou agrupar as frases das experiências e dos projetos por tecnologias e competências relacionadas.
+RJ45 passou para o parágrafo de infraestrutura de redes da RealFort.
+Atividades de campo, testes ópticos e organização operacional passaram a ocupar parágrafos próprios.
+Suporte, documentos fiscais, manutenção, documentação e ativos permaneceram em seus contextos correspondentes.
+
+Os projetos passaram a distinguir desenvolvimento, apresentação, publicação, parceria e gestão.
+No SGCS, aplicação e pesquisa continuam atribuídas à equipe. A gestão permanece atribuída ao responsável.
+As cinco versões foram atualizadas. Datas, níveis, limitações, cursos, tags e destinos foram preservados.
