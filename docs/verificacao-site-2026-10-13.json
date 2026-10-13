@@ -53,7 +53,12 @@
       ],
       "salto_teclado": true,
       "foco_visivel": true,
-      "troca_idioma": true
+      "cursos_por_teclado": true,
+      "troca_idioma": true,
+      "ppc_publico": "https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view",
+      "foco_ppc": true,
+      "url_impressa_preserva_caixa": true,
+      "base_git_da_revisao": "5af4a2c72f57754679863a62f187d376f8eed88b"
     },
     {
       "idioma": "pt-BR",
@@ -212,7 +217,12 @@
       ],
       "salto_teclado": true,
       "foco_visivel": true,
-      "troca_idioma": true
+      "cursos_por_teclado": true,
+      "troca_idioma": true,
+      "ppc_publico": "https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view",
+      "foco_ppc": true,
+      "url_impressa_preserva_caixa": true,
+      "base_git_da_revisao": "5af4a2c72f57754679863a62f187d376f8eed88b"
     },
     {
       "idioma": "pt-PT",
@@ -371,7 +381,12 @@
       ],
       "salto_teclado": true,
       "foco_visivel": true,
-      "troca_idioma": true
+      "cursos_por_teclado": true,
+      "troca_idioma": true,
+      "ppc_publico": "https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view",
+      "foco_ppc": true,
+      "url_impressa_preserva_caixa": true,
+      "base_git_da_revisao": "5af4a2c72f57754679863a62f187d376f8eed88b"
     },
     {
       "idioma": "en",
@@ -530,7 +545,12 @@
       ],
       "salto_teclado": true,
       "foco_visivel": true,
-      "troca_idioma": true
+      "cursos_por_teclado": true,
+      "troca_idioma": true,
+      "ppc_publico": "https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view",
+      "foco_ppc": true,
+      "url_impressa_preserva_caixa": true,
+      "base_git_da_revisao": "5af4a2c72f57754679863a62f187d376f8eed88b"
     },
     {
       "idioma": "es-419",
@@ -689,7 +709,12 @@
       ],
       "salto_teclado": true,
       "foco_visivel": true,
-      "troca_idioma": true
+      "cursos_por_teclado": true,
+      "troca_idioma": true,
+      "ppc_publico": "https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view",
+      "foco_ppc": true,
+      "url_impressa_preserva_caixa": true,
+      "base_git_da_revisao": "5af4a2c72f57754679863a62f187d376f8eed88b"
     },
     {
       "idioma": "es-ES",
@@ -804,70 +829,100 @@
       "cursos_abertos": false,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "pt-BR",
       "cursos_abertos": true,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "pt-PT",
       "cursos_abertos": false,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "pt-PT",
       "cursos_abertos": true,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "en",
       "cursos_abertos": false,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "en",
       "cursos_abertos": true,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "es-419",
       "cursos_abertos": false,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "es-419",
       "cursos_abertos": true,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "es-ES",
       "cursos_abertos": false,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     },
     {
       "idioma": "es-ES",
       "cursos_abertos": true,
       "cursos_visiveis": 17,
       "paginas_pdf": 9,
-      "titulos_unicos_no_pdf": 17
+      "titulos_unicos_no_pdf": 17,
+      "cursos_uma_vez": true,
+      "criterio_contagem": "Título oficial seguido da instituição. As repetições do mesmo rótulo nas tags não são cursos.",
+      "identificador_drive_preserva_caixa": true
     }
   ],
   "falhas": [],
@@ -880,7 +935,7 @@
     "paginas_html": 16,
     "links_locais_html": 578,
     "recursos_http_200": 62,
-    "links_documentacao": 132,
+    "links_documentacao": 128,
     "css_identicos": true,
     "javascript_ausente": true,
     "cursos": {
@@ -920,8 +975,9 @@
         "observacoes": 6
       }
     },
-    "fontes_conferidas_com_manifestos": 103,
-    "falhas": []
+    "falhas": [],
+    "fontes_conferidas_com_manifestos_na_consolidacao_anterior": 103,
+    "insumos_sha256_conferidos_na_atualizacao_ppc": 30
   },
   "contraste": [
     {
@@ -1012,19 +1068,19 @@
   "arquivos_site_sha256": {
     "static/en/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/en/galeria.html": "c9163496a01682f8a47797864702c1755747c8cd1cb1f5c6006e52ecf072705c",
-    "static/en/index.html": "5042f9856e4013b56182495b2e49386c8f494ded6d4455055555ebbdd411bc6a",
+    "static/en/index.html": "6c67bd3925c5a8b1517578f29a8740bfa3648bc4e23423b78fb35d40d065475d",
     "static/en/rede.html": "f0bf403037cc7eaab0ccbcf3a7f884ed38f4a8ae4ad0fbcd184225a17ca53770",
-    "static/en/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
+    "static/en/styles.css": "a5ec4bca6d376f4ac240a51fe9101ac962049bd71ed92e31c2d6536770346a61",
     "static/es-419/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/es-419/galeria.html": "aaf8d713ed33f4e47f1d523514464f7e6ef01c9dc3e316e6bb05ee3c30f86362",
-    "static/es-419/index.html": "575c33f6798ab545af847af879da1b31aeb2735ad981525f92a9f495d59388df",
+    "static/es-419/index.html": "55eedb9031152ae5675a0d77477ed8e3f9574780813b1bb3b215c11cc7e525f2",
     "static/es-419/rede.html": "c8ae47c7fd41b5e8f41c9acaf5aa7aff175832f38f8ab8f7f4babcabe9af28bc",
-    "static/es-419/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
+    "static/es-419/styles.css": "a5ec4bca6d376f4ac240a51fe9101ac962049bd71ed92e31c2d6536770346a61",
     "static/es-ES/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/es-ES/galeria.html": "786ed8ef67003eae4f12e067a3da93e6a6a0876ae503405ab1f69656615c9bb4",
-    "static/es-ES/index.html": "bc143d726d9566fe52ce5e695a43b87c86fd5dff23ecf07942b5c72332fbe631",
+    "static/es-ES/index.html": "83bbd3faf003c61596060b05f78a29e467cd53ea61bfd45a5a28be2cf4794f8e",
     "static/es-ES/rede.html": "e4d77dc3bae6a6f3212615dbbfb9ac0f38212cee57996be1e52be0a23c0955b4",
-    "static/es-ES/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
+    "static/es-ES/styles.css": "a5ec4bca6d376f4ac240a51fe9101ac962049bd71ed92e31c2d6536770346a61",
     "static/index.html": "a8d8569fd9186ab4cdaa5381342a0b2f57c1fe7acdf5e7c84c7bba1b169b2dac",
     "static/media/realfort/central-de-alarme-1280.jpg": "7382755a7c81a6ee7a07b2d171747e431d1c28d7bf5558176cc2125a5dc0d9ec",
     "static/media/realfort/central-de-alarme-1280.webp": "0c0e92722df65745a8bf3bcd83adae36d69316e886642854e96ee868bc0daf16",
@@ -1064,33 +1120,37 @@
     "static/media/realfort/trabalho-em-altura-640.webp": "03e91eb313df191b70e193db03badb6fd153625dbfa4516a36c02539076c202b",
     "static/pt-BR/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/pt-BR/galeria.html": "a31c1e8f77209ca282b08150235ee061f7c6b8a86e43da47195a4d1b738da99a",
-    "static/pt-BR/index.html": "b426b50785dedb5d3bdfee76194babbaa1e950a287c8edbf34540d0dc7deeac5",
+    "static/pt-BR/index.html": "8de5d911102401575f903b4464afd085b0e96447ed6f0484867941575f71cc27",
     "static/pt-BR/rede.html": "19fce540da01205489e20fd5682fe366bdac90aa1867ac3cc670e0cc4b751bf8",
-    "static/pt-BR/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422",
+    "static/pt-BR/styles.css": "a5ec4bca6d376f4ac240a51fe9101ac962049bd71ed92e31c2d6536770346a61",
     "static/pt-PT/assets/favicon.svg": "f37f693d4244d59e664ac59fff347ddd3749c328705efd25801fb00af931e5b4",
     "static/pt-PT/galeria.html": "e5bff879febed644202ba3e633b76b3642c6fdbace869b473634d998dd1d7d0e",
-    "static/pt-PT/index.html": "04ef8fbad67a08b8cdafeddfe1503d2db0baab67931fd550f64394c22ed950ac",
+    "static/pt-PT/index.html": "f64bd47fc44f1ddf996578cf1a6f4de16df73321618c195a2aec661a7ed76ec3",
     "static/pt-PT/rede.html": "01d00cd0733d7dd46426fb061d186f1d12438f9bc42a0b277f6d87696c46c7e1",
-    "static/pt-PT/styles.css": "52a242ae7b8052ccc62499bdcfaa845d9f2429272664b7476e330666f60f9422"
+    "static/pt-PT/styles.css": "a5ec4bca6d376f4ac240a51fe9101ac962049bd71ed92e31c2d6536770346a61"
   },
   "limpeza": {
     "bytes": 41181447,
     "arquivos_obsoletos_removidos": 127
   },
   "revisao_atual": {
-    "base_git": "a405feccc20dd20f8762d13c0f6d6488b6467fdb",
-    "tema": "Organização das descrições por tecnologia, atividade e responsabilidade",
+    "base_git": "5af4a2c72f57754679863a62f187d376f8eed88b",
+    "tema": "PPC público da Fatec Franco da Rocha e preservação da caixa das URLs impressas",
     "paginas_reexaminadas": 5,
     "cenarios_reexaminados": 20,
-    "limite": "Resultados de galeria e agradecimentos preservados. Essas páginas não foram alteradas.",
-    "frases_descritivas_maximo_palavras_por_espacos": {
-      "pt-BR": 16,
-      "pt-PT": 15,
-      "en": 14,
-      "es-419": 17,
-      "es-ES": 17
-    },
-    "paragrafos_maximo_frases": 4,
-    "tags_datas_niveis_cursos_links_e_ancoras_preservados": true
+    "limite": "Resultados de galeria e agradecimentos preservados. Essas páginas não foram alteradas. O ajuste comum de CSS atua somente na impressão.",
+    "tags_datas_niveis_cursos_e_ancoras_preservados": true,
+    "ppc_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+    "tags_curriculares_conferidas": 21,
+    "paginas_ppc": 89,
+    "original_pdf_ignorado": true,
+    "pagina_institucional_aponta_para_pdf_indicado": true,
+    "texto_esclarece_formacao_em_andamento": true,
+    "licenca_aberta_nao_identificada": true,
+    "documentos_restritos_nao_publicados": true,
+    "sha256_do_pdf": "0b99a0f2d64c9d62cb112abb3f25c131b790292c3a3b307c8316d477370c2469",
+    "pdfs_a4_examinados": 10,
+    "identificador_drive_preserva_caixa_na_impressao": true,
+    "css_comum_sincronizado": true
   }
 }

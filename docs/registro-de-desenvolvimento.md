@@ -81,3 +81,23 @@ Suporte, documentos fiscais, manutenção, documentação e ativos permaneceram 
 Os projetos passaram a distinguir desenvolvimento, apresentação, publicação, parceria e gestão.
 No SGCS, aplicação e pesquisa continuam atribuídas à equipe. A gestão permanece atribuída ao responsável.
 As cinco versões foram atualizadas. Datas, níveis, limitações, cursos, tags e destinos foram preservados.
+
+## Referência pública do PPC — 13 de outubro de 2026
+
+O responsável forneceu o PDF público e a página do curso da Fatec Franco da Rocha.
+A página institucional aponta para o mesmo arquivo do Google Drive.
+O documento apresenta a atualização de 2025 para curricularização da extensão.
+Ele reúne cinco páginas administrativas e 84 páginas do PPC, com identificação R-05.
+
+O link da Fatec Assis foi substituído nas cinco páginas principais.
+O texto passou a identificar conteúdos previstos e formação em andamento.
+As 21 tags curriculares permaneceram após conferência das competências e das ementas.
+O registro das tags passou a indicar páginas e seções do PPC para cada conceito.
+
+O manifesto preserva origem, processo SEI, datas, tamanho, SHA-256 e limites de uso.
+O original completo permanece em pasta local ignorada, sem licença aberta de redistribuição identificada.
+O PPC anterior da Fatec Assis permanece como fonte histórica.
+Datas pessoais, títulos dos cursos e qualificações não foram alterados.
+Nenhuma competência foi atribuída apenas por aparecer nos projetos de extensão previstos no PPC.
+Os cinco arquivos CSS passaram a preservar maiúsculas e minúsculas das URLs impressas.
+Isso mantém o identificador do Google Drive igual ao original.

@@ -19,3 +19,6 @@ desktop.ini
 
 # Repositórios completos de referência, mantidos somente na cópia local
 /docs/referencias/ats/repositorios-local/
+
+# Originais acadêmicos locais sem licença aberta de redistribuição identificada
+/docs/fontes/academico/originais-local/

@@ -1,7 +1,7 @@
 # Conteúdo vigente e verificação do site
 
 Data: 13 de outubro de 2026.
-Base Git da revisão atual: a405feccc20dd20f8762d13c0f6d6488b6467fdb.
+Base Git da revisão atual: 5af4a2c72f57754679863a62f187d376f8eed88b.
 Escopo: cinco idiomas, página principal, galeria e agradecimentos.
 
 ## Alterações aplicadas
@@ -70,6 +70,30 @@ As datas, as qualificações, os níveis, as tags e os títulos oficiais dos cur
 Fusão, trabalho em altura, OTDR e formação em andamento mantêm seus limites anteriores.
 As áreas administrativas descrevem organização e coordenação já informadas.
 Elas não atribuem gestão logística completa, administração corporativa ou atribuições fiscais novas.
+
+## Referência acadêmica atualizada
+
+Os cinco currículos passaram a indicar o PPC público da Fatec Franco da Rocha e a página institucional do curso.
+O documento apresenta a atualização de 2025, com curricularização da extensão.
+O PDF reúne 89 páginas. Cinco são documentos administrativos e 84 pertencem ao PPC.
+O [manifesto acadêmico](fontes/academico/manifesto.json) registra origem, identificação, processo SEI, datas, tamanho, hash e condições da cópia local.
+
+As 21 tags da formação encontram fundamento nas competências, no mapeamento de componentes e nas ementas do PPC.
+As evidências foram acrescentadas ao registro vigente das tags, com páginas PDF e seções.
+Os rótulos ATS permanecem sínteses editoriais. As relações com Odoo, ESCO e O*NET mantêm suas justificativas e limitações.
+O texto de apresentação passou a identificar conteúdos previstos e formação em andamento em cada idioma.
+
+O PPC não comprova aprovação individual nem confirma a edição aplicável à turma ingressante em julho de 2024.
+Projetos de extensão previstos não foram tratados como atividades já realizadas pelo responsável.
+As datas pessoais de ingresso e conclusão prevista foram preservadas.
+O esquema da matriz e a tabela de componentes apresentam totais diferentes de aulas e horas.
+Nenhuma carga horária total foi acrescentada ao currículo.
+
+O PDF completo permanece local e ignorado pelo Git, sem licença aberta de redistribuição identificada.
+O documento da Fatec Assis permanece como fonte histórica. Seu link foi retirado dos cinco currículos.
+
+As URLs impressas passaram a preservar maiúsculas e minúsculas nos cinco arquivos CSS.
+Essa correção mantém o identificador do Google Drive igual ao link original.
 
 ## Fontes e limites dos termos
 
@@ -165,30 +189,35 @@ O [registro de verificação](verificacao-site-2026-10-13.json) preserva os resu
 | Estrutura HTML | 16 páginas, sem IDs duplicados, scripts, eventos ou URLs JavaScript |
 | Recursos e caminhos | 578 referências locais HTML válidas. Os 62 recursos examinados retornaram HTTP 200 |
 | Idiomas | lang, hreflang, âncoras e troca de idioma conferidos |
-| CSS | Os cinco arquivos permanecem iguais por SHA-256 |
+| CSS | Os cinco arquivos permanecem iguais por SHA-256. URLs impressas preservam maiúsculas e minúsculas |
 | Navegador | Chromium 151.0.7922.34, com JavaScript do site desativado |
-| Reorganização | Cinco currículos reexaminados em 20 cenários. Sem transbordamento horizontal a 320 e 1280 pixels, nos dois temas e com texto a 200% |
+| Atualização do PPC | Cinco currículos reexaminados em 20 cenários. Sem transbordamento horizontal a 320 e 1280 pixels, nos dois temas e com texto a 200% |
 | Teclado | Link de salto, foco visível, troca de idioma e controle nativo dos cursos conferidos |
 | Contraste | 14 pares de cores conferidos. Todas as razões acima de 4,5:1 |
 | Cursos | Títulos, instituições, datas e cargas horárias iguais ao commit-base. 17 cursos em cada cópia |
 | Impressão | Dez PDFs A4, com margens de 12 mm. Cada currículo imprimiu nove páginas e os 17 títulos uma única vez |
-| Fontes | 103 arquivos conferidos com os manifestos, sem divergências |
+| Fontes, consolidação anterior | 103 arquivos conferidos com os manifestos, sem divergências |
+| Fontes da atualização do PPC | 30 insumos conferidos por tamanho e SHA-256. As 21 tags curriculares têm páginas e seções registradas |
 | Limpeza anterior | 127 arquivos obsoletos retirados na consolidação, correspondentes a aproximadamente 39,27 MiB |
 | Git | git diff --check passou. Os clones editoriais permanecem ignorados |
 
 As capturas de [pt-BR](evidencias-site-2026-10-13/pt-BR-competencias-320.png) e [inglês](evidencias-site-2026-10-13/en-competencias-320.png) registram as competências em 320 pixels.
 As duas capturas foram inspecionadas.
 As impressões foram conferidas com os cursos abertos e fechados.
+Cada registro foi identificado pelo título oficial seguido da instituição.
+Rótulos curtos também presentes nas tags não foram contados como cursos.
+O identificador do Google Drive manteve sua caixa original nos dez PDFs.
 Os PDFs foram usados somente para inspeção e não integram o repositório final.
 
-A revisão dos parágrafos repetiu os ensaios afetados nos cinco currículos.
+A atualização do PPC repetiu os ensaios afetados nos cinco currículos.
 Os 40 cenários anteriores de galeria e agradecimentos permanecem no registro. Essas dez páginas não foram alteradas.
 A triagem por espaços encontrou até 17 palavras por frase e quatro frases por parágrafo nas descrições examinadas.
 As descrições também foram revistas manualmente quanto ao assunto, ao agente e aos limites de cada atividade.
-As fontes, as licenças e os manifestos conferidos na consolidação anterior não foram modificados.
+O manifesto acadêmico recebeu a nova fonte pública e a identificação histórica do documento da Fatec Assis.
+Os demais originais e avisos de licença permanecem sem edição.
 
 Esta tarefa fez inspeção estrutural do HTML. Não repetiu o Nu HTML Checker ou o validador CSS externo.
-O CSS permaneceu igual. Os resultados anteriores foram substituídos pela conferência vigente.
+O ajuste do CSS limita-se à caixa das URLs na impressão. Os ensaios afetados foram repetidos.
 O teste usou um motor de navegador e não incluiu leitor de tela.
 Texto a 200% não substitui o ensaio de zoom nativo do navegador.
 Papel, margens, fontes e motor de impressão podem mudar a paginação.

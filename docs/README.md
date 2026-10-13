@@ -10,6 +10,7 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [README da raiz](../README.md) | Estrutura, execução local e publicação |
 | [Guia de uso](referencias/guia-de-uso.md) | Edição, consulta aos acervos e recuperação de fontes |
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
+| [Revisão de linguagem simples pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) | Expressões vagas, repetições, propostas e limites das fontes |
 | [Relatório vigente](relatorio-verificacao-site-2026-10-13.md) | Alterações, critérios ATS, limpeza, verificações e limites |
 | [Resultados do site](verificacao-site-2026-10-13.json) | Ensaios da versão atual |
 | [Registro das tags](referencias/ats/verificacao-tags-2026-10-13.json) | Contextos, referências e limites nos cinco idiomas |
@@ -45,6 +46,8 @@ Os currículos integrais, os certificados e os documentos restritos permanecem f
 Os seis PDFs privados do acervo inicial não acompanham clones.
 As cópias comerciais em referencias/ats/originais-local/ permanecem excluídas do Git.
 Os clones completos dos guias editoriais em referencias/ats/repositorios-local/ também permanecem excluídos.
+O PPC público da Fatec Franco da Rocha permanece em fontes/academico/originais-local/, excluído do Git.
+O [manifesto acadêmico](fontes/academico/manifesto.json) permite recuperar e conferir essa cópia.
 O [manifesto editorial](referencias/ats/manifesto-fontes-editoriais-2026-10-13.json) registra URLs, commits, licenças e hashes para recuperação.
 O guia reúne as [condições comerciais](referencias/guia-de-uso.md#licenças-e-cópias-comerciais) e os caminhos dos originais.
 

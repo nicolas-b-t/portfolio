@@ -35,6 +35,20 @@ Preserve identificadores técnicos como SC/APC e N1/N2.
 Nomes oficiais e identificadores exigem análise contextual na contagem de palavras.
 Uma contagem automática por espaços serve apenas para triagem.
 
+## Revisar a compreensão do leitor
+
+1. Identifique quem realiza a ação e o objeto dessa ação.
+2. Troque nomes internos de equipes por funções compreensíveis, quando confirmadas.
+3. Explique o contexto de palavras genéricas como materiais, serviços e sistemas.
+4. Preserve termos técnicos necessários à identificação da atividade.
+5. Distinga repetição útil de informação que não acrescenta fatos.
+6. Confirme detalhes antes de tornar uma atividade mais específica.
+7. Não substitua uma ação declarada por inspeção ou auditoria sem evidência.
+
+A [revisão pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) usa os princípios públicos associados à ABNT NBR ISO 24495-1:2024.
+Essa revisão não substitui a consulta integral à norma nem um teste de compreensão com os leitores.
+Os limites numéricos de frases permanecem como política do projeto, sem atribuição à ABNT.
+
 ## Limites
 
 A adaptação preserva a gramática portuguesa.

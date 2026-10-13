@@ -13,6 +13,58 @@
       "recebido_em_utc": "2026-10-09T22:00:23.356816+00:00",
       "bytes": 1584623,
       "sha256": "d8dfa8645c76bb89c82d266ed7a646e54e770049d8f00da8721124351b829b9f"
+    },
+    {
+      "arquivo": "PPC---GTI---atualizado-para-2025---SEI_136.00014260_2026_92.pdf",
+      "caminho_local": "docs/fontes/academico/originais-local/PPC---GTI---atualizado-para-2025---SEI_136.00014260_2026_92.pdf",
+      "origem": "https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view",
+      "pagina_institucional": "https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/",
+      "id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+      "recebido_em_utc": "2026-10-13T21:12:19.426460+00:00",
+      "modificado_no_drive_em_utc": "2026-02-26T22:29:53.071Z",
+      "bytes": 1462058,
+      "sha256": "0b99a0f2d64c9d62cb112abb3f25c131b790292c3a3b307c8316d477370c2469",
+      "paginas_pdf": 89,
+      "instituicao": "Fatec Franco da Rocha – Giuliano Cecchettini",
+      "curso": "Curso Superior de Tecnologia em Gestão da Tecnologia da Informação",
+      "identificacao_na_capa": "Fatec Franco da Rocha - R-05",
+      "edicao_na_capa": "2025 / 1º Semestre",
+      "composicao": {
+        "documentos_administrativos_paginas_pdf": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "paginas_internas_ppc": 84,
+        "ppc_intervalo_paginas_pdf": {
+          "inicio": 6,
+          "fim": 89
+        }
+      },
+      "atualizacao": "Adequação da curricularização da extensão, registrada no quadro de atualizações do PPC.",
+      "processo_sei": "136.00014260/2026-92",
+      "assinatura_despacho": "2026-02-25",
+      "condicao": "Original completo preservado localmente e ignorado pelo Git. Não integra static/.",
+      "licenca": "Não identificada licença aberta de redistribuição. A publicação do link institucional não foi tratada como licença aberta.",
+      "uso": "Fonte pública vigente para conferir conteúdos previstos na formação. Substitui o link da Fatec Assis nas cinco páginas principais.",
+      "limites": [
+        "Não comprova aprovação individual, domínio profissional ou aplicação desta edição à turma ingressante em julho de 2024.",
+        "As datas pessoais de ingresso e conclusão prevista não foram derivadas do PPC.",
+        "O esquema da matriz na página PDF 27 indica 2.880 aulas e 2.400 horas. As páginas PDF 19 e 29 indicam 2.800 aulas e 2.333,3 horas.",
+        "Nenhuma carga horária total foi acrescentada ao currículo devido a essa divergência."
+      ]
+    },
+    {
+      "arquivo": "PPC-Vigente-GTI.pdf",
+      "origem": "https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/149/2024/08/PPC-Vigente-GTI.pdf",
+      "consultado_em": "2026-10-12",
+      "bytes": 410349,
+      "sha256": "6f78b324f0852a893847ae43821379fd5f8a17cc6dd32c703c0f3592b01b3be0",
+      "paginas_pdf": 22,
+      "instituicao": "Fatec Assis",
+      "condicao": "Fonte histórica preservada. Referência substituída em 2026-10-13. Não fundamenta a formação na Fatec Franco da Rocha."
     }
   ]
 }

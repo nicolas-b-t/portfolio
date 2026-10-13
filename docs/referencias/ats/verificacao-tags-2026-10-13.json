@@ -1,6 +1,6 @@
 {
   "data": "2026-10-13",
-  "base_git": "a405feccc20dd20f8762d13c0f6d6488b6467fdb",
+  "base_git": "5af4a2c72f57754679863a62f187d376f8eed88b",
   "normalizacao": "Somente caixa e espaços. Acentos, pontuação, singular/plural e palavras permanecem distintos. A observação é preservada separadamente.",
   "criterio_idiomas": "ESCO pt é consultado para pt-BR e pt-PT. ESCO es é consultado para es-419 e es-ES. Nomes técnicos comuns também consultam nomes ingleses exatos.",
   "criterio_aliases": "Apenas altLabels ESCO e aliases documentados dos exemplos comerciais. O campo synonyms do dataset editorial não é tratado como equivalência.",
@@ -65,35 +65,35 @@
       "manifesto": "docs/referencias/ats/manifesto-fontes-editoriais-2026-10-13.json"
     }
   ],
-  "escopo": "Tags vigentes após a organização dos parágrafos das experiências e dos projetos, nos cinco idiomas.",
+  "escopo": "Tags vigentes nos cinco idiomas, com conferência da formação no PPC público da Fatec Franco da Rocha.",
   "paginas": {
     "pt-BR": {
       "arquivo": "static/pt-BR/index.html",
-      "sha256": "b426b50785dedb5d3bdfee76194babbaa1e950a287c8edbf34540d0dc7deeac5",
+      "sha256": "8de5d911102401575f903b4464afd085b0e96447ed6f0484867941575f71cc27",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "pt-PT": {
       "arquivo": "static/pt-PT/index.html",
-      "sha256": "04ef8fbad67a08b8cdafeddfe1503d2db0baab67931fd550f64394c22ed950ac",
+      "sha256": "f64bd47fc44f1ddf996578cf1a6f4de16df73321618c195a2aec661a7ed76ec3",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "en": {
       "arquivo": "static/en/index.html",
-      "sha256": "5042f9856e4013b56182495b2e49386c8f494ded6d4455055555ebbdd411bc6a",
+      "sha256": "6c67bd3925c5a8b1517578f29a8740bfa3648bc4e23423b78fb35d40d065475d",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "es-419": {
       "arquivo": "static/es-419/index.html",
-      "sha256": "575c33f6798ab545af847af879da1b31aeb2735ad981525f92a9f495d59388df",
+      "sha256": "55eedb9031152ae5675a0d77477ed8e3f9574780813b1bb3b215c11cc7e525f2",
       "tags": 105,
       "rotulos_distintos": 101
     },
     "es-ES": {
       "arquivo": "static/es-ES/index.html",
-      "sha256": "bc143d726d9566fe52ce5e695a43b87c86fd5dff23ecf07942b5c72332fbe631",
+      "sha256": "83bbd3faf003c61596060b05f78a29e467cd53ea61bfd45a5a28be2cf4794f8e",
       "tags": 105,
       "rotulos_distintos": 101
     }
@@ -4643,7 +4643,18 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "A formação inclui avaliação de soluções. Systems Evaluation examina medidas, indicadores e ações de melhoria.",
         "limites": "A definição ocupacional é relacionada. O currículo não comprova execução ou aprovação de cada disciplina.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            24
+          ],
+          "secoes": "4.1 e 4.3",
+          "fundamento": "Avaliação de soluções e necessidades de aplicativos em ambientes de negócio.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -4700,7 +4711,19 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "A formação inclui gestão de pessoas. O*NET descreve direção e desenvolvimento de pessoas.",
         "limites": "O conteúdo curricular não comprova recrutamento, remuneração ou gestão completa de recursos humanos.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            46,
+            47
+          ],
+          "secoes": "5.3 e 6.3.6",
+          "fundamento": "AGR-002, Gestão de Pessoas.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -4757,7 +4780,20 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "ESCO descreve definição, medição e melhoria de processos. A tag representa conteúdo curricular.",
         "limites": "Não atribuir implantação profissional de todos os processos da definição.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            24,
+            40,
+            41
+          ],
+          "secoes": "4.1, 4.3 e 6.2.7",
+          "fundamento": "IMP-951, Modelagem de Processos, e planejamento de processos de gestão de TI.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -4814,7 +4850,20 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO possui o conceito específico de gestão de projetos de TIC.",
         "limites": "A formação permanece em andamento. Não atribuir certificação ou experiência em todas as metodologias.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            23,
+            56,
+            57
+          ],
+          "secoes": "4.1, 4.3 e 6.5.1",
+          "fundamento": "Gerenciamento de projetos de TI e GPJ-002, Gestão de Projetos.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -4871,7 +4920,18 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO registra gestão financeira. Esta ocorrência corresponde ao conteúdo curricular da formação em andamento.",
         "limites": "Não atribuir FP&A, contabilidade, orçamento corporativo ou gestão de investimentos.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            52
+          ],
+          "secoes": "5.3 e 6.4.3",
+          "fundamento": "AGF-001, Gestão Financeira.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -4928,7 +4988,20 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO registra planejamento estratégico. A tag aparece na formação em andamento.",
         "limites": "Não confundir conteúdo curricular com responsabilidade estratégica corporativa.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            24,
+            29,
+            59
+          ],
+          "secoes": "4.1, 4.3, 5.3 e 6.5.4",
+          "fundamento": "AGE-001, Planejamento e Gestão Estratégica.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -4985,7 +5058,18 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "Odoo registra Communication. O currículo informa orientação de usuários e trabalho em equipe.",
         "limites": "Na formação, a tag indica conteúdo curricular. Não representa certificação de comunicação executiva.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            25
+          ],
+          "secoes": "4.1, 4.2 e 4.3",
+          "fundamento": "Comunicação interpessoal e expressão de ideias.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5042,7 +5126,18 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "O*NET descreve conciliação de diferenças. A tag aparece no contexto curricular.",
         "limites": "Não inferir negociação comercial avançada ou metas de vendas.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            25
+          ],
+          "secoes": "4.1 e 4.3",
+          "fundamento": "Negociação no contexto da comunicação profissional.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5100,7 +5195,18 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "Odoo e ESCO registram gestão de conflitos.",
         "limites": "A tag é conteúdo da formação, não resultado comprovado de gestão de disputas.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            25
+          ],
+          "secoes": "4.2 e 4.3",
+          "fundamento": "Administração de conflitos em ambiente colaborativo.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5158,7 +5264,17 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "Odoo e O*NET registram pensamento crítico.",
         "limites": "O contexto curricular não constitui avaliação externa do comportamento.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22
+          ],
+          "secoes": "4.2",
+          "fundamento": "Pensamento crítico diante de situações adversas.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5215,7 +5331,20 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "A formação e o projeto SGCS incluem pesquisa acadêmica.",
         "limites": "Metodologia de pesquisa científica é relacionada. Não atribuir domínio de todas as técnicas da definição.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            39,
+            40,
+            70
+          ],
+          "secoes": "5.3, 6.2.6 e 7.1",
+          "fundamento": "MPT-004, Metodologia da Pesquisa Científico-tecnológica, e pesquisa no Trabalho de Graduação.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5273,7 +5402,17 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "Odoo e ESCO registram resolução de problemas.",
         "limites": "A formação não comprova proficiência em toda área operacional ou conceitual.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22
+          ],
+          "secoes": "4.2",
+          "fundamento": "Resolução de problemas complexos e proposição de soluções.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5330,7 +5469,18 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "Odoo registra Teamwork. O currículo distingue participação pessoal e equipe.",
         "limites": "A repetição na formação informa outro contexto e não amplia a participação individual.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            25
+          ],
+          "secoes": "4.2 e 4.3",
+          "fundamento": "Trabalho em equipe e ambiente colaborativo.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5387,7 +5537,17 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "A grafia pt-PT foi corrigida para sistémica. A definição ESCO de systems thinking mantém o escopo logístico, tratado como relação parcial.",
         "limites": "A coincidência literal em inglês não comprova o escopo logístico na formação de TI.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22
+          ],
+          "secoes": "4.2",
+          "fundamento": "Visão sistêmica nos contextos cultural, ético, ambiental e social.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5444,7 +5604,19 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO descreve tipos, finalidade, terminologia e modelos de bancos de dados.",
         "limites": "Conhecimento curricular não equivale à administração de bancos ou domínio de SQL.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            42,
+            43
+          ],
+          "secoes": "5.3 e 6.3.1",
+          "fundamento": "IBD-951, Banco de Dados e Aplicações.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5501,7 +5673,18 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "Ferramentas de diagnóstico de redes se relacionam com parte do conteúdo curricular.",
         "limites": "Infraestrutura é mais ampla que rede. Não atribuir arquitetura de nuvem ou diagnóstico integral de sistemas.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            22,
+            23
+          ],
+          "secoes": "4.1 e 4.3",
+          "fundamento": "Diagnóstico de infraestrutura empresarial para implantação de soluções de TI.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5556,7 +5739,19 @@
         "relacao_base": "ausencia_no_recorte_oficial",
         "justificativa": "O rótulo representa conteúdo curricular da formação de TI.",
         "limites": "Não foi selecionada definição equivalente no recorte consultado. Não inferir cargo ou experiência de engenheiro.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            44,
+            45
+          ],
+          "secoes": "5.3 e 6.3.3",
+          "fundamento": "IES-951, Engenharia de Software e Aplicações.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5613,7 +5808,19 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO registra business intelligence. O rótulo do currículo adapta a nomenclatura ao idioma.",
         "limites": "Conhecimento curricular não comprova uso de Power BI, Tableau, Looker ou ferramentas não declaradas.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            29,
+            64,
+            65
+          ],
+          "secoes": "5.3 e 6.6.3",
+          "fundamento": "IIN-001, Inteligência de Negócios.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5670,7 +5877,19 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO registra web programming como conhecimento.",
         "limites": "O conceito inclui exemplos de linguagens. A tag não atribui domínio de PHP, AJAX ou todas as tecnologias citadas.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            53,
+            54
+          ],
+          "secoes": "5.3 e 6.4.5",
+          "fundamento": "ILP-951, Programação para Internet.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5727,7 +5946,19 @@
         "relacao_base": "relacao_parcial",
         "justificativa": "Equipamentos de redes constituem parte do conteúdo curricular de redes de computadores.",
         "limites": "A família é mais ampla. Não atribuir engenharia ou administração integral de redes.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            29,
+            54,
+            55
+          ],
+          "secoes": "5.3 e 6.4.6",
+          "fundamento": "IRC-108, Redes de Computadores.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -5784,7 +6015,19 @@
         "relacao_base": "interpretacao_editorial",
         "justificativa": "ESCO registra sistemas operacionais como área de conhecimento.",
         "limites": "O rótulo não comprova administração de Linux, Windows ou macOS.",
-        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina."
+        "limite_contexto": "Conteúdo curricular esperado. A formação permanece em andamento. Não comprova aprovação de cada disciplina.",
+        "evidencia_academica": {
+          "manifesto": "docs/fontes/academico/manifesto.json",
+          "fonte_id_drive": "1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI",
+          "paginas_pdf": [
+            28,
+            35,
+            36
+          ],
+          "secoes": "5.3 e 6.2.1",
+          "fundamento": "IGS-001, Gestão de Sistemas Operacionais.",
+          "relacao": "Síntese editorial de conteúdo previsto no PPC. As correspondências ATS mantêm suas relações e limites próprios."
+        }
       },
       "idiomas": {
         "pt-BR": {
@@ -7067,13 +7310,14 @@
     "Aprendizado de máquina separado de IA, com origem na formação introdutória.",
     "MVP somente na descrição do SGCS em desenvolvimento.",
     "Visão sistémica em pt-PT.",
-    "Parágrafo de gestão e produtividade removido."
+    "Parágrafo de gestão e produtividade removido.",
+    "Referência pública da Fatec Franco da Rocha substitui Fatec Assis. As 21 tags curriculares foram mantidas como conteúdos previstos."
   ],
   "insumos_sha256": [
     {
       "arquivo": "docs/fontes/competencias-declaradas.json",
-      "bytes": 1253,
-      "sha256": "9c2cbc66aaa3e6bc0c2a1353b158f0eccecd2a50d20e4819aa6fb07f2121ede2"
+      "bytes": 1818,
+      "sha256": "b892317d1c6187171e411776fec5892665d666151e04f4d583747584c97882b6"
     },
     {
       "arquivo": "docs/referencias/ats/dicionario-ats.csv",
@@ -7187,28 +7431,40 @@
     },
     {
       "arquivo": "static/en/index.html",
-      "bytes": 28038,
-      "sha256": "5042f9856e4013b56182495b2e49386c8f494ded6d4455055555ebbdd411bc6a"
+      "bytes": 28056,
+      "sha256": "6c67bd3925c5a8b1517578f29a8740bfa3648bc4e23423b78fb35d40d065475d"
     },
     {
       "arquivo": "static/es-419/index.html",
-      "bytes": 28720,
-      "sha256": "575c33f6798ab545af847af879da1b31aeb2735ad981525f92a9f495d59388df"
+      "bytes": 28739,
+      "sha256": "55eedb9031152ae5675a0d77477ed8e3f9574780813b1bb3b215c11cc7e525f2"
     },
     {
       "arquivo": "static/es-ES/index.html",
-      "bytes": 28727,
-      "sha256": "bc143d726d9566fe52ce5e695a43b87c86fd5dff23ecf07942b5c72332fbe631"
+      "bytes": 28746,
+      "sha256": "83bbd3faf003c61596060b05f78a29e467cd53ea61bfd45a5a28be2cf4794f8e"
     },
     {
       "arquivo": "static/pt-BR/index.html",
-      "bytes": 28397,
-      "sha256": "b426b50785dedb5d3bdfee76194babbaa1e950a287c8edbf34540d0dc7deeac5"
+      "bytes": 28411,
+      "sha256": "8de5d911102401575f903b4464afd085b0e96447ed6f0484867941575f71cc27"
     },
     {
       "arquivo": "static/pt-PT/index.html",
-      "bytes": 28600,
-      "sha256": "04ef8fbad67a08b8cdafeddfe1503d2db0baab67931fd550f64394c22ed950ac"
+      "bytes": 28610,
+      "sha256": "f64bd47fc44f1ddf996578cf1a6f4de16df73321618c195a2aec661a7ed76ec3"
+    },
+    {
+      "arquivo": "docs/fontes/academico/manifesto.json",
+      "bytes": 3525,
+      "sha256": "bf436b82db2b0c895b1f6e13d9b38bb0952543eff726ee2cf102c3f5be405a07",
+      "condicao": "Manifesto versionado."
+    },
+    {
+      "arquivo": "docs/fontes/academico/originais-local/PPC---GTI---atualizado-para-2025---SEI_136.00014260_2026_92.pdf",
+      "bytes": 1462058,
+      "sha256": "0b99a0f2d64c9d62cb112abb3f25c131b790292c3a3b307c8316d477370c2469",
+      "condicao": "Cópia local ignorada, recuperável pela URL no manifesto."
     }
   ]
 }

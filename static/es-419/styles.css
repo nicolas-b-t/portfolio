@@ -522,6 +522,7 @@ p {
   a[href^="http"]::after {
     content: " (" attr(href) ")";
     font-size: 0.85em;
+    text-transform: none;
   }
 
   .timeline li {

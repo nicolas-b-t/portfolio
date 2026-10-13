@@ -30,11 +30,22 @@
         "Backup"
       ],
       "contexto": "O responsável informou acesso da equipe e controle das atividades no ambiente da equipe."
+    },
+    {
+      "tema": "Organização de materiais e validação na RealFort Sistemas",
+      "registrado_em": "2026-10-13",
+      "declaracao_literal": "Materiais utilizados durante o serviço, ferramentas e insumos. Base técnica era central operacional.",
+      "esclarecimentos": {
+        "materiais": "Ferramentas e insumos utilizados durante o serviço.",
+        "base_tecnica": "Central operacional."
+      },
+      "limite": "O responsável não especificou o procedimento de validação ou os critérios utilizados."
     }
   ],
   "limites": [
     "Não foi atribuído domínio de todos os aplicativos de cada suíte.",
     "Não foi inferida administração corporativa completa das plataformas.",
     "As declarações não comprovam arquitetura de infraestrutura em nuvem."
-  ]
+  ],
+  "atualizado_em": "2026-10-13"
 }
