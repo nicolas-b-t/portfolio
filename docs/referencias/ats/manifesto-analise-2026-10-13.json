@@ -1,0 +1,184 @@
+{
+  "data": "2026-10-13",
+  "unidades": 1254,
+  "unidades_por_idioma": {
+    "pt-BR": 262,
+    "pt-PT": 248,
+    "en": 248,
+    "es-419": 248,
+    "es-ES": 248
+  },
+  "correspondencias": 2205,
+  "classes": {
+    "equivalencia_por_uri": 95,
+    "relacao_parcial": 167,
+    "correspondencia_literal": 997,
+    "sinonimo_declarado_pela_fonte": 161,
+    "interpretacao_editorial": 62,
+    "ausencia": 723
+  },
+  "estados_revisao": {
+    "revisado_semanticamente": 324,
+    "triagem_lexical": 1158,
+    "sem_correspondencia_confirmada": 723
+  },
+  "fontes": {
+    "ESCO v1.2.1": 543,
+    "AIResume Guru": 78,
+    "Odoo Recruitment 19.0": 96,
+    "ATS Resume Keyword Dataset": 216,
+    "2026 Resume ATS Keyword Playbook": 248,
+    "O*NET 31.0 software": 181,
+    "Nesta e ESCoE": 32,
+    "O*NET 31.0 competencias": 13,
+    "Solides, vagas publicas": 75,
+    "sem correspondencia": 723
+  },
+  "arquivos_examinados": [
+    {
+      "arquivo": "static/en/galeria.html",
+      "sha256": "c9163496a01682f8a47797864702c1755747c8cd1cb1f5c6006e52ecf072705c"
+    },
+    {
+      "arquivo": "static/en/index.html",
+      "sha256": "93dbe565bbb01759971a541a87d2fb511bc7f571480eeab7e06dacc60919e400"
+    },
+    {
+      "arquivo": "static/en/rede.html",
+      "sha256": "f0bf403037cc7eaab0ccbcf3a7f884ed38f4a8ae4ad0fbcd184225a17ca53770"
+    },
+    {
+      "arquivo": "static/es-419/galeria.html",
+      "sha256": "aaf8d713ed33f4e47f1d523514464f7e6ef01c9dc3e316e6bb05ee3c30f86362"
+    },
+    {
+      "arquivo": "static/es-419/index.html",
+      "sha256": "132b65e4e959761ea2ecbecfbfdaedc34375316da2fe3755c78dded768cb3fbd"
+    },
+    {
+      "arquivo": "static/es-419/rede.html",
+      "sha256": "c8ae47c7fd41b5e8f41c9acaf5aa7aff175832f38f8ab8f7f4babcabe9af28bc"
+    },
+    {
+      "arquivo": "static/es-ES/galeria.html",
+      "sha256": "786ed8ef67003eae4f12e067a3da93e6a6a0876ae503405ab1f69656615c9bb4"
+    },
+    {
+      "arquivo": "static/es-ES/index.html",
+      "sha256": "0a6751d00c470c3451e0859894e19e1ae451eda5413f451f784b25ea89d7da2e"
+    },
+    {
+      "arquivo": "static/es-ES/rede.html",
+      "sha256": "e4d77dc3bae6a6f3212615dbbfb9ac0f38212cee57996be1e52be0a23c0955b4"
+    },
+    {
+      "arquivo": "static/pt-BR/galeria.html",
+      "sha256": "a31c1e8f77209ca282b08150235ee061f7c6b8a86e43da47195a4d1b738da99a"
+    },
+    {
+      "arquivo": "static/pt-BR/index.html",
+      "sha256": "96182025ac7b3e5febfc437bbee844495abf7f1dc37c761440c6b75bd936cf18"
+    },
+    {
+      "arquivo": "static/pt-BR/rede.html",
+      "sha256": "19fce540da01205489e20fd5682fe366bdac90aa1867ac3cc670e0cc4b751bf8"
+    },
+    {
+      "arquivo": "static/pt-PT/galeria.html",
+      "sha256": "e5bff879febed644202ba3e633b76b3642c6fdbace869b473634d998dd1d7d0e"
+    },
+    {
+      "arquivo": "static/pt-PT/index.html",
+      "sha256": "4d657fac69aab70303696b98fd30bc0b0f372e23a3e1061e106abcc90ceba3e0"
+    },
+    {
+      "arquivo": "static/pt-PT/rede.html",
+      "sha256": "01d00cd0733d7dd46426fb061d186f1d12438f9bc42a0b277f6d87696c46c7e1"
+    }
+  ],
+  "normalizacao": "NFC, caixa e espaços para triagem. Não remove acentos e não usa substring de palavras. Nomes alternativos com até três caracteres são excluídos por ambiguidade.",
+  "recomendacoes_aplicadas": false,
+  "limite": "As correspondências literais e os nomes alternativos são achados vocabulares. Não são validação por um parser ATS.",
+  "insumos_examinados": [
+    {
+      "arquivo": "docs/referencias/ats/dicionario-ats.csv",
+      "sha256": "88f7e3226c8fe25f334021cdf1b591865af38b7ed9f238df27a044383eaea19d"
+    },
+    {
+      "arquivo": "docs/referencias/ats/esco/dicionario-en-pt-es.csv",
+      "sha256": "8ea8af54708faa2c25c887d8f2d7d17b13be27e3fab51030898582577e50f29e"
+    },
+    {
+      "arquivo": "docs/referencias/ats/esco/skills_en.csv",
+      "sha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950"
+    },
+    {
+      "arquivo": "docs/referencias/ats/esco/skills_pt.csv",
+      "sha256": "d4521aa3901ef2f2d969b7c82cf27644f99e2762decd1e7778b05f2b193f24c5"
+    },
+    {
+      "arquivo": "docs/referencias/ats/esco/skills_es.csv",
+      "sha256": "30b1271fca7348a01ace7f33619ff6fc00fc3bb645a4dbdfa8fae6d57789f4a4"
+    },
+    {
+      "arquivo": "docs/referencias/ats/onet/dicionario-software.csv",
+      "sha256": "4a6db165ebb0b344cc769ce519264591d5b8f700f72e772bf6e2a85a70dbc1fb"
+    },
+    {
+      "arquivo": "docs/referencias/ats/onet/dicionario-competencias.csv",
+      "sha256": "88904f06ec4ef1a3516e9330eb02f15834fded6310f7f403aaa73acbb8fc9c2a"
+    },
+    {
+      "arquivo": "docs/referencias/ats/nesta/dicionario-pesquisa.csv",
+      "sha256": "2716e745db811529b9d7a20e77efaebfdabff41db0520a8667802506e3b6e4fc"
+    },
+    {
+      "arquivo": "docs/referencias/ats/solides/registros-publicos.json",
+      "sha256": "39aed30277d76e3dc185d03891d0cb83ebc51151efdbb88562a0e5b934a38ffd"
+    },
+    {
+      "arquivo": "docs/referencias/ats/sintese-airesume-guru-2026-10-13.md",
+      "sha256": "66199935cbf796380a724166f474a50bec3a80f8ab7da2b8f4f44c25c71f80ec"
+    },
+    {
+      "arquivo": "docs/fontes/competencias-declaradas.json",
+      "sha256": "9c2cbc66aaa3e6bc0c2a1353b158f0eccecd2a50d20e4819aa6fb07f2121ede2"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/ats-resume-keyword-dataset/data/keywords.json",
+      "sha256": "4560d719d20cf74357c509cc36850c7742f4d9f2d59de708f7ca6db7ed617fa7"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/customer-success-resume-keywords.md",
+      "sha256": "e7a9defa31a967ffdc6d3ba108642088b8c37d83637de063d58f2e87e50ef720"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/data-analyst-resume-keywords.md",
+      "sha256": "0c978bdfa9b0e14e62a86afdce71cf886c74aee47a63f06816714e66dd5be16f"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/data-scientist-resume-keywords.md",
+      "sha256": "89b4241203d5e6f7215c0594765c5986c377a376172236af00a8ccc435568aca"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/marketing-resume-keywords.md",
+      "sha256": "508721643e09de9a2938416be9fe071fcbad89c644ee67ff4407152345e1eb48"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/product-manager-resume-keywords.md",
+      "sha256": "db018fea9ad0c29481a3763551e6b204f952db08a4086c42b7f6af4461fb9d07"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/project-manager-resume-keywords.md",
+      "sha256": "f63d16abce2a9d137a9e0725d701e85f1829a74c860d2cef84c4a48da0bfec47"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/sales-resume-keywords.md",
+      "sha256": "8fc59842b7d399f3952cfe7d96460dc919029dc46c364e18d5809c6bd3f6ff94"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/2026-resume-ats-keyword-playbook/keywords/software-engineer-resume-keywords.md",
+      "sha256": "c47d1bb29591f50c7aa2bc47f6716f2efbcbe1384a6707a60f39a4cc5a3eb5ca"
+    }
+  ]
+}

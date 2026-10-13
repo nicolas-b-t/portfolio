@@ -4,7 +4,7 @@ Este guia aplica os princípios da ASD-STE100, edição 9, aos textos do projeto
 As regras completas do projeto estão em [AGENTS.md](../AGENTS.md).
 O responsável preserva a referência inglesa na cópia pessoal por restrição de reprodução.
 Ela não acompanha clones.
-Consulte [a fonte e as condições](referencias/asd-ste100/README.md).
+Consulte [a fonte e as condições](referencias/guia-de-uso.md#redação-asd-ste100).
 
 ## Escrever e revisar
 

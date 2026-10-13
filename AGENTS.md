@@ -10,7 +10,7 @@ seguir os princípios da ASD-STE100, edição 9, adaptados ao idioma do texto.
 A referência está em
 `docs/referencias/asd-ste100/ASD-STE100-issue-9-2025-01-15.pdf`, de 15 de
 janeiro de 2025. O responsável preserva o PDF na cópia pessoal.
-O PDF não acompanha clones. Consulte `docs/README.md#referencias-locais` quando ele estiver ausente.
+O PDF não acompanha clones. Consulte `docs/README.md#referências-locais` quando ele estiver ausente.
 
 Para textos em português, aplique estas regras do projeto:
 
@@ -77,6 +77,9 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   Não presuma que esses arquivos acompanham clones.
 - O projeto permanece pessoal. A adaptação como modelo para colegas e amigos
   está planejada para uma etapa futura, sem autorização para reutilizar dados pessoais.
+  O responsável autorizou a organização documental para essa distribuição em 12 de outubro de 2026.
+  O guia permanente de uso está em `docs/referencias/guia-de-uso.md`.
+  Essa organização não transforma o portfólio pessoal em uma cópia genérica.
 
 ## HTML, CSS e compatibilidade
 
@@ -108,12 +111,13 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 
 ## Idiomas, estrutura e portabilidade
 
-- A revisão atual abrange toda a documentação autoral e as três páginas pt-BR:
+- A revisão atual abrange toda a documentação autoral e as três páginas dos cinco idiomas:
   `index.html`, `galeria.html` e `rede.html`.
-  O responsável ampliou o escopo técnico e editorial em 12 de outubro de 2026.
-  Essa decisão substitui a restrição à página principal de 9 de outubro.
-  As traduções aguardam revisão posterior. Sincronize correções do CSS comum nos cinco idiomas.
-- Os commits dessa revisão devem informar o escopo “pt-BR, página principal, galeria e agradecimentos”.
+  O responsável autorizou sincronizar conteúdo e estrutura das traduções em 13 de outubro de 2026.
+  Essa decisão amplia a revisão pt-BR autorizada em 12 de outubro.
+  Use o conteúdo vigente em pt-BR como base factual. Respeite as variantes linguísticas.
+  Sincronize correções do CSS comum nos cinco idiomas.
+- Os commits dessa revisão devem informar o escopo “cinco idiomas, página principal, galeria e agradecimentos”.
   Registros de escopo nas instruções da raiz são permitidos.
   Mantenha a documentação detalhada em `docs/`, agora versionada.
 - Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
@@ -166,7 +170,8 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 - Use o `README.md` da raiz para apresentação, estrutura, execução e publicação.
   Substitua regras gerais repetidas por links para este arquivo.
 - Use `docs/README.md` como índice da documentação.
-  Use READMEs locais para organização, origem, licenças e condições específicas das fontes.
+  Centralize o uso, a origem e as condições das referências em `docs/referencias/guia-de-uso.md`.
+  Preserve READMEs recebidos como parte dos originais de fornecedores.
 - Mantenha uma síntese vigente por assunto.
   Antes de remover registros substituídos, preserve decisões e evidências úteis na documentação consolidada.
   Atualize os índices e links afetados.
@@ -177,6 +182,19 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
 ## Cursos na tela e na impressão
 
 - Mantenha o controle nativo recolhível na tela e a cópia completa exclusiva para impressão.
-- Ao alterar cursos, atualize as duas cópias de `static/pt-BR/index.html`.
+- Ao alterar cursos, atualize as duas cópias de cada currículo nos cinco idiomas.
+  Preserve os títulos oficiais e os atributos de idioma dos títulos.
 - Confira igualdade de títulos, instituições, datas e cargas horárias.
 - Confira os 17 cursos uma única vez na impressão, com o controle fechado e aberto.
+
+## Acervo e comparação de competências
+
+- O responsável solicitou remover os resultados de comparação de competências em 12 de outubro de 2026.
+  Preserve fontes, dicionários, manifestos, licenças e declarações recebidas como insumos.
+  Essa decisão permanece registrada como histórico da organização documental.
+- Em 13 de outubro de 2026, o responsável autorizou uma nova análise das cinco versões e dos insumos confirmados.
+  Preserve as fontes, os contextos, as definições e os limites em cada correspondência.
+  Separe triagem vocabular de relações revisadas semanticamente.
+  As recomendações ATS desta etapa não devem ser aplicadas ao site.
+- Mantenha os clones completos de fontes editoriais em `docs/referencias/ats/repositorios-local/`, fora do Git.
+  Versione o manifesto e as sínteses autorais fora dessa pasta.

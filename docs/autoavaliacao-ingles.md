@@ -13,8 +13,8 @@ As citações abaixo preservam a redação original do participante.
 
 Estimar um perfil por habilidade usando QECR e STANAG 6001 separadamente.
 A atividade constitui uma autoavaliação orientada, sem certificação ou exame padronizado.
-O [guia de execução](#guia-de-execucao) permite retomar o trabalho com as fontes disponíveis.
-O [índice de idiomas](referencias/idiomas/README.md) identifica edições e caminhos.
+O [guia de execução](#guia-de-execução) permite retomar o trabalho com as fontes disponíveis.
+O [índice de idiomas](referencias/guia-de-uso.md#referências-de-idiomas) identifica edições e caminhos.
 
 Use a grelha do QECR e o volume complementar de 2020.
 Para escrita, consulte também a grade de avaliação do apêndice 4.
@@ -169,16 +169,16 @@ O responsável decidiu executar o teste completo posteriormente.
 Este guia orienta uma autoavaliação com referências civis e militares.
 O resultado é uma estimativa por habilidade, sem certificação ou exame oficial.
 O projeto de avaliação de Nicolas está pausado para retomada posterior.
-Consulte [o plano e as amostras](#plano-e-registro-da-autoavaliacao-de-ingles).
+Consulte [o plano e as amostras](#plano-e-registro-da-autoavaliação-de-inglês).
 
 ## Preparar as referências
 
-1. Leia o [índice de idiomas](referencias/idiomas/README.md).
+1. Leia o [índice de idiomas](referencias/guia-de-uso.md#referências-de-idiomas).
 2. Abra a [grelha do QECR em português](referencias/idiomas/qecr-cefr/QECR-grelha-autoavaliacao-pt.pdf).
 3. Consulte o volume complementar do QECR, de 2020, para descritores detalhados.
 4. Consulte a ATrainP-5, edição A, versão 2, para os descritores militares.
 5. Use os anexos A e B da ATrainP-5 para níveis completos e intermediários.
-6. Se faltar um PDF, siga o [índice de referências locais](README.md#referencias-locais).
+6. Se faltar um PDF, siga o [índice de referências locais](README.md#referências-locais).
 
 A grelha apresenta os níveis A1–C2 do QECR.
 O volume complementar inclui descritores e uma grade de avaliação escrita no apêndice 4.

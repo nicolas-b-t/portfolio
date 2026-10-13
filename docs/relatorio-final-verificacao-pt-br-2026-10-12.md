@@ -40,7 +40,7 @@ Nenhum script foi acrescentado ao site.
 | [RFC 9110](referencias/ietf/rfc-9110-2026-10-12.txt) e [RFC 9111](referencias/ietf/rfc-9111-2026-10-12.txt) | Tipos de conteúdo, cache e respostas condicionais |
 | [RFC 9649](referencias/ietf/rfc-9649-2026-10-12.txt) | Identificação do formato WebP e preservação da alternativa JPEG |
 
-O [índice das referências](referencias/README.md) distingue recomendações, notas e rascunhos.
+O [índice das referências](referencias/guia-de-uso.md#referências-web) distingue recomendações, notas e rascunhos.
 A aplicação não transforma rascunhos em recomendações aprovadas nem implica conformidade com todas as especificações.
 
 ### Resultados atuais

@@ -8,12 +8,13 @@ Ele oferece versões em pt-BR, pt-PT, inglês, es-419 e es-ES.
 
 Leia [AGENTS.md](AGENTS.md) antes de editar.
 Esse arquivo centraliza regras de desenvolvimento, redação, acessibilidade, escopo e trabalho no repositório.
-O projeto permanece pessoal. A adaptação como modelo ainda não foi implementada.
+O projeto permanece pessoal. A documentação prepara uma futura distribuição como template.
+A cópia genérica ainda não foi criada.
 
-- [Organização do site](static/README.md): páginas, idiomas e recursos publicados.
+- [Guia de uso e manutenção](docs/referencias/guia-de-uso.md): edição, consulta aos dicionários e preparação do template futuro.
 - [Índice da documentação](docs/README.md): registros, fontes e referências locais.
 - [Relatório final de verificação](docs/relatorio-final-verificacao-pt-br-2026-10-12.md): resultados, limites e procedimento para repetir os testes.
-- [Referências de desenvolvimento web](docs/referencias/README.md): HTML, CSS, acessibilidade, idiomas, HTTP e imagens.
+- [Insumos de competências](docs/referencias/guia-de-uso.md#insumos-ats-e-classificações): dicionários, originais, licenças e limites.
 - [Guia de redação](docs/guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
 
 ## Estrutura
@@ -31,17 +32,27 @@ O projeto permanece pessoal. A adaptação como modelo ainda não foi implementa
 │   ├── en/
 │   ├── es-419/
 │   ├── es-ES/
-│   ├── media/realfort/           # Fotografias compartilhadas
-│   └── README.md                # Organização do site
+│   └── media/realfort/           # Fotografias compartilhadas
 └── docs/                        # Documentação, evidências e fontes
     ├── README.md                # Índice
     ├── fontes/academico/        # Documentos acadêmicos
-    └── referencias/             # WHATWG, W3C, IETF, redação e idiomas
+    └── referencias/             # Normas, redação, idiomas e acervo ATS
 ```
 
 A documentação acompanha o repositório, mas não integra o site publicado.
 Os documentos privados preservados pelo responsável não acompanham clones.
-Consulte [referências locais](docs/README.md#referencias-locais) para conhecer as condições de recuperação.
+Consulte [referências locais](docs/README.md#referências-locais) para conhecer as condições de recuperação.
+
+## Organização do site
+
+Cada pasta de idioma contém o currículo em index.html, os agradecimentos em rede.html e a galeria em galeria.html.
+O rodapé liga o currículo às páginas complementares.
+Cada idioma mantém seu HTML, CSS e favicon. Os links de idioma apontam para as pastas vizinhas.
+As fotografias WebP e JPEG ficam em static/media/realfort/, compartilhadas pelos idiomas.
+
+A etiqueta es-419 abrange América Latina e Caribe.
+A redação atende ao público sul-americano, identificado pela marca visível ES-SAM.
+A etiqueta es-ES identifica a variante de Espanha.
 
 ## Executar para desenvolvimento
 
@@ -72,7 +83,8 @@ As ações oficiais usam referências fixadas por SHA de commit.
 
 O workflow usa `contents: read`, `pages: write` e `id-token: write`.
 Ele não exige segredos personalizados.
-O artefato exclui `static/README.md`, a documentação e as instruções da raiz.
+O artefato contém somente os arquivos de `static/`.
+A documentação e as instruções da raiz permanecem fora da publicação.
 
 [Site publicado](https://nicolas-b-t.github.io/portfolio/).
 As páginas usam `/portfolio/`, seguido da pasta de cada idioma.
@@ -81,4 +93,11 @@ As páginas usam `/portfolio/`, seguido da pasta de cada idioma.
 
 As verificações exigidas estão em [AGENTS.md](AGENTS.md#verificação-e-trabalho-no-repositório).
 O [relatório final](docs/relatorio-final-verificacao-pt-br-2026-10-12.md) descreve os ensaios e suas evidências.
+O [relatório dos cinco idiomas](docs/relatorio-sincronizacao-idiomas-2026-10-13.md) registra a sincronização posterior de currículo, galeria e agradecimentos.
 WCAG 2.2 nível AA é o alvo. A conformidade integral ainda não foi demonstrada.
+
+## Distribuição futura como template
+
+O [guia de uso](docs/referencias/guia-de-uso.md#preparar-a-distribuição-futura-como-template) identifica conteúdo pessoal, recursos e documentação que precisarão de revisão.
+Ele também descreve a preparação da cópia genérica e das instruções de personalização.
+Os dados pessoais do portfólio atual não foram substituídos nesta organização documental.

@@ -1,0 +1,40 @@
+{
+  "registrado_em": "2026-10-12",
+  "origem": "Declarações do responsável na conversa de manutenção do portfólio",
+  "natureza": "insumo declarativo, sem comparação, avaliação de nível ou recomendação de tags",
+  "declaracoes": [
+    {
+      "tema": "Ferramentas de escritório",
+      "produtos": [
+        "Microsoft Office",
+        "Office 365",
+        "LibreOffice"
+      ],
+      "contexto": "O responsável informou uso local de Microsoft Office e uso online de Office 365."
+    },
+    {
+      "tema": "Plataformas de equipe",
+      "produtos": [
+        "OneDrive",
+        "Google Drive",
+        "GitHub",
+        "Trello",
+        "Canva",
+        "Teams"
+      ],
+      "atividades_confirmadas": [
+        "Controle de acessos",
+        "Controle de permissões",
+        "Sincronização",
+        "Histórico de versões",
+        "Backup"
+      ],
+      "contexto": "O responsável informou acesso da equipe e controle das atividades no ambiente da equipe."
+    }
+  ],
+  "limites": [
+    "Não foi atribuído domínio de todos os aplicativos de cada suíte.",
+    "Não foi inferida administração corporativa completa das plataformas.",
+    "As declarações não comprovam arquitetura de infraestrutura em nuvem."
+  ]
+}

@@ -107,3 +107,64 @@ Os arquivos acadêmicos mantêm os registros de origem.
 O [relatório final de verificação](relatorio-final-verificacao-pt-br-2026-10-12.md) reúne resultados, evidências, limites e instruções de repetição.
 A conformidade integral WCAG AA permanece não demonstrada.
 A remoção do arquivo de pendências não indica conclusão do autoteste de inglês nem implementação de um modelo reutilizável.
+
+## Organização documental para distribuição futura
+
+Em 12 de outubro de 2026, o responsável solicitou organizar os documentos e as instruções de uso.
+Ele confirmou a intenção de disponibilizar o site como template em uma etapa futura.
+O [guia de uso](referencias/guia-de-uso.md) reúne edição, consulta aos dicionários, recuperação de fontes e preparação da distribuição.
+Os índices da raiz e de docs/ encaminham leitores às instruções, análises e evidências correspondentes.
+As regras gerais permanecem no AGENTS.md. Os acervos preservam seus próprios originais e licenças.
+
+A distribuição genérica ainda não foi criada. Dados pessoais, traduções e recursos publicados permanecem como estavam.
+O guia identifica as áreas que precisarão de substituição e revisão antes da futura disponibilização.
+Naquela organização, a proposta editorial não foi aplicada ao site.
+O responsável solicitou posteriormente remover a proposta e os resultados de comparação.
+
+Conferimos 161 links e âncoras locais em 11 documentos autorais, sem falhas.
+Executamos os exemplos PowerShell de consulta ao CSV e de conferência SHA-256.
+Os 40 originais e membros extraídos da ampliação ATS mantiveram seus hashes.
+A verificação git diff --check passou. O site publicado não recebeu alterações nesta etapa.
+
+## Consolidação dos insumos e remoção das comparações
+
+Em 12 de outubro de 2026, o responsável solicitou manter apenas os insumos para uma análise futura de competências.
+O guia foi consolidado em docs/referencias/guia-de-uso.md.
+Os READMEs autorais locais foram incorporados ao guia e ao README principal.
+O AGENTS.md da raiz permanece como único arquivo de regras do projeto.
+Os READMEs originais dos fornecedores e as licenças foram preservados.
+
+As quatro exportações de comparação e a proposta editorial foram removidas.
+As declarações do responsável foram preservadas em docs/fontes/competencias-declaradas.json, sem recomendações de tags.
+O workflow deixou de remover static/README.md, pois esse arquivo foi consolidado e retirado da fonte do site.
+O artefato continua contendo somente static/. As páginas e seus recursos não foram alterados.
+
+A conferência final encontrou 219 links e âncoras válidos.
+O inventário dos 62 arquivos de publicação permanece igual, exceto pelo README removido.
+Os 49 originais e membros extraídos dos manifestos ATS mantiveram seus hashes.
+Não foram encontrados arquivos temporários no workspace, excluindo diretórios internos do Git e do ambiente.
+A verificação git diff --check passou. Não houve commit ou push.
+
+## Limpeza final do acervo
+
+A varredura final examinou 195 arquivos fora dos diretórios internos do Git e do ambiente.
+Não encontrou arquivos temporários, pastas vazias ou documentos duplicados.
+Os dois relatórios de execução ATS foram removidos após a consolidação, pois não constituem insumos para a análise posterior.
+
+## Sincronização e nova análise — 13 de outubro de 2026
+
+O responsável autorizou sincronizar conteúdo e estrutura das quatro traduções com o pt-BR vigente.
+A revisão abrange currículo, galeria e agradecimentos nos cinco idiomas.
+As traduções preservam nomes oficiais, formação em andamento, níveis de suporte e limites de participação nos projetos.
+
+Os dois repositórios editoriais foram clonados integralmente, com histórico, em uma pasta excluída do Git.
+O manifesto versionado preserva commits, licenças e hashes dos 51 arquivos recebidos.
+O acervo recebeu espanhol ESCO v1.2.1, 21 registros públicos Sólides e uma síntese do artigo AIResume Guru.
+
+A nova análise registra inventário, correspondências, definições e recomendações.
+Ela distingue triagem lexical, relações revisadas semanticamente e ausência de correspondência confirmada.
+As recomendações ATS não foram aplicadas ao site, conforme a decisão do responsável.
+
+Os resultados e limites dos testes estão no [relatório da sincronização](relatorio-sincronizacao-idiomas-2026-10-13.md).
+Os manifestos, os dicionários, as declarações e os originais permanecem preservados.
+As evidências históricas usadas pelo relatório de verificação do site foram mantidas.

@@ -32,3 +32,13 @@ docs/referencias/w3c/LICENSE-W3C.md -text -whitespace
 
 # Preserva bytes das cópias oficiais do Europass.
 docs/referencias/idiomas/qecr-cefr/*.html -text -whitespace
+
+# Preserva bytes do acervo ATS e dos dicionários registrados nos manifestos.
+docs/referencias/ats/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserva a formatação recebida das fontes originais.
+docs/referencias/ats/esco/*.html -whitespace
+docs/referencias/ats/esco/skills_*.csv -whitespace
+docs/referencias/ats/nesta/LICENSE -whitespace
+docs/referencias/ats/odoo/COPYRIGHT.txt -whitespace
+docs/referencias/ats/opencats/* -whitespace
