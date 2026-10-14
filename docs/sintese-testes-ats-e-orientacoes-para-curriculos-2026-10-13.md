@@ -289,3 +289,75 @@ O positivo se limita à leitura dedicada do bloco, em linhas lógicas derivadas 
 O DOM completo e a entrada que exclui hidden continuaram negativos.
 Os campos de posições da API receberam valores sintéticos. Nenhum PDF ou navegador foi usado nesse ensaio.
 O [ensaio consolidado](ensaio-curriculo-oculto-pt-br-2026-10-14.md#planejamento-e-resultado-positivo-no-cvats) registra o plano, as alterações, o resultado e seus limites.
+
+## Revisão adicional das tags — 14 de outubro de 2026
+
+A página principal contém 161 ocorrências e 145 rótulos distintos. A cópia oculta preserva os mesmos itens, na mesma ordem.
+A comparação confirmou as mesmas 30 igualdades documentais do registro anterior. A lista atual não produziu novas igualdades.
+As contagens excluem a duplicação entre o bloco oculto e o conteúdo principal.
+
+O acervo sustenta associações adicionais para aliases. Algumas relações são conceituais ou parciais. Elas não constituem equivalências literais entre competências.
+Os nomes apresentados e os níveis declarados permanecem como base factual.
+
+| Tag atual | Termo consultado | Fonte e limite |
+| --- | --- | --- |
+| Consultas SQL | SQL | ESCO. Relação entre atividade e linguagem. Não atribui administração de bancos |
+| Aprendizado de máquina | machine learning | ESCO. Tradução conceitual. Preservar conhecimento introdutório |
+| Suporte Help Desk, N1 | IT support | Odoo. Categoria mais ampla. Preservar Help Desk e N1 |
+| Documentação técnica | technical documentation | Nesta e ESCoE. Taxonomia de pesquisa. Preservar autoria e contexto |
+| Manuais de usuário | provide user documentation | ESCO. Relação entre documento e atividade. Não confirma todas as atividades de distribuição |
+| Pensamento analítico | analytical thinking | Alias ESCO. Não atribui análise de dados ou ferramentas |
+| Inteligência de negócios | business intelligence | ESCO. Conteúdo previsto da graduação. Não atribui experiência profissional ou Power BI |
+
+Microsoft Office software também consta no O*NET. Essa variante poderia acrescentar uma igualdade nominal para Microsoft Office.
+O teste não demonstrou ganho de extração. A análise recomenda preservar o nome apresentado.
+
+O ensaio executou parseResumeText original do segundo parser público, com a entrada restrita às tags.
+Os sete termos da tabela e Microsoft Office software foram acrescentados somente em memória.
+O resultado permaneceu com 11 tecnologias: JavaScript, Python, SQL, PostgreSQL, AWS, Azure, Git, GitHub Actions, HTML, CSS e Linux.
+Consultas SQL e SQL produziram a mesma saída individual. Os demais pares não produziram competências configuradas nessa rotina.
+A taxonomia do código possui 46 rótulos. Ela não inclui os demais candidatos.
+
+O teste não executou leitores de arquivos, aplicação completa ou ATS proprietário.
+As rotinas de experiência e formação não foram reavaliadas. Nenhuma regra de extração foi alterada.
+Não houve testes de tela, teclado ou impressão. A página e a exportação TXT permaneceram intactas.
+
+Cinco atividades declaradas ainda não aparecem como tags: controle de acessos, controle de permissões, sincronização, histórico de versões e backup.
+A declaração limita essas atividades ao ambiente da equipe. Ela não comprova administração corporativa ou arquitetura de infraestrutura em nuvem.
+Esses possíveis acréscimos não foram aplicados nem incluídos no teste dos oito aliases.
+
+Office 365 não foi convertido em Microsoft 365. Windows 11 não recebeu a edição Pro.
+As fontes não autorizam acrescentar serviços específicos de AWS, Azure ou Vercel por associação com o nome da plataforma.
+Metodologias ágeis e Scrum permanecem como conceitos independentes.
+
+O [registro da revisão](revisao-tags-ats-pt-br-2026-10-14.json) preserva o inventário, fontes, relações, entradas, saídas e hashes.
+Os aliases podem orientar uma adequação futura. O ensaio atual não demonstra melhora de extração nem aumento de aprovação em candidaturas.
+
+### Aplicação posterior dos termos ingleses
+
+O responsável autorizou acrescentar os termos correspondentes em inglês nas tags ocultas da página pt-BR.
+Foram incluídos sete termos distintos, com nove ocorrências. Technical documentation acompanha as três ocorrências portuguesas nos respectivos contextos.
+Os termos permanecem nas listas correspondentes, com lang="en". Os nomes em português foram preservados.
+
+O bloco oculto passou a ter 170 ocorrências e 152 rótulos distintos.
+O conteúdo principal mantém 161 ocorrências e 145 rótulos distintos. Ele permaneceu idêntico, byte a byte, ao conteúdo publicado anteriormente.
+O inventário TXT anterior continua descrevendo os nomes portugueses do conteúdo principal. A exportação curricular TXT permaneceu intacta.
+
+IT support conserva a indicação N1. Business intelligence permanece nos conteúdos previstos da graduação em andamento.
+Um parágrafo explicita o conhecimento introdutório em aprendizado de máquina.
+Microsoft Office software e as cinco atividades sem tag não foram acrescentados.
+
+O adaptador reproduziu exatamente as 316 linhas do ensaio positivo anterior, antes da inclusão dos aliases.
+Depois, o teste leu o HTML atualizado e executou as rotinas originais do cvats.
+As três experiências e a graduação produziram os mesmos campos do positivo anterior.
+Os quatro controles de remoção e substituição também passaram.
+
+O segundo parser público recuperou as mesmas 11 tecnologias a partir das tags ocultas.
+Esse resultado confirma preservação da extração anterior. Ele não demonstra ganho de recuperação dos novos termos.
+Os 17 cursos e os dados da graduação permaneceram intactos.
+
+O positivo continua limitado à leitura dedicada do bloco oculto, com posições lógicas sintéticas.
+A leitura da página inteira e a variante que exclui hidden não foram reavaliadas nesta alteração.
+Não houve testes de tela, teclado, impressão, PDF ou DOCX. Nenhum ATS proprietário foi executado.
+
+O [teste após a aplicação](verificacao-aliases-ocultos-pt-br-2026-10-14.json) preserva a entrada atual, saídas, controles, fontes e hashes.

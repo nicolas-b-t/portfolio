@@ -1,0 +1,5611 @@
+{
+  "data": "2026-10-14",
+  "base_git": "f69af0d8d648ecf1af60c957659c17b16e59013c",
+  "pagina": {
+    "arquivo": "static/pt-BR/index.html",
+    "sha256": "89b0a56fe8b37ae8fbf346e3a63ec81dce86e5d73640feb0d0bf28ca3c1ca097",
+    "sha256_anterior": "6022df26e4516ff35102e479dc9c5554744f7539bd0d77aa31a6466de42c56fb"
+  },
+  "exportacao": {
+    "arquivo": "docs/curriculo-ats-pt-br-2026-10-13.txt",
+    "sha256": "c791ad708aacf0ce0d970424251b92efb9c41886e13f2d7052b231f4d348a3df"
+  },
+  "aliases": [
+    {
+      "tag_original": "Aprendizado de máquina",
+      "termo_en": "Machine learning",
+      "contexto": "Habilidades. Conhecimento introdutório."
+    },
+    {
+      "tag_original": "Consultas SQL",
+      "termo_en": "SQL",
+      "contexto": "Habilidades. Atividade de consultas."
+    },
+    {
+      "tag_original": "Suporte Help Desk, N1",
+      "termo_en": "IT support, N1",
+      "contexto": "Habilidades. Suporte N1."
+    },
+    {
+      "tag_original": "Documentação técnica",
+      "termo_en": "Technical documentation",
+      "contexto": "Habilidades e participação pessoal nos projetos. Três ocorrências."
+    },
+    {
+      "tag_original": "Manuais de usuário",
+      "termo_en": "Provide user documentation",
+      "contexto": "Habilidades. Elaboração de manuais."
+    },
+    {
+      "tag_original": "Pensamento analítico",
+      "termo_en": "Analytical thinking",
+      "contexto": "Competências sociais."
+    },
+    {
+      "tag_original": "Inteligência de negócios",
+      "termo_en": "Business intelligence",
+      "contexto": "Conteúdo previsto da graduação em andamento."
+    }
+  ],
+  "inventario": {
+    "tags_principais": [
+      "Canva",
+      "Capitalização",
+      "Fluxo de caixa",
+      "Gestão de projetos",
+      "Gestão financeira",
+      "Google Drive",
+      "Indicadores estratégicos",
+      "LibreOffice",
+      "Melhoria de processos",
+      "Metodologias ágeis",
+      "Microsoft Excel",
+      "Microsoft Office",
+      "Microsoft Teams",
+      "Office 365",
+      "OneDrive",
+      "Planejamento de metas",
+      "Scrum",
+      "Trello",
+      "Debian",
+      "Linux",
+      "Ubuntu",
+      "Microsoft Windows",
+      "Windows 10",
+      "Windows 11",
+      "Aprendizado de máquina",
+      "Inteligência artificial (IA)",
+      "JavaScript",
+      "Lógica de programação",
+      "Modelagem de dados",
+      "Python",
+      "OpenAI ChatGPT",
+      "Codex (OpenAI)",
+      "Claude",
+      "Claude Code",
+      "Desenvolvimento com agentes de IA",
+      "OpenCode",
+      "Consultas SQL",
+      "PostgreSQL",
+      "SQLite",
+      "Cabeamento de redes",
+      "Cabo drop",
+      "Configuração de roteadores",
+      "Enlaces a rádio",
+      "FTTH",
+      "Fusão de fibra óptica, aprendiz",
+      "Medidor de potência óptica (power meter)",
+      "ONT",
+      "ONU",
+      "OTDR",
+      "PoE",
+      "PPPoE",
+      "Redes locais (LAN)",
+      "Redes mesh",
+      "RJ45",
+      "SC/APC",
+      "VFL",
+      "Wi-Fi",
+      "OpenWrt",
+      "OPNsense",
+      "pfSense",
+      "Documentação técnica",
+      "Escalonamento de chamados",
+      "Gestão de ativos de TI",
+      "Manuais de usuário",
+      "Manutenção de computadores",
+      "Manutenção de impressoras",
+      "Manutenção de periféricos",
+      "NF-e",
+      "NFC-e",
+      "Orientação de usuários",
+      "Procedimentos operacionais padrão (POPs)",
+      "Resolução de incidentes",
+      "Suporte a ERP, N1",
+      "Suporte a PDV, N1",
+      "Suporte Help Desk, N1",
+      "Suporte técnico hospitalar, N1/N2",
+      "Acessibilidade web",
+      "CSS",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "GitHub Pages",
+      "HTML",
+      "Sites multilíngues",
+      "Apache HTTP Server",
+      "Nginx web server",
+      "Amazon Web Services AWS software",
+      "Firebase",
+      "Microsoft Azure software",
+      "Supabase",
+      "Vercel",
+      "Inglês, TOEIC Listening & Reading 910",
+      "Português brasileiro",
+      "Adaptabilidade",
+      "Atenção a detalhes",
+      "Pensamento analítico",
+      "Comunicação",
+      "Compreensão das necessidades do cliente",
+      "Trabalho em equipe",
+      "Clivador",
+      "Ferramentas elétricas",
+      "Ferramentas pneumáticas",
+      "Organização de ferramentas",
+      "Organização de insumos",
+      "Trabalho em altura",
+      "Condução de carros",
+      "Condução de motos",
+      "CNH AB",
+      "Avaliação de soluções",
+      "Gestão de pessoas",
+      "Gestão de processos",
+      "Gestão de projetos de TI",
+      "Gestão financeira",
+      "Planejamento estratégico",
+      "Comunicação",
+      "Negociação",
+      "Gestão de conflitos",
+      "Pensamento crítico",
+      "Pesquisa acadêmica",
+      "Resolução de problemas",
+      "Trabalho em equipe",
+      "Visão sistêmica",
+      "Banco de dados",
+      "Diagnóstico de infraestrutura",
+      "Engenharia de software",
+      "Inteligência de negócios",
+      "Programação para internet",
+      "Redes de computadores",
+      "Sistemas operacionais",
+      "Desenvolvimento com agentes de IA",
+      "Documentação técnica",
+      "Gestão de escopo",
+      "Git",
+      "GitHub",
+      "Acessibilidade web",
+      "CSS",
+      "Design responsivo",
+      "HTML",
+      "Otimização de imagens",
+      "Sites multilíngues",
+      "Testes de interface",
+      "Validação HTML",
+      "GitHub Actions",
+      "GitHub Pages",
+      "Documentação técnica",
+      "Pesquisa de mercado",
+      "Preparação de infraestrutura",
+      "Avaliação de ferramentas",
+      "Firebase",
+      "Google AI Studio",
+      "Levantamento de requisitos",
+      "Modelagem de processos",
+      "Prototipação",
+      "Gestão de entregáveis",
+      "Liderança de equipe",
+      "Trello",
+      "Análise de dados qualitativos",
+      "Entrevistas",
+      "Questionários",
+      "Estudo de caso",
+      "Pesquisa bibliográfica"
+    ],
+    "tags_ocultas": [
+      "Canva",
+      "Capitalização",
+      "Fluxo de caixa",
+      "Gestão de projetos",
+      "Gestão financeira",
+      "Google Drive",
+      "Indicadores estratégicos",
+      "LibreOffice",
+      "Melhoria de processos",
+      "Metodologias ágeis",
+      "Microsoft Excel",
+      "Microsoft Office",
+      "Microsoft Teams",
+      "Office 365",
+      "OneDrive",
+      "Planejamento de metas",
+      "Scrum",
+      "Trello",
+      "Debian",
+      "Linux",
+      "Ubuntu",
+      "Microsoft Windows",
+      "Windows 10",
+      "Windows 11",
+      "Aprendizado de máquina",
+      "Machine learning",
+      "Inteligência artificial (IA)",
+      "JavaScript",
+      "Lógica de programação",
+      "Modelagem de dados",
+      "Python",
+      "OpenAI ChatGPT",
+      "Codex (OpenAI)",
+      "Claude",
+      "Claude Code",
+      "Desenvolvimento com agentes de IA",
+      "OpenCode",
+      "Consultas SQL",
+      "SQL",
+      "PostgreSQL",
+      "SQLite",
+      "Cabeamento de redes",
+      "Cabo drop",
+      "Configuração de roteadores",
+      "Enlaces a rádio",
+      "FTTH",
+      "Fusão de fibra óptica, aprendiz",
+      "Medidor de potência óptica (power meter)",
+      "ONT",
+      "ONU",
+      "OTDR",
+      "PoE",
+      "PPPoE",
+      "Redes locais (LAN)",
+      "Redes mesh",
+      "RJ45",
+      "SC/APC",
+      "VFL",
+      "Wi-Fi",
+      "OpenWrt",
+      "OPNsense",
+      "pfSense",
+      "Documentação técnica",
+      "Technical documentation",
+      "Escalonamento de chamados",
+      "Gestão de ativos de TI",
+      "Manuais de usuário",
+      "Provide user documentation",
+      "Manutenção de computadores",
+      "Manutenção de impressoras",
+      "Manutenção de periféricos",
+      "NF-e",
+      "NFC-e",
+      "Orientação de usuários",
+      "Procedimentos operacionais padrão (POPs)",
+      "Resolução de incidentes",
+      "Suporte a ERP, N1",
+      "Suporte a PDV, N1",
+      "Suporte Help Desk, N1",
+      "IT support, N1",
+      "Suporte técnico hospitalar, N1/N2",
+      "Acessibilidade web",
+      "CSS",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "GitHub Pages",
+      "HTML",
+      "Sites multilíngues",
+      "Apache HTTP Server",
+      "Nginx web server",
+      "Amazon Web Services AWS software",
+      "Firebase",
+      "Microsoft Azure software",
+      "Supabase",
+      "Vercel",
+      "Inglês, TOEIC Listening & Reading 910",
+      "Português brasileiro",
+      "Adaptabilidade",
+      "Atenção a detalhes",
+      "Pensamento analítico",
+      "Analytical thinking",
+      "Comunicação",
+      "Compreensão das necessidades do cliente",
+      "Trabalho em equipe",
+      "Clivador",
+      "Ferramentas elétricas",
+      "Ferramentas pneumáticas",
+      "Organização de ferramentas",
+      "Organização de insumos",
+      "Trabalho em altura",
+      "Condução de carros",
+      "Condução de motos",
+      "CNH AB",
+      "Avaliação de soluções",
+      "Gestão de pessoas",
+      "Gestão de processos",
+      "Gestão de projetos de TI",
+      "Gestão financeira",
+      "Planejamento estratégico",
+      "Comunicação",
+      "Negociação",
+      "Gestão de conflitos",
+      "Pensamento crítico",
+      "Pesquisa acadêmica",
+      "Resolução de problemas",
+      "Trabalho em equipe",
+      "Visão sistêmica",
+      "Banco de dados",
+      "Diagnóstico de infraestrutura",
+      "Engenharia de software",
+      "Inteligência de negócios",
+      "Business intelligence",
+      "Programação para internet",
+      "Redes de computadores",
+      "Sistemas operacionais",
+      "Desenvolvimento com agentes de IA",
+      "Documentação técnica",
+      "Technical documentation",
+      "Gestão de escopo",
+      "Git",
+      "GitHub",
+      "Acessibilidade web",
+      "CSS",
+      "Design responsivo",
+      "HTML",
+      "Otimização de imagens",
+      "Sites multilíngues",
+      "Testes de interface",
+      "Validação HTML",
+      "GitHub Actions",
+      "GitHub Pages",
+      "Documentação técnica",
+      "Technical documentation",
+      "Pesquisa de mercado",
+      "Preparação de infraestrutura",
+      "Avaliação de ferramentas",
+      "Firebase",
+      "Google AI Studio",
+      "Levantamento de requisitos",
+      "Modelagem de processos",
+      "Prototipação",
+      "Gestão de entregáveis",
+      "Liderança de equipe",
+      "Trello",
+      "Análise de dados qualitativos",
+      "Entrevistas",
+      "Questionários",
+      "Estudo de caso",
+      "Pesquisa bibliográfica"
+    ],
+    "ocorrencias_principais": 161,
+    "rotulos_principais": 145,
+    "ocorrencias_ocultas": 170,
+    "rotulos_ocultos": 152,
+    "ocorrencias_adicionadas": 9
+  },
+  "integridade": {
+    "conteudo_visivel_preservado_byte_a_byte": true,
+    "tags_portuguesas_preservadas": true,
+    "aliases_nas_listas_correspondentes": true,
+    "aliases_com_lang_en": true,
+    "sete_termos_nove_ocorrencias": true,
+    "graduacao_preservada": true,
+    "cursos_preservados": true,
+    "introductorio_preservado": true,
+    "nivel_n1_preservado": true,
+    "bi_somente_na_formacao": true,
+    "hidden_preservado": true,
+    "idioma_utf8": true,
+    "ids_unicos": true,
+    "sem_scripts": true,
+    "exportacao_txt_preservada": true,
+    "somente_pagina_pt_br_no_site": true
+  },
+  "metodo": "DOM do bloco oculto convertido em linhas lógicas. Posições sintéticas uniformes. Nenhum navegador ou PDF foi usado.",
+  "adaptador_reproduzia_entrada_anterior": true,
+  "cvats": {
+    "repositorio": "https://github.com/rntxbr/cvats-app",
+    "commit": "bd53d0e9eb3489e975a1724270cf83a9a692c7bd",
+    "licenca": "AGPL-3.0",
+    "adaptacao": "Somente resolução de aliases de módulos e remoção de tipos TypeScript. Nenhuma regra de extração alterada.",
+    "fontes_sha256": {
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\group-lines-into-sections.ts": "e5656977b0d3d5298b2bf358874e9b640cc058a1972f45f787ccfd0304485415",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\resume-headings.ts": "0aa68e7d4777ddbe90d2aea207cd266deebb444494e438720ec24dff18ebeeb9",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\extract-work-experience.ts": "116b393513efc6b9a188e3bd6cea6675859ab0a1bd04c17a064be180ab085deb",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\lib\\bullet-points.ts": "d2503d59a9138c123cb1dc9d528698b90a6342b5e7f792ca86d45a613459cb71",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\lib\\common-features.ts": "c03ea2121fccd691d1164a029b46bd5f07c53a3bfcd991bfa833abce7add67fb",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\lib\\feature-scoring-system.ts": "e70dd1c98ac0bf156d36f2ca33acb592927a52943a61bce29ab8e7ec63cfa28a",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\lib\\subsections.ts": "aa3c5adeff93cd8c6dd9ae253cd2135e0d3b8840defd29390eee06d9ae97f94b",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\extract-education.ts": "1b1204a8f22230df6771ea071369a65ca7448d3fb60f57feb708a09f7456cb91",
+      "docs\\referencias\\ats\\repositorios-local\\cvats-app\\app\\lib\\parse-resume-from-pdf\\extract-resume-from-sections\\lib\\get-section-lines.ts": "8b01a0bbca0edd22bf157772e9f9b2b9cb9460119bd608222fdc071d8f5047a0"
+    },
+    "entrada": {
+      "linhas": [
+        [
+          {
+            "text": "Nicolas Beraldes Tarifa",
+            "x": 0,
+            "y": 0,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Suporte de TI · Redes · Gestão de TI",
+            "x": 0,
+            "y": -10,
+            "width": 36,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Tenho experiência em suporte técnico de TI em hospitais, Help Desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.",
+            "x": 0,
+            "y": -20,
+            "width": 150,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Contato",
+            "x": 0,
+            "y": -30,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• E-mail — beraldesnicolas@gmail.com",
+            "x": 0,
+            "y": -40,
+            "width": 36,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• LinkedIn — Nicolas Beraldes Tarifa — https://www.linkedin.com/in/nicolas-t-a1ab74321/",
+            "x": 0,
+            "y": -50,
+            "width": 87,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub — nicolas-b-t — https://github.com/nicolas-b-t",
+            "x": 0,
+            "y": -60,
+            "width": 55,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Resumo profissional",
+            "x": 0,
+            "y": -70,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Curso Gestão da Tecnologia da Informação na Fatec Franco da Rocha – Giuliano Cecchettini.",
+            "x": 0,
+            "y": -80,
+            "width": 89,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no Help Desk da Lukos Tecnologia.",
+            "x": 0,
+            "y": -90,
+            "width": 95,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Também atuei na instalação de fibra óptica na RealFort Sistemas.",
+            "x": 0,
+            "y": -100,
+            "width": 64,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Desenvolvo projetos pessoais e apresento aqui minhas experiências, formação e práticas de trabalho. Priorizo soluções simples, compatíveis e acessíveis.",
+            "x": 0,
+            "y": -110,
+            "width": 152,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Competências e habilidades",
+            "x": 0,
+            "y": -120,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Competências técnicas (Hard skills)",
+            "x": 0,
+            "y": -130,
+            "width": 35,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Gestão e produtividade",
+            "x": 0,
+            "y": -140,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Canva",
+            "x": 0,
+            "y": -150,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Capitalização",
+            "x": 0,
+            "y": -160,
+            "width": 15,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Fluxo de caixa",
+            "x": 0,
+            "y": -170,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de projetos",
+            "x": 0,
+            "y": -180,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão financeira",
+            "x": 0,
+            "y": -190,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Google Drive",
+            "x": 0,
+            "y": -200,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Indicadores estratégicos",
+            "x": 0,
+            "y": -210,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• LibreOffice",
+            "x": 0,
+            "y": -220,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Melhoria de processos",
+            "x": 0,
+            "y": -230,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Metodologias ágeis",
+            "x": 0,
+            "y": -240,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Microsoft Excel",
+            "x": 0,
+            "y": -250,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Microsoft Office",
+            "x": 0,
+            "y": -260,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Microsoft Teams",
+            "x": 0,
+            "y": -270,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Office 365",
+            "x": 0,
+            "y": -280,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• OneDrive",
+            "x": 0,
+            "y": -290,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Planejamento de metas",
+            "x": 0,
+            "y": -300,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Scrum",
+            "x": 0,
+            "y": -310,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Trello",
+            "x": 0,
+            "y": -320,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sistemas operacionais",
+            "x": 0,
+            "y": -330,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Debian",
+            "x": 0,
+            "y": -340,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Linux",
+            "x": 0,
+            "y": -350,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Ubuntu",
+            "x": 0,
+            "y": -360,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Microsoft Windows",
+            "x": 0,
+            "y": -370,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Windows 10",
+            "x": 0,
+            "y": -380,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Windows 11",
+            "x": 0,
+            "y": -390,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Programação e dados",
+            "x": 0,
+            "y": -400,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Aprendizado de máquina",
+            "x": 0,
+            "y": -410,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Machine learning",
+            "x": 0,
+            "y": -420,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Inteligência artificial (IA)",
+            "x": 0,
+            "y": -430,
+            "width": 30,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• JavaScript",
+            "x": 0,
+            "y": -440,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Lógica de programação",
+            "x": 0,
+            "y": -450,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Modelagem de dados",
+            "x": 0,
+            "y": -460,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Python",
+            "x": 0,
+            "y": -470,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conhecimento introdutório em aprendizado de máquina, conforme a formação.",
+            "x": 0,
+            "y": -480,
+            "width": 73,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Desenvolvimento com IA",
+            "x": 0,
+            "y": -490,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• OpenAI ChatGPT",
+            "x": 0,
+            "y": -500,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Codex (OpenAI)",
+            "x": 0,
+            "y": -510,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Claude",
+            "x": 0,
+            "y": -520,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Claude Code",
+            "x": 0,
+            "y": -530,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Desenvolvimento com agentes de IA",
+            "x": 0,
+            "y": -540,
+            "width": 35,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• OpenCode",
+            "x": 0,
+            "y": -550,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Bancos de dados",
+            "x": 0,
+            "y": -560,
+            "width": 15,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Consultas SQL",
+            "x": 0,
+            "y": -570,
+            "width": 15,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• SQL",
+            "x": 0,
+            "y": -580,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• PostgreSQL",
+            "x": 0,
+            "y": -590,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• SQLite",
+            "x": 0,
+            "y": -600,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Redes",
+            "x": 0,
+            "y": -610,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Cabeamento de redes",
+            "x": 0,
+            "y": -620,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Cabo drop",
+            "x": 0,
+            "y": -630,
+            "width": 11,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Configuração de roteadores",
+            "x": 0,
+            "y": -640,
+            "width": 28,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Enlaces a rádio",
+            "x": 0,
+            "y": -650,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• FTTH",
+            "x": 0,
+            "y": -660,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Fusão de fibra óptica, aprendiz",
+            "x": 0,
+            "y": -670,
+            "width": 33,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Medidor de potência óptica (power meter)",
+            "x": 0,
+            "y": -680,
+            "width": 42,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• ONT",
+            "x": 0,
+            "y": -690,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• ONU",
+            "x": 0,
+            "y": -700,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• OTDR",
+            "x": 0,
+            "y": -710,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• PoE",
+            "x": 0,
+            "y": -720,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• PPPoE",
+            "x": 0,
+            "y": -730,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Redes locais (LAN)",
+            "x": 0,
+            "y": -740,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Redes mesh",
+            "x": 0,
+            "y": -750,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• RJ45",
+            "x": 0,
+            "y": -760,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• SC/APC",
+            "x": 0,
+            "y": -770,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• VFL",
+            "x": 0,
+            "y": -780,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Wi-Fi",
+            "x": 0,
+            "y": -790,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sistemas para redes",
+            "x": 0,
+            "y": -800,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• OpenWrt",
+            "x": 0,
+            "y": -810,
+            "width": 9,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• OPNsense",
+            "x": 0,
+            "y": -820,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• pfSense",
+            "x": 0,
+            "y": -830,
+            "width": 9,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Suporte de TI",
+            "x": 0,
+            "y": -840,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Documentação técnica",
+            "x": 0,
+            "y": -850,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Technical documentation",
+            "x": 0,
+            "y": -860,
+            "width": 25,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Escalonamento de chamados",
+            "x": 0,
+            "y": -870,
+            "width": 27,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de ativos de TI",
+            "x": 0,
+            "y": -880,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Manuais de usuário",
+            "x": 0,
+            "y": -890,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Provide user documentation",
+            "x": 0,
+            "y": -900,
+            "width": 28,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Manutenção de computadores",
+            "x": 0,
+            "y": -910,
+            "width": 28,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Manutenção de impressoras",
+            "x": 0,
+            "y": -920,
+            "width": 27,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Manutenção de periféricos",
+            "x": 0,
+            "y": -930,
+            "width": 27,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• NF-e",
+            "x": 0,
+            "y": -940,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• NFC-e",
+            "x": 0,
+            "y": -950,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Orientação de usuários",
+            "x": 0,
+            "y": -960,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Procedimentos operacionais padrão (POPs)",
+            "x": 0,
+            "y": -970,
+            "width": 42,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Resolução de incidentes",
+            "x": 0,
+            "y": -980,
+            "width": 25,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Suporte a ERP, N1",
+            "x": 0,
+            "y": -990,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Suporte a PDV, N1",
+            "x": 0,
+            "y": -1000,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Suporte Help Desk, N1",
+            "x": 0,
+            "y": -1010,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• IT support, N1",
+            "x": 0,
+            "y": -1020,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Suporte técnico hospitalar, N1/N2",
+            "x": 0,
+            "y": -1030,
+            "width": 35,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Web",
+            "x": 0,
+            "y": -1040,
+            "width": 3,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Acessibilidade web",
+            "x": 0,
+            "y": -1050,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• CSS",
+            "x": 0,
+            "y": -1060,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Git",
+            "x": 0,
+            "y": -1070,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub",
+            "x": 0,
+            "y": -1080,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub Actions",
+            "x": 0,
+            "y": -1090,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub Pages",
+            "x": 0,
+            "y": -1100,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• HTML",
+            "x": 0,
+            "y": -1110,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Sites multilíngues",
+            "x": 0,
+            "y": -1120,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Servidores web",
+            "x": 0,
+            "y": -1130,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Apache HTTP Server",
+            "x": 0,
+            "y": -1140,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Nginx web server",
+            "x": 0,
+            "y": -1150,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Plataformas de desenvolvimento e hospedagem",
+            "x": 0,
+            "y": -1160,
+            "width": 43,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Amazon Web Services AWS software",
+            "x": 0,
+            "y": -1170,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Firebase",
+            "x": 0,
+            "y": -1180,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Microsoft Azure software",
+            "x": 0,
+            "y": -1190,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Supabase",
+            "x": 0,
+            "y": -1200,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Vercel",
+            "x": 0,
+            "y": -1210,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Idiomas",
+            "x": 0,
+            "y": -1220,
+            "width": 7,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Inglês, TOEIC Listening & Reading 910",
+            "x": 0,
+            "y": -1230,
+            "width": 39,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Português brasileiro",
+            "x": 0,
+            "y": -1240,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Competências sociais (Soft skills)",
+            "x": 0,
+            "y": -1250,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Organização e desenvolvimento",
+            "x": 0,
+            "y": -1260,
+            "width": 29,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Adaptabilidade",
+            "x": 0,
+            "y": -1270,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Atenção a detalhes",
+            "x": 0,
+            "y": -1280,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Pensamento analítico",
+            "x": 0,
+            "y": -1290,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Analytical thinking",
+            "x": 0,
+            "y": -1300,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Relacionamento",
+            "x": 0,
+            "y": -1310,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Comunicação",
+            "x": 0,
+            "y": -1320,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Compreensão das necessidades do cliente",
+            "x": 0,
+            "y": -1330,
+            "width": 41,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Trabalho em equipe",
+            "x": 0,
+            "y": -1340,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Habilidades práticas e operacionais",
+            "x": 0,
+            "y": -1350,
+            "width": 35,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Campo e ferramentas",
+            "x": 0,
+            "y": -1360,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Clivador",
+            "x": 0,
+            "y": -1370,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Ferramentas elétricas",
+            "x": 0,
+            "y": -1380,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Ferramentas pneumáticas",
+            "x": 0,
+            "y": -1390,
+            "width": 25,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Organização de ferramentas",
+            "x": 0,
+            "y": -1400,
+            "width": 28,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Organização de insumos",
+            "x": 0,
+            "y": -1410,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Trabalho em altura",
+            "x": 0,
+            "y": -1420,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Condução",
+            "x": 0,
+            "y": -1430,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Condução de carros",
+            "x": 0,
+            "y": -1440,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Condução de motos",
+            "x": 0,
+            "y": -1450,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• CNH AB",
+            "x": 0,
+            "y": -1460,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Experiência profissional",
+            "x": 0,
+            "y": -1470,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Fiber Optic Installation Assistant",
+            "x": 0,
+            "y": -1480,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "RealFort Sistemas",
+            "x": 0,
+            "y": -1490,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Vínculo: Prestação de serviços",
+            "x": 0,
+            "y": -1500,
+            "width": 30,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Cargo declarado: Auxiliar de instalação de fibra óptica",
+            "x": 0,
+            "y": -1510,
+            "width": 57,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+            "x": 0,
+            "y": -1520,
+            "width": 201,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
+            "x": 0,
+            "y": -1530,
+            "width": 101,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+            "x": 0,
+            "y": -1540,
+            "width": 99,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Organizei materiais e validei os serviços com a base técnica.",
+            "x": 0,
+            "y": -1550,
+            "width": 63,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Help Desk Support Technician",
+            "x": 0,
+            "y": -1560,
+            "width": 28,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Lukos Tecnologia",
+            "x": 0,
+            "y": -1570,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Período: setembro de 2025 – dezembro de 2025",
+            "x": 0,
+            "y": -1580,
+            "width": 44,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Local: São Paulo, Brasil",
+            "x": 0,
+            "y": -1590,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Cargo declarado: Técnico de suporte Help Desk",
+            "x": 0,
+            "y": -1600,
+            "width": 47,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+            "x": 0,
+            "y": -1610,
+            "width": 240,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.",
+            "x": 0,
+            "y": -1620,
+            "width": 103,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "IT Support Technician",
+            "x": 0,
+            "y": -1630,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Instituto Alpha de Saúde Integral",
+            "x": 0,
+            "y": -1640,
+            "width": 33,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Período: abril de 2023 – junho de 2024",
+            "x": 0,
+            "y": -1650,
+            "width": 38,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Local: São Paulo, Brasil",
+            "x": 0,
+            "y": -1660,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Cargo declarado: Técnico de suporte de TI",
+            "x": 0,
+            "y": -1670,
+            "width": 43,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+            "x": 0,
+            "y": -1680,
+            "width": 117,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+            "x": 0,
+            "y": -1690,
+            "width": 133,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+            "x": 0,
+            "y": -1700,
+            "width": 94,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gerenciei e organizei ativos de TI.",
+            "x": 0,
+            "y": -1710,
+            "width": 37,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Formação acadêmica",
+            "x": 0,
+            "y": -1720,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027 · Formação em andamento)",
+            "x": 0,
+            "y": -1730,
+            "width": 199,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Informações adicionais",
+            "x": 0,
+            "y": -1740,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conteúdos previstos no Projeto Pedagógico do Curso (PPC). Formação em andamento.",
+            "x": 0,
+            "y": -1750,
+            "width": 80,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conteúdos previstos da graduação",
+            "x": 0,
+            "y": -1760,
+            "width": 32,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Gestão e negócios",
+            "x": 0,
+            "y": -1770,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Avaliação de soluções",
+            "x": 0,
+            "y": -1780,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de pessoas",
+            "x": 0,
+            "y": -1790,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de processos",
+            "x": 0,
+            "y": -1800,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de projetos de TI",
+            "x": 0,
+            "y": -1810,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão financeira",
+            "x": 0,
+            "y": -1820,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Planejamento estratégico",
+            "x": 0,
+            "y": -1830,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Pesquisa e competências sociais",
+            "x": 0,
+            "y": -1840,
+            "width": 31,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Comunicação",
+            "x": 0,
+            "y": -1850,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Negociação",
+            "x": 0,
+            "y": -1860,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de conflitos",
+            "x": 0,
+            "y": -1870,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Pensamento crítico",
+            "x": 0,
+            "y": -1880,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Pesquisa acadêmica",
+            "x": 0,
+            "y": -1890,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Resolução de problemas",
+            "x": 0,
+            "y": -1900,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Trabalho em equipe",
+            "x": 0,
+            "y": -1910,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Visão sistêmica",
+            "x": 0,
+            "y": -1920,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Tecnologia e sistemas",
+            "x": 0,
+            "y": -1930,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Banco de dados",
+            "x": 0,
+            "y": -1940,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Diagnóstico de infraestrutura",
+            "x": 0,
+            "y": -1950,
+            "width": 31,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Engenharia de software",
+            "x": 0,
+            "y": -1960,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Inteligência de negócios",
+            "x": 0,
+            "y": -1970,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Business intelligence",
+            "x": 0,
+            "y": -1980,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Programação para internet",
+            "x": 0,
+            "y": -1990,
+            "width": 27,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Redes de computadores",
+            "x": 0,
+            "y": -2000,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Sistemas operacionais",
+            "x": 0,
+            "y": -2010,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Cursos complementares",
+            "x": 0,
+            "y": -2020,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Competências técnicas (Hard skills)",
+            "x": 0,
+            "y": -2030,
+            "width": 35,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Gestão e produtividade",
+            "x": 0,
+            "y": -2040,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Microsoft Office Specialist Associate",
+            "x": 0,
+            "y": -2050,
+            "width": 37,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "SENAI São Paulo — Escola Hermenegildo Campos de Almeida",
+            "x": 0,
+            "y": -2060,
+            "width": 55,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Curso SENAI · 60 h · Conclusão: 25/07/2026 · Emissão: 30/07/2026",
+            "x": 0,
+            "y": -2070,
+            "width": 64,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Formação White Belt Six Sigma",
+            "x": 0,
+            "y": -2080,
+            "width": 29,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "RL&Associados",
+            "x": 0,
+            "y": -2090,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Formação introdutória · 2 h · Emissão: 17/04/2026",
+            "x": 0,
+            "y": -2100,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Como Controlar o Fluxo de Caixa",
+            "x": 0,
+            "y": -2110,
+            "width": 31,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sebrae",
+            "x": 0,
+            "y": -2120,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 10 h · Conclusão: 09/01/2026",
+            "x": 0,
+            "y": -2130,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Gestão Financeira",
+            "x": 0,
+            "y": -2140,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sebrae",
+            "x": 0,
+            "y": -2150,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 10 h · Conclusão: 29/12/2025",
+            "x": 0,
+            "y": -2160,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Introdução à Matemática Financeira: Regimes de Capitalização",
+            "x": 0,
+            "y": -2170,
+            "width": 60,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Fundação Getulio Vargas — FGV Online",
+            "x": 0,
+            "y": -2180,
+            "width": 36,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Participação · 8 h · Emissão: 20/12/2025",
+            "x": 0,
+            "y": -2190,
+            "width": 40,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Excel Básico",
+            "x": 0,
+            "y": -2200,
+            "width": 12,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "SENAI São Paulo — Escola Hermenegildo Campos de Almeida",
+            "x": 0,
+            "y": -2210,
+            "width": 55,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 40 h · Conclusão: 02/09/2025 · Emissão: 04/09/2025",
+            "x": 0,
+            "y": -2220,
+            "width": 71,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Introdução à Gestão de Projetos",
+            "x": 0,
+            "y": -2230,
+            "width": 31,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Fundação Bradesco — Escola Virtual",
+            "x": 0,
+            "y": -2240,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 10 h · Conclusão: 18/03/2025 · Emissão: 18/03/2025",
+            "x": 0,
+            "y": -2250,
+            "width": 71,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Inovação em Gestão de Projetos",
+            "x": 0,
+            "y": -2260,
+            "width": 30,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sebrae",
+            "x": 0,
+            "y": -2270,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 10 h · Conclusão: 19/01/2025",
+            "x": 0,
+            "y": -2280,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Indicadores Estratégicos - Descomplica",
+            "x": 0,
+            "y": -2290,
+            "width": 38,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sebrae",
+            "x": 0,
+            "y": -2300,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 12 h · Conclusão: 27/11/2024",
+            "x": 0,
+            "y": -2310,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "19ª Edição da Escola de Inovadores (2024-2)",
+            "x": 0,
+            "y": -2320,
+            "width": 43,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "INOVA CPS — Centro Paula Souza",
+            "x": 0,
+            "y": -2330,
+            "width": 30,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Participação · 40 h · Emissão: 11/11/2024",
+            "x": 0,
+            "y": -2340,
+            "width": 41,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Programação e dados",
+            "x": 0,
+            "y": -2350,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "JavaScript Essentials 1",
+            "x": 0,
+            "y": -2360,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Cisco Networking Academy, em colaboração com OpenEDG JavaScript Institute",
+            "x": 0,
+            "y": -2370,
+            "width": 73,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · Emissão: 16/05/2026",
+            "x": 0,
+            "y": -2380,
+            "width": 40,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Modelagem de Dados",
+            "x": 0,
+            "y": -2390,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Fundação Bradesco — Escola Virtual",
+            "x": 0,
+            "y": -2400,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 8 h · Conclusão: 25/11/2025 · Emissão: 25/11/2025",
+            "x": 0,
+            "y": -2410,
+            "width": 70,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Python Essentials 1",
+            "x": 0,
+            "y": -2420,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Cisco Networking Academy, em colaboração com OpenEDG Python Institute",
+            "x": 0,
+            "y": -2430,
+            "width": 69,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · Emissão: 22/03/2025",
+            "x": 0,
+            "y": -2440,
+            "width": 40,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "AI Fundamentals with IBM SkillsBuild",
+            "x": 0,
+            "y": -2450,
+            "width": 36,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Cisco Networking Academy, em colaboração com IBM SkillsBuild",
+            "x": 0,
+            "y": -2460,
+            "width": 60,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · Emissão: 05/11/2024",
+            "x": 0,
+            "y": -2470,
+            "width": 40,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Redes",
+            "x": 0,
+            "y": -2480,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Redes de Computadores - Implantação de Redes Locais",
+            "x": 0,
+            "y": -2490,
+            "width": 51,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "SENAI São Paulo — Escola Hermenegildo Campos de Almeida",
+            "x": 0,
+            "y": -2500,
+            "width": 55,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 48 h · Conclusão: 13/05/2026 · Emissão: 15/05/2026",
+            "x": 0,
+            "y": -2510,
+            "width": 71,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Suporte de TI",
+            "x": 0,
+            "y": -2520,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Computer Hardware Basics",
+            "x": 0,
+            "y": -2530,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Cisco Networking Academy",
+            "x": 0,
+            "y": -2540,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · Emissão: 18/02/2025",
+            "x": 0,
+            "y": -2550,
+            "width": 40,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Competências sociais (Soft skills)",
+            "x": 0,
+            "y": -2560,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Organização e desenvolvimento",
+            "x": 0,
+            "y": -2570,
+            "width": 29,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Planeje Suas Metas e Resultados",
+            "x": 0,
+            "y": -2580,
+            "width": 31,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sebrae",
+            "x": 0,
+            "y": -2590,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Conclusão de curso · 2 h · Conclusão: 25/11/2024",
+            "x": 0,
+            "y": -2600,
+            "width": 48,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Inglês — TOEIC Listening & Reading",
+            "x": 0,
+            "y": -2610,
+            "width": 34,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "ETS — Educational Testing Service. Aplicação sob os auspícios do Centro Paula Souza",
+            "x": 0,
+            "y": -2620,
+            "width": 83,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Total: 910 pontos · Listening: 450 · Reading: 460",
+            "x": 0,
+            "y": -2630,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Teste: 26/02/2025 · Validade do resultado: 26/02/2027",
+            "x": 0,
+            "y": -2640,
+            "width": 53,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Projetos",
+            "x": 0,
+            "y": -2650,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Projeto pessoal",
+            "x": 0,
+            "y": -2660,
+            "width": 15,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Este portfólio",
+            "x": 0,
+            "y": -2670,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Desenvolvo este site com agentes de IA. O site usa HTML e CSS, sem JavaScript ou dependências de execução.",
+            "x": 0,
+            "y": -2680,
+            "width": 106,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Ele oferece cinco versões de idioma, temas claro e escuro e estilos de impressão.",
+            "x": 0,
+            "y": -2690,
+            "width": 81,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "O GitHub Actions publica o site no GitHub Pages.",
+            "x": 0,
+            "y": -2700,
+            "width": 48,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Desenvolvimento e gestão",
+            "x": 0,
+            "y": -2710,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Desenvolvimento com agentes de IA",
+            "x": 0,
+            "y": -2720,
+            "width": 35,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Documentação técnica",
+            "x": 0,
+            "y": -2730,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Technical documentation",
+            "x": 0,
+            "y": -2740,
+            "width": 25,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de escopo",
+            "x": 0,
+            "y": -2750,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Git",
+            "x": 0,
+            "y": -2760,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub",
+            "x": 0,
+            "y": -2770,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Web",
+            "x": 0,
+            "y": -2780,
+            "width": 3,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Acessibilidade web",
+            "x": 0,
+            "y": -2790,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• CSS",
+            "x": 0,
+            "y": -2800,
+            "width": 5,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Design responsivo",
+            "x": 0,
+            "y": -2810,
+            "width": 19,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• HTML",
+            "x": 0,
+            "y": -2820,
+            "width": 6,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Otimização de imagens",
+            "x": 0,
+            "y": -2830,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Sites multilíngues",
+            "x": 0,
+            "y": -2840,
+            "width": 20,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Testes de interface",
+            "x": 0,
+            "y": -2850,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Validação HTML",
+            "x": 0,
+            "y": -2860,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Publicação",
+            "x": 0,
+            "y": -2870,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub Actions",
+            "x": 0,
+            "y": -2880,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• GitHub Pages",
+            "x": 0,
+            "y": -2890,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Repositório do projeto: https://github.com/nicolas-b-t/portfolio",
+            "x": 0,
+            "y": -2900,
+            "width": 64,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Projeto em parceria · Mercado digital em Portugal",
+            "x": 0,
+            "y": -2910,
+            "width": 49,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Optigrow",
+            "x": 0,
+            "y": -2920,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Este é meu primeiro projeto conjunto com meu sócio e amigo Rodrigo Nascimento. Rodrigo atuou principalmente no desenvolvimento.",
+            "x": 0,
+            "y": -2930,
+            "width": 127,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas na região do Porto. Ele inclui informações sobre serviços e um formulário de contato.",
+            "x": 0,
+            "y": -2940,
+            "width": 190,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Minha participação",
+            "x": 0,
+            "y": -2950,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Documentação técnica",
+            "x": 0,
+            "y": -2960,
+            "width": 22,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Technical documentation",
+            "x": 0,
+            "y": -2970,
+            "width": 25,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Pesquisa de mercado",
+            "x": 0,
+            "y": -2980,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Preparação de infraestrutura",
+            "x": 0,
+            "y": -2990,
+            "width": 30,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Site do projeto: https://optigrow.vercel.app/",
+            "x": 0,
+            "y": -3000,
+            "width": 45,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)",
+            "x": 0,
+            "y": -3010,
+            "width": 72,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Projeto acadêmico · Produto mínimo viável (MVP) em desenvolvimento",
+            "x": 0,
+            "y": -3020,
+            "width": 66,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+            "x": 0,
+            "y": -3030,
+            "width": 50,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Aplicação e processos, equipe",
+            "x": 0,
+            "y": -3040,
+            "width": 29,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Nossa equipe desenvolve a aplicação na Fatec Franco da Rocha. A aplicação permite registrar, classificar e acompanhar chamados em condomínios.",
+            "x": 0,
+            "y": -3050,
+            "width": 142,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Avaliação de ferramentas",
+            "x": 0,
+            "y": -3060,
+            "width": 26,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Firebase",
+            "x": 0,
+            "y": -3070,
+            "width": 10,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Google AI Studio",
+            "x": 0,
+            "y": -3080,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Levantamento de requisitos",
+            "x": 0,
+            "y": -3090,
+            "width": 28,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Modelagem de processos",
+            "x": 0,
+            "y": -3100,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Prototipação",
+            "x": 0,
+            "y": -3110,
+            "width": 14,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Gestão do projeto",
+            "x": 0,
+            "y": -3120,
+            "width": 17,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Sou o gestor responsável pelo projeto. Administro o Trello, lidero a equipe e acompanho os entregáveis.",
+            "x": 0,
+            "y": -3130,
+            "width": 103,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Gestão de entregáveis",
+            "x": 0,
+            "y": -3140,
+            "width": 23,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Liderança de equipe",
+            "x": 0,
+            "y": -3150,
+            "width": 21,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Trello",
+            "x": 0,
+            "y": -3160,
+            "width": 8,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Pesquisa acadêmica",
+            "x": 0,
+            "y": -3170,
+            "width": 18,
+            "height": 10,
+            "fontName": "DOM-Bold",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Nossa equipe também desenvolve a pesquisa acadêmica.",
+            "x": 0,
+            "y": -3180,
+            "width": 52,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Análise de dados qualitativos",
+            "x": 0,
+            "y": -3190,
+            "width": 31,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Entrevistas",
+            "x": 0,
+            "y": -3200,
+            "width": 13,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Questionários",
+            "x": 0,
+            "y": -3210,
+            "width": 15,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Estudo de caso",
+            "x": 0,
+            "y": -3220,
+            "width": 16,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "• Pesquisa bibliográfica",
+            "x": 0,
+            "y": -3230,
+            "width": 24,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Site do projeto: https://sgcs-seven.vercel.app/",
+            "x": 0,
+            "y": -3240,
+            "width": 47,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ],
+        [
+          {
+            "text": "Repositório do projeto: https://github.com/SGCS-Gestao-de-Chamados-Para-Sindicos/SGCS-espelho (privado)",
+            "x": 0,
+            "y": -3250,
+            "width": 103,
+            "height": 10,
+            "fontName": "DOM-Regular",
+            "hasEOL": true,
+            "page": 1
+          }
+        ]
+      ]
+    },
+    "saida": {
+      "secoes_detectadas": [
+        "profile",
+        "Resumo profissional",
+        "Idiomas",
+        "Experiência profissional",
+        "Formação acadêmica",
+        "Informações adicionais",
+        "Cursos complementares",
+        "Projetos"
+      ],
+      "experiencias": {
+        "workExperiences": [
+          {
+            "company": "RealFort Sistemas",
+            "jobTitle": "Fiber Optic Installation Assistant",
+            "date": "",
+            "descriptions": [
+              "Cargo declarado: Auxiliar de instalação de fibra óptica",
+              "Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+              "Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
+              "Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+              "Organizei materiais e validei os serviços com a base técnica."
+            ]
+          },
+          {
+            "company": "Lukos Tecnologia",
+            "jobTitle": "Help Desk Support Technician",
+            "date": "Período: setembro de 2025 – dezembro de 2025",
+            "descriptions": [
+              "Cargo declarado: Técnico de suporte Help Desk",
+              "Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+              "Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências."
+            ]
+          },
+          {
+            "company": "Instituto Alpha de Saúde Integral",
+            "jobTitle": "IT Support Technician",
+            "date": "Período: abril de 2023 – junho de 2024",
+            "descriptions": [
+              "Cargo declarado: Técnico de suporte de TI",
+              "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+              "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+              "Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+              "Gerenciei e organizei ativos de TI."
+            ]
+          }
+        ],
+        "workExperiencesScores": [
+          {
+            "companyScores": [
+              {
+                "text": "Fiber Optic Installation Assistant",
+                "score": -6,
+                "match": false
+              },
+              {
+                "text": "RealFort Sistemas",
+                "score": -2,
+                "match": false
+              },
+              {
+                "text": "Vínculo: Prestação de serviços",
+                "score": -4,
+                "match": false
+              }
+            ],
+            "jobTitleScores": [
+              {
+                "text": "Fiber Optic Installation Assistant",
+                "score": 4,
+                "match": false
+              },
+              {
+                "text": "RealFort Sistemas",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Vínculo: Prestação de serviços",
+                "score": 0,
+                "match": false
+              }
+            ],
+            "dateScores": [
+              {
+                "text": "Fiber Optic Installation Assistant",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "RealFort Sistemas",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Vínculo: Prestação de serviços",
+                "score": 0,
+                "match": false
+              }
+            ]
+          },
+          {
+            "companyScores": [
+              {
+                "text": "Help Desk Support Technician",
+                "score": -2,
+                "match": false
+              },
+              {
+                "text": "Lukos Tecnologia",
+                "score": 2,
+                "match": false
+              },
+              {
+                "text": "Período: setembro de 2025 – dezembro de 2025",
+                "score": -4,
+                "match": false
+              },
+              {
+                "text": "Local: São Paulo, Brasil",
+                "score": 0,
+                "match": false
+              }
+            ],
+            "jobTitleScores": [
+              {
+                "text": "Help Desk Support Technician",
+                "score": 4,
+                "match": false
+              },
+              {
+                "text": "Lukos Tecnologia",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Período: setembro de 2025 – dezembro de 2025",
+                "score": -6,
+                "match": false
+              },
+              {
+                "text": "Local: São Paulo, Brasil",
+                "score": 0,
+                "match": false
+              }
+            ],
+            "dateScores": [
+              {
+                "text": "Help Desk Support Technician",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Lukos Tecnologia",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Período: setembro de 2025 – dezembro de 2025",
+                "score": 2,
+                "match": false
+              },
+              {
+                "text": "Local: São Paulo, Brasil",
+                "score": -1,
+                "match": false
+              }
+            ]
+          },
+          {
+            "companyScores": [
+              {
+                "text": "IT Support Technician",
+                "score": -2,
+                "match": false
+              },
+              {
+                "text": "Instituto Alpha de Saúde Integral",
+                "score": 2,
+                "match": false
+              },
+              {
+                "text": "Período: abril de 2023 – junho de 2024",
+                "score": -4,
+                "match": false
+              },
+              {
+                "text": "Local: São Paulo, Brasil",
+                "score": 0,
+                "match": false
+              }
+            ],
+            "jobTitleScores": [
+              {
+                "text": "IT Support Technician",
+                "score": 4,
+                "match": false
+              },
+              {
+                "text": "Instituto Alpha de Saúde Integral",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Período: abril de 2023 – junho de 2024",
+                "score": -6,
+                "match": false
+              },
+              {
+                "text": "Local: São Paulo, Brasil",
+                "score": 0,
+                "match": false
+              }
+            ],
+            "dateScores": [
+              {
+                "text": "IT Support Technician",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Instituto Alpha de Saúde Integral",
+                "score": 0,
+                "match": false
+              },
+              {
+                "text": "Período: abril de 2023 – junho de 2024",
+                "score": 2,
+                "match": false
+              },
+              {
+                "text": "Local: São Paulo, Brasil",
+                "score": -1,
+                "match": false
+              }
+            ]
+          }
+        ]
+      },
+      "formacao": {
+        "educations": [
+          {
+            "degree": "Curso superior de tecnologia em Gestão da Tecnologia da Informação",
+            "school": "Fatec Franco da Rocha – Giuliano Cecchettini",
+            "date": "Início: julho de 2024 · Conclusão prevista: julho de 2027 · Formação em andamento",
+            "gpa": "",
+            "descriptions": []
+          }
+        ],
+        "educationsScores": [],
+        "educationExtras": []
+      }
+    },
+    "verificacao": {
+      "experiencias_identicas_ao_positivo_anterior": true,
+      "formacao_identica_ao_positivo_anterior": true,
+      "tres_experiencias": true,
+      "uma_graduacao": true
+    },
+    "controles": [
+      {
+        "id": "experiencia_removida",
+        "operacao": "Remover o segundo registro da lista timeline, correspondente à Lukos Tecnologia.",
+        "entrada_sha256": "1eccba6bdbbfd3f67f01c44536cda599d7a2678572d6dd4bec6d63e11e7728c6",
+        "saida": {
+          "secoes_detectadas": [
+            "profile",
+            "Resumo profissional",
+            "Idiomas",
+            "Experiência profissional",
+            "Formação acadêmica",
+            "Informações adicionais",
+            "Cursos complementares",
+            "Projetos"
+          ],
+          "experiencias": {
+            "workExperiences": [
+              {
+                "company": "RealFort Sistemas",
+                "jobTitle": "Fiber Optic Installation Assistant",
+                "date": "",
+                "descriptions": [
+                  "Cargo declarado: Auxiliar de instalação de fibra óptica",
+                  "Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+                  "Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
+                  "Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+                  "Organizei materiais e validei os serviços com a base técnica."
+                ]
+              },
+              {
+                "company": "Instituto Alpha de Saúde Integral",
+                "jobTitle": "IT Support Technician",
+                "date": "Período: abril de 2023 – junho de 2024",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte de TI",
+                  "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+                  "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+                  "Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+                  "Gerenciei e organizei ativos de TI."
+                ]
+              }
+            ],
+            "workExperiencesScores": [
+              {
+                "companyScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": -4,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              }
+            ]
+          },
+          "formacao": {
+            "educations": [
+              {
+                "degree": "Curso superior de tecnologia em Gestão da Tecnologia da Informação",
+                "school": "Fatec Franco da Rocha – Giuliano Cecchettini",
+                "date": "Início: julho de 2024 · Conclusão prevista: julho de 2027 · Formação em andamento",
+                "gpa": "",
+                "descriptions": []
+              }
+            ],
+            "educationsScores": [],
+            "educationExtras": []
+          }
+        },
+        "aprovado": true
+      },
+      {
+        "id": "empresa_substituida",
+        "operacao": "Trocar somente o texto da empresa Lukos no segundo registro.",
+        "entrada_sha256": "ad1640d75e4ef3101fcfc96bf76d65eebf5532afb81338578ef77b0b715e8e5b",
+        "saida": {
+          "secoes_detectadas": [
+            "profile",
+            "Resumo profissional",
+            "Idiomas",
+            "Experiência profissional",
+            "Formação acadêmica",
+            "Informações adicionais",
+            "Cursos complementares",
+            "Projetos"
+          ],
+          "experiencias": {
+            "workExperiences": [
+              {
+                "company": "RealFort Sistemas",
+                "jobTitle": "Fiber Optic Installation Assistant",
+                "date": "",
+                "descriptions": [
+                  "Cargo declarado: Auxiliar de instalação de fibra óptica",
+                  "Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+                  "Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
+                  "Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+                  "Organizei materiais e validei os serviços com a base técnica."
+                ]
+              },
+              {
+                "company": "Organização Exemplo de Controle",
+                "jobTitle": "Help Desk Support Technician",
+                "date": "Período: setembro de 2025 – dezembro de 2025",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte Help Desk",
+                  "Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+                  "Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências."
+                ]
+              },
+              {
+                "company": "Instituto Alpha de Saúde Integral",
+                "jobTitle": "IT Support Technician",
+                "date": "Período: abril de 2023 – junho de 2024",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte de TI",
+                  "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+                  "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+                  "Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+                  "Gerenciei e organizei ativos de TI."
+                ]
+              }
+            ],
+            "workExperiencesScores": [
+              {
+                "companyScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": -4,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Organização Exemplo de Controle",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Organização Exemplo de Controle",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Organização Exemplo de Controle",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              }
+            ]
+          },
+          "formacao": {
+            "educations": [
+              {
+                "degree": "Curso superior de tecnologia em Gestão da Tecnologia da Informação",
+                "school": "Fatec Franco da Rocha – Giuliano Cecchettini",
+                "date": "Início: julho de 2024 · Conclusão prevista: julho de 2027 · Formação em andamento",
+                "gpa": "",
+                "descriptions": []
+              }
+            ],
+            "educationsScores": [],
+            "educationExtras": []
+          }
+        },
+        "aprovado": true
+      },
+      {
+        "id": "instituicao_substituida",
+        "operacao": "Trocar somente o texto da instituição na graduação.",
+        "entrada_sha256": "4762b5ea824939938b6890545baf4d0e817fe301cb1d072415a41a41b7e95ab1",
+        "saida": {
+          "secoes_detectadas": [
+            "profile",
+            "Resumo profissional",
+            "Idiomas",
+            "Experiência profissional",
+            "Formação acadêmica",
+            "Informações adicionais",
+            "Cursos complementares",
+            "Projetos"
+          ],
+          "experiencias": {
+            "workExperiences": [
+              {
+                "company": "RealFort Sistemas",
+                "jobTitle": "Fiber Optic Installation Assistant",
+                "date": "",
+                "descriptions": [
+                  "Cargo declarado: Auxiliar de instalação de fibra óptica",
+                  "Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+                  "Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
+                  "Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+                  "Organizei materiais e validei os serviços com a base técnica."
+                ]
+              },
+              {
+                "company": "Lukos Tecnologia",
+                "jobTitle": "Help Desk Support Technician",
+                "date": "Período: setembro de 2025 – dezembro de 2025",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte Help Desk",
+                  "Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+                  "Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências."
+                ]
+              },
+              {
+                "company": "Instituto Alpha de Saúde Integral",
+                "jobTitle": "IT Support Technician",
+                "date": "Período: abril de 2023 – junho de 2024",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte de TI",
+                  "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+                  "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+                  "Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+                  "Gerenciei e organizei ativos de TI."
+                ]
+              }
+            ],
+            "workExperiencesScores": [
+              {
+                "companyScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": -4,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Lukos Tecnologia",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Lukos Tecnologia",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Lukos Tecnologia",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              }
+            ]
+          },
+          "formacao": {
+            "educations": [
+              {
+                "degree": "Curso superior de tecnologia em Gestão da Tecnologia da Informação",
+                "school": "Faculdade Exemplo de Controle",
+                "date": "Início: julho de 2024 · Conclusão prevista: julho de 2027 · Formação em andamento",
+                "gpa": "",
+                "descriptions": []
+              }
+            ],
+            "educationsScores": [],
+            "educationExtras": []
+          }
+        },
+        "aprovado": true
+      },
+      {
+        "id": "graduacao_removida",
+        "operacao": "Remover somente a lista academic-records da graduação.",
+        "entrada_sha256": "36695ccf0f8be603ea3e1a358f0f528408a73de2eae4a0cdbc90e7d7495ce10f",
+        "saida": {
+          "secoes_detectadas": [
+            "profile",
+            "Resumo profissional",
+            "Idiomas",
+            "Experiência profissional",
+            "Formação acadêmica",
+            "Informações adicionais",
+            "Cursos complementares",
+            "Projetos"
+          ],
+          "experiencias": {
+            "workExperiences": [
+              {
+                "company": "RealFort Sistemas",
+                "jobTitle": "Fiber Optic Installation Assistant",
+                "date": "",
+                "descriptions": [
+                  "Cargo declarado: Auxiliar de instalação de fibra óptica",
+                  "Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+                  "Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
+                  "Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+                  "Organizei materiais e validei os serviços com a base técnica."
+                ]
+              },
+              {
+                "company": "Lukos Tecnologia",
+                "jobTitle": "Help Desk Support Technician",
+                "date": "Período: setembro de 2025 – dezembro de 2025",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte Help Desk",
+                  "Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+                  "Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências."
+                ]
+              },
+              {
+                "company": "Instituto Alpha de Saúde Integral",
+                "jobTitle": "IT Support Technician",
+                "date": "Período: abril de 2023 – junho de 2024",
+                "descriptions": [
+                  "Cargo declarado: Técnico de suporte de TI",
+                  "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+                  "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+                  "Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+                  "Gerenciei e organizei ativos de TI."
+                ]
+              }
+            ],
+            "workExperiencesScores": [
+              {
+                "companyScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": -4,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Fiber Optic Installation Assistant",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "RealFort Sistemas",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Vínculo: Prestação de serviços",
+                    "score": 0,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Lukos Tecnologia",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Lukos Tecnologia",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "Help Desk Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Lukos Tecnologia",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: setembro de 2025 – dezembro de 2025",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              },
+              {
+                "companyScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": -2,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -4,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "jobTitleScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 4,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": -6,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": 0,
+                    "match": false
+                  }
+                ],
+                "dateScores": [
+                  {
+                    "text": "IT Support Technician",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Instituto Alpha de Saúde Integral",
+                    "score": 0,
+                    "match": false
+                  },
+                  {
+                    "text": "Período: abril de 2023 – junho de 2024",
+                    "score": 2,
+                    "match": false
+                  },
+                  {
+                    "text": "Local: São Paulo, Brasil",
+                    "score": -1,
+                    "match": false
+                  }
+                ]
+              }
+            ]
+          },
+          "formacao": {
+            "educations": [],
+            "educationsScores": [],
+            "educationExtras": []
+          }
+        },
+        "aprovado": true
+      }
+    ]
+  },
+  "parser_deterministico": {
+    "repositorio": "https://github.com/Praveenkanna16/resume-parser",
+    "commit": "b35512d5fa5fc5dddd39aeaeff2df3dfa4da6746",
+    "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/resumeParser.ts",
+    "sha256": "ae6531021f23c2098d75f4ac4a0b941be134b334b84f378ad01a2ed2a270f727",
+    "adaptacao": "Somente remoção de tipos e de dois imports usados pelos leitores de arquivos. Regras de parseResumeText preservadas.",
+    "metodo": "Entrada restrita às tags ocultas, com cabeçalho Competências e habilidades.",
+    "entrada": "Competências e habilidades\nCanva\nCapitalização\nFluxo de caixa\nGestão de projetos\nGestão financeira\nGoogle Drive\nIndicadores estratégicos\nLibreOffice\nMelhoria de processos\nMetodologias ágeis\nMicrosoft Excel\nMicrosoft Office\nMicrosoft Teams\nOffice 365\nOneDrive\nPlanejamento de metas\nScrum\nTrello\nDebian\nLinux\nUbuntu\nMicrosoft Windows\nWindows 10\nWindows 11\nAprendizado de máquina\nMachine learning\nInteligência artificial (IA)\nJavaScript\nLógica de programação\nModelagem de dados\nPython\nOpenAI ChatGPT\nCodex (OpenAI)\nClaude\nClaude Code\nDesenvolvimento com agentes de IA\nOpenCode\nConsultas SQL\nSQL\nPostgreSQL\nSQLite\nCabeamento de redes\nCabo drop\nConfiguração de roteadores\nEnlaces a rádio\nFTTH\nFusão de fibra óptica, aprendiz\nMedidor de potência óptica (power meter)\nONT\nONU\nOTDR\nPoE\nPPPoE\nRedes locais (LAN)\nRedes mesh\nRJ45\nSC/APC\nVFL\nWi-Fi\nOpenWrt\nOPNsense\npfSense\nDocumentação técnica\nTechnical documentation\nEscalonamento de chamados\nGestão de ativos de TI\nManuais de usuário\nProvide user documentation\nManutenção de computadores\nManutenção de impressoras\nManutenção de periféricos\nNF-e\nNFC-e\nOrientação de usuários\nProcedimentos operacionais padrão (POPs)\nResolução de incidentes\nSuporte a ERP, N1\nSuporte a PDV, N1\nSuporte Help Desk, N1\nIT support, N1\nSuporte técnico hospitalar, N1/N2\nAcessibilidade web\nCSS\nGit\nGitHub\nGitHub Actions\nGitHub Pages\nHTML\nSites multilíngues\nApache HTTP Server\nNginx web server\nAmazon Web Services AWS software\nFirebase\nMicrosoft Azure software\nSupabase\nVercel\nInglês, TOEIC Listening & Reading 910\nPortuguês brasileiro\nAdaptabilidade\nAtenção a detalhes\nPensamento analítico\nAnalytical thinking\nComunicação\nCompreensão das necessidades do cliente\nTrabalho em equipe\nClivador\nFerramentas elétricas\nFerramentas pneumáticas\nOrganização de ferramentas\nOrganização de insumos\nTrabalho em altura\nCondução de carros\nCondução de motos\nCNH AB\nAvaliação de soluções\nGestão de pessoas\nGestão de processos\nGestão de projetos de TI\nGestão financeira\nPlanejamento estratégico\nComunicação\nNegociação\nGestão de conflitos\nPensamento crítico\nPesquisa acadêmica\nResolução de problemas\nTrabalho em equipe\nVisão sistêmica\nBanco de dados\nDiagnóstico de infraestrutura\nEngenharia de software\nInteligência de negócios\nBusiness intelligence\nProgramação para internet\nRedes de computadores\nSistemas operacionais\nDesenvolvimento com agentes de IA\nDocumentação técnica\nTechnical documentation\nGestão de escopo\nGit\nGitHub\nAcessibilidade web\nCSS\nDesign responsivo\nHTML\nOtimização de imagens\nSites multilíngues\nTestes de interface\nValidação HTML\nGitHub Actions\nGitHub Pages\nDocumentação técnica\nTechnical documentation\nPesquisa de mercado\nPreparação de infraestrutura\nAvaliação de ferramentas\nFirebase\nGoogle AI Studio\nLevantamento de requisitos\nModelagem de processos\nPrototipação\nGestão de entregáveis\nLiderança de equipe\nTrello\nAnálise de dados qualitativos\nEntrevistas\nQuestionários\nEstudo de caso\nPesquisa bibliográfica",
+    "saida": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "AWS",
+      "Azure",
+      "Git",
+      "GitHub Actions",
+      "HTML",
+      "CSS",
+      "Linux"
+    ],
+    "saida_anterior": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "AWS",
+      "Azure",
+      "Git",
+      "GitHub Actions",
+      "HTML",
+      "CSS",
+      "Linux"
+    ],
+    "recuperacao_preservada": true
+  },
+  "limites": [
+    "O positivo no cvats depende da leitura dedicada do bloco oculto.",
+    "A página completa e a variante que exclui hidden não foram reavaliadas nesta alteração. Os ensaios anteriores permaneceram negativos.",
+    "Nenhum leitor PDF, leitor DOCX, ATS proprietário ou aplicação completa foi executado.",
+    "Nenhum currículo foi enviado a serviço externo.",
+    "As correspondências não comprovam nível pessoal ou aprovação em recrutamento.",
+    "Não houve testes de tela, teclado ou impressão."
+  ],
+  "runtime": {
+    "node": "v26.7.0",
+    "python": "3.12.14",
+    "lxml": "6.1.1"
+  },
+  "resultado_positivo": true
+}

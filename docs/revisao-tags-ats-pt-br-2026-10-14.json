@@ -1,0 +1,956 @@
+{
+  "data": "2026-10-14",
+  "base_git": "f69af0d8d648ecf1af60c957659c17b16e59013c",
+  "escopo": "Ensaio inicial da página pt-BR e do acervo local recebido, antes da aplicação dos aliases. A página e a exportação TXT foram preservadas nessa etapa.",
+  "pagina": {
+    "arquivo": "static/pt-BR/index.html",
+    "sha256": "6022df26e4516ff35102e479dc9c5554744f7539bd0d77aa31a6466de42c56fb"
+  },
+  "exportacao": {
+    "arquivo": "docs/curriculo-ats-pt-br-2026-10-13.txt",
+    "sha256": "c791ad708aacf0ce0d970424251b92efb9c41886e13f2d7052b231f4d348a3df"
+  },
+  "inventario": {
+    "ocorrencias_principais": 161,
+    "rotulos_distintos": 145,
+    "ocorrencias_ocultas": 161,
+    "copias_iguais": true,
+    "tags_principais": [
+      "Canva",
+      "Capitalização",
+      "Fluxo de caixa",
+      "Gestão de projetos",
+      "Gestão financeira",
+      "Google Drive",
+      "Indicadores estratégicos",
+      "LibreOffice",
+      "Melhoria de processos",
+      "Metodologias ágeis",
+      "Microsoft Excel",
+      "Microsoft Office",
+      "Microsoft Teams",
+      "Office 365",
+      "OneDrive",
+      "Planejamento de metas",
+      "Scrum",
+      "Trello",
+      "Debian",
+      "Linux",
+      "Ubuntu",
+      "Microsoft Windows",
+      "Windows 10",
+      "Windows 11",
+      "Aprendizado de máquina",
+      "Inteligência artificial (IA)",
+      "JavaScript",
+      "Lógica de programação",
+      "Modelagem de dados",
+      "Python",
+      "OpenAI ChatGPT",
+      "Codex (OpenAI)",
+      "Claude",
+      "Claude Code",
+      "Desenvolvimento com agentes de IA",
+      "OpenCode",
+      "Consultas SQL",
+      "PostgreSQL",
+      "SQLite",
+      "Cabeamento de redes",
+      "Cabo drop",
+      "Configuração de roteadores",
+      "Enlaces a rádio",
+      "FTTH",
+      "Fusão de fibra óptica, aprendiz",
+      "Medidor de potência óptica (power meter)",
+      "ONT",
+      "ONU",
+      "OTDR",
+      "PoE",
+      "PPPoE",
+      "Redes locais (LAN)",
+      "Redes mesh",
+      "RJ45",
+      "SC/APC",
+      "VFL",
+      "Wi-Fi",
+      "OpenWrt",
+      "OPNsense",
+      "pfSense",
+      "Documentação técnica",
+      "Escalonamento de chamados",
+      "Gestão de ativos de TI",
+      "Manuais de usuário",
+      "Manutenção de computadores",
+      "Manutenção de impressoras",
+      "Manutenção de periféricos",
+      "NF-e",
+      "NFC-e",
+      "Orientação de usuários",
+      "Procedimentos operacionais padrão (POPs)",
+      "Resolução de incidentes",
+      "Suporte a ERP, N1",
+      "Suporte a PDV, N1",
+      "Suporte Help Desk, N1",
+      "Suporte técnico hospitalar, N1/N2",
+      "Acessibilidade web",
+      "CSS",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "GitHub Pages",
+      "HTML",
+      "Sites multilíngues",
+      "Apache HTTP Server",
+      "Nginx web server",
+      "Amazon Web Services AWS software",
+      "Firebase",
+      "Microsoft Azure software",
+      "Supabase",
+      "Vercel",
+      "Inglês, TOEIC Listening & Reading 910",
+      "Português brasileiro",
+      "Adaptabilidade",
+      "Atenção a detalhes",
+      "Pensamento analítico",
+      "Comunicação",
+      "Compreensão das necessidades do cliente",
+      "Trabalho em equipe",
+      "Clivador",
+      "Ferramentas elétricas",
+      "Ferramentas pneumáticas",
+      "Organização de ferramentas",
+      "Organização de insumos",
+      "Trabalho em altura",
+      "Condução de carros",
+      "Condução de motos",
+      "CNH AB",
+      "Avaliação de soluções",
+      "Gestão de pessoas",
+      "Gestão de processos",
+      "Gestão de projetos de TI",
+      "Gestão financeira",
+      "Planejamento estratégico",
+      "Comunicação",
+      "Negociação",
+      "Gestão de conflitos",
+      "Pensamento crítico",
+      "Pesquisa acadêmica",
+      "Resolução de problemas",
+      "Trabalho em equipe",
+      "Visão sistêmica",
+      "Banco de dados",
+      "Diagnóstico de infraestrutura",
+      "Engenharia de software",
+      "Inteligência de negócios",
+      "Programação para internet",
+      "Redes de computadores",
+      "Sistemas operacionais",
+      "Desenvolvimento com agentes de IA",
+      "Documentação técnica",
+      "Gestão de escopo",
+      "Git",
+      "GitHub",
+      "Acessibilidade web",
+      "CSS",
+      "Design responsivo",
+      "HTML",
+      "Otimização de imagens",
+      "Sites multilíngues",
+      "Testes de interface",
+      "Validação HTML",
+      "GitHub Actions",
+      "GitHub Pages",
+      "Documentação técnica",
+      "Pesquisa de mercado",
+      "Preparação de infraestrutura",
+      "Avaliação de ferramentas",
+      "Firebase",
+      "Google AI Studio",
+      "Levantamento de requisitos",
+      "Modelagem de processos",
+      "Prototipação",
+      "Gestão de entregáveis",
+      "Liderança de equipe",
+      "Trello",
+      "Análise de dados qualitativos",
+      "Entrevistas",
+      "Questionários",
+      "Estudo de caso",
+      "Pesquisa bibliográfica"
+    ],
+    "tags_ocultas": [
+      "Canva",
+      "Capitalização",
+      "Fluxo de caixa",
+      "Gestão de projetos",
+      "Gestão financeira",
+      "Google Drive",
+      "Indicadores estratégicos",
+      "LibreOffice",
+      "Melhoria de processos",
+      "Metodologias ágeis",
+      "Microsoft Excel",
+      "Microsoft Office",
+      "Microsoft Teams",
+      "Office 365",
+      "OneDrive",
+      "Planejamento de metas",
+      "Scrum",
+      "Trello",
+      "Debian",
+      "Linux",
+      "Ubuntu",
+      "Microsoft Windows",
+      "Windows 10",
+      "Windows 11",
+      "Aprendizado de máquina",
+      "Inteligência artificial (IA)",
+      "JavaScript",
+      "Lógica de programação",
+      "Modelagem de dados",
+      "Python",
+      "OpenAI ChatGPT",
+      "Codex (OpenAI)",
+      "Claude",
+      "Claude Code",
+      "Desenvolvimento com agentes de IA",
+      "OpenCode",
+      "Consultas SQL",
+      "PostgreSQL",
+      "SQLite",
+      "Cabeamento de redes",
+      "Cabo drop",
+      "Configuração de roteadores",
+      "Enlaces a rádio",
+      "FTTH",
+      "Fusão de fibra óptica, aprendiz",
+      "Medidor de potência óptica (power meter)",
+      "ONT",
+      "ONU",
+      "OTDR",
+      "PoE",
+      "PPPoE",
+      "Redes locais (LAN)",
+      "Redes mesh",
+      "RJ45",
+      "SC/APC",
+      "VFL",
+      "Wi-Fi",
+      "OpenWrt",
+      "OPNsense",
+      "pfSense",
+      "Documentação técnica",
+      "Escalonamento de chamados",
+      "Gestão de ativos de TI",
+      "Manuais de usuário",
+      "Manutenção de computadores",
+      "Manutenção de impressoras",
+      "Manutenção de periféricos",
+      "NF-e",
+      "NFC-e",
+      "Orientação de usuários",
+      "Procedimentos operacionais padrão (POPs)",
+      "Resolução de incidentes",
+      "Suporte a ERP, N1",
+      "Suporte a PDV, N1",
+      "Suporte Help Desk, N1",
+      "Suporte técnico hospitalar, N1/N2",
+      "Acessibilidade web",
+      "CSS",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "GitHub Pages",
+      "HTML",
+      "Sites multilíngues",
+      "Apache HTTP Server",
+      "Nginx web server",
+      "Amazon Web Services AWS software",
+      "Firebase",
+      "Microsoft Azure software",
+      "Supabase",
+      "Vercel",
+      "Inglês, TOEIC Listening & Reading 910",
+      "Português brasileiro",
+      "Adaptabilidade",
+      "Atenção a detalhes",
+      "Pensamento analítico",
+      "Comunicação",
+      "Compreensão das necessidades do cliente",
+      "Trabalho em equipe",
+      "Clivador",
+      "Ferramentas elétricas",
+      "Ferramentas pneumáticas",
+      "Organização de ferramentas",
+      "Organização de insumos",
+      "Trabalho em altura",
+      "Condução de carros",
+      "Condução de motos",
+      "CNH AB",
+      "Avaliação de soluções",
+      "Gestão de pessoas",
+      "Gestão de processos",
+      "Gestão de projetos de TI",
+      "Gestão financeira",
+      "Planejamento estratégico",
+      "Comunicação",
+      "Negociação",
+      "Gestão de conflitos",
+      "Pensamento crítico",
+      "Pesquisa acadêmica",
+      "Resolução de problemas",
+      "Trabalho em equipe",
+      "Visão sistêmica",
+      "Banco de dados",
+      "Diagnóstico de infraestrutura",
+      "Engenharia de software",
+      "Inteligência de negócios",
+      "Programação para internet",
+      "Redes de computadores",
+      "Sistemas operacionais",
+      "Desenvolvimento com agentes de IA",
+      "Documentação técnica",
+      "Gestão de escopo",
+      "Git",
+      "GitHub",
+      "Acessibilidade web",
+      "CSS",
+      "Design responsivo",
+      "HTML",
+      "Otimização de imagens",
+      "Sites multilíngues",
+      "Testes de interface",
+      "Validação HTML",
+      "GitHub Actions",
+      "GitHub Pages",
+      "Documentação técnica",
+      "Pesquisa de mercado",
+      "Preparação de infraestrutura",
+      "Avaliação de ferramentas",
+      "Firebase",
+      "Google AI Studio",
+      "Levantamento de requisitos",
+      "Modelagem de processos",
+      "Prototipação",
+      "Gestão de entregáveis",
+      "Liderança de equipe",
+      "Trello",
+      "Análise de dados qualitativos",
+      "Entrevistas",
+      "Questionários",
+      "Estudo de caso",
+      "Pesquisa bibliográfica"
+    ]
+  },
+  "comparacao": {
+    "normalizacao": "Somente caixa e espaços. Observações aprovadas de suporte, fusão e inglês separadas do rótulo base. Sem remover acentos ou versões.",
+    "textuais_confirmadas": 30,
+    "correspondencias": {
+      "Amazon Web Services AWS software": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Amazon Web Services AWS software",
+          "id": "2.E.6.f",
+          "campo": "principal"
+        }
+      ],
+      "Apache HTTP Server": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Apache HTTP Server",
+          "id": "2.E.10.a",
+          "campo": "principal"
+        },
+        {
+          "fonte": "O*NET software",
+          "termo": "Apache HTTP Server",
+          "id": "2.E.6.k",
+          "campo": "principal"
+        }
+      ],
+      "CSS": [
+        {
+          "fonte": "Odoo Recruitment 19.0",
+          "termo": "CSS",
+          "id": "hr_skill_css",
+          "campo": "principal"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "CSS",
+          "id": "http://data.europa.eu/esco/skill/c2999f0c-eb37-4cdf-b9b0-82107b628794",
+          "campo": "aliases_en"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "CSS",
+          "id": "http://data.europa.eu/esco/skill/c2999f0c-eb37-4cdf-b9b0-82107b628794",
+          "campo": "aliases_pt"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "CSS",
+          "id": "http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777",
+          "campo": "termo_en"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "CSS",
+          "id": "http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777",
+          "campo": "termo_pt"
+        }
+      ],
+      "Canva": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Canva",
+          "id": "2.E.4.b",
+          "campo": "principal"
+        }
+      ],
+      "Comunicação": [
+        {
+          "fonte": "ESCO",
+          "termo": "comunicação",
+          "id": "http://data.europa.eu/esco/skill/15d76317-c71a-4fa2-aadc-2ecc34e627b7",
+          "campo": "termo_pt"
+        }
+      ],
+      "Gestão de conflitos": [
+        {
+          "fonte": "ESCO",
+          "termo": "gestão de conflitos",
+          "id": "http://data.europa.eu/esco/skill/afd49651-9119-4327-91fc-844a6dda1254",
+          "campo": "termo_pt"
+        }
+      ],
+      "Gestão de processos": [
+        {
+          "fonte": "ESCO",
+          "termo": "gestão de processos",
+          "id": "http://data.europa.eu/esco/skill/d5a59ca8-2e91-472e-8571-d12ce4478679",
+          "campo": "termo_pt"
+        }
+      ],
+      "Gestão de projetos": [
+        {
+          "fonte": "ESCO",
+          "termo": "gestão de projetos",
+          "id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+          "campo": "termo_pt"
+        }
+      ],
+      "Gestão financeira": [
+        {
+          "fonte": "ESCO",
+          "termo": "gestão financeira",
+          "id": "http://data.europa.eu/esco/skill/52e53619-fa77-4f72-b237-5e4aae784dc2",
+          "campo": "termo_pt"
+        }
+      ],
+      "Git": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Git",
+          "id": "2.E.5.c",
+          "campo": "principal"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "git",
+          "id": "http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
+          "campo": "aliases_en"
+        }
+      ],
+      "GitHub": [
+        {
+          "fonte": "O*NET software",
+          "termo": "GitHub",
+          "id": "2.E.10.a",
+          "campo": "principal"
+        }
+      ],
+      "Google Drive": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Google Drive",
+          "id": "2.E.16.i",
+          "campo": "principal"
+        }
+      ],
+      "HTML": [
+        {
+          "fonte": "Odoo Recruitment 19.0",
+          "termo": "HTML",
+          "id": "hr_skill_html",
+          "campo": "principal"
+        }
+      ],
+      "Inglês": [
+        {
+          "fonte": "ESCO",
+          "termo": "inglês",
+          "id": "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+          "campo": "termo_pt"
+        }
+      ],
+      "JavaScript": [
+        {
+          "fonte": "Odoo Recruitment 19.0",
+          "termo": "Javascript",
+          "id": "hr_skill_js",
+          "campo": "principal"
+        },
+        {
+          "fonte": "O*NET software",
+          "termo": "JavaScript",
+          "id": "2.E.7.h",
+          "campo": "principal"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "JavaScript",
+          "id": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
+          "campo": "termo_en"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "JavaScript",
+          "id": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
+          "campo": "termo_pt"
+        }
+      ],
+      "LibreOffice": [
+        {
+          "fonte": "O*NET software",
+          "termo": "LibreOffice",
+          "id": "2.E.1.k",
+          "campo": "principal"
+        }
+      ],
+      "Linux": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Linux",
+          "id": "2.E.13.c",
+          "campo": "principal"
+        }
+      ],
+      "Microsoft Azure software": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Microsoft Azure software",
+          "id": "2.E.7.b",
+          "campo": "principal"
+        }
+      ],
+      "Microsoft Excel": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Microsoft Excel",
+          "id": "2.E.4.i",
+          "campo": "principal"
+        }
+      ],
+      "Microsoft Teams": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Microsoft Teams",
+          "id": "2.E.1.e",
+          "campo": "principal"
+        },
+        {
+          "fonte": "O*NET software",
+          "termo": "Microsoft Teams",
+          "id": "2.E.7.c",
+          "campo": "principal"
+        }
+      ],
+      "Microsoft Windows": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Microsoft Windows",
+          "id": "2.E.13.c",
+          "campo": "principal"
+        }
+      ],
+      "Nginx web server": [
+        {
+          "fonte": "ESCO",
+          "termo": "Nginx web server",
+          "id": "http://data.europa.eu/esco/skill/553e1d2d-abf1-4b37-8ac4-c5c78a8edbc0",
+          "campo": "aliases_en"
+        }
+      ],
+      "OneDrive": [
+        {
+          "fonte": "ESCO",
+          "termo": "OneDrive",
+          "id": "http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e",
+          "campo": "aliases_en"
+        }
+      ],
+      "OpenAI ChatGPT": [
+        {
+          "fonte": "O*NET software",
+          "termo": "OpenAI ChatGPT",
+          "id": "2.E.7.b",
+          "campo": "principal"
+        }
+      ],
+      "PostgreSQL": [
+        {
+          "fonte": "O*NET software",
+          "termo": "PostgreSQL",
+          "id": "2.E.6.j",
+          "campo": "principal"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "PostgreSQL",
+          "id": "http://data.europa.eu/esco/skill/a8d07b5a-c1a1-42c6-9d53-db9c7a2ca996",
+          "campo": "termo_en"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "PostgreSQL",
+          "id": "http://data.europa.eu/esco/skill/a8d07b5a-c1a1-42c6-9d53-db9c7a2ca996",
+          "campo": "termo_pt"
+        }
+      ],
+      "Python": [
+        {
+          "fonte": "Odoo Recruitment 19.0",
+          "termo": "Python",
+          "id": "hr_skill_python",
+          "campo": "principal"
+        },
+        {
+          "fonte": "O*NET software",
+          "termo": "Python",
+          "id": "2.E.7.e",
+          "campo": "principal"
+        },
+        {
+          "fonte": "ESCO",
+          "termo": "Python",
+          "id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+          "campo": "aliases_en"
+        }
+      ],
+      "SQLite": [
+        {
+          "fonte": "O*NET software",
+          "termo": "SQLite",
+          "id": "2.E.6.d",
+          "campo": "principal"
+        }
+      ],
+      "Scrum": [
+        {
+          "fonte": "ESCO",
+          "termo": "Scrum",
+          "id": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9",
+          "campo": "aliases_en"
+        }
+      ],
+      "Trello": [
+        {
+          "fonte": "ESCO",
+          "termo": "Trello",
+          "id": "http://data.europa.eu/esco/skill/fdf15b35-9028-4acb-bfd2-43f00a015cd9",
+          "campo": "aliases_en"
+        }
+      ],
+      "Ubuntu": [
+        {
+          "fonte": "O*NET software",
+          "termo": "Ubuntu",
+          "id": "2.E.13.c",
+          "campo": "principal"
+        }
+      ]
+    },
+    "igual_ao_registro_anterior": true,
+    "nova_correspondencia_textual_na_lista_atual": false,
+    "limite": "Correspondência documental não comprova recuperação por ATS, nível pessoal ou aprovação de candidatura."
+  },
+  "candidatos": [
+    {
+      "tag_atual": "Consultas SQL",
+      "termo_consultado": "SQL",
+      "fonte": "ESCO",
+      "id": "598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+      "relacao": "relação conceitual entre atividade e linguagem",
+      "limite_e_decisao": "Manter a atividade de consultas. Não atribuir SQL Server ou administração de bancos.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Aprendizado de máquina",
+      "termo_consultado": "machine learning",
+      "fonte": "ESCO",
+      "id": "3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+      "relacao": "tradução conceitual",
+      "limite_e_decisao": "Preservar conhecimento introdutório. Não atribuir implantação profissional de modelos.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Suporte Help Desk, N1",
+      "termo_consultado": "IT support",
+      "fonte": "Odoo Recruitment 19.0",
+      "id": "hr_skill_it_support",
+      "relacao": "relação parcial com categoria mais ampla",
+      "limite_e_decisao": "Preservar Help Desk e N1. Não substituir os contextos de ERP, PDV ou suporte hospitalar por uma competência genérica.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Documentação técnica",
+      "termo_consultado": "technical documentation",
+      "fonte": "Nesta e ESCoE",
+      "id": "6337",
+      "relacao": "tradução conceitual",
+      "limite_e_decisao": "A fonte é uma taxonomia de pesquisa. Manter as atribuições pessoais de cada experiência ou projeto.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Manuais de usuário",
+      "termo_consultado": "provide user documentation",
+      "fonte": "ESCO",
+      "id": "385479b7-5da5-4367-9763-0d15b41bb65b",
+      "relacao": "relação conceitual entre documento e atividade",
+      "limite_e_decisao": "A experiência confirma elaboração de manuais. O rótulo não comprova todas as atividades de distribuição da definição.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Pensamento analítico",
+      "termo_consultado": "analytical thinking",
+      "fonte": "ESCO",
+      "id": "4707da90-9cfc-46ca-8de0-38a0b7bfb137",
+      "relacao": "tradução conceitual com altLabel da fonte",
+      "limite_e_decisao": "Não atribuir análise de dados, ferramentas ou certificações.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Inteligência de negócios",
+      "termo_consultado": "business intelligence",
+      "fonte": "ESCO",
+      "id": "143769cb-b61e-47d8-a61e-eedfbec1016c",
+      "relacao": "tradução conceitual de conteúdo previsto",
+      "limite_e_decisao": "O alias BI aparece na fonte. Preservar o contexto da formação em andamento. Não adicionar Power BI ou experiência profissional em BI.",
+      "aplicado": false
+    },
+    {
+      "tag_atual": "Microsoft Office",
+      "termo_consultado": "Microsoft Office software",
+      "fonte": "O*NET software",
+      "id": "2.E.1.k",
+      "relacao": "variante nominal do mesmo produto",
+      "limite_e_decisao": "A igualdade nominal seria adicional, mas não há ganho de extração neste ensaio. Manter Microsoft Office como nome apresentado.",
+      "aplicado": false
+    }
+  ],
+  "atividades_confirmadas_sem_tag": {
+    "arquivo": "docs/fontes/competencias-declaradas.json",
+    "atividades": [
+      "Controle de acessos",
+      "Controle de permissões",
+      "Sincronização",
+      "Histórico de versões",
+      "Backup"
+    ],
+    "contexto": "Uso e controle das plataformas no ambiente da equipe. Não comprova administração corporativa, IAM, Entra ID, disaster recovery ou infraestrutura em nuvem.",
+    "situacao": "Possíveis acréscimos sustentados por declaração. Não foram aplicados, nem submetidos ao teste dos oito aliases."
+  },
+  "adequacoes_rejeitadas": [
+    "Office 365 para Microsoft 365 somente por coincidência com a vaga da Sólides. A declaração preserva Office 365.",
+    "Windows 11 para Windows 11 Pro. A edição Pro não foi declarada.",
+    "Microsoft Azure para Entra ID, Intune ou DevOps Services. Não há declaração específica.",
+    "AWS para serviços específicos não declarados.",
+    "Vercel para Vercel Functions. A fonte editorial não comprova uso de Functions.",
+    "Aprendizado de máquina para competências específicas de treinamento de modelos presentes nos aliases da fonte.",
+    "Gestão de ativos de TI para gestão patrimonial ou financeira. A área de conhecimento da fonte não equivale ao inventário de TI.",
+    "Metodologias ágeis e Scrum para um único rótulo. A regra do projeto preserva conceitos independentes."
+  ],
+  "parser": {
+    "repositorio": "https://github.com/Praveenkanna16/resume-parser",
+    "commit": "b35512d5fa5fc5dddd39aeaeff2df3dfa4da6746",
+    "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/resumeParser.ts",
+    "sha256": "ae6531021f23c2098d75f4ac4a0b941be134b334b84f378ad01a2ed2a270f727",
+    "licenca": "MIT",
+    "rotina": "parseResumeText",
+    "runtime_node": "v26.7.0"
+  },
+  "fontes_sha256": {
+    "docs/referencias/ats/dicionario-ats.csv": "88f7e3226c8fe25f334021cdf1b591865af38b7ed9f238df27a044383eaea19d",
+    "docs/referencias/ats/onet/dicionario-software.csv": "4a6db165ebb0b344cc769ce519264591d5b8f700f72e772bf6e2a85a70dbc1fb",
+    "docs/referencias/ats/onet/dicionario-competencias.csv": "88904f06ec4ef1a3516e9330eb02f15834fded6310f7f403aaa73acbb8fc9c2a",
+    "docs/referencias/ats/esco/dicionario-en-pt-es.csv": "8ea8af54708faa2c25c887d8f2d7d17b13be27e3fab51030898582577e50f29e",
+    "docs/referencias/ats/esco/skills_en.csv": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+    "docs/referencias/ats/nesta/dicionario-pesquisa.csv": "2716e745db811529b9d7a20e77efaebfdabff41db0520a8667802506e3b6e4fc",
+    "docs/referencias/ats/solides/registros-publicos.json": "39aed30277d76e3dc185d03891d0cb83ebc51151efdbb88562a0e5b934a38ffd",
+    "docs/referencias/ats/exemplos-comerciais.json": "019140e2c16d41c3e64c9341970053f7d754e1f1c0909f3ef99b4802c621217c",
+    "docs/fontes/competencias-declaradas.json": "b892317d1c6187171e411776fec5892665d666151e04f4d583747584c97882b6"
+  },
+  "limites_gerais": [
+    "Não houve pesquisa de novos catálogos nesta revisão. As conclusões usam os recortes locais recebidos.",
+    "Nenhum parser proprietário foi executado.",
+    "Não houve testes de tela, teclado ou impressão.",
+    "Não houve alteração em static/, na exportação TXT ou nas fontes recebidas.",
+    "A análise de aliases não amplia competências nem converte conteúdos previstos em experiência."
+  ],
+  "teste_parser": {
+    "tipo": "Execução da rotina original parseResumeText. Entrada restrita às tags. Aliases acrescentados somente em memória.",
+    "cabecalho": "Competências e habilidades",
+    "taxonomia_configurada": 46,
+    "saida_atual": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "AWS",
+      "Azure",
+      "Git",
+      "GitHub Actions",
+      "HTML",
+      "CSS",
+      "Linux"
+    ],
+    "saida_com_aliases": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "AWS",
+      "Azure",
+      "Git",
+      "GitHub Actions",
+      "HTML",
+      "CSS",
+      "Linux"
+    ],
+    "novas_tecnologias": [],
+    "pares": [
+      {
+        "tag_atual": "Consultas SQL",
+        "termo_consultado": "SQL",
+        "entrada_atual": "Competências e habilidades\nConsultas SQL",
+        "entrada_alias": "Competências e habilidades\nSQL",
+        "saida_atual": [
+          "SQL"
+        ],
+        "saida_alias": [
+          "SQL"
+        ]
+      },
+      {
+        "tag_atual": "Aprendizado de máquina",
+        "termo_consultado": "machine learning",
+        "entrada_atual": "Competências e habilidades\nAprendizado de máquina",
+        "entrada_alias": "Competências e habilidades\nmachine learning",
+        "saida_atual": [],
+        "saida_alias": []
+      },
+      {
+        "tag_atual": "Suporte Help Desk, N1",
+        "termo_consultado": "IT support",
+        "entrada_atual": "Competências e habilidades\nSuporte Help Desk, N1",
+        "entrada_alias": "Competências e habilidades\nIT support",
+        "saida_atual": [],
+        "saida_alias": []
+      },
+      {
+        "tag_atual": "Documentação técnica",
+        "termo_consultado": "technical documentation",
+        "entrada_atual": "Competências e habilidades\nDocumentação técnica",
+        "entrada_alias": "Competências e habilidades\ntechnical documentation",
+        "saida_atual": [],
+        "saida_alias": []
+      },
+      {
+        "tag_atual": "Manuais de usuário",
+        "termo_consultado": "provide user documentation",
+        "entrada_atual": "Competências e habilidades\nManuais de usuário",
+        "entrada_alias": "Competências e habilidades\nprovide user documentation",
+        "saida_atual": [],
+        "saida_alias": []
+      },
+      {
+        "tag_atual": "Pensamento analítico",
+        "termo_consultado": "analytical thinking",
+        "entrada_atual": "Competências e habilidades\nPensamento analítico",
+        "entrada_alias": "Competências e habilidades\nanalytical thinking",
+        "saida_atual": [],
+        "saida_alias": []
+      },
+      {
+        "tag_atual": "Inteligência de negócios",
+        "termo_consultado": "business intelligence",
+        "entrada_atual": "Competências e habilidades\nInteligência de negócios",
+        "entrada_alias": "Competências e habilidades\nbusiness intelligence",
+        "saida_atual": [],
+        "saida_alias": []
+      },
+      {
+        "tag_atual": "Microsoft Office",
+        "termo_consultado": "Microsoft Office software",
+        "entrada_atual": "Competências e habilidades\nMicrosoft Office",
+        "entrada_alias": "Competências e habilidades\nMicrosoft Office software",
+        "saida_atual": [],
+        "saida_alias": []
+      }
+    ],
+    "limites": [
+      "O ensaio não executa leitor PDF, leitor DOCX, servidor ou aplicação completa.",
+      "A ausência de uma tecnologia na taxonomia de 46 rótulos explica muitas omissões. Ela não demonstra rejeição por outros parsers.",
+      "Os campos de experiência e formação não foram reavaliados.",
+      "As regras de extração não foram alteradas. Foram retirados somente dois imports de dependências usadas pelo leitor de arquivos. Os tipos TypeScript foram removidos pelo Node.js."
+    ]
+  },
+  "aplicacao_posterior": {
+    "data": "2026-10-14",
+    "registro": "docs/verificacao-aliases-ocultos-pt-br-2026-10-14.json",
+    "pagina_sha256": "89b0a56fe8b37ae8fbf346e3a63ec81dce86e5d73640feb0d0bf28ca3c1ca097",
+    "termos_ingleses_incluidos": [
+      {
+        "tag_original": "Aprendizado de máquina",
+        "termo_en": "Machine learning",
+        "contexto": "Habilidades. Conhecimento introdutório."
+      },
+      {
+        "tag_original": "Consultas SQL",
+        "termo_en": "SQL",
+        "contexto": "Habilidades. Atividade de consultas."
+      },
+      {
+        "tag_original": "Suporte Help Desk, N1",
+        "termo_en": "IT support, N1",
+        "contexto": "Habilidades. Suporte N1."
+      },
+      {
+        "tag_original": "Documentação técnica",
+        "termo_en": "Technical documentation",
+        "contexto": "Habilidades e participação pessoal nos projetos. Três ocorrências."
+      },
+      {
+        "tag_original": "Manuais de usuário",
+        "termo_en": "Provide user documentation",
+        "contexto": "Habilidades. Elaboração de manuais."
+      },
+      {
+        "tag_original": "Pensamento analítico",
+        "termo_en": "Analytical thinking",
+        "contexto": "Competências sociais."
+      },
+      {
+        "tag_original": "Inteligência de negócios",
+        "termo_en": "Business intelligence",
+        "contexto": "Conteúdo previsto da graduação em andamento."
+      }
+    ],
+    "ocorrencias_ocultas": 170,
+    "rotulos_ocultos": 152,
+    "conteudo_visivel_preservado": true,
+    "resultado_positivo": true,
+    "limite": "Os campos aplicado=false nos candidatos descrevem o ensaio inicial. A aplicação posterior acrescentou sete termos, sem incluir Microsoft Office software."
+  }
+}

@@ -15,6 +15,8 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [Resultados dos dados ocultos](verificacao-curriculo-oculto-pt-br-2026-10-14.json) | Entradas, saídas originais, controles, hashes e integridade |
 | [Reteste dos conteúdos ocultos](reteste-conteudos-ocultos-pt-br-2026-10-14.json) | Conferência de experiências, graduação, cursos e projetos. Testes por seção e controles de contexto |
 | [Resultado positivo no cvats](verificacao-cvats-pt-br-2026-10-14.json) | Iterações e controles da recuperação de experiências e graduação no bloco oculto |
+| [Revisão adicional das tags pt-BR](revisao-tags-ats-pt-br-2026-10-14.json) | Correspondências, candidatos a aliases e comparação da extração com os nomes atuais |
+| [Teste dos termos ingleses nas tags ocultas](verificacao-aliases-ocultos-pt-br-2026-10-14.json) | Preservação do conteúdo visível, dos dados e da extração após a inclusão dos aliases |
 | [Manifesto do cvats](referencias/ats/manifesto-cvats-2026-10-14.json) | Clone, versão, licença, fontes e limites da execução |
 | [Revisão de linguagem simples pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) | Expressões vagas, repetições, propostas e limites das fontes |
 | [Relatório vigente](relatorio-verificacao-site-2026-10-13.md) | Alterações, critérios ATS, limpeza, verificações e limites |
