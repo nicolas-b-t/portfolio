@@ -12,7 +12,7 @@ O projeto permanece pessoal. As fontes e os registros sustentam a manutenção d
 
 - [Guia de uso e manutenção](docs/referencias/guia-de-uso.md): edição, consulta aos dicionários e recuperação das fontes.
 - [Índice da documentação](docs/README.md): registros, fontes e referências locais.
-- [Verificação vigente](docs/relatorio-verificacao-site-2026-10-13.md): conteúdo, resultados, limites e repetição dos testes.
+- [Verificação geral de 13 de outubro](docs/relatorio-verificacao-site-2026-10-13.md): conteúdo e ensaios da versão daquela data.
 - [Insumos de competências](docs/referencias/guia-de-uso.md#insumos-ats-e-classificações): dicionários, originais, licenças e limites.
 - [Guia de redação](docs/guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
 - [Síntese dos testes ATS](docs/sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md): resultados, limites e aplicação a futuros currículos do responsável.
@@ -94,5 +94,6 @@ As páginas usam `/portfolio/`, seguido da pasta de cada idioma.
 ## Verificação
 
 As verificações exigidas estão em [AGENTS.md](AGENTS.md#verificação-e-trabalho-no-repositório).
-O [relatório vigente](docs/relatorio-verificacao-site-2026-10-13.md) reúne conteúdo, critérios ATS e resultados dos ensaios.
+O [relatório de 13 de outubro](docs/relatorio-verificacao-site-2026-10-13.md) reúne os ensaios gerais daquela versão.
+A [síntese ATS](docs/sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) e a [verificação da lista geral](docs/verificacao-lista-geral-tags-2026-10-14.json) registram os resultados atuais.
 WCAG 2.2 nível AA é o alvo. A conformidade integral ainda não foi demonstrada.

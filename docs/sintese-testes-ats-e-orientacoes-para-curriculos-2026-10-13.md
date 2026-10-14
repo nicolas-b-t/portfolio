@@ -1,6 +1,6 @@
 # Síntese dos testes ATS e orientações para currículos
 
-Data dos testes e da consolidação: 13 de outubro de 2026.
+Datas dos testes: 13 e 14 de outubro de 2026. Encerramento e consolidação: 14 de outubro de 2026.
 
 Esta síntese reúne os testes e sua aplicação ao portfólio e a futuros currículos do responsável.
 ATS identifica sistemas de acompanhamento de candidaturas.
@@ -8,6 +8,35 @@ O parser é o componente que extrai texto e organiza dados do currículo.
 
 Os testes demonstraram leitura local do conteúdo e identificaram erros de interpretação.
 Eles não demonstraram compatibilidade universal com sistemas proprietários, aprovação em vagas ou efeito sobre a seleção de candidatos.
+
+## Estado no encerramento
+
+A [verificação vigente](verificacao-lista-geral-tags-2026-10-14.json) descreve o HTML publicado no commit 74b186f.
+As rotinas originais do cvats recuperaram as três experiências e a graduação na leitura dedicada do bloco oculto.
+
+| Experiência | Período recuperado |
+| --- | --- |
+| RealFort Sistemas — Auxiliar de instalação de fibra óptica | Sem período declarado |
+| Lukos Tecnologia — Técnico de suporte Help Desk | Setembro a dezembro de 2025 |
+| Instituto Alpha de Saúde Integral — Técnico de suporte de TI | Abril de 2023 a junho de 2024 |
+
+Os campos de cargo retornam aliases ingleses. Os títulos portugueses permanecem nas descrições recuperadas e no conteúdo principal.
+A graduação recuperada é o Curso superior de tecnologia em Gestão da Tecnologia da Informação, na Fatec Franco da Rocha – Giuliano Cecchettini.
+O registro preserva início em julho de 2024, conclusão prevista para julho de 2027 e formação em andamento.
+
+Os dois parsers anteriores mantiveram o nome correto. O segundo recuperou as mesmas 11 tecnologias.
+Eles continuam sem recuperar corretamente o conjunto de experiências e graduação.
+Os testes anteriores do DOM completo e da entrada sem hidden apresentaram falhas.
+O positivo não demonstra leitura de PDF, DOCX, ATS proprietário ou da aplicação completa do cvats.
+
+O conteúdo principal contém 161 ocorrências de tags e 145 rótulos distintos.
+O bloco oculto contém 170 ocorrências e 152 rótulos distintos, após acrescentar sete termos ingleses em nove ocorrências.
+A [lista de consulta](../Lista_de_tags/README.md) preserva os dados públicos e as instruções de leitura.
+Os 14 arquivos reservados para outros sistemas de escrita continuam vazios. A exportação curricular TXT foi preservada.
+
+Sete registros anteriores foram reunidos no [histórico compactado](historico-ats/README.md), com conteúdo integral e hashes conferidos.
+Esta síntese concentra as decisões e orientações vigentes. As seções seguintes preservam a cronologia e os limites dos ensaios.
+Nenhum teste de tela ou teclado foi executado nesta interação.
 
 ## Evidências e escopo
 
@@ -19,7 +48,7 @@ Nenhum currículo foi enviado a um serviço externo.
 | Registro | Conteúdo preservado |
 | --- | --- |
 | [Inventário e comparação](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Todas as tags, contextos, correspondências e limites documentais |
-| [Resultados da extração](verificacao-extracao-ats-pt-br-2026-10-13.json) | Saídas originais, testes de controle, casos negativos e simulação |
+| [Resultados da extração](historico-ats/README.md) | Saídas originais, testes de controle, casos negativos e simulação |
 | [Currículo textual](curriculo-ats-pt-br-2026-10-13.txt) | Cópia UTF-8 derivada do conteúdo público, com 17 cursos únicos |
 | [Manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) | Repositórios, commits, licenças, adaptações de carregamento e hashes |
 | [Guia de uso das referências](referencias/guia-de-uso.md) | Origem dos acervos, condições de uso e recuperação das fontes |
@@ -276,7 +305,7 @@ Enquanto essa evidência não existir, descreva os resultados como verificaçõe
 O responsável autorizou um bloco hierárquico oculto no início da página pt-BR, sem alterar a exportação.
 Os dois parsers continuaram sem recuperar experiências e graduação. O bloco melhorou nome e perfis somente quando incluído na entrada.
 O resultado não atendeu à condição de commit e push. As alterações ficaram locais, aguardando decisão.
-O [ensaio posterior](ensaio-curriculo-oculto-pt-br-2026-10-14.md) registra condições, duplicações e próximos passos.
+O [ensaio posterior](historico-ats/README.md) registra condições, duplicações e próximos passos.
 As contagens e hashes dos testes de 13 de outubro descrevem a versão anterior a esse bloco.
 
 Depois, o responsável solicitou testes até recuperar experiência e formação.
@@ -288,7 +317,7 @@ Quatro controles de remoção e troca de dados confirmaram recuperação a parti
 O positivo se limita à leitura dedicada do bloco, em linhas lógicas derivadas do HTML.
 O DOM completo e a entrada que exclui hidden continuaram negativos.
 Os campos de posições da API receberam valores sintéticos. Nenhum PDF ou navegador foi usado nesse ensaio.
-O [ensaio consolidado](ensaio-curriculo-oculto-pt-br-2026-10-14.md#planejamento-e-resultado-positivo-no-cvats) registra o plano, as alterações, o resultado e seus limites.
+O [ensaio consolidado](historico-ats/README.md) registra o plano, as alterações, o resultado e seus limites.
 
 ## Revisão adicional das tags — 14 de outubro de 2026
 
@@ -330,7 +359,7 @@ Office 365 não foi convertido em Microsoft 365. Windows 11 não recebeu a ediç
 As fontes não autorizam acrescentar serviços específicos de AWS, Azure ou Vercel por associação com o nome da plataforma.
 Metodologias ágeis e Scrum permanecem como conceitos independentes.
 
-O [registro da revisão](revisao-tags-ats-pt-br-2026-10-14.json) preserva o inventário, fontes, relações, entradas, saídas e hashes.
+O [registro da revisão](historico-ats/README.md) preserva o inventário, fontes, relações, entradas, saídas e hashes.
 Os aliases podem orientar uma adequação futura. O ensaio atual não demonstra melhora de extração nem aumento de aprovação em candidaturas.
 
 ### Aplicação posterior dos termos ingleses
@@ -360,7 +389,7 @@ O positivo continua limitado à leitura dedicada do bloco oculto, com posições
 A leitura da página inteira e a variante que exclui hidden não foram reavaliadas nesta alteração.
 Não houve testes de tela, teclado, impressão, PDF ou DOCX. Nenhum ATS proprietário foi executado.
 
-O [teste após a aplicação](verificacao-aliases-ocultos-pt-br-2026-10-14.json) preserva a entrada atual, saídas, controles, fontes e hashes.
+O [teste após a aplicação](historico-ats/README.md) preserva a entrada atual, saídas, controles, fontes e hashes.
 
 ### Lista única para consulta
 

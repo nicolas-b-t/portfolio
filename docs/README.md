@@ -11,22 +11,16 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [Guia de uso](referencias/guia-de-uso.md) | Edição, consulta aos acervos e recuperação de fontes |
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
 | [Síntese dos testes ATS e orientações para currículos](sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) | Resultados, limites e procedimento para este portfólio e futuros currículos |
-| [Ensaio de dados ocultos pt-BR](ensaio-curriculo-oculto-pt-br-2026-10-14.md) | Alterações locais, resultado negativo dos parsers e condição de publicação |
-| [Resultados dos dados ocultos](verificacao-curriculo-oculto-pt-br-2026-10-14.json) | Entradas, saídas originais, controles, hashes e integridade |
-| [Reteste dos conteúdos ocultos](reteste-conteudos-ocultos-pt-br-2026-10-14.json) | Conferência de experiências, graduação, cursos e projetos. Testes por seção e controles de contexto |
-| [Resultado positivo no cvats](verificacao-cvats-pt-br-2026-10-14.json) | Iterações e controles da recuperação de experiências e graduação no bloco oculto |
-| [Revisão adicional das tags pt-BR](revisao-tags-ats-pt-br-2026-10-14.json) | Correspondências, candidatos a aliases e comparação da extração com os nomes atuais |
-| [Teste dos termos ingleses nas tags ocultas](verificacao-aliases-ocultos-pt-br-2026-10-14.json) | Preservação do conteúdo visível, dos dados e da extração após a inclusão dos aliases |
+| [Histórico dos testes ATS](historico-ats/README.md) | Sete registros anteriores preservados integralmente em ZIP, com manifesto e hashes |
 | [Lista geral de tags](../Lista_de_tags/README.md) | Cópia de consulta, instruções para leitura e arquivos vazios para outros sistemas de escrita |
 | [Teste da lista geral de tags](verificacao-lista-geral-tags-2026-10-14.json) | Integridade da cópia, arquivos vazios e extração após incluir as instruções no bloco oculto |
 | [Manifesto do cvats](referencias/ats/manifesto-cvats-2026-10-14.json) | Clone, versão, licença, fontes e limites da execução |
 | [Revisão de linguagem simples pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) | Expressões vagas, repetições, propostas e limites das fontes |
-| [Relatório vigente](relatorio-verificacao-site-2026-10-13.md) | Alterações, critérios ATS, limpeza, verificações e limites |
-| [Resultados do site](verificacao-site-2026-10-13.json) | Ensaios da versão atual |
+| [Relatório do site de 13 de outubro](relatorio-verificacao-site-2026-10-13.md) | Alterações e verificações gerais da versão daquela data |
+| [Resultados do site de 13 de outubro](verificacao-site-2026-10-13.json) | Ensaios de apresentação e conteúdo daquela versão |
 | [Registro anterior das tags](referencias/ats/verificacao-tags-2026-10-13.json) | Contextos, referências e limites da versão anterior dos cinco idiomas |
 | [Tags e correspondências atuais pt-BR](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Inventário, aplicação dos nomes e comparação após o commit-base 6a96e0b |
 | [Currículo textual pt-BR](curriculo-ats-pt-br-2026-10-13.txt) | Exportação UTF-8 com uma única cópia dos 17 cursos |
-| [Verificação de extração ATS pt-BR](verificacao-extracao-ats-pt-br-2026-10-13.json) | Saídas de dois parsers públicos, refinamento da exportação e simulação contextual |
 | [Manifesto dos parsers públicos](referencias/ats/manifesto-parser-publico-2026-10-13.json) | Origens, commits, licenças e hashes das cópias locais |
 | [Histórico consolidado](registro-de-desenvolvimento.md) | Decisões duradouras |
 | [Otimização de imagens](otimizacao-imagens.json) | Dimensões, tamanhos e hashes |
@@ -34,6 +28,10 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 Os relatórios substituídos e os auxiliares de execução foram retirados na limpeza de 13 de outubro de 2026.
 O histórico Git preserva os arquivos anteriormente versionados.
 Os READMEs e as licenças recebidos dos fornecedores permanecem com os respectivos acervos.
+
+Na limpeza de 14 de outubro, sete registros ATS anteriores passaram para o arquivo compactado em historico-ats/.
+A síntese e a verificação da lista geral descrevem o estado atual. O histórico compactado preserva todas as evidências anteriores.
+As fontes recebidas, licenças, dicionários e declarações continuam disponíveis nas condições registradas.
 
 O TXT acompanha as alterações recentes das tags no currículo pt-BR.
 Os resultados anteriores de navegador e impressão não foram repetidos nesta comparação.

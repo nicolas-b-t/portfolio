@@ -1,0 +1,63 @@
+{
+  "data": "2026-10-14",
+  "base_git": "74b186f0f0bea8414235908cb63f0260b0e48549",
+  "finalidade": "Preservar integralmente as evidências das etapas anteriores, retirando seus arquivos individuais da documentação vigente.",
+  "arquivo_zip": "docs/historico-ats/evidencias-ats-2026-10-14.zip",
+  "bytes_zip": 294382,
+  "sha256_zip": "8a100c26af5ad62b907637aa603b137aac17a197d7cc20caad30a2b423a4ee60",
+  "bytes_originais": 4175204,
+  "registros": [
+    {
+      "caminho_original": "docs/verificacao-extracao-ats-pt-br-2026-10-13.json",
+      "membro_zip": "docs/verificacao-extracao-ats-pt-br-2026-10-13.json",
+      "bytes": 71844,
+      "sha256": "3480e5dc1295f76caabf957ff9fe5d21947f8f200d052c9f33f4562427e50b21"
+    },
+    {
+      "caminho_original": "docs/verificacao-curriculo-oculto-pt-br-2026-10-14.json",
+      "membro_zip": "docs/verificacao-curriculo-oculto-pt-br-2026-10-14.json",
+      "bytes": 89773,
+      "sha256": "ff76d4bbfa27742165fc7f57b626d65b5db972d46541a7396da610bba8f3c383"
+    },
+    {
+      "caminho_original": "docs/reteste-conteudos-ocultos-pt-br-2026-10-14.json",
+      "membro_zip": "docs/reteste-conteudos-ocultos-pt-br-2026-10-14.json",
+      "bytes": 88330,
+      "sha256": "7dc58d19d5fb4ffec0d5f2c3ad7aa402fe71907c4020c9faf11a5b09068c1021"
+    },
+    {
+      "caminho_original": "docs/verificacao-cvats-pt-br-2026-10-14.json",
+      "membro_zip": "docs/verificacao-cvats-pt-br-2026-10-14.json",
+      "bytes": 3724530,
+      "sha256": "b39be219a8537df5868033baf482c0f7faf89a672ec3d14e639bf57073a59507"
+    },
+    {
+      "caminho_original": "docs/revisao-tags-ats-pt-br-2026-10-14.json",
+      "membro_zip": "docs/revisao-tags-ats-pt-br-2026-10-14.json",
+      "bytes": 30570,
+      "sha256": "9a46cab0fc932e46034d6f350c6150bc9238c028a0cfdbcae6eff1ba7459de7e"
+    },
+    {
+      "caminho_original": "docs/verificacao-aliases-ocultos-pt-br-2026-10-14.json",
+      "membro_zip": "docs/verificacao-aliases-ocultos-pt-br-2026-10-14.json",
+      "bytes": 156619,
+      "sha256": "e913b091628c491ea80eb3f3268d9669897d1e0f30fbadf183d11bfcad66f635"
+    },
+    {
+      "caminho_original": "docs/ensaio-curriculo-oculto-pt-br-2026-10-14.md",
+      "membro_zip": "docs/ensaio-curriculo-oculto-pt-br-2026-10-14.md",
+      "bytes": 13538,
+      "sha256": "febba82aeca6c397fac7fe5e054902ff5dae68f6fe0586951a15210b58b16d96"
+    }
+  ],
+  "verificacao": "CRC, quantidade de membros e igualdade byte a byte de todos os arquivos conferidos antes da remoção dos originais soltos.",
+  "verificacao_vigente": "docs/verificacao-lista-geral-tags-2026-10-14.json",
+  "preservados": {
+    "pagina_pt_br_sha256": "80b61f7536b9271d9ff15df04e53a99cf7426bc8773f23cf3a559964a9ba3ce2",
+    "lista_consulta_sha256": "cd6aa6570b29b940f994aa21ddddd15174bc91ffd3fe578bb6b23a565c9310ea",
+    "arquivos_de_idiomas_vazios": 14,
+    "fontes_licencas_dicionarios_manifestos_e_clones_locais": "Preservados. Esses materiais continuam necessários para consulta e reprodução dos ensaios."
+  },
+  "temporarios_encontrados": 0,
+  "limites": "Esta limpeza não modifica páginas, exportações curriculares, dados pessoais, arquivos reservados ou fontes recebidas. Não executa novos testes de parsers, tela ou teclado."
+}

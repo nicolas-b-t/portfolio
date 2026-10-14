@@ -129,7 +129,7 @@ Os clones completos, o histórico e os avisos recebidos permanecem locais e igno
 
 A [síntese dos testes ATS](sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) centraliza os resultados, os limites e as orientações para futuros currículos do responsável.
 O [inventário das tags](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) preserva as correspondências documentais.
-O [currículo textual](curriculo-ats-pt-br-2026-10-13.txt), as [saídas dos testes](verificacao-extracao-ats-pt-br-2026-10-13.json) e o [manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) preservam as evidências.
+O [currículo textual](curriculo-ats-pt-br-2026-10-13.txt), as [saídas dos testes](historico-ats/README.md) e o [manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) preservam as evidências.
 
 ## Dados ocultos e condição de publicação — 14 de outubro de 2026
 
@@ -142,15 +142,15 @@ O segundo parser manteve o falso positivo C no texto do DOM completo.
 Ao excluir os elementos ocultos da entrada, os ganhos de nome e perfis desapareceram.
 As alterações ficaram locais. Não houve commit ou push desta tarefa.
 
-O [ensaio de dados ocultos](ensaio-curriculo-oculto-pt-br-2026-10-14.md) registra resultados, limites e o trabalho necessário antes da publicação.
-O [registro JSON](verificacao-curriculo-oculto-pt-br-2026-10-14.json) preserva entradas, saídas, controles e hashes.
+O [ensaio de dados ocultos](historico-ats/README.md) registra resultados, limites e o trabalho necessário antes da publicação.
+O [registro JSON](historico-ats/README.md) preserva entradas, saídas, controles e hashes.
 
 O responsável solicitou novo teste de experiências, formação, cursos e projetos.
 Esses conteúdos já estavam no bloco oculto e corresponderam aos dados da página principal.
 Os parsers públicos continuaram sem recuperar as experiências e a graduação, inclusive nas entradas isoladas.
 Suas saídas não oferecem campos próprios para cursos e projetos.
 Um controle confirmou recuperação de JavaScript a partir de uma declaração que negava seu uso no site.
-O [reteste dos conteúdos ocultos](reteste-conteudos-ocultos-pt-br-2026-10-14.json) preserva as novas evidências. A página e a exportação permaneceram iguais.
+O [reteste dos conteúdos ocultos](historico-ats/README.md) preserva as novas evidências. A página e a exportação permaneceram iguais.
 
 O responsável solicitou planejamento e testes até recuperar experiência e formação.
 Foi recebido o clone completo do cvats, com licença e versão registradas no [manifesto](referencias/ats/manifesto-cvats-2026-10-14.json).
@@ -163,4 +163,24 @@ Quatro controles de remoção e troca de dados passaram.
 
 O positivo depende de ler o bloco oculto. O DOM completo e a entrada sem hidden continuam com falhas.
 O conteúdo principal permaneceu igual durante esse refinamento. A exportação TXT não foi alterada.
-Os [resultados do cvats](verificacao-cvats-pt-br-2026-10-14.json) preservam as iterações e os limites.
+Os [resultados do cvats](historico-ats/README.md) preservam as iterações e os limites.
+
+## Lista única e encerramento — 14 de outubro de 2026
+
+O commit f69af0d publicou o bloco oculto após recuperar experiência e formação com as rotinas originais do cvats.
+O commit 4ec02d3 acrescentou sete termos ingleses, em nove ocorrências, somente nas tags ocultas.
+O conteúdo principal permaneceu igual nesse acréscimo. Os contextos e as qualificações foram preservados.
+
+O responsável adotou uma lista única, com manutenção manual. O commit 74b186f criou a pasta Lista_de_tags.
+Ela contém uma cópia de consulta e 14 arquivos vazios para outros sistemas de escrita.
+As instruções de leitura foram incluídas no TXT e no bloco oculto pt-BR.
+A [verificação vigente](verificacao-lista-geral-tags-2026-10-14.json) preserva a identificação, as três experiências, a graduação e as 11 tecnologias recuperadas.
+
+O responsável solicitou limpeza no encerramento. Não foram encontrados auxiliares temporários soltos.
+Sete registros anteriores foram preservados integralmente no [histórico compactado](historico-ats/README.md).
+Foram conferidos CRC, SHA-256 e igualdade byte a byte antes da remoção dos arquivos individuais.
+Os índices e links foram atualizados. A síntese mantém as decisões e os resultados necessários à manutenção.
+
+As fontes, licenças, dicionários, declarações e clones locais permanecem disponíveis.
+A lista de consulta, os arquivos vazios solicitados e as instruções permanentes foram preservados.
+A limpeza não modificou o site nem repetiu testes de parsers, tela ou teclado.

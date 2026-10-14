@@ -79,7 +79,7 @@ Eles não demonstram domínio profissional nem reconhecimento automático do cur
 O acervo reúne fontes e dicionários. Os registros das tags preservam fontes, definições consultadas e limites de cada revisão.
 A [síntese dos testes ATS](../sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) reúne os resultados e sua aplicação ao portfólio e a futuros currículos do responsável.
 
-O [ensaio de dados ocultos](../ensaio-curriculo-oculto-pt-br-2026-10-14.md) inclui o resultado positivo das rotinas originais do cvats.
+O [histórico dos testes](../historico-ats/README.md) preserva o ensaio de dados ocultos e o resultado positivo das rotinas originais do cvats.
 Esse positivo depende da leitura dedicada do bloco. A página inteira, PDF e sistemas proprietários não receberam aprovação por esse resultado.
 O [manifesto do cvats](ats/manifesto-cvats-2026-10-14.json) registra origem, versão, licença e condições de execução.
 
@@ -149,7 +149,7 @@ Os textos autorais continuam sujeitos à verificação git diff --check.
 O [relatório vigente](../relatorio-verificacao-site-2026-10-13.md) reúne as alterações aplicadas e os limites das correspondências.
 O [registro anterior das tags](ats/verificacao-tags-2026-10-13.json) identifica rótulos, contextos, referências e hashes da revisão anterior dos cinco idiomas.
 A [comparação atual pt-BR](../tags-e-correspondencias-ats-pt-br-2026-10-13.txt) acompanha as alterações posteriores do currículo brasileiro.
-As [saídas de extração](../verificacao-extracao-ats-pt-br-2026-10-13.json) preservam execuções, falhas, controles e simulação.
+As [evidências históricas](../historico-ats/README.md) preservam execuções, falhas, controles e simulação.
 As exportações de comparação e os relatórios substituídos foram retirados por solicitação do responsável.
 
 ### Recuperar os clones editoriais locais
