@@ -15,6 +15,7 @@ O projeto permanece pessoal. As fontes e os registros sustentam a manutenção d
 - [Verificação vigente](docs/relatorio-verificacao-site-2026-10-13.md): conteúdo, resultados, limites e repetição dos testes.
 - [Insumos de competências](docs/referencias/guia-de-uso.md#insumos-ats-e-classificações): dicionários, originais, licenças e limites.
 - [Guia de redação](docs/guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
+- [Síntese dos testes ATS](docs/sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md): resultados, limites e aplicação a futuros currículos do responsável.
 
 ## Estrutura
 

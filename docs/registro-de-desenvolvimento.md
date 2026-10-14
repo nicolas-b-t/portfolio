@@ -101,3 +101,66 @@ Datas pessoais, títulos dos cursos e qualificações não foram alterados.
 Nenhuma competência foi atribuída apenas por aparecer nos projetos de extensão previstos no PPC.
 Os cinco arquivos CSS passaram a preservar maiúsculas e minúsculas das URLs impressas.
 Isso mantém o identificador do Google Drive igual ao original.
+
+## Tags específicas e extração de dados — 13 de outubro de 2026
+
+O responsável restringiu esta interação ao currículo pt-BR, sem ensaios de tela ou teclado.
+Ele solicitou tecnologias e atividades específicas, após avaliar negativamente a consolidação das tags.
+As alterações seguintes foram autorizadas e realizadas somente nesse currículo.
+
+O commit df94391 recuperou nomes de equipamentos, conectores, ferramentas, suporte e tecnologias declaradas.
+O commit 6a96e0b incluiu ferramentas de IA, metodologias ágeis, Scrum, consultas SQL, AWS e Microsoft Azure.
+Esse commit também retirou os parágrafos descritivos das subcategorias de habilidades.
+Os dois commits foram enviados para origin/main.
+
+Depois, seis nomes foram padronizados conforme o acervo: Microsoft Windows, OpenAI ChatGPT, Apache HTTP Server, Nginx web server e os rótulos da O*NET para AWS e Azure.
+As 161 ocorrências e os 145 rótulos distintos permaneceram. As correspondências textuais documentais passaram de 24 para 30.
+Relações parciais não foram convertidas em qualificações novas. Consultas SQL, metodologias ágeis e Scrum conservaram seu alcance.
+
+O responsável autorizou testes locais de parsers públicos e uma simulação quando não houvesse sistema proprietário disponível.
+Dois parsers foram executados. As falhas de interpretação foram preservadas nas saídas.
+O aumento da igualdade documental não demonstrou ganho de recuperação no segundo parser.
+Nenhum serviço proprietário foi chamado e nenhum currículo foi enviado a um serviço externo.
+
+O TXT foi refinado para retirar rótulos de navegação e antecipar os contatos pessoais.
+A exportação preservou as 161 tags, os 17 cursos únicos, o conteúdo profissional e seus limites.
+O HTML mantém as duas cópias dos cursos exigidas pelas regras do projeto.
+Os clones completos, o histórico e os avisos recebidos permanecem locais e ignorados pelo Git.
+
+A [síntese dos testes ATS](sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) centraliza os resultados, os limites e as orientações para futuros currículos do responsável.
+O [inventário das tags](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) preserva as correspondências documentais.
+O [currículo textual](curriculo-ats-pt-br-2026-10-13.txt), as [saídas dos testes](verificacao-extracao-ats-pt-br-2026-10-13.json) e o [manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) preservam as evidências.
+
+## Dados ocultos e condição de publicação — 14 de outubro de 2026
+
+O responsável autorizou botão de download sem ação, títulos e campos explícitos e uma cópia hierárquica oculta no início da página pt-BR.
+Os nomes das tecnologias e a exportação TXT foram preservados.
+Commit e push ficaram condicionados a resultados positivos nos parsers, sem testes de tela ou teclado.
+
+O bloco conserva os fatos e as tags, mas não recuperou as experiências e a graduação nos dois parsers públicos.
+O segundo parser manteve o falso positivo C no texto do DOM completo.
+Ao excluir os elementos ocultos da entrada, os ganhos de nome e perfis desapareceram.
+As alterações ficaram locais. Não houve commit ou push desta tarefa.
+
+O [ensaio de dados ocultos](ensaio-curriculo-oculto-pt-br-2026-10-14.md) registra resultados, limites e o trabalho necessário antes da publicação.
+O [registro JSON](verificacao-curriculo-oculto-pt-br-2026-10-14.json) preserva entradas, saídas, controles e hashes.
+
+O responsável solicitou novo teste de experiências, formação, cursos e projetos.
+Esses conteúdos já estavam no bloco oculto e corresponderam aos dados da página principal.
+Os parsers públicos continuaram sem recuperar as experiências e a graduação, inclusive nas entradas isoladas.
+Suas saídas não oferecem campos próprios para cursos e projetos.
+Um controle confirmou recuperação de JavaScript a partir de uma declaração que negava seu uso no site.
+O [reteste dos conteúdos ocultos](reteste-conteudos-ocultos-pt-br-2026-10-14.json) preserva as novas evidências. A página e a exportação permaneceram iguais.
+
+O responsável solicitou planejamento e testes até recuperar experiência e formação.
+Foi recebido o clone completo do cvats, com licença e versão registradas no [manifesto](referencias/ats/manifesto-cvats-2026-10-14.json).
+As rotinas originais foram executadas sem alterar regras, usando linhas lógicas derivadas do HTML.
+
+O bloco recebeu aliases ingleses para cargos, separação dos campos profissionais e um registro acadêmico único.
+Os títulos originais, as atividades e as limitações profissionais foram preservados.
+O cvats recuperou as três experiências, os períodos declarados e a graduação na Fatec em andamento.
+Quatro controles de remoção e troca de dados passaram.
+
+O positivo depende de ler o bloco oculto. O DOM completo e a entrada sem hidden continuam com falhas.
+O conteúdo principal permaneceu igual durante esse refinamento. A exportação TXT não foi alterada.
+Os [resultados do cvats](verificacao-cvats-pt-br-2026-10-14.json) preservam as iterações e os limites.

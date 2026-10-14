@@ -1,0 +1,748 @@
+{
+  "data": "2026-10-13",
+  "repositorio": "https://github.com/Sihamkassim/Resume-parser",
+  "commit": "76f35bc5406276f5d7f1bfa0f8d60e2682d8df28",
+  "licenca_declarada": "ISC, conforme package.json e README.md. Não foi recebido um arquivo LICENSE separado.",
+  "local": "docs/referencias/ats/repositorios-local/resume-parser-publico",
+  "condicao": "Clone completo local ignorado pelo Git. Nenhum arquivo do parser integra static/.",
+  "execucao": "Somente parser.js original foi executado como módulo local. Nenhum servidor ou pacote externo foi instalado.",
+  "arquivos": [
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/.gitignore",
+      "bytes": 80,
+      "sha256": "ef42244f7208493db07e3b10c7f9d3231bf794e54394a3e4b20129cac3797d73"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/index.js",
+      "bytes": 1125,
+      "sha256": "5ea65a403723fd9d69154a108b553437f711eeaa05c58b8caf6f6af1eeb8b60d"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/package-lock.json",
+      "bytes": 42037,
+      "sha256": "c9a843a1e5c4aaa94ef14cd4bc2e262195be95a98e9cf60cb35d28b6c04e87ea"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/package.json",
+      "bytes": 492,
+      "sha256": "ad81932a7f3c8a4d6e8efec51381a68ec8404dc6d85ae63c40c416b6c83d241a"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/parser.js",
+      "bytes": 10938,
+      "sha256": "5bc0c6ed011cc72870ae19c0f4c25fc39ed1a16d77cbe8332dcb4237e5a6e2ee"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/public/app.js",
+      "bytes": 20653,
+      "sha256": "8803becaebce2c89000962606f6944da8b7409f0867dbf3a5d6aed9e6361f585"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/public/index.html",
+      "bytes": 16135,
+      "sha256": "ac335714f1aea11e7d9f44fc52687b6a80d395e4e5381aa8a09e0e11946ffa6d"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/README.md",
+      "bytes": 3078,
+      "sha256": "47b98e8f18a535c594e6e982f6494cd482dc224981e9ad00fe9d86e3dfc4b5a4"
+    },
+    {
+      "arquivo": "docs/referencias/ats/repositorios-local/resume-parser-publico/server.js",
+      "bytes": 4525,
+      "sha256": "444cd3dcfb711100c1ca8878af415909eeb2d875a83a5123d5246e5cba5f5def"
+    }
+  ],
+  "parsers_adicionais": [
+    {
+      "repositorio": "https://github.com/Praveenkanna16/resume-parser",
+      "commit": "b35512d5fa5fc5dddd39aeaeff2df3dfa4da6746",
+      "licenca": "MIT, Copyright (c) 2026 Praveen Kanna.",
+      "local": "docs/referencias/ats/repositorios-local/parser-deterministico-publico",
+      "execucao": "Execução de parseResumeText e validateResult da fonte original. Somente dois imports de leitores PDF/DOCX foram omitidos na cópia em memória. Os tipos TypeScript foram removidos pelo Node.js. Nenhuma regra de extração foi alterada.",
+      "escopo": "Teste textual. readResume, o servidor, o frontend, PDF e DOCX não foram executados.",
+      "arquivos": [
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/.gitignore",
+          "bytes": 1562,
+          "sha256": "23d35be1002ad9bc4612d963720e2b8bb0cb732de0cdf079453bb7868fc2ed01"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/.gitkeep",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/.prettierignore",
+          "bytes": 345,
+          "sha256": "8b214b5a040ceb3452969e8c524c63512d01967761d88eb99410b0e58541ab66"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/.prettierrc",
+          "bytes": 325,
+          "sha256": "6ae0b27cb503194d2df258d0c310cbc4cde3e3d5d1dc670539e3af27b82e2738"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/api/index.js",
+          "bytes": 22624,
+          "sha256": "4d1e0c48100ed791b884fc3616bfc14e9080ea708f8b29eef67620c6b3232813"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/index.html",
+          "bytes": 911,
+          "sha256": "e45fe39c3f5a3f6aed70dd10ed2e01acab422e06d3f35cee805c547cc3aae661"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/public/.gitkeep",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/public/__manus__/debug-collector.js",
+          "bytes": 25989,
+          "sha256": "0f45c78f07eeb903ae33b6994212d42c013a891ebcec487bbdb09809243089f1"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/_core/hooks/useAuth.ts",
+          "bytes": 2955,
+          "sha256": "37492bff2100e9297070942c18a141d0e7187ad8755eec6fa8dbd0fb0d51c037"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/App.tsx",
+          "bytes": 1296,
+          "sha256": "c76a9a6ff401feaf481ddc7d83f1dffa7a6437fdeca72bae907c2dafeecaa8b8"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/AIChatBox.tsx",
+          "bytes": 11186,
+          "sha256": "df52d332846e1f81a09d3166880e005319bad11cc22b201c4fca8bcc5ed31419"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/DashboardLayout.tsx",
+          "bytes": 9260,
+          "sha256": "c3208ed0c563d9e28418a18ef9c19791f618a3967f66c6d21b861f85fcc66ebf"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/DashboardLayoutSkeleton.tsx",
+          "bytes": 1674,
+          "sha256": "778c7f0d47dbda46a404aaa3779690871791c90761ed35e91c380d7670b57c36"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ErrorBoundary.tsx",
+          "bytes": 1750,
+          "sha256": "b1c26f7bfd1fd3af76b47746a12065c170834e1878d23951276fd691fa1bd80f"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ManusDialog.tsx",
+          "bytes": 2521,
+          "sha256": "653de39d6b12e64b3d3c77ea037d14d8687cfbb7a4d3c4a82acf65e2e34eb7a9"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/Map.tsx",
+          "bytes": 5087,
+          "sha256": "5a6db64e6a1c507c96e43afe48c58adf9d8c1a18d9b86ebefb56ceefcf636b7e"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/accordion.tsx",
+          "bytes": 2112,
+          "sha256": "06897d471a9d554f7006ae506ce0e9e734bcdcb9358f09426118f6f21d42bd92"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/alert-dialog.tsx",
+          "bytes": 4021,
+          "sha256": "a55a8c343bc4c757089da1551e104027b67a5613a3eef3d28000f0056c25c4d1"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/alert.tsx",
+          "bytes": 1688,
+          "sha256": "4afab4d9f1df47a28025138d0dc8b471e6f9d051130b54ab9328ad7ed8da3d00"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/aspect-ratio.tsx",
+          "bytes": 278,
+          "sha256": "21be6da88512ee86d8f4e839d2ec54477c8f3a764875c754528ec612fd599918"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/avatar.tsx",
+          "bytes": 1141,
+          "sha256": "34b98f70799cdb2400d646951f9b26bbe3fd760c224c513a057cffc3767eb4a1"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/badge.tsx",
+          "bytes": 1685,
+          "sha256": "b88d7a949c8b5536f9c121a942dd3fdb9b5d510e5d3899269e86a0a21e33afba"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/breadcrumb.tsx",
+          "bytes": 2480,
+          "sha256": "993dac1740ea729ef4a89e0f0f2607d2d6022bfa4915d8dae20177c2d7c8cfec"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/button-group.tsx",
+          "bytes": 2303,
+          "sha256": "9597be343f5641886cc46b77a5a84cdaaaa271e0158d9ce4b382f95856c2adfe"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/button.tsx",
+          "bytes": 2157,
+          "sha256": "696e34043a0df5df5485dec347501c88afad76b17008fbb614a9dfacc5ed985d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/calendar.tsx",
+          "bytes": 7874,
+          "sha256": "6d9afceb4a01b480d47dca665637ca45ccbb214b09e30829c75d8e590c4cacfc"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/card.tsx",
+          "bytes": 2089,
+          "sha256": "fb98e5af912e14fca9dd142b7f89f5ebabd63644613947845b75b1c08f3b45be"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/carousel.tsx",
+          "bytes": 5842,
+          "sha256": "2d9049c5817732f9b1be43388910c2d20d8ad0945c115e20e169176c0e98550c"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/chart.tsx",
+          "bytes": 10468,
+          "sha256": "3afd6d7ac4c33c042a5d3201e0cc54f96e767f00b94be7e11f382b0821d9c280"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/checkbox.tsx",
+          "bytes": 1248,
+          "sha256": "4bf1793ed5696a13a3736b2376e0728dd894bd43542dc357182f3d619a0451bb"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/collapsible.tsx",
+          "bytes": 822,
+          "sha256": "2447e438564fc72fa1f40eca73d62f77c09aa952a553eb57090c337f0d5a9bf6"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/command.tsx",
+          "bytes": 5022,
+          "sha256": "3feeae4429e35917c7ea50e32dd85a108562e6b62f52a367be4633c416766db2"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/context-menu.tsx",
+          "bytes": 8534,
+          "sha256": "5507d22f5c37052703740387df7e2887722b6a0694120ab7250a0787add0690d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/dialog.tsx",
+          "bytes": 6233,
+          "sha256": "af46678995137e68c91eee6f13243161633e0581bcf5f7281f6dbcc9bd823225"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/drawer.tsx",
+          "bytes": 4388,
+          "sha256": "c3c11eea12169fb169dc578fab9ac9d4bb3491432189a2c224cb4a5ce7db5d46"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/dropdown-menu.tsx",
+          "bytes": 8689,
+          "sha256": "1aaad3d028f845dea82b8c6f1202bd05cfeb46f43396ff51fff0be46a4913050"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/empty.tsx",
+          "bytes": 2510,
+          "sha256": "07ef0f8f6e16c9ed7c3d2fdeeced96cae3cef8f42b8fd8d74fc768965c9a7cd7"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/field.tsx",
+          "bytes": 6299,
+          "sha256": "ae477d495b3ecb2b35855c8833e8e2f432b60970cc52f3314e8d67fa27013c8d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/form.tsx",
+          "bytes": 3969,
+          "sha256": "2b39c7f412bfb2a1c831c5926b07b96795d30f22470325cc56d16c99d7780ce0"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/hover-card.tsx",
+          "bytes": 1567,
+          "sha256": "c95bf7b74335750039dbeaae260e663e107ef61c97c127c5fb12f1e78d7b0d9b"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/input-group.tsx",
+          "bytes": 5234,
+          "sha256": "f2ab93326bfa7b4c61136e9b5869e96437fa6c157f54eb45ffc7ac0c64d610f0"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/input-otp.tsx",
+          "bytes": 2328,
+          "sha256": "748e38558d836dabbb2cecb25ae8fc2f9c2ad3ecb18c5afa8b9e05a5f726bea8"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/input.tsx",
+          "bytes": 2798,
+          "sha256": "a9d98503153f4b628d45a6d2b84978c32ed19df1997fa39b642f9d79a7df69f5"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/item.tsx",
+          "bytes": 4706,
+          "sha256": "b61a2a5187628dfd5c16b02071e03d36a14157766cf0889a4a12736ff071cf77"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/kbd.tsx",
+          "bytes": 894,
+          "sha256": "adfc943949b1a889bac7ba08857d662a3738a5190d6a7a61c16baf72e17199e8"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/label.tsx",
+          "bytes": 624,
+          "sha256": "6d336a2d346145cacda629b44f6ea2b7a39847d8c1aa08a0b24a29cc7b24b557"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/menubar.tsx",
+          "bytes": 8679,
+          "sha256": "8abd2d13955e5cc0a888273203c56470fbece6775f8388fea8b8c45350566b7d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/navigation-menu.tsx",
+          "bytes": 6848,
+          "sha256": "15596c184abc7ccd3ffbb3895edab1e4bec0dd5ebdfbaeb58012530dc83a52dc"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/pagination.tsx",
+          "bytes": 2853,
+          "sha256": "72f26fcd0747ce5180ba9bf2931fe7dc133649d4ccb0af372dc2a57b70a712c8"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/popover.tsx",
+          "bytes": 1675,
+          "sha256": "344e67a635fefb999fe3908492118a4e06edbacd09cc5dcee0500686a7c41ad0"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/progress.tsx",
+          "bytes": 760,
+          "sha256": "a4e4a61a0028bee6fd7e4ca72f1f2d65a7bdc7396050a5ec775fb824e4d13ce9"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/radio-group.tsx",
+          "bytes": 1502,
+          "sha256": "e1316e88dde857beece2a4e396e61650f757345900a207b2a7c975a6358c3507"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/resizable.tsx",
+          "bytes": 2077,
+          "sha256": "34a06ab0226c4a3fe835add3d27e7f74d280d8c8ef4a86e3b6929bd1404d84ff"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/scroll-area.tsx",
+          "bytes": 1693,
+          "sha256": "cdbee78ff47e9bc0d9afc61d22bce6f7b7cc4db68c2372c04f6e8e72345dda43"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/select.tsx",
+          "bytes": 6482,
+          "sha256": "3d6768ce8d03a4965deaa3a302bb9ade5ef952c11e79e15c43da73c3b81ba11e"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/separator.tsx",
+          "bytes": 716,
+          "sha256": "f3633ff9b8801b2d0f771427f8057a4be9dfa945237ad91d090ea8737856632e"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/sheet.tsx",
+          "bytes": 4246,
+          "sha256": "11f2ea890d9ad3b46929eb7f069ded5c689ac94b513735ee1edcd19e0825ba18"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/sidebar.tsx",
+          "bytes": 22681,
+          "sha256": "fff0921ddbfa31e96a82d931fb4ae085338593dcd5fce234db0d590abaf90152"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/skeleton.tsx",
+          "bytes": 292,
+          "sha256": "fad980d20de58e1e82a4510723f2c7ce951c70060cbdb198d69c222e81410601"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/slider.tsx",
+          "bytes": 2049,
+          "sha256": "daa4578c395b3520c06c2227abd9ceb6cab6f2620d8aa572c4a6959e43f0a165"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/sonner.tsx",
+          "bytes": 584,
+          "sha256": "113477b1ad4a5e202dd211dc9fbff7dbf9533a21929940dd596684aeaa17542b"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/spinner.tsx",
+          "bytes": 351,
+          "sha256": "9e77b418f3b4bab43c67c7965d51606c20d3ad97efd71e417a24fd0cf31170f4"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/switch.tsx",
+          "bytes": 1197,
+          "sha256": "78bc979818857bcae8df6aac28811529879c297eb0b4c476eca292e431cd3516"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/table.tsx",
+          "bytes": 2559,
+          "sha256": "64bcf4146dbc44aa630d0f841efb2ea4995e03218a1797bd0125539849d54d9f"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/tabs.tsx",
+          "bytes": 2027,
+          "sha256": "63eeed33979ca27dae5b8bfcfb91c678ca159d3890eb2ef3afb008868cba3895"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/textarea.tsx",
+          "bytes": 2680,
+          "sha256": "0ae7c5c5d8717858c3814ff962fe14220caec6a0cebee962edfe03b7c3c2bfab"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/toggle-group.tsx",
+          "bytes": 2009,
+          "sha256": "4639efd79f99adb8cf32f39d3a676141cf3fb584ecab9a80f60d39969c78dda4"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/toggle.tsx",
+          "bytes": 1608,
+          "sha256": "c76c9b4de0e8ec4f6f361501df4be1dca4ee14421d66ef425a180f34c99e8710"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/components/ui/tooltip.tsx",
+          "bytes": 1945,
+          "sha256": "480182cd46ec750e9642730d2bd9ad3447e63a8673675570a6bd2a0f02a0d7bf"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/const.ts",
+          "bytes": 1496,
+          "sha256": "15867579d6e028e5b6c7a15d51210a35c23e1aa8fc25331f16677744e3bf5eb5"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/contexts/ThemeContext.tsx",
+          "bytes": 1531,
+          "sha256": "4880f274c840349923d61e5bd71fa4cb085fc3ae0b5a10c85d6a4c6fbff8ea65"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/hooks/useComposition.ts",
+          "bytes": 2414,
+          "sha256": "9bc595fbef15b83697c02444b52788ff6cff7bc12313c14718bac0e9a7a04d8e"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/hooks/useMobile.tsx",
+          "bytes": 605,
+          "sha256": "049af00eaaa8e81f03190edfb1efdce7143a83c70b10254b82dbc18efb55e64f"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/hooks/usePersistFn.ts",
+          "bytes": 491,
+          "sha256": "ad67a1875da1598ca0422d253884035fe2660497ecd97429afa84078be3b8843"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/index.css",
+          "bytes": 22454,
+          "sha256": "847cee439f9549e14b513546fad7cc0942c93cc887bdea9690e8f4d4c77e733f"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/lib/trpc.ts",
+          "bytes": 166,
+          "sha256": "7dcd66f834423063bb8916887bc51e4373670d644cacf58cf6498bd843c1e658"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/lib/utils.ts",
+          "bytes": 175,
+          "sha256": "c0adf27efbfa148d5abcf99e860f8e3e6c8fc77a1f99e023c08ef4f12e6ece29"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/main.tsx",
+          "bytes": 2668,
+          "sha256": "1ee4ba739985271e17270a9a49295b5f55fd9b94cbc9784d6455d4062b676ab4"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/pages/ComponentShowcase.tsx",
+          "bytes": 59752,
+          "sha256": "6d6a09afdd078056d0fcf0f536265de041c7b91b2ebf6d4e95a26937c7686e50"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/pages/Home.tsx",
+          "bytes": 34288,
+          "sha256": "a9b6deff96b6fea2ba50ec8a35027c0adedfc52861b2f177db0a941dfa45dbdf"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/client/src/pages/NotFound.tsx",
+          "bytes": 1871,
+          "sha256": "bfef2432e7eff0ff7148d8ab83a23e1b49910eb70ddaf3a8db7a28216124eca5"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/components.json",
+          "bytes": 407,
+          "sha256": "0abe5eeb393ce0fe9b77d63d23982f4d024512875e24de1e48680421b70eee49"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/drizzle/meta/_journal.json",
+          "bytes": 221,
+          "sha256": "b08400ff4b516f22550870d2bb460c7c3ea0b23c79a06b7956388ed2022ebfa9"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/drizzle/migrations/.gitkeep",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/drizzle/relations.ts",
+          "bytes": 28,
+          "sha256": "e3b95226a89bfe02538dd3428d9bdff9fb029331ad3115f35b64eab5de0adf9e"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/drizzle/schema.ts",
+          "bytes": 1193,
+          "sha256": "8555bd21e73c653d32f83d0dfe736783715d6bf7a6844e38b44274944205a087"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/drizzle.config.ts",
+          "bytes": 368,
+          "sha256": "a7668ecbff54ac16d40655cba1bf923af0c184c9dec39577c4c7aef26de3c53d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/LICENSE",
+          "bytes": 1091,
+          "sha256": "28ff4312712bb48f476f80d1845a12ce74c64886b37f95729669a51c3a2c7613"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/package.json",
+          "bytes": 4314,
+          "sha256": "ec01cd9439c98c57619072f67958010ac12aa2c88c782996632f33fc3985265c"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/patches/wouter@3.7.1.patch",
+          "bytes": 946,
+          "sha256": "a5a73667ef498e901fffb04bd6f64c83682966ab73e8bcde1255fd87800ceccb"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/pnpm-lock.yaml",
+          "bytes": 349784,
+          "sha256": "7f66f4d40c7cddb66c914e2e4b28cb0808f8503bacc45adfaf12f7b854448e16"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/README.md",
+          "bytes": 7809,
+          "sha256": "51752c04b718e72fad9b048b2422103db8a47aad32ca45e75b73e249d54ab436"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/screenshots/document_preview.png",
+          "bytes": 754504,
+          "sha256": "c1881df74ad30d7fdfab719bcfb3223b2de94ea4402ebacf6bda2cb8b7f2f4d6"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/screenshots/hero.png",
+          "bytes": 843990,
+          "sha256": "e0fe74c4faf674152707bf25e90237172f28015a2908ed6675e7d6e88991d3ec"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/screenshots/json.png",
+          "bytes": 1043202,
+          "sha256": "a458a1157a0b4306a890afa4b66c5baf416c0b60c40e9d41865d5beceef9273d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/screenshots/results.png",
+          "bytes": 843990,
+          "sha256": "e0fe74c4faf674152707bf25e90237172f28015a2908ed6675e7d6e88991d3ec"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/screenshots/upload.png",
+          "bytes": 704922,
+          "sha256": "57cae809279c1a349a87a101fe41f9bd0b792360dd4dc2631cb290598aaf4327"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/context.ts",
+          "bytes": 686,
+          "sha256": "68724aff3695948d090dd61830e1c0cc16a5e52665237a53afe93dc6da7b713a"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/cookies.ts",
+          "bytes": 1347,
+          "sha256": "3558be3746da9a24341156535bdb832131eb7c60e2e169d901c50099275c43ac"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/dataApi.ts",
+          "bytes": 1963,
+          "sha256": "0ed6e959fe7736a9c256042af855cb4b35a69c021acf4f171451f55638a0e73c"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/env.ts",
+          "bytes": 438,
+          "sha256": "3f05d91d4f57acd3d2707dfe27c23508a15485a96645e590e90a375d197f6217"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/heartbeat.ts",
+          "bytes": 6997,
+          "sha256": "961a661fb96ec758707bbf7f514fa218deed45785a61aadde9c18e3062a3078c"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/imageGeneration.ts",
+          "bytes": 4618,
+          "sha256": "5d3cda6e94c14b46ff86bd56a6916af832306738ec91894f24fa7f95b9ca689b"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/index.ts",
+          "bytes": 2170,
+          "sha256": "f29f36fde069f1b161a27cdd6f618e05c3bcd887863d79bb435d43b214b4fe61"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/llm.ts",
+          "bytes": 11232,
+          "sha256": "e6648dceda97d0aa495133743bf1c6ffcb2090b1d0aaffac4aa37d464f17879a"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/map.ts",
+          "bytes": 9470,
+          "sha256": "ee3d232efe911c892dd1ef4a16e9ba3cea410e975c87a6bfa27a4559d2ea4725"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/notification.ts",
+          "bytes": 3253,
+          "sha256": "2c8802756ae6fac84584729729a43e13fc932331f0830695f15a6ab3f68fcefb"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/oauth.ts",
+          "bytes": 2494,
+          "sha256": "3b1036f2a8c3a5f83df6149c48a5ed17534dfd7e2260e8cd4d91ce206999b753"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/sdk.ts",
+          "bytes": 10404,
+          "sha256": "7af4fbadb0487201ad4c11d1023e85ee23b3a2213ca5d00d0661c4c0097bf273"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/storageProxy.ts",
+          "bytes": 1440,
+          "sha256": "dbf14d16d8c1c25a257a7d2c6bf2ffc250ea97858301583e8ed8224c22511b86"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/systemRouter.ts",
+          "bytes": 738,
+          "sha256": "f7299d0a1b2fcdc57852d754563bf86423e5859bc3bb3f93a2669e799dc4fb6c"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/trpc.ts",
+          "bytes": 1078,
+          "sha256": "f9de0f1ad0d0b4d3613da02be3c2946d63d8af3c661aceba0998077269e42ac6"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/types/cookie.d.ts",
+          "bytes": 143,
+          "sha256": "92bc746b44799a8b4dd9feae71a0438bf79877d6667f72bc0db5e05c89b8eeec"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/types/manusTypes.ts",
+          "bytes": 1477,
+          "sha256": "94e2e98e118a0519787d3fd074fd3a9b1b0caa0fd2175ae13cc34dc15ed6a6a2"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/vite.ts",
+          "bytes": 1968,
+          "sha256": "445725fac53537c6348e77bbe735203a7caf783236b605cc5f5371c8cbce2c39"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/_core/voiceTranscription.ts",
+          "bytes": 8391,
+          "sha256": "e2092e942846e7ecf6eeab664adf7cdbff174336bd999b8fa16619f36aaf3d91"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/apiHandler.ts",
+          "bytes": 361,
+          "sha256": "d231170c6cdc2bceb27fbae57254fdafae956386087bed3040cd1ec6bd8c3028"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/auth.logout.test.ts",
+          "bytes": 1687,
+          "sha256": "5cf2b812b157b952665d3ffa96e5afb0f7c232f9da63dec197dfb2fa077357ef"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/db.ts",
+          "bytes": 2546,
+          "sha256": "7108c8089b839f1f45fcd7e9e2678c558761bfd2e0720a06cede6d251275b4b9"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/fixtures/empty.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/polyfills.js",
+          "bytes": 816,
+          "sha256": "c0e11f90547991706679df73f881071ac3281147fc96dea90f3de24cf52fcf97"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/resumeParser.test.ts",
+          "bytes": 5187,
+          "sha256": "46372cb8a4f32f1ff2dcba45ebe64f2c76b94ef1ce9097dfe2fa7abd7b7a1743"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/resumeParser.ts",
+          "bytes": 16438,
+          "sha256": "ae6531021f23c2098d75f4ac4a0b941be134b334b84f378ad01a2ed2a270f727"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/resumeRoutes.test.ts",
+          "bytes": 4464,
+          "sha256": "3059517ff8321a812f37aa787fa9a3f2422b6bfbc2267d8151eed1d22d3588f3"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/resumeRoutes.ts",
+          "bytes": 7011,
+          "sha256": "3090f1e56c932ebc049310999847adf747716c0b3be0f83e25d1be16795947bd"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/routers.ts",
+          "bytes": 832,
+          "sha256": "cc8c44e745b5d14a55bac972d04255b2d40b85c74758c2af0ea2b250825d8ca0"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/server/storage.ts",
+          "bytes": 3149,
+          "sha256": "f4a01b879935fdeac7ffce8b0c7162d5c8acad3e9988c7209f01ef3662237552"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/shared/_core/errors.ts",
+          "bytes": 620,
+          "sha256": "b28f5546606f9dc52b277b9bf74da8d7dea9484b01fa237e0a8602aef865a7f2"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/shared/const.ts",
+          "bytes": 1586,
+          "sha256": "e2955847b5644696d44a6391f25a168cfe62a045ce758d02d698dfc3104ae343"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/shared/types.ts",
+          "bytes": 165,
+          "sha256": "4a7d92369909ebda19cfc16d701377553dceb48441f9efd9a2b48727c5bb741c"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/template.json",
+          "bytes": 15380,
+          "sha256": "1e933b54b68dcefc34017e86559f6653cef651f3ac1c50ff89d813de6aa50f5d"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/todo.md",
+          "bytes": 2665,
+          "sha256": "d39c6d1d7b451b0d1772517020c5d0b9a72661d2853e7f99ac0806ec9de15548"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/tsconfig.json",
+          "bytes": 680,
+          "sha256": "7ab79cf0b65a51172593b516da44104bcda9f281dfb5d496000340a1526a5109"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/vercel.json",
+          "bytes": 483,
+          "sha256": "f55bb1163b67ba64680183f14bd61fbae137b0b3a11cc493f5dbd6289144059b"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/vite.config.ts",
+          "bytes": 5952,
+          "sha256": "3690a426939ef9f03eed4c81a6b24365f56c855232c4144e7307c4d3f940ed47"
+        },
+        {
+          "arquivo": "docs/referencias/ats/repositorios-local/parser-deterministico-publico/vitest.config.ts",
+          "bytes": 518,
+          "sha256": "d2bd4f57cf69ded00f0f7ce35cb7929b5b9283a66f204058c05aed3fdfeeed77"
+        }
+      ]
+    }
+  ]
+}

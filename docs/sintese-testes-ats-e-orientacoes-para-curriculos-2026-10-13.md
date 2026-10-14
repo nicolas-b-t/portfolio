@@ -1,0 +1,291 @@
+# Síntese dos testes ATS e orientações para currículos
+
+Data dos testes e da consolidação: 13 de outubro de 2026.
+
+Esta síntese reúne os testes e sua aplicação ao portfólio e a futuros currículos do responsável.
+ATS identifica sistemas de acompanhamento de candidaturas.
+O parser é o componente que extrai texto e organiza dados do currículo.
+
+Os testes demonstraram leitura local do conteúdo e identificaram erros de interpretação.
+Eles não demonstraram compatibilidade universal com sistemas proprietários, aprovação em vagas ou efeito sobre a seleção de candidatos.
+
+## Evidências e escopo
+
+A análise abrangeu o currículo pt-BR e sua exportação TXT.
+As demais páginas e traduções permaneceram fora desta revisão de extração.
+Não houve teste de apresentação, CSS, tela ou teclado.
+Nenhum currículo foi enviado a um serviço externo.
+
+| Registro | Conteúdo preservado |
+| --- | --- |
+| [Inventário e comparação](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Todas as tags, contextos, correspondências e limites documentais |
+| [Resultados da extração](verificacao-extracao-ats-pt-br-2026-10-13.json) | Saídas originais, testes de controle, casos negativos e simulação |
+| [Currículo textual](curriculo-ats-pt-br-2026-10-13.txt) | Cópia UTF-8 derivada do conteúdo público, com 17 cursos únicos |
+| [Manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) | Repositórios, commits, licenças, adaptações de carregamento e hashes |
+| [Guia de uso das referências](referencias/guia-de-uso.md) | Origem dos acervos, condições de uso e recuperação das fontes |
+
+Os resultados identificam a página pelo SHA-256 e registram o commit-base 6a96e0b.
+A página recebeu alterações locais após esse commit.
+Um resultado só descreve a versão, o arquivo de entrada e o parser registrados.
+
+## Leitura, interpretação e seleção
+
+| Etapa | O que verifica | Situação nesta análise |
+| --- | --- | --- |
+| Leitura | Bytes, acentos, texto, separação dos itens e ausência de perda | Conferida no HTML e no TXT |
+| Identificação de campos | Nome, contatos, cargos, empresas, datas e formação | Resultados parciais nos parsers públicos |
+| Normalização de termos | Nome encontrado, nome normalizado e identificador do catálogo | Comparação documental e taxonomia do segundo parser |
+| Associação de contexto | Atividade pessoal, atividade da equipe, apoio e conteúdo curricular previsto | Conferida na simulação baseada no HTML |
+| Correspondência com vaga | Requisitos, níveis, pesos e critérios da empresa | Não testada |
+| Seleção de candidatos | Aprovação, classificação ou decisão de recrutamento | Não testada |
+
+Preservar o texto é necessário para os campos seguintes, mas não comprova sua interpretação correta.
+Um parser pode recuperar tecnologias e ainda perder cargos, instituições ou datas.
+Uma instituição de curso complementar pode ser identificada sem que a graduação seja recuperada.
+
+## Resultados consolidados
+
+| Ensaio | Resultado observado | Limite da conclusão |
+| --- | --- | --- |
+| Dois leitores HTML independentes | HTMLParser e lxml extraíram as mesmas 161 tags, na mesma ordem | Leitura de HTML não representa interpretação por ATS proprietário |
+| Inventário | 108 tags de habilidades, 21 conteúdos previstos da graduação e 32 tags de projetos | São 161 ocorrências e 145 rótulos distintos. A contagem não mede domínio |
+| Comparação com o acervo | Seis nomes aplicados elevaram as igualdades textuais de 24 para 30 | As contagens não são taxas de compatibilidade ou aprovação |
+| Primeiro parser público | Recuperou nome e e-mail após ajustar a ordem do TXT | Não reconheceu habilidades, experiências ou formação em português |
+| Segundo parser público | Recuperou nome, e-mail, perfis pessoais e 11 tecnologias após refinar o TXT | Não recuperou as três experiências nem a graduação na Fatec |
+| Cursos | O HTML contém duas cópias equivalentes de 17 cursos. O TXT contém uma cópia | Um leitor que ignora CSS pode recuperar 34 ocorrências do HTML |
+| Simulação contextual | Preservou campos, períodos conhecidos, contextos, níveis e formação em andamento | Lê a estrutura do HTML. Não reproduz a interpretação de texto livre de um fornecedor |
+| OpenCATS legado | A reprodução de cleanText perdeu caracteres não ASCII em UTF-8 | O serviço SOAP não foi chamado. O resultado se limita ao algoritmo local reproduzido |
+| Código local do Odoo | Associa habilidades por skill_id | A inspeção não comprova associação automática de nomes extraídos ao cadastro |
+
+O primeiro parser foi executado no commit 76f35bc5406276f5d7f1bfa0f8d60e2682d8df28.
+O segundo foi executado no commit b35512d5fa5fc5dddd39aeaeff2df3dfa4da6746.
+O manifesto registra os dois repositórios e as condições das cópias locais.
+
+No segundo teste, dois imports de leitores PDF/DOCX foram omitidos na cópia de execução em memória.
+O Node.js retirou os tipos TypeScript. As regras da rotina textual permaneceram iguais.
+PDF, DOCX, servidor e frontend não foram executados.
+O teste não representa a aplicação completa do fornecedor desse parser.
+
+Os controles em inglês confirmaram que as rotinas executavam e recuperavam os exemplos esperados.
+Esses controles não demonstram cobertura do português.
+As falhas nos currículos pt-BR foram preservadas nos resultados.
+
+## O que cada fonte permite concluir
+
+| Fonte | Aplicação válida | Limite |
+| --- | --- | --- |
+| Odoo Recruitment 19.0 | Consultar nomes, IDs e regras do cadastro de habilidades | O acervo inclui registros iniciais e demonstrativos |
+| ESCO v1.2.1 | Consultar conceitos, definições, rótulos e aliases ligados por URI | É uma classificação externa. Um conceito pode ser mais amplo que a atividade declarada |
+| O*NET 31.0 | Consultar nomes de software e referências ocupacionais | Não é uma lista universal de termos aceitos por ATS |
+| Sólides | Consultar nomes de hardSkills publicados em quatro vagas | Os nomes e níveis pertencem às vagas, não ao responsável |
+| Nesta e ESCoE | Consultar vocabulário de pesquisa derivado de anúncios | Não constitui catálogo comercial de ATS |
+| Exemplos RChilli, Textkernel e Lightcast | Examinar exemplos documentados e aliases publicados | São seis exemplos, sem consulta executada ao catálogo integral |
+| Guias editoriais e AIResume Guru | Apoiar a redação e a pesquisa de nomenclaturas | Menções e termos relacionados não comprovam equivalência ou reconhecimento por um parser |
+| Parsers públicos executados | Observar extração de campos nas versões e entradas registradas | Seus resultados não representam Gupy, Sólides ou outros sistemas proprietários |
+
+Uma igualdade textual inclui apenas caixa e espaços normalizados nesta comparação.
+Versões, acentos, fabricante, pontuação e palavras adicionais permanecem distintos.
+Um alias só é documental quando a fonte o registra expressamente.
+Uma relação editorial ou parcial conserva essa classificação.
+
+O campo synonyms do dataset editorial inclui tecnologias relacionadas.
+Ele não foi usado como conjunto automático de equivalências.
+Níveis profissionais do dataset e requisitos das vagas não qualificam o responsável.
+
+## Aplicabilidade ao portfólio
+
+### Tecnologias e nomes
+
+Os nomes específicos identificam produtos, equipamentos e atividades que uma categoria genérica pode omitir.
+A revisão preservou tecnologias declaradas e recuperou equipamentos, conectores, ferramentas e atividades do histórico confirmado.
+A ausência de um nome no acervo não demonstrou rejeição por ATS.
+
+| Nome anterior | Nome aplicado | Evidência |
+| --- | --- | --- |
+| Windows | Microsoft Windows | O*NET |
+| ChatGPT | OpenAI ChatGPT | O*NET |
+| Apache | Apache HTTP Server | O*NET, no contexto de servidores web |
+| Nginx | Nginx web server | Alias inglês ESCO de um conceito mais amplo de servidores proxy |
+| Amazon Web Services (AWS) | Amazon Web Services AWS software | Rótulo da O*NET |
+| Microsoft Azure | Microsoft Azure software | Rótulo da O*NET |
+
+Os nomes anteriores e atuais produziram a mesma lista de tecnologias no segundo parser.
+As seis alterações aumentaram a igualdade documental, sem ganho observado de recuperação nesse teste.
+Esse resultado não sustenta acrescentar palavras a uma tag apenas para reproduzir um catálogo.
+Uma mudança futura de nomenclatura deve preservar a identidade do produto e ter uma justificativa verificável.
+
+Consultas SQL mantém o alcance da atividade declarada.
+Metodologias ágeis e Scrum permanecem separados.
+Windows 11 não foi convertido em Windows 11 Pro.
+Nenhuma certificação Scrum Master ou competência em serviços específicos de nuvem foi inferida.
+
+### Campos e atribuições
+
+O currículo conserva três experiências, três projetos e a formação em andamento.
+As datas da RealFort permanecem ausentes. A conclusão da graduação permanece prevista para julho de 2027.
+As 21 tags acadêmicas identificam conteúdos previstos, sem comprovar aprovação individual ou prática profissional.
+
+Fusão de fibra permanece no nível de aprendiz. A atuação com OTDR permanece de apoio ao diagnóstico.
+A experiência em altura continua orientada.
+N1 e N1/N2 permanecem associados aos contextos de suporte.
+
+Rodrigo permanece identificado como principal responsável pelo desenvolvimento do Optigrow.
+A aplicação e a pesquisa do SGCS permanecem atribuídas à equipe.
+A gestão do projeto permanece atribuída ao responsável.
+Recuperar uma tecnologia do texto não transfere uma atividade da equipe para uma pessoa.
+
+### Exportação para leitura
+
+O HTML permanece como fonte do currículo público.
+O TXT é uma cópia derivada para conferência e uso em sistemas que aceitem esse formato.
+Ele não substitui documentos oficiais ou arquivos restritos da cópia pessoal.
+
+O TXT coloca o nome na primeira linha e os contatos pessoais antes dos links de projetos.
+Essa ordem corrigiu a escolha do repositório do portfólio como perfil GitHub no segundo parser.
+Sete rótulos de navegação foram retirados. As URLs pertinentes e o conteúdo profissional foram preservados.
+
+O segundo parser interpretou C a partir da palavra Código.
+O TXT refinado deixou de apresentar esse falso positivo no currículo testado.
+Um teste negativo separado ainda reproduziu a falha de limite de palavra Unicode do parser.
+A correção da exportação não corrigiu o algoritmo nem demonstrou ausência de todos os falsos positivos.
+
+As duas cópias dos cursos continuam necessárias no HTML, conforme as regras do projeto.
+A exportação reúne cada curso uma única vez, com título, instituição, datas, carga horária e qualificação preservados.
+Tags repetidas em contextos profissionais, acadêmicos ou de projetos não foram removidas por repetição lexical.
+
+## Procedimento para futuros currículos do responsável
+
+As instruções seguintes derivam dos resultados locais e de verificações de integridade.
+Elas não são requisitos universais dos sistemas proprietários.
+O idioma e o formato aceitos devem ser confirmados para cada candidatura.
+
+### Preparar os fatos
+
+1. Registre as atividades realizadas e suas fontes.
+2. Separe contribuições pessoais, contribuições da equipe e conteúdos acadêmicos previstos.
+3. Identifique tecnologias, versões e equipamentos efetivamente usados.
+4. Preserve apoio, aprendizagem, familiaridade e níveis declarados.
+5. Distinga curso, certificado de participação e certificação profissional.
+6. Mantenha datas desconhecidas como ausentes.
+7. Identifique separadamente conclusão prevista e conclusão realizada.
+8. Use os dados pessoais do próprio responsável, conforme a finalidade da candidatura.
+
+Este projeto permanece pessoal.
+As orientações metodológicas podem apoiar futuras versões, mas os dados pessoais não constituem um modelo para terceiros.
+
+### Escolher os termos
+
+1. Use uma tecnologia, competência ou qualificação por tag.
+2. Prefira nomes específicos sustentados pela experiência ou declaração recebida.
+3. Consulte a definição quando o rótulo da fonte admitir mais de um sentido.
+4. Separe correspondência literal, alias documental, variante de nome e relação parcial.
+5. Preserve conceitos diferentes em itens distintos.
+6. Registre a fonte e a justificativa de cada mudança de nomenclatura.
+7. Preserve tecnologias pertinentes sem correspondência no acervo.
+8. Use termos da vaga somente quando os fatos sustentarem seu significado.
+
+A quantidade de correspondências não é uma meta de competência ou aprovação.
+Adicionar uma palavra-chave sem evidência pode alterar a interpretação do histórico.
+O vocabulário da vaga serve para identificar conceitos pertinentes, sem ampliar a atuação comprovada.
+
+### Preparar a entrada do parser
+
+1. Confirme os formatos e idiomas aceitos pela plataforma.
+2. Coloque o nome antes do resumo profissional.
+3. Liste contatos pessoais antes dos links de projetos.
+4. Separe o perfil pessoal dos repositórios e sites de projetos.
+5. Retire comandos de navegação da cópia de candidatura.
+6. Preserve acentos e identificadores técnicos em UTF-8, quando o formato admitir essa codificação.
+7. Confira cada curso uma única vez na exportação.
+8. Separe instituições de cursos complementares e instituições da graduação.
+9. Preserve a indicação de formação em andamento.
+
+Se a plataforma aceitar TXT, use uma exportação conferida.
+Se exigir PDF ou DOCX, confira a extração do arquivo final nesse formato.
+Os testes desta análise não comprovam a leitura desses formatos.
+Não traduza todo o currículo apenas para satisfazer um parser limitado a cabeçalhos em inglês.
+
+### Verificar os dados extraídos
+
+1. Compare o nome, o e-mail e os perfis recuperados com os dados de origem.
+2. Confira a associação entre cada cargo e sua empresa.
+3. Confira os períodos de cada experiência.
+4. Verifique a instituição e o estado da graduação.
+5. Confira títulos, instituições, datas e cargas horárias dos cursos.
+6. Verifique o contexto de cada tecnologia recuperada.
+7. Confira se observações e limitações permaneceram associadas à atividade correta.
+8. Registre omissões e dados atribuídos incorretamente.
+9. Preserve as saídas antes e depois de corrigir a entrada.
+
+Um campo ausente pode representar uma limitação do parser ou um dado não declarado.
+Um campo recuperado também pode estar associado à pessoa, ao projeto ou à formação incorretos.
+Nenhum desses casos deve ser convertido automaticamente em uma aprovação do teste.
+
+### Usar controles e casos negativos
+
+| Entrada de controle | Interpretação que deve ser rejeitada |
+| --- | --- |
+| JavaScript | Java, por coincidência parcial |
+| PostgreSQL | SQL, apenas por conter as mesmas letras |
+| GitHub | Git, apenas por coincidência parcial |
+| Scrum | Scrum Master ou certificação profissional |
+| Windows 11 | Edição Pro não declarada |
+| Consultas SQL | SQL Server ou administração completa de bancos |
+| Código, em uma frase comum | Competência na linguagem C |
+| Instituição de curso complementar | Instituição da graduação |
+| Conclusão prevista | Graduação concluída |
+| Repositório de projeto | Perfil pessoal GitHub |
+| Atividade da equipe | Atividade individual não declarada |
+
+Os controles devem corresponder a dúvidas reais sobre a entrada ou o algoritmo.
+O registro deve distinguir um erro observado de um risco ainda não testado.
+Uma frase que cite uma tecnologia não demonstra automaticamente competência pessoal nessa tecnologia.
+
+## Manutenção das evidências
+
+1. Identifique o arquivo de entrada e seu SHA-256.
+2. Registre repositório, commit, versão, licença e configuração do parser.
+3. Descreva adaptações de carregamento e rotinas que não foram executadas.
+4. Preserve as saídas originais, inclusive falhas e campos vazios.
+5. Separe execução de parser, inspeção de código e simulação.
+6. Atualize a exportação quando o currículo de origem mudar.
+7. Atualize o índice e os registros afetados.
+8. Mantenha fontes, licenças e manifestos nas condições já registradas.
+9. Remova auxiliares de execução depois de preservar as evidências necessárias.
+
+Os clones completos dos parsers permanecem em referencias/ats/repositorios-local/, fora do Git.
+As licenças e o histórico recebidos permanecem com as fontes.
+Scripts de manutenção e de fornecedores não integram static/.
+Os documentos do projeto continuam sujeitos às [orientações gerais](../AGENTS.md).
+
+## Limites para decisões futuras
+
+Os testes locais não produziram um catálogo integral de ATS brasileiro nem executaram um parser proprietário.
+Não foram obtidos resultados de candidatura, pontuação, classificação ou decisão de recrutamento.
+A distribuição pública de avaliação do Affinda foi localizada, mas não executada por ausência de Docker neste ambiente.
+
+As falhas dos dois parsers públicos não representam todos os sistemas que aceitam português.
+A simulação contextual não comprova o funcionamento de modelos ou taxonomias fechados.
+A igualdade documental não demonstra qualidade da identificação de cargos, datas ou formação.
+
+Quando um sistema específico estiver disponível, confira a entrada e os campos devolvidos por esse sistema.
+Enquanto essa evidência não existir, descreva os resultados como verificações locais de leitura e interpretação, com os limites registrados.
+
+## Ensaio posterior de dados ocultos — 14 de outubro de 2026
+
+O responsável autorizou um bloco hierárquico oculto no início da página pt-BR, sem alterar a exportação.
+Os dois parsers continuaram sem recuperar experiências e graduação. O bloco melhorou nome e perfis somente quando incluído na entrada.
+O resultado não atendeu à condição de commit e push. As alterações ficaram locais, aguardando decisão.
+O [ensaio posterior](ensaio-curriculo-oculto-pt-br-2026-10-14.md) registra condições, duplicações e próximos passos.
+As contagens e hashes dos testes de 13 de outubro descrevem a versão anterior a esse bloco.
+
+Depois, o responsável solicitou testes até recuperar experiência e formação.
+As rotinas originais do cvats recuperaram três experiências e a graduação após refinamentos no bloco oculto.
+Os cargos originais permanecem nas atividades. Aliases ingleses ajudam a identificação dos cargos pelo parser.
+A graduação preserva início, conclusão prevista e formação em andamento.
+Quatro controles de remoção e troca de dados confirmaram recuperação a partir das entradas.
+
+O positivo se limita à leitura dedicada do bloco, em linhas lógicas derivadas do HTML.
+O DOM completo e a entrada que exclui hidden continuaram negativos.
+Os campos de posições da API receberam valores sintéticos. Nenhum PDF ou navegador foi usado nesse ensaio.
+O [ensaio consolidado](ensaio-curriculo-oculto-pt-br-2026-10-14.md#planejamento-e-resultado-positivo-no-cvats) registra o plano, as alterações, o resultado e seus limites.
