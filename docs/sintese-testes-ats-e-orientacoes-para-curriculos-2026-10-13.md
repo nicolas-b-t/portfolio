@@ -361,3 +361,23 @@ A leitura da página inteira e a variante que exclui hidden não foram reavaliad
 Não houve testes de tela, teclado, impressão, PDF ou DOCX. Nenhum ATS proprietário foi executado.
 
 O [teste após a aplicação](verificacao-aliases-ocultos-pt-br-2026-10-14.json) preserva a entrada atual, saídas, controles, fontes e hashes.
+
+### Lista única para consulta
+
+O responsável adotou uma lista única, mantida manualmente. A pasta solicitada é Lista_de_tags, na raiz do projeto.
+A [cópia de consulta](../Lista_de_tags/lista-geral-alfabeto-latino.txt) contém os dados públicos do bloco oculto pt-BR.
+Ela preserva as 170 ocorrências de tags, os contextos, as experiências, a graduação, os 17 cursos, o TOEIC e os projetos.
+As demais traduções ainda não foram acrescentadas. Quatorze arquivos para outros sistemas de escrita foram criados vazios.
+
+O cabeçalho informa o propósito da lista e orienta preservar nomes, datas, qualificações, contextos e atribuições.
+Ele aparece no início da cópia TXT. No HTML, aparece depois do nome, ainda no início do bloco oculto.
+Essa posição manteve a identificação correta do candidato nos dois parsers públicos anteriores.
+As instruções textuais não alteram os algoritmos dos parsers determinísticos.
+
+As rotinas originais do cvats mantiveram as três experiências e a graduação, com os mesmos campos do ensaio anterior.
+O segundo parser recuperou as mesmas 11 tecnologias. O conteúdo visível e a exportação curricular TXT permaneceram intactos.
+O ensaio não tratou a cópia de consulta como arquivo de currículo submetido ao parser.
+Não houve testes de tela, teclado, impressão, PDF ou DOCX. Nenhum ATS proprietário foi executado.
+
+O [registro da lista geral](verificacao-lista-geral-tags-2026-10-14.json) preserva instruções, arquivos, hashes, entradas, saídas e verificações.
+O [guia da pasta](../Lista_de_tags/README.md) identifica os arquivos reservados e descreve a manutenção manual.

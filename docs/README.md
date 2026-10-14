@@ -17,6 +17,8 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [Resultado positivo no cvats](verificacao-cvats-pt-br-2026-10-14.json) | Iterações e controles da recuperação de experiências e graduação no bloco oculto |
 | [Revisão adicional das tags pt-BR](revisao-tags-ats-pt-br-2026-10-14.json) | Correspondências, candidatos a aliases e comparação da extração com os nomes atuais |
 | [Teste dos termos ingleses nas tags ocultas](verificacao-aliases-ocultos-pt-br-2026-10-14.json) | Preservação do conteúdo visível, dos dados e da extração após a inclusão dos aliases |
+| [Lista geral de tags](../Lista_de_tags/README.md) | Cópia de consulta, instruções para leitura e arquivos vazios para outros sistemas de escrita |
+| [Teste da lista geral de tags](verificacao-lista-geral-tags-2026-10-14.json) | Integridade da cópia, arquivos vazios e extração após incluir as instruções no bloco oculto |
 | [Manifesto do cvats](referencias/ats/manifesto-cvats-2026-10-14.json) | Clone, versão, licença, fontes e limites da execução |
 | [Revisão de linguagem simples pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) | Expressões vagas, repetições, propostas e limites das fontes |
 | [Relatório vigente](relatorio-verificacao-site-2026-10-13.md) | Alterações, critérios ATS, limpeza, verificações e limites |
