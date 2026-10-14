@@ -48,6 +48,9 @@ A síntese dos testes ATS centraliza a aplicação dos resultados. O inventário
 | Idiomas | [QECR e STANAG 6001](referencias/guia-de-uso.md#referências-de-idiomas) |
 | Acervo ATS | [Fontes, dicionários e classificações](referencias/guia-de-uso.md#insumos-ats-e-classificações) |
 | Declarações profissionais | [Ferramentas e atividades informadas](fontes/competencias-declaradas.json) |
+| Currículos originais | [Versões recebidas do Google Drive](fontes/curriculos/README.md) |
+| Condução internacional | [Fontes e limites do texto sobre CNH e PID](referencias/conducao-internacional.md) |
+| Links de cursos e projetos | [Instituições, destinos e decisões de redação](referencias/links-instituicoes.md) |
 | Fontes acadêmicas | [Documentos e limites](referencias/guia-de-uso.md#fontes-acadêmicas) |
 | Originais e hashes | [Manifestos](referencias/guia-de-uso.md#conferir-os-originais) |
 

@@ -196,7 +196,8 @@ Condução
 • Condução de carros
 • Condução de motos
 • CNH AB
-A CNH (Carteira Nacional de Habilitação) é a licença para dirigir do Brasil. A categoria AB permite conduzir carros e motos. A CNH é aceita em países que a reconhecem, como os do Mercosul. Em alguns países, é exigida também a autorização internacional para dirigir (PID).
+A CNH (Carteira Nacional de Habilitação) brasileira, categoria AB, permite conduzir carros e motos. Para turismo, a CNH válida é aceita em países do Mercosul, como Argentina, Paraguai e Uruguai.
+A Permissão Internacional para Dirigir (PID) emitida no Brasil é aceita com a CNH válida. Esse reconhecimento abrange países da Convenção de Viena de 1968, como Alemanha, França e Itália. A aceitação depende das regras e dos prazos de cada país.
 
 Experiência profissional
 
@@ -206,7 +207,7 @@ Vínculo: Prestação de serviços
 • Cargo declarado: Auxiliar de instalação de fibra óptica
 • Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.
 • Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.
-• Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.
+• Realizei diagnósticos de redes ópticas. Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.
 • Organizei materiais e validei os serviços com a base técnica.
 
 Help Desk Support Technician
@@ -228,10 +229,10 @@ Local: São Paulo, Brasil
 • Gerenciei e organizei ativos de TI.
 
 Formação acadêmica
-• Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027 · Formação em andamento)
+• Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027)
 
 Informações adicionais
-Conteúdos previstos no Projeto Pedagógico do Curso (PPC). Formação em andamento.
+Conforme o projeto pedagógico do curso (PPC).
 
 Conteúdos previstos da graduação
 

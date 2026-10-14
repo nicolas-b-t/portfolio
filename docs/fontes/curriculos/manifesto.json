@@ -1,0 +1,49 @@
+{
+  "recebido_em": "2026-10-14",
+  "origem": "Google Drive do responsável, pasta CURRICULO",
+  "criterio": "Quatro variantes de outubro de 2026, modificadas em 8 de outubro. A pesquisa por CV_Nicolas e a consulta à pasta não retornaram versão posterior.",
+  "condicao": "Originais completos somente na cópia local. Pasta excluída do Git e fora de static/.",
+  "integridade": "Tamanhos conferidos com os metadados do Drive. Pacotes DOCX íntegros, com word/document.xml.",
+  "arquivos": [
+    {
+      "arquivo": "docs/fontes/curriculos/originais-local/CV_Nicolas_Tarifa_OUT_2026_lateral.docx",
+      "nome_original": "CV_Nicolas_Tarifa_OUT_2026_lateral.docx",
+      "drive_id": "1FJs7Sfcu8NFk6vHRhn1VS-8-TY0xzFF9",
+      "url": "https://docs.google.com/document/d/1FJs7Sfcu8NFk6vHRhn1VS-8-TY0xzFF9/edit?usp=drivesdk&ouid=105760330986188892551&rtpof=true&sd=true",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "modificado_em": "2026-10-08T23:02:10.772Z",
+      "bytes": 38339,
+      "sha256": "916ed0ef28e631493121fb8842df8605e18ee11a4a9bf7a02be5fc063b540fa1"
+    },
+    {
+      "arquivo": "docs/fontes/curriculos/originais-local/CV_Nicolas_Tarifa_OUT_2026_uma_coluna.docx",
+      "nome_original": "CV_Nicolas_Tarifa_OUT_2026_uma_coluna.docx",
+      "drive_id": "1nnppr8hdHQrcq_CtSzyXvH6c4XNSB6bj",
+      "url": "https://docs.google.com/document/d/1nnppr8hdHQrcq_CtSzyXvH6c4XNSB6bj/edit?usp=drivesdk&ouid=105760330986188892551&rtpof=true&sd=true",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "modificado_em": "2026-10-08T22:56:49.633Z",
+      "bytes": 37882,
+      "sha256": "2e839633249c9e27753ab2a4b334421ab34d3ce1ad35ac555c4daf37d08260b1"
+    },
+    {
+      "arquivo": "docs/fontes/curriculos/originais-local/CV_Nicolas_Tarifa_OCT_2026_EN_uma_coluna.docx",
+      "nome_original": "CV_Nicolas_Tarifa_OCT_2026_EN_uma_coluna.docx",
+      "drive_id": "1o_UVNyBONX8Y6-RsytLNHf5eAQbRE6a1",
+      "url": "https://docs.google.com/document/d/1o_UVNyBONX8Y6-RsytLNHf5eAQbRE6a1/edit?usp=drivesdk&ouid=105760330986188892551&rtpof=true&sd=true",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "modificado_em": "2026-10-08T22:56:46.681Z",
+      "bytes": 37852,
+      "sha256": "5cb0c32677d418c5bf47566a997a8c0809e58d3684036b5e0230d8741dc317a4"
+    },
+    {
+      "arquivo": "docs/fontes/curriculos/originais-local/CV_Nicolas_Tarifa_OUT_2026_PT_PT_uma_coluna.docx",
+      "nome_original": "CV_Nicolas_Tarifa_OUT_2026_PT_PT_uma_coluna.docx",
+      "drive_id": "1bxkCAXm6hphxxjd_GikQc6kb1BKBxfjz",
+      "url": "https://docs.google.com/document/d/1bxkCAXm6hphxxjd_GikQc6kb1BKBxfjz/edit?usp=drivesdk&ouid=105760330986188892551&rtpof=true&sd=true",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "modificado_em": "2026-10-08T22:56:48.242Z",
+      "bytes": 37926,
+      "sha256": "8b41143b0c0a858ac6362df2106254dda9c555101684b24d73014e693388ac5d"
+    }
+  ]
+}

@@ -410,3 +410,43 @@ Não houve testes de tela, teclado, impressão, PDF ou DOCX. Nenhum ATS propriet
 
 O [registro da lista geral](verificacao-lista-geral-tags-2026-10-14.json) preserva instruções, arquivos, hashes, entradas, saídas e verificações.
 O [guia da pasta](../Lista_de_tags/README.md) identifica os arquivos reservados e descreve a manutenção manual.
+
+### Repetição após o commit 9f2b37f
+
+Em 14 de outubro de 2026, a verificação foi repetida sobre a versão 9f2b37f.
+O adaptador reproduziu integralmente as 331 linhas do ensaio anterior antes de gerar as 350 linhas atuais.
+O relatório passou a registrar a entrada atual e os resultados dos três parsers locais.
+Os hashes de texto usam UTF-8 com quebras de linha LF.
+
+O conteúdo principal contém 177 ocorrências de tags e 160 rótulos distintos.
+O bloco oculto contém 186 ocorrências e 167 rótulos distintos.
+A cópia TXT corresponde às linhas lógicas do bloco oculto, com as instruções antes da identificação.
+Os 17 cursos, as três experiências e a graduação mantiveram os dados verificados no ensaio anterior.
+Os 14 arquivos reservados permanecem vazios.
+
+O segundo parser preservou as 11 tecnologias anteriores. Ele retornou também C como falso positivo.
+Um teste isolado confirmou que o resumo sobre código aberto dispara esse rótulo.
+A expressão regular reconhece a letra c antes do caractere ó como uma palavra isolada.
+Esse resultado não comprova conhecimento da linguagem C.
+
+O resultado positivo limita-se à integridade da cópia e à preservação dos campos verificados.
+As regras dos parsers e os arquivos do site permaneceram intactos nesta repetição.
+Não houve testes de navegador, impressão, PDF, DOCX ou ATS proprietário.
+Os resultados anteriores permanecem recuperáveis pelo histórico Git e pelo acervo histórico.
+
+Após a revisão do texto sobre CNH e PID, a entrada passou de 350 para 351 linhas.
+Os três parsers mantiveram as mesmas saídas. A cópia TXT e os hashes foram atualizados.
+As [fontes e os limites sobre condução](referencias/conducao-internacional.md) registram o conteúdo sincronizado nas cinco páginas principais.
+
+Na revisão seguinte, os nomes das instituições dos cursos e os títulos dos projetos receberam links apenas em pt-BR.
+O texto do PPC passou a usar “Conforme o projeto pedagógico do curso (PPC)”.
+O responsável autorizou retirar a indicação redundante de formação em andamento, mantendo a conclusão prevista.
+O cvats manteve os dados da graduação e retirou somente esse sufixo do campo de data.
+As experiências e as saídas dos outros dois parsers permaneceram iguais.
+A entrada continua com 351 linhas. As tags e os dados dos 17 cursos permaneceram iguais.
+Os [destinos e as decisões](referencias/links-instituicoes.md) acompanham o registro atualizado da lista geral.
+
+O terceiro parágrafo da RealFort passou a começar com “Realizei diagnósticos de redes ópticas”, por solicitação do responsável.
+O uso de power meter e VFL e o apoio ao diagnóstico por OTDR foram preservados.
+O HTML pt-BR, o bloco oculto, a lista geral e a saída do cvats receberam a mesma descrição.
+Os três parsers foram executados novamente. As demais experiências e a graduação mantiveram os campos do ensaio anterior.

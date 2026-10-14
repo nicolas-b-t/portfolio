@@ -29,6 +29,15 @@ A execução local e a configuração da hospedagem permanecem no [README da rai
 | Cadastros e dicionários de competências | [Insumos ATS](#insumos-ats-e-classificações) |
 | Nova análise de competências | [Preparar os insumos](#preparar-os-insumos-para-uma-análise-futura) |
 
+## Currículos originais
+
+Os [currículos originais](../fontes/curriculos/README.md) permanecem em docs/fontes/curriculos/originais-local/.
+Essa pasta é excluída do Git e não integra static/.
+Os quatro DOCX recebidos em 14 de outubro de 2026 correspondem às variantes de outubro disponíveis no Drive.
+O [manifesto](../fontes/curriculos/manifesto.json) registra a origem e permite conferir as cópias locais.
+Use os arquivos como fontes pessoais do responsável. Preserve o conteúdo original.
+Para recuperar as cópias, siga o procedimento do README da pasta.
+
 ## Editar o conteúdo
 
 1. Leia o escopo vigente no AGENTS.md.
