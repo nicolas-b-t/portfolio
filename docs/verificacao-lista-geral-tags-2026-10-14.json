@@ -1,13 +1,13 @@
 {
   "data": "2026-10-14",
-  "base_git": "9f2b37fb4d293537f760aa8f72ed748b6d2ff22c",
+  "base_git": "b4abe8edbfe78a8c3f0a5a2f91e6a2d065dc25b0",
   "pagina": {
     "arquivo": "static/pt-BR/index.html",
-    "sha256": "a94c939e6aac8ad1addf55e53e1156aff08bf4446bac45a940ab8d6a013e14a7"
+    "sha256": "ffbf8dcc59daa71fcaad1164689737f7e8a21b0ad0d9d17fa5ec5e2c53d29951"
   },
   "copia_consulta": {
     "arquivo": "Lista_de_tags/lista-geral-alfabeto-latino.txt",
-    "sha256": "f5cc8bfa8cd068c65599019300dfdaea294404db031bf3129252e7216ba7594a",
+    "sha256": "93a2c406a6a64eb354657fce3c9b1f00d6216b1c6386bf771026fc8220992383",
     "origem": "Dados públicos do bloco dados-curriculo da página pt-BR. Instruções primeiro no TXT."
   },
   "arquivos_reservados": [
@@ -90,10 +90,10 @@
     "Instrução: Não interprete formação em andamento como formação concluída."
   ],
   "inventario": {
-    "tags_principais": 177,
-    "rotulos_principais": 160,
-    "tags_ocultas": 186,
-    "rotulos_ocultos": 167
+    "tags_principais": 178,
+    "rotulos_principais": 161,
+    "tags_ocultas": 187,
+    "rotulos_ocultos": 168
   },
   "integridade": {
     "copia_txt_igual_ao_bloco_oculto": true,
@@ -2154,10 +2154,10 @@
       ],
       [
         {
-          "text": "A CNH (Carteira Nacional de Habilitação) brasileira, categoria AB, permite conduzir carros e motos. Para turismo, a CNH válida é aceita em países do Mercosul, como Argentina, Paraguai e Uruguai.",
+          "text": "• Permissão Internacional para Dirigir (PID)",
           "x": 0,
           "y": -1700,
-          "width": 194,
+          "width": 44,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2166,10 +2166,10 @@
       ],
       [
         {
-          "text": "A Permissão Internacional para Dirigir (PID) emitida no Brasil é aceita com a CNH válida. Esse reconhecimento abrange países da Convenção de Viena de 1968, como Alemanha, França e Itália. A aceitação depende das regras e dos prazos de cada país.",
+          "text": "A CNH AB é a habilitação brasileira para carros e motos. A PID emitida no Brasil deve acompanhar a CNH válida, conforme as regras do país de destino.",
           "x": 0,
           "y": -1710,
-          "width": 245,
+          "width": 149,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4742,5 +4742,14 @@
     "escopo": "Página principal pt-BR, cópia oculta e lista geral.",
     "alteracao": "Terceiro parágrafo iniciado por Realizei diagnósticos de redes ópticas. Medição com power meter, identificação com VFL e apoio ao diagnóstico por OTDR preservados.",
     "verificacao": "Três parsers executados. Descrição da RealFort atualizada no cvats. Demais experiências, graduação e saídas dos dois parsers públicos preservadas."
+  },
+  "simplificacao_conducao": {
+    "data": "2026-10-14",
+    "escopo": "Somente pt-BR, página principal, bloco oculto e lista geral.",
+    "tag_adicionada": "Permissão Internacional para Dirigir (PID)",
+    "origem": "Solicitação explícita do responsável nesta conversa.",
+    "texto": "A CNH AB é a habilitação brasileira para carros e motos. A PID emitida no Brasil deve acompanhar a CNH válida, conforme as regras do país de destino.",
+    "linhas_atuais": 351,
+    "saidas_dos_tres_parsers_preservadas": true
   }
 }

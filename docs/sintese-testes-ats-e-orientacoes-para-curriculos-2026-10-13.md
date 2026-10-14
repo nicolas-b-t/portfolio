@@ -450,3 +450,8 @@ O terceiro parágrafo da RealFort passou a começar com “Realizei diagnóstico
 O uso de power meter e VFL e o apoio ao diagnóstico por OTDR foram preservados.
 O HTML pt-BR, o bloco oculto, a lista geral e a saída do cvats receberam a mesma descrição.
 Os três parsers foram executados novamente. As demais experiências e a graduação mantiveram os campos do ensaio anterior.
+
+Na simplificação seguinte da seção Condução, o responsável solicitou acrescentar a tag Permissão Internacional para Dirigir (PID) em pt-BR.
+A explicação passou a ter duas frases. O conteúdo principal contém 178 ocorrências de tags e 161 rótulos distintos.
+O bloco oculto contém 187 ocorrências e 168 rótulos distintos.
+A lista geral e seus hashes foram atualizados. Os três parsers mantiveram as mesmas saídas com 351 linhas de entrada.

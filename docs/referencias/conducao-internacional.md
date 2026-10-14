@@ -1,14 +1,16 @@
 # Condução com documentos brasileiros
 
 Consulta: 14 de outubro de 2026.
-Escopo: texto informativo da seção Condução nas páginas principais dos cinco idiomas.
+Escopo vigente: seção Condução da página principal pt-BR, bloco oculto e lista geral.
+As outras quatro versões mantêm a explicação anterior.
 
 A CNH AB permanece como qualificação declarada do responsável.
-A explicação sobre a Permissão Internacional para Dirigir (PID) não declara que ele possui esse documento.
-A revisão não acrescentou a PID às tags de qualificações.
+A tag Permissão Internacional para Dirigir (PID) foi acrescentada por solicitação explícita do responsável em 14 de outubro de 2026.
+Nenhuma data de emissão, validade ou categoria estrangeira foi acrescentada.
 
-O texto cita Argentina, Paraguai e Uruguai como exemplos de países do Mercosul que aceitam a CNH para turismo.
-Alemanha, França e Itália exemplificam países participantes da Convenção de Viena sobre Trânsito Viário de 1968.
+O texto pt-BR foi simplificado para duas frases.
+Ele identifica a CNH AB como habilitação brasileira para carros e motos.
+Os exemplos de destinos permanecem nas outras quatro versões.
 A PID emitida no Brasil deve acompanhar a CNH válida.
 A aceitação está sujeita às regras e aos prazos do destino.
 O texto não atribui reconhecimento uniforme a blocos econômicos inteiros.
@@ -24,11 +26,13 @@ O texto não atribui reconhecimento uniforme a blocos econômicos inteiros.
 Os exemplos não constituem uma lista completa de destinos nem orientação sobre residência ou exercício profissional no exterior.
 As fontes podem mudar. Confira as condições com a autoridade do destino antes de viajar.
 
-A cópia oculta pt-BR e a lista geral receberam o mesmo texto informativo.
+A cópia oculta pt-BR e a lista geral receberam a mesma tag e o mesmo texto informativo.
 A verificação da lista geral foi repetida com 351 linhas lógicas.
 Os três parsers locais mantiveram as saídas do ensaio anterior.
-As quantidades de tags permaneceram iguais.
+O conteúdo principal passou a ter 178 ocorrências de tags e 161 rótulos distintos.
+O bloco oculto passou a ter 187 ocorrências e 168 rótulos distintos.
 
-O texto pt-BR foi inspecionado no navegador por HTTP local, inclusive com largura de 320 pixels.
+A redação anterior pt-BR foi inspecionada no navegador por HTTP local, inclusive com largura de 320 pixels.
 A página não apresentou rolagem horizontal nessa largura.
 Esta inspeção não substitui uma avaliação completa de acessibilidade, impressão ou temas.
+A simplificação atual não recebeu novas verificações de tela e teclado, conforme a dispensa do responsável.
