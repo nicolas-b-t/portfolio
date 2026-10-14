@@ -1,13 +1,13 @@
 {
   "data": "2026-10-14",
-  "base_git": "4ec02d383620df5dcd6946298db4fd12b9485626",
+  "base_git": "522cf0468d94d289fb194eb77e46a370da6db3b7",
   "pagina": {
     "arquivo": "static/pt-BR/index.html",
-    "sha256": "80b61f7536b9271d9ff15df04e53a99cf7426bc8773f23cf3a559964a9ba3ce2"
+    "sha256": "0208b766c97e09c39a6b00e615ce5786e6ac9a304d57265be735ec13437e21d8"
   },
   "copia_consulta": {
     "arquivo": "Lista_de_tags/lista-geral-alfabeto-latino.txt",
-    "sha256": "cd6aa6570b29b940f994aa21ddddd15174bc91ffd3fe578bb6b23a565c9310ea",
+    "sha256": "48af8096f2d777f6ac09ec32f519579d2d54065341b008b01f73d079ecf5b0ac",
     "origem": "Dados públicos do bloco dados-curriculo da página pt-BR. Instruções primeiro no TXT."
   },
   "arquivos_reservados": [

@@ -21,7 +21,8 @@ Resumo profissional
 Curso Gestão da Tecnologia da Informação na Fatec Franco da Rocha – Giuliano Cecchettini.
 Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no Help Desk da Lukos Tecnologia.
 Também atuei na instalação de fibra óptica na RealFort Sistemas.
-Desenvolvo projetos pessoais e apresento aqui minhas experiências, formação e práticas de trabalho. Priorizo soluções simples, compatíveis e acessíveis.
+Valorizo tecnologias e soluções simples e robustas. Advogo pela tecnologia de código aberto (Open-Source).
+Apresento aqui meu histórico e portfólio profissional e acadêmico.
 
 Competências e habilidades
 
@@ -48,12 +49,15 @@ Gestão e produtividade
 • Trello
 
 Sistemas operacionais
-• Debian
-• Linux
-• Ubuntu
 • Microsoft Windows
 • Windows 10
 • Windows 11
+• Microsoft Windows Server
+• Windows Server 2008 R2
+• Windows Server 2016
+• Linux
+• Debian
+• Ubuntu
 
 Programação e dados
 • Aprendizado de máquina
@@ -72,6 +76,13 @@ Desenvolvimento com IA
 • Claude Code
 • Desenvolvimento com agentes de IA
 • OpenCode
+
+Desenvolvimento de software
+• Desenvolvimento ágil
+• Desenvolvimento tradicional (cascata)
+• Desenvolvimento orientado por especificações
+• Prototipação
+• Produto mínimo viável (MVP)
 
 Bancos de dados
 • Consultas SQL
@@ -98,6 +109,11 @@ Redes
 • SC/APC
 • VFL
 • Wi-Fi
+• Cable management
+• Switches
+• Servidores
+• Preparo de postes para passagem de fibra
+• Manutenção de CTO (caixa de distribuição óptica)
 
 Sistemas para redes
 • OpenWrt
@@ -124,6 +140,7 @@ Suporte de TI
 • Suporte Help Desk, N1
 • IT support, N1
 • Suporte técnico hospitalar, N1/N2
+• Microsoft Active Directory
 
 Web
 • Acessibilidade web
@@ -168,7 +185,9 @@ Habilidades práticas e operacionais
 Campo e ferramentas
 • Clivador
 • Ferramentas elétricas
-• Ferramentas pneumáticas
+• Ferramentas manuais
+• Fusimech
+• Máquina de fusão de fibra óptica
 • Organização de ferramentas
 • Organização de insumos
 • Trabalho em altura
@@ -177,6 +196,7 @@ Condução
 • Condução de carros
 • Condução de motos
 • CNH AB
+A CNH (Carteira Nacional de Habilitação) é a licença para dirigir do Brasil. A categoria AB permite conduzir carros e motos. A CNH é aceita em países que a reconhecem, como os do Mercosul. Em alguns países, é exigida também a autorização internacional para dirigir (PID).
 
 Experiência profissional
 
