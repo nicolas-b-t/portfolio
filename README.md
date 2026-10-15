@@ -1,68 +1,11 @@
-# Portfólio
+# Portfólio de Nicolas Beraldes Tarifa
 
-Este projeto apresenta o currículo e os projetos de Nicolas Beraldes Tarifa.
-O site usa HTML e CSS, sem JavaScript, pacotes de execução ou compilação.
-Ele oferece versões em pt-BR, pt-PT, inglês, es-419 e es-ES.
+Currículo, projetos e registros profissionais em cinco variantes linguísticas.
+O site usa HTML e CSS, sem JavaScript, backend ou etapa de build.
 
-## Orientações e documentação
+[Site publicado](https://nicolas-b-t.github.io/portfolio/) · [PDFs V3](docs/curriculos/v3/README.md) · [Documentação](docs/README.md)
 
-Leia [AGENTS.md](AGENTS.md) antes de editar.
-Esse arquivo centraliza regras de desenvolvimento, redação, acessibilidade, escopo e trabalho no repositório.
-O projeto permanece pessoal. As fontes e os registros sustentam a manutenção do conteúdo publicado.
-
-- [Guia de uso e manutenção](docs/referencias/guia-de-uso.md): edição, consulta aos dicionários e recuperação das fontes.
-- [Índice da documentação](docs/README.md): registros, fontes e referências locais.
-- [Currículos gerais V3 em PDF](docs/curriculos/v3/README.md): dois formatos nos cinco idiomas, disponíveis no repositório.
-- [Verificação geral de 13 de outubro](docs/relatorio-verificacao-site-2026-10-13.md): conteúdo e ensaios da versão daquela data.
-- [Insumos de competências](docs/referencias/guia-de-uso.md#insumos-ats-e-classificações): dicionários, originais, licenças e limites.
-- [Guia de redação](docs/guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
-- [Síntese dos testes ATS](docs/sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md): resultados, limites e aplicação a futuros currículos do responsável.
-- [Lista geral de tags](Lista_de_tags/README.md): cópia de consulta, instruções de leitura e traduções para outros sistemas de escrita.
-
-## Estrutura
-
-```text
-.
-├── AGENTS.md                    # Regras gerais
-├── README.md                    # Apresentação, execução e publicação
-├── .editorconfig                # Formatação nos editores compatíveis
-├── .github/workflows/pages.yml  # Publicação no GitHub Pages
-├── Lista_de_tags/               # Consulta e traduções das tags
-├── static/                      # Fonte do site publicado
-│   ├── index.html               # Escolha de idioma
-│   ├── assets/css/styles.css    # CSS compartilhado por todas as páginas
-│   ├── pt-BR/
-│   ├── pt-PT/
-│   ├── en/
-│   ├── es-419/
-│   ├── es-ES/
-│   └── media/realfort/           # Fotografias compartilhadas
-└── docs/                        # Documentação, evidências e fontes
-    ├── README.md                # Índice
-    ├── fontes/academico/        # Documentos acadêmicos
-    └── referencias/             # Normas, redação, idiomas e acervo ATS
-```
-
-A documentação acompanha o repositório, mas não integra o site publicado.
-Os documentos privados preservados pelo responsável não acompanham clones.
-Consulte [referências locais](docs/README.md#referências-locais) para conhecer as condições de recuperação.
-
-## Organização do site
-
-Cada pasta de idioma contém o currículo em index.html, os agradecimentos em rede.html e a galeria em galeria.html.
-O rodapé liga o currículo às páginas complementares.
-Cada idioma mantém seu HTML e favicon. Os links de idioma apontam para as pastas vizinhas.
-Todas as páginas usam o CSS compartilhado em static/assets/css/styles.css.
-As páginas de cada idioma usam ../assets/css/styles.css. A seleção de idioma usa assets/css/styles.css.
-Novas páginas devem calcular o caminho relativo conforme sua profundidade, sem copiar a folha de estilos.
-Use as mesmas classes estruturais nos novos idiomas. A seção de contato usa contact-section para preservar sua impressão.
-As fotografias WebP e JPEG ficam em static/media/realfort/, compartilhadas pelos idiomas.
-
-A etiqueta es-419 abrange América Latina e Caribe.
-A redação atende ao público sul-americano, identificado pela marca visível ES-SAM.
-A etiqueta es-ES identifica a variante de Espanha.
-
-## Executar para desenvolvimento
+## Executar
 
 Com Python 3 disponível, execute na raiz:
 
@@ -70,36 +13,33 @@ Com Python 3 disponível, execute na raiz:
 python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 ```
 
-No Windows, use o executável Python instalado se `python3` não estiver disponível.
-Abra `http://127.0.0.1:8001/` no navegador.
-A página inicial permite escolher o idioma.
-As versões ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
-Se a porta estiver ocupada, escolha outra porta.
-Encerre o servidor com Ctrl+C.
-O servidor Python serve apenas para desenvolvimento.
+Abra `http://127.0.0.1:8001/`.
+As páginas ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
+Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 
-## Publicar no GitHub Pages
+## Estrutura
 
-O [workflow](.github/workflows/pages.yml) publica `static/` após cada push em `main`.
-A aba Actions também permite iniciar a publicação manualmente.
-As ações oficiais usam referências fixadas por SHA de commit.
+```text
+.
+├── AGENTS.md             # Regras para trabalhar no projeto
+├── README.md             # Execução, estrutura e publicação
+├── .github/workflows/    # Publicação no GitHub Pages
+├── static/               # Site, CSS e fotografias
+├── docs/                 # Guias, fontes atuais e PDFs V3
+└── Lista_de_tags/        # Listas de consulta e traduções editoriais
+```
 
-1. Abra **Settings → Pages → Build and deployment → Source**.
-2. Selecione **GitHub Actions**.
-3. Habilite GitHub Actions no repositório.
-4. Permita que o ambiente `github-pages` publique a branch `main`.
+Use `tree -a -L 3 -I .git` para inspecionar a árvore completa.
+As regras estão em [AGENTS.md](AGENTS.md). Os procedimentos estão em [Manutenção](docs/manutencao.md).
 
-O workflow usa `contents: read`, `pages: write` e `id-token: write`.
-Ele não exige segredos personalizados.
-O artefato contém somente os arquivos de `static/`.
-A documentação e as instruções da raiz permanecem fora da publicação.
+## Publicar e manter
 
-[Site publicado](https://nicolas-b-t.github.io/portfolio/).
-As páginas usam `/portfolio/`, seguido da pasta de cada idioma.
+O [workflow](.github/workflows/pages.yml) publica somente `static/` após push em `main`.
+No GitHub, configure **Settings → Pages → Source → GitHub Actions**.
 
-## Verificação
+Use pt-BR como base factual e sincronize o conteúdo comum nas outras variantes.
+Todas as páginas compartilham `static/assets/css/styles.css`.
+A documentação e os currículos em `docs/` acompanham o repositório, fora do site publicado.
 
-As verificações exigidas estão em [AGENTS.md](AGENTS.md#verificação-e-trabalho-no-repositório).
-O [relatório de 13 de outubro](docs/relatorio-verificacao-site-2026-10-13.md) reúne os ensaios gerais daquela versão.
-A [síntese ATS](docs/sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) e a [verificação da lista geral](docs/verificacao-lista-geral-tags-2026-10-14.json) registram os resultados atuais.
-WCAG 2.2 nível AA é o alvo. A conformidade integral ainda não foi demonstrada.
+O acervo anterior foi preservado fora da árvore ativa.
+Consulte o [registro da organização](docs/organizacao.md) para recuperar fontes e históricos.

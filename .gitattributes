@@ -1,44 +1,18 @@
-# Normaliza todos os arquivos de texto para LF no repositório
+# Texto autoral normalizado para LF
 * text=auto eol=lf
-
-# Texto explícito
 *.html text eol=lf
-*.css  text eol=lf
-*.js   text eol=lf
+*.css text eol=lf
 *.json text eol=lf
-*.svg  text eol=lf
-*.md   text eol=lf
+*.svg text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
 
-# Windows-specific (mantém CRLF)
-*.bat  text eol=crlf
-*.cmd  text eol=crlf
-*.ps1  text eol=crlf
-
-# Binários (sem conversão)
-*.png  binary
-*.jpg  binary
+# Recursos binários
+*.png binary
+*.jpg binary
 *.jpeg binary
-*.gif  binary
 *.webp binary
-*.ico  binary
-*.woff binary
-*.woff2 binary
-*.pdf  binary
+*.pdf binary
 
-# Preserva bytes e formatação das cópias oficiais da W3C.
-docs/referencias/w3c/*.html -text -whitespace
-docs/referencias/w3c/LICENSE-W3C.md -text -whitespace
-*.tar.gz binary
-
-# Preserva bytes das cópias oficiais do Europass.
-docs/referencias/idiomas/qecr-cefr/*.html -text -whitespace
-
-# Preserva bytes do acervo ATS e dos dicionários registrados nos manifestos.
-docs/referencias/ats/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
-
-# Preserva a formatação recebida das fontes originais.
-docs/referencias/ats/esco/*.html -whitespace
-docs/referencias/ats/esco/skills_*.csv -whitespace
-docs/referencias/ats/nesta/LICENSE -whitespace
-docs/referencias/ats/odoo/COPYRIGHT.txt -whitespace
-docs/referencias/ats/opencats/* -whitespace
+# Preserva os bytes e a formatação das cópias oficiais
+docs/referencias/europass/fontes/*.html -text -whitespace

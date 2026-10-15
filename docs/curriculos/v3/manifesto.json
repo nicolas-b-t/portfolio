@@ -13,409 +13,77 @@
     "es-419",
     "es-ES"
   ],
-  "contato_adicional": "Telefone e país mantidos dos currículos originais locais de outubro de 2026.",
-  "criterios": [
-    "Conteúdo substantivo da página principal, sem a cópia oculta de ATS ou duplicação dos cursos de impressão.",
-    "Cargos, vínculos, qualificações, datas e atribuições do site preservados.",
-    "Nenhum período foi criado para a RealFort, pois o site não informa datas.",
-    "Competências previstas da graduação identificadas como previstas. Graduação em andamento.",
-    "Conhecimento introdutório em aprendizado de máquina preservado a partir do resumo estruturado do site.",
-    "Nome oficial dos cursos preservado nos cinco idiomas.",
-    "Parágrafo de apresentação específico da navegação do site omitido. Links relativos convertidos em endereços públicos absolutos."
-  ],
   "autorizacao_versionamento": "Em 15 de outubro de 2026, o responsável solicitou adicionar os dez PDFs V3 ao repositório, sem exclusão pelo Git.",
+  "contato_adicional": "Telefone e país mantidos dos currículos originais locais de outubro de 2026.",
   "arquivos": [
     {
       "arquivo": "en/V3-geral-uma_coluna-en-US.pdf",
       "bytes": 195882,
-      "sha256": "02744aedb6b5049be636656db4bce5eb71bdf86b2fcf4d9a0d5e8bc40a16bf7b"
+      "sha256": "02744aedb6b5049be636656db4bce5eb71bdf86b2fcf4d9a0d5e8bc40a16bf7b",
+      "paginas": 4
     },
     {
       "arquivo": "en/V3-geral_coluna_lateral-en-US.pdf",
       "bytes": 200660,
-      "sha256": "03a545dda324c604e441598d00aefb6a22cd41423b0222303c80bdf947801e32"
+      "sha256": "03a545dda324c604e441598d00aefb6a22cd41423b0222303c80bdf947801e32",
+      "paginas": 4
     },
     {
       "arquivo": "es-419/V3-geral-uma_coluna-es-419.pdf",
       "bytes": 214222,
-      "sha256": "633136a314d3271bc853d949e1950f299326b4ce98823d68a7cbc7fad52c5d03"
+      "sha256": "633136a314d3271bc853d949e1950f299326b4ce98823d68a7cbc7fad52c5d03",
+      "paginas": 4
     },
     {
       "arquivo": "es-419/V3-geral_coluna_lateral-es-419.pdf",
       "bytes": 223864,
-      "sha256": "f4953b49a8e1d4f45e2f22e559b793ce67c8cf4ed66dc58af28f7b953bafd9a5"
+      "sha256": "f4953b49a8e1d4f45e2f22e559b793ce67c8cf4ed66dc58af28f7b953bafd9a5",
+      "paginas": 4
     },
     {
       "arquivo": "es-ES/V3-geral-uma_coluna-es-ES.pdf",
       "bytes": 214444,
-      "sha256": "32edbcf885329aa5389956703b67ec970b5f5904c14b9bc2d0561cde700d16f5"
+      "sha256": "32edbcf885329aa5389956703b67ec970b5f5904c14b9bc2d0561cde700d16f5",
+      "paginas": 4
     },
     {
       "arquivo": "es-ES/V3-geral_coluna_lateral-es-ES.pdf",
       "bytes": 224187,
-      "sha256": "736429e3796cd6aeff3b6dfba1c549d434a91da5ecb6cd4ffa16e4cf92a152f8"
+      "sha256": "736429e3796cd6aeff3b6dfba1c549d434a91da5ecb6cd4ffa16e4cf92a152f8",
+      "paginas": 4
     },
     {
       "arquivo": "pt-BR/V3-geral-uma_coluna-pt-BR.pdf",
       "bytes": 214402,
-      "sha256": "ac568324e93e11d7932fb57bb65383162a1736236a8427d0b4752d061299f3f2"
+      "sha256": "ac568324e93e11d7932fb57bb65383162a1736236a8427d0b4752d061299f3f2",
+      "paginas": 4
     },
     {
       "arquivo": "pt-BR/V3-geral_coluna_lateral-pt-BR.pdf",
       "bytes": 224741,
-      "sha256": "172ff075a586e3ddfd3075f3015ae7afd6d6dc6400b039f5ab87dd0907071575"
+      "sha256": "172ff075a586e3ddfd3075f3015ae7afd6d6dc6400b039f5ab87dd0907071575",
+      "paginas": 4
     },
     {
       "arquivo": "pt-PT/V3-geral-uma_coluna-pt-PT.pdf",
       "bytes": 216160,
-      "sha256": "a7ac303138da8921ef677a88df6de065800b6293c456fad1ecfbf8cd01425d66"
+      "sha256": "a7ac303138da8921ef677a88df6de065800b6293c456fad1ecfbf8cd01425d66",
+      "paginas": 4
     },
     {
       "arquivo": "pt-PT/V3-geral_coluna_lateral-pt-PT.pdf",
       "bytes": 225350,
-      "sha256": "1b5023d98ec63739d8d32fbdbb1ab20cfa240006f43136a79850304778adf032"
+      "sha256": "1b5023d98ec63739d8d32fbdbb1ab20cfa240006f43136a79850304778adf032",
+      "paginas": 4
     }
   ],
   "verificacao": {
-    "V3-geral-uma_coluna-pt-BR": {
-      "arquivo": "V3-geral-uma_coluna-pt-BR.pdf",
-      "idioma": "pt-BR",
-      "layout": "uma_coluna",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 2663,
-          "links": 8
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3056,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 3113,
-          "links": 23
-        },
-        {
-          "pagina": 4,
-          "caracteres": 3431,
-          "links": 2
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral_coluna_lateral-pt-BR": {
-      "arquivo": "V3-geral_coluna_lateral-pt-BR.pdf",
-      "idioma": "pt-BR",
-      "layout": "coluna_lateral",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 3452,
-          "links": 9
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3687,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 2838,
-          "links": 15
-        },
-        {
-          "pagina": 4,
-          "caracteres": 2421,
-          "links": 12
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral-uma_coluna-pt-PT": {
-      "arquivo": "V3-geral-uma_coluna-pt-PT.pdf",
-      "idioma": "pt-PT",
-      "layout": "uma_coluna",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 2698,
-          "links": 8
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3097,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 3121,
-          "links": 23
-        },
-        {
-          "pagina": 4,
-          "caracteres": 3461,
-          "links": 2
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral_coluna_lateral-pt-PT": {
-      "arquivo": "V3-geral_coluna_lateral-pt-PT.pdf",
-      "idioma": "pt-PT",
-      "layout": "coluna_lateral",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 3503,
-          "links": 9
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3727,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 2840,
-          "links": 15
-        },
-        {
-          "pagina": 4,
-          "caracteres": 2444,
-          "links": 12
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral-uma_coluna-en-US": {
-      "arquivo": "V3-geral-uma_coluna-en-US.pdf",
-      "idioma": "en",
-      "layout": "uma_coluna",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 2651,
-          "links": 8
-        },
-        {
-          "pagina": 2,
-          "caracteres": 2954,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 3056,
-          "links": 23
-        },
-        {
-          "pagina": 4,
-          "caracteres": 3169,
-          "links": 2
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral_coluna_lateral-en-US": {
-      "arquivo": "V3-geral_coluna_lateral-en-US.pdf",
-      "idioma": "en",
-      "layout": "coluna_lateral",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 3367,
-          "links": 9
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3526,
-          "links": 8
-        },
-        {
-          "pagina": 3,
-          "caracteres": 2739,
-          "links": 14
-        },
-        {
-          "pagina": 4,
-          "caracteres": 2323,
-          "links": 12
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral-uma_coluna-es-419": {
-      "arquivo": "V3-geral-uma_coluna-es-419.pdf",
-      "idioma": "es-419",
-      "layout": "uma_coluna",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 2797,
-          "links": 8
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3201,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 3244,
-          "links": 23
-        },
-        {
-          "pagina": 4,
-          "caracteres": 3583,
-          "links": 2
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral_coluna_lateral-es-419": {
-      "arquivo": "V3-geral_coluna_lateral-es-419.pdf",
-      "idioma": "es-419",
-      "layout": "coluna_lateral",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 3670,
-          "links": 9
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3800,
-          "links": 8
-        },
-        {
-          "pagina": 3,
-          "caracteres": 2957,
-          "links": 14
-        },
-        {
-          "pagina": 4,
-          "caracteres": 2538,
-          "links": 12
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral-uma_coluna-es-ES": {
-      "arquivo": "V3-geral-uma_coluna-es-ES.pdf",
-      "idioma": "es-ES",
-      "layout": "uma_coluna",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 2785,
-          "links": 8
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3193,
-          "links": 7
-        },
-        {
-          "pagina": 3,
-          "caracteres": 3239,
-          "links": 23
-        },
-        {
-          "pagina": 4,
-          "caracteres": 3574,
-          "links": 2
-        }
-      ],
-      "resultado": "OK"
-    },
-    "V3-geral_coluna_lateral-es-ES": {
-      "arquivo": "V3-geral_coluna_lateral-es-ES.pdf",
-      "idioma": "es-ES",
-      "layout": "coluna_lateral",
-      "paginas_pdf": 4,
-      "fragmentos_conferidos": 312,
-      "cursos": 17,
-      "pdf_ausencias": [],
-      "geometria_fora_da_pagina": [],
-      "cursos_uma_vez": true,
-      "paginas": [
-        {
-          "pagina": 1,
-          "caracteres": 3658,
-          "links": 9
-        },
-        {
-          "pagina": 2,
-          "caracteres": 3792,
-          "links": 8
-        },
-        {
-          "pagina": 3,
-          "caracteres": 2952,
-          "links": 14
-        },
-        {
-          "pagina": 4,
-          "caracteres": 2529,
-          "links": 12
-        }
-      ],
-      "resultado": "OK"
-    }
+    "fragmentos_por_documento": 312,
+    "cursos_por_documento": 17,
+    "cursos_uma_vez": true,
+    "conteudo_equivalente_entre_formatos": true,
+    "paginas_por_pdf": 4,
+    "resultado": "OK",
+    "limite": "Conferência de integridade, conteúdo, texto e paginação. Não representa certificação de acessibilidade ou teste em ATS proprietário."
   }
 }

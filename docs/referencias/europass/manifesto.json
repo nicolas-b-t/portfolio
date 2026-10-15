@@ -1,0 +1,97 @@
+{
+  "orgao": "União Europeia / Comissão Europeia / Europass",
+  "captura": "2026-10-15",
+  "escopo": "Páginas oficiais atuais sobre CV e perfil. As cópias HTML preservam os bytes recebidos. Recursos externos não foram espelhados.",
+  "atribuicao": "© União Europeia. Fonte identificada em cada registro. Conteúdo institucional sujeito ao aviso legal da Comissão Europeia, salvo direitos específicos de terceiros.",
+  "aviso_legal": "https://commission.europa.eu/legal-notice_en",
+  "arquivos": [
+    {
+      "arquivo": "fontes/criar-cv-pt.html",
+      "url": "https://europass.europa.eu/pt/create-europass-cv",
+      "url_final": "https://europass.europa.eu/pt/create-europass-cv",
+      "titulo": "Criar o seu CV Europass | Europass",
+      "finalidade": "Orientações atuais para criar o CV, em português.",
+      "consultado_em_utc": "2026-10-15T18:48:55.392778+00:00",
+      "status_http": 200,
+      "bytes": 315464,
+      "sha256": "d5392dd8d88cc1eedddab95bb183721ef5c2f26696d740d8678e5d28e998e5f7"
+    },
+    {
+      "arquivo": "fontes/criar-cv-en.html",
+      "url": "https://europass.europa.eu/en/create-europass-cv",
+      "url_final": "https://europass.europa.eu/en/create-europass-cv",
+      "titulo": "Create your Europass CV | Europass",
+      "finalidade": "Orientações atuais para criar o CV, em inglês.",
+      "consultado_em_utc": "2026-10-15T18:48:56.310585+00:00",
+      "status_http": 200,
+      "bytes": 311656,
+      "sha256": "1a48b2e8312228179a8b07c617d6ebeb5a64f8c998ae4385bf5d9f9a7dadac48"
+    },
+    {
+      "arquivo": "fontes/perfil-pt.html",
+      "url": "https://europass.europa.eu/pt/ferramentas-europass/o-perfil-europass",
+      "url_final": "https://europass.europa.eu/pt/ferramentas-europass/o-perfil-europass",
+      "titulo": "O perfil Europass | Uma ferramenta para gerir a aprendizagem e a carreira profissional | Europass",
+      "finalidade": "Perfil Europass, em português.",
+      "consultado_em_utc": "2026-10-15T18:48:57.015221+00:00",
+      "status_http": 200,
+      "bytes": 309133,
+      "sha256": "a5682303e5911c171e7e94a925e34c819f49c4d5fe3e328f0e0f0745a697ec10"
+    },
+    {
+      "arquivo": "fontes/perfil-en.html",
+      "url": "https://europass.europa.eu/en/europass-tools/europass-profile",
+      "url_final": "https://europass.europa.eu/en/europass-tools/europass-profile",
+      "titulo": "The Europass profile | A tool to help people manage their learning and careers | Europass",
+      "finalidade": "Perfil Europass, em inglês.",
+      "consultado_em_utc": "2026-10-15T18:48:57.367695+00:00",
+      "status_http": 200,
+      "bytes": 305054,
+      "sha256": "6d46d43d1cc8740cb38f98c61a76783ca1028fdf176132ddfb8a54f172426838"
+    },
+    {
+      "arquivo": "fontes/perguntas-frequentes-en.html",
+      "url": "https://europass.europa.eu/en/faq",
+      "url_final": "https://europass.europa.eu/en/faq",
+      "titulo": "faq | Europass",
+      "finalidade": "Perguntas frequentes e formatos disponíveis.",
+      "consultado_em_utc": "2026-10-15T18:48:57.556890+00:00",
+      "status_http": 200,
+      "bytes": 330846,
+      "sha256": "73574b6d8a5296f3de7460a7013100c3a8d20f54098f278c7d2eff7c94eb5710"
+    },
+    {
+      "arquivo": "fontes/preencher-perfil-en.html",
+      "url": "https://europass.europa.eu/en/how-complete-my-europass-profile",
+      "url_final": "https://europass.europa.eu/en/how-complete-my-europass-profile",
+      "titulo": "How to complete my Europass profile? | Europass",
+      "finalidade": "Preenchimento do perfil Europass.",
+      "consultado_em_utc": "2026-10-15T18:48:58.012016+00:00",
+      "status_http": 200,
+      "bytes": 299027,
+      "sha256": "431d24f16ed0acfdb96fb0918eb786a4293ca39d7414424b35261745de242d0e"
+    },
+    {
+      "arquivo": "fontes/aviso-legal-comissao-europeia.html",
+      "url": "https://commission.europa.eu/legal-notice_en",
+      "url_final": "https://commission.europa.eu/legal-notice_en",
+      "titulo": "Legal notice - European Commission",
+      "finalidade": "Condições de reutilização e atribuição da fonte.",
+      "consultado_em_utc": "2026-10-15T18:48:58.582909+00:00",
+      "status_http": 200,
+      "bytes": 154021,
+      "sha256": "8256220703caafaca46274df548ebead3250684bff160d638e9f9bb7ff0f960d"
+    },
+    {
+      "arquivo": "fontes/aviso-legal-uniao-europeia.html",
+      "url": "https://european-union.europa.eu/legal-notice_en",
+      "url_final": "https://european-union.europa.eu/legal-notice_en",
+      "titulo": "Legal notice – disclaimer and copyright | European Union",
+      "finalidade": "Aviso legal ligado no rodapé do portal Europass.",
+      "consultado_em_utc": "2026-10-15T18:48:59.204435+00:00",
+      "status_http": 200,
+      "bytes": 90241,
+      "sha256": "9afdf6045c3972e427be4df70e2ea38dd849cfaee42a09473f2c1f4877bf717f"
+    }
+  ]
+}

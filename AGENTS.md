@@ -1,212 +1,56 @@
 # Orientações do projeto
 
-Estas instruções se aplicam ao repositório inteiro e orientam pessoas e agentes
-que trabalhem no portfólio.
+Estas regras se aplicam ao repositório inteiro.
 
-## Redação: ASD-STE100, edição 9
+## Projeto e conteúdo
 
-Toda a documentação autoral e todo o texto apresentado ao visitante devem
-seguir os princípios da ASD-STE100, edição 9, adaptados ao idioma do texto.
-A referência está em
-`docs/referencias/asd-ste100/ASD-STE100-issue-9-2025-01-15.pdf`, de 15 de
-janeiro de 2025. O responsável preserva o PDF na cópia pessoal.
-O PDF não acompanha clones. Consulte `docs/README.md#referências-locais` quando ele estiver ausente.
+- Mantenha o site pessoal, estático e funcional com HTML e CSS.
+- Não adicione JavaScript, eventos embutidos, rastreadores, widgets, frameworks, backend ou etapa de build.
+- Use somente tecnologias e dependências necessárias ao conteúdo.
+- Preserve caminhos relativos, fontes do sistema e recursos locais.
+- Use `static/pt-BR/index.html` como base factual para os cinco idiomas.
+- Preserve nomes oficiais, cargos, vínculos, datas, qualificações, níveis e atribuições individuais ou da equipe.
+- Não transforme conteúdos previstos da graduação em formação concluída ou experiência profissional.
+- Consulte [fontes e atribuições](docs/conteudo-e-fontes.md) antes de ampliar ou alterar uma afirmação.
+- Aplique o [guia de redação](docs/guia-de-redacao.md), baseado na ASD-STE100, edição 9, sem declarar certificação formal.
+- Preserve textos e avisos de documentos oficiais. A adaptação editorial aplica-se aos textos autorais.
+- Preserve os bytes das cópias oficiais em `docs/referencias/europass/fontes/`. Esses documentos não integram o site publicado.
 
-Para textos em português, aplique estas regras do projeto:
+## Estrutura e idiomas
 
-- Use palavras conhecidas e termos técnicos precisos. Use o mesmo termo para
-  o mesmo conceito. Explique siglas quando o contexto não esclarecer seu sentido.
-- Preserve a gramática portuguesa. O dicionário e as restrições gramaticais
-  da norma inglesa não constituem um dicionário aprovado em português.
-- Prefira voz ativa e verbos diretos. Identifique quem realiza a ação.
-  Use passado para atividades concluídas e presente para atividades atuais.
-- Nas instruções, use o imperativo e apresente uma ação por frase.
-  Coloque uma condição necessária antes da ação correspondente.
-- Adote como limites de revisão 20 palavras por frase de instrução e
-  25 palavras por frase descritiva. Divida frases longas sem alterar seu sentido.
-- Trate nomes próprios, títulos oficiais, identificadores e unidades como
-  elementos únicos na contagem, conforme a seção 8 da referência.
-  A contagem automática por espaços serve apenas como triagem.
-- Apresente um assunto por parágrafo, com no máximo seis frases.
-  Ordene a informação conforme a necessidade do leitor.
-- Separe instruções, informações e resultados de verificação.
-  Descreva condições, fontes e limites quando forem necessários à compreensão.
-- Use pontos para separar frases. Evite ponto e vírgula na prosa.
-  Preserve pontuação exigida por código, dados estruturados e citações.
-- Nas tags, use uma tecnologia, competência ou qualificação por item.
-  Separe conceitos independentes. Preserve nomes oficiais que formem uma unidade.
-  Mantenha o formato “habilidade, observação” somente para suporte técnico, fusão de fibra e inglês.
-  Essa organização foi autorizada pelo responsável em 13 de outubro de 2026.
-  Preserve outras limitações nas descrições e nos dados da formação.
-  Evite barras ambíguas. Preserve identificadores técnicos como SC/APC e N1/N2.
-- Preserve nomes oficiais, qualificações, datas, valores e contexto profissional.
-  A revisão de texto não autoriza ampliar competências ou remover limitações.
-- Preserve documentos oficiais, fontes recebidas, licenças e citações literais.
-  A regra aplica-se aos textos que escrevemos sobre essas fontes.
-- Revise clareza e precisão manualmente. Não declare conformidade formal com
-  STE com base nesta adaptação ou em verificações automáticas.
+- `static/` é a única fonte do site publicado.
+- O CSS comum fica em `static/assets/css/styles.css`. Não crie cópias por idioma.
+- Preserve `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`.
+- Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
+- Em `es-419`, preserve a redação para o público sul-americano.
+- Mantenha os três arquivos de cada idioma: `index.html`, `galeria.html` e `rede.html`.
+- Sincronize fatos e estrutura comuns entre os idiomas. Preserve as variantes linguísticas.
+- Preserve as três categorias de competências e suas subcategorias.
+- Ao alterar cursos, atualize as cópias de tela, impressão e resumo estruturado nos idiomas afetados.
+- Confira títulos, instituições, datas, cargas horárias e os 17 cursos uma única vez na impressão.
+- Mantenha a coerência entre conteúdo visível, resumo oculto e listas de consulta.
 
-Esta é uma política de redação baseada na norma inglesa, não uma tradução
-oficial nem uma certificação STE. Nos demais idiomas, preserve a gramática
-local e aplique os mesmos princípios de clareza e precisão.
-O guia detalhado está em `docs/guia-de-redacao.md`, versionado no repositório.
+## HTML, CSS e acessibilidade
 
-## Objetivos
+- Siga o HTML Living Standard. Prefira semântica nativa e use ARIA somente quando necessária.
+- Mantenha UTF-8, títulos descritivos, hierarquia de cabeçalhos e atributos de idioma corretos.
+- Prefira CSS amplamente suportado. Forneça alternativa quando o suporte for limitado.
+- Use WCAG 2.2 nível AA como alvo, sem declarar conformidade apenas por testes automáticos.
+- Preserve navegação por teclado, foco visível, link de salto e nomes compreensíveis para controles e links.
+- Confira contraste, alternativas textuais, reorganização em telas pequenas e zoom.
+- Preserve temas claro e escuro, impressão e respeito a `prefers-reduced-motion`.
 
-Priorize robustez, compatibilidade, acessibilidade, portabilidade e minimalismo.
-Use somente as tecnologias e dependências necessárias para atender ao conteúdo.
+## Trabalho no repositório
 
-## Regra: site sem JavaScript
-
-- O portfólio deve funcionar integralmente com HTML e CSS, sem JavaScript.
-- Não adicione scripts próprios ou externos.
-  Não adicione elementos `script`, eventos como `onclick` ou URLs `javascript:`.
-  Não adicione frameworks ou componentes que dependam de JavaScript.
-- Não adicione rastreadores, widgets ou embeds que executem JavaScript.
-- Use elementos HTML nativos e CSS para navegação e apresentação.
-  Se um recurso exigir JavaScript, explique a limitação.
-  Proponha uma alternativa sem scripts.
-  Não altere esta regra sem uma decisão explícita do responsável pelo projeto.
-- Esta regra se refere ao site entregue ao visitante.
-  Ferramentas de manutenção externas não devem introduzir scripts no conteúdo
-  publicado. Não acrescente dependências sem necessidade demonstrada.
-- Preserve as cópias oficiais e seus avisos de licença em `docs/referencias/`,
-  inclusive scripts dos documentos originais. Não os incorpore ao site.
-- A documentação de `docs/` é versionada desde 10 de outubro de 2026.
-  Essa decisão substitui a exclusão anterior da pasta inteira.
-  Mantenha PDFs restritos e dados privados fora do checkout versionado.
-  Não acrescente esses arquivos ao Git ou ao site.
-  Preserve os originais na cópia pessoal e documente sua recuperação.
-  Não presuma que esses arquivos acompanham clones.
-- O projeto permanece pessoal. Não reutilize dados pessoais como modelo de terceiros.
-  O guia permanente de uso está em `docs/referencias/guia-de-uso.md`.
-
-## HTML, CSS e compatibilidade
-
-- Siga o HTML Living Standard da WHATWG. Prefira elementos semânticos e recursos
-  nativos. Use ARIA apenas quando a semântica HTML não for suficiente.
-- Mantenha UTF-8 em cada página.
-  Use títulos descritivos e uma hierarquia coerente.
-  Confira o atributo `lang` de cada página.
-- Prefira recursos CSS amplamente suportados, usando Baseline Widely Available
-  como referência. Para recursos de suporte limitado, forneça uma alternativa.
-- Use layouts fluidos que suportem telas pequenas, zoom e textos longos.
-- Preserve o foco visível. Respeite `prefers-reduced-motion`.
-  Confira temas claro e escuro e a impressão do currículo.
-- Use fontes do sistema e recursos locais. Evite serviços externos para funções
-  básicas, bibliotecas de ícones e dependências puramente decorativas.
-- Prefira código legível, seletores simples e nomes descritivos. Respeite a
-  formatação existente e evite abstrações sem benefício concreto.
-
-## Acessibilidade
-
-- Use WCAG 2.2 nível AA como alvo. As referências estão em
-  `docs/referencias/w3c/`. Diferencie recomendações publicadas de rascunhos.
-- Garanta navegação por teclado, link para pular ao conteúdo, ordem lógica de
-  foco e nomes compreensíveis para links e controles.
-- Confira contraste de texto e controles, alternativas textuais quando
-  necessárias e conteúdo que se reorganize sem perda de informação.
-- Evite links vazios ou de exemplo na versão destinada à publicação.
-- Não declare conformidade apenas com base em verificações automáticas.
-
-## Idiomas, estrutura e portabilidade
-
-- A revisão atual abrange toda a documentação autoral e as três páginas dos cinco idiomas:
-  `index.html`, `galeria.html` e `rede.html`.
-  O responsável autorizou sincronizar conteúdo e estrutura das traduções em 13 de outubro de 2026.
-  Essa decisão amplia a revisão pt-BR autorizada em 12 de outubro.
-  Use o conteúdo vigente em pt-BR como base factual. Respeite as variantes linguísticas.
-  Aplique correções do CSS comum no arquivo compartilhado por todos os idiomas.
-- Os commits dessa revisão devem informar o escopo “cinco idiomas, página principal, galeria e agradecimentos”.
-  Registros de escopo nas instruções da raiz são permitidos.
-  Mantenha a documentação detalhada em `docs/`, agora versionada.
-- Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
-  `hreflang` e links de troca de idioma corretos. `es-419` usa redação neutra
-  para o público sul-americano. A etiqueta abrange América Latina e Caribe.
-- Use inglês norte-americano na versão `en`, inclusive nas tags, legendas e alternativas textuais.
-  Preserve a pasta `en/`. Identifique essa versão com `lang="en-US"` e `hreflang="en-US"` nos links correspondentes.
-  Prefira Fiber optic, modeling, organization, optimization, license e program.
-  Preserve títulos oficiais, nomes próprios, citações e fontes recebidas.
-  A padronização de termos não comprova reconhecimento por todos os sistemas ATS.
-- A pasta `static/` é a única fonte do site publicado. `static/index.html`
-  permite escolher o idioma. Cada etiqueta tem sua própria pasta de páginas.
-- Mantenha o CSS comum em `static/assets/css/styles.css`, compartilhado por todas as páginas e idiomas.
-  Novos idiomas e novas páginas devem referenciar esse arquivo com caminho relativo ao próprio HTML.
-  Não copie o CSS para pastas de idiomas. Não use `@import` para carregar o arquivo comum.
-  Prefira propriedades lógicas para futuras adaptações de direção de escrita, quando compatíveis com o layout.
-  Acrescente regras específicas por idioma somente quando o conteúdo demonstrar essa necessidade.
-  Use classes comuns para estilos estruturais. Não dependa de identificadores traduzidos, como os IDs das seções de contato.
-  Revise o impacto do CSS compartilhado nas páginas e nos idiomas existentes.
-- Use caminhos relativos para recursos e páginas internas, de modo que o site
-  possa ser servido em diferentes hospedagens e subdiretórios.
-- Nas competências, preserve as três categorias principais.
-  Organize as tags em subcategorias. Integre ferramentas colaborativas em gestão e produtividade.
-  Prefira um conceito abrangente quando as atividades comprovadas sustentarem esse conceito.
-  Remova repetições sem perder a atribuição pessoal, acadêmica ou da equipe.
-  Preserve as qualificações aprovadas pelo responsável e a formação em andamento.
-- Preserve o funcionamento como arquivos estáticos, sem exigir backend,
-  framework, gerenciador de pacotes ou etapa de build.
-- Não inclua credenciais ou configurações específicas de uma máquina no site.
-
-## Verificação e trabalho no repositório
-
-- Leia estas instruções antes de editar.
-  Confira `git status --short`. Preserve mudanças existentes.
-  Não sobrescreva arquivos do usuário sem necessidade.
-- Use o checkout existente. Cada tarefa na nuvem já é isolada.
-  Não crie worktrees sem pedido explícito do usuário.
-- Após concluir uma tarefa, remova os arquivos criados exclusivamente para orientar ou planejar sua execução.
-  Antes da remoção, registre decisões duradouras na documentação permanente, quando necessário.
-  Atualize os índices e links que apontem para os arquivos removidos.
-  Preserve instruções permanentes, históricos, avaliações, fontes e referências.
-- Para verificar `static/`, execute na raiz:
-  `python3 -m http.server 8001 --bind 127.0.0.1 --directory static`.
-  A escolha de idioma está em `/`, e as páginas em `/pt-BR/`, `/pt-PT/`,
-  `/en/`, `/es-419/` e `/es-ES/`. Use outra porta se estiver ocupada.
-  O servidor Python é uma ferramenta de desenvolvimento, não uma dependência
-  do site publicado.
-- Após mudanças, verifique as páginas afetadas, CSS, favicon, links relativos,
-  âncoras e troca de idioma. Use validação HTML/CSS quando pertinente.
-- Para mudanças visuais ou de interação, confira também teclado, foco, contraste,
-  telas pequenas e zoom. Diferencie inspeção de código de validação em navegador.
-- Execute `git diff --check`.
-  Informe verificações, resultados e limitações.
-  Não adicione ferramentas ou testes que apenas repitam a implementação.
-
-## Organização da documentação
-
-- Mantenha as regras gerais neste `AGENTS.md` da raiz.
-  Crie instruções em subpastas somente quando houver regras locais necessárias.
-- Use o `README.md` da raiz para apresentação, estrutura, execução e publicação.
-  Substitua regras gerais repetidas por links para este arquivo.
-- Use `docs/README.md` como índice da documentação.
-  Centralize o uso, a origem e as condições das referências em `docs/referencias/guia-de-uso.md`.
-  Preserve READMEs recebidos como parte dos originais de fornecedores.
-- Mantenha uma síntese vigente por assunto.
-  Antes de remover registros substituídos, preserve decisões e evidências úteis na documentação consolidada.
-  Atualize os índices e links afetados.
-- Use nomes descritivos em português, sem acentos, com palavras separadas por hífens.
-  Use datas `AAAA-MM-DD` em relatórios vinculados a uma versão.
-  Preserve nomes, conteúdo e licenças das fontes oficiais.
-
-## Cursos na tela e na impressão
-
-- Mantenha o controle nativo recolhível na tela e a cópia completa exclusiva para impressão.
-- Ao alterar cursos, atualize as duas cópias de cada currículo nos cinco idiomas.
-  Preserve os títulos oficiais e os atributos de idioma dos títulos.
-- Confira igualdade de títulos, instituições, datas e cargas horárias.
-- Confira os 17 cursos uma única vez na impressão, com o controle fechado e aberto.
-
-## Acervo e comparação de competências
-
-- Em 13 de outubro de 2026, o responsável autorizou aplicar a adequação dos termos nos cinco idiomas.
-  Use correspondências revisadas e as declarações confirmadas como evidências.
-  Adapte a nomenclatura à variante linguística. Preserve o contexto e os níveis de conhecimento.
-  Não amplie competências a partir de coincidências lexicais ou de requisitos de outras pessoas.
-  Separe triagem vocabular de relações revisadas semanticamente.
-- Preserve fontes, dicionários necessários, manifestos, licenças e declarações recebidas.
-  Mantenha o registro vigente das tags e uma síntese atual de verificação.
-  Em 13 de outubro de 2026, o responsável autorizou retirar exportações duplicadas, relatórios substituídos e tarefas incompletas.
-  Registre decisões duradouras antes de remover materiais substituídos.
-- Mantenha os clones completos de fontes editoriais em `docs/referencias/ats/repositorios-local/`, fora do Git.
-  Versione o manifesto e as sínteses autorais fora dessa pasta.
+- Confira `git status --short` antes de editar. Preserve alterações existentes.
+- Use o checkout atual. Não crie worktrees sem solicitação do responsável.
+- Consulte [Manutenção](docs/manutencao.md) para execução, publicação e conferência das páginas.
+- Para mudanças visuais, confira também teclado, foco, contraste, telas pequenas, zoom, temas e impressão.
+- Execute `git diff --check`. Informe verificações, resultados e limites.
+- Use `tree -a -L 3 -I .git` para avaliar reorganizações.
+- Mantenha uma síntese vigente por assunto e atualize os links ao mover ou retirar arquivos.
+- Guarde scripts temporários, caches, exportações intermediárias e clones de terceiros fora do repositório.
+- Preserve fontes, licenças e meios de recuperação antes de retirar um acervo.
+- Mantenha os dez PDFs V3 versionados, conforme autorização do responsável.
+- Não acrescente credenciais, configurações pessoais de máquina ou documentos restritos ao site.
+- Use nomes descritivos em português, sem acentos, com hífens. Preserve nomes oficiais e nomes de arquivos solicitados.

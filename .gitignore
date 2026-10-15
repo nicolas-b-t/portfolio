@@ -1,27 +1,13 @@
-# OS
+# Sistema e editores
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Editors
 .vscode/
 .idea/
 *.swp
 
-# Logs
+# Saídas temporárias locais
 *.log
-
-# Registros privados de futuros participantes do autoteste
-/docs/autotestes-pessoais/
-
-# Documentação comercial de ATS sem licença de redistribuição identificada
-/docs/referencias/ats/originais-local/
-
-# Repositórios completos de referência, mantidos somente na cópia local
-/docs/referencias/ats/repositorios-local/
-
-# Originais acadêmicos locais sem licença aberta de redistribuição identificada
-/docs/fontes/academico/originais-local/
-
-# Currículos pessoais completos, recebidos do Google Drive
-/docs/fontes/curriculos/originais-local/
+__pycache__/
+*.py[cod]
+/work/

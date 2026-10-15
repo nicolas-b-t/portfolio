@@ -4,7 +4,7 @@ Este guia aplica os princípios da ASD-STE100, edição 9, aos textos do projeto
 As regras completas do projeto estão em [AGENTS.md](../AGENTS.md).
 O responsável preserva a referência inglesa na cópia pessoal por restrição de reprodução.
 Ela não acompanha clones.
-Consulte [a fonte e as condições](referencias/guia-de-uso.md#redação-asd-ste100).
+Consulte [a origem e as condições](referencias/asd-ste100/manifesto.json).
 
 ## Escrever e revisar
 
@@ -45,9 +45,9 @@ Uma contagem automática por espaços serve apenas para triagem.
 6. Confirme detalhes antes de tornar uma atividade mais específica.
 7. Não substitua uma ação declarada por inspeção ou auditoria sem evidência.
 
-A [revisão pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) usa os princípios públicos associados à ABNT NBR ISO 24495-1:2024.
-Essa revisão não substitui a consulta integral à norma nem um teste de compreensão com os leitores.
-Os limites numéricos de frases permanecem como política do projeto, sem atribuição à ABNT.
+As revisões anteriores estão preservadas conforme o [registro da organização](organizacao.md).
+As orientações deste guia não substituem testes de compreensão com os leitores.
+Os limites numéricos de frases são uma política editorial do projeto.
 
 ## Inglês norte-americano
 
