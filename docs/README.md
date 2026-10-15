@@ -10,6 +10,7 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [README da raiz](../README.md) | Estrutura, execução local e publicação |
 | [Guia de uso](referencias/guia-de-uso.md) | Edição, consulta aos acervos e recuperação de fontes |
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
+| [Currículos gerais V3 em PDF](curriculos/v3/README.md) | Dez PDFs versionados, com dois formatos nos cinco idiomas e manifesto de integridade |
 | [Sincronização vigente dos idiomas](sincronizacao-idiomas-2026-10-14.md) | Conteúdo pt-BR aplicado às quatro traduções, verificações estáticas e limpeza |
 | [Tamanho das páginas](analise-tamanho-paginas-2026-10-14.md) | Inventário, gzip, imagens escolhidas pelo navegador e oportunidades de redução |
 | [CSS compartilhado](css-compartilhado-2026-10-14.md) | Estrutura para novos idiomas, economia e comparação visual das 16 páginas |
@@ -67,6 +68,7 @@ A documentação integra o repositório desde 10 de outubro de 2026.
 O GitHub Pages recebe somente static/.
 Versionar um documento não o adiciona às páginas do currículo.
 Os currículos oficiais integrais, os certificados e os documentos restritos permanecem fora do checkout versionado.
+A autorização de 15 de outubro de 2026 inclui os dez [PDFs gerais V3](curriculos/v3/README.md) no repositório, sem exclusão pelo Git.
 A exportação TXT deriva dos dados destinados ao currículo público.
 
 ## Referências locais

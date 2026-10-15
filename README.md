@@ -12,6 +12,7 @@ O projeto permanece pessoal. As fontes e os registros sustentam a manutenção d
 
 - [Guia de uso e manutenção](docs/referencias/guia-de-uso.md): edição, consulta aos dicionários e recuperação das fontes.
 - [Índice da documentação](docs/README.md): registros, fontes e referências locais.
+- [Currículos gerais V3 em PDF](docs/curriculos/v3/README.md): dois formatos nos cinco idiomas, disponíveis no repositório.
 - [Verificação geral de 13 de outubro](docs/relatorio-verificacao-site-2026-10-13.md): conteúdo e ensaios da versão daquela data.
 - [Insumos de competências](docs/referencias/guia-de-uso.md#insumos-ats-e-classificações): dicionários, originais, licenças e limites.
 - [Guia de redação](docs/guia-de-redacao.md): aplicação dos princípios da ASD-STE100.
