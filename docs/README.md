@@ -18,6 +18,7 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [Revisão de linguagem simples pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) | Expressões vagas, repetições, propostas e limites das fontes |
 | [Relatório do site de 13 de outubro](relatorio-verificacao-site-2026-10-13.md) | Alterações e verificações gerais da versão daquela data |
 | [Resultados do site de 13 de outubro](verificacao-site-2026-10-13.json) | Ensaios de apresentação e conteúdo daquela versão |
+| [Revisão de experiências e projetos pt-BR](experiencias-e-projetos-pt-br-2026-10-14.md) | Descrições, estrutura dos projetos, tecnologias confirmadas e evidências do SGCS |
 | [Registro anterior das tags](referencias/ats/verificacao-tags-2026-10-13.json) | Contextos, referências e limites da versão anterior dos cinco idiomas |
 | [Tags e correspondências atuais pt-BR](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Inventário, aplicação dos nomes e comparação após o commit-base 6a96e0b |
 | [Currículo textual pt-BR](curriculo-ats-pt-br-2026-10-13.txt) | Exportação UTF-8 com uma única cópia dos 17 cursos |

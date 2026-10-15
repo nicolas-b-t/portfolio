@@ -8,9 +8,10 @@ A CNH AB permanece como qualificação declarada do responsável.
 A tag Permissão Internacional para Dirigir (PID) foi acrescentada por solicitação explícita do responsável em 14 de outubro de 2026.
 Nenhuma data de emissão, validade ou categoria estrangeira foi acrescentada.
 
-O texto pt-BR foi simplificado para duas frases.
-Ele identifica a CNH AB como habilitação brasileira para carros e motos.
-Os exemplos de destinos permanecem nas outras quatro versões.
+O texto pt-BR foi reduzido a “Aceito em países do Mercosul e em destinos como Alemanha, França e Itália.”
+As tags CNH AB e Permissão Internacional para Dirigir (PID) foram preservadas.
+O responsável solicitou omitir o detalhamento das regras na página.
+As condições consultadas permanecem registradas nesta documentação.
 A PID emitida no Brasil deve acompanhar a CNH válida.
 A aceitação está sujeita às regras e aos prazos do destino.
 O texto não atribui reconhecimento uniforme a blocos econômicos inteiros.

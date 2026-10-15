@@ -94,7 +94,7 @@ Redes
 • Cabeamento de redes
 • Cabo drop
 • Configuração de roteadores
-• Enlaces a rádio
+• Conexões a rádio
 • FTTH
 • Fusão de fibra óptica, aprendiz
 • Medidor de potência óptica (power meter)
@@ -197,36 +197,39 @@ Condução
 • Condução de motos
 • CNH AB
 • Permissão Internacional para Dirigir (PID)
-A CNH AB é a habilitação brasileira para carros e motos. A PID emitida no Brasil deve acompanhar a CNH válida, conforme as regras do país de destino.
+Aceito em países do Mercosul e em destinos como Alemanha, França e Itália.
 
 Experiência profissional
 
 Fiber Optic Installation Assistant
+
 RealFort Sistemas
 Vínculo: Prestação de serviços
 • Cargo declarado: Auxiliar de instalação de fibra óptica
-• Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.
+• Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.
 • Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.
-• Realizei diagnósticos de redes ópticas. Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.
-• Organizei materiais e validei os serviços com a base técnica.
+• Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.
 
 Help Desk Support Technician
+
 Lukos Tecnologia
 Período: setembro de 2025 – dezembro de 2025
 Local: São Paulo, Brasil
 • Cargo declarado: Técnico de suporte Help Desk
-• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.
+• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.
+• Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.
 • Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.
 
 IT Support Technician
+
 Instituto Alpha de Saúde Integral
 Período: abril de 2023 – junho de 2024
 Local: São Paulo, Brasil
 • Cargo declarado: Técnico de suporte de TI
-• Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.
-• Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.
-• Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).
-• Gerenciei e organizei ativos de TI.
+• Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.
+• Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.
+• Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).
+• Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.
 
 Formação acadêmica
 • Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027)
@@ -269,57 +272,73 @@ Cursos complementares
 Competências técnicas (Hard skills)
 
 Gestão e produtividade
+
 Microsoft Office Specialist Associate
 SENAI São Paulo — Escola Hermenegildo Campos de Almeida
 Curso SENAI · 60 h · Conclusão: 25/07/2026 · Emissão: 30/07/2026
+
 Formação White Belt Six Sigma
 RL&Associados
 Formação introdutória · 2 h · Emissão: 17/04/2026
+
 Como Controlar o Fluxo de Caixa
 Sebrae
 Conclusão de curso · 10 h · Conclusão: 09/01/2026
+
 Gestão Financeira
 Sebrae
 Conclusão de curso · 10 h · Conclusão: 29/12/2025
+
 Introdução à Matemática Financeira: Regimes de Capitalização
 Fundação Getulio Vargas — FGV Online
 Participação · 8 h · Emissão: 20/12/2025
+
 Excel Básico
 SENAI São Paulo — Escola Hermenegildo Campos de Almeida
 Conclusão de curso · 40 h · Conclusão: 02/09/2025 · Emissão: 04/09/2025
+
 Introdução à Gestão de Projetos
 Fundação Bradesco — Escola Virtual
 Conclusão de curso · 10 h · Conclusão: 18/03/2025 · Emissão: 18/03/2025
+
 Inovação em Gestão de Projetos
 Sebrae
 Conclusão de curso · 10 h · Conclusão: 19/01/2025
+
 Indicadores Estratégicos - Descomplica
 Sebrae
 Conclusão de curso · 12 h · Conclusão: 27/11/2024
+
 19ª Edição da Escola de Inovadores (2024-2)
 INOVA CPS — Centro Paula Souza
 Participação · 40 h · Emissão: 11/11/2024
 
 Programação e dados
+
 JavaScript Essentials 1
 Cisco Networking Academy, em colaboração com OpenEDG JavaScript Institute
 Conclusão de curso · Emissão: 16/05/2026
+
 Modelagem de Dados
 Fundação Bradesco — Escola Virtual
 Conclusão de curso · 8 h · Conclusão: 25/11/2025 · Emissão: 25/11/2025
+
 Python Essentials 1
 Cisco Networking Academy, em colaboração com OpenEDG Python Institute
 Conclusão de curso · Emissão: 22/03/2025
+
 AI Fundamentals with IBM SkillsBuild
 Cisco Networking Academy, em colaboração com IBM SkillsBuild
 Conclusão de curso · Emissão: 05/11/2024
 
 Redes
+
 Redes de Computadores - Implantação de Redes Locais
 SENAI São Paulo — Escola Hermenegildo Campos de Almeida
 Conclusão de curso · 48 h · Conclusão: 13/05/2026 · Emissão: 15/05/2026
 
 Suporte de TI
+
 Computer Hardware Basics
 Cisco Networking Academy
 Conclusão de curso · Emissão: 18/02/2025
@@ -327,12 +346,14 @@ Conclusão de curso · Emissão: 18/02/2025
 Competências sociais (Soft skills)
 
 Organização e desenvolvimento
+
 Planeje Suas Metas e Resultados
 Sebrae
 Conclusão de curso · 2 h · Conclusão: 25/11/2024
 
 Inglês — TOEIC Listening & Reading
 ETS — Educational Testing Service. Aplicação sob os auspícios do Centro Paula Souza
+
 Total: 910 pontos · Listening: 450 · Reading: 460
 Teste: 26/02/2025 · Validade do resultado: 26/02/2027
 
@@ -340,70 +361,115 @@ Projetos
 Projeto pessoal
 
 Este portfólio
-Desenvolvo este site com agentes de IA. O site usa HTML e CSS, sem JavaScript ou dependências de execução.
-Ele oferece cinco versões de idioma, temas claro e escuro e estilos de impressão.
-O GitHub Actions publica o site no GitHub Pages.
+Site desenvolvido em HTML e CSS, com otimizações de desempenho e acessibilidade. Está disponível em cinco idiomas, com temas claro e escuro e estilos de impressão.
+O projeto utiliza a infraestrutura do GitHub. O GitHub Actions publica o site no GitHub Pages.
 
-Desenvolvimento e gestão
+Tecnologias
+• HTML
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+
+Desenvolvimento e qualidade
 • Desenvolvimento com agentes de IA
 • Documentação técnica
 • Technical documentation
-• Gestão de escopo
-• Git
-• GitHub
-
-Web
 • Acessibilidade web
-• CSS
 • Design responsivo
-• HTML
+• Otimização de desempenho
 • Otimização de imagens
 • Sites multilíngues
 • Testes de interface
 • Validação HTML
 
-Publicação
-• GitHub Actions
-• GitHub Pages
+Gestão e colaboração
+• Gestão de escopo
 Repositório do projeto: https://github.com/nicolas-b-t/portfolio
 Projeto em parceria · Mercado digital em Portugal
 
 Optigrow
-Este é meu primeiro projeto conjunto com meu sócio e amigo Rodrigo Nascimento. Rodrigo atuou principalmente no desenvolvimento.
-Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas na região do Porto. Ele inclui informações sobre serviços e um formulário de contato.
+Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas da região do Porto. Ele reúne informações sobre serviços e um formulário de contato.
+Desenvolvemos o projeto de forma totalmente colaborativa.
 
-Minha participação
+Tecnologias
+• Google AI Studio
+• Supabase
+• Vercel
+• GitHub
+
+Desenvolvimento e qualidade
 • Documentação técnica
 • Technical documentation
-• Pesquisa de mercado
+• Formulários web
 • Preparação de infraestrutura
+
+Gestão e pesquisa
+• Desenvolvimento colaborativo
+• Pesquisa de mercado
 Site do projeto: https://optigrow.vercel.app/
 Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)
 Projeto acadêmico · Produto mínimo viável (MVP) em desenvolvimento
 
 SGCS — Sistema de Gestão de Chamados para Síndicos
+Nossa equipe desenvolve, na Fatec Franco da Rocha, uma pesquisa acadêmica e uma aplicação para síndicos profissionais. Buscamos atender à demanda crescente por soluções digitais simples e acessíveis para a gestão condominial.
+Identificamos uma oportunidade em um setor que está se profissionalizando. A regulamentação da atividade está em discussão no Congresso Nacional. O projeto considera possíveis necessidades decorrentes de uma futura regulamentação.
+A aplicação permite registrar, classificar e acompanhar chamados em condomínios. A pesquisa reúne estudo de caso, pesquisa de campo e análise das necessidades de síndicos e condôminos.
+Sou o gestor responsável pelo projeto. Planejo as atividades, coordeno a equipe e acompanho prazos e entregáveis. Administro e integro as ferramentas utilizadas pela equipe.
 
-Aplicação e processos, equipe
-Nossa equipe desenvolve a aplicação na Fatec Franco da Rocha. A aplicação permite registrar, classificar e acompanhar chamados em condomínios.
-• Avaliação de ferramentas
-• Firebase
+Tecnologias de desenvolvimento
 • Google AI Studio
-• Levantamento de requisitos
-• Modelagem de processos
-• Prototipação
+• Firebase
+• Vercel
+• GitHub
 
-Gestão do projeto
-Sou o gestor responsável pelo projeto. Administro o Trello, lidero a equipe e acompanho os entregáveis.
-• Gestão de entregáveis
-• Liderança de equipe
-• Trello
+Desenvolvimento de software
+• Engenharia de software
+• Engenharia de requisitos
+• Levantamento de requisitos
+• Requisitos funcionais
+• Requisitos não funcionais
+• Modelagem de processos
+• Documentação técnica
+• Technical documentation
+• Prototipação
+• Avaliação de ferramentas
 
 Pesquisa acadêmica
-Nossa equipe também desenvolve a pesquisa acadêmica.
-• Análise de dados qualitativos
+• Pesquisa aplicada
+• Pesquisa bibliográfica
+• Estudo de caso
+• Estudo de campo
 • Entrevistas
 • Questionários
-• Estudo de caso
-• Pesquisa bibliográfica
+• Análise de dados qualitativos
+• Análise de conteúdo
+• Diagrama de Ishikawa
+
+Pesquisa de mercado
+• Pesquisa de mercado
+• Definição de personas
+• Mapa de empatia
+• Análise de necessidades
+
+Gestão e colaboração
+• Gestão de projetos
+• Planejamento de atividades
+• Gestão de escopo
+• Liderança de equipe
+• Gestão de entregáveis
+• Integração de ferramentas
+• Desenvolvimento colaborativo
+
+Ferramentas de gestão e pesquisa
+• Google Drive
+• Microsoft Word
+• Microsoft Teams
+• Trello
+• Google Acadêmico
+• ResearchGate
+• WhatsApp
+• Canva
 Site do projeto: https://sgcs-seven.vercel.app/
 Repositório do projeto: https://github.com/SGCS-Gestao-de-Chamados-Para-Sindicos/SGCS-espelho (privado)

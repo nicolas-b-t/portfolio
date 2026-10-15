@@ -16,11 +16,12 @@ Os currículos e certificados integrais permanecem na cópia pessoal.
 O TOEIC Listening & Reading registra 910 pontos. Nenhum nível QECR ou STANAG foi atribuído.
 A formação superior permanece em andamento.
 
-O Optigrow registra pesquisa, documentação e preparação de infraestrutura como participação de Nicolas.
-Rodrigo Nascimento atuou principalmente no desenvolvimento.
-No SGCS, Nicolas gerencia o projeto, administra Trello, lidera a equipe e acompanha entregáveis.
+Em 14 de outubro de 2026, o responsável solicitou apresentar o desenvolvimento do Optigrow como totalmente colaborativo.
+A distribuição individual de funções foi retirada da descrição pt-BR. As declarações e o histórico preservam o contexto anterior.
+No SGCS, Nicolas gerencia o projeto, coordena a equipe, acompanha prazos e entregáveis e integra as ferramentas de trabalho.
 A aplicação e a pesquisa acadêmica permanecem atividades da equipe.
 O SGCS permanece como MVP em desenvolvimento.
+As [experiências e os projetos revisados](experiencias-e-projetos-pt-br-2026-10-14.md) registram as declarações, fontes acadêmicas e limites atuais do texto pt-BR.
 
 ## Políticas permanentes
 

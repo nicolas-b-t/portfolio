@@ -40,6 +40,51 @@
         "base_tecnica": "Central operacional."
       },
       "limite": "O responsável não especificou o procedimento de validação ou os critérios utilizados."
+    },
+    {
+      "tema": "Revisão das experiências profissionais",
+      "registrado_em": "2026-10-14",
+      "origem": "Solicitação explícita do responsável nesta conversa.",
+      "atividades_confirmadas": {
+        "RealFort Sistemas": [
+          "Instalação e manutenção de redes FTTH e conexões a rádio.",
+          "Lançamento de cabos drop e conectorização SC/APC.",
+          "Emendas por conectorização e emendas por fusão como aprendiz.",
+          "Trabalho em redes aéreas em locais comerciais e residenciais.",
+          "Diagnósticos com power meter, VFL e OTDR e resolução de problemas de rede."
+        ],
+        "Lukos Tecnologia": [
+          "Treinamento e orientação de clientes.",
+          "Diagnóstico e resolução remotos de problemas no sistema proprietário, na rede e nos dispositivos dos clientes."
+        ],
+        "Instituto Alpha de Saúde Integral": [
+          "Treinamento e orientação de usuários.",
+          "Instalação, configuração e manutenção de impressoras.",
+          "Elaboração de relatórios internos.",
+          "Gestão do Microsoft Active Directory."
+        ]
+      },
+      "limites": "A declaração atualiza a descrição anterior de apoio ao diagnóstico por OTDR. Não altera o nível de aprendiz nas emendas por fusão."
+    },
+    {
+      "tema": "Optigrow e gestão do SGCS",
+      "registrado_em": "2026-10-14",
+      "origem": "Solicitação e confirmação do responsável nesta conversa.",
+      "Optigrow": {
+        "desenvolvimento": "Totalmente colaborativo, sem distribuição individual de funções no texto.",
+        "tecnologias": [
+          "Google AI Studio",
+          "Supabase",
+          "Vercel",
+          "GitHub"
+        ]
+      },
+      "SGCS": {
+        "gestao": "Planejamento e organização de atividades, coordenação da equipe, acompanhamento de entregas e integração de ferramentas.",
+        "contexto": "Pesquisa acadêmica, pesquisa de mercado e aplicação para síndicos profissionais.",
+        "fonte_tecnologias": "docs/fontes/academico/PI-IV_ENTREGA_FINAL.pdf, página PDF 26."
+      },
+      "limites": "Tecnologias e competências do projeto não atribuem domínio individual de toda a equipe. A regulamentação é uma proposta em tramitação."
     }
   ],
   "limites": [
@@ -47,5 +92,5 @@
     "Não foi inferida administração corporativa completa das plataformas.",
     "As declarações não comprovam arquitetura de infraestrutura em nuvem."
   ],
-  "atualizado_em": "2026-10-13"
+  "atualizado_em": "2026-10-14"
 }

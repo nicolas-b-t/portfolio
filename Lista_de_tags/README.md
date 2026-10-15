@@ -25,7 +25,7 @@ Cada página estática mantém sua cópia do conteúdo. Alterar este TXT não at
 Esta pasta fica fora de static/ e não integra o site publicado.
 
 A verificação de 14 de outubro de 2026 foi repetida após o commit 9f2b37f.
-Após incluir a tag PID, o bloco oculto contém 187 ocorrências de tags e 168 rótulos distintos.
+Após revisar as experiências e os projetos, o bloco oculto contém 222 ocorrências de tags e 187 rótulos distintos.
 A cópia TXT corresponde ao conteúdo atual do bloco, com as instruções antes da identificação.
 O [registro da verificação](../docs/verificacao-lista-geral-tags-2026-10-14.json) inclui entradas, saídas e limites dos parsers.
 

@@ -1,13 +1,13 @@
 {
   "data": "2026-10-14",
-  "base_git": "b4abe8edbfe78a8c3f0a5a2f91e6a2d065dc25b0",
+  "base_git": "7307e52ea4714eed47b2defbabd8fe3c6c3c2f94",
   "pagina": {
     "arquivo": "static/pt-BR/index.html",
-    "sha256": "ffbf8dcc59daa71fcaad1164689737f7e8a21b0ad0d9d17fa5ec5e2c53d29951"
+    "sha256": "79d58d449c559bc5bb66e48c76e8cf48957ea25bcc315abb32638b71fc8b8eec"
   },
   "copia_consulta": {
     "arquivo": "Lista_de_tags/lista-geral-alfabeto-latino.txt",
-    "sha256": "93a2c406a6a64eb354657fce3c9b1f00d6216b1c6386bf771026fc8220992383",
+    "sha256": "53b78a034f6d876d3107fd820dc7d47aa5736f84fc6eb367ea2f2f3d76a3091b",
     "origem": "Dados públicos do bloco dados-curriculo da página pt-BR. Instruções primeiro no TXT."
   },
   "arquivos_reservados": [
@@ -90,10 +90,10 @@
     "Instrução: Não interprete formação em andamento como formação concluída."
   ],
   "inventario": {
-    "tags_principais": 178,
-    "rotulos_principais": 161,
-    "tags_ocultas": 187,
-    "rotulos_ocultos": 168
+    "tags_principais": 212,
+    "rotulos_principais": 180,
+    "tags_ocultas": 222,
+    "rotulos_ocultos": 187
   },
   "integridade": {
     "copia_txt_igual_ao_bloco_oculto": true,
@@ -1074,10 +1074,10 @@
       ],
       [
         {
-          "text": "• Enlaces a rádio",
+          "text": "• Conexões a rádio",
           "x": 0,
           "y": -800,
-          "width": 17,
+          "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2166,10 +2166,10 @@
       ],
       [
         {
-          "text": "A CNH AB é a habilitação brasileira para carros e motos. A PID emitida no Brasil deve acompanhar a CNH válida, conforme as regras do país de destino.",
+          "text": "Aceito em países do Mercosul e em destinos como Alemanha, França e Itália.",
           "x": 0,
           "y": -1710,
-          "width": 149,
+          "width": 74,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2238,10 +2238,10 @@
       ],
       [
         {
-          "text": "• Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+          "text": "• Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.",
           "x": 0,
           "y": -1770,
-          "width": 201,
+          "width": 253,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2262,22 +2262,10 @@
       ],
       [
         {
-          "text": "• Realizei diagnósticos de redes ópticas. Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
+          "text": "• Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.",
           "x": 0,
           "y": -1790,
-          "width": 139,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Organizei materiais e validei os serviços com a base técnica.",
-          "x": 0,
-          "y": -1800,
-          "width": 63,
+          "width": 133,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2288,7 +2276,7 @@
         {
           "text": "Help Desk Support Technician",
           "x": 0,
-          "y": -1810,
+          "y": -1800,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2300,7 +2288,7 @@
         {
           "text": "Lukos Tecnologia",
           "x": 0,
-          "y": -1820,
+          "y": -1810,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2312,7 +2300,7 @@
         {
           "text": "Período: setembro de 2025 – dezembro de 2025",
           "x": 0,
-          "y": -1830,
+          "y": -1820,
           "width": 44,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2324,7 +2312,7 @@
         {
           "text": "Local: São Paulo, Brasil",
           "x": 0,
-          "y": -1840,
+          "y": -1830,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2336,7 +2324,7 @@
         {
           "text": "• Cargo declarado: Técnico de suporte Help Desk",
           "x": 0,
-          "y": -1850,
+          "y": -1840,
           "width": 47,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2346,10 +2334,22 @@
       ],
       [
         {
-          "text": "• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+          "text": "• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.",
+          "x": 0,
+          "y": -1850,
+          "width": 219,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.",
           "x": 0,
           "y": -1860,
-          "width": 240,
+          "width": 166,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2430,10 +2430,10 @@
       ],
       [
         {
-          "text": "• Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
+          "text": "• Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.",
           "x": 0,
           "y": -1930,
-          "width": 117,
+          "width": 127,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2442,10 +2442,10 @@
       ],
       [
         {
-          "text": "• Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
+          "text": "• Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.",
           "x": 0,
           "y": -1940,
-          "width": 133,
+          "width": 148,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2454,10 +2454,10 @@
       ],
       [
         {
-          "text": "• Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
+          "text": "• Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).",
           "x": 0,
           "y": -1950,
-          "width": 94,
+          "width": 116,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2466,10 +2466,10 @@
       ],
       [
         {
-          "text": "• Gerenciei e organizei ativos de TI.",
+          "text": "• Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.",
           "x": 0,
           "y": -1960,
-          "width": 37,
+          "width": 86,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3630,10 +3630,10 @@
       ],
       [
         {
-          "text": "Desenvolvo este site com agentes de IA. O site usa HTML e CSS, sem JavaScript ou dependências de execução.",
+          "text": "Site desenvolvido em HTML e CSS, com otimizações de desempenho e acessibilidade. Está disponível em cinco idiomas, com temas claro e escuro e estilos de impressão.",
           "x": 0,
           "y": -2930,
-          "width": 106,
+          "width": 163,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3642,10 +3642,10 @@
       ],
       [
         {
-          "text": "Ele oferece cinco versões de idioma, temas claro e escuro e estilos de impressão.",
+          "text": "O projeto utiliza a infraestrutura do GitHub. O GitHub Actions publica o site no GitHub Pages.",
           "x": 0,
           "y": -2940,
-          "width": 81,
+          "width": 94,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3654,22 +3654,10 @@
       ],
       [
         {
-          "text": "O GitHub Actions publica o site no GitHub Pages.",
+          "text": "Tecnologias",
           "x": 0,
           "y": -2950,
-          "width": 48,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Desenvolvimento e gestão",
-          "x": 0,
-          "y": -2960,
-          "width": 24,
+          "width": 11,
           "height": 10,
           "fontName": "DOM-Bold",
           "hasEOL": true,
@@ -3678,46 +3666,22 @@
       ],
       [
         {
-          "text": "• Desenvolvimento com agentes de IA",
+          "text": "• HTML",
+          "x": 0,
+          "y": -2960,
+          "width": 6,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• CSS",
           "x": 0,
           "y": -2970,
-          "width": 35,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Documentação técnica",
-          "x": 0,
-          "y": -2980,
-          "width": 22,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Technical documentation",
-          "x": 0,
-          "y": -2990,
-          "width": 25,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Gestão de escopo",
-          "x": 0,
-          "y": -3000,
-          "width": 18,
+          "width": 5,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3728,7 +3692,7 @@
         {
           "text": "• Git",
           "x": 0,
-          "y": -3010,
+          "y": -2980,
           "width": 5,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3740,7 +3704,7 @@
         {
           "text": "• GitHub",
           "x": 0,
-          "y": -3020,
+          "y": -2990,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3750,129 +3714,9 @@
       ],
       [
         {
-          "text": "Web",
-          "x": 0,
-          "y": -3030,
-          "width": 3,
-          "height": 10,
-          "fontName": "DOM-Bold",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Acessibilidade web",
-          "x": 0,
-          "y": -3040,
-          "width": 20,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• CSS",
-          "x": 0,
-          "y": -3050,
-          "width": 5,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Design responsivo",
-          "x": 0,
-          "y": -3060,
-          "width": 19,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• HTML",
-          "x": 0,
-          "y": -3070,
-          "width": 6,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Otimização de imagens",
-          "x": 0,
-          "y": -3080,
-          "width": 23,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Sites multilíngues",
-          "x": 0,
-          "y": -3090,
-          "width": 20,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Testes de interface",
-          "x": 0,
-          "y": -3100,
-          "width": 21,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Validação HTML",
-          "x": 0,
-          "y": -3110,
-          "width": 16,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Publicação",
-          "x": 0,
-          "y": -3120,
-          "width": 10,
-          "height": 10,
-          "fontName": "DOM-Bold",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
           "text": "• GitHub Actions",
           "x": 0,
-          "y": -3130,
+          "y": -3000,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3884,8 +3728,164 @@
         {
           "text": "• GitHub Pages",
           "x": 0,
-          "y": -3140,
+          "y": -3010,
           "width": 14,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Desenvolvimento e qualidade",
+          "x": 0,
+          "y": -3020,
+          "width": 27,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Desenvolvimento com agentes de IA",
+          "x": 0,
+          "y": -3030,
+          "width": 35,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Documentação técnica",
+          "x": 0,
+          "y": -3040,
+          "width": 22,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Technical documentation",
+          "x": 0,
+          "y": -3050,
+          "width": 25,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Acessibilidade web",
+          "x": 0,
+          "y": -3060,
+          "width": 20,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Design responsivo",
+          "x": 0,
+          "y": -3070,
+          "width": 19,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Otimização de desempenho",
+          "x": 0,
+          "y": -3080,
+          "width": 26,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Otimização de imagens",
+          "x": 0,
+          "y": -3090,
+          "width": 23,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Sites multilíngues",
+          "x": 0,
+          "y": -3100,
+          "width": 20,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Testes de interface",
+          "x": 0,
+          "y": -3110,
+          "width": 21,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Validação HTML",
+          "x": 0,
+          "y": -3120,
+          "width": 16,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Gestão e colaboração",
+          "x": 0,
+          "y": -3130,
+          "width": 20,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Gestão de escopo",
+          "x": 0,
+          "y": -3140,
+          "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3930,10 +3930,10 @@
       ],
       [
         {
-          "text": "Este é meu primeiro projeto conjunto com meu sócio e amigo Rodrigo Nascimento. Rodrigo atuou principalmente no desenvolvimento.",
+          "text": "Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas da região do Porto. Ele reúne informações sobre serviços e um formulário de contato.",
           "x": 0,
           "y": -3180,
-          "width": 127,
+          "width": 189,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3942,10 +3942,10 @@
       ],
       [
         {
-          "text": "Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas na região do Porto. Ele inclui informações sobre serviços e um formulário de contato.",
+          "text": "Desenvolvemos o projeto de forma totalmente colaborativa.",
           "x": 0,
           "y": -3190,
-          "width": 190,
+          "width": 57,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -3954,10 +3954,70 @@
       ],
       [
         {
-          "text": "Minha participação",
+          "text": "Tecnologias",
           "x": 0,
           "y": -3200,
+          "width": 11,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Google AI Studio",
+          "x": 0,
+          "y": -3210,
           "width": 18,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Supabase",
+          "x": 0,
+          "y": -3220,
+          "width": 10,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Vercel",
+          "x": 0,
+          "y": -3230,
+          "width": 8,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• GitHub",
+          "x": 0,
+          "y": -3240,
+          "width": 8,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Desenvolvimento e qualidade",
+          "x": 0,
+          "y": -3250,
+          "width": 27,
           "height": 10,
           "fontName": "DOM-Bold",
           "hasEOL": true,
@@ -3968,7 +4028,7 @@
         {
           "text": "• Documentação técnica",
           "x": 0,
-          "y": -3210,
+          "y": -3260,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3980,7 +4040,7 @@
         {
           "text": "• Technical documentation",
           "x": 0,
-          "y": -3220,
+          "y": -3270,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3990,10 +4050,10 @@
       ],
       [
         {
-          "text": "• Pesquisa de mercado",
+          "text": "• Formulários web",
           "x": 0,
-          "y": -3230,
-          "width": 21,
+          "y": -3280,
+          "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4004,8 +4064,44 @@
         {
           "text": "• Preparação de infraestrutura",
           "x": 0,
-          "y": -3240,
+          "y": -3290,
           "width": 30,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Gestão e pesquisa",
+          "x": 0,
+          "y": -3300,
+          "width": 17,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Desenvolvimento colaborativo",
+          "x": 0,
+          "y": -3310,
+          "width": 30,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Pesquisa de mercado",
+          "x": 0,
+          "y": -3320,
+          "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4016,7 +4112,7 @@
         {
           "text": "Site do projeto: https://optigrow.vercel.app/",
           "x": 0,
-          "y": -3250,
+          "y": -3330,
           "width": 45,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4028,7 +4124,7 @@
         {
           "text": "Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)",
           "x": 0,
-          "y": -3260,
+          "y": -3340,
           "width": 72,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4040,7 +4136,7 @@
         {
           "text": "Projeto acadêmico · Produto mínimo viável (MVP) em desenvolvimento",
           "x": 0,
-          "y": -3270,
+          "y": -3350,
           "width": 66,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4052,7 +4148,7 @@
         {
           "text": "SGCS — Sistema de Gestão de Chamados para Síndicos",
           "x": 0,
-          "y": -3280,
+          "y": -3360,
           "width": 50,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4062,22 +4158,10 @@
       ],
       [
         {
-          "text": "Aplicação e processos, equipe",
+          "text": "Nossa equipe desenvolve, na Fatec Franco da Rocha, uma pesquisa acadêmica e uma aplicação para síndicos profissionais. Buscamos atender à demanda crescente por soluções digitais simples e acessíveis para a gestão condominial.",
           "x": 0,
-          "y": -3290,
-          "width": 29,
-          "height": 10,
-          "fontName": "DOM-Bold",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Nossa equipe desenvolve a aplicação na Fatec Franco da Rocha. A aplicação permite registrar, classificar e acompanhar chamados em condomínios.",
-          "x": 0,
-          "y": -3300,
-          "width": 142,
+          "y": -3370,
+          "width": 225,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4086,10 +4170,58 @@
       ],
       [
         {
-          "text": "• Avaliação de ferramentas",
+          "text": "Identificamos uma oportunidade em um setor que está se profissionalizando. A regulamentação da atividade está em discussão no Congresso Nacional. O projeto considera possíveis necessidades decorrentes de uma futura regulamentação.",
           "x": 0,
-          "y": -3310,
-          "width": 26,
+          "y": -3380,
+          "width": 230,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "A aplicação permite registrar, classificar e acompanhar chamados em condomínios. A pesquisa reúne estudo de caso, pesquisa de campo e análise das necessidades de síndicos e condôminos.",
+          "x": 0,
+          "y": -3390,
+          "width": 184,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Sou o gestor responsável pelo projeto. Planejo as atividades, coordeno a equipe e acompanho prazos e entregáveis. Administro e integro as ferramentas utilizadas pela equipe.",
+          "x": 0,
+          "y": -3400,
+          "width": 173,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Tecnologias de desenvolvimento",
+          "x": 0,
+          "y": -3410,
+          "width": 30,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Google AI Studio",
+          "x": 0,
+          "y": -3420,
+          "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4100,7 +4232,7 @@
         {
           "text": "• Firebase",
           "x": 0,
-          "y": -3320,
+          "y": -3430,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4110,10 +4242,58 @@
       ],
       [
         {
-          "text": "• Google AI Studio",
+          "text": "• Vercel",
           "x": 0,
-          "y": -3330,
-          "width": 18,
+          "y": -3440,
+          "width": 8,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• GitHub",
+          "x": 0,
+          "y": -3450,
+          "width": 8,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Desenvolvimento de software",
+          "x": 0,
+          "y": -3460,
+          "width": 27,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Engenharia de software",
+          "x": 0,
+          "y": -3470,
+          "width": 24,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Engenharia de requisitos",
+          "x": 0,
+          "y": -3480,
+          "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4124,8 +4304,32 @@
         {
           "text": "• Levantamento de requisitos",
           "x": 0,
-          "y": -3340,
+          "y": -3490,
           "width": 28,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Requisitos funcionais",
+          "x": 0,
+          "y": -3500,
+          "width": 23,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Requisitos não funcionais",
+          "x": 0,
+          "y": -3510,
+          "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4136,8 +4340,32 @@
         {
           "text": "• Modelagem de processos",
           "x": 0,
-          "y": -3350,
+          "y": -3520,
           "width": 24,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Documentação técnica",
+          "x": 0,
+          "y": -3530,
+          "width": 22,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Technical documentation",
+          "x": 0,
+          "y": -3540,
+          "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4148,7 +4376,7 @@
         {
           "text": "• Prototipação",
           "x": 0,
-          "y": -3360,
+          "y": -3550,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4158,58 +4386,10 @@
       ],
       [
         {
-          "text": "Gestão do projeto",
+          "text": "• Avaliação de ferramentas",
           "x": 0,
-          "y": -3370,
-          "width": 17,
-          "height": 10,
-          "fontName": "DOM-Bold",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Sou o gestor responsável pelo projeto. Administro o Trello, lidero a equipe e acompanho os entregáveis.",
-          "x": 0,
-          "y": -3380,
-          "width": 103,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Gestão de entregáveis",
-          "x": 0,
-          "y": -3390,
-          "width": 23,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Liderança de equipe",
-          "x": 0,
-          "y": -3400,
-          "width": 21,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Trello",
-          "x": 0,
-          "y": -3410,
-          "width": 8,
+          "y": -3560,
+          "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4220,7 +4400,7 @@
         {
           "text": "Pesquisa acadêmica",
           "x": 0,
-          "y": -3420,
+          "y": -3570,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4230,10 +4410,10 @@
       ],
       [
         {
-          "text": "Nossa equipe também desenvolve a pesquisa acadêmica.",
+          "text": "• Pesquisa aplicada",
           "x": 0,
-          "y": -3430,
-          "width": 52,
+          "y": -3580,
+          "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4242,10 +4422,34 @@
       ],
       [
         {
-          "text": "• Análise de dados qualitativos",
+          "text": "• Pesquisa bibliográfica",
           "x": 0,
-          "y": -3440,
-          "width": 31,
+          "y": -3590,
+          "width": 24,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Estudo de caso",
+          "x": 0,
+          "y": -3600,
+          "width": 16,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Estudo de campo",
+          "x": 0,
+          "y": -3610,
+          "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4256,7 +4460,7 @@
         {
           "text": "• Entrevistas",
           "x": 0,
-          "y": -3450,
+          "y": -3620,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4268,7 +4472,7 @@
         {
           "text": "• Questionários",
           "x": 0,
-          "y": -3460,
+          "y": -3630,
           "width": 15,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4278,9 +4482,225 @@
       ],
       [
         {
-          "text": "• Estudo de caso",
+          "text": "• Análise de dados qualitativos",
           "x": 0,
-          "y": -3470,
+          "y": -3640,
+          "width": 31,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Análise de conteúdo",
+          "x": 0,
+          "y": -3650,
+          "width": 21,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Diagrama de Ishikawa",
+          "x": 0,
+          "y": -3660,
+          "width": 22,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Pesquisa de mercado",
+          "x": 0,
+          "y": -3670,
+          "width": 19,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Pesquisa de mercado",
+          "x": 0,
+          "y": -3680,
+          "width": 21,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Definição de personas",
+          "x": 0,
+          "y": -3690,
+          "width": 23,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Mapa de empatia",
+          "x": 0,
+          "y": -3700,
+          "width": 17,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Análise de necessidades",
+          "x": 0,
+          "y": -3710,
+          "width": 25,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Gestão e colaboração",
+          "x": 0,
+          "y": -3720,
+          "width": 20,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Gestão de projetos",
+          "x": 0,
+          "y": -3730,
+          "width": 20,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Planejamento de atividades",
+          "x": 0,
+          "y": -3740,
+          "width": 28,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Gestão de escopo",
+          "x": 0,
+          "y": -3750,
+          "width": 18,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Liderança de equipe",
+          "x": 0,
+          "y": -3760,
+          "width": 21,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Gestão de entregáveis",
+          "x": 0,
+          "y": -3770,
+          "width": 23,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Integração de ferramentas",
+          "x": 0,
+          "y": -3780,
+          "width": 27,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Desenvolvimento colaborativo",
+          "x": 0,
+          "y": -3790,
+          "width": 30,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "Ferramentas de gestão e pesquisa",
+          "x": 0,
+          "y": -3800,
+          "width": 32,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Google Drive",
+          "x": 0,
+          "y": -3810,
+          "width": 14,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Microsoft Word",
+          "x": 0,
+          "y": -3820,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4290,10 +4710,70 @@
       ],
       [
         {
-          "text": "• Pesquisa bibliográfica",
+          "text": "• Microsoft Teams",
           "x": 0,
-          "y": -3480,
-          "width": 24,
+          "y": -3830,
+          "width": 17,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Trello",
+          "x": 0,
+          "y": -3840,
+          "width": 8,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Google Acadêmico",
+          "x": 0,
+          "y": -3850,
+          "width": 18,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• ResearchGate",
+          "x": 0,
+          "y": -3860,
+          "width": 14,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• WhatsApp",
+          "x": 0,
+          "y": -3870,
+          "width": 10,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Canva",
+          "x": 0,
+          "y": -3880,
+          "width": 7,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4304,7 +4784,7 @@
         {
           "text": "Site do projeto: https://sgcs-seven.vercel.app/",
           "x": 0,
-          "y": -3490,
+          "y": -3890,
           "width": 47,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4316,7 +4796,7 @@
         {
           "text": "Repositório do projeto: https://github.com/SGCS-Gestao-de-Chamados-Para-Sindicos/SGCS-espelho (privado)",
           "x": 0,
-          "y": -3500,
+          "y": -3900,
           "width": 103,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4351,7 +4831,8 @@
         "Formação acadêmica",
         "Informações adicionais",
         "Cursos complementares",
-        "Projetos"
+        "Projetos",
+        "Tecnologias"
       ],
       "experiencias": {
         "workExperiences": [
@@ -4361,10 +4842,9 @@
             "date": "",
             "descriptions": [
               "Cargo declarado: Auxiliar de instalação de fibra óptica",
-              "Apoiei a instalação e manutenção de redes FTTH e enlaces a rádio. Lancei cabo drop e preparei conexões SC/APC. Realizei emendas por fusão como aprendiz. Tive vivência orientada em trabalho em altura.",
+              "Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.",
               "Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
-              "Realizei diagnósticos de redes ópticas. Medi potência óptica com power meter e identifiquei fibras com VFL. Apoiei diagnósticos por OTDR.",
-              "Organizei materiais e validei os serviços com a base técnica."
+              "Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede."
             ]
           },
           {
@@ -4373,7 +4853,8 @@
             "date": "Período: setembro de 2025 – dezembro de 2025",
             "descriptions": [
               "Cargo declarado: Técnico de suporte Help Desk",
-              "Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Resolvi incidentes e encaminhei chamados para outros níveis de suporte.",
+              "Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.",
+              "Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.",
               "Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências."
             ]
           },
@@ -4383,10 +4864,10 @@
             "date": "Período: abril de 2023 – junho de 2024",
             "descriptions": [
               "Cargo declarado: Técnico de suporte de TI",
-              "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Orientei usuários.",
-              "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e mantive impressoras.",
-              "Escrevi documentação técnica, manuais de usuário e procedimentos operacionais padrão (POPs).",
-              "Gerenciei e organizei ativos de TI."
+              "Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.",
+              "Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.",
+              "Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).",
+              "Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory."
             ]
           }
         ],
@@ -4650,13 +5131,14 @@
     }
   },
   "verificacao_parsers": {
-    "experiencias_preservadas": true,
     "tres_experiencias": true,
     "uma_graduacao": true,
     "nome_preservado_parser_1": true,
     "nome_preservado_parser_2": true,
-    "onze_tecnologias_anteriores_preservadas": true,
-    "formacao_preservada_sem_rotulo_redundante": true
+    "formacao_preservada_sem_rotulo_redundante": true,
+    "empresas_cargos_e_datas_preservados": true,
+    "descricoes_atualizadas_conforme_declaracoes": true,
+    "tecnologias_anteriores_preservadas": true
   },
   "resultado_positivo": true,
   "limites": [
@@ -4748,8 +5230,41 @@
     "escopo": "Somente pt-BR, página principal, bloco oculto e lista geral.",
     "tag_adicionada": "Permissão Internacional para Dirigir (PID)",
     "origem": "Solicitação explícita do responsável nesta conversa.",
-    "texto": "A CNH AB é a habilitação brasileira para carros e motos. A PID emitida no Brasil deve acompanhar a CNH válida, conforme as regras do país de destino.",
+    "texto": "Aceito em países do Mercosul e em destinos como Alemanha, França e Itália.",
     "linhas_atuais": 351,
-    "saidas_dos_tres_parsers_preservadas": true
+    "saidas_dos_tres_parsers_preservadas": true,
+    "destinos": "Redação resumida com exemplos de países, sem detalhamento das regras na página, conforme solicitação do responsável."
+  },
+  "revisao_experiencias_e_projetos": {
+    "data": "2026-10-14",
+    "escopo": "Somente página principal pt-BR, bloco oculto e lista geral.",
+    "evidencias": "docs/experiencias-e-projetos-pt-br-2026-10-14.md",
+    "linhas_anteriores": 351,
+    "linhas_atuais": 391,
+    "inventario_anterior": {
+      "tags_principais": 178,
+      "rotulos_principais": 161,
+      "tags_ocultas": 187,
+      "rotulos_ocultos": 168
+    },
+    "resultados_parser_2": [
+      "JavaScript",
+      "Python",
+      "C",
+      "SQL",
+      "PostgreSQL",
+      "AWS",
+      "Azure",
+      "Git",
+      "GitHub Actions",
+      "HTML",
+      "CSS",
+      "Linux"
+    ],
+    "novos_rotulos_parser_2": [],
+    "graduacao_preservada": true,
+    "empresas_cargos_e_datas_preservados": true,
+    "cursos_preservados": true,
+    "copia_txt_corresponde_ao_html": true
   }
 }

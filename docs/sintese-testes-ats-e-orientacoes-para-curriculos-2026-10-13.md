@@ -455,3 +455,20 @@ Na simplificação seguinte da seção Condução, o responsável solicitou acre
 A explicação passou a ter duas frases. O conteúdo principal contém 178 ocorrências de tags e 161 rótulos distintos.
 O bloco oculto contém 187 ocorrências e 168 rótulos distintos.
 A lista geral e seus hashes foram atualizados. Os três parsers mantiveram as mesmas saídas com 351 linhas de entrada.
+
+Por solicitação posterior, a segunda frase passou a indicar destinos de turismo no Mercosul, Alemanha, França e Itália.
+O detalhamento das regras foi retirado da página. A cópia TXT, os hashes e a entrada dos parsers foram sincronizados.
+Os três parsers mantiveram as mesmas saídas.
+
+### Revisão das experiências e dos projetos pt-BR
+
+As descrições profissionais foram atualizadas conforme as novas declarações do responsável.
+Os projetos passaram a apresentar descrição seguida de tecnologias e competências organizadas por assunto.
+O relatório acadêmico do SGCS fundamentou as ferramentas e as competências da equipe.
+As [evidências e os limites](experiencias-e-projetos-pt-br-2026-10-14.md) distinguem as ferramentas utilizadas das alternativas avaliadas.
+
+A entrada passou a conter 391 linhas lógicas.
+O conteúdo principal possui 212 ocorrências de tags e o bloco oculto possui 222.
+O cvats preservou empresas, cargos, datas e graduação. As descrições das experiências refletem a revisão.
+O segundo parser manteve os mesmos 12 rótulos, incluindo o falso positivo C já registrado.
+O TXT e os hashes foram atualizados. Os dados dos cursos permaneceram iguais.
