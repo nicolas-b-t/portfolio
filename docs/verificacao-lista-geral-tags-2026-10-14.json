@@ -1,13 +1,13 @@
 {
   "data": "2026-10-14",
-  "base_git": "7307e52ea4714eed47b2defbabd8fe3c6c3c2f94",
+  "base_git": "5fced886ecb2e8d9685f4527660dc85cdce1c6aa",
   "pagina": {
     "arquivo": "static/pt-BR/index.html",
-    "sha256": "79d58d449c559bc5bb66e48c76e8cf48957ea25bcc315abb32638b71fc8b8eec"
+    "sha256": "d8e16a6034881c564350cd810c6829972b1f4b15fe3a41bd5850375659dab0a8"
   },
   "copia_consulta": {
     "arquivo": "Lista_de_tags/lista-geral-alfabeto-latino.txt",
-    "sha256": "53b78a034f6d876d3107fd820dc7d47aa5736f84fc6eb367ea2f2f3d76a3091b",
+    "sha256": "6916a87f7c38d5841feffc2af7f93cd18aeeb627ab72bae8b83438f9c371c322",
     "origem": "Dados públicos do bloco dados-curriculo da página pt-BR. Instruções primeiro no TXT."
   },
   "arquivos_reservados": [
@@ -4158,10 +4158,10 @@
       ],
       [
         {
-          "text": "Nossa equipe desenvolve, na Fatec Franco da Rocha, uma pesquisa acadêmica e uma aplicação para síndicos profissionais. Buscamos atender à demanda crescente por soluções digitais simples e acessíveis para a gestão condominial.",
+          "text": "Nossa equipe desenvolve uma pesquisa acadêmica e uma aplicação simples e acessível para síndicos profissionais na Fatec Franco da Rocha.",
           "x": 0,
           "y": -3370,
-          "width": 225,
+          "width": 136,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4170,10 +4170,10 @@
       ],
       [
         {
-          "text": "Identificamos uma oportunidade em um setor que está se profissionalizando. A regulamentação da atividade está em discussão no Congresso Nacional. O projeto considera possíveis necessidades decorrentes de uma futura regulamentação.",
+          "text": "O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda em discussão no Congresso Nacional.",
           "x": 0,
           "y": -3380,
-          "width": 230,
+          "width": 146,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4182,22 +4182,10 @@
       ],
       [
         {
-          "text": "A aplicação permite registrar, classificar e acompanhar chamados em condomínios. A pesquisa reúne estudo de caso, pesquisa de campo e análise das necessidades de síndicos e condôminos.",
+          "text": "Gerencio o projeto, coordeno a equipe e acompanho prazos e entregáveis. Também administro e integro as ferramentas de trabalho.",
           "x": 0,
           "y": -3390,
-          "width": 184,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Sou o gestor responsável pelo projeto. Planejo as atividades, coordeno a equipe e acompanho prazos e entregáveis. Administro e integro as ferramentas utilizadas pela equipe.",
-          "x": 0,
-          "y": -3400,
-          "width": 173,
+          "width": 127,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -4208,7 +4196,7 @@
         {
           "text": "Tecnologias de desenvolvimento",
           "x": 0,
-          "y": -3410,
+          "y": -3400,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4220,7 +4208,7 @@
         {
           "text": "• Google AI Studio",
           "x": 0,
-          "y": -3420,
+          "y": -3410,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4232,7 +4220,7 @@
         {
           "text": "• Firebase",
           "x": 0,
-          "y": -3430,
+          "y": -3420,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4244,7 +4232,7 @@
         {
           "text": "• Vercel",
           "x": 0,
-          "y": -3440,
+          "y": -3430,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4256,7 +4244,7 @@
         {
           "text": "• GitHub",
           "x": 0,
-          "y": -3450,
+          "y": -3440,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4268,7 +4256,7 @@
         {
           "text": "Desenvolvimento de software",
           "x": 0,
-          "y": -3460,
+          "y": -3450,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4280,7 +4268,7 @@
         {
           "text": "• Engenharia de software",
           "x": 0,
-          "y": -3470,
+          "y": -3460,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4292,7 +4280,7 @@
         {
           "text": "• Engenharia de requisitos",
           "x": 0,
-          "y": -3480,
+          "y": -3470,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4304,7 +4292,7 @@
         {
           "text": "• Levantamento de requisitos",
           "x": 0,
-          "y": -3490,
+          "y": -3480,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4316,7 +4304,7 @@
         {
           "text": "• Requisitos funcionais",
           "x": 0,
-          "y": -3500,
+          "y": -3490,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4328,7 +4316,7 @@
         {
           "text": "• Requisitos não funcionais",
           "x": 0,
-          "y": -3510,
+          "y": -3500,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4340,7 +4328,7 @@
         {
           "text": "• Modelagem de processos",
           "x": 0,
-          "y": -3520,
+          "y": -3510,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4352,7 +4340,7 @@
         {
           "text": "• Documentação técnica",
           "x": 0,
-          "y": -3530,
+          "y": -3520,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4364,7 +4352,7 @@
         {
           "text": "• Technical documentation",
           "x": 0,
-          "y": -3540,
+          "y": -3530,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4376,7 +4364,7 @@
         {
           "text": "• Prototipação",
           "x": 0,
-          "y": -3550,
+          "y": -3540,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4388,7 +4376,7 @@
         {
           "text": "• Avaliação de ferramentas",
           "x": 0,
-          "y": -3560,
+          "y": -3550,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4400,7 +4388,7 @@
         {
           "text": "Pesquisa acadêmica",
           "x": 0,
-          "y": -3570,
+          "y": -3560,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4412,7 +4400,7 @@
         {
           "text": "• Pesquisa aplicada",
           "x": 0,
-          "y": -3580,
+          "y": -3570,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4424,7 +4412,7 @@
         {
           "text": "• Pesquisa bibliográfica",
           "x": 0,
-          "y": -3590,
+          "y": -3580,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4436,7 +4424,7 @@
         {
           "text": "• Estudo de caso",
           "x": 0,
-          "y": -3600,
+          "y": -3590,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4448,7 +4436,7 @@
         {
           "text": "• Estudo de campo",
           "x": 0,
-          "y": -3610,
+          "y": -3600,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4460,7 +4448,7 @@
         {
           "text": "• Entrevistas",
           "x": 0,
-          "y": -3620,
+          "y": -3610,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4472,7 +4460,7 @@
         {
           "text": "• Questionários",
           "x": 0,
-          "y": -3630,
+          "y": -3620,
           "width": 15,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4484,7 +4472,7 @@
         {
           "text": "• Análise de dados qualitativos",
           "x": 0,
-          "y": -3640,
+          "y": -3630,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4496,7 +4484,7 @@
         {
           "text": "• Análise de conteúdo",
           "x": 0,
-          "y": -3650,
+          "y": -3640,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4508,7 +4496,7 @@
         {
           "text": "• Diagrama de Ishikawa",
           "x": 0,
-          "y": -3660,
+          "y": -3650,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4520,7 +4508,7 @@
         {
           "text": "Pesquisa de mercado",
           "x": 0,
-          "y": -3670,
+          "y": -3660,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4532,7 +4520,7 @@
         {
           "text": "• Pesquisa de mercado",
           "x": 0,
-          "y": -3680,
+          "y": -3670,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4544,7 +4532,7 @@
         {
           "text": "• Definição de personas",
           "x": 0,
-          "y": -3690,
+          "y": -3680,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4556,7 +4544,7 @@
         {
           "text": "• Mapa de empatia",
           "x": 0,
-          "y": -3700,
+          "y": -3690,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4568,7 +4556,7 @@
         {
           "text": "• Análise de necessidades",
           "x": 0,
-          "y": -3710,
+          "y": -3700,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4580,7 +4568,7 @@
         {
           "text": "Gestão e colaboração",
           "x": 0,
-          "y": -3720,
+          "y": -3710,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4592,7 +4580,7 @@
         {
           "text": "• Gestão de projetos",
           "x": 0,
-          "y": -3730,
+          "y": -3720,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4604,7 +4592,7 @@
         {
           "text": "• Planejamento de atividades",
           "x": 0,
-          "y": -3740,
+          "y": -3730,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4616,7 +4604,7 @@
         {
           "text": "• Gestão de escopo",
           "x": 0,
-          "y": -3750,
+          "y": -3740,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4628,7 +4616,7 @@
         {
           "text": "• Liderança de equipe",
           "x": 0,
-          "y": -3760,
+          "y": -3750,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4640,7 +4628,7 @@
         {
           "text": "• Gestão de entregáveis",
           "x": 0,
-          "y": -3770,
+          "y": -3760,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4652,7 +4640,7 @@
         {
           "text": "• Integração de ferramentas",
           "x": 0,
-          "y": -3780,
+          "y": -3770,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4664,7 +4652,7 @@
         {
           "text": "• Desenvolvimento colaborativo",
           "x": 0,
-          "y": -3790,
+          "y": -3780,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4676,7 +4664,7 @@
         {
           "text": "Ferramentas de gestão e pesquisa",
           "x": 0,
-          "y": -3800,
+          "y": -3790,
           "width": 32,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4688,7 +4676,7 @@
         {
           "text": "• Google Drive",
           "x": 0,
-          "y": -3810,
+          "y": -3800,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4700,7 +4688,7 @@
         {
           "text": "• Microsoft Word",
           "x": 0,
-          "y": -3820,
+          "y": -3810,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4712,7 +4700,7 @@
         {
           "text": "• Microsoft Teams",
           "x": 0,
-          "y": -3830,
+          "y": -3820,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4724,7 +4712,7 @@
         {
           "text": "• Trello",
           "x": 0,
-          "y": -3840,
+          "y": -3830,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4736,7 +4724,7 @@
         {
           "text": "• Google Acadêmico",
           "x": 0,
-          "y": -3850,
+          "y": -3840,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4748,7 +4736,7 @@
         {
           "text": "• ResearchGate",
           "x": 0,
-          "y": -3860,
+          "y": -3850,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4760,7 +4748,7 @@
         {
           "text": "• WhatsApp",
           "x": 0,
-          "y": -3870,
+          "y": -3860,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4772,7 +4760,7 @@
         {
           "text": "• Canva",
           "x": 0,
-          "y": -3880,
+          "y": -3870,
           "width": 7,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4784,7 +4772,7 @@
         {
           "text": "Site do projeto: https://sgcs-seven.vercel.app/",
           "x": 0,
-          "y": -3890,
+          "y": -3880,
           "width": 47,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4796,7 +4784,7 @@
         {
           "text": "Repositório do projeto: https://github.com/SGCS-Gestao-de-Chamados-Para-Sindicos/SGCS-espelho (privado)",
           "x": 0,
-          "y": -3900,
+          "y": -3890,
           "width": 103,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -5266,5 +5254,16 @@
     "empresas_cargos_e_datas_preservados": true,
     "cursos_preservados": true,
     "copia_txt_corresponde_ao_html": true
+  },
+  "resumo_descricao_sgcs": {
+    "data": "2026-10-14",
+    "escopo": "Somente pt-BR, página principal, bloco oculto e lista geral.",
+    "alteracao": "Terceiro parágrafo removido. Demais parágrafos encurtados. Tags preservadas.",
+    "paragrafos_antes": 4,
+    "paragrafos_depois": 3,
+    "palavras_antes_triagem": 114,
+    "palavras_depois_triagem": 59,
+    "linhas_atuais": 390,
+    "saidas_dos_tres_parsers_preservadas": true
   }
 }

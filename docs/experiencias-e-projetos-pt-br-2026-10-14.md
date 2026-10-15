@@ -47,6 +47,11 @@ A gestão pessoal destaca planejamento, coordenação, prazos, entregáveis e in
 Trello aparece entre as ferramentas utilizadas, sem centralizar a descrição da gestão.
 O estado de MVP em desenvolvimento foi preservado.
 
+Na revisão seguinte, o responsável solicitou reduzir a descrição do SGCS e retirar a explicação das funções da aplicação.
+O terceiro parágrafo foi removido. Os demais foram encurtados, de 114 para 59 palavras na contagem por espaços.
+Os três parágrafos atuais destacam o contexto acadêmico, a motivação e a gestão do projeto.
+As tags e os links foram preservados.
+
 ## Evidências do SGCS
 
 Fonte: [relatório acadêmico da equipe](fontes/academico/PI-IV_ENTREGA_FINAL.pdf), com 58 páginas.
@@ -81,6 +86,7 @@ O conteúdo principal possui 212 ocorrências de tags e 180 rótulos distintos.
 O bloco oculto possui 222 ocorrências e 187 rótulos distintos, incluindo aliases em inglês já revisados.
 As descrições, as tags e as instruções foram sincronizadas na cópia TXT.
 As 391 linhas lógicas do HTML correspondem à entrada registrada na verificação.
+Após resumir a descrição do SGCS, a entrada passou a ter 390 linhas.
 As cinco instruções continuam antes do nome na cópia TXT.
 
 Os três parsers locais foram executados novamente.

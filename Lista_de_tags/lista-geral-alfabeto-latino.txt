@@ -413,10 +413,9 @@ Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)
 Projeto acadêmico · Produto mínimo viável (MVP) em desenvolvimento
 
 SGCS — Sistema de Gestão de Chamados para Síndicos
-Nossa equipe desenvolve, na Fatec Franco da Rocha, uma pesquisa acadêmica e uma aplicação para síndicos profissionais. Buscamos atender à demanda crescente por soluções digitais simples e acessíveis para a gestão condominial.
-Identificamos uma oportunidade em um setor que está se profissionalizando. A regulamentação da atividade está em discussão no Congresso Nacional. O projeto considera possíveis necessidades decorrentes de uma futura regulamentação.
-A aplicação permite registrar, classificar e acompanhar chamados em condomínios. A pesquisa reúne estudo de caso, pesquisa de campo e análise das necessidades de síndicos e condôminos.
-Sou o gestor responsável pelo projeto. Planejo as atividades, coordeno a equipe e acompanho prazos e entregáveis. Administro e integro as ferramentas utilizadas pela equipe.
+Nossa equipe desenvolve uma pesquisa acadêmica e uma aplicação simples e acessível para síndicos profissionais na Fatec Franco da Rocha.
+O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda em discussão no Congresso Nacional.
+Gerencio o projeto, coordeno a equipe e acompanho prazos e entregáveis. Também administro e integro as ferramentas de trabalho.
 
 Tecnologias de desenvolvimento
 • Google AI Studio
