@@ -116,18 +116,27 @@ Use somente as tecnologias e dependências necessárias para atender ao conteúd
   O responsável autorizou sincronizar conteúdo e estrutura das traduções em 13 de outubro de 2026.
   Essa decisão amplia a revisão pt-BR autorizada em 12 de outubro.
   Use o conteúdo vigente em pt-BR como base factual. Respeite as variantes linguísticas.
-  Sincronize correções do CSS comum nos cinco idiomas.
+  Aplique correções do CSS comum no arquivo compartilhado por todos os idiomas.
 - Os commits dessa revisão devem informar o escopo “cinco idiomas, página principal, galeria e agradecimentos”.
   Registros de escopo nas instruções da raiz são permitidos.
   Mantenha a documentação detalhada em `docs/`, agora versionada.
 - Mantenha as versões `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`, com `lang`,
   `hreflang` e links de troca de idioma corretos. `es-419` usa redação neutra
   para o público sul-americano. A etiqueta abrange América Latina e Caribe.
+- Use inglês norte-americano na versão `en`, inclusive nas tags, legendas e alternativas textuais.
+  Preserve a pasta `en/`. Identifique essa versão com `lang="en-US"` e `hreflang="en-US"` nos links correspondentes.
+  Prefira Fiber optic, modeling, organization, optimization, license e program.
+  Preserve títulos oficiais, nomes próprios, citações e fontes recebidas.
+  A padronização de termos não comprova reconhecimento por todos os sistemas ATS.
 - A pasta `static/` é a única fonte do site publicado. `static/index.html`
   permite escolher o idioma. Cada etiqueta tem sua própria pasta de páginas.
-- Revise o impacto de alterações nas cinco versões. Enquanto houver CSS e
-  recursos duplicados por idioma, mantenha-os consistentes. Prefira recursos
-  compartilhados quando uma reorganização da estrutura estiver no escopo.
+- Mantenha o CSS comum em `static/assets/css/styles.css`, compartilhado por todas as páginas e idiomas.
+  Novos idiomas e novas páginas devem referenciar esse arquivo com caminho relativo ao próprio HTML.
+  Não copie o CSS para pastas de idiomas. Não use `@import` para carregar o arquivo comum.
+  Prefira propriedades lógicas para futuras adaptações de direção de escrita, quando compatíveis com o layout.
+  Acrescente regras específicas por idioma somente quando o conteúdo demonstrar essa necessidade.
+  Use classes comuns para estilos estruturais. Não dependa de identificadores traduzidos, como os IDs das seções de contato.
+  Revise o impacto do CSS compartilhado nas páginas e nos idiomas existentes.
 - Use caminhos relativos para recursos e páginas internas, de modo que o site
   possa ser servido em diferentes hospedagens e subdiretórios.
 - Nas competências, preserve as três categorias principais.

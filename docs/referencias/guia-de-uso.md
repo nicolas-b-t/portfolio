@@ -58,13 +58,16 @@ Para recuperar as cópias, siga o procedimento do README da pasta.
 | Galeria brasileira | static/pt-BR/galeria.html |
 | Agradecimentos brasileiros | static/pt-BR/rede.html |
 | Traduções | static/pt-PT/, static/en/, static/es-419/ e static/es-ES/ |
-| Estilos e favicon | Arquivos correspondentes dentro de cada pasta de idioma |
+| Estilos compartilhados | static/assets/css/styles.css |
+| Favicon | assets/favicon.svg dentro de cada pasta de idioma |
 | Fotografias compartilhadas | static/media/realfort/ |
 
 A revisão editorial atual abrange as três páginas dos cinco idiomas.
 O responsável autorizou a sincronização das traduções em 13 de outubro de 2026.
 O conteúdo vigente em pt-BR fornece a base factual da revisão.
-As correções do CSS comum devem permanecer consistentes nos cinco idiomas.
+As correções do CSS comum são feitas no arquivo compartilhado por todos os idiomas.
+Ao criar uma página ou um idioma, referencie esse arquivo com caminho relativo ao HTML.
+Não crie outra cópia da folha de estilos.
 Consulte a [organização do site](../../README.md#organização-do-site) para os caminhos e a navegação.
 
 ### Cursos e impressão

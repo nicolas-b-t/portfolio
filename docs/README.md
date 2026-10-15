@@ -10,6 +10,8 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [README da raiz](../README.md) | Estrutura, execução local e publicação |
 | [Guia de uso](referencias/guia-de-uso.md) | Edição, consulta aos acervos e recuperação de fontes |
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
+| [Tamanho das páginas](analise-tamanho-paginas-2026-10-14.md) | Inventário, gzip, imagens escolhidas pelo navegador e oportunidades de redução |
+| [CSS compartilhado](css-compartilhado-2026-10-14.md) | Estrutura para novos idiomas, economia e comparação visual das 16 páginas |
 | [Revisão de código e acessibilidade de 14 de outubro](revisao-codigo-acessibilidade-2026-10-14.md) | Correções, teclado, apresentação, contraste e evidências das 16 páginas |
 | [Síntese dos testes ATS e orientações para currículos](sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) | Resultados, limites e procedimento para este portfólio e futuros currículos |
 | [Histórico dos testes ATS](historico-ats/README.md) | Sete registros anteriores preservados integralmente em ZIP, com manifesto e hashes |

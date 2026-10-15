@@ -1,6 +1,6 @@
 /* =========================================================
    Portfolio / CV - neo-brutalist minimal
-   Zero JS. System fonts. Shared by all five language versions.
+   Zero JS. System fonts. Shared by all pages and language versions.
    ========================================================= */
 
 :root {
@@ -531,9 +531,7 @@ p {
     padding-bottom: 0.75rem;
   }
 
-  #contato,
-  #contacto,
-  #contact {
+  section.contact-section {
     break-inside: avoid;
   }
 

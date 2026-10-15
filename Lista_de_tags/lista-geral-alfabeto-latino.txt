@@ -395,8 +395,8 @@ Repositório do projeto: https://github.com/nicolas-b-t/portfolio
 Projeto em parceria · Mercado digital em Portugal
 
 Optigrow
-Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas da região do Porto. Ele reúne informações sobre serviços e um formulário de contato.
-Desenvolvemos o projeto de forma totalmente colaborativa.
+O Optigrow é meu primeiro projeto em parceria com meu sócio e amigo Rodrigo Nascimento. Desenvolvemos o projeto de forma colaborativa.
+Estudamos o mercado digital em Portugal e criamos um site de serviços de marketing e tecnologia para óticas da região do Porto.
 
 Tecnologias
 • Google AI Studio

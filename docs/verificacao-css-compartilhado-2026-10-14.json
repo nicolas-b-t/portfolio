@@ -1,0 +1,681 @@
+{
+  "data": "2026-10-14",
+  "paginas": 16,
+  "cenarios": 32,
+  "diferencas": [],
+  "igualdade_visual": true,
+  "resultados": [
+    {
+      "file": "index.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 687.390625,
+          "top": 0,
+          "right": 320,
+          "bottom": 687.390625,
+          "left": 0
+        }
+      },
+      "screenshot": "e0514db6d9b4b0f7bebf80f95b3c5370cafc25bb43a6bcadebf1175fd375328b"
+    },
+    {
+      "file": "index.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 144,
+          "y": 0,
+          "width": 992,
+          "height": 490.03125,
+          "top": 0,
+          "right": 1136,
+          "bottom": 490.03125,
+          "left": 144
+        }
+      },
+      "screenshot": "1dbafabeff9a8909a9c36bafd85ab12cbf06a1303ae68e9ab83a766c457faec9"
+    },
+    {
+      "file": "pt-BR/index.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 323.859375,
+          "width": 320,
+          "height": 15436.484375,
+          "top": 323.859375,
+          "right": 320,
+          "bottom": 15760.34375,
+          "left": 0
+        }
+      },
+      "screenshot": "4d1c29191d0b1446a85b53a42d01b0b27c5ff673cb2b90593802b9cae3da5da4"
+    },
+    {
+      "file": "pt-BR/index.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 8295.9375,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 8404.359375,
+          "left": 0
+        }
+      },
+      "screenshot": "5cf6739333ab879d6607f5ac6ca18db527eaba9d05fbada7bc7b99789683a83e"
+    },
+    {
+      "file": "pt-BR/galeria.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 3884.25,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 4177.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "6192d8aa48f259f7abd08e8d6fc2c4a0b76fee45f393d978c152b51badd49af6"
+    },
+    {
+      "file": "pt-BR/galeria.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 3702.296875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 3810.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "5ef9e78cc59fec5c9e153b9130ab8794539750288fca259408b20f5a51b9bab6"
+    },
+    {
+      "file": "pt-BR/rede.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 263.078125,
+          "width": 320,
+          "height": 1669.546875,
+          "top": 263.078125,
+          "right": 320,
+          "bottom": 1932.625,
+          "left": 0
+        }
+      },
+      "screenshot": "44075750723e62914e70f02b7a61b8271d4e7483492f59aa705872e972a72079"
+    },
+    {
+      "file": "pt-BR/rede.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 1015.09375,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 1123.515625,
+          "left": 0
+        }
+      },
+      "screenshot": "9d313e4008dc7ee3a92de2cd358d779832f6156ff3e55198b7d1528136ecdd25"
+    },
+    {
+      "file": "pt-PT/index.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 11077,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 11370.46875,
+          "left": 0
+        }
+      },
+      "screenshot": "4d0588d9828a6dd214aafba09df61f157ad4dfee3aa47908d112498118f009fb"
+    },
+    {
+      "file": "pt-PT/index.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 6071.5,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 6179.921875,
+          "left": 0
+        }
+      },
+      "screenshot": "7db91e415c8a5a36fad66eeec4729bae3aa7c258da911d80f0440ad9c396b69f"
+    },
+    {
+      "file": "pt-PT/galeria.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 3884.25,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 4177.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "0f0cc2abdaa863d3cfc39634a71683976107e8ea2802d47287898d774ad864c3"
+    },
+    {
+      "file": "pt-PT/galeria.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 3702.296875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 3810.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "1222026f466f759476e8e4930556611cc80c1f5a1621b50f0b403b5d79d530d3"
+    },
+    {
+      "file": "pt-PT/rede.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 263.078125,
+          "width": 320,
+          "height": 1669.546875,
+          "top": 263.078125,
+          "right": 320,
+          "bottom": 1932.625,
+          "left": 0
+        }
+      },
+      "screenshot": "43ab8ad2e824a12731734e89f6b05acaec9a8b52b7e12b187ba0e368f5a39780"
+    },
+    {
+      "file": "pt-PT/rede.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 1015.09375,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 1123.515625,
+          "left": 0
+        }
+      },
+      "screenshot": "f58c4fc695125cb994783519f18223a7b09915890ca9220e1705be1027caba96"
+    },
+    {
+      "file": "en/index.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 10677.734375,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 10971.203125,
+          "left": 0
+        }
+      },
+      "screenshot": "6b835291fcce1b8982a4c8e0704b888f823e5dec2849ade6a8cd4cb7b86fbc7c"
+    },
+    {
+      "file": "en/index.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 5922.171875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 6030.59375,
+          "left": 0
+        }
+      },
+      "screenshot": "6e1bbc747cdb11c77854daa87fd698601cd43a4ccb9f81daf2eacc79bfebf196"
+    },
+    {
+      "file": "en/galeria.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 315.5625,
+          "width": 320,
+          "height": 3986.625,
+          "top": 315.5625,
+          "right": 320,
+          "bottom": 4302.1875,
+          "left": 0
+        }
+      },
+      "screenshot": "48ac32754f6f5c3d38d10122b60e0223b010594516355b1a545c39fae65b9eae"
+    },
+    {
+      "file": "en/galeria.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 3702.296875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 3810.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "c564195c00ccd6f8c6864d53166dbaad30c45460a792c491d1938e4a94e69fc9"
+    },
+    {
+      "file": "en/rede.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 263.078125,
+          "width": 320,
+          "height": 1706.34375,
+          "top": 263.078125,
+          "right": 320,
+          "bottom": 1969.421875,
+          "left": 0
+        }
+      },
+      "screenshot": "c3fc2396868764f41b13eae852a78dae6a27d74f1b352fe38ddec141d72a3ae3"
+    },
+    {
+      "file": "en/rede.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 1050.046875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 1158.46875,
+          "left": 0
+        }
+      },
+      "screenshot": "0880a28410cff87cd956e8925ddb7c94baa966201d5d2df6d1ad36df738d1f31"
+    },
+    {
+      "file": "es-419/index.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 11210.25,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 11503.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "6073e7b86fd2ff825710880e1ec9a27d6e27f993d34613ecb537773b9a64344d"
+    },
+    {
+      "file": "es-419/index.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 6084.21875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 6192.640625,
+          "left": 0
+        }
+      },
+      "screenshot": "b1b7c6a11a3d28d8026734a5cd8222eeb869f86ccb30b6c2bc02884495a16b1a"
+    },
+    {
+      "file": "es-419/galeria.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 3909.84375,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 4203.3125,
+          "left": 0
+        }
+      },
+      "screenshot": "4016d4f837b50925a00d9a37ad45a011ba07acd068f0e90eb3668d5e0194c2aa"
+    },
+    {
+      "file": "es-419/galeria.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 3727.890625,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 3836.3125,
+          "left": 0
+        }
+      },
+      "screenshot": "0b2b03bce4c3a0f005ff43d637030168633f4394cd253ca5af89f9be3f308174"
+    },
+    {
+      "file": "es-419/rede.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 263.078125,
+          "width": 320,
+          "height": 1706.34375,
+          "top": 263.078125,
+          "right": 320,
+          "bottom": 1969.421875,
+          "left": 0
+        }
+      },
+      "screenshot": "1368282db7ae505f9079af65c1627eaf1cf376c3ee9bf709886c995f630c8a8c"
+    },
+    {
+      "file": "es-419/rede.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 998.859375,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 1107.28125,
+          "left": 0
+        }
+      },
+      "screenshot": "6f0fa75e9142655da2034215d2d94501d1c3879da03a4d91554ad446927e4725"
+    },
+    {
+      "file": "es-ES/index.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 11210.25,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 11503.71875,
+          "left": 0
+        }
+      },
+      "screenshot": "275d7b40d0d7c68923d8f58587258d6df7280c778b120bd2cb569ea5150540b0"
+    },
+    {
+      "file": "es-ES/index.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 6084.21875,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 6192.640625,
+          "left": 0
+        }
+      },
+      "screenshot": "9b2280c2dbac2c4cbe17ea42018e2e6251b2f121b0a4e079409b7d01153f0827"
+    },
+    {
+      "file": "es-ES/galeria.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 293.46875,
+          "width": 320,
+          "height": 3909.84375,
+          "top": 293.46875,
+          "right": 320,
+          "bottom": 4203.3125,
+          "left": 0
+        }
+      },
+      "screenshot": "45d6a3d90597b77ef3289c5780cff06562a85c2277671a7f635589e6bc7c228c"
+    },
+    {
+      "file": "es-ES/galeria.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 3727.890625,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 3836.3125,
+          "left": 0
+        }
+      },
+      "screenshot": "f96e022266c7c39dfe691aa052e8a566b759cffd6b011c88b8111f549c1ae5b2"
+    },
+    {
+      "file": "es-ES/rede.html",
+      "width": 320,
+      "theme": "light",
+      "state": {
+        "scroll": 320,
+        "bg": "rgb(255, 253, 245)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 263.078125,
+          "width": 320,
+          "height": 1706.34375,
+          "top": 263.078125,
+          "right": 320,
+          "bottom": 1969.421875,
+          "left": 0
+        }
+      },
+      "screenshot": "a660dd36f00a742af8513c68feaf434d77bd00bc5a2097afa785f48e3e34cb39"
+    },
+    {
+      "file": "es-ES/rede.html",
+      "width": 1280,
+      "theme": "dark",
+      "state": {
+        "scroll": 1280,
+        "bg": "rgb(16, 16, 20)",
+        "font": "system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "main": {
+          "x": 0,
+          "y": 108.421875,
+          "width": 1280,
+          "height": 998.859375,
+          "top": 108.421875,
+          "right": 1280,
+          "bottom": 1107.28125,
+          "left": 0
+        }
+      },
+      "screenshot": "e05334512afdae617af1b6f023d087ab9e49e9e626284ba9a26ac36a089593a6"
+    }
+  ]
+}

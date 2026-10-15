@@ -49,6 +49,29 @@ A [revisão pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) usa os princí
 Essa revisão não substitui a consulta integral à norma nem um teste de compreensão com os leitores.
 Os limites numéricos de frases permanecem como política do projeto, sem atribuição à ABNT.
 
+## Inglês norte-americano
+
+Use inglês norte-americano nos textos autorais da versão en, inclusive nas tags e nos textos alternativos das imagens.
+A pasta en/ permanece igual. Use en-US para identificar as páginas e os links dessa versão.
+Preserve os idiomas originais dos títulos oficiais de cursos e das citações.
+
+| Forma britânica | Forma adotada |
+| --- | --- |
+| Fibre-optic | Fiber optic |
+| Fibres | Fibers |
+| Modelling | Modeling |
+| Organisation | Organization |
+| Organised | Organized |
+| Optimisation | Optimization |
+| Analysed | Analyzed |
+| Prioritise | Prioritize |
+| Licence | License |
+| Programme | Program |
+
+Preserve qualificações como learner e os níveis de suporte ao revisar as tags.
+Não altere nomes oficiais, documentos recebidos ou resultados históricos para aplicar esta preferência editorial.
+A grafia escolhida não garante reconhecimento por todos os sistemas ATS.
+
 ## Limites
 
 A adaptação preserva a gramática portuguesa.

@@ -29,6 +29,7 @@ O projeto permanece pessoal. As fontes e os registros sustentam a manutenção d
 ├── Lista_de_tags/               # Consulta e arquivos de idiomas reservados
 ├── static/                      # Fonte do site publicado
 │   ├── index.html               # Escolha de idioma
+│   ├── assets/css/styles.css    # CSS compartilhado por todas as páginas
 │   ├── pt-BR/
 │   ├── pt-PT/
 │   ├── en/
@@ -49,7 +50,11 @@ Consulte [referências locais](docs/README.md#referências-locais) para conhecer
 
 Cada pasta de idioma contém o currículo em index.html, os agradecimentos em rede.html e a galeria em galeria.html.
 O rodapé liga o currículo às páginas complementares.
-Cada idioma mantém seu HTML, CSS e favicon. Os links de idioma apontam para as pastas vizinhas.
+Cada idioma mantém seu HTML e favicon. Os links de idioma apontam para as pastas vizinhas.
+Todas as páginas usam o CSS compartilhado em static/assets/css/styles.css.
+As páginas de cada idioma usam ../assets/css/styles.css. A seleção de idioma usa assets/css/styles.css.
+Novas páginas devem calcular o caminho relativo conforme sua profundidade, sem copiar a folha de estilos.
+Use as mesmas classes estruturais nos novos idiomas. A seção de contato usa contact-section para preservar sua impressão.
 As fotografias WebP e JPEG ficam em static/media/realfort/, compartilhadas pelos idiomas.
 
 A etiqueta es-419 abrange América Latina e Caribe.

@@ -1,0 +1,492 @@
+{
+  "data": "2026-10-14",
+  "origem": "Checkout local com alterações posteriores a 69fc73d. Servidor Python sem compressão HTTP.",
+  "galeria": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "initial": [
+        {
+          "url": "http://127.0.0.1:8001/pt-BR/styles.css",
+          "bytes": 8853
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+          "bytes": 25528
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+          "bytes": 24956
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+          "bytes": 37182
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+          "bytes": 32742
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+          "bytes": 25026
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+          "bytes": 15264
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+          "bytes": 159692
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+          "bytes": 51502
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+          "bytes": 94210
+        }
+      ],
+      "selected": [
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+          "width": 274
+        }
+      ],
+      "imagesBytes": 466102
+    },
+    {
+      "width": 320,
+      "dpr": 2,
+      "initial": [
+        {
+          "url": "http://127.0.0.1:8001/pt-BR/styles.css",
+          "bytes": 8853
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+          "bytes": 25528
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+          "bytes": 24956
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+          "bytes": 37182
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+          "bytes": 32742
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+          "bytes": 25026
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+          "bytes": 15264
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+          "bytes": 159692
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+          "bytes": 51502
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+          "bytes": 94210
+        }
+      ],
+      "selected": [
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+          "width": 274
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+          "width": 274
+        }
+      ],
+      "imagesBytes": 466102
+    },
+    {
+      "width": 1280,
+      "dpr": 1,
+      "initial": [
+        {
+          "url": "http://127.0.0.1:8001/pt-BR/styles.css",
+          "bytes": 8853
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+          "bytes": 25528
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+          "bytes": 37182
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+          "bytes": 24956
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+          "bytes": 32742
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+          "bytes": 25026
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+          "bytes": 15264
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+          "bytes": 159692
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+          "bytes": 51502
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+          "bytes": 94210
+        }
+      ],
+      "selected": [
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rack-optico-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/fusao-optica-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/splitters-opticos-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-640.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/central-de-alarme-640.webp",
+          "width": 458
+        }
+      ],
+      "imagesBytes": 466102
+    },
+    {
+      "width": 1280,
+      "dpr": 2,
+      "initial": [
+        {
+          "url": "http://127.0.0.1:8001/pt-BR/styles.css",
+          "bytes": 8853
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rack-optico-1280.webp",
+          "bytes": 64312
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-1280.webp",
+          "bytes": 38674
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-1280.webp",
+          "bytes": 99470
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/fusao-optica-1280.webp",
+          "bytes": 88022
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/splitters-opticos-1280.webp",
+          "bytes": 85372
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-1280.webp",
+          "bytes": 48112
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-1280.webp",
+          "bytes": 327156
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-1280.webp",
+          "bytes": 156504
+        },
+        {
+          "url": "http://127.0.0.1:8001/media/realfort/central-de-alarme-1280.webp",
+          "bytes": 120434
+        }
+      ],
+      "selected": [
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rack-optico-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/trabalho-em-altura-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/fusao-optica-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/splitters-opticos-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/otdr-maxprint-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-rural-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/rede-aerea-urbana-2-1280.webp",
+          "width": 458
+        },
+        {
+          "src": "http://127.0.0.1:8001/media/realfort/central-de-alarme-1280.webp",
+          "width": 458
+        }
+      ],
+      "imagesBytes": 1028056
+    }
+  ],
+  "unidade": "bytes. kB nos textos significa 1000 bytes.",
+  "total_static": 3656940,
+  "por_extensao": {
+    ".html": {
+      "arquivos": 16,
+      "bytes": 263052
+    },
+    ".css": {
+      "arquivos": 5,
+      "bytes": 44265
+    },
+    ".svg": {
+      "arquivos": 5,
+      "bytes": 2045
+    },
+    ".jpg": {
+      "arquivos": 18,
+      "bytes": 1853420
+    },
+    ".webp": {
+      "arquivos": 18,
+      "bytes": 1494158
+    }
+  },
+  "paginas": [
+    {
+      "arquivo": "static/en/galeria.html",
+      "bytes_html": 11908,
+      "gzip_estimado": 1897,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 9
+    },
+    {
+      "arquivo": "static/en/index.html",
+      "bytes_html": 28491,
+      "gzip_estimado": 6071,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/en/rede.html",
+      "bytes_html": 3703,
+      "gzip_estimado": 1125,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/es-419/galeria.html",
+      "bytes_html": 12145,
+      "gzip_estimado": 1928,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 9
+    },
+    {
+      "arquivo": "static/es-419/index.html",
+      "bytes_html": 29173,
+      "gzip_estimado": 6245,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/es-419/rede.html",
+      "bytes_html": 3658,
+      "gzip_estimado": 1122,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/es-ES/galeria.html",
+      "bytes_html": 12146,
+      "gzip_estimado": 1926,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 9
+    },
+    {
+      "arquivo": "static/es-ES/index.html",
+      "bytes_html": 29183,
+      "gzip_estimado": 6249,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/es-ES/rede.html",
+      "bytes_html": 3659,
+      "gzip_estimado": 1122,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/index.html",
+      "bytes_html": 1832,
+      "gzip_estimado": 660,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/pt-BR/galeria.html",
+      "bytes_html": 12091,
+      "gzip_estimado": 1937,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 9
+    },
+    {
+      "arquivo": "static/pt-BR/index.html",
+      "bytes_html": 66554,
+      "gzip_estimado": 10066,
+      "blocos_ocultos_serializados": 29950,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/pt-BR/rede.html",
+      "bytes_html": 3692,
+      "gzip_estimado": 1134,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/pt-PT/galeria.html",
+      "bytes_html": 12078,
+      "gzip_estimado": 1933,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 9
+    },
+    {
+      "arquivo": "static/pt-PT/index.html",
+      "bytes_html": 29037,
+      "gzip_estimado": 6158,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    },
+    {
+      "arquivo": "static/pt-PT/rede.html",
+      "bytes_html": 3702,
+      "gzip_estimado": 1137,
+      "blocos_ocultos_serializados": 0,
+      "imagens": 0
+    }
+  ],
+  "http_publicado": {
+    "url": "https://nicolas-b-t.github.io/portfolio/pt-BR/",
+    "metodo": "HEAD com Accept-Encoding negociado por curl --compressed",
+    "content_encoding": "gzip",
+    "content_length": 10581,
+    "cache_control": "max-age=600",
+    "limite": "Versão publicada distinta do checkout com alterações pendentes. Cabeçalhos não representam uma medição de velocidade."
+  }
+}
