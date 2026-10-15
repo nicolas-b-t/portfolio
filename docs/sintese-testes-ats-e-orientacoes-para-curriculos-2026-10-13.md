@@ -47,9 +47,9 @@ Nenhum currículo foi enviado a um serviço externo.
 
 | Registro | Conteúdo preservado |
 | --- | --- |
-| [Inventário e comparação](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Todas as tags, contextos, correspondências e limites documentais |
+| [Inventário e comparação](historico-ats/README.md#exportações-substituídas) | Todas as tags, contextos, correspondências e limites documentais |
 | [Resultados da extração](historico-ats/README.md) | Saídas originais, testes de controle, casos negativos e simulação |
-| [Currículo textual](curriculo-ats-pt-br-2026-10-13.txt) | Cópia UTF-8 derivada do conteúdo público, com 17 cursos únicos |
+| [Currículo textual](historico-ats/README.md#exportações-substituídas) | Cópia UTF-8 derivada do conteúdo público, com 17 cursos únicos |
 | [Manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) | Repositórios, commits, licenças, adaptações de carregamento e hashes |
 | [Guia de uso das referências](referencias/guia-de-uso.md) | Origem dos acervos, condições de uso e recuperação das fontes |
 

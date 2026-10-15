@@ -129,8 +129,8 @@ O HTML mantém as duas cópias dos cursos exigidas pelas regras do projeto.
 Os clones completos, o histórico e os avisos recebidos permanecem locais e ignorados pelo Git.
 
 A [síntese dos testes ATS](sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) centraliza os resultados, os limites e as orientações para futuros currículos do responsável.
-O [inventário das tags](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) preserva as correspondências documentais.
-O [currículo textual](curriculo-ats-pt-br-2026-10-13.txt), as [saídas dos testes](historico-ats/README.md) e o [manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) preservam as evidências.
+O [inventário das tags](historico-ats/README.md#exportações-substituídas) preserva as correspondências documentais.
+O [currículo textual](historico-ats/README.md#exportações-substituídas), as [saídas dos testes](historico-ats/README.md) e o [manifesto dos parsers](referencias/ats/manifesto-parser-publico-2026-10-13.json) preservam as evidências.
 
 ## Dados ocultos e condição de publicação — 14 de outubro de 2026
 

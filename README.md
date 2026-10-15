@@ -26,7 +26,7 @@ O projeto permanece pessoal. As fontes e os registros sustentam a manutenção d
 ├── README.md                    # Apresentação, execução e publicação
 ├── .editorconfig                # Formatação nos editores compatíveis
 ├── .github/workflows/pages.yml  # Publicação no GitHub Pages
-├── Lista_de_tags/               # Consulta e arquivos de idiomas reservados
+├── Lista_de_tags/               # Consulta e traduções das tags
 ├── static/                      # Fonte do site publicado
 │   ├── index.html               # Escolha de idioma
 │   ├── assets/css/styles.css    # CSS compartilhado por todas as páginas

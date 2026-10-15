@@ -158,9 +158,10 @@ O arquivo .gitattributes preserva os bytes do acervo ATS, inclusive as quebras d
 As exceções de espaços abrangem somente as cópias originais recebidas.
 Os textos autorais continuam sujeitos à verificação git diff --check.
 
-O [relatório vigente](../relatorio-verificacao-site-2026-10-13.md) reúne as alterações aplicadas e os limites das correspondências.
+O [relatório de 13 de outubro](../relatorio-verificacao-site-2026-10-13.md) reúne as alterações e os limites das correspondências daquela versão.
+A [sincronização vigente](../sincronizacao-idiomas-2026-10-14.md) registra o conteúdo atual dos cinco idiomas e a limpeza das exportações anteriores.
 O [registro anterior das tags](ats/verificacao-tags-2026-10-13.json) identifica rótulos, contextos, referências e hashes da revisão anterior dos cinco idiomas.
-A [comparação anterior pt-BR](../tags-e-correspondencias-ats-pt-br-2026-10-13.txt) preserva as relações com os dicionários e suas limitações.
+A [comparação anterior pt-BR](../historico-ats/README.md#exportações-substituídas) preserva as relações com os dicionários e suas limitações.
 A [normalização e verificação integral](../normalizacao-tags-pt-br-2026-10-14.md) registra os nomes e as contagens atuais.
 O [glossário multilíngue](../tags-multilingues/README.md) relaciona as tags pt-BR às 14 traduções para outros sistemas de escrita.
 As [evidências históricas](../historico-ats/README.md) preservam execuções, falhas, controles e simulação.

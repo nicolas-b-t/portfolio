@@ -34,4 +34,21 @@ O arquivo compactado preserva falhas e resultados positivos. Nenhuma evidência 
 4. Compare o SHA-256 com o manifesto.
 
 As fontes, licenças, dicionários, declarações e clones locais permanecem no acervo existente.
-Os arquivos reservados de Lista_de_tags permanecem vazios. Eles são recursos solicitados, não resíduos de execução.
+Os 14 arquivos traduzidos de Lista_de_tags são recursos solicitados, não resíduos de execução.
+
+## Exportações substituídas
+
+Na sincronização dos cinco idiomas, duas exportações anteriores foram retiradas como arquivos soltos.
+A lista geral e os inventários atuais passaram a orientar a consulta do conteúdo vigente.
+As correspondências documentais antigas permanecem integralmente no arquivo histórico.
+
+- [Exportações completas](exportacoes-substituidas-2026-10-14.zip).
+- [Manifesto e hashes](manifesto-exportacoes-2026-10-14.json).
+
+| Caminho dentro do ZIP | Conteúdo preservado |
+| --- | --- |
+| docs/curriculo-ats-pt-br-2026-10-13.txt | Currículo textual anterior, com 17 cursos |
+| docs/tags-e-correspondencias-ats-pt-br-2026-10-13.txt | Inventário anterior e relações com o acervo ATS |
+
+Foram conferidos CRC, SHA-256 e igualdade byte a byte antes da remoção dos arquivos soltos.
+As fontes, licenças, avaliações, referências e demais evidências foram preservadas.

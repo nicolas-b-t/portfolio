@@ -10,6 +10,7 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [README da raiz](../README.md) | Estrutura, execução local e publicação |
 | [Guia de uso](referencias/guia-de-uso.md) | Edição, consulta aos acervos e recuperação de fontes |
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
+| [Sincronização vigente dos idiomas](sincronizacao-idiomas-2026-10-14.md) | Conteúdo pt-BR aplicado às quatro traduções, verificações estáticas e limpeza |
 | [Tamanho das páginas](analise-tamanho-paginas-2026-10-14.md) | Inventário, gzip, imagens escolhidas pelo navegador e oportunidades de redução |
 | [CSS compartilhado](css-compartilhado-2026-10-14.md) | Estrutura para novos idiomas, economia e comparação visual das 16 páginas |
 | [Revisão de código e acessibilidade de 14 de outubro](revisao-codigo-acessibilidade-2026-10-14.md) | Correções, teclado, apresentação, contraste e evidências das 16 páginas |
@@ -25,8 +26,8 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [Resultados do site de 13 de outubro](verificacao-site-2026-10-13.json) | Ensaios de apresentação e conteúdo daquela versão |
 | [Revisão de experiências e projetos pt-BR](experiencias-e-projetos-pt-br-2026-10-14.md) | Descrições, estrutura dos projetos, tecnologias confirmadas e evidências do SGCS |
 | [Registro anterior das tags](referencias/ats/verificacao-tags-2026-10-13.json) | Contextos, referências e limites da versão anterior dos cinco idiomas |
-| [Tags e correspondências anteriores pt-BR](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Evidências e comparação após o commit-base 6a96e0b, anteriores à normalização atual |
-| [Currículo textual pt-BR](curriculo-ats-pt-br-2026-10-13.txt) | Exportação UTF-8 com uma única cópia dos 17 cursos |
+| [Tags e correspondências anteriores pt-BR](historico-ats/README.md#exportações-substituídas) | Evidências e comparação após o commit-base 6a96e0b, anteriores à normalização atual |
+| [Currículo textual anterior pt-BR](historico-ats/README.md#exportações-substituídas) | Exportação histórica preservada em ZIP, com manifesto e hashes |
 | [Manifesto dos parsers públicos](referencias/ats/manifesto-parser-publico-2026-10-13.json) | Origens, commits, licenças e hashes das cópias locais |
 | [Histórico consolidado](registro-de-desenvolvimento.md) | Decisões duradouras |
 | [Otimização de imagens](otimizacao-imagens.json) | Dimensões, tamanhos e hashes |
