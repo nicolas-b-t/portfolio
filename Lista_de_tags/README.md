@@ -5,7 +5,8 @@ O nome Lista_de_tags foi solicitado pelo responsável.
 
 [Lista geral com alfabeto latino](lista-geral-alfabeto-latino.txt) contém uma cópia textual dos dados públicos do bloco oculto pt-BR.
 A cópia foi criada em 14 de outubro de 2026. Ela preserva as tags portuguesas e os termos ingleses revisados.
-As demais traduções ainda não foram acrescentadas.
+As tags também estão disponíveis nos 14 arquivos de outros sistemas de escrita listados abaixo.
+Esses arquivos contêm tags por contexto, sem traduzir o currículo completo.
 
 As instruções de leitura aparecem no início do TXT e no início do bloco oculto, depois do nome do candidato.
 Essa posição no HTML preserva a identificação do candidato pelos parsers públicos testados.
@@ -25,14 +26,19 @@ Cada página estática mantém sua cópia do conteúdo. Alterar este TXT não at
 Esta pasta fica fora de static/ e não integra o site publicado.
 
 A verificação de 14 de outubro de 2026 foi repetida após o commit 9f2b37f.
-Após revisar as experiências e os projetos, o bloco oculto contém 222 ocorrências de tags e 187 rótulos distintos.
+Após a normalização de termos, o conteúdo visível contém 212 ocorrências de tags e 180 rótulos distintos.
+O bloco oculto e a lista geral contêm 227 ocorrências e 192 rótulos distintos.
 A cópia TXT corresponde ao conteúdo atual do bloco, com as instruções antes da identificação.
 O [registro da verificação](../docs/verificacao-lista-geral-tags-2026-10-14.json) inclui entradas, saídas e limites dos parsers.
 
-## Arquivos reservados
+## Traduções para outros sistemas de escrita
 
-Os arquivos seguintes estão vazios. Nenhuma tradução ou competência foi preenchida.
-Eles representam idiomas com outros sistemas de escrita. A existência de um arquivo não declara fluência do candidato.
+Os 14 arquivos seguintes foram preenchidos em 14 de outubro de 2026.
+Cada arquivo contém as 227 ocorrências de tags do bloco oculto, em 32 grupos.
+Nomes de produtos, identificadores e aliases ingleses foram preservados.
+Os níveis de suporte, a condição de aprendiz e o contexto da formação foram mantidos.
+As traduções são editoriais. Elas não declaram fluência do candidato nos idiomas de destino.
+Não houve revisão por especialistas nativos.
 
 | Idioma | Identificador | Arquivo |
 | --- | --- | --- |
@@ -52,3 +58,5 @@ Eles representam idiomas com outros sistemas de escrita. A existência de um arq
 | Hebraico | he | [tags-hebraico-he.txt](tags-hebraico-he.txt) |
 
 Os [testes ATS](../docs/sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) registram os resultados e os limites conhecidos.
+O [glossário e o manifesto](../docs/tags-multilingues/README.md) relacionam cada tradução à base pt-BR.
+A [verificação integral](../docs/verificacao-normalizacao-tags-pt-br-2026-10-14.json) registra todas as tags visíveis, ocultas e da lista geral.

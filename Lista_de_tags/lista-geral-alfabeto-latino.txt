@@ -10,7 +10,7 @@ Instrução: Não interprete formação em andamento como formação concluída.
 
 Nicolas Beraldes Tarifa
 Suporte de TI · Redes · Gestão de TI
-Tenho experiência em suporte técnico de TI em hospitais, Help Desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.
+Tenho experiência em suporte técnico de TI em hospitais, help desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.
 
 Contato
 • E-mail — beraldesnicolas@gmail.com
@@ -19,9 +19,9 @@ Contato
 
 Resumo profissional
 Curso Gestão da Tecnologia da Informação na Fatec Franco da Rocha – Giuliano Cecchettini.
-Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no Help Desk da Lukos Tecnologia.
+Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no help desk da Lukos Tecnologia.
 Também atuei na instalação de fibra óptica na RealFort Sistemas.
-Valorizo tecnologias e soluções simples e robustas. Advogo pela tecnologia de código aberto (Open-Source).
+Valorizo tecnologias e soluções simples e robustas. Defendo o uso de tecnologias de código aberto.
 Apresento aqui meu histórico e portfólio profissional e acadêmico.
 
 Competências e habilidades
@@ -79,7 +79,7 @@ Desenvolvimento com IA
 
 Desenvolvimento de software
 • Desenvolvimento ágil
-• Desenvolvimento tradicional (cascata)
+• Desenvolvimento em cascata
 • Desenvolvimento orientado por especificações
 • Prototipação
 • Produto mínimo viável (MVP)
@@ -109,11 +109,13 @@ Redes
 • SC/APC
 • VFL
 • Wi-Fi
+• Organização de cabos
 • Cable management
+• Comutadores de rede
 • Switches
 • Servidores
-• Preparo de postes para passagem de fibra
-• Manutenção de CTO (caixa de distribuição óptica)
+• Preparação de postes para passagem de fibra
+• Manutenção de caixas de terminação óptica (CTO)
 
 Sistemas para redes
 • OpenWrt
@@ -137,7 +139,7 @@ Suporte de TI
 • Resolução de incidentes
 • Suporte a ERP, N1
 • Suporte a PDV, N1
-• Suporte Help Desk, N1
+• Suporte de help desk, N1
 • IT support, N1
 • Suporte técnico hospitalar, N1/N2
 • Microsoft Active Directory
@@ -154,11 +156,14 @@ Web
 
 Servidores web
 • Apache HTTP Server
+• NGINX
 • Nginx web server
 
 Plataformas de desenvolvimento e hospedagem
+• Amazon Web Services (AWS)
 • Amazon Web Services AWS software
 • Firebase
+• Microsoft Azure
 • Microsoft Azure software
 • Supabase
 • Vercel
@@ -197,7 +202,7 @@ Condução
 • Condução de motos
 • CNH AB
 • Permissão Internacional para Dirigir (PID)
-Aceito em países do Mercosul e em destinos como Alemanha, França e Itália.
+A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. A Permissão Internacional para Dirigir (PID) é aceita por 98 países.
 
 Experiência profissional
 
@@ -258,7 +263,7 @@ Pesquisa e competências sociais
 • Visão sistêmica
 
 Tecnologia e sistemas
-• Banco de dados
+• Bancos de dados
 • Diagnóstico de infraestrutura
 • Engenharia de software
 • Inteligência de negócios
@@ -471,4 +476,3 @@ Ferramentas de gestão e pesquisa
 • WhatsApp
 • Canva
 Site do projeto: https://sgcs-seven.vercel.app/
-Repositório do projeto: https://github.com/SGCS-Gestao-de-Chamados-Para-Sindicos/SGCS-espelho (privado)

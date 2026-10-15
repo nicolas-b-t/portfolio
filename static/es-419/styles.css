@@ -63,6 +63,8 @@ a {
 }
 
 main p > a,
+main h3 > a,
+main h4 > a,
 .contact-list a,
 .site-footer a {
   display: inline-block;

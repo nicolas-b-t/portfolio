@@ -157,7 +157,9 @@ Os textos autorais continuam sujeitos à verificação git diff --check.
 
 O [relatório vigente](../relatorio-verificacao-site-2026-10-13.md) reúne as alterações aplicadas e os limites das correspondências.
 O [registro anterior das tags](ats/verificacao-tags-2026-10-13.json) identifica rótulos, contextos, referências e hashes da revisão anterior dos cinco idiomas.
-A [comparação atual pt-BR](../tags-e-correspondencias-ats-pt-br-2026-10-13.txt) acompanha as alterações posteriores do currículo brasileiro.
+A [comparação anterior pt-BR](../tags-e-correspondencias-ats-pt-br-2026-10-13.txt) preserva as relações com os dicionários e suas limitações.
+A [normalização e verificação integral](../normalizacao-tags-pt-br-2026-10-14.md) registra os nomes e as contagens atuais.
+O [glossário multilíngue](../tags-multilingues/README.md) relaciona as tags pt-BR às 14 traduções para outros sistemas de escrita.
 As [evidências históricas](../historico-ats/README.md) preservam execuções, falhas, controles e simulação.
 As exportações de comparação e os relatórios substituídos foram retirados por solicitação do responsável.
 

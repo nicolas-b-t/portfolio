@@ -1,0 +1,309 @@
+技能標籤
+pt-BR → zh-Hant
+這些標籤譯自 pt-BR，不代表候選人會說中文。CNH AB 與 PID 是巴西核發的駕駛證件。
+
+
+技術技能（Hard skills）
+
+[G01] 管理與生產力
+• Canva
+• 利息資本化
+• 現金流
+• 專案管理
+• 財務管理
+• Google Drive
+• 策略指標
+• LibreOffice
+• 流程改善
+• 敏捷方法
+• Microsoft Excel
+• Microsoft Office
+• Microsoft Teams
+• Office 365
+• OneDrive
+• 目標規劃
+• Scrum
+• Trello
+
+[G02] 作業系統
+• Microsoft Windows
+• Windows 10
+• Windows 11
+• Microsoft Windows Server
+• Windows Server 2008 R2
+• Windows Server 2016
+• Linux
+• Debian
+• Ubuntu
+
+[G03] 程式設計與資料
+• 機器學習
+• Machine learning
+• 人工智慧（AI）
+• JavaScript
+• 程式設計邏輯
+• 資料建模
+• Python
+
+[G04] 人工智慧輔助開發
+• OpenAI ChatGPT
+• Codex (OpenAI)
+• Claude
+• Claude Code
+• 使用人工智慧代理進行開發
+• OpenCode
+
+[G05] 軟體開發
+• 敏捷開發
+• 瀑布式開發
+• 規格驅動開發
+• 原型設計
+• 最小可行產品（MVP）
+
+[G06] 資料庫
+• SQL 查詢
+• SQL
+• PostgreSQL
+• SQLite
+
+[G07] 網路
+• 網路佈線
+• 用戶引接光纜（drop）
+• 路由器設定
+• 無線電連線
+• FTTH
+• 光纖熔接，學徒
+• 光功率計（power meter）
+• ONT
+• ONU
+• OTDR
+• PoE
+• PPPoE
+• 區域網路（LAN）
+• 網狀網路（mesh）
+• RJ45
+• SC/APC
+• VFL
+• Wi-Fi
+• 線纜整理
+• Cable management
+• 網路交換器
+• Switches
+• 伺服器
+• 光纖敷設前的電桿準備
+• 光纖終端箱維護（CTO）
+
+[G08] 網路系統
+• OpenWrt
+• OPNsense
+• pfSense
+
+[G09] 資訊科技支援
+• 技術文件
+• Technical documentation
+• 服務單升級處理
+• 資訊科技資產管理
+• 使用者手冊
+• Provide user documentation
+• 電腦維護
+• 印表機維護
+• 周邊設備維護
+• NF-e
+• NFC-e
+• 使用者指導
+• 標準作業程序（POPs）
+• 事件解決
+• ERP 支援，N1
+• POS 系統支援，N1
+• 服務台支援，N1
+• IT support, N1
+• 醫院技術支援，N1/N2
+• Microsoft Active Directory
+
+[G10] 網頁
+• 網站無障礙
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+• HTML
+• 多語言網站
+
+[G11] 網頁伺服器
+• Apache HTTP Server
+• NGINX
+• Nginx web server
+
+[G12] 開發與託管平台
+• Amazon Web Services (AWS)
+• Amazon Web Services AWS software
+• Firebase
+• Microsoft Azure
+• Microsoft Azure software
+• Supabase
+• Vercel
+
+[G13] 語言
+• 英語，TOEIC Listening & Reading 910
+• 巴西葡萄牙語
+
+社交技能（Soft skills）
+
+[G14] 組織與發展
+• 適應能力
+• 注重細節
+• 分析思維
+• Analytical thinking
+
+[G15] 人際關係
+• 溝通
+• 理解客戶需求
+• 團隊合作
+
+實務與操作技能
+
+[G16] 現場作業與工具
+• 光纖切割刀
+• 電動工具
+• 手動工具
+• Fusimech
+• 光纖熔接機
+• 工具整理
+• 耗材整理
+• 高處作業
+
+[G17] 駕駛
+• 汽車駕駛
+• 機車駕駛
+• CNH AB
+• 巴西核發的國際駕駛許可（PID）
+
+在讀高等教育課程的規劃內容
+
+[G18] 管理與商業
+• 解決方案評估
+• 人員管理
+• 流程管理
+• 資訊科技專案管理
+• 財務管理
+• 策略規劃
+
+[G19] 研究與社交技能
+• 溝通
+• 談判
+• 衝突管理
+• 批判性思考
+• 學術研究
+• 問題解決
+• 團隊合作
+• 系統思維
+
+[G20] 科技與系統
+• 資料庫
+• 基礎設施診斷
+• 軟體工程
+• 商業智慧
+• Business intelligence
+• 網頁程式設計
+• 電腦網路
+• 作業系統
+
+本作品集
+
+[G21] 技術
+• HTML
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+
+[G22] 開發與品質
+• 使用人工智慧代理進行開發
+• 技術文件
+• Technical documentation
+• 網站無障礙
+• 響應式設計
+• 效能最佳化
+• 影像最佳化
+• 多語言網站
+• 介面測試
+• HTML 驗證
+
+[G23] 管理與協作
+• 專案範疇管理
+
+Optigrow
+
+[G24] 技術
+• Google AI Studio
+• Supabase
+• Vercel
+• GitHub
+
+[G25] 開發與品質
+• 技術文件
+• Technical documentation
+• 網頁表單
+• 基礎設施準備
+
+[G26] 管理與研究
+• 協作開發
+• 市場研究
+
+SGCS — Sistema de Gestão de Chamados para Síndicos
+
+[G27] 開發技術
+• Google AI Studio
+• Firebase
+• Vercel
+• GitHub
+
+[G28] 軟體開發
+• 軟體工程
+• 需求工程
+• 需求蒐集
+• 功能需求
+• 非功能需求
+• 流程建模
+• 技術文件
+• Technical documentation
+• 原型設計
+• 工具評估
+
+[G29] 學術研究
+• 應用研究
+• 文獻研究
+• 個案研究
+• 實地研究
+• 訪談
+• 問卷
+• 質性資料分析
+• 內容分析
+• 石川圖
+
+[G30] 市場研究
+• 市場研究
+• 使用者人物誌定義
+• 同理心地圖
+• 需求分析
+
+[G31] 管理與協作
+• 專案管理
+• 活動規劃
+• 專案範疇管理
+• 團隊領導
+• 交付成果管理
+• 工具整合
+• 協作開發
+
+[G32] 管理與研究工具
+• Google Drive
+• Microsoft Word
+• Microsoft Teams
+• Trello
+• Google Scholar
+• ResearchGate
+• WhatsApp
+• Canva

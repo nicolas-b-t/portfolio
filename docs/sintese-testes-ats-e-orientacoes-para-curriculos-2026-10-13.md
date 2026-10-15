@@ -472,3 +472,17 @@ O conteúdo principal possui 212 ocorrências de tags e o bloco oculto possui 22
 O cvats preservou empresas, cargos, datas e graduação. As descrições das experiências refletem a revisão.
 O segundo parser manteve os mesmos 12 rótulos, incluindo o falso positivo C já registrado.
 O TXT e os hashes foram atualizados. Os dados dos cursos permaneceram iguais.
+
+### Normalização e traduções das tags
+
+A revisão seguinte padronizou nomes de produtos e termos portugueses em pt-BR.
+As formas inglesas anteriores de AWS, Azure, NGINX, organização de cabos e comutadores permanecem como aliases ocultos.
+O conteúdo visível possui 212 ocorrências de tags. O bloco oculto e a lista geral possuem 227.
+As 15 ocorrências suplementares foram justificadas e comparadas por contexto.
+
+As 394 linhas da entrada atual mantiveram as mesmas saídas dos três parsers.
+O falso positivo C permanece documentado. Os aliases adicionais não demonstraram ganho de reconhecimento neste ensaio.
+Os 14 TXT antes reservados receberam traduções editoriais, com 227 ocorrências e 192 rótulos distintos por arquivo.
+O [registro integral](verificacao-normalizacao-tags-pt-br-2026-10-14.json) preserva todas as ocorrências visíveis, ocultas e da lista geral.
+O [glossário e o manifesto](tags-multilingues/README.md) preservam as correspondências e os hashes das traduções.
+As traduções permanecem fora do site e não declaram fluência do candidato nas línguas de destino.

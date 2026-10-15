@@ -1,0 +1,309 @@
+역량 태그
+pt-BR → ko
+pt-BR에서 번역한 태그이며 한국어 구사 능력을 의미하지 않습니다. CNH AB와 PID는 브라질에서 발급하는 운전 관련 문서입니다.
+
+
+기술 역량(Hard skills)
+
+[G01] 관리 및 생산성
+• Canva
+• 자본화
+• 현금 흐름
+• 프로젝트 관리
+• 재무 관리
+• Google Drive
+• 전략 지표
+• LibreOffice
+• 프로세스 개선
+• 애자일 방법론
+• Microsoft Excel
+• Microsoft Office
+• Microsoft Teams
+• Office 365
+• OneDrive
+• 목표 계획
+• Scrum
+• Trello
+
+[G02] 운영 체제
+• Microsoft Windows
+• Windows 10
+• Windows 11
+• Microsoft Windows Server
+• Windows Server 2008 R2
+• Windows Server 2016
+• Linux
+• Debian
+• Ubuntu
+
+[G03] 프로그래밍 및 데이터
+• 기계 학습
+• Machine learning
+• 인공지능(AI)
+• JavaScript
+• 프로그래밍 논리
+• 데이터 모델링
+• Python
+
+[G04] AI 활용 개발
+• OpenAI ChatGPT
+• Codex (OpenAI)
+• Claude
+• Claude Code
+• AI 에이전트를 활용한 개발
+• OpenCode
+
+[G05] 소프트웨어 개발
+• 애자일 개발
+• 폭포수 개발
+• 명세 기반 개발
+• 프로토타이핑
+• 최소 기능 제품(MVP)
+
+[G06] 데이터베이스
+• SQL 질의
+• SQL
+• PostgreSQL
+• SQLite
+
+[G07] 네트워크
+• 네트워크 배선
+• 가입자 인입 광케이블(drop)
+• 라우터 설정
+• 무선 연결
+• FTTH
+• 광섬유 융착 접속, 견습
+• 광 파워 미터(power meter)
+• ONT
+• ONU
+• OTDR
+• PoE
+• PPPoE
+• 근거리 통신망(LAN)
+• 메시 네트워크
+• RJ45
+• SC/APC
+• VFL
+• Wi-Fi
+• 케이블 정리
+• Cable management
+• 네트워크 스위치
+• Switches
+• 서버
+• 광섬유 가설을 위한 전주 준비
+• 광 종단함 유지보수(CTO)
+
+[G08] 네트워크용 시스템
+• OpenWrt
+• OPNsense
+• pfSense
+
+[G09] IT 지원
+• 기술 문서
+• Technical documentation
+• 지원 요청 상위 단계 이관
+• IT 자산 관리
+• 사용자 설명서
+• Provide user documentation
+• 컴퓨터 유지보수
+• 프린터 유지보수
+• 주변 장치 유지보수
+• NF-e
+• NFC-e
+• 사용자 안내
+• 표준 운영 절차(POPs)
+• 인시던트 해결
+• ERP 지원, N1
+• POS 시스템 지원, N1
+• 헬프데스크 지원, N1
+• IT support, N1
+• 병원 기술 지원, N1/N2
+• Microsoft Active Directory
+
+[G10] 웹
+• 웹 접근성
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+• HTML
+• 다국어 웹사이트
+
+[G11] 웹 서버
+• Apache HTTP Server
+• NGINX
+• Nginx web server
+
+[G12] 개발 및 호스팅 플랫폼
+• Amazon Web Services (AWS)
+• Amazon Web Services AWS software
+• Firebase
+• Microsoft Azure
+• Microsoft Azure software
+• Supabase
+• Vercel
+
+[G13] 언어
+• 영어, TOEIC Listening & Reading 910
+• 브라질 포르투갈어
+
+사회적 역량(Soft skills)
+
+[G14] 조직 및 발전
+• 적응력
+• 세부 사항에 대한 주의
+• 분석적 사고
+• Analytical thinking
+
+[G15] 대인 관계
+• 의사소통
+• 고객 요구 이해
+• 팀워크
+
+실무 및 운영 역량
+
+[G16] 현장 작업 및 공구
+• 광섬유 정밀 절단기
+• 전동 공구
+• 수공구
+• Fusimech
+• 광섬유 융착 접속기
+• 공구 정리
+• 소모품 정리
+• 고소 작업
+
+[G17] 운전
+• 자동차 운전
+• 오토바이 운전
+• CNH AB
+• 브라질 발급 국제운전허가증(PID)
+
+재학 중인 고등교육 과정의 예정 학습 내용
+
+[G18] 관리 및 비즈니스
+• 솔루션 평가
+• 인력 관리
+• 프로세스 관리
+• IT 프로젝트 관리
+• 재무 관리
+• 전략 계획
+
+[G19] 연구 및 사회적 역량
+• 의사소통
+• 협상
+• 갈등 관리
+• 비판적 사고
+• 학술 연구
+• 문제 해결
+• 팀워크
+• 시스템 사고
+
+[G20] 기술 및 시스템
+• 데이터베이스
+• 인프라 진단
+• 소프트웨어 공학
+• 비즈니스 인텔리전스
+• Business intelligence
+• 웹 프로그래밍
+• 컴퓨터 네트워크
+• 운영 체제
+
+이 포트폴리오
+
+[G21] 기술
+• HTML
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+
+[G22] 개발 및 품질
+• AI 에이전트를 활용한 개발
+• 기술 문서
+• Technical documentation
+• 웹 접근성
+• 반응형 디자인
+• 성능 최적화
+• 이미지 최적화
+• 다국어 웹사이트
+• 인터페이스 테스트
+• HTML 검증
+
+[G23] 관리 및 협업
+• 프로젝트 범위 관리
+
+Optigrow
+
+[G24] 기술
+• Google AI Studio
+• Supabase
+• Vercel
+• GitHub
+
+[G25] 개발 및 품질
+• 기술 문서
+• Technical documentation
+• 웹 양식
+• 인프라 준비
+
+[G26] 관리 및 연구
+• 협업 개발
+• 시장 조사
+
+SGCS — Sistema de Gestão de Chamados para Síndicos
+
+[G27] 개발 기술
+• Google AI Studio
+• Firebase
+• Vercel
+• GitHub
+
+[G28] 소프트웨어 개발
+• 소프트웨어 공학
+• 요구공학
+• 요구사항 도출
+• 기능 요구사항
+• 비기능 요구사항
+• 프로세스 모델링
+• 기술 문서
+• Technical documentation
+• 프로토타이핑
+• 도구 평가
+
+[G29] 학술 연구
+• 응용 연구
+• 문헌 연구
+• 사례 연구
+• 현장 연구
+• 인터뷰
+• 설문지
+• 정성적 데이터 분석
+• 내용 분석
+• 이시카와 다이어그램
+
+[G30] 시장 조사
+• 시장 조사
+• 페르소나 정의
+• 공감 지도
+• 요구 분석
+
+[G31] 관리 및 협업
+• 프로젝트 관리
+• 활동 계획
+• 프로젝트 범위 관리
+• 팀 리더십
+• 산출물 관리
+• 도구 통합
+• 협업 개발
+
+[G32] 관리 및 연구 도구
+• Google Drive
+• Microsoft Word
+• Microsoft Teams
+• Trello
+• Google Scholar
+• ResearchGate
+• WhatsApp
+• Canva

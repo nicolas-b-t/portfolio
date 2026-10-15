@@ -1,0 +1,309 @@
+スキルタグ
+pt-BR → ja
+pt-BRから翻訳したタグです。日本語能力を示すものではありません。CNH ABとPIDはブラジルの運転関連書類です。
+
+
+技術的スキル（Hard skills）
+
+[G01] 管理と生産性
+• Canva
+• 資本化
+• キャッシュフロー
+• プロジェクト管理
+• 財務管理
+• Google Drive
+• 戦略指標
+• LibreOffice
+• プロセス改善
+• アジャイル手法
+• Microsoft Excel
+• Microsoft Office
+• Microsoft Teams
+• Office 365
+• OneDrive
+• 目標計画
+• Scrum
+• Trello
+
+[G02] オペレーティングシステム
+• Microsoft Windows
+• Windows 10
+• Windows 11
+• Microsoft Windows Server
+• Windows Server 2008 R2
+• Windows Server 2016
+• Linux
+• Debian
+• Ubuntu
+
+[G03] プログラミングとデータ
+• 機械学習
+• Machine learning
+• 人工知能（AI）
+• JavaScript
+• プログラミングの論理
+• データモデリング
+• Python
+
+[G04] AIを用いた開発
+• OpenAI ChatGPT
+• Codex (OpenAI)
+• Claude
+• Claude Code
+• AIエージェントを用いた開発
+• OpenCode
+
+[G05] ソフトウェア開発
+• アジャイル開発
+• ウォーターフォール開発
+• 仕様駆動開発
+• プロトタイピング
+• 実用最小限の製品（MVP）
+
+[G06] データベース
+• SQLクエリ
+• SQL
+• PostgreSQL
+• SQLite
+
+[G07] ネットワーク
+• ネットワーク配線
+• 引込用光ファイバーケーブル（drop）
+• ルーター設定
+• 無線接続
+• FTTH
+• 光ファイバー融着接続、見習い
+• 光パワーメーター（power meter）
+• ONT
+• ONU
+• OTDR
+• PoE
+• PPPoE
+• ローカルエリアネットワーク（LAN）
+• メッシュネットワーク
+• RJ45
+• SC/APC
+• VFL
+• Wi-Fi
+• ケーブル整理
+• Cable management
+• ネットワークスイッチ
+• Switches
+• サーバー
+• 光ファイバー敷設に向けた電柱の準備
+• 光終端ボックスの保守（CTO）
+
+[G08] ネットワーク向けシステム
+• OpenWrt
+• OPNsense
+• pfSense
+
+[G09] ITサポート
+• 技術文書
+• Technical documentation
+• 問い合わせのエスカレーション
+• IT資産管理
+• ユーザーマニュアル
+• Provide user documentation
+• コンピューター保守
+• プリンター保守
+• 周辺機器保守
+• NF-e
+• NFC-e
+• ユーザーへの操作案内
+• 標準作業手順（POPs）
+• インシデント解決
+• ERPサポート、N1
+• POSシステムサポート、N1
+• ヘルプデスクサポート、N1
+• IT support, N1
+• 病院の技術サポート、N1/N2
+• Microsoft Active Directory
+
+[G10] ウェブ
+• ウェブアクセシビリティ
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+• HTML
+• 多言語ウェブサイト
+
+[G11] ウェブサーバー
+• Apache HTTP Server
+• NGINX
+• Nginx web server
+
+[G12] 開発・ホスティングプラットフォーム
+• Amazon Web Services (AWS)
+• Amazon Web Services AWS software
+• Firebase
+• Microsoft Azure
+• Microsoft Azure software
+• Supabase
+• Vercel
+
+[G13] 言語
+• 英語、TOEIC Listening & Reading 910
+• ブラジルポルトガル語
+
+対人スキル（Soft skills）
+
+[G14] 組織と成長
+• 適応力
+• 細部への注意
+• 分析的思考
+• Analytical thinking
+
+[G15] 対人関係
+• コミュニケーション
+• 顧客ニーズの理解
+• チームワーク
+
+実践的・業務遂行スキル
+
+[G16] 現場作業と工具
+• 光ファイバーカッター
+• 電動工具
+• 手工具
+• Fusimech
+• 光ファイバー融着接続機
+• 工具の整理
+• 消耗品の整理
+• 高所作業
+
+[G17] 運転
+• 自動車の運転
+• オートバイの運転
+• CNH AB
+• ブラジル発行の国際運転許可証（PID）
+
+在学中の高等教育課程で予定される学習内容
+
+[G18] 経営とビジネス
+• ソリューション評価
+• 人材管理
+• プロセス管理
+• ITプロジェクト管理
+• 財務管理
+• 戦略計画
+
+[G19] 研究と対人スキル
+• コミュニケーション
+• 交渉
+• 対立の管理
+• 批判的思考
+• 学術研究
+• 問題解決
+• チームワーク
+• システム思考
+
+[G20] 技術とシステム
+• データベース
+• インフラ診断
+• ソフトウェア工学
+• ビジネスインテリジェンス
+• Business intelligence
+• ウェブプログラミング
+• コンピューターネットワーク
+• オペレーティングシステム
+
+このポートフォリオ
+
+[G21] テクノロジー
+• HTML
+• CSS
+• Git
+• GitHub
+• GitHub Actions
+• GitHub Pages
+
+[G22] 開発と品質
+• AIエージェントを用いた開発
+• 技術文書
+• Technical documentation
+• ウェブアクセシビリティ
+• レスポンシブデザイン
+• 性能最適化
+• 画像最適化
+• 多言語ウェブサイト
+• インターフェーステスト
+• HTML検証
+
+[G23] 管理と協働
+• スコープ管理
+
+Optigrow
+
+[G24] テクノロジー
+• Google AI Studio
+• Supabase
+• Vercel
+• GitHub
+
+[G25] 開発と品質
+• 技術文書
+• Technical documentation
+• ウェブフォーム
+• インフラ準備
+
+[G26] 管理と研究
+• 共同開発
+• 市場調査
+
+SGCS — Sistema de Gestão de Chamados para Síndicos
+
+[G27] 開発技術
+• Google AI Studio
+• Firebase
+• Vercel
+• GitHub
+
+[G28] ソフトウェア開発
+• ソフトウェア工学
+• 要求工学
+• 要求の抽出
+• 機能要求
+• 非機能要求
+• プロセスモデリング
+• 技術文書
+• Technical documentation
+• プロトタイピング
+• ツール評価
+
+[G29] 学術研究
+• 応用研究
+• 文献調査
+• 事例研究
+• 現地調査
+• インタビュー
+• 質問票
+• 質的データ分析
+• 内容分析
+• 石川ダイアグラム
+
+[G30] 市場調査
+• 市場調査
+• ペルソナの定義
+• 共感マップ
+• ニーズ分析
+
+[G31] 管理と協働
+• プロジェクト管理
+• 活動計画
+• スコープ管理
+• チームの統率
+• 成果物管理
+• ツール統合
+• 共同開発
+
+[G32] 管理・研究ツール
+• Google Drive
+• Microsoft Word
+• Microsoft Teams
+• Trello
+• Google Scholar
+• ResearchGate
+• WhatsApp
+• Canva

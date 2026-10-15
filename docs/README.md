@@ -10,17 +10,20 @@ Este índice reúne os documentos necessários à manutenção do conteúdo vige
 | [README da raiz](../README.md) | Estrutura, execução local e publicação |
 | [Guia de uso](referencias/guia-de-uso.md) | Edição, consulta aos acervos e recuperação de fontes |
 | [Guia de redação](guia-de-redacao.md) | Clareza e precisão do texto autoral |
+| [Revisão de código e acessibilidade de 14 de outubro](revisao-codigo-acessibilidade-2026-10-14.md) | Correções, teclado, apresentação, contraste e evidências das 16 páginas |
 | [Síntese dos testes ATS e orientações para currículos](sintese-testes-ats-e-orientacoes-para-curriculos-2026-10-13.md) | Resultados, limites e procedimento para este portfólio e futuros currículos |
 | [Histórico dos testes ATS](historico-ats/README.md) | Sete registros anteriores preservados integralmente em ZIP, com manifesto e hashes |
-| [Lista geral de tags](../Lista_de_tags/README.md) | Cópia de consulta, instruções para leitura e arquivos vazios para outros sistemas de escrita |
-| [Teste da lista geral de tags](verificacao-lista-geral-tags-2026-10-14.json) | Integridade da cópia, arquivos vazios e extração após incluir as instruções no bloco oculto |
+| [Lista geral de tags](../Lista_de_tags/README.md) | Cópia de consulta, instruções para leitura e traduções para outros sistemas de escrita |
+| [Teste da lista geral de tags](verificacao-lista-geral-tags-2026-10-14.json) | Integridade da cópia, traduções e resultados da extração do bloco oculto |
+| [Normalização de termos e verificação integral](normalizacao-tags-pt-br-2026-10-14.md) | Nomes padronizados, cobertura das três bases de tags e limites |
+| [Tags multilíngues](tags-multilingues/README.md) | Glossário, correspondências e manifesto dos 14 arquivos traduzidos |
 | [Manifesto do cvats](referencias/ats/manifesto-cvats-2026-10-14.json) | Clone, versão, licença, fontes e limites da execução |
 | [Revisão de linguagem simples pt-BR](revisao-linguagem-simples-pt-br-2026-10-13.md) | Expressões vagas, repetições, propostas e limites das fontes |
 | [Relatório do site de 13 de outubro](relatorio-verificacao-site-2026-10-13.md) | Alterações e verificações gerais da versão daquela data |
 | [Resultados do site de 13 de outubro](verificacao-site-2026-10-13.json) | Ensaios de apresentação e conteúdo daquela versão |
 | [Revisão de experiências e projetos pt-BR](experiencias-e-projetos-pt-br-2026-10-14.md) | Descrições, estrutura dos projetos, tecnologias confirmadas e evidências do SGCS |
 | [Registro anterior das tags](referencias/ats/verificacao-tags-2026-10-13.json) | Contextos, referências e limites da versão anterior dos cinco idiomas |
-| [Tags e correspondências atuais pt-BR](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Inventário, aplicação dos nomes e comparação após o commit-base 6a96e0b |
+| [Tags e correspondências anteriores pt-BR](tags-e-correspondencias-ats-pt-br-2026-10-13.txt) | Evidências e comparação após o commit-base 6a96e0b, anteriores à normalização atual |
 | [Currículo textual pt-BR](curriculo-ats-pt-br-2026-10-13.txt) | Exportação UTF-8 com uma única cópia dos 17 cursos |
 | [Manifesto dos parsers públicos](referencias/ats/manifesto-parser-publico-2026-10-13.json) | Origens, commits, licenças e hashes das cópias locais |
 | [Histórico consolidado](registro-de-desenvolvimento.md) | Decisões duradouras |

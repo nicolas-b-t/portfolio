@@ -1,87 +1,15 @@
 {
   "data": "2026-10-14",
-  "base_git": "5fced886ecb2e8d9685f4527660dc85cdce1c6aa",
+  "base_git": "a0863e53a858cfaf34a855cb39efcb7c9e8f0adc",
   "pagina": {
     "arquivo": "static/pt-BR/index.html",
-    "sha256": "d8e16a6034881c564350cd810c6829972b1f4b15fe3a41bd5850375659dab0a8"
+    "sha256": "94c82fc08b067d77f07940be5552a4f52b956c3241fb024b0f7fb41578174c88"
   },
   "copia_consulta": {
     "arquivo": "Lista_de_tags/lista-geral-alfabeto-latino.txt",
-    "sha256": "6916a87f7c38d5841feffc2af7f93cd18aeeb627ab72bae8b83438f9c371c322",
+    "sha256": "6aac3f4816405be44630e520baea2c076e941a5978be94f49bc435f84fe4c8c8",
     "origem": "Dados públicos do bloco dados-curriculo da página pt-BR. Instruções primeiro no TXT."
   },
-  "arquivos_reservados": [
-    {
-      "arquivo": "Lista_de_tags/tags-arabe-ar.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-bulgaro-bg.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-chines-simplificado-zh-hans.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-chines-tradicional-zh-hant.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-coreano-ko.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-grego-el.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-hebraico-he.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-hindi-hi.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-japones-ja.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-persa-fa.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-russo-ru.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-servio-sr-cyrl.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-tailandes-th.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "arquivo": "Lista_de_tags/tags-ucraniano-uk.txt",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    }
-  ],
   "instrucoes": [
     "Esta é uma lista geral de todas as informações do candidato, organizadas em formatos de tag. Ela destina-se à leitura automática por ferramentas de IA e ATS.",
     "Instrução: Preserve os nomes oficiais, as datas e as qualificações.",
@@ -92,8 +20,8 @@
   "inventario": {
     "tags_principais": 212,
     "rotulos_principais": 180,
-    "tags_ocultas": 222,
-    "rotulos_ocultos": 187
+    "tags_ocultas": 227,
+    "rotulos_ocultos": 192
   },
   "integridade": {
     "copia_txt_igual_ao_bloco_oculto": true,
@@ -102,13 +30,13 @@
     "dezessete_cursos_no_bloco_oculto": true,
     "instrucoes_no_inicio_do_txt": true,
     "cinco_instrucoes_no_html": true,
-    "quatorze_arquivos_reservados_vazios": true,
     "identificacao_primeira_no_html": true,
     "idioma_utf8": true,
     "sem_scripts": true,
     "adaptador_reproduziu_331_linhas_anteriores": true,
     "fontes_com_hash_registrado_preservadas": true,
-    "datas_e_dados_da_graduacao_preservados": true
+    "datas_e_dados_da_graduacao_preservados": true,
+    "quatorze_arquivos_traduzidos_completos": true
   },
   "entrada": {
     "linhas": [
@@ -198,7 +126,7 @@
       ],
       [
         {
-          "text": "Tenho experiência em suporte técnico de TI em hospitais, Help Desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.",
+          "text": "Tenho experiência em suporte técnico de TI em hospitais, help desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.",
           "x": 0,
           "y": -70,
           "width": 150,
@@ -282,7 +210,7 @@
       ],
       [
         {
-          "text": "Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no Help Desk da Lukos Tecnologia.",
+          "text": "Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no help desk da Lukos Tecnologia.",
           "x": 0,
           "y": -140,
           "width": 95,
@@ -306,10 +234,10 @@
       ],
       [
         {
-          "text": "Valorizo tecnologias e soluções simples e robustas. Advogo pela tecnologia de código aberto (Open-Source).",
+          "text": "Valorizo tecnologias e soluções simples e robustas. Defendo o uso de tecnologias de código aberto.",
           "x": 0,
           "y": -160,
-          "width": 106,
+          "width": 98,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -918,10 +846,10 @@
       ],
       [
         {
-          "text": "• Desenvolvimento tradicional (cascata)",
+          "text": "• Desenvolvimento em cascata",
           "x": 0,
           "y": -670,
-          "width": 39,
+          "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -1254,10 +1182,34 @@
       ],
       [
         {
-          "text": "• Cable management",
+          "text": "• Organização de cabos",
           "x": 0,
           "y": -950,
+          "width": 22,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Cable management",
+          "x": 0,
+          "y": -960,
           "width": 18,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Comutadores de rede",
+          "x": 0,
+          "y": -970,
+          "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -1268,7 +1220,7 @@
         {
           "text": "• Switches",
           "x": 0,
-          "y": -960,
+          "y": -980,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1280,7 +1232,7 @@
         {
           "text": "• Servidores",
           "x": 0,
-          "y": -970,
+          "y": -990,
           "width": 12,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1290,10 +1242,10 @@
       ],
       [
         {
-          "text": "• Preparo de postes para passagem de fibra",
+          "text": "• Preparação de postes para passagem de fibra",
           "x": 0,
-          "y": -980,
-          "width": 42,
+          "y": -1000,
+          "width": 45,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -1302,10 +1254,10 @@
       ],
       [
         {
-          "text": "• Manutenção de CTO (caixa de distribuição óptica)",
+          "text": "• Manutenção de caixas de terminação óptica (CTO)",
           "x": 0,
-          "y": -990,
-          "width": 50,
+          "y": -1010,
+          "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -1316,7 +1268,7 @@
         {
           "text": "Sistemas para redes",
           "x": 0,
-          "y": -1000,
+          "y": -1020,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1328,7 +1280,7 @@
         {
           "text": "• OpenWrt",
           "x": 0,
-          "y": -1010,
+          "y": -1030,
           "width": 9,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1340,7 +1292,7 @@
         {
           "text": "• OPNsense",
           "x": 0,
-          "y": -1020,
+          "y": -1040,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1352,7 +1304,7 @@
         {
           "text": "• pfSense",
           "x": 0,
-          "y": -1030,
+          "y": -1050,
           "width": 9,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1364,7 +1316,7 @@
         {
           "text": "Suporte de TI",
           "x": 0,
-          "y": -1040,
+          "y": -1060,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1376,7 +1328,7 @@
         {
           "text": "• Documentação técnica",
           "x": 0,
-          "y": -1050,
+          "y": -1070,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1388,7 +1340,7 @@
         {
           "text": "• Technical documentation",
           "x": 0,
-          "y": -1060,
+          "y": -1080,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1400,7 +1352,7 @@
         {
           "text": "• Escalonamento de chamados",
           "x": 0,
-          "y": -1070,
+          "y": -1090,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1412,7 +1364,7 @@
         {
           "text": "• Gestão de ativos de TI",
           "x": 0,
-          "y": -1080,
+          "y": -1100,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1424,7 +1376,7 @@
         {
           "text": "• Manuais de usuário",
           "x": 0,
-          "y": -1090,
+          "y": -1110,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1436,7 +1388,7 @@
         {
           "text": "• Provide user documentation",
           "x": 0,
-          "y": -1100,
+          "y": -1120,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1448,7 +1400,7 @@
         {
           "text": "• Manutenção de computadores",
           "x": 0,
-          "y": -1110,
+          "y": -1130,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1460,7 +1412,7 @@
         {
           "text": "• Manutenção de impressoras",
           "x": 0,
-          "y": -1120,
+          "y": -1140,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1472,7 +1424,7 @@
         {
           "text": "• Manutenção de periféricos",
           "x": 0,
-          "y": -1130,
+          "y": -1150,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1484,7 +1436,7 @@
         {
           "text": "• NF-e",
           "x": 0,
-          "y": -1140,
+          "y": -1160,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1496,7 +1448,7 @@
         {
           "text": "• NFC-e",
           "x": 0,
-          "y": -1150,
+          "y": -1170,
           "width": 7,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1508,7 +1460,7 @@
         {
           "text": "• Orientação de usuários",
           "x": 0,
-          "y": -1160,
+          "y": -1180,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1520,7 +1472,7 @@
         {
           "text": "• Procedimentos operacionais padrão (POPs)",
           "x": 0,
-          "y": -1170,
+          "y": -1190,
           "width": 42,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1532,7 +1484,7 @@
         {
           "text": "• Resolução de incidentes",
           "x": 0,
-          "y": -1180,
+          "y": -1200,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1544,7 +1496,7 @@
         {
           "text": "• Suporte a ERP, N1",
           "x": 0,
-          "y": -1190,
+          "y": -1210,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1556,7 +1508,7 @@
         {
           "text": "• Suporte a PDV, N1",
           "x": 0,
-          "y": -1200,
+          "y": -1220,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1566,10 +1518,10 @@
       ],
       [
         {
-          "text": "• Suporte Help Desk, N1",
+          "text": "• Suporte de help desk, N1",
           "x": 0,
-          "y": -1210,
-          "width": 23,
+          "y": -1230,
+          "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -1580,7 +1532,7 @@
         {
           "text": "• IT support, N1",
           "x": 0,
-          "y": -1220,
+          "y": -1240,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1592,7 +1544,7 @@
         {
           "text": "• Suporte técnico hospitalar, N1/N2",
           "x": 0,
-          "y": -1230,
+          "y": -1250,
           "width": 35,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1604,7 +1556,7 @@
         {
           "text": "• Microsoft Active Directory",
           "x": 0,
-          "y": -1240,
+          "y": -1260,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1616,7 +1568,7 @@
         {
           "text": "Web",
           "x": 0,
-          "y": -1250,
+          "y": -1270,
           "width": 3,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1628,7 +1580,7 @@
         {
           "text": "• Acessibilidade web",
           "x": 0,
-          "y": -1260,
+          "y": -1280,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1640,7 +1592,7 @@
         {
           "text": "• CSS",
           "x": 0,
-          "y": -1270,
+          "y": -1290,
           "width": 5,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1652,7 +1604,7 @@
         {
           "text": "• Git",
           "x": 0,
-          "y": -1280,
+          "y": -1300,
           "width": 5,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1664,7 +1616,7 @@
         {
           "text": "• GitHub",
           "x": 0,
-          "y": -1290,
+          "y": -1310,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1676,7 +1628,7 @@
         {
           "text": "• GitHub Actions",
           "x": 0,
-          "y": -1300,
+          "y": -1320,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1688,7 +1640,7 @@
         {
           "text": "• GitHub Pages",
           "x": 0,
-          "y": -1310,
+          "y": -1330,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1700,7 +1652,7 @@
         {
           "text": "• HTML",
           "x": 0,
-          "y": -1320,
+          "y": -1340,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1711,30 +1663,6 @@
       [
         {
           "text": "• Sites multilíngues",
-          "x": 0,
-          "y": -1330,
-          "width": 20,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Servidores web",
-          "x": 0,
-          "y": -1340,
-          "width": 14,
-          "height": 10,
-          "fontName": "DOM-Bold",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "• Apache HTTP Server",
           "x": 0,
           "y": -1350,
           "width": 20,
@@ -1746,9 +1674,45 @@
       ],
       [
         {
-          "text": "• Nginx web server",
+          "text": "Servidores web",
           "x": 0,
           "y": -1360,
+          "width": 14,
+          "height": 10,
+          "fontName": "DOM-Bold",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Apache HTTP Server",
+          "x": 0,
+          "y": -1370,
+          "width": 20,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• NGINX",
+          "x": 0,
+          "y": -1380,
+          "width": 7,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Nginx web server",
+          "x": 0,
+          "y": -1390,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1760,7 +1724,7 @@
         {
           "text": "Plataformas de desenvolvimento e hospedagem",
           "x": 0,
-          "y": -1370,
+          "y": -1400,
           "width": 43,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1770,9 +1734,21 @@
       ],
       [
         {
+          "text": "• Amazon Web Services (AWS)",
+          "x": 0,
+          "y": -1410,
+          "width": 27,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
           "text": "• Amazon Web Services AWS software",
           "x": 0,
-          "y": -1380,
+          "y": -1420,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1784,8 +1760,20 @@
         {
           "text": "• Firebase",
           "x": 0,
-          "y": -1390,
+          "y": -1430,
           "width": 10,
+          "height": 10,
+          "fontName": "DOM-Regular",
+          "hasEOL": true,
+          "page": 1
+        }
+      ],
+      [
+        {
+          "text": "• Microsoft Azure",
+          "x": 0,
+          "y": -1440,
+          "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -1796,7 +1784,7 @@
         {
           "text": "• Microsoft Azure software",
           "x": 0,
-          "y": -1400,
+          "y": -1450,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1808,7 +1796,7 @@
         {
           "text": "• Supabase",
           "x": 0,
-          "y": -1410,
+          "y": -1460,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1820,7 +1808,7 @@
         {
           "text": "• Vercel",
           "x": 0,
-          "y": -1420,
+          "y": -1470,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1832,7 +1820,7 @@
         {
           "text": "Idiomas",
           "x": 0,
-          "y": -1430,
+          "y": -1480,
           "width": 7,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1844,7 +1832,7 @@
         {
           "text": "• Inglês, TOEIC Listening & Reading 910",
           "x": 0,
-          "y": -1440,
+          "y": -1490,
           "width": 39,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1856,7 +1844,7 @@
         {
           "text": "• Português brasileiro",
           "x": 0,
-          "y": -1450,
+          "y": -1500,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1868,7 +1856,7 @@
         {
           "text": "Competências sociais (Soft skills)",
           "x": 0,
-          "y": -1460,
+          "y": -1510,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1880,7 +1868,7 @@
         {
           "text": "Organização e desenvolvimento",
           "x": 0,
-          "y": -1470,
+          "y": -1520,
           "width": 29,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1892,7 +1880,7 @@
         {
           "text": "• Adaptabilidade",
           "x": 0,
-          "y": -1480,
+          "y": -1530,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1904,7 +1892,7 @@
         {
           "text": "• Atenção a detalhes",
           "x": 0,
-          "y": -1490,
+          "y": -1540,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1916,7 +1904,7 @@
         {
           "text": "• Pensamento analítico",
           "x": 0,
-          "y": -1500,
+          "y": -1550,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1928,7 +1916,7 @@
         {
           "text": "• Analytical thinking",
           "x": 0,
-          "y": -1510,
+          "y": -1560,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1940,7 +1928,7 @@
         {
           "text": "Relacionamento",
           "x": 0,
-          "y": -1520,
+          "y": -1570,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -1952,7 +1940,7 @@
         {
           "text": "• Comunicação",
           "x": 0,
-          "y": -1530,
+          "y": -1580,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1964,7 +1952,7 @@
         {
           "text": "• Compreensão das necessidades do cliente",
           "x": 0,
-          "y": -1540,
+          "y": -1590,
           "width": 41,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1976,7 +1964,7 @@
         {
           "text": "• Trabalho em equipe",
           "x": 0,
-          "y": -1550,
+          "y": -1600,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -1988,7 +1976,7 @@
         {
           "text": "Habilidades práticas e operacionais",
           "x": 0,
-          "y": -1560,
+          "y": -1610,
           "width": 35,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2000,7 +1988,7 @@
         {
           "text": "Campo e ferramentas",
           "x": 0,
-          "y": -1570,
+          "y": -1620,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2012,7 +2000,7 @@
         {
           "text": "• Clivador",
           "x": 0,
-          "y": -1580,
+          "y": -1630,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2024,7 +2012,7 @@
         {
           "text": "• Ferramentas elétricas",
           "x": 0,
-          "y": -1590,
+          "y": -1640,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2036,7 +2024,7 @@
         {
           "text": "• Ferramentas manuais",
           "x": 0,
-          "y": -1600,
+          "y": -1650,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2048,7 +2036,7 @@
         {
           "text": "• Fusimech",
           "x": 0,
-          "y": -1610,
+          "y": -1660,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2060,7 +2048,7 @@
         {
           "text": "• Máquina de fusão de fibra óptica",
           "x": 0,
-          "y": -1620,
+          "y": -1670,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2072,7 +2060,7 @@
         {
           "text": "• Organização de ferramentas",
           "x": 0,
-          "y": -1630,
+          "y": -1680,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2084,7 +2072,7 @@
         {
           "text": "• Organização de insumos",
           "x": 0,
-          "y": -1640,
+          "y": -1690,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2096,7 +2084,7 @@
         {
           "text": "• Trabalho em altura",
           "x": 0,
-          "y": -1650,
+          "y": -1700,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2108,7 +2096,7 @@
         {
           "text": "Condução",
           "x": 0,
-          "y": -1660,
+          "y": -1710,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2120,7 +2108,7 @@
         {
           "text": "• Condução de carros",
           "x": 0,
-          "y": -1670,
+          "y": -1720,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2132,7 +2120,7 @@
         {
           "text": "• Condução de motos",
           "x": 0,
-          "y": -1680,
+          "y": -1730,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2144,7 +2132,7 @@
         {
           "text": "• CNH AB",
           "x": 0,
-          "y": -1690,
+          "y": -1740,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2156,7 +2144,7 @@
         {
           "text": "• Permissão Internacional para Dirigir (PID)",
           "x": 0,
-          "y": -1700,
+          "y": -1750,
           "width": 44,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2168,7 +2156,7 @@
         {
           "text": "Aceito em países do Mercosul e em destinos como Alemanha, França e Itália.",
           "x": 0,
-          "y": -1710,
+          "y": -1760,
           "width": 74,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2180,7 +2168,7 @@
         {
           "text": "Experiência profissional",
           "x": 0,
-          "y": -1720,
+          "y": -1770,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2192,7 +2180,7 @@
         {
           "text": "Fiber Optic Installation Assistant",
           "x": 0,
-          "y": -1730,
+          "y": -1780,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2204,7 +2192,7 @@
         {
           "text": "RealFort Sistemas",
           "x": 0,
-          "y": -1740,
+          "y": -1790,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2216,7 +2204,7 @@
         {
           "text": "Vínculo: Prestação de serviços",
           "x": 0,
-          "y": -1750,
+          "y": -1800,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2228,7 +2216,7 @@
         {
           "text": "• Cargo declarado: Auxiliar de instalação de fibra óptica",
           "x": 0,
-          "y": -1760,
+          "y": -1810,
           "width": 57,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2240,7 +2228,7 @@
         {
           "text": "• Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.",
           "x": 0,
-          "y": -1770,
+          "y": -1820,
           "width": 253,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2252,7 +2240,7 @@
         {
           "text": "• Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.",
           "x": 0,
-          "y": -1780,
+          "y": -1830,
           "width": 101,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2264,7 +2252,7 @@
         {
           "text": "• Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.",
           "x": 0,
-          "y": -1790,
+          "y": -1840,
           "width": 133,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2276,7 +2264,7 @@
         {
           "text": "Help Desk Support Technician",
           "x": 0,
-          "y": -1800,
+          "y": -1850,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2288,7 +2276,7 @@
         {
           "text": "Lukos Tecnologia",
           "x": 0,
-          "y": -1810,
+          "y": -1860,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2300,7 +2288,7 @@
         {
           "text": "Período: setembro de 2025 – dezembro de 2025",
           "x": 0,
-          "y": -1820,
+          "y": -1870,
           "width": 44,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2312,7 +2300,7 @@
         {
           "text": "Local: São Paulo, Brasil",
           "x": 0,
-          "y": -1830,
+          "y": -1880,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2324,7 +2312,7 @@
         {
           "text": "• Cargo declarado: Técnico de suporte Help Desk",
           "x": 0,
-          "y": -1840,
+          "y": -1890,
           "width": 47,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2336,7 +2324,7 @@
         {
           "text": "• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.",
           "x": 0,
-          "y": -1850,
+          "y": -1900,
           "width": 219,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2348,7 +2336,7 @@
         {
           "text": "• Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.",
           "x": 0,
-          "y": -1860,
+          "y": -1910,
           "width": 166,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2360,7 +2348,7 @@
         {
           "text": "• Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.",
           "x": 0,
-          "y": -1870,
+          "y": -1920,
           "width": 103,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2372,7 +2360,7 @@
         {
           "text": "IT Support Technician",
           "x": 0,
-          "y": -1880,
+          "y": -1930,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2384,7 +2372,7 @@
         {
           "text": "Instituto Alpha de Saúde Integral",
           "x": 0,
-          "y": -1890,
+          "y": -1940,
           "width": 33,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2396,7 +2384,7 @@
         {
           "text": "Período: abril de 2023 – junho de 2024",
           "x": 0,
-          "y": -1900,
+          "y": -1950,
           "width": 38,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2408,7 +2396,7 @@
         {
           "text": "Local: São Paulo, Brasil",
           "x": 0,
-          "y": -1910,
+          "y": -1960,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2420,7 +2408,7 @@
         {
           "text": "• Cargo declarado: Técnico de suporte de TI",
           "x": 0,
-          "y": -1920,
+          "y": -1970,
           "width": 43,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2432,7 +2420,7 @@
         {
           "text": "• Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.",
           "x": 0,
-          "y": -1930,
+          "y": -1980,
           "width": 127,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2444,7 +2432,7 @@
         {
           "text": "• Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.",
           "x": 0,
-          "y": -1940,
+          "y": -1990,
           "width": 148,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2456,7 +2444,7 @@
         {
           "text": "• Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).",
           "x": 0,
-          "y": -1950,
+          "y": -2000,
           "width": 116,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2468,7 +2456,7 @@
         {
           "text": "• Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.",
           "x": 0,
-          "y": -1960,
+          "y": -2010,
           "width": 86,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2480,7 +2468,7 @@
         {
           "text": "Formação acadêmica",
           "x": 0,
-          "y": -1970,
+          "y": -2020,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2492,7 +2480,7 @@
         {
           "text": "• Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027)",
           "x": 0,
-          "y": -1980,
+          "y": -2030,
           "width": 175,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2504,7 +2492,7 @@
         {
           "text": "Informações adicionais",
           "x": 0,
-          "y": -1990,
+          "y": -2040,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2516,7 +2504,7 @@
         {
           "text": "Conforme o projeto pedagógico do curso (PPC).",
           "x": 0,
-          "y": -2000,
+          "y": -2050,
           "width": 45,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2528,7 +2516,7 @@
         {
           "text": "Conteúdos previstos da graduação",
           "x": 0,
-          "y": -2010,
+          "y": -2060,
           "width": 32,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2540,7 +2528,7 @@
         {
           "text": "Gestão e negócios",
           "x": 0,
-          "y": -2020,
+          "y": -2070,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2552,7 +2540,7 @@
         {
           "text": "• Avaliação de soluções",
           "x": 0,
-          "y": -2030,
+          "y": -2080,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2564,7 +2552,7 @@
         {
           "text": "• Gestão de pessoas",
           "x": 0,
-          "y": -2040,
+          "y": -2090,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2576,7 +2564,7 @@
         {
           "text": "• Gestão de processos",
           "x": 0,
-          "y": -2050,
+          "y": -2100,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2588,7 +2576,7 @@
         {
           "text": "• Gestão de projetos de TI",
           "x": 0,
-          "y": -2060,
+          "y": -2110,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2600,7 +2588,7 @@
         {
           "text": "• Gestão financeira",
           "x": 0,
-          "y": -2070,
+          "y": -2120,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2612,7 +2600,7 @@
         {
           "text": "• Planejamento estratégico",
           "x": 0,
-          "y": -2080,
+          "y": -2130,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2624,7 +2612,7 @@
         {
           "text": "Pesquisa e competências sociais",
           "x": 0,
-          "y": -2090,
+          "y": -2140,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2636,7 +2624,7 @@
         {
           "text": "• Comunicação",
           "x": 0,
-          "y": -2100,
+          "y": -2150,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2648,7 +2636,7 @@
         {
           "text": "• Negociação",
           "x": 0,
-          "y": -2110,
+          "y": -2160,
           "width": 12,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2660,7 +2648,7 @@
         {
           "text": "• Gestão de conflitos",
           "x": 0,
-          "y": -2120,
+          "y": -2170,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2672,7 +2660,7 @@
         {
           "text": "• Pensamento crítico",
           "x": 0,
-          "y": -2130,
+          "y": -2180,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2684,7 +2672,7 @@
         {
           "text": "• Pesquisa acadêmica",
           "x": 0,
-          "y": -2140,
+          "y": -2190,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2696,7 +2684,7 @@
         {
           "text": "• Resolução de problemas",
           "x": 0,
-          "y": -2150,
+          "y": -2200,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2708,7 +2696,7 @@
         {
           "text": "• Trabalho em equipe",
           "x": 0,
-          "y": -2160,
+          "y": -2210,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2720,7 +2708,7 @@
         {
           "text": "• Visão sistêmica",
           "x": 0,
-          "y": -2170,
+          "y": -2220,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2732,7 +2720,7 @@
         {
           "text": "Tecnologia e sistemas",
           "x": 0,
-          "y": -2180,
+          "y": -2230,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2742,10 +2730,10 @@
       ],
       [
         {
-          "text": "• Banco de dados",
+          "text": "• Bancos de dados",
           "x": 0,
-          "y": -2190,
-          "width": 16,
+          "y": -2240,
+          "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -2756,7 +2744,7 @@
         {
           "text": "• Diagnóstico de infraestrutura",
           "x": 0,
-          "y": -2200,
+          "y": -2250,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2768,7 +2756,7 @@
         {
           "text": "• Engenharia de software",
           "x": 0,
-          "y": -2210,
+          "y": -2260,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2780,7 +2768,7 @@
         {
           "text": "• Inteligência de negócios",
           "x": 0,
-          "y": -2220,
+          "y": -2270,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2792,7 +2780,7 @@
         {
           "text": "• Business intelligence",
           "x": 0,
-          "y": -2230,
+          "y": -2280,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2804,7 +2792,7 @@
         {
           "text": "• Programação para internet",
           "x": 0,
-          "y": -2240,
+          "y": -2290,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2816,7 +2804,7 @@
         {
           "text": "• Redes de computadores",
           "x": 0,
-          "y": -2250,
+          "y": -2300,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2828,7 +2816,7 @@
         {
           "text": "• Sistemas operacionais",
           "x": 0,
-          "y": -2260,
+          "y": -2310,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2840,7 +2828,7 @@
         {
           "text": "Cursos complementares",
           "x": 0,
-          "y": -2270,
+          "y": -2320,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2852,7 +2840,7 @@
         {
           "text": "Competências técnicas (Hard skills)",
           "x": 0,
-          "y": -2280,
+          "y": -2330,
           "width": 35,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2864,7 +2852,7 @@
         {
           "text": "Gestão e produtividade",
           "x": 0,
-          "y": -2290,
+          "y": -2340,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2876,7 +2864,7 @@
         {
           "text": "Microsoft Office Specialist Associate",
           "x": 0,
-          "y": -2300,
+          "y": -2350,
           "width": 37,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2888,7 +2876,7 @@
         {
           "text": "SENAI São Paulo — Escola Hermenegildo Campos de Almeida",
           "x": 0,
-          "y": -2310,
+          "y": -2360,
           "width": 55,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2900,7 +2888,7 @@
         {
           "text": "Curso SENAI · 60 h · Conclusão: 25/07/2026 · Emissão: 30/07/2026",
           "x": 0,
-          "y": -2320,
+          "y": -2370,
           "width": 64,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2912,7 +2900,7 @@
         {
           "text": "Formação White Belt Six Sigma",
           "x": 0,
-          "y": -2330,
+          "y": -2380,
           "width": 29,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2924,7 +2912,7 @@
         {
           "text": "RL&Associados",
           "x": 0,
-          "y": -2340,
+          "y": -2390,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2936,7 +2924,7 @@
         {
           "text": "Formação introdutória · 2 h · Emissão: 17/04/2026",
           "x": 0,
-          "y": -2350,
+          "y": -2400,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2948,7 +2936,7 @@
         {
           "text": "Como Controlar o Fluxo de Caixa",
           "x": 0,
-          "y": -2360,
+          "y": -2410,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2960,7 +2948,7 @@
         {
           "text": "Sebrae",
           "x": 0,
-          "y": -2370,
+          "y": -2420,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2972,7 +2960,7 @@
         {
           "text": "Conclusão de curso · 10 h · Conclusão: 09/01/2026",
           "x": 0,
-          "y": -2380,
+          "y": -2430,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -2984,7 +2972,7 @@
         {
           "text": "Gestão Financeira",
           "x": 0,
-          "y": -2390,
+          "y": -2440,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -2996,7 +2984,7 @@
         {
           "text": "Sebrae",
           "x": 0,
-          "y": -2400,
+          "y": -2450,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3008,7 +2996,7 @@
         {
           "text": "Conclusão de curso · 10 h · Conclusão: 29/12/2025",
           "x": 0,
-          "y": -2410,
+          "y": -2460,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3020,7 +3008,7 @@
         {
           "text": "Introdução à Matemática Financeira: Regimes de Capitalização",
           "x": 0,
-          "y": -2420,
+          "y": -2470,
           "width": 60,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3032,7 +3020,7 @@
         {
           "text": "Fundação Getulio Vargas — FGV Online",
           "x": 0,
-          "y": -2430,
+          "y": -2480,
           "width": 36,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3044,7 +3032,7 @@
         {
           "text": "Participação · 8 h · Emissão: 20/12/2025",
           "x": 0,
-          "y": -2440,
+          "y": -2490,
           "width": 40,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3056,7 +3044,7 @@
         {
           "text": "Excel Básico",
           "x": 0,
-          "y": -2450,
+          "y": -2500,
           "width": 12,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3068,7 +3056,7 @@
         {
           "text": "SENAI São Paulo — Escola Hermenegildo Campos de Almeida",
           "x": 0,
-          "y": -2460,
+          "y": -2510,
           "width": 55,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3080,7 +3068,7 @@
         {
           "text": "Conclusão de curso · 40 h · Conclusão: 02/09/2025 · Emissão: 04/09/2025",
           "x": 0,
-          "y": -2470,
+          "y": -2520,
           "width": 71,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3092,7 +3080,7 @@
         {
           "text": "Introdução à Gestão de Projetos",
           "x": 0,
-          "y": -2480,
+          "y": -2530,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3104,7 +3092,7 @@
         {
           "text": "Fundação Bradesco — Escola Virtual",
           "x": 0,
-          "y": -2490,
+          "y": -2540,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3116,7 +3104,7 @@
         {
           "text": "Conclusão de curso · 10 h · Conclusão: 18/03/2025 · Emissão: 18/03/2025",
           "x": 0,
-          "y": -2500,
+          "y": -2550,
           "width": 71,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3128,7 +3116,7 @@
         {
           "text": "Inovação em Gestão de Projetos",
           "x": 0,
-          "y": -2510,
+          "y": -2560,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3140,7 +3128,7 @@
         {
           "text": "Sebrae",
           "x": 0,
-          "y": -2520,
+          "y": -2570,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3152,7 +3140,7 @@
         {
           "text": "Conclusão de curso · 10 h · Conclusão: 19/01/2025",
           "x": 0,
-          "y": -2530,
+          "y": -2580,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3164,7 +3152,7 @@
         {
           "text": "Indicadores Estratégicos - Descomplica",
           "x": 0,
-          "y": -2540,
+          "y": -2590,
           "width": 38,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3176,7 +3164,7 @@
         {
           "text": "Sebrae",
           "x": 0,
-          "y": -2550,
+          "y": -2600,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3188,7 +3176,7 @@
         {
           "text": "Conclusão de curso · 12 h · Conclusão: 27/11/2024",
           "x": 0,
-          "y": -2560,
+          "y": -2610,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3200,7 +3188,7 @@
         {
           "text": "19ª Edição da Escola de Inovadores (2024-2)",
           "x": 0,
-          "y": -2570,
+          "y": -2620,
           "width": 43,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3212,7 +3200,7 @@
         {
           "text": "INOVA CPS — Centro Paula Souza",
           "x": 0,
-          "y": -2580,
+          "y": -2630,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3224,7 +3212,7 @@
         {
           "text": "Participação · 40 h · Emissão: 11/11/2024",
           "x": 0,
-          "y": -2590,
+          "y": -2640,
           "width": 41,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3236,7 +3224,7 @@
         {
           "text": "Programação e dados",
           "x": 0,
-          "y": -2600,
+          "y": -2650,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3248,7 +3236,7 @@
         {
           "text": "JavaScript Essentials 1",
           "x": 0,
-          "y": -2610,
+          "y": -2660,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3260,7 +3248,7 @@
         {
           "text": "Cisco Networking Academy, em colaboração com OpenEDG JavaScript Institute",
           "x": 0,
-          "y": -2620,
+          "y": -2670,
           "width": 73,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3272,7 +3260,7 @@
         {
           "text": "Conclusão de curso · Emissão: 16/05/2026",
           "x": 0,
-          "y": -2630,
+          "y": -2680,
           "width": 40,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3284,7 +3272,7 @@
         {
           "text": "Modelagem de Dados",
           "x": 0,
-          "y": -2640,
+          "y": -2690,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3296,7 +3284,7 @@
         {
           "text": "Fundação Bradesco — Escola Virtual",
           "x": 0,
-          "y": -2650,
+          "y": -2700,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3308,7 +3296,7 @@
         {
           "text": "Conclusão de curso · 8 h · Conclusão: 25/11/2025 · Emissão: 25/11/2025",
           "x": 0,
-          "y": -2660,
+          "y": -2710,
           "width": 70,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3320,7 +3308,7 @@
         {
           "text": "Python Essentials 1",
           "x": 0,
-          "y": -2670,
+          "y": -2720,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3332,7 +3320,7 @@
         {
           "text": "Cisco Networking Academy, em colaboração com OpenEDG Python Institute",
           "x": 0,
-          "y": -2680,
+          "y": -2730,
           "width": 69,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3344,7 +3332,7 @@
         {
           "text": "Conclusão de curso · Emissão: 22/03/2025",
           "x": 0,
-          "y": -2690,
+          "y": -2740,
           "width": 40,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3356,7 +3344,7 @@
         {
           "text": "AI Fundamentals with IBM SkillsBuild",
           "x": 0,
-          "y": -2700,
+          "y": -2750,
           "width": 36,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3368,7 +3356,7 @@
         {
           "text": "Cisco Networking Academy, em colaboração com IBM SkillsBuild",
           "x": 0,
-          "y": -2710,
+          "y": -2760,
           "width": 60,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3380,7 +3368,7 @@
         {
           "text": "Conclusão de curso · Emissão: 05/11/2024",
           "x": 0,
-          "y": -2720,
+          "y": -2770,
           "width": 40,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3392,7 +3380,7 @@
         {
           "text": "Redes",
           "x": 0,
-          "y": -2730,
+          "y": -2780,
           "width": 5,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3404,7 +3392,7 @@
         {
           "text": "Redes de Computadores - Implantação de Redes Locais",
           "x": 0,
-          "y": -2740,
+          "y": -2790,
           "width": 51,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3416,7 +3404,7 @@
         {
           "text": "SENAI São Paulo — Escola Hermenegildo Campos de Almeida",
           "x": 0,
-          "y": -2750,
+          "y": -2800,
           "width": 55,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3428,7 +3416,7 @@
         {
           "text": "Conclusão de curso · 48 h · Conclusão: 13/05/2026 · Emissão: 15/05/2026",
           "x": 0,
-          "y": -2760,
+          "y": -2810,
           "width": 71,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3440,7 +3428,7 @@
         {
           "text": "Suporte de TI",
           "x": 0,
-          "y": -2770,
+          "y": -2820,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3452,7 +3440,7 @@
         {
           "text": "Computer Hardware Basics",
           "x": 0,
-          "y": -2780,
+          "y": -2830,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3464,7 +3452,7 @@
         {
           "text": "Cisco Networking Academy",
           "x": 0,
-          "y": -2790,
+          "y": -2840,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3476,7 +3464,7 @@
         {
           "text": "Conclusão de curso · Emissão: 18/02/2025",
           "x": 0,
-          "y": -2800,
+          "y": -2850,
           "width": 40,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3488,7 +3476,7 @@
         {
           "text": "Competências sociais (Soft skills)",
           "x": 0,
-          "y": -2810,
+          "y": -2860,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3500,7 +3488,7 @@
         {
           "text": "Organização e desenvolvimento",
           "x": 0,
-          "y": -2820,
+          "y": -2870,
           "width": 29,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3512,7 +3500,7 @@
         {
           "text": "Planeje Suas Metas e Resultados",
           "x": 0,
-          "y": -2830,
+          "y": -2880,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3524,7 +3512,7 @@
         {
           "text": "Sebrae",
           "x": 0,
-          "y": -2840,
+          "y": -2890,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3536,7 +3524,7 @@
         {
           "text": "Conclusão de curso · 2 h · Conclusão: 25/11/2024",
           "x": 0,
-          "y": -2850,
+          "y": -2900,
           "width": 48,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3548,7 +3536,7 @@
         {
           "text": "Inglês — TOEIC Listening & Reading",
           "x": 0,
-          "y": -2860,
+          "y": -2910,
           "width": 34,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3560,7 +3548,7 @@
         {
           "text": "ETS — Educational Testing Service. Aplicação sob os auspícios do Centro Paula Souza",
           "x": 0,
-          "y": -2870,
+          "y": -2920,
           "width": 83,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3572,7 +3560,7 @@
         {
           "text": "Total: 910 pontos · Listening: 450 · Reading: 460",
           "x": 0,
-          "y": -2880,
+          "y": -2930,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3584,7 +3572,7 @@
         {
           "text": "Teste: 26/02/2025 · Validade do resultado: 26/02/2027",
           "x": 0,
-          "y": -2890,
+          "y": -2940,
           "width": 53,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3596,7 +3584,7 @@
         {
           "text": "Projetos",
           "x": 0,
-          "y": -2900,
+          "y": -2950,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3608,7 +3596,7 @@
         {
           "text": "Projeto pessoal",
           "x": 0,
-          "y": -2910,
+          "y": -2960,
           "width": 15,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3620,7 +3608,7 @@
         {
           "text": "Este portfólio",
           "x": 0,
-          "y": -2920,
+          "y": -2970,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3632,7 +3620,7 @@
         {
           "text": "Site desenvolvido em HTML e CSS, com otimizações de desempenho e acessibilidade. Está disponível em cinco idiomas, com temas claro e escuro e estilos de impressão.",
           "x": 0,
-          "y": -2930,
+          "y": -2980,
           "width": 163,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3644,7 +3632,7 @@
         {
           "text": "O projeto utiliza a infraestrutura do GitHub. O GitHub Actions publica o site no GitHub Pages.",
           "x": 0,
-          "y": -2940,
+          "y": -2990,
           "width": 94,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3656,7 +3644,7 @@
         {
           "text": "Tecnologias",
           "x": 0,
-          "y": -2950,
+          "y": -3000,
           "width": 11,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3668,7 +3656,7 @@
         {
           "text": "• HTML",
           "x": 0,
-          "y": -2960,
+          "y": -3010,
           "width": 6,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3680,7 +3668,7 @@
         {
           "text": "• CSS",
           "x": 0,
-          "y": -2970,
+          "y": -3020,
           "width": 5,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3692,7 +3680,7 @@
         {
           "text": "• Git",
           "x": 0,
-          "y": -2980,
+          "y": -3030,
           "width": 5,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3704,7 +3692,7 @@
         {
           "text": "• GitHub",
           "x": 0,
-          "y": -2990,
+          "y": -3040,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3716,7 +3704,7 @@
         {
           "text": "• GitHub Actions",
           "x": 0,
-          "y": -3000,
+          "y": -3050,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3728,7 +3716,7 @@
         {
           "text": "• GitHub Pages",
           "x": 0,
-          "y": -3010,
+          "y": -3060,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3740,7 +3728,7 @@
         {
           "text": "Desenvolvimento e qualidade",
           "x": 0,
-          "y": -3020,
+          "y": -3070,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3752,7 +3740,7 @@
         {
           "text": "• Desenvolvimento com agentes de IA",
           "x": 0,
-          "y": -3030,
+          "y": -3080,
           "width": 35,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3764,7 +3752,7 @@
         {
           "text": "• Documentação técnica",
           "x": 0,
-          "y": -3040,
+          "y": -3090,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3776,7 +3764,7 @@
         {
           "text": "• Technical documentation",
           "x": 0,
-          "y": -3050,
+          "y": -3100,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3788,7 +3776,7 @@
         {
           "text": "• Acessibilidade web",
           "x": 0,
-          "y": -3060,
+          "y": -3110,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3800,7 +3788,7 @@
         {
           "text": "• Design responsivo",
           "x": 0,
-          "y": -3070,
+          "y": -3120,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3812,7 +3800,7 @@
         {
           "text": "• Otimização de desempenho",
           "x": 0,
-          "y": -3080,
+          "y": -3130,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3824,7 +3812,7 @@
         {
           "text": "• Otimização de imagens",
           "x": 0,
-          "y": -3090,
+          "y": -3140,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3836,7 +3824,7 @@
         {
           "text": "• Sites multilíngues",
           "x": 0,
-          "y": -3100,
+          "y": -3150,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3848,7 +3836,7 @@
         {
           "text": "• Testes de interface",
           "x": 0,
-          "y": -3110,
+          "y": -3160,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3860,7 +3848,7 @@
         {
           "text": "• Validação HTML",
           "x": 0,
-          "y": -3120,
+          "y": -3170,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3872,7 +3860,7 @@
         {
           "text": "Gestão e colaboração",
           "x": 0,
-          "y": -3130,
+          "y": -3180,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3884,7 +3872,7 @@
         {
           "text": "• Gestão de escopo",
           "x": 0,
-          "y": -3140,
+          "y": -3190,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3896,7 +3884,7 @@
         {
           "text": "Repositório do projeto: https://github.com/nicolas-b-t/portfolio",
           "x": 0,
-          "y": -3150,
+          "y": -3200,
           "width": 64,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3908,7 +3896,7 @@
         {
           "text": "Projeto em parceria · Mercado digital em Portugal",
           "x": 0,
-          "y": -3160,
+          "y": -3210,
           "width": 49,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3920,7 +3908,7 @@
         {
           "text": "Optigrow",
           "x": 0,
-          "y": -3170,
+          "y": -3220,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3932,7 +3920,7 @@
         {
           "text": "Estudamos o mercado digital em Portugal. O site apresenta serviços de marketing e tecnologia para óticas da região do Porto. Ele reúne informações sobre serviços e um formulário de contato.",
           "x": 0,
-          "y": -3180,
+          "y": -3230,
           "width": 189,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3944,7 +3932,7 @@
         {
           "text": "Desenvolvemos o projeto de forma totalmente colaborativa.",
           "x": 0,
-          "y": -3190,
+          "y": -3240,
           "width": 57,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3956,7 +3944,7 @@
         {
           "text": "Tecnologias",
           "x": 0,
-          "y": -3200,
+          "y": -3250,
           "width": 11,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -3968,7 +3956,7 @@
         {
           "text": "• Google AI Studio",
           "x": 0,
-          "y": -3210,
+          "y": -3260,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3980,7 +3968,7 @@
         {
           "text": "• Supabase",
           "x": 0,
-          "y": -3220,
+          "y": -3270,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -3992,7 +3980,7 @@
         {
           "text": "• Vercel",
           "x": 0,
-          "y": -3230,
+          "y": -3280,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4004,7 +3992,7 @@
         {
           "text": "• GitHub",
           "x": 0,
-          "y": -3240,
+          "y": -3290,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4016,7 +4004,7 @@
         {
           "text": "Desenvolvimento e qualidade",
           "x": 0,
-          "y": -3250,
+          "y": -3300,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4028,7 +4016,7 @@
         {
           "text": "• Documentação técnica",
           "x": 0,
-          "y": -3260,
+          "y": -3310,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4040,7 +4028,7 @@
         {
           "text": "• Technical documentation",
           "x": 0,
-          "y": -3270,
+          "y": -3320,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4052,7 +4040,7 @@
         {
           "text": "• Formulários web",
           "x": 0,
-          "y": -3280,
+          "y": -3330,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4064,7 +4052,7 @@
         {
           "text": "• Preparação de infraestrutura",
           "x": 0,
-          "y": -3290,
+          "y": -3340,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4076,7 +4064,7 @@
         {
           "text": "Gestão e pesquisa",
           "x": 0,
-          "y": -3300,
+          "y": -3350,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4088,7 +4076,7 @@
         {
           "text": "• Desenvolvimento colaborativo",
           "x": 0,
-          "y": -3310,
+          "y": -3360,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4100,7 +4088,7 @@
         {
           "text": "• Pesquisa de mercado",
           "x": 0,
-          "y": -3320,
+          "y": -3370,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4112,7 +4100,7 @@
         {
           "text": "Site do projeto: https://optigrow.vercel.app/",
           "x": 0,
-          "y": -3330,
+          "y": -3380,
           "width": 45,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4124,7 +4112,7 @@
         {
           "text": "Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)",
           "x": 0,
-          "y": -3340,
+          "y": -3390,
           "width": 72,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4136,7 +4124,7 @@
         {
           "text": "Projeto acadêmico · Produto mínimo viável (MVP) em desenvolvimento",
           "x": 0,
-          "y": -3350,
+          "y": -3400,
           "width": 66,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4148,7 +4136,7 @@
         {
           "text": "SGCS — Sistema de Gestão de Chamados para Síndicos",
           "x": 0,
-          "y": -3360,
+          "y": -3410,
           "width": 50,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4160,7 +4148,7 @@
         {
           "text": "Nossa equipe desenvolve uma pesquisa acadêmica e uma aplicação simples e acessível para síndicos profissionais na Fatec Franco da Rocha.",
           "x": 0,
-          "y": -3370,
+          "y": -3420,
           "width": 136,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4172,7 +4160,7 @@
         {
           "text": "O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda em discussão no Congresso Nacional.",
           "x": 0,
-          "y": -3380,
+          "y": -3430,
           "width": 146,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4184,7 +4172,7 @@
         {
           "text": "Gerencio o projeto, coordeno a equipe e acompanho prazos e entregáveis. Também administro e integro as ferramentas de trabalho.",
           "x": 0,
-          "y": -3390,
+          "y": -3440,
           "width": 127,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4196,7 +4184,7 @@
         {
           "text": "Tecnologias de desenvolvimento",
           "x": 0,
-          "y": -3400,
+          "y": -3450,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4208,7 +4196,7 @@
         {
           "text": "• Google AI Studio",
           "x": 0,
-          "y": -3410,
+          "y": -3460,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4220,7 +4208,7 @@
         {
           "text": "• Firebase",
           "x": 0,
-          "y": -3420,
+          "y": -3470,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4232,7 +4220,7 @@
         {
           "text": "• Vercel",
           "x": 0,
-          "y": -3430,
+          "y": -3480,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4244,7 +4232,7 @@
         {
           "text": "• GitHub",
           "x": 0,
-          "y": -3440,
+          "y": -3490,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4256,7 +4244,7 @@
         {
           "text": "Desenvolvimento de software",
           "x": 0,
-          "y": -3450,
+          "y": -3500,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4268,7 +4256,7 @@
         {
           "text": "• Engenharia de software",
           "x": 0,
-          "y": -3460,
+          "y": -3510,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4280,7 +4268,7 @@
         {
           "text": "• Engenharia de requisitos",
           "x": 0,
-          "y": -3470,
+          "y": -3520,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4292,7 +4280,7 @@
         {
           "text": "• Levantamento de requisitos",
           "x": 0,
-          "y": -3480,
+          "y": -3530,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4304,7 +4292,7 @@
         {
           "text": "• Requisitos funcionais",
           "x": 0,
-          "y": -3490,
+          "y": -3540,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4316,7 +4304,7 @@
         {
           "text": "• Requisitos não funcionais",
           "x": 0,
-          "y": -3500,
+          "y": -3550,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4328,7 +4316,7 @@
         {
           "text": "• Modelagem de processos",
           "x": 0,
-          "y": -3510,
+          "y": -3560,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4340,7 +4328,7 @@
         {
           "text": "• Documentação técnica",
           "x": 0,
-          "y": -3520,
+          "y": -3570,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4352,7 +4340,7 @@
         {
           "text": "• Technical documentation",
           "x": 0,
-          "y": -3530,
+          "y": -3580,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4364,7 +4352,7 @@
         {
           "text": "• Prototipação",
           "x": 0,
-          "y": -3540,
+          "y": -3590,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4376,7 +4364,7 @@
         {
           "text": "• Avaliação de ferramentas",
           "x": 0,
-          "y": -3550,
+          "y": -3600,
           "width": 26,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4388,7 +4376,7 @@
         {
           "text": "Pesquisa acadêmica",
           "x": 0,
-          "y": -3560,
+          "y": -3610,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4400,7 +4388,7 @@
         {
           "text": "• Pesquisa aplicada",
           "x": 0,
-          "y": -3570,
+          "y": -3620,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4412,7 +4400,7 @@
         {
           "text": "• Pesquisa bibliográfica",
           "x": 0,
-          "y": -3580,
+          "y": -3630,
           "width": 24,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4424,7 +4412,7 @@
         {
           "text": "• Estudo de caso",
           "x": 0,
-          "y": -3590,
+          "y": -3640,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4436,7 +4424,7 @@
         {
           "text": "• Estudo de campo",
           "x": 0,
-          "y": -3600,
+          "y": -3650,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4448,7 +4436,7 @@
         {
           "text": "• Entrevistas",
           "x": 0,
-          "y": -3610,
+          "y": -3660,
           "width": 13,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4460,7 +4448,7 @@
         {
           "text": "• Questionários",
           "x": 0,
-          "y": -3620,
+          "y": -3670,
           "width": 15,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4472,7 +4460,7 @@
         {
           "text": "• Análise de dados qualitativos",
           "x": 0,
-          "y": -3630,
+          "y": -3680,
           "width": 31,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4484,7 +4472,7 @@
         {
           "text": "• Análise de conteúdo",
           "x": 0,
-          "y": -3640,
+          "y": -3690,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4496,7 +4484,7 @@
         {
           "text": "• Diagrama de Ishikawa",
           "x": 0,
-          "y": -3650,
+          "y": -3700,
           "width": 22,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4508,7 +4496,7 @@
         {
           "text": "Pesquisa de mercado",
           "x": 0,
-          "y": -3660,
+          "y": -3710,
           "width": 19,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4520,7 +4508,7 @@
         {
           "text": "• Pesquisa de mercado",
           "x": 0,
-          "y": -3670,
+          "y": -3720,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4532,7 +4520,7 @@
         {
           "text": "• Definição de personas",
           "x": 0,
-          "y": -3680,
+          "y": -3730,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4544,7 +4532,7 @@
         {
           "text": "• Mapa de empatia",
           "x": 0,
-          "y": -3690,
+          "y": -3740,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4556,7 +4544,7 @@
         {
           "text": "• Análise de necessidades",
           "x": 0,
-          "y": -3700,
+          "y": -3750,
           "width": 25,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4568,7 +4556,7 @@
         {
           "text": "Gestão e colaboração",
           "x": 0,
-          "y": -3710,
+          "y": -3760,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4580,7 +4568,7 @@
         {
           "text": "• Gestão de projetos",
           "x": 0,
-          "y": -3720,
+          "y": -3770,
           "width": 20,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4592,7 +4580,7 @@
         {
           "text": "• Planejamento de atividades",
           "x": 0,
-          "y": -3730,
+          "y": -3780,
           "width": 28,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4604,7 +4592,7 @@
         {
           "text": "• Gestão de escopo",
           "x": 0,
-          "y": -3740,
+          "y": -3790,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4616,7 +4604,7 @@
         {
           "text": "• Liderança de equipe",
           "x": 0,
-          "y": -3750,
+          "y": -3800,
           "width": 21,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4628,7 +4616,7 @@
         {
           "text": "• Gestão de entregáveis",
           "x": 0,
-          "y": -3760,
+          "y": -3810,
           "width": 23,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4640,7 +4628,7 @@
         {
           "text": "• Integração de ferramentas",
           "x": 0,
-          "y": -3770,
+          "y": -3820,
           "width": 27,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4652,7 +4640,7 @@
         {
           "text": "• Desenvolvimento colaborativo",
           "x": 0,
-          "y": -3780,
+          "y": -3830,
           "width": 30,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4664,7 +4652,7 @@
         {
           "text": "Ferramentas de gestão e pesquisa",
           "x": 0,
-          "y": -3790,
+          "y": -3840,
           "width": 32,
           "height": 10,
           "fontName": "DOM-Bold",
@@ -4676,7 +4664,7 @@
         {
           "text": "• Google Drive",
           "x": 0,
-          "y": -3800,
+          "y": -3850,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4688,7 +4676,7 @@
         {
           "text": "• Microsoft Word",
           "x": 0,
-          "y": -3810,
+          "y": -3860,
           "width": 16,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4700,7 +4688,7 @@
         {
           "text": "• Microsoft Teams",
           "x": 0,
-          "y": -3820,
+          "y": -3870,
           "width": 17,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4712,7 +4700,7 @@
         {
           "text": "• Trello",
           "x": 0,
-          "y": -3830,
+          "y": -3880,
           "width": 8,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4724,7 +4712,7 @@
         {
           "text": "• Google Acadêmico",
           "x": 0,
-          "y": -3840,
+          "y": -3890,
           "width": 18,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4736,7 +4724,7 @@
         {
           "text": "• ResearchGate",
           "x": 0,
-          "y": -3850,
+          "y": -3900,
           "width": 14,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4748,7 +4736,7 @@
         {
           "text": "• WhatsApp",
           "x": 0,
-          "y": -3860,
+          "y": -3910,
           "width": 10,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4760,7 +4748,7 @@
         {
           "text": "• Canva",
           "x": 0,
-          "y": -3870,
+          "y": -3920,
           "width": 7,
           "height": 10,
           "fontName": "DOM-Regular",
@@ -4772,20 +4760,8 @@
         {
           "text": "Site do projeto: https://sgcs-seven.vercel.app/",
           "x": 0,
-          "y": -3880,
+          "y": -3930,
           "width": 47,
-          "height": 10,
-          "fontName": "DOM-Regular",
-          "hasEOL": true,
-          "page": 1
-        }
-      ],
-      [
-        {
-          "text": "Repositório do projeto: https://github.com/SGCS-Gestao-de-Chamados-Para-Sindicos/SGCS-espelho (privado)",
-          "x": 0,
-          "y": -3890,
-          "width": 103,
           "height": 10,
           "fontName": "DOM-Regular",
           "hasEOL": true,
@@ -5175,7 +5151,7 @@
     "novo_rotulo": "C",
     "falso_positivo": true,
     "linhas_que_disparam_c": [
-      "Valorizo tecnologias e soluções simples e robustas. Advogo pela tecnologia de código aberto (Open-Source)."
+      "Valorizo tecnologias e soluções simples e robustas. Defendo o uso de tecnologias de código aberto."
     ],
     "causa": "A expressão regular usa limites ASCII. Ela reconhece a letra c de código como o alias c da linguagem C.",
     "limite": "O resultado não comprova conhecimento de C. Nenhuma regra do parser ou competência do currículo foi alterada."
@@ -5265,5 +5241,124 @@
     "palavras_depois_triagem": 59,
     "linhas_atuais": 390,
     "saidas_dos_tres_parsers_preservadas": true
+  },
+  "remocao_repositorio_sgcs": {
+    "data": "2026-10-14",
+    "escopo": "Página principal pt-BR, bloco oculto e lista geral.",
+    "alteracao": "Removido o endereço do repositório privado do SGCS. O link público do projeto permanece.",
+    "linhas_atuais": 389,
+    "saidas_dos_tres_parsers_preservadas": true
+  },
+  "arquivos_tags_outros_alfabetos": [
+    {
+      "arquivo": "Lista_de_tags/tags-russo-ru.txt",
+      "bytes": 9834,
+      "sha256": "6a914f8afe45153bdccf7391a6c19bdf94fb306f75d2f9332b647cbda4ef4b10",
+      "idioma": "ru",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-ucraniano-uk.txt",
+      "bytes": 9499,
+      "sha256": "9ff245b1a4eb494db566f2babc9171660d2cd3e965a2c0886f648174a0efd77e",
+      "idioma": "uk",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-bulgaro-bg.txt",
+      "bytes": 9687,
+      "sha256": "9e0adca75a1d55394c96bb5f82c78049dfbbed6bd2b30cb446cd815874aea090",
+      "idioma": "bg",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-servio-sr-cyrl.txt",
+      "bytes": 9049,
+      "sha256": "dcd859ad75acc83b232f7141063846fb078b0b53112b88180b6204c581b3ec3e",
+      "idioma": "sr-Cyrl",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-grego-el.txt",
+      "bytes": 9490,
+      "sha256": "6b8d3f5cf0dafb01b3114ca30e50c4b3e7cc47a0fa55db318dc3a34579c93d98",
+      "idioma": "el",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-chines-simplificado-zh-hans.txt",
+      "bytes": 5162,
+      "sha256": "3a25d07184ef6de9c096949d70f0e01a7189a3e55ebf63e57d118cfc25915f7f",
+      "idioma": "zh-Hans",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-chines-tradicional-zh-hant.txt",
+      "bytes": 5195,
+      "sha256": "65539a8756b3817f6312675c50da9e9b51ff44687bd505482f34fa2ef2da81cc",
+      "idioma": "zh-Hant",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-japones-ja.txt",
+      "bytes": 6324,
+      "sha256": "823f5c15926a56aa23d31c8c0a5c8a45b7ed968f1a3330be964d2310182831c7",
+      "idioma": "ja",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-coreano-ko.txt",
+      "bytes": 5758,
+      "sha256": "2f73f5a0c0933b8c0528e353d31eeca29f556b6f049bd2359c9b61c712e47166",
+      "idioma": "ko",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-hindi-hi.txt",
+      "bytes": 10978,
+      "sha256": "0fd0a55a808cc68a0b8c5cbe9737fb5e71ec69566e9885a2ab0d8ecdf146288c",
+      "idioma": "hi",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-tailandes-th.txt",
+      "bytes": 12511,
+      "sha256": "a4d738f34338a7412e4a8d9daff3c0d00b824ecde0aa14095f9af612104196f8",
+      "idioma": "th",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-arabe-ar.txt",
+      "bytes": 8260,
+      "sha256": "168a7fa8a6494959c77b1e19dbf01f4e6fdb835afd9c78e9d6ff6345108fc09c",
+      "idioma": "ar",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-persa-fa.txt",
+      "bytes": 8074,
+      "sha256": "2c98b6c18df8f8077cf61b69fc0475ac9067fd92611f01a40f0cca434babe5ed",
+      "idioma": "fa",
+      "tags": 227
+    },
+    {
+      "arquivo": "Lista_de_tags/tags-hebraico-he.txt",
+      "bytes": 7288,
+      "sha256": "7d0555f47e5e5fc7d82f4bc7abc688453369b2b17dcaa0156452eb4527a37ecb",
+      "idioma": "he",
+      "tags": 227
+    }
+  ],
+  "normalizacao_e_traducoes": {
+    "arquivo_verificacao": "docs/verificacao-normalizacao-tags-pt-br-2026-10-14.json",
+    "glossario": "docs/tags-multilingues/glossario.json",
+    "manifesto": "docs/tags-multilingues/manifesto.json",
+    "linhas_atuais": 394,
+    "saidas_dos_parsers_preservadas": true
+  },
+  "alteracoes_posteriores": {
+    "descricao": "Após a execução dos parsers, o texto de condução foi substituído e o link para pular ao conteúdo foi movido. As tags permaneceram iguais. As entradas e saídas acima registram o ensaio anterior.",
+    "pagina_sha256_lf": "6cca72fbd805c75d5ed91b84fc6e696c89ea0287d03a86356242fc41628569d8",
+    "txt_sha256_lf": "04a8257f35b067fe80eb5767b95956f080d2114613605b7a59d6d5f90953ce8f"
   }
 }

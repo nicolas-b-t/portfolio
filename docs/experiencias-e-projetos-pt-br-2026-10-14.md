@@ -51,6 +51,8 @@ Na revisão seguinte, o responsável solicitou reduzir a descrição do SGCS e r
 O terceiro parágrafo foi removido. Os demais foram encurtados, de 114 para 59 palavras na contagem por espaços.
 Os três parágrafos atuais destacam o contexto acadêmico, a motivação e a gestão do projeto.
 As tags e os links foram preservados.
+Por solicitação posterior, o endereço do repositório privado do SGCS foi retirado da página pt-BR, do bloco oculto e da lista geral.
+O link público do projeto permanece.
 
 ## Evidências do SGCS
 
@@ -87,6 +89,7 @@ O bloco oculto possui 222 ocorrências e 187 rótulos distintos, incluindo alias
 As descrições, as tags e as instruções foram sincronizadas na cópia TXT.
 As 391 linhas lógicas do HTML correspondem à entrada registrada na verificação.
 Após resumir a descrição do SGCS, a entrada passou a ter 390 linhas.
+Após retirar o endereço do repositório privado do SGCS, a entrada passou a ter 389 linhas.
 As cinco instruções continuam antes do nome na cópia TXT.
 
 Os três parsers locais foram executados novamente.

@@ -1,0 +1,5973 @@
+{
+  "data": "2026-10-14",
+  "base_git": "a0863e53a858cfaf34a855cb39efcb7c9e8f0adc",
+  "escopo": "Todas as listas skill-list da página pt-BR. Cursos, navegação e parágrafos de experiências não são contados como tags.",
+  "metodo": "Inspeção editorial, comparação integral de sequências e multiplicidades por grupo, correspondência com linhas do TXT, conferência das traduções por identificador e execução dos três parsers locais.",
+  "normalizacoes": [
+    {
+      "anterior": "Amazon Web Services AWS software",
+      "atual": "Amazon Web Services (AWS)",
+      "alias_en_preservado": true
+    },
+    {
+      "anterior": "Microsoft Azure software",
+      "atual": "Microsoft Azure",
+      "alias_en_preservado": true
+    },
+    {
+      "anterior": "Nginx web server",
+      "atual": "NGINX",
+      "alias_en_preservado": true
+    },
+    {
+      "anterior": "Cable management",
+      "atual": "Organização de cabos",
+      "alias_en_preservado": true
+    },
+    {
+      "anterior": "Switches",
+      "atual": "Comutadores de rede",
+      "alias_en_preservado": true
+    },
+    {
+      "anterior": "Preparo de postes para passagem de fibra",
+      "atual": "Preparação de postes para passagem de fibra",
+      "alias_en_preservado": false
+    },
+    {
+      "anterior": "Manutenção de CTO (caixa de distribuição óptica)",
+      "atual": "Manutenção de caixas de terminação óptica (CTO)",
+      "alias_en_preservado": false
+    },
+    {
+      "anterior": "Desenvolvimento tradicional (cascata)",
+      "atual": "Desenvolvimento em cascata",
+      "alias_en_preservado": false
+    },
+    {
+      "anterior": "Banco de dados",
+      "atual": "Bancos de dados",
+      "alias_en_preservado": false
+    },
+    {
+      "anterior": "Suporte Help Desk",
+      "atual": "Suporte de help desk",
+      "alias_en_preservado": false
+    }
+  ],
+  "arquivos": {
+    "pagina": {
+      "arquivo": "static/pt-BR/index.html",
+      "sha256_lf": "94c82fc08b067d77f07940be5552a4f52b956c3241fb024b0f7fb41578174c88"
+    },
+    "lista_geral": {
+      "arquivo": "Lista_de_tags/lista-geral-alfabeto-latino.txt",
+      "sha256_lf": "6aac3f4816405be44630e520baea2c076e941a5978be94f49bc435f84fe4c8c8"
+    },
+    "traducoes": "docs/tags-multilingues/manifesto.json"
+  },
+  "contagens": {
+    "visivel": {
+      "ocorrencias": 212,
+      "rotulos_distintos": 180
+    },
+    "oculto": {
+      "ocorrencias": 227,
+      "rotulos_distintos": 192
+    },
+    "lista_geral": {
+      "ocorrencias": 227,
+      "rotulos_distintos": 192
+    },
+    "grupos": 32,
+    "idiomas_traduzidos": 14,
+    "total_ocorrencias_traduzidas": 3178
+  },
+  "verificacoes": {
+    "tags_visiveis_normalizadas_sem_perda": true,
+    "tags_visiveis_presentes_no_oculto": true,
+    "tags_txt_iguais_ao_oculto_por_grupo": true,
+    "aliases_ocultos_justificados": true,
+    "texto_utf8_nfc_sem_tags_vazias": true,
+    "txt_inteiro_corresponde_ao_bloco": true,
+    "cursos_preservados": true,
+    "dezessete_cursos_em_cada_copia": true,
+    "qualificacoes_preservadas": true,
+    "sem_scripts": true,
+    "idioma_utf8": true,
+    "links_e_ancoras_locais": true,
+    "saidas_dos_tres_parsers_preservadas": true,
+    "quatorze_traducoes_completas": true,
+    "glossario_com_todos_os_rotulos": true,
+    "qualificacoes_nas_14_traducoes_preservadas": true,
+    "escritas_unicode_e_direcoes_conferidas": true
+  },
+  "comparacao_grupos": [
+    {
+      "id": "G01",
+      "contexto": "Competências e habilidades",
+      "grupo": "Gestão e produtividade",
+      "visiveis": 18,
+      "ocultas": 18,
+      "lista_txt": 18,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G02",
+      "contexto": "Competências e habilidades",
+      "grupo": "Sistemas operacionais",
+      "visiveis": 9,
+      "ocultas": 9,
+      "lista_txt": 9,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G03",
+      "contexto": "Competências e habilidades",
+      "grupo": "Programação e dados",
+      "visiveis": 6,
+      "ocultas": 7,
+      "lista_txt": 7,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Machine learning"
+      ]
+    },
+    {
+      "id": "G04",
+      "contexto": "Competências e habilidades",
+      "grupo": "Desenvolvimento com IA",
+      "visiveis": 6,
+      "ocultas": 6,
+      "lista_txt": 6,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G05",
+      "contexto": "Competências e habilidades",
+      "grupo": "Desenvolvimento de software",
+      "visiveis": 5,
+      "ocultas": 5,
+      "lista_txt": 5,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G06",
+      "contexto": "Competências e habilidades",
+      "grupo": "Bancos de dados",
+      "visiveis": 3,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "SQL"
+      ]
+    },
+    {
+      "id": "G07",
+      "contexto": "Competências e habilidades",
+      "grupo": "Redes",
+      "visiveis": 23,
+      "ocultas": 25,
+      "lista_txt": 25,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Cable management",
+        "Switches"
+      ]
+    },
+    {
+      "id": "G08",
+      "contexto": "Competências e habilidades",
+      "grupo": "Sistemas para redes",
+      "visiveis": 3,
+      "ocultas": 3,
+      "lista_txt": 3,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G09",
+      "contexto": "Competências e habilidades",
+      "grupo": "Suporte de TI",
+      "visiveis": 17,
+      "ocultas": 20,
+      "lista_txt": 20,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Technical documentation",
+        "Provide user documentation",
+        "IT support, N1"
+      ]
+    },
+    {
+      "id": "G10",
+      "contexto": "Competências e habilidades",
+      "grupo": "Web",
+      "visiveis": 8,
+      "ocultas": 8,
+      "lista_txt": 8,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G11",
+      "contexto": "Competências e habilidades",
+      "grupo": "Servidores web",
+      "visiveis": 2,
+      "ocultas": 3,
+      "lista_txt": 3,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Nginx web server"
+      ]
+    },
+    {
+      "id": "G12",
+      "contexto": "Competências e habilidades",
+      "grupo": "Plataformas de desenvolvimento e hospedagem",
+      "visiveis": 5,
+      "ocultas": 7,
+      "lista_txt": 7,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Amazon Web Services AWS software",
+        "Microsoft Azure software"
+      ]
+    },
+    {
+      "id": "G13",
+      "contexto": "Competências e habilidades",
+      "grupo": "Idiomas",
+      "visiveis": 2,
+      "ocultas": 2,
+      "lista_txt": 2,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G14",
+      "contexto": "Competências e habilidades",
+      "grupo": "Organização e desenvolvimento",
+      "visiveis": 3,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Analytical thinking"
+      ]
+    },
+    {
+      "id": "G15",
+      "contexto": "Competências e habilidades",
+      "grupo": "Relacionamento",
+      "visiveis": 3,
+      "ocultas": 3,
+      "lista_txt": 3,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G16",
+      "contexto": "Competências e habilidades",
+      "grupo": "Campo e ferramentas",
+      "visiveis": 8,
+      "ocultas": 8,
+      "lista_txt": 8,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G17",
+      "contexto": "Competências e habilidades",
+      "grupo": "Condução",
+      "visiveis": 4,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G18",
+      "contexto": "Formação acadêmica",
+      "grupo": "Gestão e negócios",
+      "visiveis": 6,
+      "ocultas": 6,
+      "lista_txt": 6,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G19",
+      "contexto": "Formação acadêmica",
+      "grupo": "Pesquisa e competências sociais",
+      "visiveis": 8,
+      "ocultas": 8,
+      "lista_txt": 8,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G20",
+      "contexto": "Formação acadêmica",
+      "grupo": "Tecnologia e sistemas",
+      "visiveis": 7,
+      "ocultas": 8,
+      "lista_txt": 8,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Business intelligence"
+      ]
+    },
+    {
+      "id": "G21",
+      "contexto": "Este portfólio",
+      "grupo": "Tecnologias",
+      "visiveis": 6,
+      "ocultas": 6,
+      "lista_txt": 6,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G22",
+      "contexto": "Este portfólio",
+      "grupo": "Desenvolvimento e qualidade",
+      "visiveis": 9,
+      "ocultas": 10,
+      "lista_txt": 10,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Technical documentation"
+      ]
+    },
+    {
+      "id": "G23",
+      "contexto": "Este portfólio",
+      "grupo": "Gestão e colaboração",
+      "visiveis": 1,
+      "ocultas": 1,
+      "lista_txt": 1,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G24",
+      "contexto": "Optigrow",
+      "grupo": "Tecnologias",
+      "visiveis": 4,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G25",
+      "contexto": "Optigrow",
+      "grupo": "Desenvolvimento e qualidade",
+      "visiveis": 3,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Technical documentation"
+      ]
+    },
+    {
+      "id": "G26",
+      "contexto": "Optigrow",
+      "grupo": "Gestão e pesquisa",
+      "visiveis": 2,
+      "ocultas": 2,
+      "lista_txt": 2,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Tecnologias de desenvolvimento",
+      "visiveis": 4,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Desenvolvimento de software",
+      "visiveis": 9,
+      "ocultas": 10,
+      "lista_txt": 10,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": [
+        "Technical documentation"
+      ]
+    },
+    {
+      "id": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Pesquisa acadêmica",
+      "visiveis": 9,
+      "ocultas": 9,
+      "lista_txt": 9,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Pesquisa de mercado",
+      "visiveis": 4,
+      "ocultas": 4,
+      "lista_txt": 4,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Gestão e colaboração",
+      "visiveis": 7,
+      "ocultas": 7,
+      "lista_txt": 7,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    },
+    {
+      "id": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Ferramentas de gestão e pesquisa",
+      "visiveis": 8,
+      "ocultas": 8,
+      "lista_txt": 8,
+      "visiveis_presentes_no_oculto": true,
+      "lista_igual_ao_oculto": true,
+      "aliases_suplementares": []
+    }
+  ],
+  "tags_visiveis": [
+    {
+      "id": "T001",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Canva",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T002",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Capitalização",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T003",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Fluxo de caixa",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T004",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Gestão de projetos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T005",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Gestão financeira",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T006",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Google Drive",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T007",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Indicadores estratégicos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T008",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "LibreOffice",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T009",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Melhoria de processos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T010",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Metodologias ágeis",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T011",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Microsoft Excel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T012",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Microsoft Office",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T013",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Microsoft Teams",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T014",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Office 365",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T015",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "OneDrive",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T016",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Planejamento de metas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T017",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Scrum",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T018",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Trello",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T019",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Microsoft Windows",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T020",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows 10",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T021",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows 11",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T022",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Microsoft Windows Server",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T023",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows Server 2008 R2",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T024",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows Server 2016",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T025",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Linux",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T026",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Debian",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T027",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Ubuntu",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T028",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Aprendizado de máquina",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T030",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Inteligência artificial (IA)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T031",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "JavaScript",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T032",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Lógica de programação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T033",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Modelagem de dados",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T034",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Python",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T035",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "OpenAI ChatGPT",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T036",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Codex (OpenAI)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T037",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Claude",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T038",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Claude Code",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T039",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Desenvolvimento com agentes de IA",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T040",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "OpenCode",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T041",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Desenvolvimento ágil",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T042",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Desenvolvimento em cascata",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T043",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Desenvolvimento orientado por especificações",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T044",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Prototipação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T045",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Produto mínimo viável (MVP)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T046",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "Consultas SQL",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T048",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "PostgreSQL",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T049",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "SQLite",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T050",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Cabeamento de redes",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T051",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Cabo drop",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T052",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Configuração de roteadores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T053",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Conexões a rádio",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T054",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "FTTH",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T055",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Fusão de fibra óptica, aprendiz",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T056",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Medidor de potência óptica (power meter)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T057",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "ONT",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T058",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "ONU",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T059",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "OTDR",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T060",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "PoE",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T061",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "PPPoE",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T062",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Redes locais (LAN)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T063",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Redes mesh",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T064",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "RJ45",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T065",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "SC/APC",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T066",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "VFL",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T067",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Wi-Fi",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T068",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Organização de cabos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T070",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Comutadores de rede",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T072",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Servidores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T073",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Preparação de postes para passagem de fibra",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T074",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Manutenção de caixas de terminação óptica (CTO)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T075",
+      "grupo": "G08",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas para redes",
+      "texto": "OpenWrt",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T076",
+      "grupo": "G08",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas para redes",
+      "texto": "OPNsense",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T077",
+      "grupo": "G08",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas para redes",
+      "texto": "pfSense",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T080",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Escalonamento de chamados",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T081",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Gestão de ativos de TI",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T082",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manuais de usuário",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T084",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manutenção de computadores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T085",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manutenção de impressoras",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T086",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manutenção de periféricos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T087",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "NF-e",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T088",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "NFC-e",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T089",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Orientação de usuários",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T090",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Procedimentos operacionais padrão (POPs)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T091",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Resolução de incidentes",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T092",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte a ERP, N1",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T093",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte a PDV, N1",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T094",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte de help desk, N1",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T096",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte técnico hospitalar, N1/N2",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T097",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Microsoft Active Directory",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T098",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "Acessibilidade web",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T099",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "CSS",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T100",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "Git",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T102",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "GitHub Actions",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T103",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "GitHub Pages",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T104",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "HTML",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T105",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "Sites multilíngues",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T106",
+      "grupo": "G11",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Servidores web",
+      "texto": "Apache HTTP Server",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T107",
+      "grupo": "G11",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Servidores web",
+      "texto": "NGINX",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T109",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Amazon Web Services (AWS)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T111",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Firebase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T112",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Microsoft Azure",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T114",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Supabase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T115",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Vercel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T116",
+      "grupo": "G13",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Idiomas",
+      "texto": "Inglês, TOEIC Listening & Reading 910",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T117",
+      "grupo": "G13",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Idiomas",
+      "texto": "Português brasileiro",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T118",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Adaptabilidade",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T119",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Atenção a detalhes",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T120",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Pensamento analítico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T122",
+      "grupo": "G15",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Relacionamento",
+      "texto": "Comunicação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T123",
+      "grupo": "G15",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Relacionamento",
+      "texto": "Compreensão das necessidades do cliente",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T124",
+      "grupo": "G15",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Relacionamento",
+      "texto": "Trabalho em equipe",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T125",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Clivador",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T126",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Ferramentas elétricas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T127",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Ferramentas manuais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T128",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Fusimech",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T129",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Máquina de fusão de fibra óptica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T130",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Organização de ferramentas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T131",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Organização de insumos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T132",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Trabalho em altura",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T133",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "Condução de carros",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T134",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "Condução de motos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T135",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "CNH AB",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T136",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "Permissão Internacional para Dirigir (PID)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T137",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Avaliação de soluções",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T138",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão de pessoas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T139",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão de processos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T140",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão de projetos de TI",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T005",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão financeira",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T141",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Planejamento estratégico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T122",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Comunicação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T142",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Negociação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T143",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Gestão de conflitos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T144",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Pensamento crítico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T145",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Pesquisa acadêmica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T146",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Resolução de problemas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T124",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Trabalho em equipe",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T147",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Visão sistêmica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T148",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Bancos de dados",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T149",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Diagnóstico de infraestrutura",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T150",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Engenharia de software",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T151",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Inteligência de negócios",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T153",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Programação para internet",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T154",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Redes de computadores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T155",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Sistemas operacionais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T104",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "HTML",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T099",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "CSS",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T100",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "Git",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T102",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub Actions",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T103",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub Pages",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T039",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Desenvolvimento com agentes de IA",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T098",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Acessibilidade web",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T156",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Design responsivo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T157",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Otimização de desempenho",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T158",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Otimização de imagens",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T105",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Sites multilíngues",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T159",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Testes de interface",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T160",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Validação HTML",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T161",
+      "grupo": "G23",
+      "contexto": "Este portfólio",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de escopo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T162",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "Google AI Studio",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T114",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "Supabase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T115",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "Vercel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T163",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Formulários web",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T164",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Preparação de infraestrutura",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T165",
+      "grupo": "G26",
+      "contexto": "Optigrow",
+      "subcategoria": "Gestão e pesquisa",
+      "texto": "Desenvolvimento colaborativo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T166",
+      "grupo": "G26",
+      "contexto": "Optigrow",
+      "subcategoria": "Gestão e pesquisa",
+      "texto": "Pesquisa de mercado",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T162",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "Google AI Studio",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T111",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "Firebase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T115",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "Vercel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T150",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Engenharia de software",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T167",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Engenharia de requisitos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T168",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Levantamento de requisitos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T169",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Requisitos funcionais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T170",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Requisitos não funcionais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T171",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Modelagem de processos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T044",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Prototipação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T172",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Avaliação de ferramentas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T173",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Pesquisa aplicada",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T174",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Pesquisa bibliográfica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T175",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Estudo de caso",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T176",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Estudo de campo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T177",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Entrevistas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T178",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Questionários",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T179",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Análise de dados qualitativos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T180",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Análise de conteúdo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T181",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Diagrama de Ishikawa",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T166",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Pesquisa de mercado",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T182",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Definição de personas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T183",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Mapa de empatia",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T184",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Análise de necessidades",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T004",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de projetos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T185",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Planejamento de atividades",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T161",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de escopo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T186",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Liderança de equipe",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T187",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de entregáveis",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T188",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Integração de ferramentas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T165",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Desenvolvimento colaborativo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T006",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Google Drive",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T189",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Microsoft Word",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T013",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Microsoft Teams",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T018",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Trello",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T190",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Google Acadêmico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T191",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "ResearchGate",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T192",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "WhatsApp",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T001",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Canva",
+      "idioma": "pt-BR"
+    }
+  ],
+  "tags_ocultas": [
+    {
+      "id": "T001",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Canva",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T002",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Capitalização",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T003",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Fluxo de caixa",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T004",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Gestão de projetos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T005",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Gestão financeira",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T006",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Google Drive",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T007",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Indicadores estratégicos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T008",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "LibreOffice",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T009",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Melhoria de processos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T010",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Metodologias ágeis",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T011",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Microsoft Excel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T012",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Microsoft Office",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T013",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Microsoft Teams",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T014",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Office 365",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T015",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "OneDrive",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T016",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Planejamento de metas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T017",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Scrum",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T018",
+      "grupo": "G01",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Gestão e produtividade",
+      "texto": "Trello",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T019",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Microsoft Windows",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T020",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows 10",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T021",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows 11",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T022",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Microsoft Windows Server",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T023",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows Server 2008 R2",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T024",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Windows Server 2016",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T025",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Linux",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T026",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Debian",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T027",
+      "grupo": "G02",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas operacionais",
+      "texto": "Ubuntu",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T028",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Aprendizado de máquina",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T029",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Machine learning",
+      "idioma": "en"
+    },
+    {
+      "id": "T030",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Inteligência artificial (IA)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T031",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "JavaScript",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T032",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Lógica de programação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T033",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Modelagem de dados",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T034",
+      "grupo": "G03",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Programação e dados",
+      "texto": "Python",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T035",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "OpenAI ChatGPT",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T036",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Codex (OpenAI)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T037",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Claude",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T038",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Claude Code",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T039",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "Desenvolvimento com agentes de IA",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T040",
+      "grupo": "G04",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento com IA",
+      "texto": "OpenCode",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T041",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Desenvolvimento ágil",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T042",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Desenvolvimento em cascata",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T043",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Desenvolvimento orientado por especificações",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T044",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Prototipação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T045",
+      "grupo": "G05",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Produto mínimo viável (MVP)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T046",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "Consultas SQL",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T047",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "SQL",
+      "idioma": "en"
+    },
+    {
+      "id": "T048",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "PostgreSQL",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T049",
+      "grupo": "G06",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Bancos de dados",
+      "texto": "SQLite",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T050",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Cabeamento de redes",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T051",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Cabo drop",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T052",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Configuração de roteadores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T053",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Conexões a rádio",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T054",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "FTTH",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T055",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Fusão de fibra óptica, aprendiz",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T056",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Medidor de potência óptica (power meter)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T057",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "ONT",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T058",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "ONU",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T059",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "OTDR",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T060",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "PoE",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T061",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "PPPoE",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T062",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Redes locais (LAN)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T063",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Redes mesh",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T064",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "RJ45",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T065",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "SC/APC",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T066",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "VFL",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T067",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Wi-Fi",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T068",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Organização de cabos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T069",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Cable management",
+      "idioma": "en"
+    },
+    {
+      "id": "T070",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Comutadores de rede",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T071",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Switches",
+      "idioma": "en"
+    },
+    {
+      "id": "T072",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Servidores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T073",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Preparação de postes para passagem de fibra",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T074",
+      "grupo": "G07",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Redes",
+      "texto": "Manutenção de caixas de terminação óptica (CTO)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T075",
+      "grupo": "G08",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas para redes",
+      "texto": "OpenWrt",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T076",
+      "grupo": "G08",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas para redes",
+      "texto": "OPNsense",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T077",
+      "grupo": "G08",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Sistemas para redes",
+      "texto": "pfSense",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T079",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Technical documentation",
+      "idioma": "en"
+    },
+    {
+      "id": "T080",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Escalonamento de chamados",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T081",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Gestão de ativos de TI",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T082",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manuais de usuário",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T083",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Provide user documentation",
+      "idioma": "en"
+    },
+    {
+      "id": "T084",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manutenção de computadores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T085",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manutenção de impressoras",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T086",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Manutenção de periféricos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T087",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "NF-e",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T088",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "NFC-e",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T089",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Orientação de usuários",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T090",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Procedimentos operacionais padrão (POPs)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T091",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Resolução de incidentes",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T092",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte a ERP, N1",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T093",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte a PDV, N1",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T094",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte de help desk, N1",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T095",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "IT support, N1",
+      "idioma": "en"
+    },
+    {
+      "id": "T096",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Suporte técnico hospitalar, N1/N2",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T097",
+      "grupo": "G09",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Suporte de TI",
+      "texto": "Microsoft Active Directory",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T098",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "Acessibilidade web",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T099",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "CSS",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T100",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "Git",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T102",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "GitHub Actions",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T103",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "GitHub Pages",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T104",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "HTML",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T105",
+      "grupo": "G10",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Web",
+      "texto": "Sites multilíngues",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T106",
+      "grupo": "G11",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Servidores web",
+      "texto": "Apache HTTP Server",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T107",
+      "grupo": "G11",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Servidores web",
+      "texto": "NGINX",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T108",
+      "grupo": "G11",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Servidores web",
+      "texto": "Nginx web server",
+      "idioma": "en"
+    },
+    {
+      "id": "T109",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Amazon Web Services (AWS)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T110",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Amazon Web Services AWS software",
+      "idioma": "en"
+    },
+    {
+      "id": "T111",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Firebase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T112",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Microsoft Azure",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T113",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Microsoft Azure software",
+      "idioma": "en"
+    },
+    {
+      "id": "T114",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Supabase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T115",
+      "grupo": "G12",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Plataformas de desenvolvimento e hospedagem",
+      "texto": "Vercel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T116",
+      "grupo": "G13",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Idiomas",
+      "texto": "Inglês, TOEIC Listening & Reading 910",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T117",
+      "grupo": "G13",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Idiomas",
+      "texto": "Português brasileiro",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T118",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Adaptabilidade",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T119",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Atenção a detalhes",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T120",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Pensamento analítico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T121",
+      "grupo": "G14",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Organização e desenvolvimento",
+      "texto": "Analytical thinking",
+      "idioma": "en"
+    },
+    {
+      "id": "T122",
+      "grupo": "G15",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Relacionamento",
+      "texto": "Comunicação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T123",
+      "grupo": "G15",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Relacionamento",
+      "texto": "Compreensão das necessidades do cliente",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T124",
+      "grupo": "G15",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Relacionamento",
+      "texto": "Trabalho em equipe",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T125",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Clivador",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T126",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Ferramentas elétricas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T127",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Ferramentas manuais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T128",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Fusimech",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T129",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Máquina de fusão de fibra óptica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T130",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Organização de ferramentas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T131",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Organização de insumos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T132",
+      "grupo": "G16",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Campo e ferramentas",
+      "texto": "Trabalho em altura",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T133",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "Condução de carros",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T134",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "Condução de motos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T135",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "CNH AB",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T136",
+      "grupo": "G17",
+      "contexto": "Competências e habilidades",
+      "subcategoria": "Condução",
+      "texto": "Permissão Internacional para Dirigir (PID)",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T137",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Avaliação de soluções",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T138",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão de pessoas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T139",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão de processos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T140",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão de projetos de TI",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T005",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Gestão financeira",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T141",
+      "grupo": "G18",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Gestão e negócios",
+      "texto": "Planejamento estratégico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T122",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Comunicação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T142",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Negociação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T143",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Gestão de conflitos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T144",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Pensamento crítico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T145",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Pesquisa acadêmica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T146",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Resolução de problemas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T124",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Trabalho em equipe",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T147",
+      "grupo": "G19",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Pesquisa e competências sociais",
+      "texto": "Visão sistêmica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T148",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Bancos de dados",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T149",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Diagnóstico de infraestrutura",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T150",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Engenharia de software",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T151",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Inteligência de negócios",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T152",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Business intelligence",
+      "idioma": "en"
+    },
+    {
+      "id": "T153",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Programação para internet",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T154",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Redes de computadores",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T155",
+      "grupo": "G20",
+      "contexto": "Formação acadêmica",
+      "subcategoria": "Tecnologia e sistemas",
+      "texto": "Sistemas operacionais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T104",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "HTML",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T099",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "CSS",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T100",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "Git",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T102",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub Actions",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T103",
+      "grupo": "G21",
+      "contexto": "Este portfólio",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub Pages",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T039",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Desenvolvimento com agentes de IA",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T079",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Technical documentation",
+      "idioma": "en"
+    },
+    {
+      "id": "T098",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Acessibilidade web",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T156",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Design responsivo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T157",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Otimização de desempenho",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T158",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Otimização de imagens",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T105",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Sites multilíngues",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T159",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Testes de interface",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T160",
+      "grupo": "G22",
+      "contexto": "Este portfólio",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Validação HTML",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T161",
+      "grupo": "G23",
+      "contexto": "Este portfólio",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de escopo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T162",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "Google AI Studio",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T114",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "Supabase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T115",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "Vercel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G24",
+      "contexto": "Optigrow",
+      "subcategoria": "Tecnologias",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T079",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Technical documentation",
+      "idioma": "en"
+    },
+    {
+      "id": "T163",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Formulários web",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T164",
+      "grupo": "G25",
+      "contexto": "Optigrow",
+      "subcategoria": "Desenvolvimento e qualidade",
+      "texto": "Preparação de infraestrutura",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T165",
+      "grupo": "G26",
+      "contexto": "Optigrow",
+      "subcategoria": "Gestão e pesquisa",
+      "texto": "Desenvolvimento colaborativo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T166",
+      "grupo": "G26",
+      "contexto": "Optigrow",
+      "subcategoria": "Gestão e pesquisa",
+      "texto": "Pesquisa de mercado",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T162",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "Google AI Studio",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T111",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "Firebase",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T115",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "Vercel",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T101",
+      "grupo": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Tecnologias de desenvolvimento",
+      "texto": "GitHub",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T150",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Engenharia de software",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T167",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Engenharia de requisitos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T168",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Levantamento de requisitos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T169",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Requisitos funcionais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T170",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Requisitos não funcionais",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T171",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Modelagem de processos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T078",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Documentação técnica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T079",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Technical documentation",
+      "idioma": "en"
+    },
+    {
+      "id": "T044",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Prototipação",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T172",
+      "grupo": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Desenvolvimento de software",
+      "texto": "Avaliação de ferramentas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T173",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Pesquisa aplicada",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T174",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Pesquisa bibliográfica",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T175",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Estudo de caso",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T176",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Estudo de campo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T177",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Entrevistas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T178",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Questionários",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T179",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Análise de dados qualitativos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T180",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Análise de conteúdo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T181",
+      "grupo": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa acadêmica",
+      "texto": "Diagrama de Ishikawa",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T166",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Pesquisa de mercado",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T182",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Definição de personas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T183",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Mapa de empatia",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T184",
+      "grupo": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Pesquisa de mercado",
+      "texto": "Análise de necessidades",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T004",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de projetos",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T185",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Planejamento de atividades",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T161",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de escopo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T186",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Liderança de equipe",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T187",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Gestão de entregáveis",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T188",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Integração de ferramentas",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T165",
+      "grupo": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Gestão e colaboração",
+      "texto": "Desenvolvimento colaborativo",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T006",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Google Drive",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T189",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Microsoft Word",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T013",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Microsoft Teams",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T018",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Trello",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T190",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Google Acadêmico",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T191",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "ResearchGate",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T192",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "WhatsApp",
+      "idioma": "pt-BR"
+    },
+    {
+      "id": "T001",
+      "grupo": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "subcategoria": "Ferramentas de gestão e pesquisa",
+      "texto": "Canva",
+      "idioma": "pt-BR"
+    }
+  ],
+  "tags_lista_geral": [
+    {
+      "id": "T001",
+      "grupo": "G01",
+      "linha": 32,
+      "texto": "Canva"
+    },
+    {
+      "id": "T002",
+      "grupo": "G01",
+      "linha": 33,
+      "texto": "Capitalização"
+    },
+    {
+      "id": "T003",
+      "grupo": "G01",
+      "linha": 34,
+      "texto": "Fluxo de caixa"
+    },
+    {
+      "id": "T004",
+      "grupo": "G01",
+      "linha": 35,
+      "texto": "Gestão de projetos"
+    },
+    {
+      "id": "T005",
+      "grupo": "G01",
+      "linha": 36,
+      "texto": "Gestão financeira"
+    },
+    {
+      "id": "T006",
+      "grupo": "G01",
+      "linha": 37,
+      "texto": "Google Drive"
+    },
+    {
+      "id": "T007",
+      "grupo": "G01",
+      "linha": 38,
+      "texto": "Indicadores estratégicos"
+    },
+    {
+      "id": "T008",
+      "grupo": "G01",
+      "linha": 39,
+      "texto": "LibreOffice"
+    },
+    {
+      "id": "T009",
+      "grupo": "G01",
+      "linha": 40,
+      "texto": "Melhoria de processos"
+    },
+    {
+      "id": "T010",
+      "grupo": "G01",
+      "linha": 41,
+      "texto": "Metodologias ágeis"
+    },
+    {
+      "id": "T011",
+      "grupo": "G01",
+      "linha": 42,
+      "texto": "Microsoft Excel"
+    },
+    {
+      "id": "T012",
+      "grupo": "G01",
+      "linha": 43,
+      "texto": "Microsoft Office"
+    },
+    {
+      "id": "T013",
+      "grupo": "G01",
+      "linha": 44,
+      "texto": "Microsoft Teams"
+    },
+    {
+      "id": "T014",
+      "grupo": "G01",
+      "linha": 45,
+      "texto": "Office 365"
+    },
+    {
+      "id": "T015",
+      "grupo": "G01",
+      "linha": 46,
+      "texto": "OneDrive"
+    },
+    {
+      "id": "T016",
+      "grupo": "G01",
+      "linha": 47,
+      "texto": "Planejamento de metas"
+    },
+    {
+      "id": "T017",
+      "grupo": "G01",
+      "linha": 48,
+      "texto": "Scrum"
+    },
+    {
+      "id": "T018",
+      "grupo": "G01",
+      "linha": 49,
+      "texto": "Trello"
+    },
+    {
+      "id": "T019",
+      "grupo": "G02",
+      "linha": 52,
+      "texto": "Microsoft Windows"
+    },
+    {
+      "id": "T020",
+      "grupo": "G02",
+      "linha": 53,
+      "texto": "Windows 10"
+    },
+    {
+      "id": "T021",
+      "grupo": "G02",
+      "linha": 54,
+      "texto": "Windows 11"
+    },
+    {
+      "id": "T022",
+      "grupo": "G02",
+      "linha": 55,
+      "texto": "Microsoft Windows Server"
+    },
+    {
+      "id": "T023",
+      "grupo": "G02",
+      "linha": 56,
+      "texto": "Windows Server 2008 R2"
+    },
+    {
+      "id": "T024",
+      "grupo": "G02",
+      "linha": 57,
+      "texto": "Windows Server 2016"
+    },
+    {
+      "id": "T025",
+      "grupo": "G02",
+      "linha": 58,
+      "texto": "Linux"
+    },
+    {
+      "id": "T026",
+      "grupo": "G02",
+      "linha": 59,
+      "texto": "Debian"
+    },
+    {
+      "id": "T027",
+      "grupo": "G02",
+      "linha": 60,
+      "texto": "Ubuntu"
+    },
+    {
+      "id": "T028",
+      "grupo": "G03",
+      "linha": 63,
+      "texto": "Aprendizado de máquina"
+    },
+    {
+      "id": "T029",
+      "grupo": "G03",
+      "linha": 64,
+      "texto": "Machine learning"
+    },
+    {
+      "id": "T030",
+      "grupo": "G03",
+      "linha": 65,
+      "texto": "Inteligência artificial (IA)"
+    },
+    {
+      "id": "T031",
+      "grupo": "G03",
+      "linha": 66,
+      "texto": "JavaScript"
+    },
+    {
+      "id": "T032",
+      "grupo": "G03",
+      "linha": 67,
+      "texto": "Lógica de programação"
+    },
+    {
+      "id": "T033",
+      "grupo": "G03",
+      "linha": 68,
+      "texto": "Modelagem de dados"
+    },
+    {
+      "id": "T034",
+      "grupo": "G03",
+      "linha": 69,
+      "texto": "Python"
+    },
+    {
+      "id": "T035",
+      "grupo": "G04",
+      "linha": 73,
+      "texto": "OpenAI ChatGPT"
+    },
+    {
+      "id": "T036",
+      "grupo": "G04",
+      "linha": 74,
+      "texto": "Codex (OpenAI)"
+    },
+    {
+      "id": "T037",
+      "grupo": "G04",
+      "linha": 75,
+      "texto": "Claude"
+    },
+    {
+      "id": "T038",
+      "grupo": "G04",
+      "linha": 76,
+      "texto": "Claude Code"
+    },
+    {
+      "id": "T039",
+      "grupo": "G04",
+      "linha": 77,
+      "texto": "Desenvolvimento com agentes de IA"
+    },
+    {
+      "id": "T040",
+      "grupo": "G04",
+      "linha": 78,
+      "texto": "OpenCode"
+    },
+    {
+      "id": "T041",
+      "grupo": "G05",
+      "linha": 81,
+      "texto": "Desenvolvimento ágil"
+    },
+    {
+      "id": "T042",
+      "grupo": "G05",
+      "linha": 82,
+      "texto": "Desenvolvimento em cascata"
+    },
+    {
+      "id": "T043",
+      "grupo": "G05",
+      "linha": 83,
+      "texto": "Desenvolvimento orientado por especificações"
+    },
+    {
+      "id": "T044",
+      "grupo": "G05",
+      "linha": 84,
+      "texto": "Prototipação"
+    },
+    {
+      "id": "T045",
+      "grupo": "G05",
+      "linha": 85,
+      "texto": "Produto mínimo viável (MVP)"
+    },
+    {
+      "id": "T046",
+      "grupo": "G06",
+      "linha": 88,
+      "texto": "Consultas SQL"
+    },
+    {
+      "id": "T047",
+      "grupo": "G06",
+      "linha": 89,
+      "texto": "SQL"
+    },
+    {
+      "id": "T048",
+      "grupo": "G06",
+      "linha": 90,
+      "texto": "PostgreSQL"
+    },
+    {
+      "id": "T049",
+      "grupo": "G06",
+      "linha": 91,
+      "texto": "SQLite"
+    },
+    {
+      "id": "T050",
+      "grupo": "G07",
+      "linha": 94,
+      "texto": "Cabeamento de redes"
+    },
+    {
+      "id": "T051",
+      "grupo": "G07",
+      "linha": 95,
+      "texto": "Cabo drop"
+    },
+    {
+      "id": "T052",
+      "grupo": "G07",
+      "linha": 96,
+      "texto": "Configuração de roteadores"
+    },
+    {
+      "id": "T053",
+      "grupo": "G07",
+      "linha": 97,
+      "texto": "Conexões a rádio"
+    },
+    {
+      "id": "T054",
+      "grupo": "G07",
+      "linha": 98,
+      "texto": "FTTH"
+    },
+    {
+      "id": "T055",
+      "grupo": "G07",
+      "linha": 99,
+      "texto": "Fusão de fibra óptica, aprendiz"
+    },
+    {
+      "id": "T056",
+      "grupo": "G07",
+      "linha": 100,
+      "texto": "Medidor de potência óptica (power meter)"
+    },
+    {
+      "id": "T057",
+      "grupo": "G07",
+      "linha": 101,
+      "texto": "ONT"
+    },
+    {
+      "id": "T058",
+      "grupo": "G07",
+      "linha": 102,
+      "texto": "ONU"
+    },
+    {
+      "id": "T059",
+      "grupo": "G07",
+      "linha": 103,
+      "texto": "OTDR"
+    },
+    {
+      "id": "T060",
+      "grupo": "G07",
+      "linha": 104,
+      "texto": "PoE"
+    },
+    {
+      "id": "T061",
+      "grupo": "G07",
+      "linha": 105,
+      "texto": "PPPoE"
+    },
+    {
+      "id": "T062",
+      "grupo": "G07",
+      "linha": 106,
+      "texto": "Redes locais (LAN)"
+    },
+    {
+      "id": "T063",
+      "grupo": "G07",
+      "linha": 107,
+      "texto": "Redes mesh"
+    },
+    {
+      "id": "T064",
+      "grupo": "G07",
+      "linha": 108,
+      "texto": "RJ45"
+    },
+    {
+      "id": "T065",
+      "grupo": "G07",
+      "linha": 109,
+      "texto": "SC/APC"
+    },
+    {
+      "id": "T066",
+      "grupo": "G07",
+      "linha": 110,
+      "texto": "VFL"
+    },
+    {
+      "id": "T067",
+      "grupo": "G07",
+      "linha": 111,
+      "texto": "Wi-Fi"
+    },
+    {
+      "id": "T068",
+      "grupo": "G07",
+      "linha": 112,
+      "texto": "Organização de cabos"
+    },
+    {
+      "id": "T069",
+      "grupo": "G07",
+      "linha": 113,
+      "texto": "Cable management"
+    },
+    {
+      "id": "T070",
+      "grupo": "G07",
+      "linha": 114,
+      "texto": "Comutadores de rede"
+    },
+    {
+      "id": "T071",
+      "grupo": "G07",
+      "linha": 115,
+      "texto": "Switches"
+    },
+    {
+      "id": "T072",
+      "grupo": "G07",
+      "linha": 116,
+      "texto": "Servidores"
+    },
+    {
+      "id": "T073",
+      "grupo": "G07",
+      "linha": 117,
+      "texto": "Preparação de postes para passagem de fibra"
+    },
+    {
+      "id": "T074",
+      "grupo": "G07",
+      "linha": 118,
+      "texto": "Manutenção de caixas de terminação óptica (CTO)"
+    },
+    {
+      "id": "T075",
+      "grupo": "G08",
+      "linha": 121,
+      "texto": "OpenWrt"
+    },
+    {
+      "id": "T076",
+      "grupo": "G08",
+      "linha": 122,
+      "texto": "OPNsense"
+    },
+    {
+      "id": "T077",
+      "grupo": "G08",
+      "linha": 123,
+      "texto": "pfSense"
+    },
+    {
+      "id": "T078",
+      "grupo": "G09",
+      "linha": 126,
+      "texto": "Documentação técnica"
+    },
+    {
+      "id": "T079",
+      "grupo": "G09",
+      "linha": 127,
+      "texto": "Technical documentation"
+    },
+    {
+      "id": "T080",
+      "grupo": "G09",
+      "linha": 128,
+      "texto": "Escalonamento de chamados"
+    },
+    {
+      "id": "T081",
+      "grupo": "G09",
+      "linha": 129,
+      "texto": "Gestão de ativos de TI"
+    },
+    {
+      "id": "T082",
+      "grupo": "G09",
+      "linha": 130,
+      "texto": "Manuais de usuário"
+    },
+    {
+      "id": "T083",
+      "grupo": "G09",
+      "linha": 131,
+      "texto": "Provide user documentation"
+    },
+    {
+      "id": "T084",
+      "grupo": "G09",
+      "linha": 132,
+      "texto": "Manutenção de computadores"
+    },
+    {
+      "id": "T085",
+      "grupo": "G09",
+      "linha": 133,
+      "texto": "Manutenção de impressoras"
+    },
+    {
+      "id": "T086",
+      "grupo": "G09",
+      "linha": 134,
+      "texto": "Manutenção de periféricos"
+    },
+    {
+      "id": "T087",
+      "grupo": "G09",
+      "linha": 135,
+      "texto": "NF-e"
+    },
+    {
+      "id": "T088",
+      "grupo": "G09",
+      "linha": 136,
+      "texto": "NFC-e"
+    },
+    {
+      "id": "T089",
+      "grupo": "G09",
+      "linha": 137,
+      "texto": "Orientação de usuários"
+    },
+    {
+      "id": "T090",
+      "grupo": "G09",
+      "linha": 138,
+      "texto": "Procedimentos operacionais padrão (POPs)"
+    },
+    {
+      "id": "T091",
+      "grupo": "G09",
+      "linha": 139,
+      "texto": "Resolução de incidentes"
+    },
+    {
+      "id": "T092",
+      "grupo": "G09",
+      "linha": 140,
+      "texto": "Suporte a ERP, N1"
+    },
+    {
+      "id": "T093",
+      "grupo": "G09",
+      "linha": 141,
+      "texto": "Suporte a PDV, N1"
+    },
+    {
+      "id": "T094",
+      "grupo": "G09",
+      "linha": 142,
+      "texto": "Suporte de help desk, N1"
+    },
+    {
+      "id": "T095",
+      "grupo": "G09",
+      "linha": 143,
+      "texto": "IT support, N1"
+    },
+    {
+      "id": "T096",
+      "grupo": "G09",
+      "linha": 144,
+      "texto": "Suporte técnico hospitalar, N1/N2"
+    },
+    {
+      "id": "T097",
+      "grupo": "G09",
+      "linha": 145,
+      "texto": "Microsoft Active Directory"
+    },
+    {
+      "id": "T098",
+      "grupo": "G10",
+      "linha": 148,
+      "texto": "Acessibilidade web"
+    },
+    {
+      "id": "T099",
+      "grupo": "G10",
+      "linha": 149,
+      "texto": "CSS"
+    },
+    {
+      "id": "T100",
+      "grupo": "G10",
+      "linha": 150,
+      "texto": "Git"
+    },
+    {
+      "id": "T101",
+      "grupo": "G10",
+      "linha": 151,
+      "texto": "GitHub"
+    },
+    {
+      "id": "T102",
+      "grupo": "G10",
+      "linha": 152,
+      "texto": "GitHub Actions"
+    },
+    {
+      "id": "T103",
+      "grupo": "G10",
+      "linha": 153,
+      "texto": "GitHub Pages"
+    },
+    {
+      "id": "T104",
+      "grupo": "G10",
+      "linha": 154,
+      "texto": "HTML"
+    },
+    {
+      "id": "T105",
+      "grupo": "G10",
+      "linha": 155,
+      "texto": "Sites multilíngues"
+    },
+    {
+      "id": "T106",
+      "grupo": "G11",
+      "linha": 158,
+      "texto": "Apache HTTP Server"
+    },
+    {
+      "id": "T107",
+      "grupo": "G11",
+      "linha": 159,
+      "texto": "NGINX"
+    },
+    {
+      "id": "T108",
+      "grupo": "G11",
+      "linha": 160,
+      "texto": "Nginx web server"
+    },
+    {
+      "id": "T109",
+      "grupo": "G12",
+      "linha": 163,
+      "texto": "Amazon Web Services (AWS)"
+    },
+    {
+      "id": "T110",
+      "grupo": "G12",
+      "linha": 164,
+      "texto": "Amazon Web Services AWS software"
+    },
+    {
+      "id": "T111",
+      "grupo": "G12",
+      "linha": 165,
+      "texto": "Firebase"
+    },
+    {
+      "id": "T112",
+      "grupo": "G12",
+      "linha": 166,
+      "texto": "Microsoft Azure"
+    },
+    {
+      "id": "T113",
+      "grupo": "G12",
+      "linha": 167,
+      "texto": "Microsoft Azure software"
+    },
+    {
+      "id": "T114",
+      "grupo": "G12",
+      "linha": 168,
+      "texto": "Supabase"
+    },
+    {
+      "id": "T115",
+      "grupo": "G12",
+      "linha": 169,
+      "texto": "Vercel"
+    },
+    {
+      "id": "T116",
+      "grupo": "G13",
+      "linha": 172,
+      "texto": "Inglês, TOEIC Listening & Reading 910"
+    },
+    {
+      "id": "T117",
+      "grupo": "G13",
+      "linha": 173,
+      "texto": "Português brasileiro"
+    },
+    {
+      "id": "T118",
+      "grupo": "G14",
+      "linha": 178,
+      "texto": "Adaptabilidade"
+    },
+    {
+      "id": "T119",
+      "grupo": "G14",
+      "linha": 179,
+      "texto": "Atenção a detalhes"
+    },
+    {
+      "id": "T120",
+      "grupo": "G14",
+      "linha": 180,
+      "texto": "Pensamento analítico"
+    },
+    {
+      "id": "T121",
+      "grupo": "G14",
+      "linha": 181,
+      "texto": "Analytical thinking"
+    },
+    {
+      "id": "T122",
+      "grupo": "G15",
+      "linha": 184,
+      "texto": "Comunicação"
+    },
+    {
+      "id": "T123",
+      "grupo": "G15",
+      "linha": 185,
+      "texto": "Compreensão das necessidades do cliente"
+    },
+    {
+      "id": "T124",
+      "grupo": "G15",
+      "linha": 186,
+      "texto": "Trabalho em equipe"
+    },
+    {
+      "id": "T125",
+      "grupo": "G16",
+      "linha": 191,
+      "texto": "Clivador"
+    },
+    {
+      "id": "T126",
+      "grupo": "G16",
+      "linha": 192,
+      "texto": "Ferramentas elétricas"
+    },
+    {
+      "id": "T127",
+      "grupo": "G16",
+      "linha": 193,
+      "texto": "Ferramentas manuais"
+    },
+    {
+      "id": "T128",
+      "grupo": "G16",
+      "linha": 194,
+      "texto": "Fusimech"
+    },
+    {
+      "id": "T129",
+      "grupo": "G16",
+      "linha": 195,
+      "texto": "Máquina de fusão de fibra óptica"
+    },
+    {
+      "id": "T130",
+      "grupo": "G16",
+      "linha": 196,
+      "texto": "Organização de ferramentas"
+    },
+    {
+      "id": "T131",
+      "grupo": "G16",
+      "linha": 197,
+      "texto": "Organização de insumos"
+    },
+    {
+      "id": "T132",
+      "grupo": "G16",
+      "linha": 198,
+      "texto": "Trabalho em altura"
+    },
+    {
+      "id": "T133",
+      "grupo": "G17",
+      "linha": 201,
+      "texto": "Condução de carros"
+    },
+    {
+      "id": "T134",
+      "grupo": "G17",
+      "linha": 202,
+      "texto": "Condução de motos"
+    },
+    {
+      "id": "T135",
+      "grupo": "G17",
+      "linha": 203,
+      "texto": "CNH AB"
+    },
+    {
+      "id": "T136",
+      "grupo": "G17",
+      "linha": 204,
+      "texto": "Permissão Internacional para Dirigir (PID)"
+    },
+    {
+      "id": "T137",
+      "grupo": "G18",
+      "linha": 248,
+      "texto": "Avaliação de soluções"
+    },
+    {
+      "id": "T138",
+      "grupo": "G18",
+      "linha": 249,
+      "texto": "Gestão de pessoas"
+    },
+    {
+      "id": "T139",
+      "grupo": "G18",
+      "linha": 250,
+      "texto": "Gestão de processos"
+    },
+    {
+      "id": "T140",
+      "grupo": "G18",
+      "linha": 251,
+      "texto": "Gestão de projetos de TI"
+    },
+    {
+      "id": "T005",
+      "grupo": "G18",
+      "linha": 252,
+      "texto": "Gestão financeira"
+    },
+    {
+      "id": "T141",
+      "grupo": "G18",
+      "linha": 253,
+      "texto": "Planejamento estratégico"
+    },
+    {
+      "id": "T122",
+      "grupo": "G19",
+      "linha": 256,
+      "texto": "Comunicação"
+    },
+    {
+      "id": "T142",
+      "grupo": "G19",
+      "linha": 257,
+      "texto": "Negociação"
+    },
+    {
+      "id": "T143",
+      "grupo": "G19",
+      "linha": 258,
+      "texto": "Gestão de conflitos"
+    },
+    {
+      "id": "T144",
+      "grupo": "G19",
+      "linha": 259,
+      "texto": "Pensamento crítico"
+    },
+    {
+      "id": "T145",
+      "grupo": "G19",
+      "linha": 260,
+      "texto": "Pesquisa acadêmica"
+    },
+    {
+      "id": "T146",
+      "grupo": "G19",
+      "linha": 261,
+      "texto": "Resolução de problemas"
+    },
+    {
+      "id": "T124",
+      "grupo": "G19",
+      "linha": 262,
+      "texto": "Trabalho em equipe"
+    },
+    {
+      "id": "T147",
+      "grupo": "G19",
+      "linha": 263,
+      "texto": "Visão sistêmica"
+    },
+    {
+      "id": "T148",
+      "grupo": "G20",
+      "linha": 266,
+      "texto": "Bancos de dados"
+    },
+    {
+      "id": "T149",
+      "grupo": "G20",
+      "linha": 267,
+      "texto": "Diagnóstico de infraestrutura"
+    },
+    {
+      "id": "T150",
+      "grupo": "G20",
+      "linha": 268,
+      "texto": "Engenharia de software"
+    },
+    {
+      "id": "T151",
+      "grupo": "G20",
+      "linha": 269,
+      "texto": "Inteligência de negócios"
+    },
+    {
+      "id": "T152",
+      "grupo": "G20",
+      "linha": 270,
+      "texto": "Business intelligence"
+    },
+    {
+      "id": "T153",
+      "grupo": "G20",
+      "linha": 271,
+      "texto": "Programação para internet"
+    },
+    {
+      "id": "T154",
+      "grupo": "G20",
+      "linha": 272,
+      "texto": "Redes de computadores"
+    },
+    {
+      "id": "T155",
+      "grupo": "G20",
+      "linha": 273,
+      "texto": "Sistemas operacionais"
+    },
+    {
+      "id": "T104",
+      "grupo": "G21",
+      "linha": 373,
+      "texto": "HTML"
+    },
+    {
+      "id": "T099",
+      "grupo": "G21",
+      "linha": 374,
+      "texto": "CSS"
+    },
+    {
+      "id": "T100",
+      "grupo": "G21",
+      "linha": 375,
+      "texto": "Git"
+    },
+    {
+      "id": "T101",
+      "grupo": "G21",
+      "linha": 376,
+      "texto": "GitHub"
+    },
+    {
+      "id": "T102",
+      "grupo": "G21",
+      "linha": 377,
+      "texto": "GitHub Actions"
+    },
+    {
+      "id": "T103",
+      "grupo": "G21",
+      "linha": 378,
+      "texto": "GitHub Pages"
+    },
+    {
+      "id": "T039",
+      "grupo": "G22",
+      "linha": 381,
+      "texto": "Desenvolvimento com agentes de IA"
+    },
+    {
+      "id": "T078",
+      "grupo": "G22",
+      "linha": 382,
+      "texto": "Documentação técnica"
+    },
+    {
+      "id": "T079",
+      "grupo": "G22",
+      "linha": 383,
+      "texto": "Technical documentation"
+    },
+    {
+      "id": "T098",
+      "grupo": "G22",
+      "linha": 384,
+      "texto": "Acessibilidade web"
+    },
+    {
+      "id": "T156",
+      "grupo": "G22",
+      "linha": 385,
+      "texto": "Design responsivo"
+    },
+    {
+      "id": "T157",
+      "grupo": "G22",
+      "linha": 386,
+      "texto": "Otimização de desempenho"
+    },
+    {
+      "id": "T158",
+      "grupo": "G22",
+      "linha": 387,
+      "texto": "Otimização de imagens"
+    },
+    {
+      "id": "T105",
+      "grupo": "G22",
+      "linha": 388,
+      "texto": "Sites multilíngues"
+    },
+    {
+      "id": "T159",
+      "grupo": "G22",
+      "linha": 389,
+      "texto": "Testes de interface"
+    },
+    {
+      "id": "T160",
+      "grupo": "G22",
+      "linha": 390,
+      "texto": "Validação HTML"
+    },
+    {
+      "id": "T161",
+      "grupo": "G23",
+      "linha": 393,
+      "texto": "Gestão de escopo"
+    },
+    {
+      "id": "T162",
+      "grupo": "G24",
+      "linha": 402,
+      "texto": "Google AI Studio"
+    },
+    {
+      "id": "T114",
+      "grupo": "G24",
+      "linha": 403,
+      "texto": "Supabase"
+    },
+    {
+      "id": "T115",
+      "grupo": "G24",
+      "linha": 404,
+      "texto": "Vercel"
+    },
+    {
+      "id": "T101",
+      "grupo": "G24",
+      "linha": 405,
+      "texto": "GitHub"
+    },
+    {
+      "id": "T078",
+      "grupo": "G25",
+      "linha": 408,
+      "texto": "Documentação técnica"
+    },
+    {
+      "id": "T079",
+      "grupo": "G25",
+      "linha": 409,
+      "texto": "Technical documentation"
+    },
+    {
+      "id": "T163",
+      "grupo": "G25",
+      "linha": 410,
+      "texto": "Formulários web"
+    },
+    {
+      "id": "T164",
+      "grupo": "G25",
+      "linha": 411,
+      "texto": "Preparação de infraestrutura"
+    },
+    {
+      "id": "T165",
+      "grupo": "G26",
+      "linha": 414,
+      "texto": "Desenvolvimento colaborativo"
+    },
+    {
+      "id": "T166",
+      "grupo": "G26",
+      "linha": 415,
+      "texto": "Pesquisa de mercado"
+    },
+    {
+      "id": "T162",
+      "grupo": "G27",
+      "linha": 426,
+      "texto": "Google AI Studio"
+    },
+    {
+      "id": "T111",
+      "grupo": "G27",
+      "linha": 427,
+      "texto": "Firebase"
+    },
+    {
+      "id": "T115",
+      "grupo": "G27",
+      "linha": 428,
+      "texto": "Vercel"
+    },
+    {
+      "id": "T101",
+      "grupo": "G27",
+      "linha": 429,
+      "texto": "GitHub"
+    },
+    {
+      "id": "T150",
+      "grupo": "G28",
+      "linha": 432,
+      "texto": "Engenharia de software"
+    },
+    {
+      "id": "T167",
+      "grupo": "G28",
+      "linha": 433,
+      "texto": "Engenharia de requisitos"
+    },
+    {
+      "id": "T168",
+      "grupo": "G28",
+      "linha": 434,
+      "texto": "Levantamento de requisitos"
+    },
+    {
+      "id": "T169",
+      "grupo": "G28",
+      "linha": 435,
+      "texto": "Requisitos funcionais"
+    },
+    {
+      "id": "T170",
+      "grupo": "G28",
+      "linha": 436,
+      "texto": "Requisitos não funcionais"
+    },
+    {
+      "id": "T171",
+      "grupo": "G28",
+      "linha": 437,
+      "texto": "Modelagem de processos"
+    },
+    {
+      "id": "T078",
+      "grupo": "G28",
+      "linha": 438,
+      "texto": "Documentação técnica"
+    },
+    {
+      "id": "T079",
+      "grupo": "G28",
+      "linha": 439,
+      "texto": "Technical documentation"
+    },
+    {
+      "id": "T044",
+      "grupo": "G28",
+      "linha": 440,
+      "texto": "Prototipação"
+    },
+    {
+      "id": "T172",
+      "grupo": "G28",
+      "linha": 441,
+      "texto": "Avaliação de ferramentas"
+    },
+    {
+      "id": "T173",
+      "grupo": "G29",
+      "linha": 444,
+      "texto": "Pesquisa aplicada"
+    },
+    {
+      "id": "T174",
+      "grupo": "G29",
+      "linha": 445,
+      "texto": "Pesquisa bibliográfica"
+    },
+    {
+      "id": "T175",
+      "grupo": "G29",
+      "linha": 446,
+      "texto": "Estudo de caso"
+    },
+    {
+      "id": "T176",
+      "grupo": "G29",
+      "linha": 447,
+      "texto": "Estudo de campo"
+    },
+    {
+      "id": "T177",
+      "grupo": "G29",
+      "linha": 448,
+      "texto": "Entrevistas"
+    },
+    {
+      "id": "T178",
+      "grupo": "G29",
+      "linha": 449,
+      "texto": "Questionários"
+    },
+    {
+      "id": "T179",
+      "grupo": "G29",
+      "linha": 450,
+      "texto": "Análise de dados qualitativos"
+    },
+    {
+      "id": "T180",
+      "grupo": "G29",
+      "linha": 451,
+      "texto": "Análise de conteúdo"
+    },
+    {
+      "id": "T181",
+      "grupo": "G29",
+      "linha": 452,
+      "texto": "Diagrama de Ishikawa"
+    },
+    {
+      "id": "T166",
+      "grupo": "G30",
+      "linha": 455,
+      "texto": "Pesquisa de mercado"
+    },
+    {
+      "id": "T182",
+      "grupo": "G30",
+      "linha": 456,
+      "texto": "Definição de personas"
+    },
+    {
+      "id": "T183",
+      "grupo": "G30",
+      "linha": 457,
+      "texto": "Mapa de empatia"
+    },
+    {
+      "id": "T184",
+      "grupo": "G30",
+      "linha": 458,
+      "texto": "Análise de necessidades"
+    },
+    {
+      "id": "T004",
+      "grupo": "G31",
+      "linha": 461,
+      "texto": "Gestão de projetos"
+    },
+    {
+      "id": "T185",
+      "grupo": "G31",
+      "linha": 462,
+      "texto": "Planejamento de atividades"
+    },
+    {
+      "id": "T161",
+      "grupo": "G31",
+      "linha": 463,
+      "texto": "Gestão de escopo"
+    },
+    {
+      "id": "T186",
+      "grupo": "G31",
+      "linha": 464,
+      "texto": "Liderança de equipe"
+    },
+    {
+      "id": "T187",
+      "grupo": "G31",
+      "linha": 465,
+      "texto": "Gestão de entregáveis"
+    },
+    {
+      "id": "T188",
+      "grupo": "G31",
+      "linha": 466,
+      "texto": "Integração de ferramentas"
+    },
+    {
+      "id": "T165",
+      "grupo": "G31",
+      "linha": 467,
+      "texto": "Desenvolvimento colaborativo"
+    },
+    {
+      "id": "T006",
+      "grupo": "G32",
+      "linha": 470,
+      "texto": "Google Drive"
+    },
+    {
+      "id": "T189",
+      "grupo": "G32",
+      "linha": 471,
+      "texto": "Microsoft Word"
+    },
+    {
+      "id": "T013",
+      "grupo": "G32",
+      "linha": 472,
+      "texto": "Microsoft Teams"
+    },
+    {
+      "id": "T018",
+      "grupo": "G32",
+      "linha": 473,
+      "texto": "Trello"
+    },
+    {
+      "id": "T190",
+      "grupo": "G32",
+      "linha": 474,
+      "texto": "Google Acadêmico"
+    },
+    {
+      "id": "T191",
+      "grupo": "G32",
+      "linha": 475,
+      "texto": "ResearchGate"
+    },
+    {
+      "id": "T192",
+      "grupo": "G32",
+      "linha": 476,
+      "texto": "WhatsApp"
+    },
+    {
+      "id": "T001",
+      "grupo": "G32",
+      "linha": 477,
+      "texto": "Canva"
+    }
+  ],
+  "repeticoes_contextuais": {
+    "visivel": [
+      {
+        "texto": "Canva",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Gestão de projetos",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G31"
+        ]
+      },
+      {
+        "texto": "Gestão financeira",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G18"
+        ]
+      },
+      {
+        "texto": "Google Drive",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Microsoft Teams",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Trello",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Desenvolvimento com agentes de IA",
+        "ocorrencias": 2,
+        "grupos": [
+          "G04",
+          "G22"
+        ]
+      },
+      {
+        "texto": "Prototipação",
+        "ocorrencias": 2,
+        "grupos": [
+          "G05",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Documentação técnica",
+        "ocorrencias": 4,
+        "grupos": [
+          "G09",
+          "G22",
+          "G25",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Acessibilidade web",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G22"
+        ]
+      },
+      {
+        "texto": "CSS",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "Git",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "GitHub",
+        "ocorrencias": 4,
+        "grupos": [
+          "G10",
+          "G21",
+          "G24",
+          "G27"
+        ]
+      },
+      {
+        "texto": "GitHub Actions",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "GitHub Pages",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "HTML",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "Sites multilíngues",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G22"
+        ]
+      },
+      {
+        "texto": "Firebase",
+        "ocorrencias": 2,
+        "grupos": [
+          "G12",
+          "G27"
+        ]
+      },
+      {
+        "texto": "Supabase",
+        "ocorrencias": 2,
+        "grupos": [
+          "G12",
+          "G24"
+        ]
+      },
+      {
+        "texto": "Vercel",
+        "ocorrencias": 3,
+        "grupos": [
+          "G12",
+          "G24",
+          "G27"
+        ]
+      },
+      {
+        "texto": "Comunicação",
+        "ocorrencias": 2,
+        "grupos": [
+          "G15",
+          "G19"
+        ]
+      },
+      {
+        "texto": "Trabalho em equipe",
+        "ocorrencias": 2,
+        "grupos": [
+          "G15",
+          "G19"
+        ]
+      },
+      {
+        "texto": "Engenharia de software",
+        "ocorrencias": 2,
+        "grupos": [
+          "G20",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Gestão de escopo",
+        "ocorrencias": 2,
+        "grupos": [
+          "G23",
+          "G31"
+        ]
+      },
+      {
+        "texto": "Google AI Studio",
+        "ocorrencias": 2,
+        "grupos": [
+          "G24",
+          "G27"
+        ]
+      },
+      {
+        "texto": "Desenvolvimento colaborativo",
+        "ocorrencias": 2,
+        "grupos": [
+          "G26",
+          "G31"
+        ]
+      },
+      {
+        "texto": "Pesquisa de mercado",
+        "ocorrencias": 2,
+        "grupos": [
+          "G26",
+          "G30"
+        ]
+      }
+    ],
+    "oculto": [
+      {
+        "texto": "Canva",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Gestão de projetos",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G31"
+        ]
+      },
+      {
+        "texto": "Gestão financeira",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G18"
+        ]
+      },
+      {
+        "texto": "Google Drive",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Microsoft Teams",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Trello",
+        "ocorrencias": 2,
+        "grupos": [
+          "G01",
+          "G32"
+        ]
+      },
+      {
+        "texto": "Desenvolvimento com agentes de IA",
+        "ocorrencias": 2,
+        "grupos": [
+          "G04",
+          "G22"
+        ]
+      },
+      {
+        "texto": "Prototipação",
+        "ocorrencias": 2,
+        "grupos": [
+          "G05",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Documentação técnica",
+        "ocorrencias": 4,
+        "grupos": [
+          "G09",
+          "G22",
+          "G25",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Technical documentation",
+        "ocorrencias": 4,
+        "grupos": [
+          "G09",
+          "G22",
+          "G25",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Acessibilidade web",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G22"
+        ]
+      },
+      {
+        "texto": "CSS",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "Git",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "GitHub",
+        "ocorrencias": 4,
+        "grupos": [
+          "G10",
+          "G21",
+          "G24",
+          "G27"
+        ]
+      },
+      {
+        "texto": "GitHub Actions",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "GitHub Pages",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "HTML",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G21"
+        ]
+      },
+      {
+        "texto": "Sites multilíngues",
+        "ocorrencias": 2,
+        "grupos": [
+          "G10",
+          "G22"
+        ]
+      },
+      {
+        "texto": "Firebase",
+        "ocorrencias": 2,
+        "grupos": [
+          "G12",
+          "G27"
+        ]
+      },
+      {
+        "texto": "Supabase",
+        "ocorrencias": 2,
+        "grupos": [
+          "G12",
+          "G24"
+        ]
+      },
+      {
+        "texto": "Vercel",
+        "ocorrencias": 3,
+        "grupos": [
+          "G12",
+          "G24",
+          "G27"
+        ]
+      },
+      {
+        "texto": "Comunicação",
+        "ocorrencias": 2,
+        "grupos": [
+          "G15",
+          "G19"
+        ]
+      },
+      {
+        "texto": "Trabalho em equipe",
+        "ocorrencias": 2,
+        "grupos": [
+          "G15",
+          "G19"
+        ]
+      },
+      {
+        "texto": "Engenharia de software",
+        "ocorrencias": 2,
+        "grupos": [
+          "G20",
+          "G28"
+        ]
+      },
+      {
+        "texto": "Gestão de escopo",
+        "ocorrencias": 2,
+        "grupos": [
+          "G23",
+          "G31"
+        ]
+      },
+      {
+        "texto": "Google AI Studio",
+        "ocorrencias": 2,
+        "grupos": [
+          "G24",
+          "G27"
+        ]
+      },
+      {
+        "texto": "Desenvolvimento colaborativo",
+        "ocorrencias": 2,
+        "grupos": [
+          "G26",
+          "G31"
+        ]
+      },
+      {
+        "texto": "Pesquisa de mercado",
+        "ocorrencias": 2,
+        "grupos": [
+          "G26",
+          "G30"
+        ]
+      }
+    ]
+  },
+  "traducoes": [
+    {
+      "idioma": "ru",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-russo-ru.txt",
+      "bytes": 9834,
+      "sha256": "6a914f8afe45153bdccf7391a6c19bdf94fb306f75d2f9332b647cbda4ef4b10",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "uk",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-ucraniano-uk.txt",
+      "bytes": 9499,
+      "sha256": "9ff245b1a4eb494db566f2babc9171660d2cd3e965a2c0886f648174a0efd77e",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "bg",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-bulgaro-bg.txt",
+      "bytes": 9687,
+      "sha256": "9e0adca75a1d55394c96bb5f82c78049dfbbed6bd2b30cb446cd815874aea090",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "sr-Cyrl",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-servio-sr-cyrl.txt",
+      "bytes": 9049,
+      "sha256": "dcd859ad75acc83b232f7141063846fb078b0b53112b88180b6204c581b3ec3e",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "el",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-grego-el.txt",
+      "bytes": 9490,
+      "sha256": "6b8d3f5cf0dafb01b3114ca30e50c4b3e7cc47a0fa55db318dc3a34579c93d98",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "zh-Hans",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-chines-simplificado-zh-hans.txt",
+      "bytes": 5162,
+      "sha256": "3a25d07184ef6de9c096949d70f0e01a7189a3e55ebf63e57d118cfc25915f7f",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "zh-Hant",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-chines-tradicional-zh-hant.txt",
+      "bytes": 5195,
+      "sha256": "65539a8756b3817f6312675c50da9e9b51ff44687bd505482f34fa2ef2da81cc",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "ja",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-japones-ja.txt",
+      "bytes": 6324,
+      "sha256": "823f5c15926a56aa23d31c8c0a5c8a45b7ed968f1a3330be964d2310182831c7",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "ko",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-coreano-ko.txt",
+      "bytes": 5758,
+      "sha256": "2f73f5a0c0933b8c0528e353d31eeca29f556b6f049bd2359c9b61c712e47166",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "hi",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-hindi-hi.txt",
+      "bytes": 10978,
+      "sha256": "0fd0a55a808cc68a0b8c5cbe9737fb5e71ec69566e9885a2ab0d8ecdf146288c",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "th",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-tailandes-th.txt",
+      "bytes": 12511,
+      "sha256": "a4d738f34338a7412e4a8d9daff3c0d00b824ecde0aa14095f9af612104196f8",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "ar",
+      "direcao": "rtl",
+      "arquivo": "Lista_de_tags/tags-arabe-ar.txt",
+      "bytes": 8260,
+      "sha256": "168a7fa8a6494959c77b1e19dbf01f4e6fdb835afd9c78e9d6ff6345108fc09c",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "fa",
+      "direcao": "rtl",
+      "arquivo": "Lista_de_tags/tags-persa-fa.txt",
+      "bytes": 8074,
+      "sha256": "2c98b6c18df8f8077cf61b69fc0475ac9067fd92611f01a40f0cca434babe5ed",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "he",
+      "direcao": "rtl",
+      "arquivo": "Lista_de_tags/tags-hebraico-he.txt",
+      "bytes": 7288,
+      "sha256": "7d0555f47e5e5fc7d82f4bc7abc688453369b2b17dcaa0156452eb4527a37ecb",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "correspondencia_integral": true
+    }
+  ],
+  "limites": [
+    "Repetições entre formação, competências e projetos preservam contextos diferentes. Não representam competências adicionais.",
+    "As traduções são editoriais. Não receberam revisão de especialistas nativos nem demonstram fluência do candidato.",
+    "As traduções permanecem fora de static/ e não foram incorporadas aos dados ocultos do site.",
+    "A correspondência automática não certifica equivalência linguística ou aprovação em ATS proprietários.",
+    "Não foram realizados novos testes de tela, teclado ou impressão, conforme a dispensa do responsável."
+  ],
+  "resultado_positivo": true
+}

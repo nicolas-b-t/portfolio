@@ -1,0 +1,5175 @@
+{
+  "data": "2026-10-14",
+  "origem": "static/pt-BR/index.html, listas skill-list do bloco dados-curriculo após normalização.",
+  "criterio": "Traduções editoriais com correspondência por identificador. Nomes de produtos, siglas e aliases ingleses preservados. Não declara fluência, certificação linguística ou equivalência de documentos brasileiros a licenças locais.",
+  "idiomas": [
+    "ru",
+    "uk",
+    "bg",
+    "sr-Cyrl",
+    "el",
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "hi",
+    "th",
+    "ar",
+    "fa",
+    "he"
+  ],
+  "tags": [
+    {
+      "id": "T001",
+      "pt_BR": "Canva",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Canva",
+        "uk": "Canva",
+        "bg": "Canva",
+        "sr-Cyrl": "Canva",
+        "el": "Canva",
+        "zh-Hans": "Canva",
+        "zh-Hant": "Canva",
+        "ja": "Canva",
+        "ko": "Canva",
+        "hi": "Canva",
+        "th": "Canva",
+        "ar": "Canva",
+        "fa": "Canva",
+        "he": "Canva"
+      }
+    },
+    {
+      "id": "T002",
+      "pt_BR": "Capitalização",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Капитализация",
+        "uk": "Капіталізація",
+        "bg": "Капитализация",
+        "sr-Cyrl": "Капитализација",
+        "el": "Κεφαλαιοποίηση",
+        "zh-Hans": "利息资本化",
+        "zh-Hant": "利息資本化",
+        "ja": "資本化",
+        "ko": "자본화",
+        "hi": "पूंजीकरण",
+        "th": "การสะสมทุน",
+        "ar": "الرسملة",
+        "fa": "سرمایه‌ای‌سازی",
+        "he": "צבירת ריבית"
+      }
+    },
+    {
+      "id": "T003",
+      "pt_BR": "Fluxo de caixa",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Денежный поток",
+        "uk": "Грошовий потік",
+        "bg": "Паричен поток",
+        "sr-Cyrl": "Новчани ток",
+        "el": "Ταμειακή ροή",
+        "zh-Hans": "现金流",
+        "zh-Hant": "現金流",
+        "ja": "キャッシュフロー",
+        "ko": "현금 흐름",
+        "hi": "नकदी प्रवाह",
+        "th": "กระแสเงินสด",
+        "ar": "التدفق النقدي",
+        "fa": "جریان نقدی",
+        "he": "תזרים מזומנים"
+      }
+    },
+    {
+      "id": "T004",
+      "pt_BR": "Gestão de projetos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление проектами",
+        "uk": "Управління проєктами",
+        "bg": "Управление на проекти",
+        "sr-Cyrl": "Управљање пројектима",
+        "el": "Διαχείριση έργων",
+        "zh-Hans": "项目管理",
+        "zh-Hant": "專案管理",
+        "ja": "プロジェクト管理",
+        "ko": "프로젝트 관리",
+        "hi": "परियोजना प्रबंधन",
+        "th": "การบริหารโครงการ",
+        "ar": "إدارة المشاريع",
+        "fa": "مدیریت پروژه",
+        "he": "ניהול פרויקטים"
+      }
+    },
+    {
+      "id": "T005",
+      "pt_BR": "Gestão financeira",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление финансами",
+        "uk": "Управління фінансами",
+        "bg": "Финансово управление",
+        "sr-Cyrl": "Управљање финансијама",
+        "el": "Χρηματοοικονομική διαχείριση",
+        "zh-Hans": "财务管理",
+        "zh-Hant": "財務管理",
+        "ja": "財務管理",
+        "ko": "재무 관리",
+        "hi": "वित्तीय प्रबंधन",
+        "th": "การบริหารการเงิน",
+        "ar": "الإدارة المالية",
+        "fa": "مدیریت مالی",
+        "he": "ניהול פיננסי"
+      }
+    },
+    {
+      "id": "T006",
+      "pt_BR": "Google Drive",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Google Drive",
+        "uk": "Google Drive",
+        "bg": "Google Drive",
+        "sr-Cyrl": "Google Drive",
+        "el": "Google Drive",
+        "zh-Hans": "Google Drive",
+        "zh-Hant": "Google Drive",
+        "ja": "Google Drive",
+        "ko": "Google Drive",
+        "hi": "Google Drive",
+        "th": "Google Drive",
+        "ar": "Google Drive",
+        "fa": "Google Drive",
+        "he": "Google Drive"
+      }
+    },
+    {
+      "id": "T007",
+      "pt_BR": "Indicadores estratégicos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Стратегические показатели",
+        "uk": "Стратегічні показники",
+        "bg": "Стратегически показатели",
+        "sr-Cyrl": "Стратешки показатељи",
+        "el": "Στρατηγικοί δείκτες",
+        "zh-Hans": "战略指标",
+        "zh-Hant": "策略指標",
+        "ja": "戦略指標",
+        "ko": "전략 지표",
+        "hi": "रणनीतिक संकेतक",
+        "th": "ตัวชี้วัดเชิงกลยุทธ์",
+        "ar": "المؤشرات الاستراتيجية",
+        "fa": "شاخص‌های راهبردی",
+        "he": "מדדים אסטרטגיים"
+      }
+    },
+    {
+      "id": "T008",
+      "pt_BR": "LibreOffice",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "LibreOffice",
+        "uk": "LibreOffice",
+        "bg": "LibreOffice",
+        "sr-Cyrl": "LibreOffice",
+        "el": "LibreOffice",
+        "zh-Hans": "LibreOffice",
+        "zh-Hant": "LibreOffice",
+        "ja": "LibreOffice",
+        "ko": "LibreOffice",
+        "hi": "LibreOffice",
+        "th": "LibreOffice",
+        "ar": "LibreOffice",
+        "fa": "LibreOffice",
+        "he": "LibreOffice"
+      }
+    },
+    {
+      "id": "T009",
+      "pt_BR": "Melhoria de processos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Улучшение процессов",
+        "uk": "Удосконалення процесів",
+        "bg": "Подобряване на процеси",
+        "sr-Cyrl": "Унапређење процеса",
+        "el": "Βελτίωση διαδικασιών",
+        "zh-Hans": "流程改进",
+        "zh-Hant": "流程改善",
+        "ja": "プロセス改善",
+        "ko": "프로세스 개선",
+        "hi": "प्रक्रिया सुधार",
+        "th": "การปรับปรุงกระบวนการ",
+        "ar": "تحسين العمليات",
+        "fa": "بهبود فرایندها",
+        "he": "שיפור תהליכים"
+      }
+    },
+    {
+      "id": "T010",
+      "pt_BR": "Metodologias ágeis",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Гибкие методологии",
+        "uk": "Гнучкі методології",
+        "bg": "Гъвкави методологии",
+        "sr-Cyrl": "Агилне методологије",
+        "el": "Ευέλικτες μεθοδολογίες",
+        "zh-Hans": "敏捷方法",
+        "zh-Hant": "敏捷方法",
+        "ja": "アジャイル手法",
+        "ko": "애자일 방법론",
+        "hi": "एजाइल कार्यपद्धतियाँ",
+        "th": "ระเบียบวิธีแบบอไจล์",
+        "ar": "المنهجيات الرشيقة",
+        "fa": "روش‌شناسی‌های چابک",
+        "he": "מתודולוגיות אג׳ייל"
+      }
+    },
+    {
+      "id": "T011",
+      "pt_BR": "Microsoft Excel",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Excel",
+        "uk": "Microsoft Excel",
+        "bg": "Microsoft Excel",
+        "sr-Cyrl": "Microsoft Excel",
+        "el": "Microsoft Excel",
+        "zh-Hans": "Microsoft Excel",
+        "zh-Hant": "Microsoft Excel",
+        "ja": "Microsoft Excel",
+        "ko": "Microsoft Excel",
+        "hi": "Microsoft Excel",
+        "th": "Microsoft Excel",
+        "ar": "Microsoft Excel",
+        "fa": "Microsoft Excel",
+        "he": "Microsoft Excel"
+      }
+    },
+    {
+      "id": "T012",
+      "pt_BR": "Microsoft Office",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Office",
+        "uk": "Microsoft Office",
+        "bg": "Microsoft Office",
+        "sr-Cyrl": "Microsoft Office",
+        "el": "Microsoft Office",
+        "zh-Hans": "Microsoft Office",
+        "zh-Hant": "Microsoft Office",
+        "ja": "Microsoft Office",
+        "ko": "Microsoft Office",
+        "hi": "Microsoft Office",
+        "th": "Microsoft Office",
+        "ar": "Microsoft Office",
+        "fa": "Microsoft Office",
+        "he": "Microsoft Office"
+      }
+    },
+    {
+      "id": "T013",
+      "pt_BR": "Microsoft Teams",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Teams",
+        "uk": "Microsoft Teams",
+        "bg": "Microsoft Teams",
+        "sr-Cyrl": "Microsoft Teams",
+        "el": "Microsoft Teams",
+        "zh-Hans": "Microsoft Teams",
+        "zh-Hant": "Microsoft Teams",
+        "ja": "Microsoft Teams",
+        "ko": "Microsoft Teams",
+        "hi": "Microsoft Teams",
+        "th": "Microsoft Teams",
+        "ar": "Microsoft Teams",
+        "fa": "Microsoft Teams",
+        "he": "Microsoft Teams"
+      }
+    },
+    {
+      "id": "T014",
+      "pt_BR": "Office 365",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Office 365",
+        "uk": "Office 365",
+        "bg": "Office 365",
+        "sr-Cyrl": "Office 365",
+        "el": "Office 365",
+        "zh-Hans": "Office 365",
+        "zh-Hant": "Office 365",
+        "ja": "Office 365",
+        "ko": "Office 365",
+        "hi": "Office 365",
+        "th": "Office 365",
+        "ar": "Office 365",
+        "fa": "Office 365",
+        "he": "Office 365"
+      }
+    },
+    {
+      "id": "T015",
+      "pt_BR": "OneDrive",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "OneDrive",
+        "uk": "OneDrive",
+        "bg": "OneDrive",
+        "sr-Cyrl": "OneDrive",
+        "el": "OneDrive",
+        "zh-Hans": "OneDrive",
+        "zh-Hant": "OneDrive",
+        "ja": "OneDrive",
+        "ko": "OneDrive",
+        "hi": "OneDrive",
+        "th": "OneDrive",
+        "ar": "OneDrive",
+        "fa": "OneDrive",
+        "he": "OneDrive"
+      }
+    },
+    {
+      "id": "T016",
+      "pt_BR": "Planejamento de metas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Планирование целей",
+        "uk": "Планування цілей",
+        "bg": "Планиране на цели",
+        "sr-Cyrl": "Планирање циљева",
+        "el": "Σχεδιασμός στόχων",
+        "zh-Hans": "目标规划",
+        "zh-Hant": "目標規劃",
+        "ja": "目標計画",
+        "ko": "목표 계획",
+        "hi": "लक्ष्य नियोजन",
+        "th": "การวางแผนเป้าหมาย",
+        "ar": "تخطيط الأهداف",
+        "fa": "برنامه‌ریزی اهداف",
+        "he": "תכנון יעדים"
+      }
+    },
+    {
+      "id": "T017",
+      "pt_BR": "Scrum",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Scrum",
+        "uk": "Scrum",
+        "bg": "Scrum",
+        "sr-Cyrl": "Scrum",
+        "el": "Scrum",
+        "zh-Hans": "Scrum",
+        "zh-Hant": "Scrum",
+        "ja": "Scrum",
+        "ko": "Scrum",
+        "hi": "Scrum",
+        "th": "Scrum",
+        "ar": "Scrum",
+        "fa": "Scrum",
+        "he": "Scrum"
+      }
+    },
+    {
+      "id": "T018",
+      "pt_BR": "Trello",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Trello",
+        "uk": "Trello",
+        "bg": "Trello",
+        "sr-Cyrl": "Trello",
+        "el": "Trello",
+        "zh-Hans": "Trello",
+        "zh-Hant": "Trello",
+        "ja": "Trello",
+        "ko": "Trello",
+        "hi": "Trello",
+        "th": "Trello",
+        "ar": "Trello",
+        "fa": "Trello",
+        "he": "Trello"
+      }
+    },
+    {
+      "id": "T019",
+      "pt_BR": "Microsoft Windows",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Windows",
+        "uk": "Microsoft Windows",
+        "bg": "Microsoft Windows",
+        "sr-Cyrl": "Microsoft Windows",
+        "el": "Microsoft Windows",
+        "zh-Hans": "Microsoft Windows",
+        "zh-Hant": "Microsoft Windows",
+        "ja": "Microsoft Windows",
+        "ko": "Microsoft Windows",
+        "hi": "Microsoft Windows",
+        "th": "Microsoft Windows",
+        "ar": "Microsoft Windows",
+        "fa": "Microsoft Windows",
+        "he": "Microsoft Windows"
+      }
+    },
+    {
+      "id": "T020",
+      "pt_BR": "Windows 10",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Windows 10",
+        "uk": "Windows 10",
+        "bg": "Windows 10",
+        "sr-Cyrl": "Windows 10",
+        "el": "Windows 10",
+        "zh-Hans": "Windows 10",
+        "zh-Hant": "Windows 10",
+        "ja": "Windows 10",
+        "ko": "Windows 10",
+        "hi": "Windows 10",
+        "th": "Windows 10",
+        "ar": "Windows 10",
+        "fa": "Windows 10",
+        "he": "Windows 10"
+      }
+    },
+    {
+      "id": "T021",
+      "pt_BR": "Windows 11",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Windows 11",
+        "uk": "Windows 11",
+        "bg": "Windows 11",
+        "sr-Cyrl": "Windows 11",
+        "el": "Windows 11",
+        "zh-Hans": "Windows 11",
+        "zh-Hant": "Windows 11",
+        "ja": "Windows 11",
+        "ko": "Windows 11",
+        "hi": "Windows 11",
+        "th": "Windows 11",
+        "ar": "Windows 11",
+        "fa": "Windows 11",
+        "he": "Windows 11"
+      }
+    },
+    {
+      "id": "T022",
+      "pt_BR": "Microsoft Windows Server",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Windows Server",
+        "uk": "Microsoft Windows Server",
+        "bg": "Microsoft Windows Server",
+        "sr-Cyrl": "Microsoft Windows Server",
+        "el": "Microsoft Windows Server",
+        "zh-Hans": "Microsoft Windows Server",
+        "zh-Hant": "Microsoft Windows Server",
+        "ja": "Microsoft Windows Server",
+        "ko": "Microsoft Windows Server",
+        "hi": "Microsoft Windows Server",
+        "th": "Microsoft Windows Server",
+        "ar": "Microsoft Windows Server",
+        "fa": "Microsoft Windows Server",
+        "he": "Microsoft Windows Server"
+      }
+    },
+    {
+      "id": "T023",
+      "pt_BR": "Windows Server 2008 R2",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Windows Server 2008 R2",
+        "uk": "Windows Server 2008 R2",
+        "bg": "Windows Server 2008 R2",
+        "sr-Cyrl": "Windows Server 2008 R2",
+        "el": "Windows Server 2008 R2",
+        "zh-Hans": "Windows Server 2008 R2",
+        "zh-Hant": "Windows Server 2008 R2",
+        "ja": "Windows Server 2008 R2",
+        "ko": "Windows Server 2008 R2",
+        "hi": "Windows Server 2008 R2",
+        "th": "Windows Server 2008 R2",
+        "ar": "Windows Server 2008 R2",
+        "fa": "Windows Server 2008 R2",
+        "he": "Windows Server 2008 R2"
+      }
+    },
+    {
+      "id": "T024",
+      "pt_BR": "Windows Server 2016",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Windows Server 2016",
+        "uk": "Windows Server 2016",
+        "bg": "Windows Server 2016",
+        "sr-Cyrl": "Windows Server 2016",
+        "el": "Windows Server 2016",
+        "zh-Hans": "Windows Server 2016",
+        "zh-Hant": "Windows Server 2016",
+        "ja": "Windows Server 2016",
+        "ko": "Windows Server 2016",
+        "hi": "Windows Server 2016",
+        "th": "Windows Server 2016",
+        "ar": "Windows Server 2016",
+        "fa": "Windows Server 2016",
+        "he": "Windows Server 2016"
+      }
+    },
+    {
+      "id": "T025",
+      "pt_BR": "Linux",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Linux",
+        "uk": "Linux",
+        "bg": "Linux",
+        "sr-Cyrl": "Linux",
+        "el": "Linux",
+        "zh-Hans": "Linux",
+        "zh-Hant": "Linux",
+        "ja": "Linux",
+        "ko": "Linux",
+        "hi": "Linux",
+        "th": "Linux",
+        "ar": "Linux",
+        "fa": "Linux",
+        "he": "Linux"
+      }
+    },
+    {
+      "id": "T026",
+      "pt_BR": "Debian",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Debian",
+        "uk": "Debian",
+        "bg": "Debian",
+        "sr-Cyrl": "Debian",
+        "el": "Debian",
+        "zh-Hans": "Debian",
+        "zh-Hant": "Debian",
+        "ja": "Debian",
+        "ko": "Debian",
+        "hi": "Debian",
+        "th": "Debian",
+        "ar": "Debian",
+        "fa": "Debian",
+        "he": "Debian"
+      }
+    },
+    {
+      "id": "T027",
+      "pt_BR": "Ubuntu",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Ubuntu",
+        "uk": "Ubuntu",
+        "bg": "Ubuntu",
+        "sr-Cyrl": "Ubuntu",
+        "el": "Ubuntu",
+        "zh-Hans": "Ubuntu",
+        "zh-Hant": "Ubuntu",
+        "ja": "Ubuntu",
+        "ko": "Ubuntu",
+        "hi": "Ubuntu",
+        "th": "Ubuntu",
+        "ar": "Ubuntu",
+        "fa": "Ubuntu",
+        "he": "Ubuntu"
+      }
+    },
+    {
+      "id": "T028",
+      "pt_BR": "Aprendizado de máquina",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Машинное обучение",
+        "uk": "Машинне навчання",
+        "bg": "Машинно обучение",
+        "sr-Cyrl": "Машинско учење",
+        "el": "Μηχανική μάθηση",
+        "zh-Hans": "机器学习",
+        "zh-Hant": "機器學習",
+        "ja": "機械学習",
+        "ko": "기계 학습",
+        "hi": "मशीन लर्निंग",
+        "th": "การเรียนรู้ของเครื่อง",
+        "ar": "تعلم الآلة",
+        "fa": "یادگیری ماشین",
+        "he": "למידת מכונה"
+      }
+    },
+    {
+      "id": "T029",
+      "pt_BR": "Machine learning",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Machine learning",
+        "uk": "Machine learning",
+        "bg": "Machine learning",
+        "sr-Cyrl": "Machine learning",
+        "el": "Machine learning",
+        "zh-Hans": "Machine learning",
+        "zh-Hant": "Machine learning",
+        "ja": "Machine learning",
+        "ko": "Machine learning",
+        "hi": "Machine learning",
+        "th": "Machine learning",
+        "ar": "Machine learning",
+        "fa": "Machine learning",
+        "he": "Machine learning"
+      }
+    },
+    {
+      "id": "T030",
+      "pt_BR": "Inteligência artificial (IA)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Искусственный интеллект (ИИ)",
+        "uk": "Штучний інтелект (ШІ)",
+        "bg": "Изкуствен интелект (ИИ)",
+        "sr-Cyrl": "Вештачка интелигенција (ВИ)",
+        "el": "Τεχνητή νοημοσύνη (ΤΝ)",
+        "zh-Hans": "人工智能（AI）",
+        "zh-Hant": "人工智慧（AI）",
+        "ja": "人工知能（AI）",
+        "ko": "인공지능(AI)",
+        "hi": "कृत्रिम बुद्धिमत्ता (AI)",
+        "th": "ปัญญาประดิษฐ์ (AI)",
+        "ar": "الذكاء الاصطناعي (AI)",
+        "fa": "هوش مصنوعی (AI)",
+        "he": "בינה מלאכותית (AI)"
+      }
+    },
+    {
+      "id": "T031",
+      "pt_BR": "JavaScript",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "JavaScript",
+        "uk": "JavaScript",
+        "bg": "JavaScript",
+        "sr-Cyrl": "JavaScript",
+        "el": "JavaScript",
+        "zh-Hans": "JavaScript",
+        "zh-Hant": "JavaScript",
+        "ja": "JavaScript",
+        "ko": "JavaScript",
+        "hi": "JavaScript",
+        "th": "JavaScript",
+        "ar": "JavaScript",
+        "fa": "JavaScript",
+        "he": "JavaScript"
+      }
+    },
+    {
+      "id": "T032",
+      "pt_BR": "Lógica de programação",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Логика программирования",
+        "uk": "Логіка програмування",
+        "bg": "Логика на програмирането",
+        "sr-Cyrl": "Логика програмирања",
+        "el": "Λογική προγραμματισμού",
+        "zh-Hans": "编程逻辑",
+        "zh-Hant": "程式設計邏輯",
+        "ja": "プログラミングの論理",
+        "ko": "프로그래밍 논리",
+        "hi": "प्रोग्रामिंग तर्क",
+        "th": "ตรรกะการเขียนโปรแกรม",
+        "ar": "منطق البرمجة",
+        "fa": "منطق برنامه‌نویسی",
+        "he": "לוגיקת תכנות"
+      }
+    },
+    {
+      "id": "T033",
+      "pt_BR": "Modelagem de dados",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Моделирование данных",
+        "uk": "Моделювання даних",
+        "bg": "Моделиране на данни",
+        "sr-Cyrl": "Моделовање података",
+        "el": "Μοντελοποίηση δεδομένων",
+        "zh-Hans": "数据建模",
+        "zh-Hant": "資料建模",
+        "ja": "データモデリング",
+        "ko": "데이터 모델링",
+        "hi": "डेटा मॉडलिंग",
+        "th": "การสร้างแบบจำลองข้อมูล",
+        "ar": "نمذجة البيانات",
+        "fa": "مدل‌سازی داده",
+        "he": "מידול נתונים"
+      }
+    },
+    {
+      "id": "T034",
+      "pt_BR": "Python",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Python",
+        "uk": "Python",
+        "bg": "Python",
+        "sr-Cyrl": "Python",
+        "el": "Python",
+        "zh-Hans": "Python",
+        "zh-Hant": "Python",
+        "ja": "Python",
+        "ko": "Python",
+        "hi": "Python",
+        "th": "Python",
+        "ar": "Python",
+        "fa": "Python",
+        "he": "Python"
+      }
+    },
+    {
+      "id": "T035",
+      "pt_BR": "OpenAI ChatGPT",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "OpenAI ChatGPT",
+        "uk": "OpenAI ChatGPT",
+        "bg": "OpenAI ChatGPT",
+        "sr-Cyrl": "OpenAI ChatGPT",
+        "el": "OpenAI ChatGPT",
+        "zh-Hans": "OpenAI ChatGPT",
+        "zh-Hant": "OpenAI ChatGPT",
+        "ja": "OpenAI ChatGPT",
+        "ko": "OpenAI ChatGPT",
+        "hi": "OpenAI ChatGPT",
+        "th": "OpenAI ChatGPT",
+        "ar": "OpenAI ChatGPT",
+        "fa": "OpenAI ChatGPT",
+        "he": "OpenAI ChatGPT"
+      }
+    },
+    {
+      "id": "T036",
+      "pt_BR": "Codex (OpenAI)",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Codex (OpenAI)",
+        "uk": "Codex (OpenAI)",
+        "bg": "Codex (OpenAI)",
+        "sr-Cyrl": "Codex (OpenAI)",
+        "el": "Codex (OpenAI)",
+        "zh-Hans": "Codex (OpenAI)",
+        "zh-Hant": "Codex (OpenAI)",
+        "ja": "Codex (OpenAI)",
+        "ko": "Codex (OpenAI)",
+        "hi": "Codex (OpenAI)",
+        "th": "Codex (OpenAI)",
+        "ar": "Codex (OpenAI)",
+        "fa": "Codex (OpenAI)",
+        "he": "Codex (OpenAI)"
+      }
+    },
+    {
+      "id": "T037",
+      "pt_BR": "Claude",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Claude",
+        "uk": "Claude",
+        "bg": "Claude",
+        "sr-Cyrl": "Claude",
+        "el": "Claude",
+        "zh-Hans": "Claude",
+        "zh-Hant": "Claude",
+        "ja": "Claude",
+        "ko": "Claude",
+        "hi": "Claude",
+        "th": "Claude",
+        "ar": "Claude",
+        "fa": "Claude",
+        "he": "Claude"
+      }
+    },
+    {
+      "id": "T038",
+      "pt_BR": "Claude Code",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Claude Code",
+        "uk": "Claude Code",
+        "bg": "Claude Code",
+        "sr-Cyrl": "Claude Code",
+        "el": "Claude Code",
+        "zh-Hans": "Claude Code",
+        "zh-Hant": "Claude Code",
+        "ja": "Claude Code",
+        "ko": "Claude Code",
+        "hi": "Claude Code",
+        "th": "Claude Code",
+        "ar": "Claude Code",
+        "fa": "Claude Code",
+        "he": "Claude Code"
+      }
+    },
+    {
+      "id": "T039",
+      "pt_BR": "Desenvolvimento com agentes de IA",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Разработка с использованием ИИ-агентов",
+        "uk": "Розробка з використанням ШІ-агентів",
+        "bg": "Разработка с ИИ агенти",
+        "sr-Cyrl": "Развој уз ВИ агенте",
+        "el": "Ανάπτυξη με πράκτορες ΤΝ",
+        "zh-Hans": "使用人工智能智能体进行开发",
+        "zh-Hant": "使用人工智慧代理進行開發",
+        "ja": "AIエージェントを用いた開発",
+        "ko": "AI 에이전트를 활용한 개발",
+        "hi": "AI एजेंटों के साथ विकास",
+        "th": "การพัฒนาโดยใช้เอเจนต์ AI",
+        "ar": "التطوير باستخدام وكلاء الذكاء الاصطناعي",
+        "fa": "توسعه با عامل‌های هوش مصنوعی",
+        "he": "פיתוח בעזרת סוכני בינה מלאכותית"
+      }
+    },
+    {
+      "id": "T040",
+      "pt_BR": "OpenCode",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "OpenCode",
+        "uk": "OpenCode",
+        "bg": "OpenCode",
+        "sr-Cyrl": "OpenCode",
+        "el": "OpenCode",
+        "zh-Hans": "OpenCode",
+        "zh-Hant": "OpenCode",
+        "ja": "OpenCode",
+        "ko": "OpenCode",
+        "hi": "OpenCode",
+        "th": "OpenCode",
+        "ar": "OpenCode",
+        "fa": "OpenCode",
+        "he": "OpenCode"
+      }
+    },
+    {
+      "id": "T041",
+      "pt_BR": "Desenvolvimento ágil",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Гибкая разработка",
+        "uk": "Гнучка розробка",
+        "bg": "Гъвкава разработка",
+        "sr-Cyrl": "Агилни развој",
+        "el": "Ευέλικτη ανάπτυξη",
+        "zh-Hans": "敏捷开发",
+        "zh-Hant": "敏捷開發",
+        "ja": "アジャイル開発",
+        "ko": "애자일 개발",
+        "hi": "एजाइल विकास",
+        "th": "การพัฒนาแบบอไจล์",
+        "ar": "التطوير الرشيق",
+        "fa": "توسعه چابک",
+        "he": "פיתוח אג׳ילי"
+      }
+    },
+    {
+      "id": "T042",
+      "pt_BR": "Desenvolvimento em cascata",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Каскадная разработка",
+        "uk": "Каскадна розробка",
+        "bg": "Каскадна разработка",
+        "sr-Cyrl": "Развој по моделу водопада",
+        "el": "Ανάπτυξη με το μοντέλο καταρράκτη",
+        "zh-Hans": "瀑布式开发",
+        "zh-Hant": "瀑布式開發",
+        "ja": "ウォーターフォール開発",
+        "ko": "폭포수 개발",
+        "hi": "वॉटरफॉल विकास",
+        "th": "การพัฒนาแบบน้ำตก",
+        "ar": "التطوير بنموذج الشلال",
+        "fa": "توسعه آبشاری",
+        "he": "פיתוח במודל מפל המים"
+      }
+    },
+    {
+      "id": "T043",
+      "pt_BR": "Desenvolvimento orientado por especificações",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Разработка на основе спецификаций",
+        "uk": "Розробка на основі специфікацій",
+        "bg": "Разработка по спецификации",
+        "sr-Cyrl": "Развој вођен спецификацијама",
+        "el": "Ανάπτυξη βάσει προδιαγραφών",
+        "zh-Hans": "规格驱动开发",
+        "zh-Hant": "規格驅動開發",
+        "ja": "仕様駆動開発",
+        "ko": "명세 기반 개발",
+        "hi": "विनिर्देश-आधारित विकास",
+        "th": "การพัฒนาตามข้อกำหนดรายละเอียด",
+        "ar": "التطوير الموجّه بالمواصفات",
+        "fa": "توسعه مبتنی بر مشخصات",
+        "he": "פיתוח מונחה מפרטים"
+      }
+    },
+    {
+      "id": "T044",
+      "pt_BR": "Prototipação",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Прототипирование",
+        "uk": "Прототипування",
+        "bg": "Прототипиране",
+        "sr-Cyrl": "Израда прототипова",
+        "el": "Πρωτοτυποποίηση",
+        "zh-Hans": "原型设计",
+        "zh-Hant": "原型設計",
+        "ja": "プロトタイピング",
+        "ko": "프로토타이핑",
+        "hi": "प्रोटोटाइप निर्माण",
+        "th": "การสร้างต้นแบบ",
+        "ar": "إعداد النماذج الأولية",
+        "fa": "نمونه‌سازی اولیه",
+        "he": "בניית אבות טיפוס"
+      }
+    },
+    {
+      "id": "T045",
+      "pt_BR": "Produto mínimo viável (MVP)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Минимально жизнеспособный продукт (MVP)",
+        "uk": "Мінімально життєздатний продукт (MVP)",
+        "bg": "Минимално жизнеспособен продукт (MVP)",
+        "sr-Cyrl": "Минимално одржив производ (MVP)",
+        "el": "Ελάχιστο βιώσιμο προϊόν (MVP)",
+        "zh-Hans": "最小可行产品（MVP）",
+        "zh-Hant": "最小可行產品（MVP）",
+        "ja": "実用最小限の製品（MVP）",
+        "ko": "최소 기능 제품(MVP)",
+        "hi": "न्यूनतम व्यवहार्य उत्पाद (MVP)",
+        "th": "ผลิตภัณฑ์ที่ใช้งานได้ขั้นต่ำ (MVP)",
+        "ar": "المنتج الأولي القابل للاستخدام (MVP)",
+        "fa": "حداقل محصول پذیرفتنی (MVP)",
+        "he": "מוצר בר-קיימא מינימלי (MVP)"
+      }
+    },
+    {
+      "id": "T046",
+      "pt_BR": "Consultas SQL",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "SQL-запросы",
+        "uk": "SQL-запити",
+        "bg": "SQL заявки",
+        "sr-Cyrl": "SQL упити",
+        "el": "Ερωτήματα SQL",
+        "zh-Hans": "SQL 查询",
+        "zh-Hant": "SQL 查詢",
+        "ja": "SQLクエリ",
+        "ko": "SQL 질의",
+        "hi": "SQL क्वेरी",
+        "th": "คำสั่งค้นหา SQL",
+        "ar": "استعلامات SQL",
+        "fa": "پرس‌وجوهای SQL",
+        "he": "שאילתות SQL"
+      }
+    },
+    {
+      "id": "T047",
+      "pt_BR": "SQL",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "SQL",
+        "uk": "SQL",
+        "bg": "SQL",
+        "sr-Cyrl": "SQL",
+        "el": "SQL",
+        "zh-Hans": "SQL",
+        "zh-Hant": "SQL",
+        "ja": "SQL",
+        "ko": "SQL",
+        "hi": "SQL",
+        "th": "SQL",
+        "ar": "SQL",
+        "fa": "SQL",
+        "he": "SQL"
+      }
+    },
+    {
+      "id": "T048",
+      "pt_BR": "PostgreSQL",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "PostgreSQL",
+        "uk": "PostgreSQL",
+        "bg": "PostgreSQL",
+        "sr-Cyrl": "PostgreSQL",
+        "el": "PostgreSQL",
+        "zh-Hans": "PostgreSQL",
+        "zh-Hant": "PostgreSQL",
+        "ja": "PostgreSQL",
+        "ko": "PostgreSQL",
+        "hi": "PostgreSQL",
+        "th": "PostgreSQL",
+        "ar": "PostgreSQL",
+        "fa": "PostgreSQL",
+        "he": "PostgreSQL"
+      }
+    },
+    {
+      "id": "T049",
+      "pt_BR": "SQLite",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "SQLite",
+        "uk": "SQLite",
+        "bg": "SQLite",
+        "sr-Cyrl": "SQLite",
+        "el": "SQLite",
+        "zh-Hans": "SQLite",
+        "zh-Hant": "SQLite",
+        "ja": "SQLite",
+        "ko": "SQLite",
+        "hi": "SQLite",
+        "th": "SQLite",
+        "ar": "SQLite",
+        "fa": "SQLite",
+        "he": "SQLite"
+      }
+    },
+    {
+      "id": "T050",
+      "pt_BR": "Cabeamento de redes",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Прокладка сетевых кабелей",
+        "uk": "Прокладання мережевих кабелів",
+        "bg": "Мрежово окабеляване",
+        "sr-Cyrl": "Мрежно каблирање",
+        "el": "Καλωδίωση δικτύων",
+        "zh-Hans": "网络布线",
+        "zh-Hant": "網路佈線",
+        "ja": "ネットワーク配線",
+        "ko": "네트워크 배선",
+        "hi": "नेटवर्क केबल बिछाना",
+        "th": "การเดินสายเครือข่าย",
+        "ar": "تمديد كابلات الشبكات",
+        "fa": "کابل‌کشی شبکه",
+        "he": "כבילת רשתות"
+      }
+    },
+    {
+      "id": "T051",
+      "pt_BR": "Cabo drop",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Абонентский кабель drop",
+        "uk": "Абонентський кабель drop",
+        "bg": "Абонатен кабел drop",
+        "sr-Cyrl": "Претплатнички кабл drop",
+        "el": "Καλώδιο συνδρομητή drop",
+        "zh-Hans": "入户光缆（drop）",
+        "zh-Hant": "用戶引接光纜（drop）",
+        "ja": "引込用光ファイバーケーブル（drop）",
+        "ko": "가입자 인입 광케이블(drop)",
+        "hi": "ग्राहक तक जाने वाली ड्रॉप केबल",
+        "th": "สายใยแก้วนำแสงเข้าบ้าน (drop)",
+        "ar": "كابل التوصيل إلى المشترك (drop)",
+        "fa": "کابل انشعاب مشترک (drop)",
+        "he": "כבל חיבור למנוי (drop)"
+      }
+    },
+    {
+      "id": "T052",
+      "pt_BR": "Configuração de roteadores",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Настройка маршрутизаторов",
+        "uk": "Налаштування маршрутизаторів",
+        "bg": "Конфигуриране на маршрутизатори",
+        "sr-Cyrl": "Подешавање рутера",
+        "el": "Ρύθμιση δρομολογητών",
+        "zh-Hans": "路由器配置",
+        "zh-Hant": "路由器設定",
+        "ja": "ルーター設定",
+        "ko": "라우터 설정",
+        "hi": "राउटर कॉन्फ़िगरेशन",
+        "th": "การตั้งค่าเราเตอร์",
+        "ar": "تهيئة أجهزة التوجيه",
+        "fa": "پیکربندی مسیریاب‌ها",
+        "he": "הגדרת נתבים"
+      }
+    },
+    {
+      "id": "T053",
+      "pt_BR": "Conexões a rádio",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Радиосоединения",
+        "uk": "Радіоз’єднання",
+        "bg": "Радиовръзки",
+        "sr-Cyrl": "Радио-везе",
+        "el": "Ραδιοσυνδέσεις",
+        "zh-Hans": "无线电连接",
+        "zh-Hant": "無線電連線",
+        "ja": "無線接続",
+        "ko": "무선 연결",
+        "hi": "रेडियो कनेक्शन",
+        "th": "การเชื่อมต่อด้วยคลื่นวิทยุ",
+        "ar": "اتصالات لاسلكية راديوية",
+        "fa": "اتصالات رادیویی",
+        "he": "חיבורי רדיו"
+      }
+    },
+    {
+      "id": "T054",
+      "pt_BR": "FTTH",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "FTTH",
+        "uk": "FTTH",
+        "bg": "FTTH",
+        "sr-Cyrl": "FTTH",
+        "el": "FTTH",
+        "zh-Hans": "FTTH",
+        "zh-Hant": "FTTH",
+        "ja": "FTTH",
+        "ko": "FTTH",
+        "hi": "FTTH",
+        "th": "FTTH",
+        "ar": "FTTH",
+        "fa": "FTTH",
+        "he": "FTTH"
+      }
+    },
+    {
+      "id": "T055",
+      "pt_BR": "Fusão de fibra óptica, aprendiz",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Сварка оптоволокна, ученик",
+        "uk": "Зварювання оптоволокна, учень",
+        "bg": "Заваряване на оптични влакна, обучаем",
+        "sr-Cyrl": "Спајање оптичких влакана фузијом, приправник",
+        "el": "Συγκόλληση οπτικών ινών, μαθητευόμενος",
+        "zh-Hans": "光纤熔接，学徒",
+        "zh-Hant": "光纖熔接，學徒",
+        "ja": "光ファイバー融着接続、見習い",
+        "ko": "광섬유 융착 접속, 견습",
+        "hi": "ऑप्टिकल फाइबर फ्यूज़न स्प्लाइसिंग, प्रशिक्षु",
+        "th": "การเชื่อมใยแก้วนำแสงแบบหลอมรวม, ผู้ฝึกงาน",
+        "ar": "لحام الألياف البصرية بالانصهار، متدرب",
+        "fa": "جوش فیبر نوری، کارآموز",
+        "he": "חיבור סיבים אופטיים בהיתוך, מתלמד"
+      }
+    },
+    {
+      "id": "T056",
+      "pt_BR": "Medidor de potência óptica (power meter)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Измеритель оптической мощности (power meter)",
+        "uk": "Вимірювач оптичної потужності (power meter)",
+        "bg": "Измервател на оптична мощност (power meter)",
+        "sr-Cyrl": "Мерач оптичке снаге (power meter)",
+        "el": "Μετρητής οπτικής ισχύος (power meter)",
+        "zh-Hans": "光功率计（power meter）",
+        "zh-Hant": "光功率計（power meter）",
+        "ja": "光パワーメーター（power meter）",
+        "ko": "광 파워 미터(power meter)",
+        "hi": "ऑप्टिकल पावर मीटर (power meter)",
+        "th": "เครื่องวัดกำลังแสง (power meter)",
+        "ar": "مقياس القدرة الضوئية (power meter)",
+        "fa": "توان‌سنج نوری (power meter)",
+        "he": "מד הספק אופטי (power meter)"
+      }
+    },
+    {
+      "id": "T057",
+      "pt_BR": "ONT",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "ONT",
+        "uk": "ONT",
+        "bg": "ONT",
+        "sr-Cyrl": "ONT",
+        "el": "ONT",
+        "zh-Hans": "ONT",
+        "zh-Hant": "ONT",
+        "ja": "ONT",
+        "ko": "ONT",
+        "hi": "ONT",
+        "th": "ONT",
+        "ar": "ONT",
+        "fa": "ONT",
+        "he": "ONT"
+      }
+    },
+    {
+      "id": "T058",
+      "pt_BR": "ONU",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "ONU",
+        "uk": "ONU",
+        "bg": "ONU",
+        "sr-Cyrl": "ONU",
+        "el": "ONU",
+        "zh-Hans": "ONU",
+        "zh-Hant": "ONU",
+        "ja": "ONU",
+        "ko": "ONU",
+        "hi": "ONU",
+        "th": "ONU",
+        "ar": "ONU",
+        "fa": "ONU",
+        "he": "ONU"
+      }
+    },
+    {
+      "id": "T059",
+      "pt_BR": "OTDR",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "OTDR",
+        "uk": "OTDR",
+        "bg": "OTDR",
+        "sr-Cyrl": "OTDR",
+        "el": "OTDR",
+        "zh-Hans": "OTDR",
+        "zh-Hant": "OTDR",
+        "ja": "OTDR",
+        "ko": "OTDR",
+        "hi": "OTDR",
+        "th": "OTDR",
+        "ar": "OTDR",
+        "fa": "OTDR",
+        "he": "OTDR"
+      }
+    },
+    {
+      "id": "T060",
+      "pt_BR": "PoE",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "PoE",
+        "uk": "PoE",
+        "bg": "PoE",
+        "sr-Cyrl": "PoE",
+        "el": "PoE",
+        "zh-Hans": "PoE",
+        "zh-Hant": "PoE",
+        "ja": "PoE",
+        "ko": "PoE",
+        "hi": "PoE",
+        "th": "PoE",
+        "ar": "PoE",
+        "fa": "PoE",
+        "he": "PoE"
+      }
+    },
+    {
+      "id": "T061",
+      "pt_BR": "PPPoE",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "PPPoE",
+        "uk": "PPPoE",
+        "bg": "PPPoE",
+        "sr-Cyrl": "PPPoE",
+        "el": "PPPoE",
+        "zh-Hans": "PPPoE",
+        "zh-Hant": "PPPoE",
+        "ja": "PPPoE",
+        "ko": "PPPoE",
+        "hi": "PPPoE",
+        "th": "PPPoE",
+        "ar": "PPPoE",
+        "fa": "PPPoE",
+        "he": "PPPoE"
+      }
+    },
+    {
+      "id": "T062",
+      "pt_BR": "Redes locais (LAN)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Локальные сети (LAN)",
+        "uk": "Локальні мережі (LAN)",
+        "bg": "Локални мрежи (LAN)",
+        "sr-Cyrl": "Локалне мреже (LAN)",
+        "el": "Τοπικά δίκτυα (LAN)",
+        "zh-Hans": "局域网（LAN）",
+        "zh-Hant": "區域網路（LAN）",
+        "ja": "ローカルエリアネットワーク（LAN）",
+        "ko": "근거리 통신망(LAN)",
+        "hi": "स्थानीय क्षेत्र नेटवर्क (LAN)",
+        "th": "เครือข่ายท้องถิ่น (LAN)",
+        "ar": "الشبكات المحلية (LAN)",
+        "fa": "شبکه‌های محلی (LAN)",
+        "he": "רשתות מקומיות (LAN)"
+      }
+    },
+    {
+      "id": "T063",
+      "pt_BR": "Redes mesh",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Ячеистые сети mesh",
+        "uk": "Сітчасті мережі mesh",
+        "bg": "Мрежи mesh",
+        "sr-Cyrl": "Мреже mesh",
+        "el": "Δίκτυα mesh",
+        "zh-Hans": "网状网络（mesh）",
+        "zh-Hant": "網狀網路（mesh）",
+        "ja": "メッシュネットワーク",
+        "ko": "메시 네트워크",
+        "hi": "मेश नेटवर्क",
+        "th": "เครือข่ายเมช",
+        "ar": "الشبكات المتداخلة (mesh)",
+        "fa": "شبکه‌های مش",
+        "he": "רשתות mesh"
+      }
+    },
+    {
+      "id": "T064",
+      "pt_BR": "RJ45",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "RJ45",
+        "uk": "RJ45",
+        "bg": "RJ45",
+        "sr-Cyrl": "RJ45",
+        "el": "RJ45",
+        "zh-Hans": "RJ45",
+        "zh-Hant": "RJ45",
+        "ja": "RJ45",
+        "ko": "RJ45",
+        "hi": "RJ45",
+        "th": "RJ45",
+        "ar": "RJ45",
+        "fa": "RJ45",
+        "he": "RJ45"
+      }
+    },
+    {
+      "id": "T065",
+      "pt_BR": "SC/APC",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "SC/APC",
+        "uk": "SC/APC",
+        "bg": "SC/APC",
+        "sr-Cyrl": "SC/APC",
+        "el": "SC/APC",
+        "zh-Hans": "SC/APC",
+        "zh-Hant": "SC/APC",
+        "ja": "SC/APC",
+        "ko": "SC/APC",
+        "hi": "SC/APC",
+        "th": "SC/APC",
+        "ar": "SC/APC",
+        "fa": "SC/APC",
+        "he": "SC/APC"
+      }
+    },
+    {
+      "id": "T066",
+      "pt_BR": "VFL",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "VFL",
+        "uk": "VFL",
+        "bg": "VFL",
+        "sr-Cyrl": "VFL",
+        "el": "VFL",
+        "zh-Hans": "VFL",
+        "zh-Hant": "VFL",
+        "ja": "VFL",
+        "ko": "VFL",
+        "hi": "VFL",
+        "th": "VFL",
+        "ar": "VFL",
+        "fa": "VFL",
+        "he": "VFL"
+      }
+    },
+    {
+      "id": "T067",
+      "pt_BR": "Wi-Fi",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Wi-Fi",
+        "uk": "Wi-Fi",
+        "bg": "Wi-Fi",
+        "sr-Cyrl": "Wi-Fi",
+        "el": "Wi-Fi",
+        "zh-Hans": "Wi-Fi",
+        "zh-Hant": "Wi-Fi",
+        "ja": "Wi-Fi",
+        "ko": "Wi-Fi",
+        "hi": "Wi-Fi",
+        "th": "Wi-Fi",
+        "ar": "Wi-Fi",
+        "fa": "Wi-Fi",
+        "he": "Wi-Fi"
+      }
+    },
+    {
+      "id": "T068",
+      "pt_BR": "Organização de cabos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Организация кабелей",
+        "uk": "Організація кабелів",
+        "bg": "Организация на кабели",
+        "sr-Cyrl": "Организација каблова",
+        "el": "Οργάνωση καλωδίων",
+        "zh-Hans": "线缆整理",
+        "zh-Hant": "線纜整理",
+        "ja": "ケーブル整理",
+        "ko": "케이블 정리",
+        "hi": "केबल व्यवस्थित करना",
+        "th": "การจัดระเบียบสายเคเบิล",
+        "ar": "تنظيم الكابلات",
+        "fa": "سامان‌دهی کابل‌ها",
+        "he": "ארגון כבלים"
+      }
+    },
+    {
+      "id": "T069",
+      "pt_BR": "Cable management",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Cable management",
+        "uk": "Cable management",
+        "bg": "Cable management",
+        "sr-Cyrl": "Cable management",
+        "el": "Cable management",
+        "zh-Hans": "Cable management",
+        "zh-Hant": "Cable management",
+        "ja": "Cable management",
+        "ko": "Cable management",
+        "hi": "Cable management",
+        "th": "Cable management",
+        "ar": "Cable management",
+        "fa": "Cable management",
+        "he": "Cable management"
+      }
+    },
+    {
+      "id": "T070",
+      "pt_BR": "Comutadores de rede",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Сетевые коммутаторы",
+        "uk": "Мережеві комутатори",
+        "bg": "Мрежови комутатори",
+        "sr-Cyrl": "Мрежни комутатори",
+        "el": "Μεταγωγείς δικτύου",
+        "zh-Hans": "网络交换机",
+        "zh-Hant": "網路交換器",
+        "ja": "ネットワークスイッチ",
+        "ko": "네트워크 스위치",
+        "hi": "नेटवर्क स्विच",
+        "th": "สวิตช์เครือข่าย",
+        "ar": "مبدلات الشبكات",
+        "fa": "سوئیچ‌های شبکه",
+        "he": "מתגי רשת"
+      }
+    },
+    {
+      "id": "T071",
+      "pt_BR": "Switches",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Switches",
+        "uk": "Switches",
+        "bg": "Switches",
+        "sr-Cyrl": "Switches",
+        "el": "Switches",
+        "zh-Hans": "Switches",
+        "zh-Hant": "Switches",
+        "ja": "Switches",
+        "ko": "Switches",
+        "hi": "Switches",
+        "th": "Switches",
+        "ar": "Switches",
+        "fa": "Switches",
+        "he": "Switches"
+      }
+    },
+    {
+      "id": "T072",
+      "pt_BR": "Servidores",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Серверы",
+        "uk": "Сервери",
+        "bg": "Сървъри",
+        "sr-Cyrl": "Сервери",
+        "el": "Διακομιστές",
+        "zh-Hans": "服务器",
+        "zh-Hant": "伺服器",
+        "ja": "サーバー",
+        "ko": "서버",
+        "hi": "सर्वर",
+        "th": "เซิร์ฟเวอร์",
+        "ar": "الخوادم",
+        "fa": "سرورها",
+        "he": "שרתים"
+      }
+    },
+    {
+      "id": "T073",
+      "pt_BR": "Preparação de postes para passagem de fibra",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Подготовка опор для прокладки оптоволокна",
+        "uk": "Підготовка опор для прокладання оптоволокна",
+        "bg": "Подготовка на стълбове за полагане на оптични кабели",
+        "sr-Cyrl": "Припрема стубова за полагање оптичких каблова",
+        "el": "Προετοιμασία στύλων για διέλευση οπτικών ινών",
+        "zh-Hans": "光纤敷设前的电杆准备",
+        "zh-Hant": "光纖敷設前的電桿準備",
+        "ja": "光ファイバー敷設に向けた電柱の準備",
+        "ko": "광섬유 가설을 위한 전주 준비",
+        "hi": "फाइबर बिछाने के लिए खंभों की तैयारी",
+        "th": "การเตรียมเสาสำหรับเดินสายใยแก้วนำแสง",
+        "ar": "تجهيز الأعمدة لتمرير الألياف البصرية",
+        "fa": "آماده‌سازی تیرها برای عبور فیبر نوری",
+        "he": "הכנת עמודים להעברת סיבים אופטיים"
+      }
+    },
+    {
+      "id": "T074",
+      "pt_BR": "Manutenção de caixas de terminação óptica (CTO)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Обслуживание оптических оконечных коробок (CTO)",
+        "uk": "Обслуговування оптичних кінцевих коробок (CTO)",
+        "bg": "Поддръжка на оптични крайни кутии (CTO)",
+        "sr-Cyrl": "Одржавање оптичких завршних кутија (CTO)",
+        "el": "Συντήρηση κουτιών τερματισμού οπτικών ινών (CTO)",
+        "zh-Hans": "光纤终端箱维护（CTO）",
+        "zh-Hant": "光纖終端箱維護（CTO）",
+        "ja": "光終端ボックスの保守（CTO）",
+        "ko": "광 종단함 유지보수(CTO)",
+        "hi": "ऑप्टिकल टर्मिनेशन बॉक्स का रखरखाव (CTO)",
+        "th": "การบำรุงรักษากล่องปลายทางใยแก้วนำแสง (CTO)",
+        "ar": "صيانة صناديق إنهاء الألياف البصرية (CTO)",
+        "fa": "نگهداری جعبه‌های پایانه فیبر نوری (CTO)",
+        "he": "תחזוקת תיבות סיום אופטיות (CTO)"
+      }
+    },
+    {
+      "id": "T075",
+      "pt_BR": "OpenWrt",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "OpenWrt",
+        "uk": "OpenWrt",
+        "bg": "OpenWrt",
+        "sr-Cyrl": "OpenWrt",
+        "el": "OpenWrt",
+        "zh-Hans": "OpenWrt",
+        "zh-Hant": "OpenWrt",
+        "ja": "OpenWrt",
+        "ko": "OpenWrt",
+        "hi": "OpenWrt",
+        "th": "OpenWrt",
+        "ar": "OpenWrt",
+        "fa": "OpenWrt",
+        "he": "OpenWrt"
+      }
+    },
+    {
+      "id": "T076",
+      "pt_BR": "OPNsense",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "OPNsense",
+        "uk": "OPNsense",
+        "bg": "OPNsense",
+        "sr-Cyrl": "OPNsense",
+        "el": "OPNsense",
+        "zh-Hans": "OPNsense",
+        "zh-Hant": "OPNsense",
+        "ja": "OPNsense",
+        "ko": "OPNsense",
+        "hi": "OPNsense",
+        "th": "OPNsense",
+        "ar": "OPNsense",
+        "fa": "OPNsense",
+        "he": "OPNsense"
+      }
+    },
+    {
+      "id": "T077",
+      "pt_BR": "pfSense",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "pfSense",
+        "uk": "pfSense",
+        "bg": "pfSense",
+        "sr-Cyrl": "pfSense",
+        "el": "pfSense",
+        "zh-Hans": "pfSense",
+        "zh-Hant": "pfSense",
+        "ja": "pfSense",
+        "ko": "pfSense",
+        "hi": "pfSense",
+        "th": "pfSense",
+        "ar": "pfSense",
+        "fa": "pfSense",
+        "he": "pfSense"
+      }
+    },
+    {
+      "id": "T078",
+      "pt_BR": "Documentação técnica",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Техническая документация",
+        "uk": "Технічна документація",
+        "bg": "Техническа документация",
+        "sr-Cyrl": "Техничка документација",
+        "el": "Τεχνική τεκμηρίωση",
+        "zh-Hans": "技术文档",
+        "zh-Hant": "技術文件",
+        "ja": "技術文書",
+        "ko": "기술 문서",
+        "hi": "तकनीकी दस्तावेज़ीकरण",
+        "th": "เอกสารทางเทคนิค",
+        "ar": "التوثيق التقني",
+        "fa": "مستندسازی فنی",
+        "he": "תיעוד טכני"
+      }
+    },
+    {
+      "id": "T079",
+      "pt_BR": "Technical documentation",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Technical documentation",
+        "uk": "Technical documentation",
+        "bg": "Technical documentation",
+        "sr-Cyrl": "Technical documentation",
+        "el": "Technical documentation",
+        "zh-Hans": "Technical documentation",
+        "zh-Hant": "Technical documentation",
+        "ja": "Technical documentation",
+        "ko": "Technical documentation",
+        "hi": "Technical documentation",
+        "th": "Technical documentation",
+        "ar": "Technical documentation",
+        "fa": "Technical documentation",
+        "he": "Technical documentation"
+      }
+    },
+    {
+      "id": "T080",
+      "pt_BR": "Escalonamento de chamados",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Эскалация заявок",
+        "uk": "Ескалація заявок",
+        "bg": "Ескалиране на заявки",
+        "sr-Cyrl": "Ескалација захтева",
+        "el": "Κλιμάκωση αιτημάτων υποστήριξης",
+        "zh-Hans": "工单升级处理",
+        "zh-Hant": "服務單升級處理",
+        "ja": "問い合わせのエスカレーション",
+        "ko": "지원 요청 상위 단계 이관",
+        "hi": "सहायता अनुरोध उच्च स्तर पर भेजना",
+        "th": "การส่งต่อคำขอสนับสนุนไปยังระดับสูงขึ้น",
+        "ar": "تصعيد طلبات الدعم",
+        "fa": "ارجاع درخواست‌های پشتیبانی به سطح بالاتر",
+        "he": "העברת פניות תמיכה לדרג גבוה יותר"
+      }
+    },
+    {
+      "id": "T081",
+      "pt_BR": "Gestão de ativos de TI",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление ИТ-активами",
+        "uk": "Управління ІТ-активами",
+        "bg": "Управление на ИТ активи",
+        "sr-Cyrl": "Управљање ИТ имовином",
+        "el": "Διαχείριση πόρων πληροφορικής",
+        "zh-Hans": "信息技术资产管理",
+        "zh-Hant": "資訊科技資產管理",
+        "ja": "IT資産管理",
+        "ko": "IT 자산 관리",
+        "hi": "IT परिसंपत्ति प्रबंधन",
+        "th": "การบริหารสินทรัพย์ไอที",
+        "ar": "إدارة أصول تقنية المعلومات",
+        "fa": "مدیریت دارایی‌های فناوری اطلاعات",
+        "he": "ניהול נכסי IT"
+      }
+    },
+    {
+      "id": "T082",
+      "pt_BR": "Manuais de usuário",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Руководства пользователя",
+        "uk": "Посібники користувача",
+        "bg": "Ръководства за потребителя",
+        "sr-Cyrl": "Корисничка упутства",
+        "el": "Εγχειρίδια χρήστη",
+        "zh-Hans": "用户手册",
+        "zh-Hant": "使用者手冊",
+        "ja": "ユーザーマニュアル",
+        "ko": "사용자 설명서",
+        "hi": "उपयोगकर्ता पुस्तिकाएँ",
+        "th": "คู่มือผู้ใช้",
+        "ar": "أدلة المستخدم",
+        "fa": "راهنماهای کاربر",
+        "he": "מדריכי משתמש"
+      }
+    },
+    {
+      "id": "T083",
+      "pt_BR": "Provide user documentation",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Provide user documentation",
+        "uk": "Provide user documentation",
+        "bg": "Provide user documentation",
+        "sr-Cyrl": "Provide user documentation",
+        "el": "Provide user documentation",
+        "zh-Hans": "Provide user documentation",
+        "zh-Hant": "Provide user documentation",
+        "ja": "Provide user documentation",
+        "ko": "Provide user documentation",
+        "hi": "Provide user documentation",
+        "th": "Provide user documentation",
+        "ar": "Provide user documentation",
+        "fa": "Provide user documentation",
+        "he": "Provide user documentation"
+      }
+    },
+    {
+      "id": "T084",
+      "pt_BR": "Manutenção de computadores",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Обслуживание компьютеров",
+        "uk": "Обслуговування комп’ютерів",
+        "bg": "Поддръжка на компютри",
+        "sr-Cyrl": "Одржавање рачунара",
+        "el": "Συντήρηση υπολογιστών",
+        "zh-Hans": "计算机维护",
+        "zh-Hant": "電腦維護",
+        "ja": "コンピューター保守",
+        "ko": "컴퓨터 유지보수",
+        "hi": "कंप्यूटर रखरखाव",
+        "th": "การบำรุงรักษาคอมพิวเตอร์",
+        "ar": "صيانة الحواسيب",
+        "fa": "نگهداری رایانه‌ها",
+        "he": "תחזוקת מחשבים"
+      }
+    },
+    {
+      "id": "T085",
+      "pt_BR": "Manutenção de impressoras",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Обслуживание принтеров",
+        "uk": "Обслуговування принтерів",
+        "bg": "Поддръжка на принтери",
+        "sr-Cyrl": "Одржавање штампача",
+        "el": "Συντήρηση εκτυπωτών",
+        "zh-Hans": "打印机维护",
+        "zh-Hant": "印表機維護",
+        "ja": "プリンター保守",
+        "ko": "프린터 유지보수",
+        "hi": "प्रिंटर रखरखाव",
+        "th": "การบำรุงรักษาเครื่องพิมพ์",
+        "ar": "صيانة الطابعات",
+        "fa": "نگهداری چاپگرها",
+        "he": "תחזוקת מדפסות"
+      }
+    },
+    {
+      "id": "T086",
+      "pt_BR": "Manutenção de periféricos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Обслуживание периферийных устройств",
+        "uk": "Обслуговування периферійних пристроїв",
+        "bg": "Поддръжка на периферни устройства",
+        "sr-Cyrl": "Одржавање периферних уређаја",
+        "el": "Συντήρηση περιφερειακών",
+        "zh-Hans": "外围设备维护",
+        "zh-Hant": "周邊設備維護",
+        "ja": "周辺機器保守",
+        "ko": "주변 장치 유지보수",
+        "hi": "परिधीय उपकरणों का रखरखाव",
+        "th": "การบำรุงรักษาอุปกรณ์ต่อพ่วง",
+        "ar": "صيانة الأجهزة الطرفية",
+        "fa": "نگهداری تجهیزات جانبی",
+        "he": "תחזוקת ציוד היקפי"
+      }
+    },
+    {
+      "id": "T087",
+      "pt_BR": "NF-e",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "NF-e",
+        "uk": "NF-e",
+        "bg": "NF-e",
+        "sr-Cyrl": "NF-e",
+        "el": "NF-e",
+        "zh-Hans": "NF-e",
+        "zh-Hant": "NF-e",
+        "ja": "NF-e",
+        "ko": "NF-e",
+        "hi": "NF-e",
+        "th": "NF-e",
+        "ar": "NF-e",
+        "fa": "NF-e",
+        "he": "NF-e"
+      }
+    },
+    {
+      "id": "T088",
+      "pt_BR": "NFC-e",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "NFC-e",
+        "uk": "NFC-e",
+        "bg": "NFC-e",
+        "sr-Cyrl": "NFC-e",
+        "el": "NFC-e",
+        "zh-Hans": "NFC-e",
+        "zh-Hant": "NFC-e",
+        "ja": "NFC-e",
+        "ko": "NFC-e",
+        "hi": "NFC-e",
+        "th": "NFC-e",
+        "ar": "NFC-e",
+        "fa": "NFC-e",
+        "he": "NFC-e"
+      }
+    },
+    {
+      "id": "T089",
+      "pt_BR": "Orientação de usuários",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Инструктаж пользователей",
+        "uk": "Інструктаж користувачів",
+        "bg": "Насочване на потребители",
+        "sr-Cyrl": "Упућивање корисника",
+        "el": "Καθοδήγηση χρηστών",
+        "zh-Hans": "用户指导",
+        "zh-Hant": "使用者指導",
+        "ja": "ユーザーへの操作案内",
+        "ko": "사용자 안내",
+        "hi": "उपयोगकर्ता मार्गदर्शन",
+        "th": "การแนะนำผู้ใช้",
+        "ar": "إرشاد المستخدمين",
+        "fa": "راهنمایی کاربران",
+        "he": "הדרכת משתמשים"
+      }
+    },
+    {
+      "id": "T090",
+      "pt_BR": "Procedimentos operacionais padrão (POPs)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Стандартные операционные процедуры (POPs)",
+        "uk": "Стандартні операційні процедури (POPs)",
+        "bg": "Стандартни оперативни процедури (POPs)",
+        "sr-Cyrl": "Стандардни оперативни поступци (POPs)",
+        "el": "Τυποποιημένες διαδικασίες λειτουργίας (POPs)",
+        "zh-Hans": "标准操作程序（POPs）",
+        "zh-Hant": "標準作業程序（POPs）",
+        "ja": "標準作業手順（POPs）",
+        "ko": "표준 운영 절차(POPs)",
+        "hi": "मानक संचालन प्रक्रियाएँ (POPs)",
+        "th": "ขั้นตอนการปฏิบัติงานมาตรฐาน (POPs)",
+        "ar": "إجراءات التشغيل القياسية (POPs)",
+        "fa": "روش‌های اجرایی استاندارد (POPs)",
+        "he": "נוהלי עבודה תקניים (POPs)"
+      }
+    },
+    {
+      "id": "T091",
+      "pt_BR": "Resolução de incidentes",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Устранение инцидентов",
+        "uk": "Усунення інцидентів",
+        "bg": "Разрешаване на инциденти",
+        "sr-Cyrl": "Решавање инцидената",
+        "el": "Επίλυση περιστατικών",
+        "zh-Hans": "事件解决",
+        "zh-Hant": "事件解決",
+        "ja": "インシデント解決",
+        "ko": "인시던트 해결",
+        "hi": "घटनाओं का समाधान",
+        "th": "การแก้ไขเหตุขัดข้อง",
+        "ar": "حل الحوادث التقنية",
+        "fa": "رفع رخدادها",
+        "he": "פתרון תקריות"
+      }
+    },
+    {
+      "id": "T092",
+      "pt_BR": "Suporte a ERP, N1",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Поддержка ERP, N1",
+        "uk": "Підтримка ERP, N1",
+        "bg": "Поддръжка на ERP, N1",
+        "sr-Cyrl": "Подршка за ERP, N1",
+        "el": "Υποστήριξη ERP, N1",
+        "zh-Hans": "ERP 支持，N1",
+        "zh-Hant": "ERP 支援，N1",
+        "ja": "ERPサポート、N1",
+        "ko": "ERP 지원, N1",
+        "hi": "ERP सहायता, N1",
+        "th": "การสนับสนุน ERP, N1",
+        "ar": "دعم ERP، N1",
+        "fa": "پشتیبانی ERP، N1",
+        "he": "תמיכה ב-ERP, N1"
+      }
+    },
+    {
+      "id": "T093",
+      "pt_BR": "Suporte a PDV, N1",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Поддержка POS-систем, N1",
+        "uk": "Підтримка POS-систем, N1",
+        "bg": "Поддръжка на POS системи, N1",
+        "sr-Cyrl": "Подршка за POS системе, N1",
+        "el": "Υποστήριξη POS, N1",
+        "zh-Hans": "POS 系统支持，N1",
+        "zh-Hant": "POS 系統支援，N1",
+        "ja": "POSシステムサポート、N1",
+        "ko": "POS 시스템 지원, N1",
+        "hi": "POS प्रणाली सहायता, N1",
+        "th": "การสนับสนุนระบบ POS, N1",
+        "ar": "دعم أنظمة نقاط البيع، N1",
+        "fa": "پشتیبانی سامانه‌های POS، N1",
+        "he": "תמיכה במערכות POS, N1"
+      }
+    },
+    {
+      "id": "T094",
+      "pt_BR": "Suporte de help desk, N1",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Поддержка службы помощи, N1",
+        "uk": "Підтримка служби допомоги, N1",
+        "bg": "Поддръжка чрез помощен център, N1",
+        "sr-Cyrl": "Подршка корисничког центра, N1",
+        "el": "Υποστήριξη γραφείου βοήθειας, N1",
+        "zh-Hans": "服务台支持，N1",
+        "zh-Hant": "服務台支援，N1",
+        "ja": "ヘルプデスクサポート、N1",
+        "ko": "헬프데스크 지원, N1",
+        "hi": "हेल्प डेस्क सहायता, N1",
+        "th": "การสนับสนุนเฮลป์เดสก์, N1",
+        "ar": "دعم مكتب المساعدة، N1",
+        "fa": "پشتیبانی میز خدمت، N1",
+        "he": "תמיכת מוקד סיוע, N1"
+      }
+    },
+    {
+      "id": "T095",
+      "pt_BR": "IT support, N1",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "IT support, N1",
+        "uk": "IT support, N1",
+        "bg": "IT support, N1",
+        "sr-Cyrl": "IT support, N1",
+        "el": "IT support, N1",
+        "zh-Hans": "IT support, N1",
+        "zh-Hant": "IT support, N1",
+        "ja": "IT support, N1",
+        "ko": "IT support, N1",
+        "hi": "IT support, N1",
+        "th": "IT support, N1",
+        "ar": "IT support, N1",
+        "fa": "IT support, N1",
+        "he": "IT support, N1"
+      }
+    },
+    {
+      "id": "T096",
+      "pt_BR": "Suporte técnico hospitalar, N1/N2",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Техническая поддержка в больницах, N1/N2",
+        "uk": "Технічна підтримка в лікарнях, N1/N2",
+        "bg": "Болнична техническа поддръжка, N1/N2",
+        "sr-Cyrl": "Болничка техничка подршка, N1/N2",
+        "el": "Τεχνική υποστήριξη νοσοκομείων, N1/N2",
+        "zh-Hans": "医院技术支持，N1/N2",
+        "zh-Hant": "醫院技術支援，N1/N2",
+        "ja": "病院の技術サポート、N1/N2",
+        "ko": "병원 기술 지원, N1/N2",
+        "hi": "अस्पताल तकनीकी सहायता, N1/N2",
+        "th": "การสนับสนุนทางเทคนิคในโรงพยาบาล, N1/N2",
+        "ar": "الدعم التقني للمستشفيات، N1/N2",
+        "fa": "پشتیبانی فنی بیمارستان، N1/N2",
+        "he": "תמיכה טכנית בבתי חולים, N1/N2"
+      }
+    },
+    {
+      "id": "T097",
+      "pt_BR": "Microsoft Active Directory",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Active Directory",
+        "uk": "Microsoft Active Directory",
+        "bg": "Microsoft Active Directory",
+        "sr-Cyrl": "Microsoft Active Directory",
+        "el": "Microsoft Active Directory",
+        "zh-Hans": "Microsoft Active Directory",
+        "zh-Hant": "Microsoft Active Directory",
+        "ja": "Microsoft Active Directory",
+        "ko": "Microsoft Active Directory",
+        "hi": "Microsoft Active Directory",
+        "th": "Microsoft Active Directory",
+        "ar": "Microsoft Active Directory",
+        "fa": "Microsoft Active Directory",
+        "he": "Microsoft Active Directory"
+      }
+    },
+    {
+      "id": "T098",
+      "pt_BR": "Acessibilidade web",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Веб-доступность",
+        "uk": "Вебдоступність",
+        "bg": "Уеб достъпност",
+        "sr-Cyrl": "Веб-приступачност",
+        "el": "Προσβασιμότητα ιστού",
+        "zh-Hans": "网页无障碍",
+        "zh-Hant": "網站無障礙",
+        "ja": "ウェブアクセシビリティ",
+        "ko": "웹 접근성",
+        "hi": "वेब अभिगम्यता",
+        "th": "การเข้าถึงเว็บสำหรับทุกคน",
+        "ar": "إمكانية الوصول إلى الويب",
+        "fa": "دسترس‌پذیری وب",
+        "he": "נגישות אתרים"
+      }
+    },
+    {
+      "id": "T099",
+      "pt_BR": "CSS",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "CSS",
+        "uk": "CSS",
+        "bg": "CSS",
+        "sr-Cyrl": "CSS",
+        "el": "CSS",
+        "zh-Hans": "CSS",
+        "zh-Hant": "CSS",
+        "ja": "CSS",
+        "ko": "CSS",
+        "hi": "CSS",
+        "th": "CSS",
+        "ar": "CSS",
+        "fa": "CSS",
+        "he": "CSS"
+      }
+    },
+    {
+      "id": "T100",
+      "pt_BR": "Git",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Git",
+        "uk": "Git",
+        "bg": "Git",
+        "sr-Cyrl": "Git",
+        "el": "Git",
+        "zh-Hans": "Git",
+        "zh-Hant": "Git",
+        "ja": "Git",
+        "ko": "Git",
+        "hi": "Git",
+        "th": "Git",
+        "ar": "Git",
+        "fa": "Git",
+        "he": "Git"
+      }
+    },
+    {
+      "id": "T101",
+      "pt_BR": "GitHub",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "GitHub",
+        "uk": "GitHub",
+        "bg": "GitHub",
+        "sr-Cyrl": "GitHub",
+        "el": "GitHub",
+        "zh-Hans": "GitHub",
+        "zh-Hant": "GitHub",
+        "ja": "GitHub",
+        "ko": "GitHub",
+        "hi": "GitHub",
+        "th": "GitHub",
+        "ar": "GitHub",
+        "fa": "GitHub",
+        "he": "GitHub"
+      }
+    },
+    {
+      "id": "T102",
+      "pt_BR": "GitHub Actions",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "GitHub Actions",
+        "uk": "GitHub Actions",
+        "bg": "GitHub Actions",
+        "sr-Cyrl": "GitHub Actions",
+        "el": "GitHub Actions",
+        "zh-Hans": "GitHub Actions",
+        "zh-Hant": "GitHub Actions",
+        "ja": "GitHub Actions",
+        "ko": "GitHub Actions",
+        "hi": "GitHub Actions",
+        "th": "GitHub Actions",
+        "ar": "GitHub Actions",
+        "fa": "GitHub Actions",
+        "he": "GitHub Actions"
+      }
+    },
+    {
+      "id": "T103",
+      "pt_BR": "GitHub Pages",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "GitHub Pages",
+        "uk": "GitHub Pages",
+        "bg": "GitHub Pages",
+        "sr-Cyrl": "GitHub Pages",
+        "el": "GitHub Pages",
+        "zh-Hans": "GitHub Pages",
+        "zh-Hant": "GitHub Pages",
+        "ja": "GitHub Pages",
+        "ko": "GitHub Pages",
+        "hi": "GitHub Pages",
+        "th": "GitHub Pages",
+        "ar": "GitHub Pages",
+        "fa": "GitHub Pages",
+        "he": "GitHub Pages"
+      }
+    },
+    {
+      "id": "T104",
+      "pt_BR": "HTML",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "HTML",
+        "uk": "HTML",
+        "bg": "HTML",
+        "sr-Cyrl": "HTML",
+        "el": "HTML",
+        "zh-Hans": "HTML",
+        "zh-Hant": "HTML",
+        "ja": "HTML",
+        "ko": "HTML",
+        "hi": "HTML",
+        "th": "HTML",
+        "ar": "HTML",
+        "fa": "HTML",
+        "he": "HTML"
+      }
+    },
+    {
+      "id": "T105",
+      "pt_BR": "Sites multilíngues",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Многоязычные сайты",
+        "uk": "Багатомовні сайти",
+        "bg": "Многоезични сайтове",
+        "sr-Cyrl": "Вишејезични сајтови",
+        "el": "Πολύγλωσσοι ιστότοποι",
+        "zh-Hans": "多语言网站",
+        "zh-Hant": "多語言網站",
+        "ja": "多言語ウェブサイト",
+        "ko": "다국어 웹사이트",
+        "hi": "बहुभाषी वेबसाइट",
+        "th": "เว็บไซต์หลายภาษา",
+        "ar": "مواقع متعددة اللغات",
+        "fa": "وب‌سایت‌های چندزبانه",
+        "he": "אתרים רב-לשוניים"
+      }
+    },
+    {
+      "id": "T106",
+      "pt_BR": "Apache HTTP Server",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Apache HTTP Server",
+        "uk": "Apache HTTP Server",
+        "bg": "Apache HTTP Server",
+        "sr-Cyrl": "Apache HTTP Server",
+        "el": "Apache HTTP Server",
+        "zh-Hans": "Apache HTTP Server",
+        "zh-Hant": "Apache HTTP Server",
+        "ja": "Apache HTTP Server",
+        "ko": "Apache HTTP Server",
+        "hi": "Apache HTTP Server",
+        "th": "Apache HTTP Server",
+        "ar": "Apache HTTP Server",
+        "fa": "Apache HTTP Server",
+        "he": "Apache HTTP Server"
+      }
+    },
+    {
+      "id": "T107",
+      "pt_BR": "NGINX",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "NGINX",
+        "uk": "NGINX",
+        "bg": "NGINX",
+        "sr-Cyrl": "NGINX",
+        "el": "NGINX",
+        "zh-Hans": "NGINX",
+        "zh-Hant": "NGINX",
+        "ja": "NGINX",
+        "ko": "NGINX",
+        "hi": "NGINX",
+        "th": "NGINX",
+        "ar": "NGINX",
+        "fa": "NGINX",
+        "he": "NGINX"
+      }
+    },
+    {
+      "id": "T108",
+      "pt_BR": "Nginx web server",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Nginx web server",
+        "uk": "Nginx web server",
+        "bg": "Nginx web server",
+        "sr-Cyrl": "Nginx web server",
+        "el": "Nginx web server",
+        "zh-Hans": "Nginx web server",
+        "zh-Hant": "Nginx web server",
+        "ja": "Nginx web server",
+        "ko": "Nginx web server",
+        "hi": "Nginx web server",
+        "th": "Nginx web server",
+        "ar": "Nginx web server",
+        "fa": "Nginx web server",
+        "he": "Nginx web server"
+      }
+    },
+    {
+      "id": "T109",
+      "pt_BR": "Amazon Web Services (AWS)",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Amazon Web Services (AWS)",
+        "uk": "Amazon Web Services (AWS)",
+        "bg": "Amazon Web Services (AWS)",
+        "sr-Cyrl": "Amazon Web Services (AWS)",
+        "el": "Amazon Web Services (AWS)",
+        "zh-Hans": "Amazon Web Services (AWS)",
+        "zh-Hant": "Amazon Web Services (AWS)",
+        "ja": "Amazon Web Services (AWS)",
+        "ko": "Amazon Web Services (AWS)",
+        "hi": "Amazon Web Services (AWS)",
+        "th": "Amazon Web Services (AWS)",
+        "ar": "Amazon Web Services (AWS)",
+        "fa": "Amazon Web Services (AWS)",
+        "he": "Amazon Web Services (AWS)"
+      }
+    },
+    {
+      "id": "T110",
+      "pt_BR": "Amazon Web Services AWS software",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Amazon Web Services AWS software",
+        "uk": "Amazon Web Services AWS software",
+        "bg": "Amazon Web Services AWS software",
+        "sr-Cyrl": "Amazon Web Services AWS software",
+        "el": "Amazon Web Services AWS software",
+        "zh-Hans": "Amazon Web Services AWS software",
+        "zh-Hant": "Amazon Web Services AWS software",
+        "ja": "Amazon Web Services AWS software",
+        "ko": "Amazon Web Services AWS software",
+        "hi": "Amazon Web Services AWS software",
+        "th": "Amazon Web Services AWS software",
+        "ar": "Amazon Web Services AWS software",
+        "fa": "Amazon Web Services AWS software",
+        "he": "Amazon Web Services AWS software"
+      }
+    },
+    {
+      "id": "T111",
+      "pt_BR": "Firebase",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Firebase",
+        "uk": "Firebase",
+        "bg": "Firebase",
+        "sr-Cyrl": "Firebase",
+        "el": "Firebase",
+        "zh-Hans": "Firebase",
+        "zh-Hant": "Firebase",
+        "ja": "Firebase",
+        "ko": "Firebase",
+        "hi": "Firebase",
+        "th": "Firebase",
+        "ar": "Firebase",
+        "fa": "Firebase",
+        "he": "Firebase"
+      }
+    },
+    {
+      "id": "T112",
+      "pt_BR": "Microsoft Azure",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Azure",
+        "uk": "Microsoft Azure",
+        "bg": "Microsoft Azure",
+        "sr-Cyrl": "Microsoft Azure",
+        "el": "Microsoft Azure",
+        "zh-Hans": "Microsoft Azure",
+        "zh-Hant": "Microsoft Azure",
+        "ja": "Microsoft Azure",
+        "ko": "Microsoft Azure",
+        "hi": "Microsoft Azure",
+        "th": "Microsoft Azure",
+        "ar": "Microsoft Azure",
+        "fa": "Microsoft Azure",
+        "he": "Microsoft Azure"
+      }
+    },
+    {
+      "id": "T113",
+      "pt_BR": "Microsoft Azure software",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Microsoft Azure software",
+        "uk": "Microsoft Azure software",
+        "bg": "Microsoft Azure software",
+        "sr-Cyrl": "Microsoft Azure software",
+        "el": "Microsoft Azure software",
+        "zh-Hans": "Microsoft Azure software",
+        "zh-Hant": "Microsoft Azure software",
+        "ja": "Microsoft Azure software",
+        "ko": "Microsoft Azure software",
+        "hi": "Microsoft Azure software",
+        "th": "Microsoft Azure software",
+        "ar": "Microsoft Azure software",
+        "fa": "Microsoft Azure software",
+        "he": "Microsoft Azure software"
+      }
+    },
+    {
+      "id": "T114",
+      "pt_BR": "Supabase",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Supabase",
+        "uk": "Supabase",
+        "bg": "Supabase",
+        "sr-Cyrl": "Supabase",
+        "el": "Supabase",
+        "zh-Hans": "Supabase",
+        "zh-Hant": "Supabase",
+        "ja": "Supabase",
+        "ko": "Supabase",
+        "hi": "Supabase",
+        "th": "Supabase",
+        "ar": "Supabase",
+        "fa": "Supabase",
+        "he": "Supabase"
+      }
+    },
+    {
+      "id": "T115",
+      "pt_BR": "Vercel",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Vercel",
+        "uk": "Vercel",
+        "bg": "Vercel",
+        "sr-Cyrl": "Vercel",
+        "el": "Vercel",
+        "zh-Hans": "Vercel",
+        "zh-Hant": "Vercel",
+        "ja": "Vercel",
+        "ko": "Vercel",
+        "hi": "Vercel",
+        "th": "Vercel",
+        "ar": "Vercel",
+        "fa": "Vercel",
+        "he": "Vercel"
+      }
+    },
+    {
+      "id": "T116",
+      "pt_BR": "Inglês, TOEIC Listening & Reading 910",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Английский язык, TOEIC Listening & Reading 910",
+        "uk": "Англійська мова, TOEIC Listening & Reading 910",
+        "bg": "Английски език, TOEIC Listening & Reading 910",
+        "sr-Cyrl": "Енглески језик, TOEIC Listening & Reading 910",
+        "el": "Αγγλικά, TOEIC Listening & Reading 910",
+        "zh-Hans": "英语，TOEIC Listening & Reading 910",
+        "zh-Hant": "英語，TOEIC Listening & Reading 910",
+        "ja": "英語、TOEIC Listening & Reading 910",
+        "ko": "영어, TOEIC Listening & Reading 910",
+        "hi": "अंग्रेज़ी, TOEIC Listening & Reading 910",
+        "th": "ภาษาอังกฤษ, TOEIC Listening & Reading 910",
+        "ar": "اللغة الإنجليزية، TOEIC Listening & Reading 910",
+        "fa": "زبان انگلیسی، TOEIC Listening & Reading 910",
+        "he": "אנגלית, TOEIC Listening & Reading 910"
+      }
+    },
+    {
+      "id": "T117",
+      "pt_BR": "Português brasileiro",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Бразильский португальский",
+        "uk": "Бразильська португальська",
+        "bg": "Бразилски португалски",
+        "sr-Cyrl": "Бразилски португалски",
+        "el": "Πορτογαλικά Βραζιλίας",
+        "zh-Hans": "巴西葡萄牙语",
+        "zh-Hant": "巴西葡萄牙語",
+        "ja": "ブラジルポルトガル語",
+        "ko": "브라질 포르투갈어",
+        "hi": "ब्राज़ील की पुर्तगाली भाषा",
+        "th": "ภาษาโปรตุเกสแบบบราซิล",
+        "ar": "البرتغالية البرازيلية",
+        "fa": "پرتغالی برزیلی",
+        "he": "פורטוגזית ברזילאית"
+      }
+    },
+    {
+      "id": "T118",
+      "pt_BR": "Adaptabilidade",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Адаптивность",
+        "uk": "Адаптивність",
+        "bg": "Адаптивност",
+        "sr-Cyrl": "Прилагодљивост",
+        "el": "Προσαρμοστικότητα",
+        "zh-Hans": "适应能力",
+        "zh-Hant": "適應能力",
+        "ja": "適応力",
+        "ko": "적응력",
+        "hi": "अनुकूलन क्षमता",
+        "th": "ความสามารถในการปรับตัว",
+        "ar": "القدرة على التكيف",
+        "fa": "سازگاری",
+        "he": "יכולת הסתגלות"
+      }
+    },
+    {
+      "id": "T119",
+      "pt_BR": "Atenção a detalhes",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Внимание к деталям",
+        "uk": "Увага до деталей",
+        "bg": "Внимание към детайлите",
+        "sr-Cyrl": "Пажња на детаље",
+        "el": "Προσοχή στη λεπτομέρεια",
+        "zh-Hans": "注重细节",
+        "zh-Hant": "注重細節",
+        "ja": "細部への注意",
+        "ko": "세부 사항에 대한 주의",
+        "hi": "बारीकियों पर ध्यान",
+        "th": "ความใส่ใจในรายละเอียด",
+        "ar": "الاهتمام بالتفاصيل",
+        "fa": "توجه به جزئیات",
+        "he": "תשומת לב לפרטים"
+      }
+    },
+    {
+      "id": "T120",
+      "pt_BR": "Pensamento analítico",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Аналитическое мышление",
+        "uk": "Аналітичне мислення",
+        "bg": "Аналитично мислене",
+        "sr-Cyrl": "Аналитичко размишљање",
+        "el": "Αναλυτική σκέψη",
+        "zh-Hans": "分析思维",
+        "zh-Hant": "分析思維",
+        "ja": "分析的思考",
+        "ko": "분석적 사고",
+        "hi": "विश्लेषणात्मक सोच",
+        "th": "การคิดเชิงวิเคราะห์",
+        "ar": "التفكير التحليلي",
+        "fa": "تفکر تحلیلی",
+        "he": "חשיבה אנליטית"
+      }
+    },
+    {
+      "id": "T121",
+      "pt_BR": "Analytical thinking",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Analytical thinking",
+        "uk": "Analytical thinking",
+        "bg": "Analytical thinking",
+        "sr-Cyrl": "Analytical thinking",
+        "el": "Analytical thinking",
+        "zh-Hans": "Analytical thinking",
+        "zh-Hant": "Analytical thinking",
+        "ja": "Analytical thinking",
+        "ko": "Analytical thinking",
+        "hi": "Analytical thinking",
+        "th": "Analytical thinking",
+        "ar": "Analytical thinking",
+        "fa": "Analytical thinking",
+        "he": "Analytical thinking"
+      }
+    },
+    {
+      "id": "T122",
+      "pt_BR": "Comunicação",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Коммуникация",
+        "uk": "Комунікація",
+        "bg": "Комуникация",
+        "sr-Cyrl": "Комуникација",
+        "el": "Επικοινωνία",
+        "zh-Hans": "沟通",
+        "zh-Hant": "溝通",
+        "ja": "コミュニケーション",
+        "ko": "의사소통",
+        "hi": "संचार",
+        "th": "การสื่อสาร",
+        "ar": "التواصل",
+        "fa": "ارتباطات",
+        "he": "תקשורת"
+      }
+    },
+    {
+      "id": "T123",
+      "pt_BR": "Compreensão das necessidades do cliente",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Понимание потребностей клиента",
+        "uk": "Розуміння потреб клієнта",
+        "bg": "Разбиране на нуждите на клиента",
+        "sr-Cyrl": "Разумевање потреба клијента",
+        "el": "Κατανόηση αναγκών πελάτη",
+        "zh-Hans": "理解客户需求",
+        "zh-Hant": "理解客戶需求",
+        "ja": "顧客ニーズの理解",
+        "ko": "고객 요구 이해",
+        "hi": "ग्राहक की ज़रूरतों को समझना",
+        "th": "ความเข้าใจความต้องการของลูกค้า",
+        "ar": "فهم احتياجات العميل",
+        "fa": "درک نیازهای مشتری",
+        "he": "הבנת צורכי הלקוח"
+      }
+    },
+    {
+      "id": "T124",
+      "pt_BR": "Trabalho em equipe",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Работа в команде",
+        "uk": "Командна робота",
+        "bg": "Работа в екип",
+        "sr-Cyrl": "Тимски рад",
+        "el": "Ομαδική εργασία",
+        "zh-Hans": "团队合作",
+        "zh-Hant": "團隊合作",
+        "ja": "チームワーク",
+        "ko": "팀워크",
+        "hi": "टीम में काम",
+        "th": "การทำงานเป็นทีม",
+        "ar": "العمل الجماعي",
+        "fa": "کار تیمی",
+        "he": "עבודת צוות"
+      }
+    },
+    {
+      "id": "T125",
+      "pt_BR": "Clivador",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Скалыватель оптоволокна",
+        "uk": "Сколювач оптоволокна",
+        "bg": "Инструмент за прецизно срязване на оптични влакна",
+        "sr-Cyrl": "Прецизни секач оптичких влакана",
+        "el": "Κόφτης ακριβείας οπτικών ινών",
+        "zh-Hans": "光纤切割刀",
+        "zh-Hant": "光纖切割刀",
+        "ja": "光ファイバーカッター",
+        "ko": "광섬유 정밀 절단기",
+        "hi": "ऑप्टिकल फाइबर क्लीवर",
+        "th": "เครื่องตัดใยแก้วนำแสงแบบแม่นยำ",
+        "ar": "قاطع دقيق للألياف البصرية",
+        "fa": "برش‌دهنده دقیق فیبر نوری",
+        "he": "חותך מדויק לסיבים אופטיים"
+      }
+    },
+    {
+      "id": "T126",
+      "pt_BR": "Ferramentas elétricas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Электроинструменты",
+        "uk": "Електроінструменти",
+        "bg": "Електроинструменти",
+        "sr-Cyrl": "Електрични алати",
+        "el": "Ηλεκτρικά εργαλεία",
+        "zh-Hans": "电动工具",
+        "zh-Hant": "電動工具",
+        "ja": "電動工具",
+        "ko": "전동 공구",
+        "hi": "विद्युत उपकरण",
+        "th": "เครื่องมือไฟฟ้า",
+        "ar": "أدوات كهربائية",
+        "fa": "ابزارهای برقی",
+        "he": "כלי עבודה חשמליים"
+      }
+    },
+    {
+      "id": "T127",
+      "pt_BR": "Ferramentas manuais",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Ручные инструменты",
+        "uk": "Ручні інструменти",
+        "bg": "Ръчни инструменти",
+        "sr-Cyrl": "Ручни алати",
+        "el": "Εργαλεία χειρός",
+        "zh-Hans": "手动工具",
+        "zh-Hant": "手動工具",
+        "ja": "手工具",
+        "ko": "수공구",
+        "hi": "हाथ से चलने वाले उपकरण",
+        "th": "เครื่องมือช่างแบบใช้มือ",
+        "ar": "أدوات يدوية",
+        "fa": "ابزارهای دستی",
+        "he": "כלי עבודה ידניים"
+      }
+    },
+    {
+      "id": "T128",
+      "pt_BR": "Fusimech",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Fusimech",
+        "uk": "Fusimech",
+        "bg": "Fusimech",
+        "sr-Cyrl": "Fusimech",
+        "el": "Fusimech",
+        "zh-Hans": "Fusimech",
+        "zh-Hant": "Fusimech",
+        "ja": "Fusimech",
+        "ko": "Fusimech",
+        "hi": "Fusimech",
+        "th": "Fusimech",
+        "ar": "Fusimech",
+        "fa": "Fusimech",
+        "he": "Fusimech"
+      }
+    },
+    {
+      "id": "T129",
+      "pt_BR": "Máquina de fusão de fibra óptica",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Аппарат для сварки оптоволокна",
+        "uk": "Апарат для зварювання оптоволокна",
+        "bg": "Апарат за заваряване на оптични влакна",
+        "sr-Cyrl": "Апарат за фузионо спајање оптичких влакана",
+        "el": "Συσκευή συγκόλλησης οπτικών ινών",
+        "zh-Hans": "光纤熔接机",
+        "zh-Hant": "光纖熔接機",
+        "ja": "光ファイバー融着接続機",
+        "ko": "광섬유 융착 접속기",
+        "hi": "ऑप्टिकल फाइबर फ्यूज़न स्प्लाइसिंग मशीन",
+        "th": "เครื่องเชื่อมใยแก้วนำแสงแบบหลอมรวม",
+        "ar": "جهاز لحام الألياف البصرية بالانصهار",
+        "fa": "دستگاه جوش فیبر نوری",
+        "he": "מכשיר היתוך לסיבים אופטיים"
+      }
+    },
+    {
+      "id": "T130",
+      "pt_BR": "Organização de ferramentas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Организация инструментов",
+        "uk": "Організація інструментів",
+        "bg": "Организация на инструменти",
+        "sr-Cyrl": "Организација алата",
+        "el": "Οργάνωση εργαλείων",
+        "zh-Hans": "工具整理",
+        "zh-Hant": "工具整理",
+        "ja": "工具の整理",
+        "ko": "공구 정리",
+        "hi": "उपकरण व्यवस्थित करना",
+        "th": "การจัดระเบียบเครื่องมือ",
+        "ar": "تنظيم الأدوات",
+        "fa": "سامان‌دهی ابزارها",
+        "he": "ארגון כלי עבודה"
+      }
+    },
+    {
+      "id": "T131",
+      "pt_BR": "Organização de insumos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Организация расходных материалов",
+        "uk": "Організація витратних матеріалів",
+        "bg": "Организация на консумативи",
+        "sr-Cyrl": "Организација потрошног материјала",
+        "el": "Οργάνωση αναλώσιμων",
+        "zh-Hans": "耗材整理",
+        "zh-Hant": "耗材整理",
+        "ja": "消耗品の整理",
+        "ko": "소모품 정리",
+        "hi": "उपभोग्य सामग्री व्यवस्थित करना",
+        "th": "การจัดระเบียบวัสดุสิ้นเปลือง",
+        "ar": "تنظيم المواد الاستهلاكية",
+        "fa": "سامان‌دهی مواد مصرفی",
+        "he": "ארגון חומרים מתכלים"
+      }
+    },
+    {
+      "id": "T132",
+      "pt_BR": "Trabalho em altura",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Работа на высоте",
+        "uk": "Робота на висоті",
+        "bg": "Работа на височина",
+        "sr-Cyrl": "Рад на висини",
+        "el": "Εργασία σε ύψος",
+        "zh-Hans": "高处作业",
+        "zh-Hant": "高處作業",
+        "ja": "高所作業",
+        "ko": "고소 작업",
+        "hi": "ऊँचाई पर काम",
+        "th": "การทำงานบนที่สูง",
+        "ar": "العمل على ارتفاعات",
+        "fa": "کار در ارتفاع",
+        "he": "עבודה בגובה"
+      }
+    },
+    {
+      "id": "T133",
+      "pt_BR": "Condução de carros",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Вождение автомобилей",
+        "uk": "Керування автомобілями",
+        "bg": "Управление на автомобили",
+        "sr-Cyrl": "Вожња аутомобила",
+        "el": "Οδήγηση αυτοκινήτων",
+        "zh-Hans": "汽车驾驶",
+        "zh-Hant": "汽車駕駛",
+        "ja": "自動車の運転",
+        "ko": "자동차 운전",
+        "hi": "कार चलाना",
+        "th": "การขับรถยนต์",
+        "ar": "قيادة السيارات",
+        "fa": "رانندگی خودرو",
+        "he": "נהיגה במכוניות"
+      }
+    },
+    {
+      "id": "T134",
+      "pt_BR": "Condução de motos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Вождение мотоциклов",
+        "uk": "Керування мотоциклами",
+        "bg": "Управление на мотоциклети",
+        "sr-Cyrl": "Вожња мотоцикала",
+        "el": "Οδήγηση μοτοσικλετών",
+        "zh-Hans": "摩托车驾驶",
+        "zh-Hant": "機車駕駛",
+        "ja": "オートバイの運転",
+        "ko": "오토바이 운전",
+        "hi": "मोटरसाइकिल चलाना",
+        "th": "การขับรถจักรยานยนต์",
+        "ar": "قيادة الدراجات النارية",
+        "fa": "راندن موتورسیکلت",
+        "he": "רכיבה על אופנועים"
+      }
+    },
+    {
+      "id": "T135",
+      "pt_BR": "CNH AB",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "CNH AB",
+        "uk": "CNH AB",
+        "bg": "CNH AB",
+        "sr-Cyrl": "CNH AB",
+        "el": "CNH AB",
+        "zh-Hans": "CNH AB",
+        "zh-Hant": "CNH AB",
+        "ja": "CNH AB",
+        "ko": "CNH AB",
+        "hi": "CNH AB",
+        "th": "CNH AB",
+        "ar": "CNH AB",
+        "fa": "CNH AB",
+        "he": "CNH AB"
+      }
+    },
+    {
+      "id": "T136",
+      "pt_BR": "Permissão Internacional para Dirigir (PID)",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Международное водительское удостоверение Бразилии (PID)",
+        "uk": "Міжнародне посвідчення водія Бразилії (PID)",
+        "bg": "Международно свидетелство за управление от Бразилия (PID)",
+        "sr-Cyrl": "Међународна возачка дозвола издата у Бразилу (PID)",
+        "el": "Διεθνής άδεια οδήγησης Βραζιλίας (PID)",
+        "zh-Hans": "巴西签发的国际驾驶许可（PID）",
+        "zh-Hant": "巴西核發的國際駕駛許可（PID）",
+        "ja": "ブラジル発行の国際運転許可証（PID）",
+        "ko": "브라질 발급 국제운전허가증(PID)",
+        "hi": "ब्राज़ील में जारी अंतरराष्ट्रीय ड्राइविंग परमिट (PID)",
+        "th": "ใบอนุญาตขับรถระหว่างประเทศที่ออกในบราซิล (PID)",
+        "ar": "تصريح القيادة الدولي الصادر في البرازيل (PID)",
+        "fa": "مجوز بین‌المللی رانندگی صادرشده در برزیل (PID)",
+        "he": "היתר נהיגה בין-לאומי שהונפק בברזיל (PID)"
+      }
+    },
+    {
+      "id": "T137",
+      "pt_BR": "Avaliação de soluções",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Оценка решений",
+        "uk": "Оцінювання рішень",
+        "bg": "Оценка на решения",
+        "sr-Cyrl": "Процена решења",
+        "el": "Αξιολόγηση λύσεων",
+        "zh-Hans": "解决方案评估",
+        "zh-Hant": "解決方案評估",
+        "ja": "ソリューション評価",
+        "ko": "솔루션 평가",
+        "hi": "समाधानों का मूल्यांकन",
+        "th": "การประเมินโซลูชัน",
+        "ar": "تقييم الحلول",
+        "fa": "ارزیابی راهکارها",
+        "he": "הערכת פתרונות"
+      }
+    },
+    {
+      "id": "T138",
+      "pt_BR": "Gestão de pessoas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление персоналом",
+        "uk": "Управління персоналом",
+        "bg": "Управление на хора",
+        "sr-Cyrl": "Управљање људима",
+        "el": "Διαχείριση ανθρώπινου δυναμικού",
+        "zh-Hans": "人员管理",
+        "zh-Hant": "人員管理",
+        "ja": "人材管理",
+        "ko": "인력 관리",
+        "hi": "कार्मिक प्रबंधन",
+        "th": "การบริหารบุคลากร",
+        "ar": "إدارة الأفراد",
+        "fa": "مدیریت افراد",
+        "he": "ניהול אנשים"
+      }
+    },
+    {
+      "id": "T139",
+      "pt_BR": "Gestão de processos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление процессами",
+        "uk": "Управління процесами",
+        "bg": "Управление на процеси",
+        "sr-Cyrl": "Управљање процесима",
+        "el": "Διαχείριση διαδικασιών",
+        "zh-Hans": "流程管理",
+        "zh-Hant": "流程管理",
+        "ja": "プロセス管理",
+        "ko": "프로세스 관리",
+        "hi": "प्रक्रिया प्रबंधन",
+        "th": "การบริหารกระบวนการ",
+        "ar": "إدارة العمليات",
+        "fa": "مدیریت فرایندها",
+        "he": "ניהול תהליכים"
+      }
+    },
+    {
+      "id": "T140",
+      "pt_BR": "Gestão de projetos de TI",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление ИТ-проектами",
+        "uk": "Управління ІТ-проєктами",
+        "bg": "Управление на ИТ проекти",
+        "sr-Cyrl": "Управљање ИТ пројектима",
+        "el": "Διαχείριση έργων πληροφορικής",
+        "zh-Hans": "信息技术项目管理",
+        "zh-Hant": "資訊科技專案管理",
+        "ja": "ITプロジェクト管理",
+        "ko": "IT 프로젝트 관리",
+        "hi": "IT परियोजना प्रबंधन",
+        "th": "การบริหารโครงการไอที",
+        "ar": "إدارة مشاريع تقنية المعلومات",
+        "fa": "مدیریت پروژه‌های فناوری اطلاعات",
+        "he": "ניהול פרויקטי IT"
+      }
+    },
+    {
+      "id": "T141",
+      "pt_BR": "Planejamento estratégico",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Стратегическое планирование",
+        "uk": "Стратегічне планування",
+        "bg": "Стратегическо планиране",
+        "sr-Cyrl": "Стратешко планирање",
+        "el": "Στρατηγικός σχεδιασμός",
+        "zh-Hans": "战略规划",
+        "zh-Hant": "策略規劃",
+        "ja": "戦略計画",
+        "ko": "전략 계획",
+        "hi": "रणनीतिक नियोजन",
+        "th": "การวางแผนเชิงกลยุทธ์",
+        "ar": "التخطيط الاستراتيجي",
+        "fa": "برنامه‌ریزی راهبردی",
+        "he": "תכנון אסטרטגי"
+      }
+    },
+    {
+      "id": "T142",
+      "pt_BR": "Negociação",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Ведение переговоров",
+        "uk": "Ведення переговорів",
+        "bg": "Преговори",
+        "sr-Cyrl": "Преговарање",
+        "el": "Διαπραγμάτευση",
+        "zh-Hans": "谈判",
+        "zh-Hant": "談判",
+        "ja": "交渉",
+        "ko": "협상",
+        "hi": "वार्ता",
+        "th": "การเจรจา",
+        "ar": "التفاوض",
+        "fa": "مذاکره",
+        "he": "משא ומתן"
+      }
+    },
+    {
+      "id": "T143",
+      "pt_BR": "Gestão de conflitos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление конфликтами",
+        "uk": "Управління конфліктами",
+        "bg": "Управление на конфликти",
+        "sr-Cyrl": "Управљање сукобима",
+        "el": "Διαχείριση συγκρούσεων",
+        "zh-Hans": "冲突管理",
+        "zh-Hant": "衝突管理",
+        "ja": "対立の管理",
+        "ko": "갈등 관리",
+        "hi": "विवाद प्रबंधन",
+        "th": "การบริหารความขัดแย้ง",
+        "ar": "إدارة النزاعات",
+        "fa": "مدیریت تعارض",
+        "he": "ניהול עימותים"
+      }
+    },
+    {
+      "id": "T144",
+      "pt_BR": "Pensamento crítico",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Критическое мышление",
+        "uk": "Критичне мислення",
+        "bg": "Критично мислене",
+        "sr-Cyrl": "Критичко размишљање",
+        "el": "Κριτική σκέψη",
+        "zh-Hans": "批判性思维",
+        "zh-Hant": "批判性思考",
+        "ja": "批判的思考",
+        "ko": "비판적 사고",
+        "hi": "आलोचनात्मक सोच",
+        "th": "การคิดเชิงวิพากษ์",
+        "ar": "التفكير النقدي",
+        "fa": "تفکر انتقادی",
+        "he": "חשיבה ביקורתית"
+      }
+    },
+    {
+      "id": "T145",
+      "pt_BR": "Pesquisa acadêmica",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Академические исследования",
+        "uk": "Академічні дослідження",
+        "bg": "Академични изследвания",
+        "sr-Cyrl": "Академско истраживање",
+        "el": "Ακαδημαϊκή έρευνα",
+        "zh-Hans": "学术研究",
+        "zh-Hant": "學術研究",
+        "ja": "学術研究",
+        "ko": "학술 연구",
+        "hi": "अकादमिक शोध",
+        "th": "การวิจัยทางวิชาการ",
+        "ar": "البحث الأكاديمي",
+        "fa": "پژوهش دانشگاهی",
+        "he": "מחקר אקדמי"
+      }
+    },
+    {
+      "id": "T146",
+      "pt_BR": "Resolução de problemas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Решение проблем",
+        "uk": "Розв’язання проблем",
+        "bg": "Решаване на проблеми",
+        "sr-Cyrl": "Решавање проблема",
+        "el": "Επίλυση προβλημάτων",
+        "zh-Hans": "问题解决",
+        "zh-Hant": "問題解決",
+        "ja": "問題解決",
+        "ko": "문제 해결",
+        "hi": "समस्या समाधान",
+        "th": "การแก้ปัญหา",
+        "ar": "حل المشكلات",
+        "fa": "حل مسئله",
+        "he": "פתרון בעיות"
+      }
+    },
+    {
+      "id": "T147",
+      "pt_BR": "Visão sistêmica",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Системное мышление",
+        "uk": "Системне мислення",
+        "bg": "Системно мислене",
+        "sr-Cyrl": "Системско размишљање",
+        "el": "Συστημική σκέψη",
+        "zh-Hans": "系统思维",
+        "zh-Hant": "系統思維",
+        "ja": "システム思考",
+        "ko": "시스템 사고",
+        "hi": "प्रणालीगत सोच",
+        "th": "การคิดเชิงระบบ",
+        "ar": "التفكير المنظومي",
+        "fa": "تفکر سیستمی",
+        "he": "חשיבה מערכתית"
+      }
+    },
+    {
+      "id": "T148",
+      "pt_BR": "Bancos de dados",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Базы данных",
+        "uk": "Бази даних",
+        "bg": "Бази данни",
+        "sr-Cyrl": "Базе података",
+        "el": "Βάσεις δεδομένων",
+        "zh-Hans": "数据库",
+        "zh-Hant": "資料庫",
+        "ja": "データベース",
+        "ko": "데이터베이스",
+        "hi": "डेटाबेस",
+        "th": "ฐานข้อมูล",
+        "ar": "قواعد البيانات",
+        "fa": "پایگاه‌های داده",
+        "he": "מסדי נתונים"
+      }
+    },
+    {
+      "id": "T149",
+      "pt_BR": "Diagnóstico de infraestrutura",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Диагностика инфраструктуры",
+        "uk": "Діагностика інфраструктури",
+        "bg": "Диагностика на инфраструктура",
+        "sr-Cyrl": "Дијагностика инфраструктуре",
+        "el": "Διάγνωση υποδομών",
+        "zh-Hans": "基础设施诊断",
+        "zh-Hant": "基礎設施診斷",
+        "ja": "インフラ診断",
+        "ko": "인프라 진단",
+        "hi": "अवसंरचना निदान",
+        "th": "การวินิจฉัยโครงสร้างพื้นฐาน",
+        "ar": "تشخيص البنية التحتية",
+        "fa": "عیب‌یابی زیرساخت",
+        "he": "אבחון תשתיות"
+      }
+    },
+    {
+      "id": "T150",
+      "pt_BR": "Engenharia de software",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Программная инженерия",
+        "uk": "Інженерія програмного забезпечення",
+        "bg": "Софтуерно инженерство",
+        "sr-Cyrl": "Софтверско инжењерство",
+        "el": "Μηχανική λογισμικού",
+        "zh-Hans": "软件工程",
+        "zh-Hant": "軟體工程",
+        "ja": "ソフトウェア工学",
+        "ko": "소프트웨어 공학",
+        "hi": "सॉफ़्टवेयर इंजीनियरिंग",
+        "th": "วิศวกรรมซอฟต์แวร์",
+        "ar": "هندسة البرمجيات",
+        "fa": "مهندسی نرم‌افزار",
+        "he": "הנדסת תוכנה"
+      }
+    },
+    {
+      "id": "T151",
+      "pt_BR": "Inteligência de negócios",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Бизнес-аналитика",
+        "uk": "Бізнес-аналітика",
+        "bg": "Бизнес анализ",
+        "sr-Cyrl": "Пословна интелигенција",
+        "el": "Επιχειρηματική ευφυΐα",
+        "zh-Hans": "商业智能",
+        "zh-Hant": "商業智慧",
+        "ja": "ビジネスインテリジェンス",
+        "ko": "비즈니스 인텔리전스",
+        "hi": "बिज़नेस इंटेलिजेंस",
+        "th": "ระบบธุรกิจอัจฉริยะ",
+        "ar": "ذكاء الأعمال",
+        "fa": "هوش تجاری",
+        "he": "בינה עסקית"
+      }
+    },
+    {
+      "id": "T152",
+      "pt_BR": "Business intelligence",
+      "tipo": "alias_ingles_preservado",
+      "traducoes": {
+        "ru": "Business intelligence",
+        "uk": "Business intelligence",
+        "bg": "Business intelligence",
+        "sr-Cyrl": "Business intelligence",
+        "el": "Business intelligence",
+        "zh-Hans": "Business intelligence",
+        "zh-Hant": "Business intelligence",
+        "ja": "Business intelligence",
+        "ko": "Business intelligence",
+        "hi": "Business intelligence",
+        "th": "Business intelligence",
+        "ar": "Business intelligence",
+        "fa": "Business intelligence",
+        "he": "Business intelligence"
+      }
+    },
+    {
+      "id": "T153",
+      "pt_BR": "Programação para internet",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Веб-программирование",
+        "uk": "Вебпрограмування",
+        "bg": "Уеб програмиране",
+        "sr-Cyrl": "Веб-програмирање",
+        "el": "Προγραμματισμός ιστού",
+        "zh-Hans": "网页编程",
+        "zh-Hant": "網頁程式設計",
+        "ja": "ウェブプログラミング",
+        "ko": "웹 프로그래밍",
+        "hi": "वेब प्रोग्रामिंग",
+        "th": "การเขียนโปรแกรมเว็บ",
+        "ar": "برمجة الويب",
+        "fa": "برنامه‌نویسی وب",
+        "he": "תכנות לאינטרנט"
+      }
+    },
+    {
+      "id": "T154",
+      "pt_BR": "Redes de computadores",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Компьютерные сети",
+        "uk": "Комп’ютерні мережі",
+        "bg": "Компютърни мрежи",
+        "sr-Cyrl": "Рачунарске мреже",
+        "el": "Δίκτυα υπολογιστών",
+        "zh-Hans": "计算机网络",
+        "zh-Hant": "電腦網路",
+        "ja": "コンピューターネットワーク",
+        "ko": "컴퓨터 네트워크",
+        "hi": "कंप्यूटर नेटवर्क",
+        "th": "เครือข่ายคอมพิวเตอร์",
+        "ar": "شبكات الحاسوب",
+        "fa": "شبکه‌های رایانه‌ای",
+        "he": "רשתות מחשבים"
+      }
+    },
+    {
+      "id": "T155",
+      "pt_BR": "Sistemas operacionais",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Операционные системы",
+        "uk": "Операційні системи",
+        "bg": "Операционни системи",
+        "sr-Cyrl": "Оперативни системи",
+        "el": "Λειτουργικά συστήματα",
+        "zh-Hans": "操作系统",
+        "zh-Hant": "作業系統",
+        "ja": "オペレーティングシステム",
+        "ko": "운영 체제",
+        "hi": "ऑपरेटिंग सिस्टम",
+        "th": "ระบบปฏิบัติการ",
+        "ar": "أنظمة التشغيل",
+        "fa": "سیستم‌عامل‌ها",
+        "he": "מערכות הפעלה"
+      }
+    },
+    {
+      "id": "T156",
+      "pt_BR": "Design responsivo",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Адаптивный дизайн",
+        "uk": "Адаптивний дизайн",
+        "bg": "Отзивчив уеб дизайн",
+        "sr-Cyrl": "Прилагодљиви дизајн",
+        "el": "Προσαρμοστικός σχεδιασμός",
+        "zh-Hans": "响应式设计",
+        "zh-Hant": "響應式設計",
+        "ja": "レスポンシブデザイン",
+        "ko": "반응형 디자인",
+        "hi": "रिस्पॉन्सिव डिज़ाइन",
+        "th": "การออกแบบเว็บแบบตอบสนอง",
+        "ar": "التصميم المتجاوب",
+        "fa": "طراحی واکنش‌گرا",
+        "he": "עיצוב רספונסיבי"
+      }
+    },
+    {
+      "id": "T157",
+      "pt_BR": "Otimização de desempenho",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Оптимизация производительности",
+        "uk": "Оптимізація продуктивності",
+        "bg": "Оптимизация на производителността",
+        "sr-Cyrl": "Оптимизација перформанси",
+        "el": "Βελτιστοποίηση απόδοσης",
+        "zh-Hans": "性能优化",
+        "zh-Hant": "效能最佳化",
+        "ja": "性能最適化",
+        "ko": "성능 최적화",
+        "hi": "प्रदर्शन अनुकूलन",
+        "th": "การเพิ่มประสิทธิภาพการทำงาน",
+        "ar": "تحسين الأداء",
+        "fa": "بهینه‌سازی عملکرد",
+        "he": "מיטוב ביצועים"
+      }
+    },
+    {
+      "id": "T158",
+      "pt_BR": "Otimização de imagens",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Оптимизация изображений",
+        "uk": "Оптимізація зображень",
+        "bg": "Оптимизация на изображения",
+        "sr-Cyrl": "Оптимизација слика",
+        "el": "Βελτιστοποίηση εικόνων",
+        "zh-Hans": "图像优化",
+        "zh-Hant": "影像最佳化",
+        "ja": "画像最適化",
+        "ko": "이미지 최적화",
+        "hi": "छवि अनुकूलन",
+        "th": "การปรับภาพให้เหมาะสม",
+        "ar": "تحسين الصور",
+        "fa": "بهینه‌سازی تصاویر",
+        "he": "מיטוב תמונות"
+      }
+    },
+    {
+      "id": "T159",
+      "pt_BR": "Testes de interface",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Тестирование интерфейса",
+        "uk": "Тестування інтерфейсу",
+        "bg": "Тестване на интерфейси",
+        "sr-Cyrl": "Тестирање интерфејса",
+        "el": "Δοκιμές διεπαφής",
+        "zh-Hans": "界面测试",
+        "zh-Hant": "介面測試",
+        "ja": "インターフェーステスト",
+        "ko": "인터페이스 테스트",
+        "hi": "इंटरफ़ेस परीक्षण",
+        "th": "การทดสอบส่วนติดต่อผู้ใช้",
+        "ar": "اختبار الواجهات",
+        "fa": "آزمون رابط کاربری",
+        "he": "בדיקות ממשק"
+      }
+    },
+    {
+      "id": "T160",
+      "pt_BR": "Validação HTML",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Валидация HTML",
+        "uk": "Валідація HTML",
+        "bg": "Валидиране на HTML",
+        "sr-Cyrl": "Валидација HTML-а",
+        "el": "Επικύρωση HTML",
+        "zh-Hans": "HTML 验证",
+        "zh-Hant": "HTML 驗證",
+        "ja": "HTML検証",
+        "ko": "HTML 검증",
+        "hi": "HTML सत्यापन",
+        "th": "การตรวจสอบความถูกต้องของ HTML",
+        "ar": "التحقق من صحة HTML",
+        "fa": "اعتبارسنجی HTML",
+        "he": "אימות HTML"
+      }
+    },
+    {
+      "id": "T161",
+      "pt_BR": "Gestão de escopo",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление содержанием проекта",
+        "uk": "Управління змістом проєкту",
+        "bg": "Управление на обхвата",
+        "sr-Cyrl": "Управљање обимом пројекта",
+        "el": "Διαχείριση εύρους έργου",
+        "zh-Hans": "项目范围管理",
+        "zh-Hant": "專案範疇管理",
+        "ja": "スコープ管理",
+        "ko": "프로젝트 범위 관리",
+        "hi": "परियोजना दायरा प्रबंधन",
+        "th": "การบริหารขอบเขตโครงการ",
+        "ar": "إدارة نطاق المشروع",
+        "fa": "مدیریت محدوده پروژه",
+        "he": "ניהול תכולת פרויקט"
+      }
+    },
+    {
+      "id": "T162",
+      "pt_BR": "Google AI Studio",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Google AI Studio",
+        "uk": "Google AI Studio",
+        "bg": "Google AI Studio",
+        "sr-Cyrl": "Google AI Studio",
+        "el": "Google AI Studio",
+        "zh-Hans": "Google AI Studio",
+        "zh-Hant": "Google AI Studio",
+        "ja": "Google AI Studio",
+        "ko": "Google AI Studio",
+        "hi": "Google AI Studio",
+        "th": "Google AI Studio",
+        "ar": "Google AI Studio",
+        "fa": "Google AI Studio",
+        "he": "Google AI Studio"
+      }
+    },
+    {
+      "id": "T163",
+      "pt_BR": "Formulários web",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Веб-формы",
+        "uk": "Вебформи",
+        "bg": "Уеб формуляри",
+        "sr-Cyrl": "Веб-обрасци",
+        "el": "Φόρμες ιστού",
+        "zh-Hans": "网页表单",
+        "zh-Hant": "網頁表單",
+        "ja": "ウェブフォーム",
+        "ko": "웹 양식",
+        "hi": "वेब फ़ॉर्म",
+        "th": "แบบฟอร์มเว็บ",
+        "ar": "نماذج الويب",
+        "fa": "فرم‌های وب",
+        "he": "טפסים מקוונים"
+      }
+    },
+    {
+      "id": "T164",
+      "pt_BR": "Preparação de infraestrutura",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Подготовка инфраструктуры",
+        "uk": "Підготовка інфраструктури",
+        "bg": "Подготовка на инфраструктура",
+        "sr-Cyrl": "Припрема инфраструктуре",
+        "el": "Προετοιμασία υποδομών",
+        "zh-Hans": "基础设施准备",
+        "zh-Hant": "基礎設施準備",
+        "ja": "インフラ準備",
+        "ko": "인프라 준비",
+        "hi": "अवसंरचना तैयारी",
+        "th": "การเตรียมโครงสร้างพื้นฐาน",
+        "ar": "تجهيز البنية التحتية",
+        "fa": "آماده‌سازی زیرساخت",
+        "he": "הכנת תשתיות"
+      }
+    },
+    {
+      "id": "T165",
+      "pt_BR": "Desenvolvimento colaborativo",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Совместная разработка",
+        "uk": "Спільна розробка",
+        "bg": "Съвместна разработка",
+        "sr-Cyrl": "Сараднички развој",
+        "el": "Συνεργατική ανάπτυξη",
+        "zh-Hans": "协作开发",
+        "zh-Hant": "協作開發",
+        "ja": "共同開発",
+        "ko": "협업 개발",
+        "hi": "सहयोगात्मक विकास",
+        "th": "การพัฒนาร่วมกัน",
+        "ar": "التطوير التعاوني",
+        "fa": "توسعه مشارکتی",
+        "he": "פיתוח שיתופי"
+      }
+    },
+    {
+      "id": "T166",
+      "pt_BR": "Pesquisa de mercado",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Исследование рынка",
+        "uk": "Дослідження ринку",
+        "bg": "Пазарни проучвания",
+        "sr-Cyrl": "Истраживање тржишта",
+        "el": "Έρευνα αγοράς",
+        "zh-Hans": "市场研究",
+        "zh-Hant": "市場研究",
+        "ja": "市場調査",
+        "ko": "시장 조사",
+        "hi": "बाज़ार शोध",
+        "th": "การวิจัยตลาด",
+        "ar": "أبحاث السوق",
+        "fa": "پژوهش بازار",
+        "he": "מחקר שוק"
+      }
+    },
+    {
+      "id": "T167",
+      "pt_BR": "Engenharia de requisitos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Инженерия требований",
+        "uk": "Інженерія вимог",
+        "bg": "Инженерство на изискванията",
+        "sr-Cyrl": "Инжењерство захтева",
+        "el": "Μηχανική απαιτήσεων",
+        "zh-Hans": "需求工程",
+        "zh-Hant": "需求工程",
+        "ja": "要求工学",
+        "ko": "요구공학",
+        "hi": "आवश्यकता इंजीनियरिंग",
+        "th": "วิศวกรรมความต้องการ",
+        "ar": "هندسة المتطلبات",
+        "fa": "مهندسی نیازمندی‌ها",
+        "he": "הנדסת דרישות"
+      }
+    },
+    {
+      "id": "T168",
+      "pt_BR": "Levantamento de requisitos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Выявление требований",
+        "uk": "Виявлення вимог",
+        "bg": "Събиране на изисквания",
+        "sr-Cyrl": "Прикупљање захтева",
+        "el": "Συλλογή απαιτήσεων",
+        "zh-Hans": "需求获取",
+        "zh-Hant": "需求蒐集",
+        "ja": "要求の抽出",
+        "ko": "요구사항 도출",
+        "hi": "आवश्यकताओं का संकलन",
+        "th": "การเก็บรวบรวมความต้องการ",
+        "ar": "استخلاص المتطلبات",
+        "fa": "استخراج نیازمندی‌ها",
+        "he": "איסוף דרישות"
+      }
+    },
+    {
+      "id": "T169",
+      "pt_BR": "Requisitos funcionais",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Функциональные требования",
+        "uk": "Функціональні вимоги",
+        "bg": "Функционални изисквания",
+        "sr-Cyrl": "Функционални захтеви",
+        "el": "Λειτουργικές απαιτήσεις",
+        "zh-Hans": "功能需求",
+        "zh-Hant": "功能需求",
+        "ja": "機能要求",
+        "ko": "기능 요구사항",
+        "hi": "कार्यात्मक आवश्यकताएँ",
+        "th": "ความต้องการเชิงหน้าที่",
+        "ar": "المتطلبات الوظيفية",
+        "fa": "نیازمندی‌های کارکردی",
+        "he": "דרישות פונקציונליות"
+      }
+    },
+    {
+      "id": "T170",
+      "pt_BR": "Requisitos não funcionais",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Нефункциональные требования",
+        "uk": "Нефункціональні вимоги",
+        "bg": "Нефункционални изисквания",
+        "sr-Cyrl": "Нефункционални захтеви",
+        "el": "Μη λειτουργικές απαιτήσεις",
+        "zh-Hans": "非功能需求",
+        "zh-Hant": "非功能需求",
+        "ja": "非機能要求",
+        "ko": "비기능 요구사항",
+        "hi": "गैर-कार्यात्मक आवश्यकताएँ",
+        "th": "ความต้องการที่ไม่ใช่เชิงหน้าที่",
+        "ar": "المتطلبات غير الوظيفية",
+        "fa": "نیازمندی‌های غیرکارکردی",
+        "he": "דרישות לא פונקציונליות"
+      }
+    },
+    {
+      "id": "T171",
+      "pt_BR": "Modelagem de processos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Моделирование процессов",
+        "uk": "Моделювання процесів",
+        "bg": "Моделиране на процеси",
+        "sr-Cyrl": "Моделовање процеса",
+        "el": "Μοντελοποίηση διαδικασιών",
+        "zh-Hans": "流程建模",
+        "zh-Hant": "流程建模",
+        "ja": "プロセスモデリング",
+        "ko": "프로세스 모델링",
+        "hi": "प्रक्रिया मॉडलिंग",
+        "th": "การสร้างแบบจำลองกระบวนการ",
+        "ar": "نمذجة العمليات",
+        "fa": "مدل‌سازی فرایندها",
+        "he": "מידול תהליכים"
+      }
+    },
+    {
+      "id": "T172",
+      "pt_BR": "Avaliação de ferramentas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Оценка инструментов",
+        "uk": "Оцінювання інструментів",
+        "bg": "Оценка на инструменти",
+        "sr-Cyrl": "Процена алата",
+        "el": "Αξιολόγηση εργαλείων",
+        "zh-Hans": "工具评估",
+        "zh-Hant": "工具評估",
+        "ja": "ツール評価",
+        "ko": "도구 평가",
+        "hi": "उपकरणों का मूल्यांकन",
+        "th": "การประเมินเครื่องมือ",
+        "ar": "تقييم الأدوات",
+        "fa": "ارزیابی ابزارها",
+        "he": "הערכת כלים"
+      }
+    },
+    {
+      "id": "T173",
+      "pt_BR": "Pesquisa aplicada",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Прикладные исследования",
+        "uk": "Прикладні дослідження",
+        "bg": "Приложни изследвания",
+        "sr-Cyrl": "Примењено истраживање",
+        "el": "Εφαρμοσμένη έρευνα",
+        "zh-Hans": "应用研究",
+        "zh-Hant": "應用研究",
+        "ja": "応用研究",
+        "ko": "응용 연구",
+        "hi": "अनुप्रयुक्त शोध",
+        "th": "การวิจัยประยุกต์",
+        "ar": "البحث التطبيقي",
+        "fa": "پژوهش کاربردی",
+        "he": "מחקר יישומי"
+      }
+    },
+    {
+      "id": "T174",
+      "pt_BR": "Pesquisa bibliográfica",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Библиографические исследования",
+        "uk": "Бібліографічні дослідження",
+        "bg": "Библиографски изследвания",
+        "sr-Cyrl": "Библиографско истраживање",
+        "el": "Βιβλιογραφική έρευνα",
+        "zh-Hans": "文献研究",
+        "zh-Hant": "文獻研究",
+        "ja": "文献調査",
+        "ko": "문헌 연구",
+        "hi": "साहित्य-आधारित शोध",
+        "th": "การวิจัยเอกสาร",
+        "ar": "البحث في المراجع",
+        "fa": "پژوهش کتابخانه‌ای",
+        "he": "מחקר ביבליוגרפי"
+      }
+    },
+    {
+      "id": "T175",
+      "pt_BR": "Estudo de caso",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Исследование конкретного случая",
+        "uk": "Дослідження конкретного випадку",
+        "bg": "Изследване на конкретен случай",
+        "sr-Cyrl": "Студија случаја",
+        "el": "Μελέτη περίπτωσης",
+        "zh-Hans": "案例研究",
+        "zh-Hant": "個案研究",
+        "ja": "事例研究",
+        "ko": "사례 연구",
+        "hi": "केस अध्ययन",
+        "th": "กรณีศึกษา",
+        "ar": "دراسة حالة",
+        "fa": "مطالعه موردی",
+        "he": "חקר מקרה"
+      }
+    },
+    {
+      "id": "T176",
+      "pt_BR": "Estudo de campo",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Полевое исследование",
+        "uk": "Польове дослідження",
+        "bg": "Теренно изследване",
+        "sr-Cyrl": "Теренско истраживање",
+        "el": "Έρευνα πεδίου",
+        "zh-Hans": "实地研究",
+        "zh-Hant": "實地研究",
+        "ja": "現地調査",
+        "ko": "현장 연구",
+        "hi": "क्षेत्र अध्ययन",
+        "th": "การศึกษาภาคสนาม",
+        "ar": "دراسة ميدانية",
+        "fa": "مطالعه میدانی",
+        "he": "מחקר שדה"
+      }
+    },
+    {
+      "id": "T177",
+      "pt_BR": "Entrevistas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Интервью",
+        "uk": "Інтерв’ю",
+        "bg": "Интервюта",
+        "sr-Cyrl": "Интервјуи",
+        "el": "Συνεντεύξεις",
+        "zh-Hans": "访谈",
+        "zh-Hant": "訪談",
+        "ja": "インタビュー",
+        "ko": "인터뷰",
+        "hi": "साक्षात्कार",
+        "th": "การสัมภาษณ์",
+        "ar": "المقابلات",
+        "fa": "مصاحبه‌ها",
+        "he": "ראיונות"
+      }
+    },
+    {
+      "id": "T178",
+      "pt_BR": "Questionários",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Анкеты",
+        "uk": "Анкети",
+        "bg": "Въпросници",
+        "sr-Cyrl": "Упитници",
+        "el": "Ερωτηματολόγια",
+        "zh-Hans": "问卷",
+        "zh-Hant": "問卷",
+        "ja": "質問票",
+        "ko": "설문지",
+        "hi": "प्रश्नावलियाँ",
+        "th": "แบบสอบถาม",
+        "ar": "الاستبيانات",
+        "fa": "پرسش‌نامه‌ها",
+        "he": "שאלונים"
+      }
+    },
+    {
+      "id": "T179",
+      "pt_BR": "Análise de dados qualitativos",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Анализ качественных данных",
+        "uk": "Аналіз якісних даних",
+        "bg": "Анализ на качествени данни",
+        "sr-Cyrl": "Анализа квалитативних података",
+        "el": "Ανάλυση ποιοτικών δεδομένων",
+        "zh-Hans": "定性数据分析",
+        "zh-Hant": "質性資料分析",
+        "ja": "質的データ分析",
+        "ko": "정성적 데이터 분석",
+        "hi": "गुणात्मक डेटा विश्लेषण",
+        "th": "การวิเคราะห์ข้อมูลเชิงคุณภาพ",
+        "ar": "تحليل البيانات النوعية",
+        "fa": "تحلیل داده‌های کیفی",
+        "he": "ניתוח נתונים איכותניים"
+      }
+    },
+    {
+      "id": "T180",
+      "pt_BR": "Análise de conteúdo",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Контент-анализ",
+        "uk": "Контент-аналіз",
+        "bg": "Анализ на съдържание",
+        "sr-Cyrl": "Анализа садржаја",
+        "el": "Ανάλυση περιεχομένου",
+        "zh-Hans": "内容分析",
+        "zh-Hant": "內容分析",
+        "ja": "内容分析",
+        "ko": "내용 분석",
+        "hi": "सामग्री विश्लेषण",
+        "th": "การวิเคราะห์เนื้อหา",
+        "ar": "تحليل المحتوى",
+        "fa": "تحلیل محتوا",
+        "he": "ניתוח תוכן"
+      }
+    },
+    {
+      "id": "T181",
+      "pt_BR": "Diagrama de Ishikawa",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Диаграмма Исикавы",
+        "uk": "Діаграма Ісікави",
+        "bg": "Диаграма на Ишикава",
+        "sr-Cyrl": "Ишикава дијаграм",
+        "el": "Διάγραμμα Ισικάουα",
+        "zh-Hans": "石川图",
+        "zh-Hant": "石川圖",
+        "ja": "石川ダイアグラム",
+        "ko": "이시카와 다이어그램",
+        "hi": "इशिकावा आरेख",
+        "th": "แผนภาพอิชิคาวะ",
+        "ar": "مخطط إيشيكاوا",
+        "fa": "نمودار ایشیکاوا",
+        "he": "תרשים אישיקאווה"
+      }
+    },
+    {
+      "id": "T182",
+      "pt_BR": "Definição de personas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Определение персон пользователей",
+        "uk": "Визначення персон користувачів",
+        "bg": "Определяне на потребителски персони",
+        "sr-Cyrl": "Дефинисање корисничких персона",
+        "el": "Ορισμός προφίλ χρηστών",
+        "zh-Hans": "用户画像定义",
+        "zh-Hant": "使用者人物誌定義",
+        "ja": "ペルソナの定義",
+        "ko": "페르소나 정의",
+        "hi": "उपयोगकर्ता पर्सोना निर्धारण",
+        "th": "การกำหนดตัวแทนผู้ใช้",
+        "ar": "تحديد شخصيات المستخدمين",
+        "fa": "تعریف پرسوناهای کاربر",
+        "he": "הגדרת פרסונות משתמשים"
+      }
+    },
+    {
+      "id": "T183",
+      "pt_BR": "Mapa de empatia",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Карта эмпатии",
+        "uk": "Карта емпатії",
+        "bg": "Карта на емпатията",
+        "sr-Cyrl": "Мапа емпатије",
+        "el": "Χάρτης ενσυναίσθησης",
+        "zh-Hans": "同理心地图",
+        "zh-Hant": "同理心地圖",
+        "ja": "共感マップ",
+        "ko": "공감 지도",
+        "hi": "सहानुभूति मानचित्र",
+        "th": "แผนที่ความเข้าใจผู้ใช้",
+        "ar": "خريطة التعاطف",
+        "fa": "نقشه همدلی",
+        "he": "מפת אמפתיה"
+      }
+    },
+    {
+      "id": "T184",
+      "pt_BR": "Análise de necessidades",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Анализ потребностей",
+        "uk": "Аналіз потреб",
+        "bg": "Анализ на потребностите",
+        "sr-Cyrl": "Анализа потреба",
+        "el": "Ανάλυση αναγκών",
+        "zh-Hans": "需求分析",
+        "zh-Hant": "需求分析",
+        "ja": "ニーズ分析",
+        "ko": "요구 분석",
+        "hi": "ज़रूरतों का विश्लेषण",
+        "th": "การวิเคราะห์ความต้องการ",
+        "ar": "تحليل الاحتياجات",
+        "fa": "تحلیل نیازها",
+        "he": "ניתוח צרכים"
+      }
+    },
+    {
+      "id": "T185",
+      "pt_BR": "Planejamento de atividades",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Планирование деятельности",
+        "uk": "Планування діяльності",
+        "bg": "Планиране на дейности",
+        "sr-Cyrl": "Планирање активности",
+        "el": "Σχεδιασμός δραστηριοτήτων",
+        "zh-Hans": "活动规划",
+        "zh-Hant": "活動規劃",
+        "ja": "活動計画",
+        "ko": "활동 계획",
+        "hi": "गतिविधि नियोजन",
+        "th": "การวางแผนกิจกรรม",
+        "ar": "تخطيط الأنشطة",
+        "fa": "برنامه‌ریزی فعالیت‌ها",
+        "he": "תכנון פעילויות"
+      }
+    },
+    {
+      "id": "T186",
+      "pt_BR": "Liderança de equipe",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Руководство командой",
+        "uk": "Керівництво командою",
+        "bg": "Ръководене на екип",
+        "sr-Cyrl": "Вођење тима",
+        "el": "Ηγεσία ομάδας",
+        "zh-Hans": "团队领导",
+        "zh-Hant": "團隊領導",
+        "ja": "チームの統率",
+        "ko": "팀 리더십",
+        "hi": "टीम नेतृत्व",
+        "th": "ภาวะผู้นำทีม",
+        "ar": "قيادة الفريق",
+        "fa": "رهبری تیم",
+        "he": "הובלת צוות"
+      }
+    },
+    {
+      "id": "T187",
+      "pt_BR": "Gestão de entregáveis",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Управление результатами проекта",
+        "uk": "Управління результатами проєкту",
+        "bg": "Управление на резултатите от проекта",
+        "sr-Cyrl": "Управљање испорукама пројекта",
+        "el": "Διαχείριση παραδοτέων",
+        "zh-Hans": "交付成果管理",
+        "zh-Hant": "交付成果管理",
+        "ja": "成果物管理",
+        "ko": "산출물 관리",
+        "hi": "परियोजना प्रदेय प्रबंधन",
+        "th": "การบริหารสิ่งส่งมอบ",
+        "ar": "إدارة مخرجات المشروع",
+        "fa": "مدیریت تحویل‌دادنی‌های پروژه",
+        "he": "ניהול תוצרי פרויקט"
+      }
+    },
+    {
+      "id": "T188",
+      "pt_BR": "Integração de ferramentas",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Интеграция инструментов",
+        "uk": "Інтеграція інструментів",
+        "bg": "Интеграция на инструменти",
+        "sr-Cyrl": "Интеграција алата",
+        "el": "Ενοποίηση εργαλείων",
+        "zh-Hans": "工具集成",
+        "zh-Hant": "工具整合",
+        "ja": "ツール統合",
+        "ko": "도구 통합",
+        "hi": "उपकरण एकीकरण",
+        "th": "การบูรณาการเครื่องมือ",
+        "ar": "تكامل الأدوات",
+        "fa": "یکپارچه‌سازی ابزارها",
+        "he": "שילוב כלים"
+      }
+    },
+    {
+      "id": "T189",
+      "pt_BR": "Microsoft Word",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "Microsoft Word",
+        "uk": "Microsoft Word",
+        "bg": "Microsoft Word",
+        "sr-Cyrl": "Microsoft Word",
+        "el": "Microsoft Word",
+        "zh-Hans": "Microsoft Word",
+        "zh-Hant": "Microsoft Word",
+        "ja": "Microsoft Word",
+        "ko": "Microsoft Word",
+        "hi": "Microsoft Word",
+        "th": "Microsoft Word",
+        "ar": "Microsoft Word",
+        "fa": "Microsoft Word",
+        "he": "Microsoft Word"
+      }
+    },
+    {
+      "id": "T190",
+      "pt_BR": "Google Acadêmico",
+      "tipo": "traducao_editorial",
+      "traducoes": {
+        "ru": "Google Scholar",
+        "uk": "Google Scholar",
+        "bg": "Google Scholar",
+        "sr-Cyrl": "Google Scholar",
+        "el": "Google Scholar",
+        "zh-Hans": "Google Scholar",
+        "zh-Hant": "Google Scholar",
+        "ja": "Google Scholar",
+        "ko": "Google Scholar",
+        "hi": "Google Scholar",
+        "th": "Google Scholar",
+        "ar": "Google Scholar",
+        "fa": "Google Scholar",
+        "he": "Google Scholar"
+      }
+    },
+    {
+      "id": "T191",
+      "pt_BR": "ResearchGate",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "ResearchGate",
+        "uk": "ResearchGate",
+        "bg": "ResearchGate",
+        "sr-Cyrl": "ResearchGate",
+        "el": "ResearchGate",
+        "zh-Hans": "ResearchGate",
+        "zh-Hant": "ResearchGate",
+        "ja": "ResearchGate",
+        "ko": "ResearchGate",
+        "hi": "ResearchGate",
+        "th": "ResearchGate",
+        "ar": "ResearchGate",
+        "fa": "ResearchGate",
+        "he": "ResearchGate"
+      }
+    },
+    {
+      "id": "T192",
+      "pt_BR": "WhatsApp",
+      "tipo": "nome_ou_identificador_preservado",
+      "traducoes": {
+        "ru": "WhatsApp",
+        "uk": "WhatsApp",
+        "bg": "WhatsApp",
+        "sr-Cyrl": "WhatsApp",
+        "el": "WhatsApp",
+        "zh-Hans": "WhatsApp",
+        "zh-Hant": "WhatsApp",
+        "ja": "WhatsApp",
+        "ko": "WhatsApp",
+        "hi": "WhatsApp",
+        "th": "WhatsApp",
+        "ar": "WhatsApp",
+        "fa": "WhatsApp",
+        "he": "WhatsApp"
+      }
+    }
+  ],
+  "grupos": [
+    {
+      "id": "G01",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Gestão e produtividade",
+      "tags": [
+        "T001",
+        "T002",
+        "T003",
+        "T004",
+        "T005",
+        "T006",
+        "T007",
+        "T008",
+        "T009",
+        "T010",
+        "T011",
+        "T012",
+        "T013",
+        "T014",
+        "T015",
+        "T016",
+        "T017",
+        "T018"
+      ]
+    },
+    {
+      "id": "G02",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Sistemas operacionais",
+      "tags": [
+        "T019",
+        "T020",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025",
+        "T026",
+        "T027"
+      ]
+    },
+    {
+      "id": "G03",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Programação e dados",
+      "tags": [
+        "T028",
+        "T029",
+        "T030",
+        "T031",
+        "T032",
+        "T033",
+        "T034"
+      ]
+    },
+    {
+      "id": "G04",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Desenvolvimento com IA",
+      "tags": [
+        "T035",
+        "T036",
+        "T037",
+        "T038",
+        "T039",
+        "T040"
+      ]
+    },
+    {
+      "id": "G05",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Desenvolvimento de software",
+      "tags": [
+        "T041",
+        "T042",
+        "T043",
+        "T044",
+        "T045"
+      ]
+    },
+    {
+      "id": "G06",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Bancos de dados",
+      "tags": [
+        "T046",
+        "T047",
+        "T048",
+        "T049"
+      ]
+    },
+    {
+      "id": "G07",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Redes",
+      "tags": [
+        "T050",
+        "T051",
+        "T052",
+        "T053",
+        "T054",
+        "T055",
+        "T056",
+        "T057",
+        "T058",
+        "T059",
+        "T060",
+        "T061",
+        "T062",
+        "T063",
+        "T064",
+        "T065",
+        "T066",
+        "T067",
+        "T068",
+        "T069",
+        "T070",
+        "T071",
+        "T072",
+        "T073",
+        "T074"
+      ]
+    },
+    {
+      "id": "G08",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Sistemas para redes",
+      "tags": [
+        "T075",
+        "T076",
+        "T077"
+      ]
+    },
+    {
+      "id": "G09",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Suporte de TI",
+      "tags": [
+        "T078",
+        "T079",
+        "T080",
+        "T081",
+        "T082",
+        "T083",
+        "T084",
+        "T085",
+        "T086",
+        "T087",
+        "T088",
+        "T089",
+        "T090",
+        "T091",
+        "T092",
+        "T093",
+        "T094",
+        "T095",
+        "T096",
+        "T097"
+      ]
+    },
+    {
+      "id": "G10",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Web",
+      "tags": [
+        "T098",
+        "T099",
+        "T100",
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105"
+      ]
+    },
+    {
+      "id": "G11",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Servidores web",
+      "tags": [
+        "T106",
+        "T107",
+        "T108"
+      ]
+    },
+    {
+      "id": "G12",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Plataformas de desenvolvimento e hospedagem",
+      "tags": [
+        "T109",
+        "T110",
+        "T111",
+        "T112",
+        "T113",
+        "T114",
+        "T115"
+      ]
+    },
+    {
+      "id": "G13",
+      "contexto": "Competências técnicas (Hard skills)",
+      "grupo": "Idiomas",
+      "tags": [
+        "T116",
+        "T117"
+      ]
+    },
+    {
+      "id": "G14",
+      "contexto": "Competências sociais (Soft skills)",
+      "grupo": "Organização e desenvolvimento",
+      "tags": [
+        "T118",
+        "T119",
+        "T120",
+        "T121"
+      ]
+    },
+    {
+      "id": "G15",
+      "contexto": "Competências sociais (Soft skills)",
+      "grupo": "Relacionamento",
+      "tags": [
+        "T122",
+        "T123",
+        "T124"
+      ]
+    },
+    {
+      "id": "G16",
+      "contexto": "Habilidades práticas e operacionais",
+      "grupo": "Campo e ferramentas",
+      "tags": [
+        "T125",
+        "T126",
+        "T127",
+        "T128",
+        "T129",
+        "T130",
+        "T131",
+        "T132"
+      ]
+    },
+    {
+      "id": "G17",
+      "contexto": "Habilidades práticas e operacionais",
+      "grupo": "Condução",
+      "tags": [
+        "T133",
+        "T134",
+        "T135",
+        "T136"
+      ]
+    },
+    {
+      "id": "G18",
+      "contexto": "Conteúdos previstos da graduação",
+      "grupo": "Gestão e negócios",
+      "tags": [
+        "T137",
+        "T138",
+        "T139",
+        "T140",
+        "T005",
+        "T141"
+      ]
+    },
+    {
+      "id": "G19",
+      "contexto": "Conteúdos previstos da graduação",
+      "grupo": "Pesquisa e competências sociais",
+      "tags": [
+        "T122",
+        "T142",
+        "T143",
+        "T144",
+        "T145",
+        "T146",
+        "T124",
+        "T147"
+      ]
+    },
+    {
+      "id": "G20",
+      "contexto": "Conteúdos previstos da graduação",
+      "grupo": "Tecnologia e sistemas",
+      "tags": [
+        "T148",
+        "T149",
+        "T150",
+        "T151",
+        "T152",
+        "T153",
+        "T154",
+        "T155"
+      ]
+    },
+    {
+      "id": "G21",
+      "contexto": "Este portfólio",
+      "grupo": "Tecnologias",
+      "tags": [
+        "T104",
+        "T099",
+        "T100",
+        "T101",
+        "T102",
+        "T103"
+      ]
+    },
+    {
+      "id": "G22",
+      "contexto": "Este portfólio",
+      "grupo": "Desenvolvimento e qualidade",
+      "tags": [
+        "T039",
+        "T078",
+        "T079",
+        "T098",
+        "T156",
+        "T157",
+        "T158",
+        "T105",
+        "T159",
+        "T160"
+      ]
+    },
+    {
+      "id": "G23",
+      "contexto": "Este portfólio",
+      "grupo": "Gestão e colaboração",
+      "tags": [
+        "T161"
+      ]
+    },
+    {
+      "id": "G24",
+      "contexto": "Optigrow",
+      "grupo": "Tecnologias",
+      "tags": [
+        "T162",
+        "T114",
+        "T115",
+        "T101"
+      ]
+    },
+    {
+      "id": "G25",
+      "contexto": "Optigrow",
+      "grupo": "Desenvolvimento e qualidade",
+      "tags": [
+        "T078",
+        "T079",
+        "T163",
+        "T164"
+      ]
+    },
+    {
+      "id": "G26",
+      "contexto": "Optigrow",
+      "grupo": "Gestão e pesquisa",
+      "tags": [
+        "T165",
+        "T166"
+      ]
+    },
+    {
+      "id": "G27",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Tecnologias de desenvolvimento",
+      "tags": [
+        "T162",
+        "T111",
+        "T115",
+        "T101"
+      ]
+    },
+    {
+      "id": "G28",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Desenvolvimento de software",
+      "tags": [
+        "T150",
+        "T167",
+        "T168",
+        "T169",
+        "T170",
+        "T171",
+        "T078",
+        "T079",
+        "T044",
+        "T172"
+      ]
+    },
+    {
+      "id": "G29",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Pesquisa acadêmica",
+      "tags": [
+        "T173",
+        "T174",
+        "T175",
+        "T176",
+        "T177",
+        "T178",
+        "T179",
+        "T180",
+        "T181"
+      ]
+    },
+    {
+      "id": "G30",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Pesquisa de mercado",
+      "tags": [
+        "T166",
+        "T182",
+        "T183",
+        "T184"
+      ]
+    },
+    {
+      "id": "G31",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Gestão e colaboração",
+      "tags": [
+        "T004",
+        "T185",
+        "T161",
+        "T186",
+        "T187",
+        "T188",
+        "T165"
+      ]
+    },
+    {
+      "id": "G32",
+      "contexto": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "grupo": "Ferramentas de gestão e pesquisa",
+      "tags": [
+        "T006",
+        "T189",
+        "T013",
+        "T018",
+        "T190",
+        "T191",
+        "T192",
+        "T001"
+      ]
+    }
+  ],
+  "titulos": [
+    {
+      "pt_BR": "Competências técnicas (Hard skills)",
+      "traducoes": {
+        "ru": "Технические навыки (Hard skills)",
+        "uk": "Технічні навички (Hard skills)",
+        "bg": "Технически умения (Hard skills)",
+        "sr-Cyrl": "Техничке вештине (Hard skills)",
+        "el": "Τεχνικές δεξιότητες (Hard skills)",
+        "zh-Hans": "技术技能（Hard skills）",
+        "zh-Hant": "技術技能（Hard skills）",
+        "ja": "技術的スキル（Hard skills）",
+        "ko": "기술 역량(Hard skills)",
+        "hi": "तकनीकी कौशल (Hard skills)",
+        "th": "ทักษะทางเทคนิค (Hard skills)",
+        "ar": "المهارات التقنية (Hard skills)",
+        "fa": "مهارت‌های فنی (Hard skills)",
+        "he": "כישורים טכניים (Hard skills)"
+      }
+    },
+    {
+      "pt_BR": "Competências sociais (Soft skills)",
+      "traducoes": {
+        "ru": "Социальные навыки (Soft skills)",
+        "uk": "Соціальні навички (Soft skills)",
+        "bg": "Социални умения (Soft skills)",
+        "sr-Cyrl": "Социјалне вештине (Soft skills)",
+        "el": "Κοινωνικές δεξιότητες (Soft skills)",
+        "zh-Hans": "社交技能（Soft skills）",
+        "zh-Hant": "社交技能（Soft skills）",
+        "ja": "対人スキル（Soft skills）",
+        "ko": "사회적 역량(Soft skills)",
+        "hi": "सामाजिक कौशल (Soft skills)",
+        "th": "ทักษะทางสังคม (Soft skills)",
+        "ar": "المهارات الاجتماعية (Soft skills)",
+        "fa": "مهارت‌های اجتماعی (Soft skills)",
+        "he": "כישורים חברתיים (Soft skills)"
+      }
+    },
+    {
+      "pt_BR": "Habilidades práticas e operacionais",
+      "traducoes": {
+        "ru": "Практические и операционные навыки",
+        "uk": "Практичні та операційні навички",
+        "bg": "Практически и оперативни умения",
+        "sr-Cyrl": "Практичне и оперативне вештине",
+        "el": "Πρακτικές και λειτουργικές δεξιότητες",
+        "zh-Hans": "实践与操作技能",
+        "zh-Hant": "實務與操作技能",
+        "ja": "実践的・業務遂行スキル",
+        "ko": "실무 및 운영 역량",
+        "hi": "व्यावहारिक और परिचालन कौशल",
+        "th": "ทักษะเชิงปฏิบัติและการปฏิบัติงาน",
+        "ar": "المهارات العملية والتشغيلية",
+        "fa": "مهارت‌های عملی و عملیاتی",
+        "he": "כישורים מעשיים ותפעוליים"
+      }
+    },
+    {
+      "pt_BR": "Conteúdos previstos da graduação",
+      "traducoes": {
+        "ru": "Планируемое содержание незавершённого высшего образования",
+        "uk": "Запланований зміст незавершеної вищої освіти",
+        "bg": "Предвидено съдържание на незавършеното висше образование",
+        "sr-Cyrl": "Предвиђени садржај незавршених високошколских студија",
+        "el": "Προβλεπόμενο περιεχόμενο σπουδών σε εξέλιξη",
+        "zh-Hans": "在读高等教育课程的计划内容",
+        "zh-Hant": "在讀高等教育課程的規劃內容",
+        "ja": "在学中の高等教育課程で予定される学習内容",
+        "ko": "재학 중인 고등교육 과정의 예정 학습 내용",
+        "hi": "जारी उच्च शिक्षा पाठ्यक्रम की नियोजित विषयवस्तु",
+        "th": "เนื้อหาที่วางแผนไว้ในหลักสูตรอุดมศึกษาที่ยังศึกษาอยู่",
+        "ar": "المحتوى المقرر للدراسة الجامعية الجارية",
+        "fa": "محتوای پیش‌بینی‌شده تحصیلات دانشگاهی در حال انجام",
+        "he": "תכנים מתוכננים בלימודים אקדמיים שטרם הושלמו"
+      }
+    },
+    {
+      "pt_BR": "Este portfólio",
+      "traducoes": {
+        "ru": "Это портфолио",
+        "uk": "Це портфоліо",
+        "bg": "Това портфолио",
+        "sr-Cyrl": "Овај портфолио",
+        "el": "Αυτό το χαρτοφυλάκιο",
+        "zh-Hans": "本作品集",
+        "zh-Hant": "本作品集",
+        "ja": "このポートフォリオ",
+        "ko": "이 포트폴리오",
+        "hi": "यह पोर्टफ़ोलियो",
+        "th": "แฟ้มผลงานนี้",
+        "ar": "ملف الأعمال هذا",
+        "fa": "این نمونه‌کار",
+        "he": "תיק עבודות זה"
+      }
+    },
+    {
+      "pt_BR": "Optigrow",
+      "traducoes": {
+        "ru": "Optigrow",
+        "uk": "Optigrow",
+        "bg": "Optigrow",
+        "sr-Cyrl": "Optigrow",
+        "el": "Optigrow",
+        "zh-Hans": "Optigrow",
+        "zh-Hant": "Optigrow",
+        "ja": "Optigrow",
+        "ko": "Optigrow",
+        "hi": "Optigrow",
+        "th": "Optigrow",
+        "ar": "Optigrow",
+        "fa": "Optigrow",
+        "he": "Optigrow"
+      }
+    },
+    {
+      "pt_BR": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+      "traducoes": {
+        "ru": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "uk": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "bg": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "sr-Cyrl": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "el": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "zh-Hans": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "zh-Hant": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "ja": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "ko": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "hi": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "th": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "ar": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "fa": "SGCS — Sistema de Gestão de Chamados para Síndicos",
+        "he": "SGCS — Sistema de Gestão de Chamados para Síndicos"
+      }
+    },
+    {
+      "pt_BR": "Gestão e produtividade",
+      "traducoes": {
+        "ru": "Управление и продуктивность",
+        "uk": "Управління та продуктивність",
+        "bg": "Управление и продуктивност",
+        "sr-Cyrl": "Управљање и продуктивност",
+        "el": "Διαχείριση και παραγωγικότητα",
+        "zh-Hans": "管理与生产力",
+        "zh-Hant": "管理與生產力",
+        "ja": "管理と生産性",
+        "ko": "관리 및 생산성",
+        "hi": "प्रबंधन और उत्पादकता",
+        "th": "การบริหารและผลิตภาพ",
+        "ar": "الإدارة والإنتاجية",
+        "fa": "مدیریت و بهره‌وری",
+        "he": "ניהול ופרודוקטיביות"
+      }
+    },
+    {
+      "pt_BR": "Sistemas operacionais",
+      "traducoes": {
+        "ru": "Операционные системы",
+        "uk": "Операційні системи",
+        "bg": "Операционни системи",
+        "sr-Cyrl": "Оперативни системи",
+        "el": "Λειτουργικά συστήματα",
+        "zh-Hans": "操作系统",
+        "zh-Hant": "作業系統",
+        "ja": "オペレーティングシステム",
+        "ko": "운영 체제",
+        "hi": "ऑपरेटिंग सिस्टम",
+        "th": "ระบบปฏิบัติการ",
+        "ar": "أنظمة التشغيل",
+        "fa": "سیستم‌عامل‌ها",
+        "he": "מערכות הפעלה"
+      }
+    },
+    {
+      "pt_BR": "Programação e dados",
+      "traducoes": {
+        "ru": "Программирование и данные",
+        "uk": "Програмування та дані",
+        "bg": "Програмиране и данни",
+        "sr-Cyrl": "Програмирање и подаци",
+        "el": "Προγραμματισμός και δεδομένα",
+        "zh-Hans": "编程与数据",
+        "zh-Hant": "程式設計與資料",
+        "ja": "プログラミングとデータ",
+        "ko": "프로그래밍 및 데이터",
+        "hi": "प्रोग्रामिंग और डेटा",
+        "th": "การเขียนโปรแกรมและข้อมูล",
+        "ar": "البرمجة والبيانات",
+        "fa": "برنامه‌نویسی و داده",
+        "he": "תכנות ונתונים"
+      }
+    },
+    {
+      "pt_BR": "Desenvolvimento com IA",
+      "traducoes": {
+        "ru": "Разработка с ИИ",
+        "uk": "Розробка зі ШІ",
+        "bg": "Разработка с ИИ",
+        "sr-Cyrl": "Развој уз ВИ",
+        "el": "Ανάπτυξη με ΤΝ",
+        "zh-Hans": "人工智能辅助开发",
+        "zh-Hant": "人工智慧輔助開發",
+        "ja": "AIを用いた開発",
+        "ko": "AI 활용 개발",
+        "hi": "AI के साथ विकास",
+        "th": "การพัฒนาโดยใช้ AI",
+        "ar": "التطوير بالذكاء الاصطناعي",
+        "fa": "توسعه با هوش مصنوعی",
+        "he": "פיתוח בעזרת בינה מלאכותית"
+      }
+    },
+    {
+      "pt_BR": "Desenvolvimento de software",
+      "traducoes": {
+        "ru": "Разработка программного обеспечения",
+        "uk": "Розробка програмного забезпечення",
+        "bg": "Разработка на софтуер",
+        "sr-Cyrl": "Развој софтвера",
+        "el": "Ανάπτυξη λογισμικού",
+        "zh-Hans": "软件开发",
+        "zh-Hant": "軟體開發",
+        "ja": "ソフトウェア開発",
+        "ko": "소프트웨어 개발",
+        "hi": "सॉफ़्टवेयर विकास",
+        "th": "การพัฒนาซอฟต์แวร์",
+        "ar": "تطوير البرمجيات",
+        "fa": "توسعه نرم‌افزار",
+        "he": "פיתוח תוכנה"
+      }
+    },
+    {
+      "pt_BR": "Bancos de dados",
+      "traducoes": {
+        "ru": "Базы данных",
+        "uk": "Бази даних",
+        "bg": "Бази данни",
+        "sr-Cyrl": "Базе података",
+        "el": "Βάσεις δεδομένων",
+        "zh-Hans": "数据库",
+        "zh-Hant": "資料庫",
+        "ja": "データベース",
+        "ko": "데이터베이스",
+        "hi": "डेटाबेस",
+        "th": "ฐานข้อมูล",
+        "ar": "قواعد البيانات",
+        "fa": "پایگاه‌های داده",
+        "he": "מסדי נתונים"
+      }
+    },
+    {
+      "pt_BR": "Redes",
+      "traducoes": {
+        "ru": "Сети",
+        "uk": "Мережі",
+        "bg": "Мрежи",
+        "sr-Cyrl": "Мреже",
+        "el": "Δίκτυα",
+        "zh-Hans": "网络",
+        "zh-Hant": "網路",
+        "ja": "ネットワーク",
+        "ko": "네트워크",
+        "hi": "नेटवर्क",
+        "th": "เครือข่าย",
+        "ar": "الشبكات",
+        "fa": "شبکه‌ها",
+        "he": "רשתות"
+      }
+    },
+    {
+      "pt_BR": "Sistemas para redes",
+      "traducoes": {
+        "ru": "Системы для сетей",
+        "uk": "Системи для мереж",
+        "bg": "Мрежови системи",
+        "sr-Cyrl": "Системи за мреже",
+        "el": "Συστήματα δικτύων",
+        "zh-Hans": "网络系统",
+        "zh-Hant": "網路系統",
+        "ja": "ネットワーク向けシステム",
+        "ko": "네트워크용 시스템",
+        "hi": "नेटवर्क प्रणालियाँ",
+        "th": "ระบบสำหรับเครือข่าย",
+        "ar": "أنظمة الشبكات",
+        "fa": "سامانه‌های شبکه",
+        "he": "מערכות לרשתות"
+      }
+    },
+    {
+      "pt_BR": "Suporte de TI",
+      "traducoes": {
+        "ru": "ИТ-поддержка",
+        "uk": "ІТ-підтримка",
+        "bg": "ИТ поддръжка",
+        "sr-Cyrl": "ИТ подршка",
+        "el": "Υποστήριξη πληροφορικής",
+        "zh-Hans": "信息技术支持",
+        "zh-Hant": "資訊科技支援",
+        "ja": "ITサポート",
+        "ko": "IT 지원",
+        "hi": "IT सहायता",
+        "th": "การสนับสนุนไอที",
+        "ar": "دعم تقنية المعلومات",
+        "fa": "پشتیبانی فناوری اطلاعات",
+        "he": "תמיכת IT"
+      }
+    },
+    {
+      "pt_BR": "Web",
+      "traducoes": {
+        "ru": "Веб",
+        "uk": "Веб",
+        "bg": "Уеб",
+        "sr-Cyrl": "Веб",
+        "el": "Ιστός",
+        "zh-Hans": "网页",
+        "zh-Hant": "網頁",
+        "ja": "ウェブ",
+        "ko": "웹",
+        "hi": "वेब",
+        "th": "เว็บ",
+        "ar": "الويب",
+        "fa": "وب",
+        "he": "אינטרנט"
+      }
+    },
+    {
+      "pt_BR": "Servidores web",
+      "traducoes": {
+        "ru": "Веб-серверы",
+        "uk": "Вебсервери",
+        "bg": "Уеб сървъри",
+        "sr-Cyrl": "Веб-сервери",
+        "el": "Διακομιστές ιστού",
+        "zh-Hans": "网页服务器",
+        "zh-Hant": "網頁伺服器",
+        "ja": "ウェブサーバー",
+        "ko": "웹 서버",
+        "hi": "वेब सर्वर",
+        "th": "เว็บเซิร์ฟเวอร์",
+        "ar": "خوادم الويب",
+        "fa": "وب‌سرورها",
+        "he": "שרתי אינטרנט"
+      }
+    },
+    {
+      "pt_BR": "Plataformas de desenvolvimento e hospedagem",
+      "traducoes": {
+        "ru": "Платформы разработки и хостинга",
+        "uk": "Платформи розробки та хостингу",
+        "bg": "Платформи за разработка и хостинг",
+        "sr-Cyrl": "Платформе за развој и хостинг",
+        "el": "Πλατφόρμες ανάπτυξης και φιλοξενίας",
+        "zh-Hans": "开发与托管平台",
+        "zh-Hant": "開發與託管平台",
+        "ja": "開発・ホスティングプラットフォーム",
+        "ko": "개발 및 호스팅 플랫폼",
+        "hi": "विकास और होस्टिंग प्लेटफ़ॉर्म",
+        "th": "แพลตฟอร์มการพัฒนาและโฮสติ้ง",
+        "ar": "منصات التطوير والاستضافة",
+        "fa": "بسترهای توسعه و میزبانی",
+        "he": "פלטפורמות פיתוח ואירוח"
+      }
+    },
+    {
+      "pt_BR": "Idiomas",
+      "traducoes": {
+        "ru": "Языки",
+        "uk": "Мови",
+        "bg": "Езици",
+        "sr-Cyrl": "Језици",
+        "el": "Γλώσσες",
+        "zh-Hans": "语言",
+        "zh-Hant": "語言",
+        "ja": "言語",
+        "ko": "언어",
+        "hi": "भाषाएँ",
+        "th": "ภาษา",
+        "ar": "اللغات",
+        "fa": "زبان‌ها",
+        "he": "שפות"
+      }
+    },
+    {
+      "pt_BR": "Organização e desenvolvimento",
+      "traducoes": {
+        "ru": "Организация и развитие",
+        "uk": "Організація та розвиток",
+        "bg": "Организация и развитие",
+        "sr-Cyrl": "Организација и развој",
+        "el": "Οργάνωση και ανάπτυξη",
+        "zh-Hans": "组织与发展",
+        "zh-Hant": "組織與發展",
+        "ja": "組織と成長",
+        "ko": "조직 및 발전",
+        "hi": "संगठन और विकास",
+        "th": "การจัดระเบียบและการพัฒนา",
+        "ar": "التنظيم والتطوير",
+        "fa": "سازمان‌دهی و توسعه",
+        "he": "ארגון ופיתוח"
+      }
+    },
+    {
+      "pt_BR": "Relacionamento",
+      "traducoes": {
+        "ru": "Межличностное взаимодействие",
+        "uk": "Міжособистісна взаємодія",
+        "bg": "Междуличностни отношения",
+        "sr-Cyrl": "Међуљудски односи",
+        "el": "Διαπροσωπικές σχέσεις",
+        "zh-Hans": "人际关系",
+        "zh-Hant": "人際關係",
+        "ja": "対人関係",
+        "ko": "대인 관계",
+        "hi": "पारस्परिक संबंध",
+        "th": "ความสัมพันธ์ระหว่างบุคคล",
+        "ar": "العلاقات بين الأفراد",
+        "fa": "روابط بین‌فردی",
+        "he": "יחסים בין-אישיים"
+      }
+    },
+    {
+      "pt_BR": "Campo e ferramentas",
+      "traducoes": {
+        "ru": "Полевые работы и инструменты",
+        "uk": "Польові роботи та інструменти",
+        "bg": "Работа на терен и инструменти",
+        "sr-Cyrl": "Теренски рад и алати",
+        "el": "Εργασία πεδίου και εργαλεία",
+        "zh-Hans": "现场作业与工具",
+        "zh-Hant": "現場作業與工具",
+        "ja": "現場作業と工具",
+        "ko": "현장 작업 및 공구",
+        "hi": "क्षेत्र कार्य और उपकरण",
+        "th": "งานภาคสนามและเครื่องมือ",
+        "ar": "العمل الميداني والأدوات",
+        "fa": "کار میدانی و ابزارها",
+        "he": "עבודת שטח וכלים"
+      }
+    },
+    {
+      "pt_BR": "Condução",
+      "traducoes": {
+        "ru": "Вождение",
+        "uk": "Керування транспортом",
+        "bg": "Управление на превозни средства",
+        "sr-Cyrl": "Вожња",
+        "el": "Οδήγηση",
+        "zh-Hans": "驾驶",
+        "zh-Hant": "駕駛",
+        "ja": "運転",
+        "ko": "운전",
+        "hi": "वाहन चलाना",
+        "th": "การขับขี่",
+        "ar": "القيادة",
+        "fa": "رانندگی",
+        "he": "נהיגה"
+      }
+    },
+    {
+      "pt_BR": "Gestão e negócios",
+      "traducoes": {
+        "ru": "Управление и бизнес",
+        "uk": "Управління та бізнес",
+        "bg": "Управление и бизнес",
+        "sr-Cyrl": "Управљање и пословање",
+        "el": "Διαχείριση και επιχειρήσεις",
+        "zh-Hans": "管理与商业",
+        "zh-Hant": "管理與商業",
+        "ja": "経営とビジネス",
+        "ko": "관리 및 비즈니스",
+        "hi": "प्रबंधन और व्यवसाय",
+        "th": "การบริหารและธุรกิจ",
+        "ar": "الإدارة والأعمال",
+        "fa": "مدیریت و کسب‌وکار",
+        "he": "ניהול ועסקים"
+      }
+    },
+    {
+      "pt_BR": "Pesquisa e competências sociais",
+      "traducoes": {
+        "ru": "Исследования и социальные навыки",
+        "uk": "Дослідження та соціальні навички",
+        "bg": "Изследвания и социални умения",
+        "sr-Cyrl": "Истраживање и социјалне вештине",
+        "el": "Έρευνα και κοινωνικές δεξιότητες",
+        "zh-Hans": "研究与社交技能",
+        "zh-Hant": "研究與社交技能",
+        "ja": "研究と対人スキル",
+        "ko": "연구 및 사회적 역량",
+        "hi": "शोध और सामाजिक कौशल",
+        "th": "การวิจัยและทักษะทางสังคม",
+        "ar": "البحث والمهارات الاجتماعية",
+        "fa": "پژوهش و مهارت‌های اجتماعی",
+        "he": "מחקר וכישורים חברתיים"
+      }
+    },
+    {
+      "pt_BR": "Tecnologia e sistemas",
+      "traducoes": {
+        "ru": "Технологии и системы",
+        "uk": "Технології та системи",
+        "bg": "Технологии и системи",
+        "sr-Cyrl": "Технологија и системи",
+        "el": "Τεχνολογία και συστήματα",
+        "zh-Hans": "技术与系统",
+        "zh-Hant": "科技與系統",
+        "ja": "技術とシステム",
+        "ko": "기술 및 시스템",
+        "hi": "प्रौद्योगिकी और प्रणालियाँ",
+        "th": "เทคโนโลยีและระบบ",
+        "ar": "التقنية والأنظمة",
+        "fa": "فناوری و سامانه‌ها",
+        "he": "טכנולוגיה ומערכות"
+      }
+    },
+    {
+      "pt_BR": "Tecnologias",
+      "traducoes": {
+        "ru": "Технологии",
+        "uk": "Технології",
+        "bg": "Технологии",
+        "sr-Cyrl": "Технологије",
+        "el": "Τεχνολογίες",
+        "zh-Hans": "技术",
+        "zh-Hant": "技術",
+        "ja": "テクノロジー",
+        "ko": "기술",
+        "hi": "प्रौद्योगिकियाँ",
+        "th": "เทคโนโลยี",
+        "ar": "التقنيات",
+        "fa": "فناوری‌ها",
+        "he": "טכנולוגיות"
+      }
+    },
+    {
+      "pt_BR": "Desenvolvimento e qualidade",
+      "traducoes": {
+        "ru": "Разработка и качество",
+        "uk": "Розробка та якість",
+        "bg": "Разработка и качество",
+        "sr-Cyrl": "Развој и квалитет",
+        "el": "Ανάπτυξη και ποιότητα",
+        "zh-Hans": "开发与质量",
+        "zh-Hant": "開發與品質",
+        "ja": "開発と品質",
+        "ko": "개발 및 품질",
+        "hi": "विकास और गुणवत्ता",
+        "th": "การพัฒนาและคุณภาพ",
+        "ar": "التطوير والجودة",
+        "fa": "توسعه و کیفیت",
+        "he": "פיתוח ואיכות"
+      }
+    },
+    {
+      "pt_BR": "Gestão e colaboração",
+      "traducoes": {
+        "ru": "Управление и сотрудничество",
+        "uk": "Управління та співпраця",
+        "bg": "Управление и сътрудничество",
+        "sr-Cyrl": "Управљање и сарадња",
+        "el": "Διαχείριση και συνεργασία",
+        "zh-Hans": "管理与协作",
+        "zh-Hant": "管理與協作",
+        "ja": "管理と協働",
+        "ko": "관리 및 협업",
+        "hi": "प्रबंधन और सहयोग",
+        "th": "การบริหารและความร่วมมือ",
+        "ar": "الإدارة والتعاون",
+        "fa": "مدیریت و همکاری",
+        "he": "ניהול ושיתוף פעולה"
+      }
+    },
+    {
+      "pt_BR": "Gestão e pesquisa",
+      "traducoes": {
+        "ru": "Управление и исследования",
+        "uk": "Управління та дослідження",
+        "bg": "Управление и изследвания",
+        "sr-Cyrl": "Управљање и истраживање",
+        "el": "Διαχείριση και έρευνα",
+        "zh-Hans": "管理与研究",
+        "zh-Hant": "管理與研究",
+        "ja": "管理と研究",
+        "ko": "관리 및 연구",
+        "hi": "प्रबंधन और शोध",
+        "th": "การบริหารและการวิจัย",
+        "ar": "الإدارة والبحث",
+        "fa": "مدیریت و پژوهش",
+        "he": "ניהול ומחקר"
+      }
+    },
+    {
+      "pt_BR": "Tecnologias de desenvolvimento",
+      "traducoes": {
+        "ru": "Технологии разработки",
+        "uk": "Технології розробки",
+        "bg": "Технологии за разработка",
+        "sr-Cyrl": "Развојне технологије",
+        "el": "Τεχνολογίες ανάπτυξης",
+        "zh-Hans": "开发技术",
+        "zh-Hant": "開發技術",
+        "ja": "開発技術",
+        "ko": "개발 기술",
+        "hi": "विकास प्रौद्योगिकियाँ",
+        "th": "เทคโนโลยีการพัฒนา",
+        "ar": "تقنيات التطوير",
+        "fa": "فناوری‌های توسعه",
+        "he": "טכנולוגיות פיתוח"
+      }
+    },
+    {
+      "pt_BR": "Pesquisa acadêmica",
+      "traducoes": {
+        "ru": "Академические исследования",
+        "uk": "Академічні дослідження",
+        "bg": "Академични изследвания",
+        "sr-Cyrl": "Академско истраживање",
+        "el": "Ακαδημαϊκή έρευνα",
+        "zh-Hans": "学术研究",
+        "zh-Hant": "學術研究",
+        "ja": "学術研究",
+        "ko": "학술 연구",
+        "hi": "अकादमिक शोध",
+        "th": "การวิจัยทางวิชาการ",
+        "ar": "البحث الأكاديمي",
+        "fa": "پژوهش دانشگاهی",
+        "he": "מחקר אקדמי"
+      }
+    },
+    {
+      "pt_BR": "Pesquisa de mercado",
+      "traducoes": {
+        "ru": "Исследование рынка",
+        "uk": "Дослідження ринку",
+        "bg": "Пазарни проучвания",
+        "sr-Cyrl": "Истраживање тржишта",
+        "el": "Έρευνα αγοράς",
+        "zh-Hans": "市场研究",
+        "zh-Hant": "市場研究",
+        "ja": "市場調査",
+        "ko": "시장 조사",
+        "hi": "बाज़ार शोध",
+        "th": "การวิจัยตลาด",
+        "ar": "أبحاث السوق",
+        "fa": "پژوهش بازار",
+        "he": "מחקר שוק"
+      }
+    },
+    {
+      "pt_BR": "Ferramentas de gestão e pesquisa",
+      "traducoes": {
+        "ru": "Инструменты управления и исследований",
+        "uk": "Інструменти управління та досліджень",
+        "bg": "Инструменти за управление и изследвания",
+        "sr-Cyrl": "Алати за управљање и истраживање",
+        "el": "Εργαλεία διαχείρισης και έρευνας",
+        "zh-Hans": "管理与研究工具",
+        "zh-Hant": "管理與研究工具",
+        "ja": "管理・研究ツール",
+        "ko": "관리 및 연구 도구",
+        "hi": "प्रबंधन और शोध उपकरण",
+        "th": "เครื่องมือบริหารและวิจัย",
+        "ar": "أدوات الإدارة والبحث",
+        "fa": "ابزارهای مدیریت و پژوهش",
+        "he": "כלי ניהול ומחקר"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2416 @@
+{
+  "data": "2026-10-14",
+  "glossario": "docs/tags-multilingues/glossario.json",
+  "sha256_glossario": "5c6ad4755c1799589a5a77b9a337a244ab21d96d9757c151e2c5ad8084853d87",
+  "fonte_sha256_lf": "6cca72fbd805c75d5ed91b84fc6e696c89ea0287d03a86356242fc41628569d8",
+  "arquivos": [
+    {
+      "idioma": "ru",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-russo-ru.txt",
+      "bytes": 9834,
+      "sha256": "6a914f8afe45153bdccf7391a6c19bdf94fb306f75d2f9332b647cbda4ef4b10",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "uk",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-ucraniano-uk.txt",
+      "bytes": 9499,
+      "sha256": "9ff245b1a4eb494db566f2babc9171660d2cd3e965a2c0886f648174a0efd77e",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "bg",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-bulgaro-bg.txt",
+      "bytes": 9687,
+      "sha256": "9e0adca75a1d55394c96bb5f82c78049dfbbed6bd2b30cb446cd815874aea090",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "sr-Cyrl",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-servio-sr-cyrl.txt",
+      "bytes": 9049,
+      "sha256": "dcd859ad75acc83b232f7141063846fb078b0b53112b88180b6204c581b3ec3e",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "el",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-grego-el.txt",
+      "bytes": 9490,
+      "sha256": "6b8d3f5cf0dafb01b3114ca30e50c4b3e7cc47a0fa55db318dc3a34579c93d98",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "zh-Hans",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-chines-simplificado-zh-hans.txt",
+      "bytes": 5162,
+      "sha256": "3a25d07184ef6de9c096949d70f0e01a7189a3e55ebf63e57d118cfc25915f7f",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "zh-Hant",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-chines-tradicional-zh-hant.txt",
+      "bytes": 5195,
+      "sha256": "65539a8756b3817f6312675c50da9e9b51ff44687bd505482f34fa2ef2da81cc",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "ja",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-japones-ja.txt",
+      "bytes": 6324,
+      "sha256": "823f5c15926a56aa23d31c8c0a5c8a45b7ed968f1a3330be964d2310182831c7",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "ko",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-coreano-ko.txt",
+      "bytes": 5758,
+      "sha256": "2f73f5a0c0933b8c0528e353d31eeca29f556b6f049bd2359c9b61c712e47166",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "hi",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-hindi-hi.txt",
+      "bytes": 10978,
+      "sha256": "0fd0a55a808cc68a0b8c5cbe9737fb5e71ec69566e9885a2ab0d8ecdf146288c",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "th",
+      "direcao": "ltr",
+      "arquivo": "Lista_de_tags/tags-tailandes-th.txt",
+      "bytes": 12511,
+      "sha256": "a4d738f34338a7412e4a8d9daff3c0d00b824ecde0aa14095f9af612104196f8",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "ar",
+      "direcao": "rtl",
+      "arquivo": "Lista_de_tags/tags-arabe-ar.txt",
+      "bytes": 8260,
+      "sha256": "168a7fa8a6494959c77b1e19dbf01f4e6fdb835afd9c78e9d6ff6345108fc09c",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "fa",
+      "direcao": "rtl",
+      "arquivo": "Lista_de_tags/tags-persa-fa.txt",
+      "bytes": 8074,
+      "sha256": "2c98b6c18df8f8077cf61b69fc0475ac9067fd92611f01a40f0cca434babe5ed",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    },
+    {
+      "idioma": "he",
+      "direcao": "rtl",
+      "arquivo": "Lista_de_tags/tags-hebraico-he.txt",
+      "bytes": 7288,
+      "sha256": "7d0555f47e5e5fc7d82f4bc7abc688453369b2b17dcaa0156452eb4527a37ecb",
+      "ocorrencias": 227,
+      "rotulos_distintos": 192,
+      "grupos": [
+        {
+          "grupo": "G01",
+          "primeira_linha": 9,
+          "itens": 18
+        },
+        {
+          "grupo": "G02",
+          "primeira_linha": 29,
+          "itens": 9
+        },
+        {
+          "grupo": "G03",
+          "primeira_linha": 40,
+          "itens": 7
+        },
+        {
+          "grupo": "G04",
+          "primeira_linha": 49,
+          "itens": 6
+        },
+        {
+          "grupo": "G05",
+          "primeira_linha": 57,
+          "itens": 5
+        },
+        {
+          "grupo": "G06",
+          "primeira_linha": 64,
+          "itens": 4
+        },
+        {
+          "grupo": "G07",
+          "primeira_linha": 70,
+          "itens": 25
+        },
+        {
+          "grupo": "G08",
+          "primeira_linha": 97,
+          "itens": 3
+        },
+        {
+          "grupo": "G09",
+          "primeira_linha": 102,
+          "itens": 20
+        },
+        {
+          "grupo": "G10",
+          "primeira_linha": 124,
+          "itens": 8
+        },
+        {
+          "grupo": "G11",
+          "primeira_linha": 134,
+          "itens": 3
+        },
+        {
+          "grupo": "G12",
+          "primeira_linha": 139,
+          "itens": 7
+        },
+        {
+          "grupo": "G13",
+          "primeira_linha": 148,
+          "itens": 2
+        },
+        {
+          "grupo": "G14",
+          "primeira_linha": 154,
+          "itens": 4
+        },
+        {
+          "grupo": "G15",
+          "primeira_linha": 160,
+          "itens": 3
+        },
+        {
+          "grupo": "G16",
+          "primeira_linha": 167,
+          "itens": 8
+        },
+        {
+          "grupo": "G17",
+          "primeira_linha": 177,
+          "itens": 4
+        },
+        {
+          "grupo": "G18",
+          "primeira_linha": 185,
+          "itens": 6
+        },
+        {
+          "grupo": "G19",
+          "primeira_linha": 193,
+          "itens": 8
+        },
+        {
+          "grupo": "G20",
+          "primeira_linha": 203,
+          "itens": 8
+        },
+        {
+          "grupo": "G21",
+          "primeira_linha": 215,
+          "itens": 6
+        },
+        {
+          "grupo": "G22",
+          "primeira_linha": 223,
+          "itens": 10
+        },
+        {
+          "grupo": "G23",
+          "primeira_linha": 235,
+          "itens": 1
+        },
+        {
+          "grupo": "G24",
+          "primeira_linha": 240,
+          "itens": 4
+        },
+        {
+          "grupo": "G25",
+          "primeira_linha": 246,
+          "itens": 4
+        },
+        {
+          "grupo": "G26",
+          "primeira_linha": 252,
+          "itens": 2
+        },
+        {
+          "grupo": "G27",
+          "primeira_linha": 258,
+          "itens": 4
+        },
+        {
+          "grupo": "G28",
+          "primeira_linha": 264,
+          "itens": 10
+        },
+        {
+          "grupo": "G29",
+          "primeira_linha": 276,
+          "itens": 9
+        },
+        {
+          "grupo": "G30",
+          "primeira_linha": 287,
+          "itens": 4
+        },
+        {
+          "grupo": "G31",
+          "primeira_linha": 293,
+          "itens": 7
+        },
+        {
+          "grupo": "G32",
+          "primeira_linha": 302,
+          "itens": 8
+        }
+      ],
+      "correspondencia_integral": true
+    }
+  ]
+}

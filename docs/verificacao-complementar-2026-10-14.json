@@ -1,0 +1,200 @@
+{
+  "paginas": [
+    {
+      "arquivo": "index.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Português (Portugal)",
+        "first": "btn ghost"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/index.html"
+    },
+    {
+      "arquivo": "pt-BR/index.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/pt-BR/index.html"
+    },
+    {
+      "arquivo": "pt-BR/galeria.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/pt-BR/galeria.html"
+    },
+    {
+      "arquivo": "pt-BR/rede.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/pt-BR/rede.html"
+    },
+    {
+      "arquivo": "pt-PT/index.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/pt-PT/index.html"
+    },
+    {
+      "arquivo": "pt-PT/galeria.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/pt-PT/galeria.html"
+    },
+    {
+      "arquivo": "pt-PT/rede.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/pt-PT/rede.html"
+    },
+    {
+      "arquivo": "en/index.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/en/index.html"
+    },
+    {
+      "arquivo": "en/galeria.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/en/galeria.html"
+    },
+    {
+      "arquivo": "en/rede.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/en/rede.html"
+    },
+    {
+      "arquivo": "es-419/index.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/es-419/index.html"
+    },
+    {
+      "arquivo": "es-419/galeria.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/es-419/galeria.html"
+    },
+    {
+      "arquivo": "es-419/rede.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/es-419/rede.html"
+    },
+    {
+      "arquivo": "es-ES/index.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/es-ES/index.html"
+    },
+    {
+      "arquivo": "es-ES/galeria.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/es-ES/galeria.html"
+    },
+    {
+      "arquivo": "es-ES/rede.html",
+      "espacamento": {
+        "width": 320,
+        "scroll": 320
+      },
+      "teclado_reverso": {
+        "second": "Nicolas Beraldes Tarifa",
+        "first": "skip-link"
+      },
+      "troca_idioma": "http://127.0.0.1:8001/es-ES/rede.html"
+    }
+  ],
+  "cores_forcadas": {
+    "forced": true,
+    "outline": "solid"
+  }
+}
