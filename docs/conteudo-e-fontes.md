@@ -64,6 +64,8 @@ Confira a tramitação antes de atualizar esse contexto. A redação atual não 
 Os [originais anteriores dos currículos](fontes/curriculos/README.md) possuem manifesto próprio.
 O telefone e o país da V3 foram preservados desses documentos.
 Links institucionais dos cursos identificam as instituições, sem validar individualmente os certificados.
+As [cargas horárias pesquisadas e a origem das datas dos 17 cursos](fontes/cursos/README.md) orientam a versão pt-BR.
+Essa versão usa o rótulo Conclusão por solicitação do responsável, com a distinção original entre conclusão e emissão preservada no registro.
 
 CNH AB e PID permanecem documentos declarados do responsável.
 O uso internacional depende das condições do destino e da CNH válida.
