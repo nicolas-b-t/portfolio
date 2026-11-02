@@ -117,7 +117,7 @@ Registro no formato do §B.8. Escala de 1 a 5; nível = probabilidade × impacto
 | R02 | Mudança feita só em pt-BR deixa as cinco variantes com fatos diferentes. O visitante lê informação desatualizada em outro idioma. | 3 | -3 | 9 | Agente | Reduzir: sincronizar a partir de pt-BR e conferir as variantes afetadas. | 03 e 05 |
 | R03 | Link externo expira ou muda de endereço. O visitante encontra página inexistente e perde a evidência. | 4 | -2 | 8 | Agente | Reduzir: conferência periódica e registro do resultado. | 09 e 12 |
 | R04 | Mudança de CSS ou conteúdo remove foco visível, contraste ou nome acessível. O visitante que usa teclado ou leitor de tela perde acesso. | 3 | -3 | 9 | Agente | Reduzir: checklist WCAG 2.2 e ensaio manual. | 05 |
-| R05 | A perda de acesso à conta ou ao repositório interrompe a publicação e o histórico. O site sai do ar sem via de correção. | 2 | -5 | 10 | Responsável | Reduzir: ativar 2FA e proteção de branch; manter admin único e cópia local. | 08 |
+| R05 | A perda de acesso à conta ou ao repositório interrompe a publicação e o histórico. O site sai do ar sem via de correção. | 2 | -5 | 10 | Responsável | Reduzir: concluir o 2FA; manter admin único, autorização de alterações e cópia local. | 08 |
 | R06 | A base local é ignorada pelo Git e existe só nesta máquina. Uma falha de disco remove a procedência das fontes citadas. | 2 | -3 | 6 | Responsável | Reduzir: backup RAR da v1 concluído; criar backup da v2, preferir formato aberto e cópia externa. | 07 |
 | R07 | Cada fase cria um manual próprio. O volume cresce e as regras divergem. | 3 | -2 | 6 | Responsável | Reduzir: orçamento documental do plano, §3. | 01 e 04 |
 | R08 | Alterações locais não versionadas se perdem. O trabalho de conteúdo não chega ao site. | 2 | -3 | 6 | Responsável | Reduzir: os cinco arquivos entram no próximo commit. | 10 |
@@ -206,7 +206,10 @@ Decisão nova entra com ID seguinte e data.
 | D-23 | Público principal: recrutadores e gestores de contratação. Objetivo: emprego. Ações: currículo, projetos e contato. |
 | D-24 | Manter a voz atual; ajustes de texto são apenas apontados, sem reescrita sem aprovação. |
 | D-25 | Ordem das fases e estimativa de cerca de 14 sessões confirmadas. |
-| D-26 | Apenas o responsável é administrador. A proteção de branch será conferida na fase 08. |
+| D-26 | Apenas o responsável é administrador. Alterações na `main` exigem sua autorização; a proteção técnica será conferida na fase 08. |
+| D-27 | O botão de download do currículo permanece visível e inativo até a publicação do PDF. |
+| D-28 | O 2FA está em ativação; revisar na fase 08. |
+| D-29 | A página 404 e o `CHANGELOG` estão aprovados; serão criados nas fases 09 e 10. |
 
 ## 2. Requisitos — fase 02
 
@@ -247,11 +250,11 @@ Cada item cita uma fonte local e um critério observável.
 - O catálogo é proposto. O responsável precisa aceitá-lo para virar linha de base.
 - Não houve validação com usuários externos, leitor de tela ou ferramenta de acessibilidade.
 - Não há declaração de conformidade com o CPRE.
-- FR-08, a página 404 e o `CHANGELOG` seguem pendentes.
+- FR-08 foi resolvido: o botão permanece inativo por decisão D-27.
+- A página 404 e o `CHANGELOG` seguem pendentes, com criação nas fases 09 e 10.
 
 ### 2.5 Pendências
 
-1. FR-08: publicar o PDF vigente ou remover o botão desativado.
-2. NFR-08: ativar 2FA e proteção de branch na fase 08.
-3. FR-13: implementar a página 404 na fase 09.
-4. NFR-10: criar o `CHANGELOG` na fase 10.
+1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
+2. FR-13: implementar a página 404 na fase 09.
+3. NFR-10: criar o `CHANGELOG` na fase 10.

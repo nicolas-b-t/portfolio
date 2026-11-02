@@ -77,7 +77,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | FR-05 | O visitante acessa e-mail, LinkedIn e GitHub pelos links de contato. | Essencial | `static/pt-BR/index.html`; auditoria de 02/11/2026. | Os três links abrem o destino correto; o e-mail abre o cliente de e-mail. | 05 | Vigente. |
 | FR-06 | A galeria mostra imagens locais com texto alternativo e legenda. | Esperado | AGENTS.md; auditoria de 02/11/2026. | Toda imagem tem `alt`; nenhuma imagem depende de servidor externo; a legenda descreve o conteúdo. | 05 | Vigente. |
 | FR-07 | A página de recomendações publica textos autorizados, sem alterar o sentido. | Esperado | D-13; `docs/conteudo-e-fontes.md`. | Cada recomendação tem autor e autorização registrada; o texto preserva o original. | 06 | Vigente. |
-| FR-08 | O visitante consegue baixar o currículo em PDF ou o botão desativado é removido. | Esperado | `static/pt-BR/index.html`; `docs/curriculos/v3/README.md`; auditoria de 02/11/2026. | O PDF vigente abre pelo botão, ou o botão sai da página; a decisão fica registrada. | 02 | Lacuna; decisão pendente. |
+| FR-08 | O botão de download do currículo permanece visível e inativo até a publicação do PDF. | Esperado | D-27; `static/pt-BR/index.html`; auditoria de 02/11/2026. | O botão aparece desativado nas cinco variantes; não aponta para arquivo inexistente; a decisão está registrada. | 02 | Vigente; decisão D-27. |
 | FR-09 | A cópia estruturada oculta mantém os mesmos dados da tela. | Esperado | `docs/manutencao.md`; auditoria de 02/11/2026. | Os dados conferem; a cópia não aparece na tela nem na impressão. | 03 | Vigente. |
 | FR-10 | As competências mantêm três categorias, com subcategorias, uma tag por item e níveis preservados. | Essencial | AGENTS.md; `docs/fontes/competencias-declaradas.json`. | Três categorias; subcategorias coerentes; níveis de suporte, fibra e inglês preservados. | 05 e 11 | Vigente. |
 | FR-11 | A raiz apresenta as cinco variantes e leva à escolhida. | Esperado | `static/index.html`; auditoria de 02/11/2026. | A raiz lista as cinco opções; cada link abre a variante correspondente. | 09 | Vigente. |
@@ -96,7 +96,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | NFR-05 | O layout funciona de 320 CSS px até tela ampla, sem rolagem horizontal. | Essencial | WCAG 2.2; auditoria de 02/11/2026. | A 320 CSS px, o conteúdo fica legível e sem transbordamento horizontal. | 05 | Vigente. |
 | NFR-06 | O site respeita tema claro, tema escuro, impressão e `prefers-reduced-motion`. | Esperado | `static/assets/css/styles.css`; AGENTS.md. | As quatro condições funcionam nas páginas conferidas. | 05 | Vigente. |
 | NFR-07 | O HTML é semântico, com hierarquia de títulos e um `h1` por página. | Essencial | HTML Living Standard; AGENTS.md. | Cada página tem um `h1`; a hierarquia não salta níveis sem motivo; o HTML passa na validação adotada na fase 04. | 04 | Parcial; validação pendente. |
-| NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA e proteção de branch conferidos. | 08 | Parcial; 2FA e proteção pendentes. |
+| NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | 08 | Parcial; 2FA em ativação e proteção técnica a confirmar. |
 | NFR-09 | O site não usa cookies nem analytics e mantém os dados publicados como estão. | Essencial | D-12; auditoria de 02/11/2026. | Nenhum cookie ou analytics; dados publicados conforme a decisão; dados sensíveis só em cópia local. | 06 | Vigente. |
 | NFR-10 | O projeto mantém um CSS, documentação indexada, `CHANGELOG` e nenhuma etapa de build. | Esperado | AGENTS.md; D-11. | Um CSS comum; documentos ligados no índice; `CHANGELOG` atualizado; publicação sem build. | 03 e 10 | Parcial; falta o `CHANGELOG`. |
 | NFR-11 | O site funciona nos navegadores atuais e em celular. | Esperado | D-23; R06; Q3. | Ensaio em LibreWolf e em navegador atual; limitação registrada quando não houver cobertura. | 05 | Parcial; ensaio no LibreWolf e registro anterior no Chromium. |
@@ -134,7 +134,6 @@ Limites:
 
 ## 11. Pendências
 
-1. FR-08: publicar o PDF vigente ou remover o botão desativado?
-2. NFR-08: ativar 2FA e proteção de branch na fase 08.
-3. NFR-10: criar o `CHANGELOG` na fase 10.
-4. FR-13: implementar a página 404 na fase 09.
+1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
+2. NFR-10: criar o `CHANGELOG` na fase 10.
+3. FR-13: implementar a página 404 na fase 09.

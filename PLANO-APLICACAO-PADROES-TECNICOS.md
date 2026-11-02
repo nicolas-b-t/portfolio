@@ -220,11 +220,15 @@ Decisões recebidas em 02/11/2026:
 - formalização iniciada em 28/10/2026;
 - fases 06, 11 e 12 registram lacuna e inventário factual mínimo;
 - fases 05 e 09 corrigem apenas itens objetivos e reversíveis, com aprovação item a item;
-- Git: commit e push autorizados, branch `main`, `CHANGELOG` mantido;
+- Git: commit e push autorizados, branch `main`, `CHANGELOG` na fase 10;
 - parada apenas para decisão ambígua ou mudança de site/conteúdo;
 - escopo inicial em pt-BR; expansão de idiomas e novas funcionalidades ficam para depois;
 - sem limite quantitativo de desempenho;
-- sem aviso de privacidade; dados publicados mantidos como estão.
+- sem aviso de privacidade; dados publicados mantidos como estão;
+- botão de download do currículo permanece inativo;
+- 2FA em ativação;
+- alterações na `main` exigem autorização do responsável;
+- página 404 e `CHANGELOG` aprovados para as fases 09 e 10.
 
 Pendências resolvidas em 02/11/2026:
 
@@ -233,9 +237,9 @@ Pendências resolvidas em 02/11/2026:
 3. C1–C2: manter a voz atual; ajustes são apenas apontados, sem reescrita.
 4. P6: publicação aprovada.
 5. P5: ordem das fases e cerca de 14 sessões confirmadas.
-6. S2: apenas o responsável é administrador.
+6. S2: apenas o responsável é administrador; alterações na `main` exigem sua autorização.
 
-Pendência operacional: conferir a proteção de branch na fase 08.
+Pendência operacional: conferir a proteção técnica da `main` na fase 08.
 
 ## 9. Critério de conclusão
 
