@@ -122,7 +122,7 @@ Registro no formato do §B.8. Escala de 1 a 5; nível = probabilidade × impacto
 | R07 | Cada fase cria um manual próprio. O volume cresce e as regras divergem. | 3 | -2 | 6 | Responsável | Reduzir: orçamento documental do plano, §3. | 01 e 04 |
 | R08 | Alterações locais não versionadas se perdem. O trabalho de conteúdo não chega ao site. | 2 | -3 | 6 | Responsável | Reduzir: os cinco arquivos entram no próximo commit. | 10 |
 | R09 | O repositório público expõe dados pessoais e o histórico. A cópia de publicação pode manter informação que não deve ser pública. | 3 | -3 | 9 | Responsável | Reduzir: publicar cópia limpa sem dados pessoais e revisar o histórico. | 08 |
-| R10 | Os ícones Lucide estão no site sem arquivo de licença. A procedência pode ficar duvidosa. | 2 | -2 | 4 | Agente | Reduzir: incluir o aviso ISC e a origem dos ícones. | 04 |
+| R10 | Os ícones Lucide estão no site sem arquivo de licença. A procedência pode ficar duvidosa. | 2 | -2 | 4 | Agente | Tratado: licença ISC e MIT incluída em 02/11/2026. | 04 e 08 |
 
 O registro é revisto ao fim de cada marco.
 Risco novo entra com ID seguinte, dono e resposta.
@@ -655,6 +655,113 @@ A ausência de teste fica registrada como limite, não como aprovação.
 - Sem SLA e sem controle sobre a disponibilidade do GitHub, do Drive ou dos sites vinculados.
 - Sem ensaio com leitor de tela, dispositivo físico ou falha real de rede.
 - A fonte histórica contribui apenas com princípios de documentação e linha de base.
+
+## 8. Segurança cibernética — fase 08
+
+### 8.1 Decisão
+
+**Aplicar o NIST SSDF 800-218 1.1 de forma parcial.**
+
+Fonte: `gestao-requisitos-testes/NIST - SP 800-218 Secure Software Development Framework (EN) - v1.1.pdf`.
+
+O SSDF organiza as práticas em quatro grupos: preparar a organização, proteger o software, produzir software seguro e responder a vulnerabilidades.
+A base não contém ASVS, WSTG ou ISO 27001.
+Não há declaração de verificação de segurança da aplicação.
+
+### 8.2 Ativos e modelo de ameaças
+
+| Ativo | Ameaça | Probabilidade | Impacto | Nível | Controle |
+| --- | --- | --- | --- | --- | --- |
+| Conta e repositório GitHub | Tomada de conta e publicação não autorizada | 2 | 5 | 10 | 2FA em ativação, admin único e autorização de mudança. |
+| Conteúdo publicado | Desfiguração por commit indevido | 2 | 4 | 8 | Revisão, autorização e reversão. |
+| Repositório público | Exposição de dados pessoais e histórico | 3 | 3 | 9 | Cópia limpa sem dados pessoais e revisão do histórico. |
+| Ações do workflow | Cadeia de suprimentos | 2 | 4 | 8 | Ações fixadas por SHA e permissões mínimas. |
+| Links externos | Destino malicioso ou indisponível | 3 | 2 | 6 | Links conhecidos e conferência periódica. |
+| Backup local | Perda dos originais e da base | 2 | 3 | 6 | RAR da v1 e criação da v2. |
+| DNS e TLS | Indisponibilidade ou certificado inválido | 1 | 4 | 4 | Serviço do GitHub; sem conteúdo misto. |
+
+O risco maior é a conta, porque ela controla a publicação e o histórico.
+
+### 8.3 Práticas aplicadas
+
+| Prática do SSDF | Aplicação | Situação |
+| --- | --- | --- |
+| PO.1 | Requisitos de segurança registrados nesta seção e em NFR-08. | Aplicada. |
+| PS.1 | Repositório protegido por autorização de mudança e admin único. | Parcial; 2FA em ativação. |
+| PS.2 | Integridade dos ativos locais e origem dos ícones. | Aplicada; licença incluída. |
+| PS.3 | Linha de base no Git e `CHANGELOG`. | Aplicada. |
+| PW.1 | Modelo de ameaças do site estático. | Aplicada. |
+| PW.4 | Ícones Lucide locais, com licença; sem CDN. | Aplicada. |
+| PW.7 e PW.8 | Revisão e verificação das fases 03 e 05. | Parcial; sem leitor de tela. |
+| RV.1 a RV.3 | Plano de incidente, reversão e lição registrada. | Aplicada. |
+
+### 8.4 Checklist de controles
+
+| Controle | Situação | Evidência |
+| --- | --- | --- |
+| 2FA na conta | Pendente | Responsável informou que está aplicando. |
+| Apenas o responsável é admin | Passa | Declaração D-26. |
+| Alterações na `main` exigem autorização | Passa | Declaração D-26; proteção técnica a confirmar. |
+| Permissões mínimas no workflow | Passa | `contents: read`; `pages: write`; `id-token: write`. |
+| Ações fixadas por SHA | Passa | Quatro ações com SHA e versão comentada. |
+| Nenhum segredo no repositório | Passa | Varredura por chaves, tokens e senhas sem achado. |
+| Dados privados fora do Git | Passa | `dados-pessoais/` e a base não aparecem em `git ls-files`. |
+| Ativos locais e licença | Passa | 29 ícones; `static/assets/icons/LICENSE.txt`. |
+| Backup | Parcial | RAR da v1; v2 pendente. |
+| Página 404 | Pendente | Fase 09. |
+| Cópia limpa sem dados pessoais | Planejada | Decisão D-15; execução no encerramento. |
+| Plano de incidente | Passa | §8.5. |
+
+### 8.5 Plano de incidente
+
+**Detecção:** commit não reconhecido, alteração visual, falha de TLS, link malicioso ou relato de terceiro.
+
+**Contenção:**
+
+1. Reverter o commit suspeito com `git revert`.
+2. Despublicar o site se o conteúdo ainda estiver exposto.
+3. Encerrar sessões e trocar a senha da conta.
+4. Revogar tokens e chaves, se existirem.
+
+**Erradicação:** identificar a via de acesso, corrigir a causa e ativar o 2FA.
+
+**Recuperação:** publicar a partir de um commit conhecido e conferir as páginas.
+
+**Comunicação:** informar o responsável em até um dia, conforme D-16.
+
+**Registro:** anotar causa, ações, commits e verificação no `CHANGELOG` e nesta seção.
+
+**Simulação de mesa — commit não autorizado:**
+
+- detecção pelo histórico e pela página publicada;
+- reversão imediata e despublicação se necessário;
+- revisão de acessos e ativação do 2FA;
+- republicação do commit íntegro;
+- registro e lição.
+
+**Simulação de mesa — perda de acesso à conta:**
+
+- recuperação pela conta de e-mail;
+- uso da cópia local e do RAR;
+- recriação do repositório e da publicação;
+- lacuna: não há segundo administrador.
+
+### 8.6 Verificação e limites
+
+- A varredura estática não encontrou segredo nem arquivo privado rastreado.
+- O workflow usa permissões mínimas e ações fixadas por SHA.
+- A licença dos ícones foi incluída.
+- O 2FA e a proteção técnica da `main` dependem do responsável e do GitHub.
+- Não houve teste de intrusão, análise de dependências ou auditoria externa.
+- O plano de incidente foi simulado em mesa, não executado.
+- Não há declaração de conformidade com o SSDF, ASVS, WSTG ou ISO 27001.
+
+### 8.7 Pendências
+
+1. Concluir o 2FA e confirmar a proteção da `main`.
+2. Criar o backup da v2.
+3. Executar a cópia limpa sem dados pessoais no encerramento.
+4. Implementar a página 404 na fase 09.
 
 ## 10. Mudanças — fase 10
 
