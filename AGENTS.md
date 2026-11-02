@@ -2,6 +2,16 @@
 
 Estas regras se aplicam ao repositório inteiro.
 
+## Versão 2 e fundamentação técnica
+
+- Desde 30/10/2026, trate o projeto como versão 2. Consulte [Desenvolvimento da versão 2](docs/desenvolvimento-v2.md).
+- Em todas as etapas, consulte a [base documental local](docs/referencias/desenvolvimento-v2/README.md) pertinente antes de decidir ou implementar.
+- Registre objetivo, requisito ou regra, fonte local com seção ou página, decisão, verificação e limitações. Atualize a síntese do assunto afetado.
+- Use as cópias dentro deste projeto. As pastas externas do acervo não são dependências do trabalho futuro.
+- Preserve os originais em `docs/referencias/desenvolvimento-v2/fontes-local/`. São cópias privadas, ignoradas pelo Git e fora de `static/`.
+- Diferencie norma, guia, rascunho, referência histórica e decisão do responsável. Literatura não comprova experiência nem certificação pessoal.
+- A versão 2 do projeto não renomeia nem substitui as edições dos currículos V3.
+
 ## Projeto e conteúdo
 
 - Mantenha o site pessoal, estático e funcional com HTML e CSS.

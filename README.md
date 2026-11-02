@@ -3,6 +3,9 @@
 Currículo, projetos e registros profissionais em cinco variantes linguísticas.
 O site usa HTML e CSS, sem JavaScript, backend ou etapa de build.
 
+Desde 30/10/2026, o projeto está na **versão 2**, com [desenvolvimento fundamentado em documentação técnica](docs/desenvolvimento-v2.md).
+A [base de consulta local](docs/referencias/desenvolvimento-v2/README.md) reúne as fontes selecionadas. As cópias privadas não acompanham clones do Git.
+
 [Site publicado](https://nicolas-b-t.github.io/portfolio/) · [PDFs V3](docs/curriculos/v3/README.md) · [Documentação](docs/README.md)
 
 ## Executar
@@ -15,6 +18,7 @@ python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 
 Abra `http://127.0.0.1:8001/`.
 As páginas ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
+Cada idioma tem currículo e portfólio, galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`).
 Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 
 ## Estrutura

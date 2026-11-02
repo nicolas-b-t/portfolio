@@ -366,6 +366,10 @@ p {
   font-family: var(--font-mono);
 }
 
+.contact-related {
+  margin-top: 1.5rem;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
@@ -485,6 +489,7 @@ p {
   .skip-link,
   .btn,
   .site-footer .noprint,
+  .contact-related,
   .courses-screen,
   .photo-link-label {
     display: none !important;

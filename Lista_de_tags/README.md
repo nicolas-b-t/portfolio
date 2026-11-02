@@ -20,6 +20,12 @@ Os demais TXT contêm traduções editoriais das tags, sem traduzir o currículo
 | Tailandês | [TXT](tags-tailandes-th.txt) |
 | Ucraniano | [TXT](tags-ucraniano-uk.txt) |
 
+## Pesquisa de descritores de vagas
+
+A [lista de tags do SimplyHired](tags-simplyhired.md) reúne descritores de 90 anúncios: 30 administrativos, 30 de TI e 30 de TI em campo.
+Ela registra as tags originais, as frequências por grupo, as fontes e os limites da coleta de 26/10/2026.
+Esta pesquisa é independente das listas pessoais e não declara competências do responsável pelo currículo.
+
 ## Manutenção
 
 Atualize a base factual em pt-BR antes de revisar os TXT.

@@ -11,3 +11,12 @@ desktop.ini
 __pycache__/
 *.py[cod]
 /work/
+
+# Biblioteca técnica privada, somente local
+/REPERTORIO_TECNICO/
+
+# Base documental privada da versao 2; indice e plano permanecem versionaveis
+/docs/referencias/desenvolvimento-v2/fontes-local/
+
+# Fontes factuais privadas, preservadas localmente e fora do site publicado
+/docs/fontes/experiencia-profissional/originais-local/

@@ -206,6 +206,16 @@ A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e m
 
 Experiência profissional
 
+Gestor de tráfego pago; apoio documental e treinamento digital
+
+Aquecedores e Piscinas Mairiporã
+Período: janeiro de 2025 – atual
+• Cargo declarado: Gestor de tráfego pago; apoio documental e treinamento digital
+• Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads. Configuro a medição com Google Tag Manager e analiso resultados no Google Analytics 4 (GA4).
+• Criei e gerencio o site e as páginas da empresa. Estruturei canais de comércio eletrônico no Mercado Livre e na Shopee.
+• Digitalizei e organizei o acervo documental, com armazenamento em nuvem e backups físicos. Removi sites obsoletos e cópias com uso indevido da marca.
+• Treinei os sócios administradores no uso do Facebook, Instagram e recursos da Meta. Presto suporte de TI sob demanda para configuração de serviços e contas digitais.
+
 Fiber Optic Installation Assistant
 
 RealFort Sistemas
@@ -476,3 +486,442 @@ Ferramentas de gestão e pesquisa
 • WhatsApp
 • Canva
 Site do projeto: https://sgcs-seven.vercel.app/
+
+Descritores de vagas — SimplyHired
+
+Vocabulário complementar da lista PT-BR para consulta de tags e correspondência textual em ATS.
+Origem: 416 tags da pesquisa de 90 anúncios administrativos, de TI e de TI em campo, consultados em 26/10/2026.
+Fonte, frequências e referências: tags-simplyhired.md.
+Este bloco registra descritores das vagas pesquisadas. Ele não declara competências, certificações, habilitações ou formação do candidato.
+As informações pessoais e seus níveis permanecem nos blocos anteriores.
+
+Instrução: Preserve a grafia, as maiúsculas, as minúsculas, os acentos e os termos equivalentes como tags independentes.
+Instrução: Não una tags por significado nem retire variantes por redundância.
+Instrução: Preserve os rótulos deste vocabulário mesmo quando houver sobreposição com as tags dos blocos anteriores.
+
+Tags originais do SimplyHired
+
+• .NET
+• Acompanhamento de custos do projeto
+• Acompanhamento de níveis de estoque
+• Acompanhamento do cronograma do projeto
+• Acompanhamento do progresso de projetos
+• Acompanhamento orçamentário
+• Acompanhamento pós-venda
+• Active Directory
+• Administração de Empresas
+• Administração de Redes de Computadores
+• Administração de reuniões e agendamento
+• Administração de Sistemas
+• Adobe XD
+• Agendamento de compromissos
+• Agendamento de reuniões
+• Agile
+• Análise de custos orçados versus custos realizados
+• Análise de defeitos
+• Análise de desempenho
+• Análise de falhas
+• Análise de funil
+• Análise de indicadores-chave de desempenho (KPI)
+• Análise de sistemas
+• Análise de tendências
+• Análise de variações
+• Angular
+• AngularJS
+• APIs
+• Apoio à auditoria
+• Apoio à criação de dashboards
+• Apoio a tarefas simples de manutenção
+• Arquivamento de documentos
+• Articulação com departamentos internos
+• Atendimento ao Cliente
+• Atendimento ao cliente interno
+• Atendimento de dúvidas por telefone
+• Atendimento presencial ao cliente
+• Atendimento Telefônico
+• Atividades de recepção
+• Atualização de dados corporativos em sistemas internos de gestão
+• Atualização de dados mestres de empregados
+• Atualização de Sistema
+• Atualizações de dados do cliente
+• Atualizações de dados mestres
+• Atualizações de procedimentos operacionais padrão
+• Automação de DevOps
+• Azure
+• Bacharelado em Administração
+• Bacharelado em Ciências Contábeis
+• Bacharelado em Direito
+• Backup de dados
+• Banco de Dados
+• Bootstrap
+• C#
+• Cabeamento
+• Capacidade Analítica
+• Capacidade de Serviços
+• Carteira Nacional de Habilitação (CNH)
+• Certificação AWS
+• Certificação CCNA
+• Certificação HDI
+• Certificação Scrum Master
+• CFTV
+• CI/CD
+• Ciência da Computação
+• Ciências Contábeis
+• CNH Categoria A
+• CNH Categoria B
+• Colaboração com partes interessadas
+• Colaboração multidisciplinar
+• Colaboração multifuncional
+• Compras
+• Comunicação com clientes
+• Comunicação com fornecedores
+• Comunicação interna
+• Comunicação por telefone
+• Conciliação orçamentária
+• Conferência de faturas
+• Configuração de hardware
+• Configuração de periféricos
+• Construção Civil
+• Contabilidade
+• Contas a pagar
+• Contas a receber
+• Continuous integration
+• CONTRAN – Carteira Nacional de Habilitação (CNH) – Categoria B
+• Contratação
+• Contratos
+• Controle de acesso
+• Controle de acesso físico
+• Controle de custos
+• Controle de despesas
+• Controles internos
+• Coordenação de reuniões
+• CRC
+• Criação de pedido de compra
+• CSS
+• D3.js
+• Data science
+• Desenvolvedor Back-end
+• Desenvolvimento ágil de software
+• Desenvolvimento de Aplicativos
+• Desenvolvimento de dashboards
+• Desenvolvimento de funcionalidades voltadas ao usuário
+• Desenvolvimento de Sistemas
+• Desenvolvimento de Software
+• Desenvolvimento de soluções
+• Desenvolvimento Front-end
+• Desenvolvimento Full Stack
+• Design de aplicações
+• Design de Sistema
+• DHCP
+• Diagnóstico de equipamentos
+• Diagnóstico e solução de falhas em equipamentos
+• Diagnóstico e solução de problemas
+• Diagnóstico e solução de problemas de rede
+• Digitalização
+• Digitalização de documentos
+• Direito
+• DNS
+• Docker
+• Documentação de conformidade
+• Documentação do projeto
+• Documentação Técnica
+• E-Commerce
+• EDI
+• Elaboração de cotações de vendas
+• Elaboração de orçamentos
+• Elaboração de Propostas
+• Elaboração de relatórios
+• Elaboração de relatórios de análise de dados
+• Elaboração de relatórios de desempenho operacional
+• Elaboração de relatórios periódicos para a gestão
+• Elaboração de relatórios simples de vendas ou de desempenho
+• Emissão de faturas e boletos bancários
+• Emissão de faturas para clientes
+• Engenharia de software
+• Ensino Médio
+• Ensino Médio Técnico
+• Entrada de dados contábeis
+• Escalabilidade
+• Escalonamento de problemas de clientes
+• Escaneamento e digitalização de arquivos
+• Escrita Técnica
+• Espanhol
+• Estatística
+• Estrutura de Dados
+• Ética profissional
+• Etiqueta Comercial
+• Execução de testes de garantia da qualidade
+• Experiência administrativa
+• Experiência em desenvolvimento de software no setor financeiro
+• Experiência em Escritório
+• Experiência em fábricas
+• Experiência em operações de serviços de campo
+• Experiência em TI no setor financeiro
+• Extração de dados
+• Fábrica
+• Faturamento
+• Ferramentas de inteligência de negócios
+• Field Service
+• Figma
+• Finanças
+• Frameworks JavaScript
+• Funções avançadas do Microsoft Excel
+• Garantia de qualidade
+• Geração de relatórios de inteligência de negócios
+• Gerenciamento de arquivos
+• Gerenciamento de chamadas telefônicas
+• Gerenciamento de contas de usuário
+• Gerenciamento de correspondência
+• Gerenciamento de dados de funcionários
+• Gerenciamento de nível de serviço
+• Gerenciamento de registros financeiros
+• Gerenciamento de suprimentos de escritório
+• Gerenciamento de visitantes
+• Gestão
+• Gestão Administrativa
+• Gestão de acordo de nível de serviço (SLA)
+• Gestão de chamados de suporte ao cliente
+• Gestão de Contratos
+• Gestão de Despesas
+• Gestão de estoque
+• Gestão de estoque de suprimentos
+• Gestão de identificação e acessos
+• Gestão de incidentes
+• Gestão de orçamento de projetos
+• Gestão de Processos
+• Gestão de Projetos
+• Gestão de Projetos de TI
+• Gestão de TI
+• Gestão Empresarial
+• Gestão Financeira
+• Gestão orçamentária
+• Gestão precisa de registros de transações
+• Git
+• Google Analytics
+• Google Sheets
+• Google Tag Manager
+• Graduação
+• Habilidade de Comunicação
+• Habilidade de Escrita
+• Habilidades de comunicação com clientes
+• Habilidades em Informática
+• Hardware de computadores
+• Hibernate
+• HTML
+• Identificação de problemas
+• Identificação de problemas de software
+• Identificação de problemas do sistema
+• Implantação de aplicações
+• Implantação de Software
+• Implementação de controle de acesso
+• Implementação de entrega contínua (CD)
+• Implementação de roteador
+• Implementação de software
+• Implementação do ciclo de vida do desenvolvimento de software
+• Infraestrutura de Redes
+• Inglês
+• Iniciativas de excelência operacional
+• Instalação de equipamentos
+• Instalação de sistema de comunicação
+• Instalação de sistemas operacionais
+• Instalação de software
+• Inteligência artificial
+• Interação com clientes por telefone
+• Intune
+• ITIL
+• ITIL foundation
+• Java
+• JavaScript
+• Jira
+• JPA
+• JSON
+• Kanban
+• Lançamento de dados
+• Lean
+• Levantamento de Requisitos
+• Liderança
+• Limpeza
+• Limpeza de áreas comuns em edifícios comerciais ou condomínios
+• Linux
+• Logística
+• Macros
+• Manuseio de documentação
+• Manuseio de ferramentas
+• Manutenção
+• Manutenção de aplicações
+• Manutenção de código
+• Manutenção de dados mestres de fornecedores
+• Manutenção de equipamentos
+• Manutenção de instalações
+• Manutenção de registros
+• Manutenção de registros de clientes
+• Manutenção de registros de funcionários
+• Manutenção de registros de incidentes
+• Manutenção de sistemas
+• Manutenção preventiva
+• Manutenção rotineira de equipamentos de escritório
+• MCSE
+• Melhoria Contínua
+• Melhoria de processos
+• Melhorias em Processos Empresariais
+• Mensuração de desempenho
+• Microservices
+• Microsoft Access
+• Microsoft Excel
+• Microsoft Office
+• Microsoft Office Suite
+• Microsoft Outlook
+• Microsoft Powerpoint
+• Microsoft SQL Server
+• Migração de Sistemas
+• Modelagem de Dados
+• MongoDB
+• Monitoramento de controle de acesso
+• Monitoramento de KPIs em painel
+• Monitoramento de projetos
+• Monitoramento de Rede
+• Monitoramento de sistemas de TI
+• Monitoramento de SLA
+• Montagem
+• Multithreading
+• MySQL
+• Negociação
+• Negociação com fornecedores
+• NoSQL
+• Operação de Caixa
+• Operações de manutenção corretiva
+• Oracle
+• Orçamento de projetos
+• Organização de arquivos
+• Organização de documentos financeiros
+• Orientação a visitantes
+• Otimização de fluxos de trabalho
+• PABX
+• Passagem de cabos
+• Pedido de estoque
+• Pedido de suprimentos
+• Pesquisa experimental
+• PHP
+• PL/SQL
+• Planilhas
+• Plataformas de tecnologia colaborativa
+• PostgreSQL
+• Power BI
+• Power BI (software do Microsoft Office)
+• Power Query
+• PowerShell
+• Pré-processamento de dados
+• Preenchimento de documentação admissional para integração
+• Preparação de apresentações
+• Preparação de dados
+• Preparação de ofertas
+• Preparação para auditoria financeira
+• Prestação de informações e orientações
+• Priorização de tarefas
+• Processamento de contas a pagar
+• Processamento de contas a receber
+• Processamento de correspondência
+• Processos administrativos
+• Proficiência em software de visualização de dados
+• PRTG
+• Python
+• React
+• Realização de pedidos
+• Recepção de clientes
+• Recrutamento e seleção
+• Recursos humanos
+• Redes sem fio
+• Refatoração
+• Registro de chamados no service desk de TI
+• Relacionamento com clientes
+• Relational databases
+• Relatórios de dados
+• Relatórios de indicadores-chave de desempenho (KPIs)
+• Relatórios de métricas
+• Relatórios de painel de desempenho
+• Relatórios Gerenciais
+• Relatórios para partes interessadas
+• Reposição de estoque
+• Revisão de Documentos
+• Revisão de validação da documentação
+• SAP
+• SAP S/4HANA
+• Scripting
+• Scrum
+• Segurança
+• Segurança da Informação
+• Sem necessidade de experiência
+• ServiceNow
+• Serviço Pós-Venda
+• Serviços ao cliente
+• Serviços de TI
+• Sistema ERP
+• Sistemas de banco de dados
+• Sistemas de contabilidade ou ERP
+• Sistemas de Informação
+• Sistemas de telecomunicações
+• Sistemas de telefonia
+• Sistemas distribuídos
+• Sistemas Elétricos
+• Software antivírus
+• Software de chamados
+• Software de e-mail
+• Software de e-mail (Software de produtividade)
+• Software de produtividade
+• Software de produtividade para escritório
+• Software ERP
+• Solução de problemas de dados
+• Solução de problemas em notebooks
+• Solução de problemas técnicos
+• Spring Boot
+• SQL
+• Substituição de peças
+• Supervisão orçamentária
+• Suporte a hardware periférico
+• Suporte a sistemas e aplicações
+• Suporte a softwares antivírus
+• Suporte a softwares de produtividade
+• Suporte a softwares empresariais
+• Suporte à solução de problemas de periféricos
+• Suporte de Rede
+• Suporte de TI
+• Suporte para solução de problemas técnicos
+• Suporte para Windows
+• Suporte pós-venda ao cliente
+• Suporte Técnico
+• Suporte técnico presencial
+• Switch de rede
+• Tabelas dinâmicas do Excel
+• Técnico em Eletrônica
+• Técnico em Informática
+• Técnico em Telecomunicações
+• Tecnologia da Informação
+• Tecnologias de análise de dados
+• Teste de equipamentos
+• Teste Funcional
+• Teste funcional de eletrônicos
+• Testes A/B
+• Testes funcionais de controle de qualidade
+• TI
+• Tomada de decisão
+• Tomada de decisão orientada por dados
+• Tratamento de informações confidenciais
+• Trello
+• UI
+• Uso do Power BI (aplicativos do Microsoft Office)
+• UX
+• VBA
+• Vendas
+• Visual Basic
+• Visual Studio
+• Visualização de Dados
+• VMWare
+• Windows
+
+Variantes de capitalização indicadas pelo responsável
+
+JavaScript consta no bloco original acima. As duas grafias seguintes complementam esse rótulo para consulta.
+Estas variantes editoriais não fazem parte das 416 tags extraídas do SimplyHired.
+
+• javascript
+• Javascript

@@ -5,9 +5,17 @@ O texto vigente em pt-BR orienta as traduções. As [declarações do responsáv
 
 ## Experiência profissional
 
+Os relatórios profissionais recebidos do Google Drive estão catalogados em [fontes de experiência profissional](fontes/experiencia-profissional/manifesto.json). O relatório da RealFort Telecom complementa a fonte já usada para essa experiência. Em 02/11/2026, o responsável solicitou incorporar a experiência mais recente a partir dos relatórios, mantendo o trabalho em pt-BR.
+
+- Aquecedores e Piscinas Mairiporã: gestor de tráfego pago; apoio documental e treinamento digital, de janeiro de 2025 até o presente na data do relatório. Campanhas em Google Ads e Meta Ads, medição com Google Tag Manager e GA4, site, marketplaces, acervo documental, treinamento dos sócios e suporte digital.
+- Fonte local: `fontes/experiencia-profissional/originais-local/RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx`, versão 1.0 de 02/11/2026, quadro de identificação e seções “Resumo profissional”, “Atividades e resultados”, “Hard skills” e “Encerramento”. Relato do profissional, sem certificação ou validação independente.
+- Decisão: inserir a atuação em andamento no início da experiência em pt-BR e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Local e modalidade não foram informados no relatório; não foram inferidos. Indicadores financeiros não foram acrescentados, pois as evidências estão pendentes e há divergência no número de cliques.
+- Requisito e fundamento editorial: preservar função, período, autoria individual e limites da fonte; REF-0122, “Escrever para uso”, “Manter a fundamentação” e “Conferir e mudar”, e o guia de redação local. A autorização abrange a edição do conteúdo; publicação remota não foi executada.
+- Verificação em 02/11/2026: quatro experiências na página pt-BR; igualdade dos quatro parágrafos de atividades entre tela e resumo estruturado; período inicial 2025-01; lista de consulta atualizada. Chromium local, temas claro/escuro e larguras de 1280 e 320 CSS px sem transbordamento horizontal; captura de tela inspecionada. Na emulação de impressão, quatro experiências, resumo oculto invisível e 17 cursos. SHA-256 do DOCX preservado e manifesto JSON válido; git diff --check sem erros. Limites: sem novo ensaio de teclado, contraste, zoom real ou paginação física nesta inclusão textual; demais idiomas e PDFs V3 não atualizados por escopo.
+
 - RealFort Sistemas: instalação e manutenção de redes FTTH e conexões a rádio, cabos drop, SC/APC, RJ45, ONU, ONT e roteadores.
 - A atuação inclui medições com power meter e OTDR, verificações com VFL e resolução de problemas de rede.
-- A fusão de fibra permanece no nível de aprendiz. Nenhum período foi declarado para essa experiência.
+- A fusão de fibra permanece no nível de aprendiz. O relatório da RealFort informa 28/08/2026 a 28/09/2026; a página ainda não incorpora esse período, pois esta alteração se limita à inclusão de Aquecedores e Piscinas Mairiporã.
 - Lukos Tecnologia: suporte N1 a ERP/PDV, configuração, diagnóstico remoto, orientação de clientes e análise de NF-e/NFC-e.
 - Instituto Alpha: suporte N1/N2 hospitalar, orientação de usuários, manutenção, documentação, ativos e Microsoft Active Directory.
 
@@ -30,6 +38,8 @@ Não converta esse resultado em certificação de fala, escrita ou nível de out
 As traduções editoriais das tags não declaram fluência nos idiomas de destino.
 
 ## Projetos
+
+Em pt-BR, os textos dos projetos e sua cópia estruturada ficam em [Projetos](../static/pt-BR/projetos.html), com acesso na apresentação inicial e no menu da página principal. A separação de 02/11/2026 preservou as afirmações e atribuições anteriores; as outras variantes mantêm os projetos na página principal, conforme o escopo solicitado.
 
 O portfólio usa HTML, CSS, GitHub Actions e GitHub Pages.
 As otimizações e verificações descritas não constituem certificação integral de acessibilidade.
@@ -58,6 +68,17 @@ Oracle APEX, Bubble e AppSheet aparecem como alternativas ou referências, não 
 Requisitos de segurança não equivalem a certificações ou garantias de segurança da aplicação.
 A motivação legislativa do SGCS refere-se ao [PL 4739/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659).
 Confira a tramitação antes de atualizar esse contexto. A redação atual não afirma que a proposta virou lei.
+
+## Recomendações
+
+O responsável selecionou o Keep Android Open para divulgação em uma página dedicada a recomendações.
+O site da [campanha](https://keepandroidopen.org/en/) fundamenta a descrição sobre liberdade de instalar e distribuir aplicativos no Android.
+As versões em [português](https://keepandroidopen.org/pt-BR/) e [espanhol](https://keepandroidopen.org/es/) orientam os destinos dos links traduzidos.
+As páginas foram consultadas em 21/10/2026.
+
+A indicação não declara participação do responsável na organização da campanha.
+A descrição resume seu objetivo, sem reproduzir contagens regressivas ou previsões sobre bloqueios.
+O cartão usa HTML e CSS do próprio portfólio. O banner externo depende de JavaScript e não integra o site.
 
 ## Contatos, documentos e fontes
 

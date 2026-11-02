@@ -5,6 +5,8 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 
 | Assunto | Documento |
 | --- | --- |
+| Versão 2, decisões e verificações | [Desenvolvimento documentado](desenvolvimento-v2.md) |
+| Literatura técnica disponível localmente | [Base da versão 2](referencias/desenvolvimento-v2/README.md) |
 | Execução e publicação | [README da raiz](../README.md) |
 | Atualização e verificação do site | [Manutenção](manutencao.md) |
 | Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) |

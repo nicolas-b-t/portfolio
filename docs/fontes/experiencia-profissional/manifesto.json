@@ -1,0 +1,39 @@
+{
+  "recebido_em": "2026-11-02",
+  "origem": "Google Drive do responsável, Nicolas/TRABALHO",
+  "condicao": "Relatórios completos preservados somente na cópia local; fora do Git e de static/.",
+  "arquivos": [
+    {
+      "arquivo": "originais-local/RELATORIO_FINAL_EXPERIENCIA_REALFORT_TELECOM.docx",
+      "nome_original": "RELATORIO_FINAL_EXPERIENCIA_REALFORT_TELECOM.docx",
+      "drive_id": "1XePfBqKokKrQNIgQ8I7pAUGRRVYCDBt6",
+      "url": "https://docs.google.com/document/d/1XePfBqKokKrQNIgQ8I7pAUGRRVYCDBt6/edit",
+      "pasta": "Nicolas/TRABALHO/FUNCIONARIO/REALFORT_TELECOM",
+      "modificado_em": "2026-10-06T18:51:09.137Z",
+      "bytes": 13625,
+      "sha256": "7f56d391c95d2c8425ebbfd081ba83c2851857e2a74d29a812cc2fa70b7dd348",
+      "uso": "Fonte factual complementar para a experiência profissional na RealFort Telecom."
+    },
+    {
+      "arquivo": "originais-local/RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx",
+      "nome_original": "RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx",
+      "drive_id": "1qao60u6HnJXpJ3nNEujoSbscfk_nfkfM",
+      "url": "https://docs.google.com/document/d/1qao60u6HnJXpJ3nNEujoSbscfk_nfkfM/edit",
+      "pasta": "Nicolas/TRABALHO/PRESTADOR DE SERVICO/AQUECEDORES MAIRIPORA",
+      "modificado_em": "2026-11-02T12:32:40.558Z",
+      "bytes": 16091,
+      "sha256": "96c70dbd748e9449da1bc3d4001d3ab4c1e82fd0e9fce74d3d58cc293ce72851",
+      "uso": "Fonte da experiência na Aquecedores e Piscinas Mairiporã incluída no currículo pt-BR em 02/11/2026 por solicitação do responsável. Função, período e atividades conferidos no relatório. Modalidade e local não informados; indicadores com comprovação pendente não incorporados."
+    }
+  ],
+  "excluidos": [
+    "TEMPLATE_RELATORIO_GERAL_DE_EXPERIENCIA_PROFISSIONAL.docx",
+    "DOCUMENTOS_REALFORT_TELECOM",
+    "IMAGENS_REALFORT_TELECOM"
+  ],
+  "limites": [
+    "A cópia local preserva os arquivos recebidos; não houve alteração dos documentos no Google Drive.",
+    "A inclusão no acervo não autoriza publicar automaticamente novos cargos, datas, atribuições ou vínculos.",
+    "A incorporação de Aquecedores e Piscinas Mairiporã foi solicitada e realizada somente em pt-BR. As demais variantes e os PDFs V3 permanecem nas edições anteriores."
+  ]
+}
