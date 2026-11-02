@@ -480,6 +480,24 @@ p {
   color: var(--accent);
 }
 
+.btn:disabled,
+.btn[disabled] {
+  background: var(--panel);
+  color: var(--muted);
+  border-color: var(--muted);
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn:disabled:hover,
+.btn[disabled]:hover {
+  background: var(--panel);
+  color: var(--muted);
+  box-shadow: none;
+  transform: none;
+}
+
 /* ---------- Contact ---------- */
 
 .contact-list {

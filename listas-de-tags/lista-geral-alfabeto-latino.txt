@@ -190,7 +190,7 @@ Bancos de dados
 • Banco de dados
 • Database
 • Relational databases
-• RDMS
+• RDBMS
 • PostgreSQL
 • Postgres
 • SQLite

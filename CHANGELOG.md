@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Auditoria editorial e de acessibilidade, com backlog (fase 05). | Este commit. |
+| 2026-11-02 | Correções de acessibilidade e revisão editorial: botão desativado, `aria-current="page"` e RDBMS. | Este commit. |
+| 2026-11-02 | Auditoria editorial e de acessibilidade, com backlog (fase 05). | `d3fa16a` |
 | 2026-11-02 | Fronteira, interfaces e cenários de sistema (fase 07). | `41c8f88` |
 | 2026-11-02 | Decisões de arquitetura, convenções e classificação Diátaxis (fase 04). | `187baf0` |
 | 2026-11-02 | Processo de qualidade, Definition of Done e registro de defeito (fase 03). | `0174749` |

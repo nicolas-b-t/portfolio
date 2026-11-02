@@ -533,7 +533,7 @@ Correções de texto ou de site entram no backlog e aguardam aprovação, confor
 Achados editoriais:
 
 - a lista visível repete sinônimos, por exemplo “E-commerce”, “E-Commerce”, “Ecommerce” e “Electronic commerce”;
-- “RDMS” aparece no lugar de “RDBMS”;
+- “RDMS” aparecia no lugar de “RDBMS”; corrigido em 02/11/2026;
 - frases de ATS em inglês, como “Manage digital documents”, aparecem na lista visível;
 - “Inglês avançado” e “English” repetem o mesmo idioma.
 
@@ -560,22 +560,22 @@ Esses itens são decisão do operador: podem ser mantidos para ATS ou reduzidos 
 | ARIA | Uso pequeno e justificado. | 46 `aria-label`, 21 `aria-current`, 171 `role="list"`; nenhum `tabindex` positivo. |
 | Leitor de tela | Não testado. | Limite desta rodada. |
 
-O botão “Baixar currículo” está desativado, mas não tem estilo visual de disabled.
-Isso não viola a WCAG, porque controles desativados são isentos de contraste.
-Ainda assim, o estado pode não ficar claro para quem enxerga.
+O botão “Baixar currículo” está desativado e recebeu estilo próprio de disabled em 02/11/2026.
+O texto e a borda usam a cor muted, o sombreado é removido e o cursor indica indisponibilidade.
 
 ### 5.4 Backlog de correções
 
-| ID | Item | Tipo | Prioridade | Aprovação |
-| --- | --- | --- | --- | --- |
-| A11Y-01 | Dar aparência de desativado ao botão de download. | CSS | P2 | Sim. |
-| A11Y-02 | Trocar `aria-current="true"` por `aria-current="page"`. | HTML | P3 | Sim. |
-| EDIT-01 | Decidir se os sinônimos visíveis de ATS permanecem. | Conteúdo | P2 | Sim. |
-| EDIT-02 | Corrigir “RDMS” para “RDBMS”. | Conteúdo | P3 | Sim. |
-| EDIT-03 | Revisar frases de ATS em inglês na lista visível. | Conteúdo | P3 | Sim. |
-| TEST-01 | Testar zoom, tema escuro, impressão e leitor de tela. | Verificação | P1 | Não. |
+| ID | Item | Tipo | Prioridade | Aprovação | Situação |
+| --- | --- | --- | --- | --- | --- |
+| A11Y-01 | Dar aparência de desativado ao botão de download. | CSS | P2 | Sim. | Aplicado em 02/11/2026. |
+| A11Y-02 | Trocar `aria-current="true"` por `aria-current="page"`. | HTML | P3 | Sim. | Aplicado em 02/11/2026. |
+| EDIT-01 | Decidir se os sinônimos visíveis de ATS permanecem. | Conteúdo | P2 | Sim. | Pendente de decisão. |
+| EDIT-02 | Corrigir “RDMS” para “RDBMS”. | Conteúdo | P3 | Sim. | Aplicado em 02/11/2026. |
+| EDIT-03 | Revisar frases de ATS em inglês na lista visível. | Conteúdo | P3 | Sim. | Pendente de decisão. |
+| TEST-01 | Testar zoom, tema escuro, impressão e leitor de tela. | Verificação | P1 | Não. | Pendente. |
 
-Nenhum item foi aplicado nesta fase.
+Três itens foram aplicados em 02/11/2026.
+Os demais aguardam decisão editorial ou ensaio.
 
 ### 5.5 Verificação e limites
 
@@ -583,6 +583,8 @@ Nenhum item foi aplicado nesta fase.
 - As capturas em 320 px e 1280 px foram feitas em navegador headless e não foram versionadas.
 - Não houve ensaio com leitor de tela, zoom real, dispositivo físico ou impressão concluída.
 - Não houve validação externa de acessibilidade.
+- Três correções foram aplicadas e conferidas: estilo de disabled, `aria-current="page"` e “RDBMS”.
+- `git diff --check` limpo e sem espaços finais.
 - O resultado é uma avaliação interna, não uma certificação.
 
 ## 7. Engenharia de sistemas — fase 07
