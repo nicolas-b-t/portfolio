@@ -1,7 +1,7 @@
 # Traduções editoriais das tags
 
 O [glossário](glossario.json) relaciona rótulos, traduções e grupos.
-O [manifesto](manifesto.json) identifica os 14 arquivos de consulta em [Lista_de_tags](../../Lista_de_tags/README.md).
+O [manifesto](manifesto.json) identifica os 14 arquivos de consulta em [listas-de-tags](../../listas-de-tags/README.md).
 
 As traduções preservam produtos, identificadores técnicos, contextos e níveis de conhecimento.
 Elas não declaram fluência nos idiomas de destino nem compatibilidade universal com ATS.

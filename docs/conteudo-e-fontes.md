@@ -8,9 +8,9 @@ O texto vigente em pt-BR orienta as traduções. As [declarações do responsáv
 Os relatórios profissionais recebidos do Google Drive estão catalogados em [fontes de experiência profissional](fontes/experiencia-profissional/manifesto.json). O relatório da RealFort Telecom complementa a fonte já usada para essa experiência. Em 02/11/2026, o responsável solicitou incorporar a experiência mais recente a partir dos relatórios, mantendo o trabalho em pt-BR.
 
 - Aquecedores e Piscinas Mairiporã: gestor de tráfego pago; apoio documental e treinamento digital, de janeiro de 2025 até o presente na data do relatório. Campanhas em Google Ads e Meta Ads, medição com Google Tag Manager e GA4, site, marketplaces, acervo documental, treinamento dos sócios e suporte digital.
-- Fonte local: `fontes/experiencia-profissional/originais-local/RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx`, versão 1.0 de 02/11/2026, quadro de identificação e seções “Resumo profissional”, “Atividades e resultados”, “Hard skills” e “Encerramento”. Relato do profissional, sem certificação ou validação independente.
+- Fonte local: `../dados-pessoais/experiencia-profissional/RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx`, versão 1.0 de 02/11/2026, quadro de identificação e seções “Resumo profissional”, “Atividades e resultados”, “Hard skills” e “Encerramento”. Relato do profissional, sem certificação ou validação independente.
 - Decisão: inserir a atuação em andamento no início da experiência em pt-BR e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Local e modalidade não foram informados no relatório; não foram inferidos. Indicadores financeiros não foram acrescentados, pois as evidências estão pendentes e há divergência no número de cliques.
-- Requisito e fundamento editorial: preservar função, período, autoria individual e limites da fonte; REF-0122, “Escrever para uso”, “Manter a fundamentação” e “Conferir e mudar”, e o guia de redação local. A autorização abrange a edição do conteúdo; publicação remota não foi executada.
+- Requisito e fundamento editorial: preservar função, período, autoria individual e limites da fonte, conforme o guia de redação local. A autorização abrange a edição do conteúdo; publicação remota não foi executada.
 - Verificação em 02/11/2026: quatro experiências na página pt-BR; igualdade dos quatro parágrafos de atividades entre tela e resumo estruturado; período inicial 2025-01; lista de consulta atualizada. Chromium local, temas claro/escuro e larguras de 1280 e 320 CSS px sem transbordamento horizontal; captura de tela inspecionada. Na emulação de impressão, quatro experiências, resumo oculto invisível e 17 cursos. SHA-256 do DOCX preservado e manifesto JSON válido; git diff --check sem erros. Limites: sem novo ensaio de teclado, contraste, zoom real ou paginação física nesta inclusão textual; demais idiomas e PDFs V3 não atualizados por escopo.
 
 - RealFort Sistemas: instalação e manutenção de redes FTTH e conexões a rádio, cabos drop, SC/APC, RJ45, ONU, ONT e roteadores.
@@ -82,10 +82,10 @@ O cartão usa HTML e CSS do próprio portfólio. O banner externo depende de Jav
 
 ## Contatos, documentos e fontes
 
-Os [originais anteriores dos currículos](fontes/curriculos/README.md) possuem manifesto próprio.
+Os [originais anteriores dos currículos](fontes/curriculos-originais/README.md) possuem manifesto próprio.
 O telefone e o país da V3 foram preservados desses documentos.
 Links institucionais dos cursos identificam as instituições, sem validar individualmente os certificados.
-As [cargas horárias pesquisadas e a origem das datas dos 17 cursos](fontes/cursos/README.md) orientam a versão pt-BR.
+As [cargas horárias pesquisadas e a origem das datas dos cursos](fontes/cursos/README.md) orientam a versão pt-BR.
 Essa versão usa o rótulo Conclusão por solicitação do responsável, com a distinção original entre conclusão e emissão preservada no registro.
 
 CNH AB e PID permanecem documentos declarados do responsável.

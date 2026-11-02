@@ -17,61 +17,61 @@
   "contato_adicional": "Telefone e país mantidos dos currículos originais locais de outubro de 2026.",
   "arquivos": [
     {
-      "arquivo": "en/V3-geral-uma_coluna-en-US.pdf",
+      "arquivo": "V3-geral-uma_coluna-en-US.pdf",
       "bytes": 195882,
       "sha256": "02744aedb6b5049be636656db4bce5eb71bdf86b2fcf4d9a0d5e8bc40a16bf7b",
       "paginas": 4
     },
     {
-      "arquivo": "en/V3-geral_coluna_lateral-en-US.pdf",
+      "arquivo": "V3-geral_coluna_lateral-en-US.pdf",
       "bytes": 200660,
       "sha256": "03a545dda324c604e441598d00aefb6a22cd41423b0222303c80bdf947801e32",
       "paginas": 4
     },
     {
-      "arquivo": "es-419/V3-geral-uma_coluna-es-419.pdf",
+      "arquivo": "V3-geral-uma_coluna-es-419.pdf",
       "bytes": 214222,
       "sha256": "633136a314d3271bc853d949e1950f299326b4ce98823d68a7cbc7fad52c5d03",
       "paginas": 4
     },
     {
-      "arquivo": "es-419/V3-geral_coluna_lateral-es-419.pdf",
+      "arquivo": "V3-geral_coluna_lateral-es-419.pdf",
       "bytes": 223864,
       "sha256": "f4953b49a8e1d4f45e2f22e559b793ce67c8cf4ed66dc58af28f7b953bafd9a5",
       "paginas": 4
     },
     {
-      "arquivo": "es-ES/V3-geral-uma_coluna-es-ES.pdf",
+      "arquivo": "V3-geral-uma_coluna-es-ES.pdf",
       "bytes": 214444,
       "sha256": "32edbcf885329aa5389956703b67ec970b5f5904c14b9bc2d0561cde700d16f5",
       "paginas": 4
     },
     {
-      "arquivo": "es-ES/V3-geral_coluna_lateral-es-ES.pdf",
+      "arquivo": "V3-geral_coluna_lateral-es-ES.pdf",
       "bytes": 224187,
       "sha256": "736429e3796cd6aeff3b6dfba1c549d434a91da5ecb6cd4ffa16e4cf92a152f8",
       "paginas": 4
     },
     {
-      "arquivo": "pt-BR/V3-geral-uma_coluna-pt-BR.pdf",
+      "arquivo": "V3-geral-uma_coluna-pt-BR.pdf",
       "bytes": 214402,
       "sha256": "ac568324e93e11d7932fb57bb65383162a1736236a8427d0b4752d061299f3f2",
       "paginas": 4
     },
     {
-      "arquivo": "pt-BR/V3-geral_coluna_lateral-pt-BR.pdf",
+      "arquivo": "V3-geral_coluna_lateral-pt-BR.pdf",
       "bytes": 224741,
       "sha256": "172ff075a586e3ddfd3075f3015ae7afd6d6dc6400b039f5ab87dd0907071575",
       "paginas": 4
     },
     {
-      "arquivo": "pt-PT/V3-geral-uma_coluna-pt-PT.pdf",
+      "arquivo": "V3-geral-uma_coluna-pt-PT.pdf",
       "bytes": 216160,
       "sha256": "a7ac303138da8921ef677a88df6de065800b6293c456fad1ecfbf8cd01425d66",
       "paginas": 4
     },
     {
-      "arquivo": "pt-PT/V3-geral_coluna_lateral-pt-PT.pdf",
+      "arquivo": "V3-geral_coluna_lateral-pt-PT.pdf",
       "bytes": 225350,
       "sha256": "1b5023d98ec63739d8d32fbdbb1ab20cfa240006f43136a79850304778adf032",
       "paginas": 4

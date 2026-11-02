@@ -38,7 +38,7 @@ Um catálogo como ESCO descreve conceitos. Ele não é uma lista universal de pa
 3. Copie o texto do PDF para um editor simples.
 4. Confira nome, contatos, empresas, cargos, datas e formação.
 5. Confira nomes oficiais dos cursos, instituições, datas e cargas horárias.
-6. Verifique se os 17 cursos aparecem uma única vez na versão geral.
+6. Verifique se todos os cursos aparecem uma única vez na versão geral.
 7. Revise os campos preenchidos automaticamente pelo portal.
 8. Corrija os campos que o portal interpretar incorretamente.
 

@@ -2,8 +2,7 @@
 
 Mantenha referências diretamente úteis ao projeto e uma síntese vigente por assunto.
 
-A [base documental da versão 2](desenvolvimento-v2/README.md) reúne a seleção local de desenvolvimento, com [índice de arquivos](desenvolvimento-v2/indice-local.md), procedência e limites.
-Use essas cópias para o trabalho corrente. Os links externos abaixo continuam como identificação das fontes.
+Os links externos abaixo identificam as fontes. Cópias integrais de normas não acompanham o repositório.
 
 | Assunto | Referência |
 | --- | --- |
@@ -20,6 +19,6 @@ As cópias integrais anteriores de normas, bases de competências, código de te
 As licenças e os avisos recebidos foram preservados com esse acervo.
 Consulte a fonte oficial antes de aplicar uma edição mais recente.
 
-O PDF da ASD-STE100 não acompanha clones do Git. Uma cópia privada da edição 9 está na base local da versão 2, identificada como REF-0368.
+O PDF da ASD-STE100 não acompanha clones do Git. Consulte a origem registrada no manifesto antes de citar uma edição.
 O manifesto anterior continua registrando a origem e a condição de recuperação.
 O guia do projeto adapta princípios de clareza. Ele não constitui tradução oficial nem certificação STE.

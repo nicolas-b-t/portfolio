@@ -15,4 +15,4 @@
 *.pdf binary
 
 # Preserva os bytes e a formatação das cópias oficiais
-docs/referencias/europass/fontes/*.html -text -whitespace
+docs/referencias/europass-fontes/*.html -text -whitespace

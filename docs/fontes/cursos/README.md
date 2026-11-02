@@ -1,6 +1,6 @@
 # Cursos complementares do currículo pt-BR
 
-Este registro reúne as cargas horárias e a normalização das datas dos 17 cursos da [página pt-BR](../../../static/pt-BR/index.html). A revisão foi solicitada pelo responsável e limita-se a essa página, às suas cópias de tela, impressão e resumo oculto e à [lista de consulta em alfabeto latino](../../../Lista_de_tags/lista-geral-alfabeto-latino.txt).
+Este registro reúne as cargas horárias e a normalização das datas dos 17 cursos da [página pt-BR](../../../static/pt-BR/index.html). A revisão foi solicitada pelo responsável e limita-se a essa página, às suas cópias de tela, impressão e resumo oculto e à [lista de consulta em alfabeto latino](../../../listas-de-tags/lista-geral-alfabeto-latino.txt).
 
 ## Cargas horárias pesquisadas
 

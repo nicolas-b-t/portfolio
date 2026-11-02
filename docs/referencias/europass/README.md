@@ -25,14 +25,14 @@ O [manifesto](manifesto.json) registra URLs, títulos, datas, tamanhos e hashes 
 
 | Documento | Cópia local | Fonte oficial |
 | --- | --- | --- |
-| Criar o CV, português | [HTML](fontes/criar-cv-pt.html) | [Europass](https://europass.europa.eu/pt/create-europass-cv) |
-| Criar o CV, inglês | [HTML](fontes/criar-cv-en.html) | [Europass](https://europass.europa.eu/en/create-europass-cv) |
-| Perfil, português | [HTML](fontes/perfil-pt.html) | [Europass](https://europass.europa.eu/pt/ferramentas-europass/o-perfil-europass) |
-| Perfil, inglês | [HTML](fontes/perfil-en.html) | [Europass](https://europass.europa.eu/en/europass-tools/europass-profile) |
-| Perguntas frequentes | [HTML](fontes/perguntas-frequentes-en.html) | [Europass](https://europass.europa.eu/en/faq) |
-| Preencher o perfil | [HTML](fontes/preencher-perfil-en.html) | [Europass](https://europass.europa.eu/en/how-complete-my-europass-profile) |
-| Aviso legal da Comissão | [HTML](fontes/aviso-legal-comissao-europeia.html) | [Comissão Europeia](https://commission.europa.eu/legal-notice_en) |
-| Aviso legal ligado pelo Europass | [HTML](fontes/aviso-legal-uniao-europeia.html) | [União Europeia](https://european-union.europa.eu/legal-notice_en) |
+| Criar o CV, português | [HTML](../europass-fontes/criar-cv-pt.html) | [Europass](https://europass.europa.eu/pt/create-europass-cv) |
+| Criar o CV, inglês | [HTML](../europass-fontes/criar-cv-en.html) | [Europass](https://europass.europa.eu/en/create-europass-cv) |
+| Perfil, português | [HTML](../europass-fontes/perfil-pt.html) | [Europass](https://europass.europa.eu/pt/ferramentas-europass/o-perfil-europass) |
+| Perfil, inglês | [HTML](../europass-fontes/perfil-en.html) | [Europass](https://europass.europa.eu/en/europass-tools/europass-profile) |
+| Perguntas frequentes | [HTML](../europass-fontes/perguntas-frequentes-en.html) | [Europass](https://europass.europa.eu/en/faq) |
+| Preencher o perfil | [HTML](../europass-fontes/preencher-perfil-en.html) | [Europass](https://europass.europa.eu/en/how-complete-my-europass-profile) |
+| Aviso legal da Comissão | [HTML](../europass-fontes/aviso-legal-comissao-europeia.html) | [Comissão Europeia](https://commission.europa.eu/legal-notice_en) |
+| Aviso legal ligado pelo Europass | [HTML](../europass-fontes/aviso-legal-uniao-europeia.html) | [União Europeia](https://european-union.europa.eu/legal-notice_en) |
 
 ## Uso e atualização
 

@@ -3,9 +3,6 @@
 Currículo, projetos e registros profissionais em cinco variantes linguísticas.
 O site usa HTML e CSS, sem JavaScript, backend ou etapa de build.
 
-Desde 30/10/2026, o projeto está na **versão 2**, com [desenvolvimento fundamentado em documentação técnica](docs/desenvolvimento-v2.md).
-A [base de consulta local](docs/referencias/desenvolvimento-v2/README.md) reúne as fontes selecionadas. As cópias privadas não acompanham clones do Git.
-
 [Site publicado](https://nicolas-b-t.github.io/portfolio/) · [PDFs V3](docs/curriculos/v3/README.md) · [Documentação](docs/README.md)
 
 ## Executar
@@ -18,7 +15,7 @@ python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 
 Abra `http://127.0.0.1:8001/`.
 As páginas ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
-Cada idioma tem currículo e portfólio, galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`).
+Cada idioma tem currículo e portfólio, galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`). Em pt-BR, `projetos.html` separa os projetos.
 Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 
 ## Estrutura
@@ -29,11 +26,12 @@ Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 ├── README.md             # Execução, estrutura e publicação
 ├── .github/workflows/    # Publicação no GitHub Pages
 ├── static/               # Site, CSS e fotografias
-├── docs/                 # Guias, fontes atuais e PDFs V3
-└── Lista_de_tags/        # Listas de consulta e traduções editoriais
+├── docs/                 # Guias, fontes atuais, PDFs V3 e repertório técnico local
+├── listas-de-tags/      # Listas de consulta e traduções editoriais
+└── dados-pessoais/       # Currículos originais e rascunhos, fora do Git
 ```
 
-Use `tree -a -L 3 -I .git` para inspecionar a árvore completa.
+Use `Get-ChildItem -Recurse -Depth 3 -Force | Where-Object { $_.FullName -notmatch '\\\.git\\' }` para inspecionar a árvore completa.
 As regras estão em [AGENTS.md](AGENTS.md). Os procedimentos estão em [Manutenção](docs/manutencao.md).
 
 ## Publicar e manter
@@ -44,6 +42,7 @@ No GitHub, configure **Settings → Pages → Source → GitHub Actions**.
 Use pt-BR como base factual e sincronize o conteúdo comum nas outras variantes.
 Todas as páginas compartilham `static/assets/css/styles.css`.
 A documentação e os currículos em `docs/` acompanham o repositório, fora do site publicado.
+`docs/repertorio-tecnico-site/` e `dados-pessoais/` ficam somente no computador e são ignorados pelo Git.
 
 O acervo anterior foi preservado fora da árvore ativa.
 Consulte o [registro da organização](docs/organizacao.md) para recuperar fontes e históricos.

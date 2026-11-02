@@ -1,16 +1,7 @@
 # Orientações do projeto
 
 Estas regras se aplicam ao repositório inteiro.
-
-## Versão 2 e fundamentação técnica
-
-- Desde 30/10/2026, trate o projeto como versão 2. Consulte [Desenvolvimento da versão 2](docs/desenvolvimento-v2.md).
-- Em todas as etapas, consulte a [base documental local](docs/referencias/desenvolvimento-v2/README.md) pertinente antes de decidir ou implementar.
-- Registre objetivo, requisito ou regra, fonte local com seção ou página, decisão, verificação e limitações. Atualize a síntese do assunto afetado.
-- Use as cópias dentro deste projeto. As pastas externas do acervo não são dependências do trabalho futuro.
-- Preserve os originais em `docs/referencias/desenvolvimento-v2/fontes-local/`. São cópias privadas, ignoradas pelo Git e fora de `static/`.
-- Diferencie norma, guia, rascunho, referência histórica e decisão do responsável. Literatura não comprova experiência nem certificação pessoal.
-- A versão 2 do projeto não renomeia nem substitui as edições dos currículos V3.
+Este arquivo é auto-contido: não depende de instruções fora da raiz do projeto, para permitir sandboxing.
 
 ## Projeto e conteúdo
 
@@ -24,7 +15,7 @@ Estas regras se aplicam ao repositório inteiro.
 - Consulte [fontes e atribuições](docs/conteudo-e-fontes.md) antes de ampliar ou alterar uma afirmação.
 - Aplique o [guia de redação](docs/guia-de-redacao.md), baseado na ASD-STE100, edição 9, sem declarar certificação formal.
 - Preserve textos e avisos de documentos oficiais. A adaptação editorial aplica-se aos textos autorais.
-- Preserve os bytes das cópias oficiais em `docs/referencias/europass/fontes/`. Esses documentos não integram o site publicado.
+- Preserve os bytes das cópias oficiais em `docs/referencias/europass-fontes/`. Esses documentos não integram o site publicado.
 
 ## Estrutura e idiomas
 
@@ -33,11 +24,10 @@ Estas regras se aplicam ao repositório inteiro.
 - Preserve `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`.
 - Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
 - Em `es-419`, preserve a redação para o público sul-americano.
-- Mantenha os três arquivos de cada idioma: `index.html`, `galeria.html` e `rede.html`.
+- Cada idioma mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`. Em `pt-BR`, `projetos.html` reúne os projetos e a cópia estruturada.
 - Sincronize fatos e estrutura comuns entre os idiomas. Preserve as variantes linguísticas.
 - Preserve as três categorias de competências e suas subcategorias.
 - Ao alterar cursos, atualize as cópias de tela, impressão e resumo estruturado nos idiomas afetados.
-- Confira títulos, instituições, datas, cargas horárias e os 17 cursos uma única vez na impressão.
 - Mantenha a coerência entre conteúdo visível, resumo oculto e listas de consulta.
 
 ## HTML, CSS e acessibilidade
@@ -57,10 +47,10 @@ Estas regras se aplicam ao repositório inteiro.
 - Consulte [Manutenção](docs/manutencao.md) para execução, publicação e conferência das páginas.
 - Para mudanças visuais, confira também teclado, foco, contraste, telas pequenas, zoom, temas e impressão.
 - Execute `git diff --check`. Informe verificações, resultados e limites.
-- Use `tree -a -L 3 -I .git` para avaliar reorganizações.
 - Mantenha uma síntese vigente por assunto e atualize os links ao mover ou retirar arquivos.
-- Guarde scripts temporários, caches, exportações intermediárias e clones de terceiros fora do repositório.
+- Mantenha fora do Git `dados-pessoais/` e `docs/repertorio-tecnico-site/`. O `.gitignore` cobre esses caminhos.
 - Preserve fontes, licenças e meios de recuperação antes de retirar um acervo.
-- Mantenha os dez PDFs V3 versionados, conforme autorização do responsável.
+- Mantenha os PDFs V3 versionados, conforme autorização do responsável.
 - Não acrescente credenciais, configurações pessoais de máquina ou documentos restritos ao site.
-- Use nomes descritivos em português, sem acentos, com hífens. Preserve nomes oficiais e nomes de arquivos solicitados.
+- Use nomes de pasta em minúsculas, descritivos, sem acentos e com hífens. Preserve nomes oficiais e nomes de arquivos solicitados.
+- Mantenha no máximo quatro níveis de pasta. O sufixo `-local` identifica cópias de consulta ignoradas pelo Git.

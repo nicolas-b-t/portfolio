@@ -5,8 +5,6 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 
 | Assunto | Documento |
 | --- | --- |
-| Versão 2, decisões e verificações | [Desenvolvimento documentado](desenvolvimento-v2.md) |
-| Literatura técnica disponível localmente | [Base da versão 2](referencias/desenvolvimento-v2/README.md) |
 | Execução e publicação | [README da raiz](../README.md) |
 | Atualização e verificação do site | [Manutenção](manutencao.md) |
 | Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) |
@@ -15,12 +13,13 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 | Diretrizes de currículo e perfil | [Europass](referencias/europass/README.md) |
 | Preparação e leitura automática | [ATS](referencias/ats/README.md) |
 | Normas e referências de desenvolvimento | [Referências](referencias/README.md) |
-| Listas de consulta | [Tags](../Lista_de_tags/README.md) |
+| Listas de consulta | [Tags](../listas-de-tags/README.md) |
 | Traduções editoriais das tags | [Glossário e manifesto](tags-multilingues/README.md) |
 | Acervo anterior e recuperação | [Organização](organizacao.md) |
 
 Esta pasta contém fontes necessárias à manutenção, instruções vigentes e edições identificadas do currículo.
 O GitHub Pages publica somente `static/`.
-Planos, caches, relatórios substituídos e grandes bases de consulta ficam fora da árvore ativa.
+Planos, caches, relatórios substituídos e bases de consulta ficam fora da árvore ativa.
+O repertório técnico de consulta fica em `docs/repertorio-tecnico-site/` e os dados pessoais em `dados-pessoais/`, ambos ignorados pelo Git.
 
 No Google Drive, consulte os [currículos V3](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI) e a [documentação Europass/ATS](https://drive.google.com/drive/folders/1GOtxB3WCRJYXLrCOFIdS7DaD_IWNPxij).

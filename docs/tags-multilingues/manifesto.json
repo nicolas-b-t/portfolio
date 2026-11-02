@@ -7,7 +7,7 @@
     {
       "idioma": "ru",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-russo-ru.txt",
+      "arquivo": "listas-de-tags/tags-russo-ru.txt",
       "bytes": 9834,
       "sha256": "6a914f8afe45153bdccf7391a6c19bdf94fb306f75d2f9332b647cbda4ef4b10",
       "ocorrencias": 227,
@@ -179,7 +179,7 @@
     {
       "idioma": "uk",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-ucraniano-uk.txt",
+      "arquivo": "listas-de-tags/tags-ucraniano-uk.txt",
       "bytes": 9499,
       "sha256": "9ff245b1a4eb494db566f2babc9171660d2cd3e965a2c0886f648174a0efd77e",
       "ocorrencias": 227,
@@ -351,7 +351,7 @@
     {
       "idioma": "bg",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-bulgaro-bg.txt",
+      "arquivo": "listas-de-tags/tags-bulgaro-bg.txt",
       "bytes": 9687,
       "sha256": "9e0adca75a1d55394c96bb5f82c78049dfbbed6bd2b30cb446cd815874aea090",
       "ocorrencias": 227,
@@ -523,7 +523,7 @@
     {
       "idioma": "sr-Cyrl",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-servio-sr-cyrl.txt",
+      "arquivo": "listas-de-tags/tags-servio-sr-cyrl.txt",
       "bytes": 9049,
       "sha256": "dcd859ad75acc83b232f7141063846fb078b0b53112b88180b6204c581b3ec3e",
       "ocorrencias": 227,
@@ -695,7 +695,7 @@
     {
       "idioma": "el",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-grego-el.txt",
+      "arquivo": "listas-de-tags/tags-grego-el.txt",
       "bytes": 9490,
       "sha256": "6b8d3f5cf0dafb01b3114ca30e50c4b3e7cc47a0fa55db318dc3a34579c93d98",
       "ocorrencias": 227,
@@ -867,7 +867,7 @@
     {
       "idioma": "zh-Hans",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-chines-simplificado-zh-hans.txt",
+      "arquivo": "listas-de-tags/tags-chines-simplificado-zh-hans.txt",
       "bytes": 5162,
       "sha256": "3a25d07184ef6de9c096949d70f0e01a7189a3e55ebf63e57d118cfc25915f7f",
       "ocorrencias": 227,
@@ -1039,7 +1039,7 @@
     {
       "idioma": "zh-Hant",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-chines-tradicional-zh-hant.txt",
+      "arquivo": "listas-de-tags/tags-chines-tradicional-zh-hant.txt",
       "bytes": 5195,
       "sha256": "65539a8756b3817f6312675c50da9e9b51ff44687bd505482f34fa2ef2da81cc",
       "ocorrencias": 227,
@@ -1211,7 +1211,7 @@
     {
       "idioma": "ja",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-japones-ja.txt",
+      "arquivo": "listas-de-tags/tags-japones-ja.txt",
       "bytes": 6324,
       "sha256": "823f5c15926a56aa23d31c8c0a5c8a45b7ed968f1a3330be964d2310182831c7",
       "ocorrencias": 227,
@@ -1383,7 +1383,7 @@
     {
       "idioma": "ko",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-coreano-ko.txt",
+      "arquivo": "listas-de-tags/tags-coreano-ko.txt",
       "bytes": 5758,
       "sha256": "2f73f5a0c0933b8c0528e353d31eeca29f556b6f049bd2359c9b61c712e47166",
       "ocorrencias": 227,
@@ -1555,7 +1555,7 @@
     {
       "idioma": "hi",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-hindi-hi.txt",
+      "arquivo": "listas-de-tags/tags-hindi-hi.txt",
       "bytes": 10978,
       "sha256": "0fd0a55a808cc68a0b8c5cbe9737fb5e71ec69566e9885a2ab0d8ecdf146288c",
       "ocorrencias": 227,
@@ -1727,7 +1727,7 @@
     {
       "idioma": "th",
       "direcao": "ltr",
-      "arquivo": "Lista_de_tags/tags-tailandes-th.txt",
+      "arquivo": "listas-de-tags/tags-tailandes-th.txt",
       "bytes": 12511,
       "sha256": "a4d738f34338a7412e4a8d9daff3c0d00b824ecde0aa14095f9af612104196f8",
       "ocorrencias": 227,
@@ -1899,7 +1899,7 @@
     {
       "idioma": "ar",
       "direcao": "rtl",
-      "arquivo": "Lista_de_tags/tags-arabe-ar.txt",
+      "arquivo": "listas-de-tags/tags-arabe-ar.txt",
       "bytes": 8260,
       "sha256": "168a7fa8a6494959c77b1e19dbf01f4e6fdb835afd9c78e9d6ff6345108fc09c",
       "ocorrencias": 227,
@@ -2071,7 +2071,7 @@
     {
       "idioma": "fa",
       "direcao": "rtl",
-      "arquivo": "Lista_de_tags/tags-persa-fa.txt",
+      "arquivo": "listas-de-tags/tags-persa-fa.txt",
       "bytes": 8074,
       "sha256": "2c98b6c18df8f8077cf61b69fc0475ac9067fd92611f01a40f0cca434babe5ed",
       "ocorrencias": 227,
@@ -2243,7 +2243,7 @@
     {
       "idioma": "he",
       "direcao": "rtl",
-      "arquivo": "Lista_de_tags/tags-hebraico-he.txt",
+      "arquivo": "listas-de-tags/tags-hebraico-he.txt",
       "bytes": 7288,
       "sha256": "7d0555f47e5e5fc7d82f4bc7abc688453369b2b17dcaa0156452eb4527a37ecb",
       "ocorrencias": 227,
