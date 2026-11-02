@@ -72,6 +72,21 @@ Preserve qualificações como learner e os níveis de suporte ao revisar as tags
 Não altere nomes oficiais, documentos recebidos ou resultados históricos para aplicar esta preferência editorial.
 A grafia escolhida não garante reconhecimento por todos os sistemas ATS.
 
+## Revisão editorial e acessibilidade
+
+Antes de publicar um texto, confira:
+
+- um termo para cada conceito;
+- variações de ATS apenas quando houver justificativa registrada;
+- frases de descrição com no máximo 25 palavras;
+- grafia norte-americana em `en/`;
+- nomes oficiais, datas e níveis preservados;
+- texto alternativo e nome compreensível para links e controles;
+- teclado, foco, contraste, 320 CSS px, zoom, temas e impressão.
+
+Registre cada achado no backlog da seção 5 de [Padrões técnicos](padroes-tecnicos.md).
+Não declare conformidade com a WCAG ou com o STE100.
+
 ## Limites
 
 A adaptação preserva a gramática portuguesa.

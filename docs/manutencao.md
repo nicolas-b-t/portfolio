@@ -99,6 +99,7 @@ A classificação dos documentos por tipo fica no [índice](README.md).
 ## Qualidade e testes
 
 O processo e os critérios estão na seção 3 de [Padrões técnicos](padroes-tecnicos.md).
+O checklist de acessibilidade está na seção 5.
 
 Antes de publicar, confira:
 
@@ -106,6 +107,7 @@ Antes de publicar, confira:
 - HTML, links internos e âncoras;
 - as variantes afetadas;
 - teclado, foco, contraste, 320 CSS px, zoom, temas e impressão em mudança visual;
+- nomes acessíveis, texto alternativo, ARIA mínimo e leitor de tela quando possível;
 - a cópia estruturada e a impressão em mudança de conteúdo;
 - `git diff --check`;
 - `CHANGELOG.md` e a situação no plano.

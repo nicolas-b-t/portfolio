@@ -504,6 +504,87 @@ Os links `alternate` e `hreflang` apontam para a página correspondente.
 - A conferência de acessibilidade completa continua na fase 05.
 - Os ADRs registram decisões vigentes; não são certificação de arquitetura.
 
+## 5. Normas e redação técnica — fase 05
+
+### 5.1 Decisão
+
+**Aplicar parcialmente a redação técnica e a acessibilidade.**
+
+Fontes: `documentacao-revisao/ASD - STE100 Simplified Technical English (EN) - Issue 9.pdf`; `acessibilidade/W3C - WCAG Web Content Accessibility Guidelines (EN) - v2.2.html` e a versão PT-BR; `acessibilidade/W3C - WAI-ARIA Accessible Rich Internet Applications (EN) - v1.2.html`; `acessibilidade/W3C - ARIA in HTML (EN).html`; `acessibilidade/W3C - Accessible Name and Description Computation (EN) - v1.2.html`.
+
+A base não contém ABNT nem o Manual de Redação da Presidência da República.
+Não há declaração de conformidade com a WCAG.
+
+A auditoria não reescreveu o conteúdo.
+Correções de texto ou de site entram no backlog e aguardam aprovação, conforme D-24.
+
+### 5.2 Auditoria editorial
+
+| Critério | Resultado | Evidência |
+| --- | --- | --- |
+| Voz e pessoa | Primeira pessoa mantida no texto autoral. | Amostra das cinco variantes. |
+| Um termo por conceito | Há sinônimos visíveis criados para ATS. | Lista de competências de `pt-BR`. |
+| Frases longas | Nenhum parágrafo visível com mais de 25 palavras. | Contagem por `<p>`, sem a cópia oculta. |
+| Inglês norte-americano | Nenhuma grafia britânica encontrada. | Busca por organisation, colour, centre, programme, analyse, licence e behaviour. |
+| Variantes de português | `pt-BR` e `pt-PT` mantêm grafias próprias. | Amostra de termos e títulos. |
+| Espanhol | `es-419` usa computadora; `es-ES` usa ordenador. | Busca de variantes. |
+| Nomes e datas | Nomes oficiais e períodos preservados. | Conferência contra as fontes. |
+
+Achados editoriais:
+
+- a lista visível repete sinônimos, por exemplo “E-commerce”, “E-Commerce”, “Ecommerce” e “Electronic commerce”;
+- “RDMS” aparece no lugar de “RDBMS”;
+- frases de ATS em inglês, como “Manage digital documents”, aparecem na lista visível;
+- “Inglês avançado” e “English” repetem o mesmo idioma.
+
+Esses itens são decisão do operador: podem ser mantidos para ATS ou reduzidos na lista visível.
+
+### 5.3 Auditoria de acessibilidade
+
+| Critério | Resultado | Evidência |
+| --- | --- | --- |
+| Idioma e `hreflang` | Passa. | 22 páginas com `lang`; links alternates presentes. |
+| Hierarquia de títulos | Passa. | Um `h1` por página; nenhum salto de nível. |
+| Texto alternativo | Passa. | 45 imagens; nenhuma sem `alt`. |
+| Nome dos links | Passa. | Nenhum link sem texto. |
+| Link de salto | Passa. | Primeiro elemento do `body`; alvo `#main`. |
+| Teclado e foco | Passa na inspeção. | `:focus` com contorno de 3 px e deslocamento. |
+| Contraste no tema claro | Passa. | Texto 19,44:1; muted 8,70:1; accent 5,77:1; botão 5,88:1. |
+| Contraste no tema escuro | Passa. | Texto 17,21:1; muted 9,32:1; accent 7,92:1; botão 7,92:1. |
+| 320 CSS px | Passa. | Captura headless sem transbordamento horizontal. |
+| Tela ampla | Passa. | Captura em 1280 px. |
+| Zoom | Não testado. | Limite desta rodada. |
+| Tema escuro | CSS presente; não testado visualmente nesta rodada. | Limite desta rodada. |
+| Impressão | CSS presente; ensaio não concluído. | O navegador headless não gerou o PDF. |
+| Movimento reduzido | Passa na inspeção. | `scroll-behavior: auto` e remoção do `transform`. |
+| ARIA | Uso pequeno e justificado. | 46 `aria-label`, 21 `aria-current`, 171 `role="list"`; nenhum `tabindex` positivo. |
+| Leitor de tela | Não testado. | Limite desta rodada. |
+
+O botão “Baixar currículo” está desativado, mas não tem estilo visual de disabled.
+Isso não viola a WCAG, porque controles desativados são isentos de contraste.
+Ainda assim, o estado pode não ficar claro para quem enxerga.
+
+### 5.4 Backlog de correções
+
+| ID | Item | Tipo | Prioridade | Aprovação |
+| --- | --- | --- | --- | --- |
+| A11Y-01 | Dar aparência de desativado ao botão de download. | CSS | P2 | Sim. |
+| A11Y-02 | Trocar `aria-current="true"` por `aria-current="page"`. | HTML | P3 | Sim. |
+| EDIT-01 | Decidir se os sinônimos visíveis de ATS permanecem. | Conteúdo | P2 | Sim. |
+| EDIT-02 | Corrigir “RDMS” para “RDBMS”. | Conteúdo | P3 | Sim. |
+| EDIT-03 | Revisar frases de ATS em inglês na lista visível. | Conteúdo | P3 | Sim. |
+| TEST-01 | Testar zoom, tema escuro, impressão e leitor de tela. | Verificação | P1 | Não. |
+
+Nenhum item foi aplicado nesta fase.
+
+### 5.5 Verificação e limites
+
+- A auditoria estática cobriu 22 páginas, 45 imagens, links, títulos, ARIA e contraste.
+- As capturas em 320 px e 1280 px foram feitas em navegador headless e não foram versionadas.
+- Não houve ensaio com leitor de tela, zoom real, dispositivo físico ou impressão concluída.
+- Não houve validação externa de acessibilidade.
+- O resultado é uma avaliação interna, não uma certificação.
+
 ## 7. Engenharia de sistemas — fase 07
 
 ### 7.1 Decisão
