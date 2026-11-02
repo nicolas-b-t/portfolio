@@ -85,6 +85,48 @@
         "fonte_tecnologias": "docs/fontes/academico/PI-IV_ENTREGA_FINAL.pdf, página PDF 26."
       },
       "limites": "Tecnologias e competências do projeto não atribuem domínio individual de toda a equipe. A regulamentação é uma proposta em tramitação."
+    },
+    {
+      "tema": "Atualização de tags e variações ATS em pt-BR",
+      "registrado_em": "2026-11-02",
+      "origem": "Solicitação e aprovação do responsável, fundamentada nos relatórios de experiência profissional (Aquecedores e Piscinas Mairiporã e RealFort Sistemas), nos cursos complementares e nos vocabulários de ATS consultados.",
+      "subcategoria_adicionada": "Tráfego pago, análise digital e comércio eletrônico",
+      "tags_visiveis_adicionadas": [
+        "Arquivamento de documentos",
+        "Digitalização de documentos",
+        "Microsoft Word",
+        "Organização de arquivos",
+        "White Belt Six Sigma, introdutório",
+        "Comércio eletrônico",
+        "Facebook",
+        "Gestão de tráfego pago",
+        "Google Ads",
+        "Google Ads Editor",
+        "Google Analytics 4 (GA4)",
+        "Google Tag Manager",
+        "Instagram",
+        "Mercado Livre",
+        "Meta Ads",
+        "Meta Ads Manager",
+        "Meta Business Suite",
+        "Otimização de campanhas",
+        "Proteção de marca",
+        "Shopee",
+        "Armazenamento em nuvem",
+        "Backup de dados",
+        "Backups físicos",
+        "Configuração de contas digitais",
+        "Manutenção preventiva",
+        "Manutenção corretiva",
+        "Suporte remoto",
+        "Treinamento de usuários",
+        "Autonomia",
+        "Resolução de problemas",
+        "Multímetro",
+        "Lucide Icons",
+        "Otimização para ATS"
+      ],
+      "limites": "As variações de nomes e siglas em português e inglês adicionadas ao bloco oculto (#dados-curriculo e #dados-projetos) e à lista-geral-alfabeto-latino.txt destinam-se à correspondência lexical em ATS, preservando os níveis declarados (aprendiz, introdutório, N1, N1/N2 e TOEIC 910)."
     }
   ],
   "limites": [
@@ -92,5 +134,5 @@
     "Não foi inferida administração corporativa completa das plataformas.",
     "As declarações não comprovam arquitetura de infraestrutura em nuvem."
   ],
-  "atualizado_em": "2026-10-14"
+  "atualizado_em": "2026-11-02"
 }

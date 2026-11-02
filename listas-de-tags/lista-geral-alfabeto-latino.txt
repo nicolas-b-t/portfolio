@@ -21,7 +21,7 @@ Resumo profissional
 Curso Gestão da Tecnologia da Informação na Fatec Franco da Rocha – Giuliano Cecchettini.
 Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no help desk da Lukos Tecnologia.
 Também atuei na instalação de fibra óptica na RealFort Sistemas.
-Valorizo tecnologias e soluções simples e robustas. Defendo o uso de tecnologias de código aberto.
+Valorizo soluções simples e robustas, código claro e segurança por padrão. Sempre que possível, considero tecnologias de código aberto a melhor opção pela transparência e pela possibilidade de auditoria.
 Apresento aqui meu histórico e portfólio profissional e acadêmico.
 
 Competências e habilidades
@@ -29,161 +29,360 @@ Competências e habilidades
 Competências técnicas (Hard skills)
 
 Gestão e produtividade
+• Arquivamento de documentos
 • Canva
 • Capitalização
+• Digitalização de documentos
+• Digitalização
+• Escaneamento e digitalização de arquivos
+• Digitization
 • Fluxo de caixa
+• Cash flow
+• Gerenciamento de arquivos
 • Gestão de projetos
+• Project Management
+• Gestão documental
+• Manage digital documents
 • Gestão financeira
+• Financial management
 • Google Drive
 • Indicadores estratégicos
+• KPI
+• KPIs
+• Análise de indicadores-chave de desempenho (KPI)
 • LibreOffice
 • Melhoria de processos
+• Process improvement
 • Metodologias ágeis
+• Agile
+• Agile and Scrum methodologies
 • Microsoft Excel
+• Excel
+• Planilhas
 • Microsoft Office
+• Pacote Office
+• Microsoft Office software
+• Microsoft Office Suite
 • Microsoft Teams
+• Microsoft Word
+• Word
 • Office 365
+• Microsoft 365
 • OneDrive
+• Organização de arquivos
 • Planejamento de metas
 • Scrum
 • Trello
+• White Belt Six Sigma, introdutório
+• Six Sigma, White Belt introdutório
+• Lean Six Sigma White Belt, introductory
+
+Tráfego pago, análise digital e comércio eletrônico
+• Comércio eletrônico
+• E-commerce
+• E-Commerce
+• Ecommerce
+• Electronic commerce
+• Sistemas de comércio eletrônico
+• Facebook
+• Facebook Ads
+• Gestão de tráfego pago
+• Paid traffic
+• Paid media
+• Mídia paga
+• PPC
+• SEM
+• Digital advertising
+• Publicidade digital
+• Google Ads
+• Google AdWords
+• Google Ads Editor
+• Google Analytics 4 (GA4)
+• GA4
+• Google Analytics
+• Analytics
+• Web analytics
+• Google Tag Manager
+• GTM
+• Instagram
+• Mercado Livre
+• Marketplace
+• Marketplaces
+• Meta Ads
+• Meta Ads Manager
+• Gerenciador de Anúncios
+• Meta Business Suite
+• Otimização de campanhas
+• Campanhas publicitárias
+• Coordinate advertising campaigns
+• Proteção de marca
+• Redes sociais
+• Social media
+• Shopee
 
 Sistemas operacionais
 • Microsoft Windows
+• Windows
+• Sistema operacional Windows
 • Windows 10
 • Windows 11
 • Microsoft Windows Server
+• Windows Server
 • Windows Server 2008 R2
 • Windows Server 2016
 • Linux
+• Sistema operacional Linux
 • Debian
 • Ubuntu
+• Operating systems
+• System Administration (Linux, Windows)
 
 Programação e dados
 • Aprendizado de máquina
 • Machine learning
+• Machine Learning (AI)
 • Inteligência artificial (IA)
+• Artificial intelligence
+• AI
+• IA
 • JavaScript
+• Javascript
+• javascript
+• JS
 • Lógica de programação
+• Programming logic
 • Modelagem de dados
+• Data modeling
+• Modelos de dados
 • Python
 Conhecimento introdutório em aprendizado de máquina, conforme a formação.
 
 Desenvolvimento com IA
 • OpenAI ChatGPT
+• ChatGPT
+• OpenAI
 • Codex (OpenAI)
 • Claude
+• Anthropic Claude
 • Claude Code
 • Desenvolvimento com agentes de IA
+• Agentes de IA
+• AI agents
 • OpenCode
 
 Desenvolvimento de software
 • Desenvolvimento ágil
+• Desenvolvimento ágil de software
+• Agile development
 • Desenvolvimento em cascata
+• Waterfall
 • Desenvolvimento orientado por especificações
+• Spec-driven development
 • Prototipação
+• Prototyping
 • Produto mínimo viável (MVP)
+• Minimum viable product
+• MVP
 
 Bancos de dados
 • Consultas SQL
 • SQL
+• Banco de dados
+• Database
+• Relational databases
+• RDMS
 • PostgreSQL
+• Postgres
 • SQLite
 
 Redes
+• Infraestrutura de redes
+• Network infrastructure
 • Cabeamento de redes
+• Cabeamento
+• Cabeamento estruturado
+• Passagem de cabos
+• Network cabling
 • Cabo drop
 • Configuração de roteadores
+• Roteadores
+• Implementação de roteador
 • Conexões a rádio
 • FTTH
+• Fiber to the Home (FTTH)
+• Fibra óptica
+• Fibra ótica
+• Fiber optics
+• Fibre optics
 • Fusão de fibra óptica, aprendiz
 • Medidor de potência óptica (power meter)
+• Optical power meter
 • ONT
 • ONU
 • OTDR
+• Optical Time-Domain Reflectometer (OTDR)
 • PoE
+• Power over Ethernet (PoE)
 • PPPoE
 • Redes locais (LAN)
+• LAN
+• Local Area Network (LAN)
 • Redes mesh
 • RJ45
 • SC/APC
 • VFL
+• Visual Fault Locator (VFL)
 • Wi-Fi
+• Wireless
+• Redes sem fio
 • Organização de cabos
 • Cable management
 • Comutadores de rede
+• Switch de rede
 • Switches
+• Network switches
 • Servidores
 • Preparação de postes para passagem de fibra
 • Manutenção de caixas de terminação óptica (CTO)
+• Diagnóstico e solução de problemas de rede
 
 Sistemas para redes
 • OpenWrt
 • OPNsense
 • pfSense
+• Firewall
 
 Suporte de TI
+• Armazenamento em nuvem
+• Cloud storage
+• Backup de dados
+• Data backup
+• Perform backups
+• Backups físicos
+• Configuração de contas digitais
 • Documentação técnica
 • Technical documentation
 • Escalonamento de chamados
 • Gestão de ativos de TI
+• IT Asset Management (ITAM)
 • Manuais de usuário
 • Provide user documentation
 • Manutenção de computadores
+• Hardware de computadores
+• Computer hardware
+• Maintain computer hardware
+• Configuração de hardware
 • Manutenção de impressoras
 • Manutenção de periféricos
+• Configuração de periféricos
+• Manutenção preventiva
+• Manutenção corretiva
 • NF-e
+• Nota Fiscal Eletrônica (NF-e)
 • NFC-e
 • Orientação de usuários
+• Treinamento de usuários
+• User training
 • Procedimentos operacionais padrão (POPs)
+• POP
+• Standard Operating Procedures (SOP)
 • Resolução de incidentes
+• Gestão de incidentes
+• Incident management
+• Solução de problemas técnicos
+• Diagnóstico e solução de problemas
+• Troubleshooting
 • Suporte a ERP, N1
+• ERP, suporte N1
+• Sistema ERP, suporte N1
+• Enterprise resource planning ERP software, N1 support
 • Suporte a PDV, N1
+• PDV, suporte N1
+• POS, suporte N1
+• Point of sale POS software, N1 support
 • Suporte de help desk, N1
+• Help Desk, N1
+• Help desk support, N1
+• Service Desk, N1
 • IT support, N1
+• Suporte de TI
+• Suporte técnico
+• Suporte N1
+• Suporte N2
+• Suporte Técnico N1 e N2
+• Technical support, N1/N2
+• Suporte remoto
+• Acesso remoto
+• Remote support
 • Suporte técnico hospitalar, N1/N2
 • Microsoft Active Directory
+• Active Directory
+• Active directory software
+• AD
 
 Web
 • Acessibilidade web
+• Web accessibility
+• WCAG
 • CSS
+• CSS3
 • Git
 • GitHub
 • GitHub Actions
+• CI/CD
 • GitHub Pages
 • HTML
+• HTML5
 • Sites multilíngues
 
 Servidores web
 • Apache HTTP Server
+• Apache
 • NGINX
 • Nginx web server
 
 Plataformas de desenvolvimento e hospedagem
 • Amazon Web Services (AWS)
+• AWS
 • Amazon Web Services AWS software
 • Firebase
 • Microsoft Azure
+• Azure
 • Microsoft Azure software
 • Supabase
 • Vercel
+• Cloud computing
 
 Idiomas
 • Inglês, TOEIC Listening & Reading 910
+• English, TOEIC Listening & Reading 910
+• Inglês avançado, TOEIC Listening & Reading 910
+• TOEIC, 910
 • Português brasileiro
+• Portuguese
 
 Competências sociais (Soft skills)
 
 Organização e desenvolvimento
 • Adaptabilidade
+• Adaptability
 • Atenção a detalhes
+• Attention to detail
+• Autonomia
 • Pensamento analítico
 • Analytical thinking
+• Resolução de problemas
+• Problem-Solving
 
 Relacionamento
 • Comunicação
+• Communication
+• Habilidade de comunicação
 • Compreensão das necessidades do cliente
+• Atendimento ao cliente
+• Customer service
 • Trabalho em equipe
+• Teamwork
 
 Habilidades práticas e operacionais
 
@@ -193,14 +392,21 @@ Campo e ferramentas
 • Ferramentas manuais
 • Fusimech
 • Máquina de fusão de fibra óptica
+• Multímetro
+• Multimeter
 • Organização de ferramentas
 • Organização de insumos
 • Trabalho em altura
+• Working at heights
 
 Condução
 • Condução de carros
 • Condução de motos
 • CNH AB
+• Carteira Nacional de Habilitação (CNH)
+• CNH Categoria A
+• CNH Categoria B
+• Driver's license
 • Permissão Internacional para Dirigir (PID)
 A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. A Permissão Internacional para Dirigir (PID) é aceita por 98 países.
 
@@ -381,20 +587,29 @@ O projeto utiliza a infraestrutura do GitHub. O GitHub Actions publica o site no
 
 Tecnologias
 • HTML
+• HTML5
 • CSS
+• CSS3
 • Git
 • GitHub
 • GitHub Actions
+• CI/CD
 • GitHub Pages
+• Lucide Icons
+• Ícones SVG
 
 Desenvolvimento e qualidade
 • Desenvolvimento com agentes de IA
+• AI agents
 • Documentação técnica
 • Technical documentation
 • Acessibilidade web
+• Web accessibility
+• WCAG
 • Design responsivo
 • Otimização de desempenho
 • Otimização de imagens
+• Otimização para ATS
 • Sites multilíngues
 • Testes de interface
 • Validação HTML
