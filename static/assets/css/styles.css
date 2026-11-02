@@ -141,6 +141,134 @@ p {
   max-width: 60ch;
 }
 
+/* ---------- Icons (Lucide) ---------- */
+
+[data-icon]::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.45em;
+  vertical-align: -0.14em;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) no-repeat center / contain;
+  mask: var(--icon) no-repeat center / contain;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+[data-icon="user"] {
+  --icon: url("../icons/user.svg");
+}
+
+[data-icon="sliders-horizontal"] {
+  --icon: url("../icons/sliders-horizontal.svg");
+}
+
+[data-icon="briefcase"] {
+  --icon: url("../icons/briefcase.svg");
+}
+
+[data-icon="graduation-cap"] {
+  --icon: url("../icons/graduation-cap.svg");
+}
+
+[data-icon="at-sign"] {
+  --icon: url("../icons/at-sign.svg");
+}
+
+[data-icon="code-2"] {
+  --icon: url("../icons/code-2.svg");
+}
+
+[data-icon="users-round"] {
+  --icon: url("../icons/users-round.svg");
+}
+
+[data-icon="wrench"] {
+  --icon: url("../icons/wrench.svg");
+}
+
+[data-icon="trending-up"] {
+  --icon: url("../icons/trending-up.svg");
+}
+
+[data-icon="cable"] {
+  --icon: url("../icons/cable.svg");
+}
+
+[data-icon="headset"] {
+  --icon: url("../icons/headset.svg");
+}
+
+[data-icon="monitor"] {
+  --icon: url("../icons/monitor.svg");
+}
+
+[data-icon="book-open"] {
+  --icon: url("../icons/book-open.svg");
+}
+
+[data-icon="list-checks"] {
+  --icon: url("../icons/list-checks.svg");
+}
+
+[data-icon="award"] {
+  --icon: url("../icons/award.svg");
+}
+
+[data-icon="languages"] {
+  --icon: url("../icons/languages.svg");
+}
+
+[data-icon="mail"] {
+  --icon: url("../icons/mail.svg");
+}
+
+[data-icon="linkedin"] {
+  --icon: url("../icons/linkedin.svg");
+}
+
+[data-icon="github"] {
+  --icon: url("../icons/github.svg");
+}
+
+[data-icon="folder-code"] {
+  --icon: url("../icons/folder-code.svg");
+}
+
+[data-icon="globe"] {
+  --icon: url("../icons/globe.svg");
+}
+
+[data-icon="building-2"] {
+  --icon: url("../icons/building-2.svg");
+}
+
+[data-icon="network"] {
+  --icon: url("../icons/network.svg");
+}
+
+[data-icon="cpu"] {
+  --icon: url("../icons/cpu.svg");
+}
+
+[data-icon="users"] {
+  --icon: url("../icons/users.svg");
+}
+
+[data-icon="user-check"] {
+  --icon: url("../icons/user-check.svg");
+}
+
+[data-icon="megaphone"] {
+  --icon: url("../icons/megaphone.svg");
+}
+
+[data-icon="shield-check"] {
+  --icon: url("../icons/shield-check.svg");
+}
+
 /* ---------- Header ---------- */
 
 .site-header {
