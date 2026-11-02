@@ -86,6 +86,16 @@ O workflow `.github/workflows/pages.yml` publica somente `static/` após push em
 No GitHub, a origem de publicação deve ser GitHub Actions.
 As permissões mínimas do workflow são `contents: read`, `pages: write` e `id-token: write`.
 
+## Arquitetura e decisões
+
+A arquitetura e as convenções estão na seção 4 de [Padrões técnicos](padroes-tecnicos.md).
+As decisões vigentes estão em [ADRs](adr/README.md).
+
+Antes de mudar a estrutura do site, consulte o ADR relacionado.
+Uma decisão estrutural nova exige ADR novo ou atualização do status do anterior.
+Mudanças de HTML e CSS seguem as convenções da seção 4.
+A classificação dos documentos por tipo fica no [índice](README.md).
+
 ## Qualidade e testes
 
 O processo e os critérios estão na seção 3 de [Padrões técnicos](padroes-tecnicos.md).

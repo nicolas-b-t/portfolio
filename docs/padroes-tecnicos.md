@@ -375,6 +375,135 @@ Lição: conferir a numeração por pasta antes de cada commit.
 - O operador avalia os critérios qualitativos.
 - A conferência de acessibilidade continua pendente na fase 05.
 
+## 4. Engenharia de software e modelagem — fase 04
+
+### 4.1 Decisão
+
+**Aplicar parcialmente os padrões web e a documentação de arquitetura.**
+
+Fontes: `html-css/WHATWG - HTML Living Standard (EN).html`, `WHATWG - Encoding Living Standard (EN).html` e `WHATWG - URL Living Standard (EN).html`; os módulos CSS da pasta `html-css/`; `html-css/Google - HTML CSS Style Guide (EN).html`; `documentacao-revisao/Daniele Procida - Diataxis (EN).html` e os demais textos de Diátaxis; `documentacao-revisao/MADR - ADR Template (EN) - v4.0.0.md`; `documentacao-revisao/Scott Chacon e Ben Straub - Pro Git (EN) - 2a edicao.pdf`; os guias de revisão do Google; `complementos/rfc5646.txt`.
+
+Não há SWEBOK, arc42 nem C4 na base.
+A arquitetura fica em texto, sem diagrama que exija ferramenta ou build.
+
+### 4.2 Arquitetura
+
+**Contexto**
+
+```text
+Visitante
+  └─ navegador
+       ├─ GitHub Pages: HTML, CSS, mídia e ícones
+       ├─ links externos: Drive, LinkedIn, projetos e instituições
+       └─ DNS e TLS: fornecidos pelo GitHub
+```
+
+**Blocos**
+
+| Bloco | Conteúdo | Responsabilidade |
+| --- | --- | --- |
+| Páginas | 22 arquivos HTML em cinco variantes | Conteúdo, navegação e cópia estruturada. |
+| Ativos | `static/assets/css/styles.css`, `static/assets/icons/` e `static/media/` | Estilo, ícones e fotografias. |
+| Documentação | `docs/`, plano, requisitos e ADRs | Regras, decisões e evidência. |
+| Publicação | `.github/workflows/pages.yml` | Copiar `static/` e publicar no Pages. |
+
+**Implantação**
+
+1. O responsável autoriza a mudança.
+2. O commit entra na `main`.
+3. O workflow copia `static/` para uma pasta temporária.
+4. O GitHub Pages publica a pasta.
+5. A página publicada é conferida.
+
+**Decisões transversais:** sem JavaScript, CSS único, cinco variantes, cópia oculta, ícones por máscara, projetos apenas em `pt-BR` e publicação restrita a `static/`.
+
+### 4.3 Registros de decisão
+
+Sete ADRs em [docs/adr/](adr/README.md), no formato MADR 4.0.0.
+
+| ID | Decisão |
+| --- | --- |
+| [0001](adr/0001-site-estatico-sem-javascript.md) | Site estático sem JavaScript |
+| [0002](adr/0002-css-unico-compartilhado.md) | CSS único compartilhado |
+| [0003](adr/0003-cinco-variantes-linguisticas.md) | Cinco variantes com base em `pt-BR` |
+| [0004](adr/0004-copia-estruturada-oculta.md) | Cópia estruturada oculta |
+| [0005](adr/0005-icones-por-mascara-css.md) | Ícones por máscara CSS |
+| [0006](adr/0006-projetos-apenas-em-pt-br.md) | Projetos apenas em `pt-BR` |
+| [0007](adr/0007-publicacao-restrita-a-static.md) | Publicação restrita a `static/` |
+
+### 4.4 Convenções de HTML e CSS
+
+**HTML**
+
+- UTF-8 e `lang` correto em cada página.
+- `hreflang` recíproco entre as variantes.
+- Elementos semânticos: `header`, `nav`, `main`, `section`, `footer`.
+- Um `h1` por página e hierarquia sem saltos.
+- Caminhos relativos.
+- Sem `style` embutido, `<script>`, `<form>` ou `<iframe>`.
+- Toda imagem tem `alt`; a galeria usa `figure` e `figcaption`.
+- A cópia estruturada usa `hidden` e dados iguais aos da tela.
+
+**CSS**
+
+- Um arquivo comum: `static/assets/css/styles.css`.
+- Classes descritivas em kebab-case.
+- Propriedades customizadas para cores e medidas.
+- Media queries por largura, tema e impressão.
+- Foco visível, contraste e `prefers-reduced-motion`.
+- Sem framework e sem pré-processador.
+
+### 4.5 Documentação com Diátaxis
+
+| Documento | Tipo |
+| --- | --- |
+| `README.md` da raiz | Como fazer |
+| `docs/manutencao.md` | Como fazer |
+| `docs/padroes-tecnicos.md` | Explicação |
+| `docs/requisitos.md` | Referência |
+| `docs/guia-de-redacao.md` | Referência |
+| `docs/conteudo-e-fontes.md` | Referência |
+| `docs/adr/` | Explicação |
+| `PLANO-APLICACAO-PADROES-TECNICOS.md` | Explicação |
+| `CHANGELOG.md` | Referência |
+| PDFs V3, Europass, ATS, Referências, Tags e Glossário | Referência |
+| `docs/organizacao.md` | Explicação |
+
+Não há tutorial: o site é usado, não ensinado.
+O índice `docs/README.md` recebeu a coluna de tipo.
+
+### 4.6 Git e revisão
+
+- Uma mudança resolve um assunto.
+- A mensagem diz o que mudou e por quê, no imperativo.
+- A revisão confere estrutura, links, conteúdo e documentação.
+- Mudança grande é dividida antes da revisão.
+- Reversão segue a seção 10, com `git revert` em até cinco commits.
+
+### 4.7 Idioma e RFC 5646
+
+Cada página declara `lang` conforme a variante.
+Os links `alternate` e `hreflang` apontam para a página correspondente.
+`en/` usa `en-US`; `es-419` e `es-ES` mantêm etiquetas distintas.
+`x-default` aponta para a raiz.
+
+### 4.8 Verificação
+
+- 22 arquivos HTML, cinco variantes e um redirecionamento.
+- Um CSS, 29 ícones e 36 arquivos de mídia.
+- Nenhum `<script>`, `<form>`, `<iframe>` ou `style=` embutido.
+- Links internos, âncoras e identificadores sem erro.
+- Sete ADRs aceitos e indexados.
+- `docs/README.md` classificado por tipo.
+- `git diff --check` limpo.
+
+### 4.9 Limites
+
+- Não há SWEBOK, arc42 ou C4. A arquitetura é textual e proporcional ao porte.
+- Não há validação automática de HTML nem diagrama gerado.
+- A conferência de acessibilidade completa continua na fase 05.
+- Os ADRs registram decisões vigentes; não são certificação de arquitetura.
+
 ## 10. Mudanças — fase 10
 
 ### 10.1 Decisão
