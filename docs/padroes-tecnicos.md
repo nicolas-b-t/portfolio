@@ -207,3 +207,51 @@ Decisão nova entra com ID seguinte e data.
 | D-24 | Manter a voz atual; ajustes de texto são apenas apontados, sem reescrita sem aprovação. |
 | D-25 | Ordem das fases e estimativa de cerca de 14 sessões confirmadas. |
 | D-26 | Apenas o responsável é administrador. A proteção de branch será conferida na fase 08. |
+
+## 2. Requisitos — fase 02
+
+### 2.1 Decisão
+
+**Aplicar o CPRE 3.3.0 de forma parcial.**
+
+Fontes: `gestao-requisitos-testes/IREB - CPRE Foundation Level Syllabus (EN) - v3.3.0.pdf`, `gestao-requisitos-testes/IREB Martin Glinz - Glossary of Requirements Engineering Terminology (EN) - v2.2.0.pdf` e `documentacao-revisao/Organizacao - Redacao e Rastreabilidade de Requisitos (PT-BR) - v1.0.md`.
+
+O catálogo está em [Requisitos do site](requisitos.md).
+A aplicação parcial mantém a disciplina de qualidade, a fronteira do sistema, o glossário, a rastreabilidade e a priorização.
+Não há elicitação com usuários externos nem ferramenta de gestão de requisitos.
+
+### 2.2 O que foi aplicado
+
+| Prática | Fonte | Resultado |
+| --- | --- | --- |
+| Características de qualidade | CPRE §3.8, páginas 29 e 30 | Critérios por requisito e por conjunto. |
+| Fronteira, contexto e fontes | CPRE §4.1, página 31 | Fronteira e lista de partes interessadas. |
+| Glossário | CPRE §3.5; glossário 2.2.0 | Onze termos do projeto definidos. |
+| Rastreabilidade | CPRE §6.6, página 43 | Matriz requisito, fonte, critério, fase e situação. |
+| Priorização | CPRE §6.8, página 44 | Prioridade essencial, esperado ou opcional. |
+| Redação e fundamentação | Documento local, §“Manter a fundamentação” | Identificador, fonte, critério e evidência por item. |
+
+O catálogo tem 14 requisitos funcionais e 11 não funcionais.
+Cada item cita uma fonte local e um critério observável.
+
+### 2.3 Verificação
+
+- Todo requisito tem identificador, texto, prioridade, fonte, critério, fase e situação.
+- Nenhum requisito ficou sem fonte local ou decisão registrada.
+- A conferência estática encontrou 22 arquivos HTML, 45 imagens com `alt` e nenhum link interno quebrado.
+- A situação separa comportamento vigente, lacuna, item aprovado e item futuro.
+- `git diff --check` passou.
+
+### 2.4 Limites
+
+- O catálogo é proposto. O responsável precisa aceitá-lo para virar linha de base.
+- Não houve validação com usuários externos, leitor de tela ou ferramenta de acessibilidade.
+- Não há declaração de conformidade com o CPRE.
+- FR-08, a página 404 e o `CHANGELOG` seguem pendentes.
+
+### 2.5 Pendências
+
+1. FR-08: publicar o PDF vigente ou remover o botão desativado.
+2. NFR-08: ativar 2FA e proteção de branch na fase 08.
+3. FR-13: implementar a página 404 na fase 09.
+4. NFR-10: criar o `CHANGELOG` na fase 10.

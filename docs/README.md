@@ -8,6 +8,7 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 | Execução e publicação | [README da raiz](../README.md) |
 | Atualização e verificação do site | [Manutenção](manutencao.md) |
 | Aplicação dos padrões técnicos | [Padrões técnicos](padroes-tecnicos.md) |
+| Requisitos do site | [Requisitos](requisitos.md) |
 | Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) |
 | Fatos, qualificações e atribuições | [Conteúdo e fontes](conteudo-e-fontes.md) |
 | Currículos gerais atuais | [PDFs V3](curriculos/v3/README.md) |

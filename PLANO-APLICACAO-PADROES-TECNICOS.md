@@ -190,7 +190,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | Fase | Situação | Evidência |
 | --- | --- | --- |
 | 01 | Concluída — aceita em 02/11/2026 | `docs/padroes-tecnicos.md` §1 |
-| 02 | Não iniciada | — |
+| 02 | Executada — catálogo proposto | `docs/requisitos.md`; `docs/padroes-tecnicos.md` §2 |
 | 03 | Não iniciada | — |
 | 04 | Não iniciada | — |
 | 05 | Não iniciada | — |
