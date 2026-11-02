@@ -197,7 +197,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | 06 | Não iniciada | — |
 | 07 | Executada — fronteira, interfaces e cenários | `docs/padroes-tecnicos.md` §7 |
 | 08 | Executada — modelo de ameaças, controles e licença | `docs/padroes-tecnicos.md` §8; `static/assets/icons/LICENSE.txt` |
-| 09 | Não iniciada | — |
+| 09 | Executada — serviço, HTTPS e página 404 | `docs/padroes-tecnicos.md` §9; `static/404.html` |
 | 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §10; `CHANGELOG.md` |
 | 11 | Não iniciada | — |
 | 12 | Não iniciada | — |

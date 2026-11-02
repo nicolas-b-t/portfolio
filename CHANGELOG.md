@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Segurança: modelo de ameaças, controles e licença dos ícones (fase 08). | Este commit. |
+| 2026-11-02 | Serviço, HTTPS, página 404 e verificação de publicação (fase 09). | Este commit. |
+| 2026-11-02 | Segurança: modelo de ameaças, controles e licença dos ícones (fase 08). | `226f76e` |
 | 2026-11-02 | Correções de acessibilidade e revisão editorial: botão desativado, `aria-current="page"` e RDBMS. | `9053f2f` |
 | 2026-11-02 | Auditoria editorial e de acessibilidade, com backlog (fase 05). | `d3fa16a` |
 | 2026-11-02 | Fronteira, interfaces e cenários de sistema (fase 07). | `41c8f88` |

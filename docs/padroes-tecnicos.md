@@ -708,7 +708,7 @@ O risco maior é a conta, porque ela controla a publicação e o histórico.
 | Dados privados fora do Git | Passa | `dados-pessoais/` e a base não aparecem em `git ls-files`. |
 | Ativos locais e licença | Passa | 29 ícones; `static/assets/icons/LICENSE.txt`. |
 | Backup | Parcial | RAR da v1; v2 pendente. |
-| Página 404 | Pendente | Fase 09. |
+| Página 404 | Passa | `static/404.html`, status 404 e `noindex`. |
 | Cópia limpa sem dados pessoais | Planejada | Decisão D-15; execução no encerramento. |
 | Plano de incidente | Passa | §8.5. |
 
@@ -761,7 +761,82 @@ O risco maior é a conta, porque ela controla a publicação e o histórico.
 1. Concluir o 2FA e confirmar a proteção da `main`.
 2. Criar o backup da v2.
 3. Executar a cópia limpa sem dados pessoais no encerramento.
-4. Implementar a página 404 na fase 09.
+
+## 9. Governança, arquitetura e serviços de TI — fase 09
+
+### 9.1 Decisão
+
+**Aplicar a governança de serviço de forma mínima.**
+
+Fontes: `complementos/github-pages.html` (EXT-02) e `complementos/rfc5646.txt`.
+
+A base não contém FitSM, ISO 20000 nem os RFCs HTTP.
+Não há catálogo de serviços, SLA ou CMDB.
+O serviço é descrito pelo que o site entrega e pelas dependências reais.
+
+### 9.2 Descrição do serviço
+
+| Item | Descrição |
+| --- | --- |
+| Usuários | Visitantes, recrutadores e o responsável. |
+| Entrega | Currículo, projetos, galeria, rede e recomendações em cinco variantes. |
+| Disponibilidade | Melhor esforço do GitHub Pages, sem SLA. |
+| Suporte | Responsável, por acompanhamento manual. |
+| Dependências | GitHub Actions e Pages, DNS, TLS, navegador e links externos. |
+| Publicação | Push na `main`; o workflow envia somente `static/`. |
+| Incidente | Resposta em até um dia, conforme D-16. |
+
+### 9.3 Publicação, HTTP e idiomas
+
+| Item | Resultado |
+| --- | --- |
+| URL | `https://nicolas-b-t.github.io/portfolio/` |
+| Origem | GitHub Actions; pasta `static/` |
+| HTTP para HTTPS | 301 para a versão segura |
+| HSTS | `max-age=31556952`, cerca de um ano |
+| Servidor | `GitHub.com` |
+| Cache | `max-age=600`; a publicação pode levar alguns minutos |
+| Raiz | 200, com seletor das cinco variantes |
+| Página 404 | `static/404.html`, status 404, `noindex` e links de idioma |
+| Rotas de idioma | `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/` |
+| Redirecionamento automático | Não há; o visitante escolhe o idioma |
+| Cabeçalhos próprios | Não configuráveis no GitHub Pages |
+
+O `lang` e o `hreflang` seguem a RFC 5646 e a decisão D-03.
+
+### 9.4 Domínio
+
+O site permanece em `github.io`.
+Não há domínio próprio, zona DNS própria nem controle de certificado.
+Um domínio próprio exige decisão do responsável, registro DNS e novo certificado.
+
+### 9.5 Acompanhamento manual
+
+Depois de cada push, confira:
+
+1. a raiz responde 200;
+2. o HTTP redireciona para HTTPS;
+3. uma URL inexistente mostra a página 404;
+4. a troca de idioma abre a variante certa;
+5. a página publicada corresponde ao commit.
+
+A disponibilidade depende do GitHub Pages.
+Não há monitoramento contínuo, alerta ou painel.
+
+### 9.6 Não aplicável
+
+- FitSM e ISO 20000: não há catálogo formal, SLA ou equipe de serviço.
+- Protocolos adaptativos, IoT, redes e zero trust: o site não opera esses recursos.
+- RFCs HTTP e configuração de servidor: a base não os contém, e o GitHub controla o servidor.
+- CMDB e gestão de ativos de TI: o inventário está na seção 8 e nos ADRs.
+
+### 9.7 Verificação e limites
+
+- Antes da publicação da 404: raiz 200, HTTP 301, HSTS presente e cache de 600 s.
+- A 404 foi conferida em servidor local com status 404, em 320 px e 1280 px.
+- Após o push, a 404 publicada deve ser conferida no endereço real.
+- Limites: sem SLA, sem monitoramento contínuo, dependência do GitHub e atraso de cache.
+- Não há declaração de conformidade com FitSM, ISO 20000 ou RFCs HTTP.
 
 ## 10. Mudanças — fase 10
 

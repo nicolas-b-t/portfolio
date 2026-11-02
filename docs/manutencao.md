@@ -86,6 +86,17 @@ O workflow `.github/workflows/pages.yml` publica somente `static/` após push em
 No GitHub, a origem de publicação deve ser GitHub Actions.
 As permissões mínimas do workflow são `contents: read`, `pages: write` e `id-token: write`.
 
+## Serviço
+
+O site é publicado pelo workflow em `https://nicolas-b-t.github.io/portfolio/`.
+O HTTP redireciona para HTTPS com 301; o HSTS cobre cerca de um ano.
+A página 404 fica em `static/404.html` e responde com status 404.
+O cache é de 600 segundos, então a publicação pode levar alguns minutos.
+A troca de idioma não é automática; o visitante escolhe na raiz.
+
+Depois do push, confira a raiz, o redirecionamento, a 404 e a troca de idioma.
+Não há SLA nem monitoramento contínuo. Incidente: resposta em até um dia.
+
 ## Arquitetura e decisões
 
 A arquitetura e as convenções estão na seção 4 de [Padrões técnicos](padroes-tecnicos.md).

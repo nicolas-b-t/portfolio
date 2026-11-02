@@ -38,6 +38,10 @@ As regras estão em [AGENTS.md](AGENTS.md). Os procedimentos estão em [Manuten�
 
 O [workflow](.github/workflows/pages.yml) publica somente `static/` após push em `main`.
 No GitHub, configure **Settings → Pages → Source → GitHub Actions**.
+O site usa HTTPS com HSTS e o HTTP redireciona com 301.
+A página 404 personalizada fica em `static/404.html`.
+A disponibilidade depende do GitHub Pages e não há SLA.
+Depois do push, confira a página publicada, a troca de idioma e uma URL inexistente.
 
 Use pt-BR como base factual e sincronize o conteúdo comum nas outras variantes.
 Todas as páginas compartilham `static/assets/css/styles.css`.

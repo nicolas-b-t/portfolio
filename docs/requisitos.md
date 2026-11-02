@@ -84,7 +84,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | FR-10 | As competências mantêm três categorias, com subcategorias, uma tag por item e níveis preservados. | Essencial | AGENTS.md; `docs/fontes/competencias-declaradas.json`. | Três categorias; subcategorias coerentes; níveis de suporte, fibra e inglês preservados. | 05 e 11 | Vigente. |
 | FR-11 | A raiz apresenta as cinco variantes e leva à escolhida. | Esperado | `static/index.html`; auditoria de 02/11/2026. | A raiz lista as cinco opções; cada link abre a variante correspondente. | 09 | Vigente. |
 | FR-12 | A impressão mostra o conteúdo e oculta menus e cópia estruturada. | Esperado | `static/assets/css/styles.css`; auditoria de 02/11/2026. | A impressão mostra as seções; a cópia oculta não aparece; não há corte de conteúdo. | 05 | Vigente. |
-| FR-13 | O site tem página 404 no mesmo estilo, com retorno ao início. | Opcional | D-17; documentação do GitHub Pages (EXT-02). | A página abre no lugar do erro padrão; mantém `lang` e link de retorno. | 09 | Aprovado e não implementado. |
+| FR-13 | O site tem página 404 no mesmo estilo, com retorno ao início. | Opcional | D-17; documentação do GitHub Pages (EXT-02). | A página abre no lugar do erro padrão; mantém `lang` e link de retorno. | 09 | Vigente; implementado em 02/11/2026. |
 | FR-14 | A estrutura aceita novas variantes sem duplicar CSS ou workflow. | Opcional | D-07; AGENTS.md. | Uma variante nova usa o mesmo CSS e o mesmo workflow; `pt-BR` está concluído antes. | 02 e 04 | Futuro. |
 
 ## 7. Requisitos não funcionais
@@ -132,9 +132,8 @@ Limites:
 - Não houve ensaio com leitor de tela nem validação externa de acessibilidade.
 - A conferência de links não prova que o destino externo continua disponível.
 - O catálogo foi aceito em 02/11/2026 e é a linha de base. A implementação de itens parciais continua pendente.
-- A página 404 ainda não existe. O `CHANGELOG` foi criado em 02/11/2026.
+- A página 404 e o `CHANGELOG` foram criados em 02/11/2026.
 
 ## 11. Pendências
 
 1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
-2. FR-13: implementar a página 404 na fase 09.
