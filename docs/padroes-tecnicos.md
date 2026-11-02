@@ -262,6 +262,119 @@ Cada item cita uma fonte ou uma decisão registrada.
 1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
 2. FR-13: implementar a página 404 na fase 09.
 
+## 3. Processos e qualidade — fase 03
+
+### 3.1 Decisão
+
+**Aplicar o ISTQB CTFL 4.0.1 de forma parcial.**
+
+Fonte: `gestao-requisitos-testes/ISTQB - Certified Tester Foundation Level Syllabus (EN) - v4.0.1.pdf`.
+
+Aplicação: processo de teste, abordagem baseada em risco, níveis adaptados ao site, teste estático, gestão de defeitos e critérios de conclusão.
+A base não contém ISO 9001 nem ISO 19011.
+Este processo não é um sistema de gestão da qualidade e não declara conformidade.
+
+### 3.2 Processo adaptado
+
+Atividades do §1.4.1, páginas 18 e 19.
+
+| Atividade | Aplicação no site | Evidência |
+| --- | --- | --- |
+| Planejamento | Definir objetivo, páginas, riscos, ambiente e critérios de saída. | Registro na mudança. |
+| Monitoramento e controle | Acompanhar as conferências e corrigir o plano. | Lista de verificações. |
+| Análise | Identificar o que testar a partir dos requisitos e riscos. | Requisito e páginas afetadas. |
+| Desenho | Transformar a análise em checklist e casos manuais. | Checklist da mudança. |
+| Implementação | Preparar servidor local, navegador e dados. | Comando e ambiente usados. |
+| Execução | Comparar resultado esperado e obtido. | Resultado por item. |
+| Encerramento | Registrar defeitos, lições e pendências. | Relatório da mudança. |
+
+### 3.3 Níveis e tipos
+
+Níveis do §2.2, páginas 28 e 29, adaptados ao porte do projeto.
+
+| Nível adaptado | Objeto | Objetivo |
+| --- | --- | --- |
+| Inspeção estática | HTML, CSS, documentos e workflow | Encontrar erro antes de abrir o navegador. |
+| Ensaio em navegador | Páginas no servidor local | Conferir comportamento e apresentação. |
+| Revisão de conteúdo | Fatos, fontes e textos | Preservar precisão e limites da fonte. |
+| Conferência pós-publicação | Site publicado | Confirmar que a mudança chegou ao ar. |
+
+Tipos: funcional, não funcional (acessibilidade, compatibilidade, desempenho) e regressão.
+A inspeção estática segue o capítulo 3.
+
+### 3.4 Abordagem baseada em risco
+
+Riscos do §5.2, página 51.
+O esforço cresce com a exposição do item:
+
+1. dados pessoais, privacidade e segurança;
+2. acessibilidade e navegação por teclado;
+3. publicação e disponibilidade;
+4. conteúdo factual e paridade entre variantes;
+5. apresentação e impressão.
+
+Mudança de alto risco exige conferência completa.
+Mudança de baixo risco pode usar a conferência mínima, com justificativa registrada.
+
+### 3.5 Definition of Done
+
+Uma mudança termina quando todos os itens aplicáveis estão atendidos.
+
+| Área | Critério |
+| --- | --- |
+| Autorização | Pedido e aprovação registrados. |
+| Escopo | Arquivos e páginas afetados identificados. |
+| Conteúdo | Fatos com fonte; variantes sincronizadas ou lacuna registrada. |
+| Estrutura | HTML semântico, títulos, links internos e âncoras conferidos. |
+| Acessibilidade | Teclado, foco, contraste, 320 CSS px, zoom, temas e impressão conferidos quando aplicável. |
+| Cópia oculta | Dados iguais aos da tela; ausente na impressão. |
+| Publicação | Workflow e permissões conferidos; página publicada aberta. |
+| Documentação | Plano, requisitos, guia e `CHANGELOG` atualizados. |
+| Texto | `git diff --check` limpo e sem espaços finais. |
+| Qualidade | Critérios qualitativos avaliados pelo operador, conforme D-31. |
+
+### 3.6 Registro de defeito
+
+Formato do §5.5, páginas 56 e 57.
+
+Campos: identificador, data, título, objeto e ambiente, contexto, passos, resultado esperado, resultado obtido, severidade, prioridade, situação, causa, correção e verificação.
+
+Severidade: S1 bloqueia o uso; S2 afeta conteúdo ou acesso relevante; S3 afeta documentação ou apresentação; S4 é cosmético.
+Prioridade: P1 corrige antes de publicar; P2 corrige na mesma fase; P3 entra no backlog; P4 pode ser aceito.
+
+Fluxo: aberto, em análise, corrigido, em confirmação, fechado.
+Defeito falso ou duplicado é rejeitado com motivo.
+
+### 3.7 Piloto
+
+O piloto usou um defeito real encontrado na revisão da fase 10.
+
+| Campo | Conteúdo |
+| --- | --- |
+| ID | D-001 |
+| Data | 02/11/2026 |
+| Título | Seção de mudanças numerada como 3 em vez de 10. |
+| Objeto e ambiente | `docs/padroes-tecnicos.md`, revisão estática. |
+| Contexto | Conferência da numeração por pasta técnica. |
+| Esperado | Seção 10, coerente com a pasta `10_GESTAO_DE_MUDANCAS`. |
+| Obtido | Seção 3, na ordem de execução. |
+| Severidade | S3. |
+| Prioridade | P2. |
+| Causa | Numeração usada pela ordem de execução, não pela pasta. |
+| Correção | Renumeração para 10 e ajuste das referências. |
+| Verificação | Títulos 1, 2 e 10; links conferidos; commit `61fa42a`. |
+| Situação | Fechado. |
+
+Lição: conferir a numeração por pasta antes de cada commit.
+
+### 3.8 Verificação e limites
+
+- O processo foi aplicado ao piloto D-001, com correção e confirmação registradas.
+- Não há suíte automatizada nem equipe independente de testes.
+- Não há ISO 9001, ISO 19011 ou auditoria externa.
+- O operador avalia os critérios qualitativos.
+- A conferência de acessibilidade continua pendente na fase 05.
+
 ## 10. Mudanças — fase 10
 
 ### 10.1 Decisão

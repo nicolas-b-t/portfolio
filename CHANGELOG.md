@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Aceite do catálogo de requisitos (fase 02). | Este commit. |
+| 2026-11-02 | Processo de qualidade, Definition of Done e registro de defeito (fase 03). | Este commit. |
+| 2026-11-02 | Aceite do catálogo de requisitos (fase 02). | `90c7e8a` |
 | 2026-11-02 | Procedimento de mudanças e criação deste histórico (fase 10). | `e4d2535` |
 | 2026-11-02 | Ajustes nos requisitos e nas decisões do responsável. | `caa78a4` |
 | 2026-11-02 | Requisitos do site e seção da fase 02. | `b391701` |

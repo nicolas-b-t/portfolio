@@ -86,6 +86,23 @@ O workflow `.github/workflows/pages.yml` publica somente `static/` após push em
 No GitHub, a origem de publicação deve ser GitHub Actions.
 As permissões mínimas do workflow são `contents: read`, `pages: write` e `id-token: write`.
 
+## Qualidade e testes
+
+O processo e os critérios estão na seção 3 de [Padrões técnicos](padroes-tecnicos.md).
+
+Antes de publicar, confira:
+
+- o requisito ou a decisão que autoriza a mudança;
+- HTML, links internos e âncoras;
+- as variantes afetadas;
+- teclado, foco, contraste, 320 CSS px, zoom, temas e impressão em mudança visual;
+- a cópia estruturada e a impressão em mudança de conteúdo;
+- `git diff --check`;
+- `CHANGELOG.md` e a situação no plano.
+
+Registre cada defeito com identificador, severidade, prioridade, correção e verificação.
+Critérios qualitativos são avaliados pelo responsável.
+
 ## Mudanças
 
 Toda mudança segue o procedimento da seção 10 de [Padrões técnicos](padroes-tecnicos.md).
