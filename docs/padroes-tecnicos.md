@@ -216,6 +216,7 @@ Decisão nova entra com ID seguinte e data.
 | D-33 | O SFIA não é copiado para a base local por causa da licença; o NICE é público. |
 | D-34 | Nenhum nível SFIA ou work role NICE será publicado sem evidência e aprovação. |
 | D-35 | Estimativa revista para cerca de 15 sessões com a fase 11 em esforço M. |
+| D-36 | Revisão mínima anual em 02/11/2027; revisão por evento quando houver dado novo. |
 
 ## 2. Requisitos — fase 02
 
@@ -1083,3 +1084,89 @@ Um mapeamento exigiria os componentes oficiais do NICE.
 2. Obter os componentes oficiais do NICE, se houver intenção de mapear work roles.
 3. Decidir se algum nível SFIA será publicado.
 4. Registrar a evidência de cada candidato antes de qualquer publicação.
+
+## 12. Governança estratégica e riscos — fase 12
+
+### 12.1 Decisão
+
+**Não aplicar ISO 31000 ou modelo do TCU. Registrar a lacuna e a linha de base de governança.**
+
+A base local não contém fonte de gestão estratégica, riscos ou indicadores.
+A governança usa princípios gerais: precisão factual, rastreabilidade, menor privilégio, ausência de alegação excessiva e revisão por evento.
+
+Não há declaração de conformidade com ISO 31000, TCU ou outro modelo.
+
+### 12.2 Objetivos e indicadores
+
+Linha de base medida em 02/11/2026.
+
+| Objetivo | Indicador | Linha de base | Regra |
+| --- | --- | --- | --- |
+| Precisão factual | Links internos quebrados | 0 | Manter 0. |
+| Estrutura | Páginas com um `h1` | 23 de 23 | Manter. |
+| Imagens | Imagens com `alt` | 45 de 45 | Manter. |
+| Acessibilidade | Itens do checklist com evidência | 12 de 16 | Completar os 4 pendentes. |
+| Idiomas | Variantes publicadas | 5 | Manter; pt-BR com 5 páginas e as demais com 4. |
+| Links externos | Destinos únicos | 31 | Conferir por evento; não há promessa de disponibilidade. |
+| Peso | Arquivos e tamanho de `static/` | 95 arquivos; 3,65 MiB | Sem meta numérica; teste empírico. |
+| Maior imagem | Arquivo individual | 345 KB | Sem meta numérica; avaliar no uso. |
+| Segurança | Segredos e arquivos privados rastreados | 0 e 0 | Manter; concluir 2FA. |
+| Publicação | Raiz, HTTPS e 404 | 200, 301 e 404 | Manter. |
+| Documentação | ADRs, requisitos e seções | 7, 25 e 12 | Manter. |
+| Governança | Riscos com dono | 10 de 10 | Revisar por evento. |
+
+Nenhum indicador foi criado sem medição.
+O peso é informativo, não uma meta de desempenho.
+
+### 12.3 Riscos estratégicos
+
+| ID | Risco | P | I | Nível | Dono | Resposta |
+| --- | --- | --- | --- | --- | --- | --- |
+| E01 | Exposição de dados pessoais sem aviso. | 3 | -4 | 12 | Responsável | Aceitar e revisar se a exposição mudar. |
+| E02 | Divergência factual entre variantes. | 3 | -3 | 9 | Agente | Sincronizar a partir de pt-BR. |
+| E03 | Link externo quebrado ou malicioso. | 4 | -2 | 8 | Agente | Conferir por evento e registrar. |
+| E04 | Regressão de acessibilidade. | 3 | -3 | 9 | Agente | Checklist e ensaio manual. |
+| E05 | Perda de conta ou repositório. | 2 | -5 | 10 | Responsável | Concluir 2FA e manter cópia local. |
+| E06 | Perda da base ou do backup. | 2 | -3 | 6 | Responsável | Criar a v2 e manter cópia externa. |
+| E07 | Repositório público expõe dados. | 3 | -3 | 9 | Responsável | Cópia limpa no encerramento. |
+| E08 | Dependência do GitHub Pages. | 2 | -4 | 8 | Responsável | Aceitar; conferir após cada push. |
+| E09 | Alegação excessiva em SFIA ou NICE. | 2 | -4 | 8 | Responsável | Não publicar nível sem evidência. |
+| E10 | Sinônimos de ATS prejudicam a leitura. | 3 | -2 | 6 | Responsável | Decidir sobre EDIT-01 e EDIT-03. |
+
+Os riscos E01 a E06 correspondem a R01 a R06 da seção 1.
+O risco E07 corresponde a R09.
+O registro completo permanece na seção 1.5.
+
+### 12.4 Papéis e cadência
+
+- **Responsável:** aprova escopo, mudanças, níveis e publicação.
+- **Agente:** mede, registra, corrige e propõe.
+- **Revisão por evento:** novo projeto, certificado, formação, idioma, funcionalidade, incidente ou link quebrado.
+- **Revisão mínima anual:** 02/11/2027.
+- **Revisão de riscos:** ao fim de cada marco e quando um risco mudar.
+
+### 12.5 Verificação e limites
+
+- A linha de base foi medida uma vez, em 02/11/2026.
+- Todos os riscos estratégicos têm dono e resposta.
+- A data de revisão está definida.
+- Não há fonte local de ISO 31000 ou TCU.
+- Não há monitoramento contínuo, painel ou SLA.
+- Não há avaliação independente.
+- O resultado é uma linha de base interna, não uma certificação.
+
+### 12.6 Encerramento
+
+As doze seções estão preenchidas.
+O projeto permanece aberto até:
+
+1. o responsável aceitar a linha de base;
+2. o 2FA ser concluído;
+3. a proteção da `main` ser confirmada;
+4. os sinônimos de ATS serem decididos;
+5. os testes de zoom, tema escuro, impressão e leitor de tela serem feitos;
+6. os componentes do NICE serem obtidos, se houver mapeamento;
+7. a cópia limpa sem dados pessoais ser publicada.
+
+O encerramento não apaga as pendências.
+Ele registra o que está concluído e o que continua sob responsabilidade do operador.

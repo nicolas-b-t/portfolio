@@ -202,7 +202,7 @@ Esforço total estimado: cerca de 15 sessões. As fases 04, 05 e 11 concentram o
 | 09 | Executada — serviço, HTTPS e página 404 | `docs/padroes-tecnicos.md` §9; `static/404.html` |
 | 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §10; `CHANGELOG.md` |
 | 11 | Executada — SFIA e NICE documentados | `docs/competencias.md`; `docs/padroes-tecnicos.md` §11 |
-| 12 | Não iniciada | — |
+| 12 | Executada — linha de base de governança | `docs/padroes-tecnicos.md` §12 |
 
 Atualize a situação e a evidência ao concluir cada fase. Não registre aprovação do responsável sem confirmação dele.
 
@@ -252,8 +252,11 @@ O plano termina quando:
 
 - as 12 seções estiverem preenchidas em `docs/padroes-tecnicos.md`;
 - cada fase tiver decisão registrada: aplicada, parcial, não aplicável ou lacuna;
-- as fontes citadas existirem na base local;
+- as fontes citadas estiverem disponíveis na base local ou na referência externa registrada;
 - as mudanças de documentação passarem em `git diff --check`;
 - o responsável revisar o resultado e as decisões pendentes.
+
+Situação em 02/11/2026: as doze seções estão preenchidas.
+O encerramento depende do aceite do responsável e das pendências da seção 12.6.
 
 As verificações de navegador, teclado, contraste, zoom, temas e impressão registram evidência e limites. Elas não substituem ensaio manual nem validação externa.
