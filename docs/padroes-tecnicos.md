@@ -113,7 +113,7 @@ Registro no formato do §B.8. Escala de 1 a 5; nível = probabilidade × impacto
 
 | ID | Risco | P | I | NR | Dono | Resposta | Fase |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| R01 | O site publica nome, contato, país, formação, experiências e fotografias sem aviso de privacidade. O visitante não encontra como pedir correção ou remoção. | 3 | -4 | 12 | Responsável | Aceitar: a decisão de 02/11/2026 mantém os dados e dispensa aviso; revisar se a exposição mudar. | 06 |
+| R01 | O site publica nome, contato, país, formação, experiências e fotografias sem aviso de privacidade. O visitante não encontra como pedir correção ou remoção. | 3 | -4 | 12 | Responsável | Aceitar: a decisão de 02/11/2026 mantém os dados e dispensa aviso; inventário registrado na §6. | 06 |
 | R02 | Mudança feita só em pt-BR deixa as cinco variantes com fatos diferentes. O visitante lê informação desatualizada em outro idioma. | 3 | -3 | 9 | Agente | Reduzir: sincronizar a partir de pt-BR e conferir as variantes afetadas. | 03 e 05 |
 | R03 | Link externo expira ou muda de endereço. O visitante encontra página inexistente e perde a evidência. | 4 | -2 | 8 | Agente | Reduzir: conferência periódica e registro do resultado. | 09 e 12 |
 | R04 | Mudança de CSS ou conteúdo remove foco visível, contraste ou nome acessível. O visitante que usa teclado ou leitor de tela perde acesso. | 3 | -3 | 9 | Agente | Reduzir: checklist WCAG 2.2 e ensaio manual. | 05 |
@@ -402,7 +402,7 @@ Visitante
 
 | Bloco | Conteúdo | Responsabilidade |
 | --- | --- | --- |
-| Páginas | 22 arquivos HTML em cinco variantes | Conteúdo, navegação e cópia estruturada. |
+| Páginas | 23 arquivos HTML: 22 páginas e uma 404 | Conteúdo, navegação e cópia estruturada. |
 | Ativos | `static/assets/css/styles.css`, `static/assets/icons/` e `static/media/` | Estilo, ícones e fotografias. |
 | Documentação | `docs/`, plano, requisitos e ADRs | Regras, decisões e evidência. |
 | Publicação | `.github/workflows/pages.yml` | Copiar `static/` e publicar no Pages. |
@@ -489,7 +489,7 @@ Os links `alternate` e `hreflang` apontam para a página correspondente.
 
 ### 4.8 Verificação
 
-- 22 arquivos HTML, cinco variantes e um redirecionamento.
+- 23 arquivos HTML, cinco variantes, um redirecionamento e uma página 404.
 - Um CSS, 29 ícones e 36 arquivos de mídia.
 - Nenhum `<script>`, `<form>`, `<iframe>` ou `style=` embutido.
 - Links internos, âncoras e identificadores sem erro.
@@ -586,6 +586,96 @@ Os demais aguardam decisão editorial ou ensaio.
 - Três correções foram aplicadas e conferidas: estilo de disabled, `aria-current="page"` e “RDBMS”.
 - `git diff --check` limpo e sem espaços finais.
 - O resultado é uma avaliação interna, não uma certificação.
+
+## 6. Governança de dados — fase 06
+
+### 6.1 Decisão
+
+**Não aplicar norma. Registrar a lacuna e o inventário factual mínimo.**
+
+A base local não contém LGPD, ANPD, DAMA-DMBOK, ISO 27701 ou norma equivalente.
+Não há jurisdição definida, conforme a resposta do responsável.
+O inventário descreve o que o site publica e onde. Não faz análise jurídica.
+
+Decisões aplicáveis: D-12, D-13 e D-14.
+
+### 6.2 Inventário de dados publicados
+
+| Categoria | Dados | Onde aparece | Exposição |
+| --- | --- | --- | --- |
+| Identificação | Nome completo e área profissional. | Cabeçalho e currículo. | Pública. |
+| Contato | E-mail, LinkedIn e GitHub. | Páginas de currículo das cinco variantes. | Pública. |
+| Localidade | Cidade e país de atuação profissional. | Experiências. | Pública. |
+| Formação | Instituições, cursos e datas. | Currículo. | Pública. |
+| Experiência | Empregadores, funções, períodos e atividades. | Currículo. | Pública. |
+| Competências | Tecnologias, níveis e certificações. | Currículo e lista de tags. | Pública. |
+| Projetos | Descrição, links e atribuição de equipe. | `projetos.html`, em pt-BR. | Pública. |
+| Imagens | Fotografias do responsável em atividades de trabalho. | Galeria. | Pública. |
+| Rede | Nome, função e LinkedIn de terceiros. | `rede.html`, nas cinco variantes. | Pública, com autorização D-13. |
+| Documento externo | Link para o PPC no Google Drive. | Currículo. | Pública, fora do site. |
+| Cópia estruturada | Dados do currículo e dos projetos em seção oculta. | `index.html` e `projetos.html`. | No HTML publicado. |
+
+**Fora da publicação:** currículos DOCX, relatórios de experiência, candidaturas e a base técnica local.
+Esses arquivos ficam em `dados-pessoais/` e `docs/repertorio-tecnico-site/`, ignorados pelo Git.
+
+Não há telefone, endereço residencial, documento de identidade ou dado financeiro no site.
+
+### 6.3 Terceiros
+
+| Terceiro | Papel | Dado ou dependência | Controle |
+| --- | --- | --- | --- |
+| GitHub Pages | Hospedagem | Páginas, imagens e logs de acesso do provedor. | Política do GitHub; não há contrato analisado. |
+| GitHub Actions | Publicação | Código e histórico do repositório. | Permissões mínimas e ações fixadas. |
+| Google Drive | PDFs e PPC | Documento aberto por link. | Acesso público; conteúdo não auditado nesta fase. |
+| LinkedIn | Perfis e contato | Links para perfis do responsável e de terceiros. | Política do LinkedIn. |
+| Sites de projetos e instituições | Links externos | Destinos fora do controle do projeto. | Conferência periódica. |
+
+O site não carrega fonte, script, imagem ou ícone de servidor externo em tempo de execução.
+As ocorrências de “analytics” e “cookie” nas páginas são texto de competências, não código de rastreamento.
+
+### 6.4 Decisões registradas
+
+| Tema | Decisão |
+| --- | --- |
+| Dados publicados | Mantidos como estão, sem restrição ou acréscimo. |
+| Aviso de privacidade | Não publicar. |
+| Dados sensíveis | Somente em cópia local, fora do site. |
+| Fotografias | De autoria do responsável. |
+| Rede e recomendações | Nomes e perfis publicados com autorização. |
+| Backup | RAR da v1; v2 pendente. |
+
+### 6.5 Lacunas
+
+- Não há fonte local sobre proteção de dados ou base legal.
+- Não há jurisdição definida.
+- Não há política de retenção ou descarte.
+- Não há canal formal para pedido de acesso, correção ou remoção, além do contato publicado.
+- Não há aviso de privacidade, por decisão do responsável.
+- Não há registro de consentimento além da decisão D-13.
+- O conteúdo dos PDFs no Drive não foi auditado nesta fase.
+- Não há análise das políticas do GitHub, do Google ou do LinkedIn.
+
+### 6.6 Verificação e limites
+
+- Zero `<script>`, `<form>` ou `<iframe>` nas 23 páginas.
+- Zero telefone, endereço residencial ou documento no HTML.
+- Nenhum arquivo de `dados-pessoais/` ou da base técnica rastreado pelo Git.
+- 45 imagens, todas com `alt`.
+- Nenhum código de analytics ou cookie; as menções são conteúdo.
+- O inventário cobre o site, não os logs do provedor nem o conteúdo do Drive.
+- Não houve inspeção visual para identificar terceiros nas fotografias.
+- Não há declaração de conformidade com LGPD, GDPR ou outra norma.
+
+### 6.7 Revisão
+
+O inventário deve ser revisto quando:
+
+- um novo dado pessoal for publicado;
+- um novo terceiro for integrado;
+- um PDF ou documento externo for adicionado;
+- a jurisdição ou o aviso de privacidade forem reavaliados.
+
+Sem mudança de escopo, o inventário permanece válido.
 
 ## 7. Engenharia de sistemas — fase 07
 

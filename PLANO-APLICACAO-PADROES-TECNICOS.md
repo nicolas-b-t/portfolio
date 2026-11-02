@@ -194,7 +194,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | 03 | Executada — processo e piloto D-001 | `docs/padroes-tecnicos.md` §3 |
 | 04 | Executada — ADRs, arquitetura e convenções | `docs/adr/`; `docs/padroes-tecnicos.md` §4 |
 | 05 | Executada — auditoria e correções A11Y-01, A11Y-02 e EDIT-02 | `docs/padroes-tecnicos.md` §5; `static/assets/css/styles.css` |
-| 06 | Não iniciada | — |
+| 06 | Executada — lacuna e inventário de dados | `docs/padroes-tecnicos.md` §6 |
 | 07 | Executada — fronteira, interfaces e cenários | `docs/padroes-tecnicos.md` §7 |
 | 08 | Executada — modelo de ameaças, controles e licença | `docs/padroes-tecnicos.md` §8; `static/assets/icons/LICENSE.txt` |
 | 09 | Executada — serviço, HTTPS e página 404 | `docs/padroes-tecnicos.md` §9; `static/404.html` |

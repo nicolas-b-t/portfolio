@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Serviço, HTTPS, página 404 e verificação de publicação (fase 09). | Este commit. |
+| 2026-11-02 | Governança de dados: lacuna e inventário factual (fase 06). | Este commit. |
+| 2026-11-02 | Serviço, HTTPS, página 404 e verificação de publicação (fase 09). | `8d767c3` |
 | 2026-11-02 | Segurança: modelo de ameaças, controles e licença dos ícones (fase 08). | `226f76e` |
 | 2026-11-02 | Correções de acessibilidade e revisão editorial: botão desativado, `aria-current="page"` e RDBMS. | `9053f2f` |
 | 2026-11-02 | Auditoria editorial e de acessibilidade, com backlog (fase 05). | `d3fa16a` |

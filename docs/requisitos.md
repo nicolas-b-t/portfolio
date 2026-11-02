@@ -72,7 +72,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 
 | ID | Requisito | Prioridade | Fonte | Critério de aceite | Fase | Situação |
 | --- | --- | --- | --- | --- | --- | --- |
-| FR-01 | O visitante encontra as cinco variantes, com `lang` correto e links `hreflang` recíprocos. | Essencial | RFC 5646; AGENTS.md; auditoria de 02/11/2026. | As 22 páginas declaram o idioma; os cinco links abrem a variante certa; não há link interno quebrado. | 09 | Vigente. |
+| FR-01 | O visitante encontra as cinco variantes, com `lang` correto e links `hreflang` recíprocos. | Essencial | RFC 5646; AGENTS.md; auditoria de 02/11/2026. | As 23 páginas declaram o idioma; os cinco links abrem a variante certa; não há link interno quebrado. | 09 | Vigente. |
 | FR-02 | Cada variante oferece currículo, galeria, rede e recomendações. Em `pt-BR`, há também a página de projetos. | Essencial | AGENTS.md; auditoria de 02/11/2026. | As quatro páginas existem em cada variante; `projetos.html` existe em `pt-BR`; o menu alcança todas. | 04 | Vigente. |
 | FR-03 | O conteúdo de `pt-BR` é a base factual das demais variantes. | Essencial | AGENTS.md; `docs/manutencao.md`; D-23. | Fato alterado em `pt-BR` aparece igual nas outras variantes, ou a divergência está registrada. | 03 e 05 | Vigente com lacuna. |
 | FR-04 | A página de projetos lista os trabalhos com link de site e de repositório quando existirem. | Essencial | `static/pt-BR/projetos.html`; auditoria de 02/11/2026. | Cada projeto tem descrição, link e atribuição individual ou de equipe. | 05 | Vigente. |
@@ -121,7 +121,7 @@ O identificador não muda quando o texto é ajustado. Uma mudança de sentido cr
 
 Verificação de 02/11/2026:
 
-- 22 arquivos HTML, cinco variantes e um redirecionamento na raiz;
+- 23 arquivos HTML, cinco variantes, um redirecionamento na raiz e uma página 404;
 - nenhum `<script>`, `<form>`, `<iframe>` ou `style=` embutido;
 - 45 imagens, nenhuma sem `alt`;
 - links internos, âncoras e identificadores sem erro na conferência estática;
