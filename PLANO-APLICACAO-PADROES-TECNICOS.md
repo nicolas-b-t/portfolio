@@ -190,7 +190,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | Fase | Situação | Evidência |
 | --- | --- | --- |
 | 01 | Concluída — aceita em 02/11/2026 | `docs/padroes-tecnicos.md` §1 |
-| 02 | Executada — catálogo proposto | `docs/requisitos.md`; `docs/padroes-tecnicos.md` §2 |
+| 02 | Concluída — aceita em 02/11/2026 | `docs/requisitos.md`; `docs/padroes-tecnicos.md` §2 |
 | 03 | Não iniciada | — |
 | 04 | Não iniciada | — |
 | 05 | Não iniciada | — |
@@ -228,7 +228,9 @@ Decisões recebidas em 02/11/2026:
 - botão de download do currículo permanece inativo;
 - 2FA em ativação;
 - alterações na `main` exigem autorização do responsável;
-- página 404 e `CHANGELOG` aprovados para as fases 09 e 10.
+- página 404 e `CHANGELOG` aprovados para as fases 09 e 10;
+- catálogo de requisitos aceito em 02/11/2026;
+- critérios qualitativos avaliados pelo operador.
 
 Pendências resolvidas em 02/11/2026:
 

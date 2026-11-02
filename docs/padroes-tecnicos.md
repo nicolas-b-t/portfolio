@@ -210,6 +210,8 @@ Decisão nova entra com ID seguinte e data.
 | D-27 | O botão de download do currículo permanece visível e inativo até a publicação do PDF. |
 | D-28 | O 2FA está em ativação; revisar na fase 08. |
 | D-29 | A página 404 e o `CHANGELOG` estão aprovados; serão criados nas fases 09 e 10. |
+| D-30 | O catálogo de requisitos foi aceito em 02/11/2026; não há novos requisitos no momento. |
+| D-31 | Critérios qualitativos são avaliados pelo operador, com registro da decisão. |
 
 ## 2. Requisitos — fase 02
 
@@ -220,6 +222,7 @@ Decisão nova entra com ID seguinte e data.
 Fontes: `gestao-requisitos-testes/IREB - CPRE Foundation Level Syllabus (EN) - v3.3.0.pdf`, `gestao-requisitos-testes/IREB Martin Glinz - Glossary of Requirements Engineering Terminology (EN) - v2.2.0.pdf` e `documentacao-revisao/Organizacao - Redacao e Rastreabilidade de Requisitos (PT-BR) - v1.0.md`.
 
 O catálogo está em [Requisitos do site](requisitos.md).
+Aceite: 02/11/2026.
 A aplicação parcial mantém a disciplina de qualidade, a fronteira do sistema, o glossário, a rastreabilidade e a priorização.
 Não há elicitação com usuários externos nem ferramenta de gestão de requisitos.
 
@@ -235,7 +238,7 @@ Não há elicitação com usuários externos nem ferramenta de gestão de requis
 | Redação e fundamentação | Documento local, §“Manter a fundamentação” | Identificador, fonte, critério e evidência por item. |
 
 O catálogo tem 14 requisitos funcionais e 11 não funcionais.
-Cada item cita uma fonte local e um critério observável.
+Cada item cita uma fonte ou uma decisão registrada.
 
 ### 2.3 Verificação
 
@@ -247,7 +250,8 @@ Cada item cita uma fonte local e um critério observável.
 
 ### 2.4 Limites
 
-- O catálogo é proposto. O responsável precisa aceitá-lo para virar linha de base.
+- O catálogo foi aceito em 02/11/2026 e é a linha de base.
+- Critérios qualitativos são avaliados pelo operador, conforme a decisão D-31.
 - Não houve validação com usuários externos, leitor de tela ou ferramenta de acessibilidade.
 - Não há declaração de conformidade com o CPRE.
 - FR-08 foi resolvido: o botão permanece inativo por decisão D-27.

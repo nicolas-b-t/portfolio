@@ -1,8 +1,8 @@
 # Requisitos do site
 
-Catálogo proposto em 02/11/2026, na fase 02 do [plano](../PLANO-APLICACAO-PADROES-TECNICOS.md).
+Catálogo aceito em 02/11/2026, na fase 02 do [plano](../PLANO-APLICACAO-PADROES-TECNICOS.md).
 As fontes normativas estão na base local `docs/repertorio-tecnico-site/`. As demais fontes são os documentos do projeto e as decisões registradas.
-Os requisitos marcados como vigentes descrevem o comportamento atual. Os propostos aguardam aceite do responsável.
+Os requisitos marcados como vigentes descrevem o comportamento atual. O catálogo aceito é a linha de base.
 
 Não há declaração de conformidade com o CPRE, com a WCAG ou com qualquer norma.
 
@@ -11,6 +11,7 @@ Não há declaração de conformidade com o CPRE, com a WCAG ou com qualquer nor
 O catálogo registra o que o site precisa entregar e como cada item será verificado.
 Ele cobre o site estático em HTML e CSS, a documentação versionada e a publicação no GitHub Pages.
 O escopo inicial prioriza `pt-BR`. As outras quatro variantes continuam publicadas e recebem sincronização.
+Aceite: 02/11/2026. Não há novos requisitos no momento.
 
 ## 2. Partes interessadas e objetivos
 
@@ -60,6 +61,7 @@ Termos do projeto. As definições gerais seguem o glossário de engenharia de r
 Cada requisito tem identificador, texto, prioridade, fonte, critério de aceite, fase e situação.
 As prioridades são essencial, esperado e opcional.
 As situações são: vigente, vigente com lacuna, lacuna, aprovado e não implementado, futuro e parcial.
+Critérios qualitativos são avaliados pelo operador, com registro da decisão. Decisão D-31.
 
 As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 
@@ -129,7 +131,7 @@ Limites:
 
 - Não houve ensaio com leitor de tela nem validação externa de acessibilidade.
 - A conferência de links não prova que o destino externo continua disponível.
-- O catálogo é proposto, não aprovado. O aceite do responsável é necessário para virar linha de base.
+- O catálogo foi aceito em 02/11/2026 e é a linha de base. A implementação de itens parciais continua pendente.
 - A página 404 ainda não existe. O `CHANGELOG` foi criado em 02/11/2026.
 
 ## 11. Pendências
