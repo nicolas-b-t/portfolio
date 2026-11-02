@@ -86,6 +86,21 @@ O workflow `.github/workflows/pages.yml` publica somente `static/` após push em
 No GitHub, a origem de publicação deve ser GitHub Actions.
 As permissões mínimas do workflow são `contents: read`, `pages: write` e `id-token: write`.
 
+## Mudanças
+
+Toda mudança segue o procedimento da seção 3 de [Padrões técnicos](padroes-tecnicos.md).
+
+1. Descreva o pedido, a finalidade e a fonte.
+2. Analise o impacto nas variantes, páginas, links, acessibilidade, impressão e documentos.
+3. Obtenha autorização do responsável antes de alterar conteúdo ou site.
+4. Faça uma mudança pequena, com um propósito.
+5. Verifique HTML, links internos e temas. Acrescente as verificações da fase afetada.
+6. Use mensagem de commit clara, com o motivo e a fase.
+7. Registre no `CHANGELOG.md` e atualize a situação no plano.
+8. Depois do push, confira a página publicada.
+
+Reversão: use `git revert` em até cinco commits. Não reescreva o histórico da `main`. Registre o motivo e o resultado. Acima de cinco commits ou em caso de conflito, pare e peça decisão ao responsável.
+
 ## Organização
 
 Use `Get-ChildItem -Recurse -Depth 3 -Force | Where-Object { $_.FullName -notmatch '\\\.git\\' }` para revisar a estrutura antes e depois de reorganizações.

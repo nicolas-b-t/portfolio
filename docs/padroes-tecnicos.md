@@ -258,3 +258,88 @@ Cada item cita uma fonte local e um critério observável.
 1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
 2. FR-13: implementar a página 404 na fase 09.
 3. NFR-10: criar o `CHANGELOG` na fase 10.
+
+## 3. Mudanças — fase 10
+
+### 3.1 Decisão
+
+**Aplicar parcialmente o controle de configuração e de mudanças.**
+
+Fontes: `historico-fas/tg006.htm` (FAS-1653), §7.2, §9.1 e §9.3; `documentacao-revisao/Scott Chacon e Ben Straub - Pro Git (EN) - 2a edicao.pdf`, capítulo 2 e referência de `git revert`; `documentacao-revisao/Google - Code Review Standard (EN).html`, `Small Change Lists` e `Writing Good Change List Descriptions`; `documentacao-revisao/MADR - ADR Template (EN) - v4.0.0.md`.
+
+A fonte histórica contribui apenas com princípios gerais: avaliar, coordenar, aprovar, manter rastreabilidade e atualizar a documentação afetada.
+Não há classes de segurança, obrigações militares nem declaração de conformidade.
+
+Não há Comitê de Controle de Configuração.
+O responsável é o único aprovador. O agente prepara a análise e executa a mudança autorizada.
+
+### 3.2 Itens de configuração
+
+| Item | Controle | Linha de base |
+| --- | --- | --- |
+| `static/` | HTML, CSS, mídia, ícones e favicon | Commit aprovado; publicação somente por push. |
+| `.github/workflows/pages.yml` | Publicação | Permissões mínimas e ações por SHA. |
+| `docs/` e plano | Regras, requisitos, decisões e evidência | Documento revisado e versionado. |
+| `CHANGELOG.md` | Registro resumido das mudanças | Entrada por mudança publicada. |
+| `docs/fontes/` e listas de tags | Dados declarados e consulta | Fonte factual preservada. |
+
+A linha de base vigente é o commit aprovado na `main`.
+Mudança aprovada atualiza a linha de base. Mudança não aprovada não entra na `main`.
+
+### 3.3 Tipos de mudança e impacto
+
+| Tipo | Exemplos | Impacto a conferir |
+| --- | --- | --- |
+| Conteúdo | Currículo, competências, projetos, recomendações | Fatos e fontes; cópia estruturada; variantes afetadas; impressão. |
+| Visual | CSS, ícones, temas, layout | Teclado, foco, contraste, 320 CSS px, zoom, temas e impressão. |
+| Estrutura | Página nova, navegação, seções | Links internos, títulos, menu, `hreflang` e workflow. |
+| Publicação | Workflow, permissões, domínio, 404 | Segurança, disponibilidade, cache e retorno. |
+| Documentação | Guias, plano, requisitos, ADRs | Índice, coerência e decisões afetadas. |
+
+Toda análise registra: o que muda, por quê, quais páginas e variantes são afetadas, qual risco aumenta e como a mudança será verificada.
+
+### 3.4 Procedimento
+
+1. Registre o pedido, a finalidade e a fonte.
+2. Analise o impacto pelo quadro do §3.3.
+3. Peça autorização ao responsável antes de alterar conteúdo ou site.
+4. Faça uma mudança pequena, com um único propósito.
+5. Verifique HTML, links internos e temas. Acrescente as verificações da fase afetada.
+6. Use mensagem de commit clara, com o motivo e a fase.
+7. Registre no `CHANGELOG` e atualize a situação no plano.
+8. Faça o push e confira a página publicada.
+9. Registre o resultado e as limitações.
+
+### 3.5 Reversão
+
+A reversão usa `git revert`, que cria um commit com o efeito contrário.
+O histórico da `main` não é reescrito.
+
+- Reverta até cinco commits, conforme a decisão D-22.
+- Acima de cinco commits, ou em caso de conflito, pare e peça decisão ao responsável.
+- Verifique o resultado antes do push.
+- Registre o motivo, os commits revertidos e a verificação.
+
+O ensaio usa `git revert --no-commit` seguido de `git revert --abort`, para conferir o mecanismo sem publicar.
+
+### 3.6 Revisão e mensagem
+
+- Uma mudança resolve um assunto.
+- Conteúdo e documentação entram em commits separados quando possível.
+- A mensagem diz o que mudou e por quê, no imperativo.
+- A mensagem cita o requisito ou a fase quando existir.
+- Mudança grande é dividida antes da revisão.
+
+### 3.7 Changelog
+
+O `CHANGELOG.md` fica na raiz.
+Cada entrada tem data, resumo e evidência.
+A entrada mais recente fica no topo.
+Não há número de versão inventado. O histórico completo permanece no Git.
+
+### 3.8 Verificação e limites
+
+- A própria fase 10 serve de mudança piloto: pedido, impacto, autorização, verificação, commit e registro.
+- O ensaio de reversão foi feito sem publicar.
+- Não há comitê, auditoria externa nem fonte local sobre continuidade digital.
+- A responsabilidade pela aprovação é do responsável, não do agente.
