@@ -98,7 +98,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | NFR-07 | O HTML é semântico, com hierarquia de títulos e um `h1` por página. | Essencial | HTML Living Standard; AGENTS.md. | Cada página tem um `h1`; a hierarquia não salta níveis sem motivo; o HTML passa na validação adotada na fase 04. | 04 | Parcial; validação pendente. |
 | NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | 08 | Parcial; 2FA em ativação e proteção técnica a confirmar. |
 | NFR-09 | O site não usa cookies nem analytics e mantém os dados publicados como estão. | Essencial | D-12; auditoria de 02/11/2026. | Nenhum cookie ou analytics; dados publicados conforme a decisão; dados sensíveis só em cópia local. | 06 | Vigente. |
-| NFR-10 | O projeto mantém um CSS, documentação indexada, `CHANGELOG` e nenhuma etapa de build. | Esperado | AGENTS.md; D-11. | Um CSS comum; documentos ligados no índice; `CHANGELOG` atualizado; publicação sem build. | 03 e 10 | Parcial; falta o `CHANGELOG`. |
+| NFR-10 | O projeto mantém um CSS, documentação indexada, `CHANGELOG` e nenhuma etapa de build. | Esperado | AGENTS.md; D-11. | Um CSS comum; documentos ligados no índice; `CHANGELOG` atualizado; publicação sem build. | 03 e 10 | Vigente; `CHANGELOG` criado em 02/11/2026. |
 | NFR-11 | O site funciona nos navegadores atuais e em celular. | Esperado | D-23; R06; Q3. | Ensaio em LibreWolf e em navegador atual; limitação registrada quando não houver cobertura. | 05 | Parcial; ensaio no LibreWolf e registro anterior no Chromium. |
 
 ## 8. Rastreabilidade
@@ -130,10 +130,9 @@ Limites:
 - Não houve ensaio com leitor de tela nem validação externa de acessibilidade.
 - A conferência de links não prova que o destino externo continua disponível.
 - O catálogo é proposto, não aprovado. O aceite do responsável é necessário para virar linha de base.
-- A página 404 e o `CHANGELOG` ainda não existem.
+- A página 404 ainda não existe. O `CHANGELOG` foi criado em 02/11/2026.
 
 ## 11. Pendências
 
 1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
-2. NFR-10: criar o `CHANGELOG` na fase 10.
-3. FR-13: implementar a página 404 na fase 09.
+2. FR-13: implementar a página 404 na fase 09.

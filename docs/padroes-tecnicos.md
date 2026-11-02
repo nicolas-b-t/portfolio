@@ -251,13 +251,12 @@ Cada item cita uma fonte local e um critério observável.
 - Não houve validação com usuários externos, leitor de tela ou ferramenta de acessibilidade.
 - Não há declaração de conformidade com o CPRE.
 - FR-08 foi resolvido: o botão permanece inativo por decisão D-27.
-- A página 404 e o `CHANGELOG` seguem pendentes, com criação nas fases 09 e 10.
+- A página 404 segue pendente. O `CHANGELOG` foi criado na fase 10.
 
 ### 2.5 Pendências
 
 1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
 2. FR-13: implementar a página 404 na fase 09.
-3. NFR-10: criar o `CHANGELOG` na fase 10.
 
 ## 10. Mudanças — fase 10
 
