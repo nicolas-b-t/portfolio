@@ -3,17 +3,18 @@
 Data: 2 de novembro de 2026.
 Projeto: portfólio estático HTML/CSS em cinco variantes linguísticas.
 Fonte: `docs/repertorio-tecnico-site/`, com 41 obras e 74 arquivos.
-Este plano usa somente essa base local. Não consulta o acervo principal, não amplia a base e não substitui fonte ausente por norma externa.
+Este plano usa a base local, com uma exceção registrada na fase 11: o SFIA v9 e o NICE Rev. 1 são consultados na biblioteca principal como referência externa. O SFIA não é copiado para a base por causa da licença.
 
 ## 1. Premissa
 
-A base local cobre cinco pastas de forma direta, quatro de forma parcial e três sem fonte.
+A base local cobre cinco pastas de forma direta, quatro de forma parcial, duas sem fonte e uma com referência externa.
 
 | Situação | Pastas |
 | --- | --- |
 | Cobertura direta | `01`, `02`, `04`, `05`, `08` |
 | Cobertura parcial | `03`, `07`, `09`, `10` |
-| Sem fonte local | `06`, `11`, `12` |
+| Referência externa | `11` |
+| Sem fonte local | `06`, `12` |
 
 Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula aplicação de norma.
 
@@ -31,12 +32,12 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 | `08` Segurança cibernética | NIST SSDF 800-218 1.1 | parcial; sem ASVS, WSTG ou ISO 27001 |
 | `09` Governança, arquitetura e serviços | GitHub Pages (EXT-02); RFC 5646 | mínima; sem FitSM, ISO 20000 ou RFCs HTTP |
 | `10` Gestão de mudanças | FAS-1653; Pro Git; Google Code Review e Small Change Lists; MADR | parcial; sem guias EC ou TNA |
-| `11` Competências profissionais | — | sem fonte |
+| `11` Competências profissionais | SFIA v9 (PT); NICE SP 800-181 Rev. 1 (EN) | referência externa; SFIA licenciado, NICE público |
 | `12` Gestão estratégica e governança | — | sem fonte |
 
 ## 3. Regras de execução
 
-1. Cada fase cita o arquivo local usado.
+1. Cada fase cita o arquivo local ou a referência externa registrada.
 2. Fonte ausente gera registro de lacuna, não aplicação simulada.
 3. Fontes históricas entram só nos pontos permitidos pela base: princípios de documentação e controle de configuração. Não importar classes de segurança, obrigações militares ou alegação de conformidade.
 4. Cada fase entrega, no máximo, uma seção em `docs/padroes-tecnicos.md`, uma atualização em guia existente e um ADR quando a decisão for estrutural.
@@ -145,11 +146,12 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 
 ### Fase 11 — `11_COMPETENCIAS_PROFISSIONAIS`
 
-- **Fonte:** nenhuma na base.
-- **Aplicar:** não aplicar norma. Registrar a lacuna. Revisar apenas a terminologia das competências já declaradas contra `docs/fontes/competencias-declaradas.json` e o guia de redação. Não mapear para SFIA ou NICE. Não criar níveis.
-- **Verificar:** cada item mantém a fonte factual. Nenhuma certificação implícita. Ambiguidades vão para o responsável.
-- **Saída:** seção “Lacuna — competências”.
-- **Esforço:** P.
+- **Fontes:** SFIA v9 (Referência da Estrutura e Sobre o SFIA, PT) e NICE SP 800-181 Rev. 1 (EN), na biblioteca principal.
+- **Aplicar:** usar SFIA e NICE como referência de vocabulário e organização, sem certificação. Registrar o que são, a utilidade e as regras de aplicação. Propor candidatos SFIA sem atribuir nível. Não publicar níveis, work roles ou selos sem evidência e aprovação.
+- **Limite:** SFIA é licenciado; o PDF não é copiado para a base. O NICE Rev. 1 não traz o catálogo completo de tarefas e work roles. Não criar níveis ou certificações.
+- **Verificar:** cada candidato cita a habilidade e a evidência; nenhum nível publicado; terminologia revisada contra `docs/fontes/competencias-declaradas.json`.
+- **Saída:** `docs/competencias.md` e seção.
+- **Esforço:** M.
 
 ### Fase 12 — `12_GESTAO_ESTRATEGICA_E_GOVERNANCA`
 
@@ -183,7 +185,7 @@ Marcos:
 - **M3 — Publicação e segurança:** fases 08 e 09.
 - **M4 — Lacunas:** fases 06, 11 e 12.
 
-Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o trabalho.
+Esforço total estimado: cerca de 15 sessões. As fases 04, 05 e 11 concentram o trabalho.
 
 ## 6. Situação das fases
 
@@ -199,7 +201,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | 08 | Executada — modelo de ameaças, controles e licença | `docs/padroes-tecnicos.md` §8; `static/assets/icons/LICENSE.txt` |
 | 09 | Executada — serviço, HTTPS e página 404 | `docs/padroes-tecnicos.md` §9; `static/404.html` |
 | 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §10; `CHANGELOG.md` |
-| 11 | Não iniciada | — |
+| 11 | Executada — SFIA e NICE documentados | `docs/competencias.md`; `docs/padroes-tecnicos.md` §11 |
 | 12 | Não iniciada | — |
 
 Atualize a situação e a evidência ao concluir cada fase. Não registre aprovação do responsável sem confirmação dele.
@@ -230,7 +232,8 @@ Decisões recebidas em 02/11/2026:
 - alterações na `main` exigem autorização do responsável;
 - página 404 e `CHANGELOG` aprovados para as fases 09 e 10;
 - catálogo de requisitos aceito em 02/11/2026;
-- critérios qualitativos avaliados pelo operador.
+- critérios qualitativos avaliados pelo operador;
+- fase 11 usa SFIA v9 e NICE Rev. 1 como referência externa; o SFIA não é copiado por licença.
 
 Pendências resolvidas em 02/11/2026:
 
@@ -238,7 +241,7 @@ Pendências resolvidas em 02/11/2026:
 2. R1–R3: público principal são recrutadores e gestores de contratação; objetivo é emprego; ações são currículo, projetos e contato.
 3. C1–C2: manter a voz atual; ajustes são apenas apontados, sem reescrita.
 4. P6: publicação aprovada.
-5. P5: ordem das fases e cerca de 14 sessões confirmadas.
+5. P5: ordem das fases confirmada; estimativa revista para cerca de 15 sessões na fase 11.
 6. S2: apenas o responsável é administrador; alterações na `main` exigem sua autorização.
 
 Pendência operacional: conferir a proteção técnica da `main` na fase 08.

@@ -17,7 +17,7 @@ Nenhuma seção declara conformidade, certificação ou equivalência com norma.
 Fonte: `docs/repertorio-tecnico-site/gestao-requisitos-testes/Comissao Europeia - PM2 Metodologia de Gestao de Projetos (PT) - v3.1.pdf`.
 
 O guia completo pressupõe projeto com mais de 4 ou 5 semanas e mais de 2 ou 3 pessoas (§3.4).
-Este projeto tem um responsável, um agente de implementação e cerca de 14 sessões.
+Este projeto tem um responsável, um agente de implementação e cerca de 15 sessões.
 O site já está publicado e não tem equipe, orçamento próprio nem contratação.
 Por isso, a aplicação completa criaria artefatos sem uso.
 
@@ -212,6 +212,10 @@ Decisão nova entra com ID seguinte e data.
 | D-29 | A página 404 e o `CHANGELOG` estão aprovados; serão criados nas fases 09 e 10. |
 | D-30 | O catálogo de requisitos foi aceito em 02/11/2026; não há novos requisitos no momento. |
 | D-31 | Critérios qualitativos são avaliados pelo operador, com registro da decisão. |
+| D-32 | A fase 11 usa SFIA v9 e NICE Rev. 1 como referência externa. |
+| D-33 | O SFIA não é copiado para a base local por causa da licença; o NICE é público. |
+| D-34 | Nenhum nível SFIA ou work role NICE será publicado sem evidência e aprovação. |
+| D-35 | Estimativa revista para cerca de 15 sessões com a fase 11 em esforço M. |
 
 ## 2. Requisitos — fase 02
 
@@ -1012,3 +1016,70 @@ Não há número de versão inventado. O histórico completo permanece no Git.
 - O ensaio de reversão foi feito sem publicar.
 - Não há comitê, auditoria externa nem fonte local sobre continuidade digital.
 - A responsabilidade pela aprovação é do responsável, não do agente.
+
+## 11. Competências profissionais — fase 11
+
+### 11.1 Decisão
+
+**Aplicar o SFIA v9 e o NICE Rev. 1 como referências externas, não como certificação.**
+
+Fontes, na biblioteca principal:
+
+- `REPERTORIO_TECNICO/11_COMPETENCIAS_PROFISSIONAIS/01_FRAMEWORKS_DE_COMPETENCIAS/SFIA - Referencia da Estrutura (PT) - v9.pdf`;
+- `REPERTORIO_TECNICO/11_COMPETENCIAS_PROFISSIONAIS/01_FRAMEWORKS_DE_COMPETENCIAS/SFIA - Sobre o SFIA (PT) - v9.pdf`;
+- `REPERTORIO_TECNICO/11_COMPETENCIAS_PROFISSIONAIS/01_FRAMEWORKS_DE_COMPETENCIAS/NIST - SP 800-181 NICE Workforce Framework for Cybersecurity (EN) - Rev 1.pdf`.
+
+O SFIA é licenciado. O PDF não foi copiado para a base local.
+O NICE é publicação pública do NIST.
+
+O documento completo está em [Competências e frameworks](competencias.md).
+As declarações factuais continuam em `docs/fontes/competencias-declaradas.json`.
+
+### 11.2 SFIA
+
+O SFIA combina habilidades profissionais com sete níveis de responsabilidade.
+Os níveis vão de 1 “segue” a 7 “define estratégia, inspira e mobiliza”.
+
+O projeto usa o SFIA como vocabulário para áreas de competência.
+Oito áreas foram propostas como candidatas: `USUP`, `NTAS`, `HSIN`, `ITOP`, `DATM`, `PROG`, `CFMG` e `CHMG`.
+
+Nenhum nível foi atribuído.
+Nível exige evidência de autonomia, complexidade e impacto, além de aprovação do responsável.
+
+### 11.3 NICE
+
+O NICE Rev. 1 organiza o trabalho de segurança em tarefas, conhecimentos, habilidades e work roles.
+A revisão descontinuou as categorias e áreas de especialidade.
+Não há níveis de proficiência.
+
+O PDF descreve a estrutura, mas não contém o catálogo completo de tarefas e work roles.
+Por isso, não há mapeamento de work role nesta fase.
+Um mapeamento exigiria os componentes oficiais do NICE.
+
+### 11.4 Regras de aplicação
+
+1. A declaração factual vem do JSON de competências declaradas.
+2. SFIA e NICE organizam; não criam competência.
+3. Nenhum nível SFIA ou work role NICE é publicado sem evidência e aprovação.
+4. Não há selo, logotipo ou alegação de certificação.
+5. O piloto SFIA é uma proposta de vocabulário, não um resultado.
+6. A terminologia será revisada contra o JSON e o guia de redação.
+7. A publicação continua em pt-BR primeiro.
+
+### 11.5 Verificação e limites
+
+- As duas fontes foram consultadas e citadas.
+- Oito habilidades SFIA foram propostas sem nível.
+- Nenhum work role NICE foi atribuído.
+- Nenhum conteúdo do site foi alterado.
+- O SFIA não foi copiado para a base.
+- O NICE não tem catálogo completo no PDF.
+- Não há certificação, avaliação de proficiência ou parecer de competência.
+- A publicação de níveis depende de decisão do responsável.
+
+### 11.6 Pendências
+
+1. Revisar a terminologia das competências declaradas contra o guia de redação.
+2. Obter os componentes oficiais do NICE, se houver intenção de mapear work roles.
+3. Decidir se algum nível SFIA será publicado.
+4. Registrar a evidência de cada candidato antes de qualquer publicação.

@@ -10,6 +10,7 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 | Aplicação dos padrões técnicos | [Padrões técnicos](padroes-tecnicos.md) | Explicação |
 | Requisitos do site | [Requisitos](requisitos.md) | Referência |
 | Decisões de arquitetura | [ADRs](adr/README.md) | Explicação |
+| Competências e frameworks | [Competências](competencias.md) | Explicação |
 | Plano de aplicação | [Plano](../PLANO-APLICACAO-PADROES-TECNICOS.md) | Explicação |
 | Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) | Referência |
 | Fatos, qualificações e atribuições | [Conteúdo e fontes](conteudo-e-fontes.md) | Referência |
