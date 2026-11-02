@@ -504,6 +504,75 @@ Os links `alternate` e `hreflang` apontam para a página correspondente.
 - A conferência de acessibilidade completa continua na fase 05.
 - Os ADRs registram decisões vigentes; não são certificação de arquitetura.
 
+## 7. Engenharia de sistemas — fase 07
+
+### 7.1 Decisão
+
+**Aplicar a engenharia de sistemas de forma mínima e textual.**
+
+Fontes: `historico-fas/tg007.htm` (FAS-1654), §2.1 e §2.3; `historico-fas/tg006.htm` (FAS-1653), §7.2 e §9.1.
+
+A contribuição é genérica: documentar as propriedades do sistema, manter o nível de detalhe proporcional ao uso e controlar a linha de base.
+Não há SEBoK, INCOSE ou NIST 800-160 na base.
+Não há classes de segurança, contexto militar ou declaração de conformidade.
+
+### 7.2 Fronteira e contexto
+
+```text
+Visitante
+  └─ navegador
+       ├─ GitHub Pages: HTML, CSS, ícones e mídia
+       ├─ links externos: Drive, LinkedIn, projetos e instituições
+       └─ DNS e TLS: GitHub
+```
+
+**Dentro da fronteira:** os arquivos de `static/`, o workflow, a documentação e as decisões.
+**Fora da fronteira:** navegador, GitHub Pages, DNS, TLS, Google Drive, LinkedIn e sites vinculados.
+
+### 7.3 Interfaces e modos de falha
+
+| Interface | Dono | Troca | Modo de falha | Comportamento esperado |
+| --- | --- | --- | --- | --- |
+| Navegador e HTML/CSS | Projeto | Página e estilos | HTML ou CSS inválido | Conteúdo legível; correção antes de publicar. |
+| Teclado e leitor de tela | Visitante e tecnologia | Estrutura e foco | Nome ou foco ausente | HTML semântico, link de salto e foco visível. |
+| Links externos | Terceiros | Clique | 404, timeout ou bloqueio | Link permanece; falha é registrada, sem promessa de disponibilidade. |
+| Repositório e GitHub Actions | Responsável e GitHub | Push e workflow | Deploy falha | Versão anterior permanece; conferir a execução e corrigir. |
+| GitHub Pages, DNS e TLS | GitHub | HTTPS | Certificado ou DNS indisponível | Erro de HTTPS; não publicar conteúdo misto. |
+| Google Drive | Terceiro | Abertura de PDF | Acesso negado | O link não é essencial; o site continua legível. |
+
+### 7.4 Cenários operacionais
+
+| Cenário | Resultado esperado | Verificação |
+| --- | --- | --- |
+| Abrir a raiz e escolher idioma | A variante escolhida abre. | Teste manual. |
+| Abrir o currículo em cada variante | Conteúdo e navegação coerentes. | Teste manual nas cinco pastas. |
+| Trocar de idioma | A página correspondente abre; `hreflang` confere. | Inspeção e clique. |
+| Imprimir o currículo | Conteúdo visível; menu e cópia oculta ausentes. | Emulação de impressão. |
+| Navegar só com teclado | Link de salto e foco funcionam. | Teste manual. |
+| Usar leitor de tela | Ordem e nomes compreensíveis. | Não executado; limite da fase 05. |
+| Abrir link externo indisponível | O restante da página continua utilizável. | Teste com link inválido. |
+| Falhar a publicação | A versão anterior continua no ar. | Conferir a execução do workflow. |
+| Tela de 320 CSS px e zoom | Sem rolagem horizontal e sem corte. | Teste manual. |
+| Rede indisponível | O site não carrega; não há modo offline. | Limite conhecido. |
+
+### 7.5 Verificação e validação
+
+**Verificação:** confirmar que a página cumpre os requisitos e as convenções.
+Inclui inspeção estática, links, HTML, CSS, impressão e conferência pós-publicação.
+
+**Validação:** confirmar que o site atende ao objetivo de apoiar a candidatura a emprego.
+Inclui revisão do responsável, clareza do conteúdo e ações esperadas: currículo, projetos e contato.
+
+Cada cenário do §7.4 tem resultado esperado.
+A ausência de teste fica registrada como limite, não como aprovação.
+
+### 7.6 Limites
+
+- Sem modelo formal de sistema, sem SEBoK, INCOSE ou NIST 800-160.
+- Sem SLA e sem controle sobre a disponibilidade do GitHub, do Drive ou dos sites vinculados.
+- Sem ensaio com leitor de tela, dispositivo físico ou falha real de rede.
+- A fonte histórica contribui apenas com princípios de documentação e linha de base.
+
 ## 10. Mudanças — fase 10
 
 ### 10.1 Decisão

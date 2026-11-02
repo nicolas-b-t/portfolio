@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Decisões de arquitetura, convenções e classificação Diátaxis (fase 04). | Este commit. |
+| 2026-11-02 | Fronteira, interfaces e cenários de sistema (fase 07). | Este commit. |
+| 2026-11-02 | Decisões de arquitetura, convenções e classificação Diátaxis (fase 04). | `187baf0` |
 | 2026-11-02 | Processo de qualidade, Definition of Done e registro de defeito (fase 03). | `0174749` |
 | 2026-11-02 | Aceite do catálogo de requisitos (fase 02). | `90c7e8a` |
 | 2026-11-02 | Procedimento de mudanças e criação deste histórico (fase 10). | `e4d2535` |

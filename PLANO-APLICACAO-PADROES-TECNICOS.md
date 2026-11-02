@@ -195,7 +195,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | 04 | Executada — ADRs, arquitetura e convenções | `docs/adr/`; `docs/padroes-tecnicos.md` §4 |
 | 05 | Não iniciada | — |
 | 06 | Não iniciada | — |
-| 07 | Não iniciada | — |
+| 07 | Executada — fronteira, interfaces e cenários | `docs/padroes-tecnicos.md` §7 |
 | 08 | Não iniciada | — |
 | 09 | Não iniciada | — |
 | 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §10; `CHANGELOG.md` |
