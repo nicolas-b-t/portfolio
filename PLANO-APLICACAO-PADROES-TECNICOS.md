@@ -198,7 +198,7 @@ Esforço total estimado: cerca de 14 sessões. As fases 04 e 05 concentram o tra
 | 07 | Não iniciada | — |
 | 08 | Não iniciada | — |
 | 09 | Não iniciada | — |
-| 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §3; `CHANGELOG.md` |
+| 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §10; `CHANGELOG.md` |
 | 11 | Não iniciada | — |
 | 12 | Não iniciada | — |
 

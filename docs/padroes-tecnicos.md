@@ -259,9 +259,9 @@ Cada item cita uma fonte local e um critério observável.
 2. FR-13: implementar a página 404 na fase 09.
 3. NFR-10: criar o `CHANGELOG` na fase 10.
 
-## 3. Mudanças — fase 10
+## 10. Mudanças — fase 10
 
-### 3.1 Decisão
+### 10.1 Decisão
 
 **Aplicar parcialmente o controle de configuração e de mudanças.**
 
@@ -273,7 +273,7 @@ Não há classes de segurança, obrigações militares nem declaração de confo
 Não há Comitê de Controle de Configuração.
 O responsável é o único aprovador. O agente prepara a análise e executa a mudança autorizada.
 
-### 3.2 Itens de configuração
+### 10.2 Itens de configuração
 
 | Item | Controle | Linha de base |
 | --- | --- | --- |
@@ -286,7 +286,7 @@ O responsável é o único aprovador. O agente prepara a análise e executa a mu
 A linha de base vigente é o commit aprovado na `main`.
 Mudança aprovada atualiza a linha de base. Mudança não aprovada não entra na `main`.
 
-### 3.3 Tipos de mudança e impacto
+### 10.3 Tipos de mudança e impacto
 
 | Tipo | Exemplos | Impacto a conferir |
 | --- | --- | --- |
@@ -298,10 +298,10 @@ Mudança aprovada atualiza a linha de base. Mudança não aprovada não entra na
 
 Toda análise registra: o que muda, por quê, quais páginas e variantes são afetadas, qual risco aumenta e como a mudança será verificada.
 
-### 3.4 Procedimento
+### 10.4 Procedimento
 
 1. Registre o pedido, a finalidade e a fonte.
-2. Analise o impacto pelo quadro do §3.3.
+2. Analise o impacto pelo quadro do §10.3.
 3. Peça autorização ao responsável antes de alterar conteúdo ou site.
 4. Faça uma mudança pequena, com um único propósito.
 5. Verifique HTML, links internos e temas. Acrescente as verificações da fase afetada.
@@ -310,7 +310,7 @@ Toda análise registra: o que muda, por quê, quais páginas e variantes são af
 8. Faça o push e confira a página publicada.
 9. Registre o resultado e as limitações.
 
-### 3.5 Reversão
+### 10.5 Reversão
 
 A reversão usa `git revert`, que cria um commit com o efeito contrário.
 O histórico da `main` não é reescrito.
@@ -322,7 +322,7 @@ O histórico da `main` não é reescrito.
 
 O ensaio usa `git revert --no-commit` seguido de `git revert --abort`, para conferir o mecanismo sem publicar.
 
-### 3.6 Revisão e mensagem
+### 10.6 Revisão e mensagem
 
 - Uma mudança resolve um assunto.
 - Conteúdo e documentação entram em commits separados quando possível.
@@ -330,14 +330,14 @@ O ensaio usa `git revert --no-commit` seguido de `git revert --abort`, para conf
 - A mensagem cita o requisito ou a fase quando existir.
 - Mudança grande é dividida antes da revisão.
 
-### 3.7 Changelog
+### 10.7 Changelog
 
 O `CHANGELOG.md` fica na raiz.
 Cada entrada tem data, resumo e evidência.
 A entrada mais recente fica no topo.
 Não há número de versão inventado. O histórico completo permanece no Git.
 
-### 3.8 Verificação e limites
+### 10.8 Verificação e limites
 
 - A própria fase 10 serve de mudança piloto: pedido, impacto, autorização, verificação, commit e registro.
 - O ensaio de reversão foi feito sem publicar.

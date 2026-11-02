@@ -88,7 +88,7 @@ As permissões mínimas do workflow são `contents: read`, `pages: write` e `id-
 
 ## Mudanças
 
-Toda mudança segue o procedimento da seção 3 de [Padrões técnicos](padroes-tecnicos.md).
+Toda mudança segue o procedimento da seção 10 de [Padrões técnicos](padroes-tecnicos.md).
 
 1. Descreva o pedido, a finalidade e a fonte.
 2. Analise o impacto nas variantes, páginas, links, acessibilidade, impressão e documentos.
