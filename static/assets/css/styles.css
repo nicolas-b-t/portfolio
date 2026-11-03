@@ -349,14 +349,6 @@ p {
   padding: 3.5rem 1.25rem;
 }
 
-.hero .kicker {
-  font-family: var(--font-mono);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  font-size: 0.8rem;
-  color: var(--muted);
-}
-
 .hero .lead {
   font-size: 1.15rem;
 }
@@ -538,99 +530,9 @@ p {
   font-size: 0.85rem;
 }
 
-.sfia-details {
-  margin-top: 0.75rem;
-}
-
-.sfia-details > summary {
-  cursor: pointer;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--muted);
-  background: var(--panel);
-  font-family: var(--font-mono);
-  font-size: 0.82rem;
-  line-height: 1.4;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.sfia-details > summary:hover {
-  color: var(--accent);
-}
-
-.sfia-details[open] > summary {
-  border-bottom: 0;
-}
-
-.sfia-details-body {
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--muted);
-  background: var(--panel);
-}
-
-.sfia-details-body > p {
-  max-width: 65ch;
-}
-
-.sfia-details-body ul {
-  margin: 0 0 0.75rem;
-  padding-left: 1.25rem;
-  max-width: 65ch;
-}
-
-.sfia-details-body li {
-  margin-bottom: 0.35rem;
-}
-
-.sfia-details h4 {
-  margin: 1rem 0 0.5rem;
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-}
-
-.sfia-details-body .sfia-review-list {
-  max-width: none;
-}
-
-.sfia-review-list {
-  margin: 0 0 0.75rem;
-  padding: 0;
-  list-style: none;
-  border-top: 1px solid var(--muted);
-}
-
-.sfia-review-list li {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.15rem 0.6rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--muted);
-}
-
-.sfia-review-list .sfia-code {
-  grid-row: span 2;
-  align-self: start;
-  margin-right: 0;
-}
-
-.sfia-review-name {
-  font-weight: 600;
-}
-
-.sfia-review-meta {
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
 @media (min-width: 45rem) {
   .sfia-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sfia-review-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 1.5rem;
   }
 }
 
