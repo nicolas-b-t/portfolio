@@ -1,6 +1,6 @@
 # Estado atual e pendências
 
-Última revisão: 02/11/2026.
+Última revisão: 03/11/2026.
 
 Esta é a única lista vigente de pendências do projeto.
 Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.

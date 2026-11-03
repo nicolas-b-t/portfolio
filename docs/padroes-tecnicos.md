@@ -1056,7 +1056,7 @@ Por isso, não há mapeamento de work role nesta fase.
 - Sete habilidades SFIA foram publicadas com níveis 2 e 3; duas ficaram fora.
 - Nenhum work role NICE foi atribuído.
 - O bloco SFIA foi publicado em pt-BR em 02/11/2026.
-- O bloco inclui uma visualização colapsável em `<details>` nativo, sem JavaScript.
+- A seção inteira é colapsável em `<details>` nativo, aberta por padrão; a metodologia tem um `<details>` interno.
 - O SFIA não foi copiado para a base; a cópia privada fica em `docs/referencias/sfia-local/`.
 - O NICE não tem catálogo completo no PDF.
 - Não há certificação, avaliação de proficiência ou parecer de competência.

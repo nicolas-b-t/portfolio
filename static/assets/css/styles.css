@@ -457,7 +457,25 @@ p {
   border-top: var(--line) solid var(--ink);
 }
 
-.sfia-profile > p {
+.sfia-summary {
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.sfia-summary h3 {
+  display: inline;
+  margin: 0;
+}
+
+.sfia-summary:hover {
+  color: var(--accent);
+}
+
+.sfia-profile[open] .sfia-summary {
+  margin-bottom: 0.75rem;
+}
+
+.sfia-profile-body > p {
   max-width: 65ch;
 }
 
@@ -891,6 +909,16 @@ p {
 
   .sfia-profile {
     break-inside: avoid;
+  }
+
+  .sfia-summary {
+    display: block;
+    list-style: none;
+    cursor: default;
+  }
+
+  .sfia-summary::marker {
+    content: "";
   }
 
   .sfia-details {

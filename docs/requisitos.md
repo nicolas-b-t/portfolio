@@ -86,7 +86,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | FR-12 | A impressão mostra o conteúdo e oculta menus e cópia estruturada. | Esperado | `static/assets/css/styles.css`; auditoria de 02/11/2026. | A impressão mostra as seções; a cópia oculta não aparece; não há corte de conteúdo. | 05 | Vigente. |
 | FR-13 | O site tem página 404 no mesmo estilo, com retorno ao início. | Opcional | D-17; documentação do GitHub Pages (EXT-02). | A página abre no lugar do erro padrão; mantém `lang` e link de retorno. | 09 | Vigente; implementado em 02/11/2026. |
 | FR-14 | A estrutura aceita novas variantes sem duplicar CSS ou workflow. | Opcional | D-07; AGENTS.md. | Uma variante nova usa o mesmo CSS e o mesmo workflow; `pt-BR` está concluído antes. | 02 e 04 | Futuro. |
-| FR-15 | O currículo em pt-BR apresenta um perfil SFIA compacto, com 5 a 7 habilidades, nível e evidência, sem certificação. | Esperado | SFIA 9; D-34; `docs/competencias.md`. | O bloco lista as habilidades publicadas; cada nível tem evidência; não há logo, selo ou descrição oficial copiada; a cópia oculta confere; a metodologia fica em `details` nativo e não é impressa. | 11 | Vigente; publicado em 02/11/2026. |
+| FR-15 | O currículo em pt-BR apresenta um perfil SFIA compacto, com 5 a 7 habilidades, nível e evidência, sem certificação. | Esperado | SFIA 9; D-34; `docs/competencias.md`. | O bloco lista as habilidades publicadas; cada nível tem evidência; não há logo, selo ou descrição oficial copiada; a cópia oculta confere; a seção é um `details` nativo, inicia aberta e pode ser recolhida; a impressão mantém o título e os cartões e oculta a metodologia. | 11 | Vigente; publicado em 02/11/2026. |
 
 ## 7. Requisitos não funcionais
 
