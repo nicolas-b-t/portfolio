@@ -126,7 +126,7 @@ As variantes ativas usam o rótulo Conclusão (ou Completion) por solicitação 
 
 CNH AB e PID permanecem documentos declarados do responsável.
 O uso internacional depende das condições do destino e da CNH válida.
-A página ativa cita a lista de países contratantes da Convenção de Viena sobre Trânsito Viário de 1968, mantida pela ONU.
+A página ativa oferece um link para a lista de países contratantes da Convenção de Viena sobre Trânsito Viário de 1968, mantida pela ONU.
 Não atribua equivalência a uma licença profissional estrangeira.
 Consulte a [Senatran](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/carteira-internacional) e a [lista de países](https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11) antes de alterar a explicação.
 

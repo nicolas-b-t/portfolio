@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-03 | Remove a afirmação de aceitação da PID na Convenção de Viena e mantém apenas o link para a lista de países em `pt-BR` e `en`. | Este commit. |
 | 2026-11-03 | Corrige o período da experiência na JH Eletrônico para julho de 2022 a janeiro de 2023 em `pt-BR`, nas fontes e na lista de consulta; atualiza o relatório local para a versão 1.2. | Este commit. |
 | 2026-11-03 | Inclui a experiência de assistente de e-commerce na JH Eletrônico (julho de 2021 a janeiro de 2022, autônomo) em `pt-BR`, com as tags de comércio eletrônico e vendas, a cópia estruturada e a lista de consulta. | Este commit. |
 | 2026-11-03 | Publica somente `pt-BR` e `en`; redireciona `pt-PT`, `es-419` e `es-ES` para `wip.html`; corrige os caminhos da página 404; padroniza as datas de cursos em `en`; cita a lista oficial de países da Convenção de Viena; registra a pendência de CI. | Este commit. |
