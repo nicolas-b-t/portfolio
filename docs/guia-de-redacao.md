@@ -45,7 +45,7 @@ Uma contagem automática por espaços serve apenas para triagem.
 6. Confirme detalhes antes de tornar uma atividade mais específica.
 7. Não substitua uma ação declarada por inspeção ou auditoria sem evidência.
 
-As revisões anteriores estão preservadas conforme o [registro da organização](organizacao.md).
+As revisões anteriores estão preservadas conforme o [registro da organização](historico/organizacao.md).
 As orientações deste guia não substituem testes de compreensão com os leitores.
 Os limites numéricos de frases são uma política editorial do projeto.
 
@@ -84,7 +84,7 @@ Antes de publicar um texto, confira:
 - texto alternativo e nome compreensível para links e controles;
 - teclado, foco, contraste, 320 CSS px, zoom, temas e impressão.
 
-Registre cada achado no backlog da seção 5 de [Padrões técnicos](padroes-tecnicos.md).
+Registre cada achado no backlog da seção 5 de [Padrões técnicos](padroes-tecnicos.md) e na lista vigente de [Pendências](pendencias.md).
 Não declare conformidade com a WCAG ou com o STE100.
 
 ## Limites

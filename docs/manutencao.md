@@ -1,5 +1,10 @@
 # Manutenção do portfólio
 
+Este é o guia operacional.
+As regras gerais estão em [AGENTS.md](../AGENTS.md).
+O estado atual está em [Pendências](pendencias.md).
+A fundamentação e o registro das fases estão em [Padrões técnicos](padroes-tecnicos.md).
+
 ## Conteúdo e idiomas
 
 Use `static/pt-BR/index.html` como base factual.
@@ -21,13 +26,15 @@ Os aliases auxiliam consultas específicas. Eles não garantem reconhecimento po
 
 ## Página de projetos em pt-BR
 
-Desde 02/11/2026, por solicitação do responsável, `static/pt-BR/projetos.html` reúne os três projetos e sua cópia estruturada. A página principal mantém um link no menu, outro na apresentação inicial e uma referência no resumo oculto. A âncora antiga `index.html#projetos` leva ao acesso da apresentação. As outras variantes linguísticas mantêm a estrutura anterior nesta etapa, conforme o escopo solicitado.
+Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os três projetos e sua cópia estruturada.
+A página principal mantém um link no menu, outro na apresentação inicial e uma referência no resumo oculto.
+A âncora antiga `index.html#projetos` leva ao acesso da apresentação.
+As outras variantes mantêm a estrutura anterior nesta etapa.
 
-Para editar projetos em pt-BR, use a nova página e confira sua cópia estruturada, as atribuições em [Conteúdo e fontes](conteudo-e-fontes.md#projetos) e as listas de consulta. A impressão da página principal apresenta o currículo sem os cartões; a página de projetos permite imprimir os três cartões. Os PDFs V3 permanecem edições históricas.
-
-Objetivo e decisão: separar a apresentação dos projetos, com acesso no início do currículo, reutilizando o CSS comum e preservando integralmente as descrições. Fundamentação: HTML Living Standard, seções de navegação, conteúdo principal e links; WCAG 2.2, critérios de reorganização, propósito do link e foco visível. A restrição desta entrega ao pt-BR é decisão do responsável.
-
-Verificação em 02/11/2026: navegação de ida, três cartões na nova página, links e âncoras locais, um main por página, link de salto por teclado com foco visível, temas claro/escuro e larguras de 1280 e 320 CSS px no Chromium local. Não houve transbordamento horizontal; 320 CSS px cobre a largura equivalente a 400% de zoom em 1280 px. Em mídia de impressão, a cópia oculta permanece invisível e os 17 cursos aparecem na lista de impressão do currículo. Inspeção visual de capturas e cálculo amostral de contraste realizados. Limites: zoom real e paginação física não ensaiados; sem validação externa de HTML, leitor de tela ou declaração de conformidade WCAG. A estrutura pt-BR foi conferida por listagem local. Sem publicação nesta entrega.
+Para editar, use a página de projetos e confira a cópia estruturada, as atribuições em [Conteúdo e fontes](conteudo-e-fontes.md#projetos) e as listas de consulta.
+A impressão da página principal mostra o currículo sem os cartões; a página de projetos permite imprimir os três cartões.
+Os PDFs V3 permanecem edições históricas.
+Evidência e limites do ensaio: [Verificações de 02/11/2026](historico/verificacoes.md).
 
 ## Recomendações
 
@@ -50,6 +57,7 @@ A página mantém duas cópias de tela e impressão dos cursos, além do resumo 
 Quando um curso mudar, atualize suas ocorrências em cada idioma.
 Preserve títulos oficiais, instituições, datas, cargas horárias e atributos de idioma.
 Confira cada curso uma única vez na impressão, com o controle recolhível aberto e fechado.
+As cargas horárias e a origem das datas estão em [Cursos complementares](fontes/cursos/README.md).
 
 Os [PDFs V3](curriculos/v3/README.md) são edições identificadas, não exportações automáticas de cada alteração do site.
 Ao gerar uma nova edição, confira o conteúdo, a extração textual, as margens e a paginação do DOCX e do PDF.
@@ -62,14 +70,21 @@ Todas as páginas usam `static/assets/css/styles.css`.
 Calcule os caminhos relativos conforme a profundidade de cada página.
 Preserve fontes do sistema, recursos locais e as imagens WebP/JPEG compartilhadas em `static/media/realfort/`.
 Não adicione JavaScript, backend, frameworks, rastreadores ou etapa de build.
+As convenções de HTML e CSS estão na seção 4 de [Padrões técnicos](padroes-tecnicos.md) e nos [ADRs](adr/README.md).
+Antes de mudar a estrutura do site, consulte o ADR relacionado.
+Uma decisão estrutural nova exige ADR novo ou atualização do status do anterior.
 
 ### Ícones Lucide em pt-BR
 
-Desde 02/11/2026, por solicitação do responsável, a pasta compartilhada `static/assets/icons/` armazena 28 arquivos SVG da biblioteca Lucide Icons (com licença ISC/MIT preservada em `static/assets/icons/LICENSE`). O estilo comum `static/assets/css/styles.css` alimenta os ícones por `[data-icon]::before` com `background-color: currentColor` e `mask`. Nesta etapa, os atributos `data-icon` foram aplicados apenas às páginas em `static/pt-BR/` (`index.html`, `projetos.html`, `galeria.html`, `rede.html` e `recomendacoes.html`), nos títulos (`h2`), subtítulos até `h3` e links de contato (`.contact-list a`), sem alterar os blocos ocultos de extração (`#dados-curriculo` e `#dados-projetos`) nem as demais variantes linguísticas.
+A pasta `static/assets/icons/` armazena 28 arquivos SVG da biblioteca Lucide Icons.
+A licença com a lista de ícones derivados do Feather está em `static/assets/icons/LICENSE.txt`.
+O arquivo `LICENSE` é a cópia genérica recebida.
+O CSS comum alimenta os ícones por `[data-icon]::before` com `background-color: currentColor` e `mask`.
+Nesta etapa, `data-icon` aparece apenas em `static/pt-BR/`.
+Não altere os blocos ocultos de extração nem as demais variantes sem decisão.
+Evidência e limites do ensaio: [Verificações de 02/11/2026](historico/verificacoes.md).
 
-Objetivo, decisão e fundamentação: centralizar a manutenção dos ícones em uma única pasta e no CSS compartilhado, mantendo HTML/CSS estáticos sem JavaScript e herança automática de cor nos temas claro, escuro, `:hover` e impressão. Fundamentação: HTML Living Standard (atributos `data-*`), CSS Color Level 4 (`currentcolor`), CSS Values and Units Level 4 (resolução de URLs relativas ao arquivo CSS), WCAG 2.2 (critérios `1.1.1` — Conteúdo Não Textual / Decoração e `1.4.11` — Contraste Não Textual) e CSS Color Adjustment Level 1 (`prefers-color-scheme` e `print-color-adjust: exact`). A restrição desta entrega ao pt-BR é decisão do responsável.
-
-Verificação em 02/11/2026 (inspeção de código e checagem estática): conferência dos 28 arquivos SVG em `static/assets/icons/`, correspondência de todos os seletores `[data-icon]` em `static/assets/css/styles.css` com as ocorrências em `static/pt-BR/*.html`, preservação de `#dados-curriculo` e `#dados-projetos` sem atributos visuais, preservação dos 17 cursos na cópia de tela e de impressão, e `git diff --check` sem erros. Limitações: verificação realizada por inspeção estática de código; ensaio visual interativo em navegador (renderização de `mask`, teclado, foco, contraste amostral, largura de 320 CSS px, zoom de 400%, alternância de temas claro/escuro e paginação física de impressão) pendente de execução no servidor local (`http://127.0.0.1:8001/pt-BR/`). Demais idiomas não alterados por decisão de escopo do responsável.
+### Servidor local
 
 Execute na raiz:
 
@@ -81,6 +96,8 @@ Abra `http://127.0.0.1:8001/`.
 Confira links, âncoras, troca de idioma, CSS, favicon e páginas afetadas.
 Para mudanças visuais, confira teclado, foco, contraste, telas pequenas, zoom, temas e impressão.
 Use validação HTML/CSS quando pertinente. Diferencie inspeção de código de ensaio em navegador.
+
+### Publicação
 
 O workflow `.github/workflows/pages.yml` publica somente `static/` após push em `main`.
 No GitHub, a origem de publicação deve ser GitHub Actions.
@@ -96,21 +113,12 @@ A troca de idioma não é automática; o visitante escolhe na raiz.
 
 Depois do push, confira a raiz, o redirecionamento, a 404 e a troca de idioma.
 Não há SLA nem monitoramento contínuo. Incidente: resposta em até um dia.
-
-## Arquitetura e decisões
-
-A arquitetura e as convenções estão na seção 4 de [Padrões técnicos](padroes-tecnicos.md).
-As decisões vigentes estão em [ADRs](adr/README.md).
-
-Antes de mudar a estrutura do site, consulte o ADR relacionado.
-Uma decisão estrutural nova exige ADR novo ou atualização do status do anterior.
-Mudanças de HTML e CSS seguem as convenções da seção 4.
-A classificação dos documentos por tipo fica no [índice](README.md).
+A descrição do serviço está na seção 9 de [Padrões técnicos](padroes-tecnicos.md).
 
 ## Qualidade e testes
 
-O processo e os critérios estão na seção 3 de [Padrões técnicos](padroes-tecnicos.md).
-O checklist de acessibilidade está na seção 5.
+O processo, o checklist de acessibilidade e o plano de incidente estão nas seções 3, 5 e 8 de [Padrões técnicos](padroes-tecnicos.md).
+A situação de cada verificação está em [Pendências](pendencias.md).
 
 Antes de publicar, confira:
 
@@ -147,6 +155,7 @@ Use `Get-ChildItem -Recurse -Depth 3 -Force | Where-Object { $_.FullName -notmat
 Mantenha regras gerais em `AGENTS.md`, instruções práticas neste guia e as fontes em `docs/referencias/`.
 Preserve uma síntese vigente por assunto. Não acrescente planos, caches, saídas brutas ou clones de terceiros à árvore ativa.
 Antes de retirar uma fonte necessária, preserve sua origem, licença e forma de recuperação.
-O [registro da organização](organizacao.md) identifica o acervo anterior e sua recuperação.
+O [histórico](historico/README.md) identifica o acervo anterior e sua recuperação.
+O [índice](README.md) classifica os documentos por assunto e tipo.
 
 Ao concluir, execute `git diff --check` e informe as verificações e suas limitações.

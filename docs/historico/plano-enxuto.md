@@ -1,10 +1,11 @@
 # MAPA ESSENCIAL E PLANO ENXUTO
 
-Registro em 02/11/2026.
+Registro histórico em 02/11/2026.
 Situação: **registrado, não implementado**.
 Este documento registra a avaliação do plano de 12 fases e uma versão enxuta para planejamento futuro.
 Nada aqui foi executado além do próprio registro.
-O plano de 12 fases permanece como histórico em [PLANO-APLICACAO-PADROES-TECNICOS.md](../PLANO-APLICACAO-PADROES-TECNICOS.md).
+O plano de 12 fases permanece como histórico em [PLANO-APLICACAO-PADROES-TECNICOS.md](../../PLANO-APLICACAO-PADROES-TECNICOS.md).
+O estado atual está em [Pendências](../pendencias.md).
 
 ## 1. Lição registrada
 

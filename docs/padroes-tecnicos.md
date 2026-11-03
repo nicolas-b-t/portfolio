@@ -8,6 +8,11 @@ A situação das fases fica no plano, §6. Não repita a tabela aqui.
 Cada seção termina com uma decisão: aplicada, aplicada parcialmente, não aplicável ou lacuna.
 Nenhuma seção declara conformidade, certificação ou equivalência com norma.
 
+> **Registro das 12 fases, revisado em 02/11/2026.**
+> As seções 3, 5, 8 e 10 contêm regras ainda usadas.
+> As demais registram a decisão e a evidência da fase.
+> A lista vigente de pendências está em [Pendências](pendencias.md).
+
 ## 1. Gestão — fase 01
 
 ### 1.1 Decisão
@@ -120,9 +125,12 @@ Registro no formato do §B.8. Escala de 1 a 5; nível = probabilidade × impacto
 | R05 | A perda de acesso à conta ou ao repositório interrompe a publicação e o histórico. O site sai do ar sem via de correção. | 2 | -5 | 10 | Responsável | Reduzir: concluir o 2FA; manter admin único, autorização de alterações e cópia local. | 08 |
 | R06 | A base local é ignorada pelo Git e existe só nesta máquina. Uma falha de disco remove a procedência das fontes citadas. | 2 | -3 | 6 | Responsável | Reduzir: backup RAR da v1 concluído; criar backup da v2, preferir formato aberto e cópia externa. | 07 |
 | R07 | Cada fase cria um manual próprio. O volume cresce e as regras divergem. | 3 | -2 | 6 | Responsável | Reduzir: orçamento documental do plano, §3. | 01 e 04 |
-| R08 | Alterações locais não versionadas se perdem. O trabalho de conteúdo não chega ao site. | 2 | -3 | 6 | Responsável | Reduzir: os cinco arquivos entram no próximo commit. | 10 |
+| R08 | Alterações locais não versionadas se perdem. O trabalho de conteúdo não chega ao site. | 2 | -3 | 6 | Responsável | Tratado: os cinco arquivos foram versionados. | 10 |
 | R09 | O repositório público expõe dados pessoais e o histórico. A cópia de publicação pode manter informação que não deve ser pública. | 3 | -3 | 9 | Responsável | Reduzir: publicar cópia limpa sem dados pessoais e revisar o histórico. | 08 |
 | R10 | Os ícones Lucide estão no site sem arquivo de licença. A procedência pode ficar duvidosa. | 2 | -2 | 4 | Agente | Tratado: licença ISC e MIT incluída em 02/11/2026. | 04 e 08 |
+| R11 | O site depende do GitHub Pages. Uma indisponibilidade ou mudança da plataforma tira o site do ar. | 2 | -4 | 8 | Responsável | Aceitar; conferir a publicação após cada push. | 09 |
+| R12 | Uma competência é associada a nível SFIA ou work role NICE sem evidência. O currículo passa a alegar proficiência não comprovada. | 2 | -4 | 8 | Responsável | Não publicar nível ou work role sem evidência e aprovação. | 11 |
+| R13 | Sinônimos visíveis de ATS prejudicam a leitura. O visitante encontra repetição e ruído. | 3 | -2 | 6 | Responsável | Decidir sobre EDIT-01 e EDIT-03. | 05 |
 
 O registro é revisto ao fim de cada marco.
 Risco novo entra com ID seguinte, dono e resposta.
@@ -151,7 +159,7 @@ O RfP fecha no fim do M1, com requisitos, mudança e qualidade registrados.
 | Critério de aplicação | §3.4 usado para justificar a aplicação parcial; §3.6 usado para registrar a adaptação. |
 | Coerência com o plano | Ordem, marcos e critério de conclusão conferidos no plano, §5 e §9. |
 | Aceite da ficha | 02/11/2026, pelo responsável. |
-| Estado do repositório | 22 arquivos HTML; nenhum aviso de privacidade localizado; cinco arquivos do responsável aguardam o próximo commit. |
+| Estado do repositório | 23 arquivos HTML; nenhum aviso de privacidade localizado; cinco arquivos do responsável aguardam o próximo commit. |
 | Datas | Formalização em 28/10/2026; fases seguintes sem data. |
 | Documentação | Este arquivo criado e indexado em `docs/README.md`. |
 | Verificação de texto | `git diff --check` e conferência de espaços finais. |
@@ -205,11 +213,11 @@ Decisão nova entra com ID seguinte e data.
 | D-22 | Reversão: reverter até cinco commits. |
 | D-23 | Público principal: recrutadores e gestores de contratação. Objetivo: emprego. Ações: currículo, projetos e contato. |
 | D-24 | Manter a voz atual; ajustes de texto são apenas apontados, sem reescrita sem aprovação. |
-| D-25 | Ordem das fases e estimativa de cerca de 14 sessões confirmadas. |
+| D-25 | Ordem das fases e estimativa de cerca de 14 sessões confirmadas. Superada por D-35. |
 | D-26 | Apenas o responsável é administrador. Alterações na `main` exigem sua autorização; a proteção técnica será conferida na fase 08. |
 | D-27 | O botão de download do currículo permanece visível e inativo até a publicação do PDF. |
 | D-28 | O 2FA está em ativação; revisar na fase 08. |
-| D-29 | A página 404 e o `CHANGELOG` estão aprovados; serão criados nas fases 09 e 10. |
+| D-29 | A página 404 e o `CHANGELOG` estão aprovados; foram criados em 02/11/2026. |
 | D-30 | O catálogo de requisitos foi aceito em 02/11/2026; não há novos requisitos no momento. |
 | D-31 | Critérios qualitativos são avaliados pelo operador, com registro da decisão. |
 | D-32 | A fase 11 usa SFIA v9 e NICE Rev. 1 como referência externa. |
@@ -217,7 +225,7 @@ Decisão nova entra com ID seguinte e data.
 | D-34 | Nenhum nível SFIA ou work role NICE será publicado sem evidência e aprovação. |
 | D-35 | Estimativa revista para cerca de 15 sessões com a fase 11 em esforço M. |
 | D-36 | Revisão mínima anual em 02/11/2027; revisão por evento quando houver dado novo. |
-| D-37 | O plano de 12 fases permanece como registro; o mapa essencial e o plano enxuto foram registrados em `docs/plano-enxuto.md` e não serão implementados. |
+| D-37 | O plano de 12 fases permanece como registro; o mapa essencial e o plano enxuto foram registrados em `docs/historico/plano-enxuto.md` e não serão implementados. |
 
 ## 2. Requisitos — fase 02
 
@@ -250,7 +258,7 @@ Cada item cita uma fonte ou uma decisão registrada.
 
 - Todo requisito tem identificador, texto, prioridade, fonte, critério, fase e situação.
 - Nenhum requisito ficou sem fonte local ou decisão registrada.
-- A conferência estática encontrou 22 arquivos HTML, 45 imagens com `alt` e nenhum link interno quebrado.
+- A conferência estática encontrou 23 arquivos HTML, 45 imagens com `alt` e nenhum link interno quebrado.
 - A situação separa comportamento vigente, lacuna, item aprovado e item futuro.
 - `git diff --check` passou.
 
@@ -261,12 +269,12 @@ Cada item cita uma fonte ou uma decisão registrada.
 - Não houve validação com usuários externos, leitor de tela ou ferramenta de acessibilidade.
 - Não há declaração de conformidade com o CPRE.
 - FR-08 foi resolvido: o botão permanece inativo por decisão D-27.
-- A página 404 segue pendente. O `CHANGELOG` foi criado na fase 10.
+- A página 404 e o `CHANGELOG` foram criados em 02/11/2026.
 
 ### 2.5 Pendências
 
-1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
-2. FR-13: implementar a página 404 na fase 09.
+1. NFR-08: concluir o 2FA e confirmar a proteção da `main`.
+   A lista vigente está em [Pendências](pendencias.md).
 
 ## 3. Processos e qualidade — fase 03
 
@@ -426,16 +434,8 @@ Visitante
 ### 4.3 Registros de decisão
 
 Sete ADRs em [docs/adr/](adr/README.md), no formato MADR 4.0.0.
-
-| ID | Decisão |
-| --- | --- |
-| [0001](adr/0001-site-estatico-sem-javascript.md) | Site estático sem JavaScript |
-| [0002](adr/0002-css-unico-compartilhado.md) | CSS único compartilhado |
-| [0003](adr/0003-cinco-variantes-linguisticas.md) | Cinco variantes com base em `pt-BR` |
-| [0004](adr/0004-copia-estruturada-oculta.md) | Cópia estruturada oculta |
-| [0005](adr/0005-icones-por-mascara-css.md) | Ícones por máscara CSS |
-| [0006](adr/0006-projetos-apenas-em-pt-br.md) | Projetos apenas em `pt-BR` |
-| [0007](adr/0007-publicacao-restrita-a-static.md) | Publicação restrita a `static/` |
+O índice, o status e as consequências estão no README dos ADRs.
+A tabela de títulos não é repetida aqui.
 
 ### 4.4 Convenções de HTML e CSS
 
@@ -461,22 +461,9 @@ Sete ADRs em [docs/adr/](adr/README.md), no formato MADR 4.0.0.
 
 ### 4.5 Documentação com Diátaxis
 
-| Documento | Tipo |
-| --- | --- |
-| `README.md` da raiz | Como fazer |
-| `docs/manutencao.md` | Como fazer |
-| `docs/padroes-tecnicos.md` | Explicação |
-| `docs/requisitos.md` | Referência |
-| `docs/guia-de-redacao.md` | Referência |
-| `docs/conteudo-e-fontes.md` | Referência |
-| `docs/adr/` | Explicação |
-| `PLANO-APLICACAO-PADROES-TECNICOS.md` | Explicação |
-| `CHANGELOG.md` | Referência |
-| PDFs V3, Europass, ATS, Referências, Tags e Glossário | Referência |
-| `docs/organizacao.md` | Explicação |
-
+A classificação por assunto e tipo está no [índice](README.md).
 Não há tutorial: o site é usado, não ensinado.
-O índice `docs/README.md` recebeu a coluna de tipo.
+Os registros históricos ficam em [histórico](historico/README.md).
 
 ### 4.6 Git e revisão
 
@@ -496,7 +483,7 @@ Os links `alternate` e `hreflang` apontam para a página correspondente.
 ### 4.8 Verificação
 
 - 23 arquivos HTML, cinco variantes, um redirecionamento e uma página 404.
-- Um CSS, 29 ícones e 36 arquivos de mídia.
+- Um CSS, 28 ícones e 36 arquivos de mídia.
 - Nenhum `<script>`, `<form>`, `<iframe>` ou `style=` embutido.
 - Links internos, âncoras e identificadores sem erro.
 - Sete ADRs aceitos e indexados.
@@ -549,7 +536,7 @@ Esses itens são decisão do operador: podem ser mantidos para ATS ou reduzidos 
 
 | Critério | Resultado | Evidência |
 | --- | --- | --- |
-| Idioma e `hreflang` | Passa. | 22 páginas com `lang`; links alternates presentes. |
+| Idioma e `hreflang` | Passa. | 23 páginas com `lang`; links alternates presentes. |
 | Hierarquia de títulos | Passa. | Um `h1` por página; nenhum salto de nível. |
 | Texto alternativo | Passa. | 45 imagens; nenhuma sem `alt`. |
 | Nome dos links | Passa. | Nenhum link sem texto. |
@@ -582,10 +569,11 @@ O texto e a borda usam a cor muted, o sombreado é removido e o cursor indica in
 
 Três itens foram aplicados em 02/11/2026.
 Os demais aguardam decisão editorial ou ensaio.
+Situação em 02/11/2026. A lista vigente está em [Pendências](pendencias.md).
 
 ### 5.5 Verificação e limites
 
-- A auditoria estática cobriu 22 páginas, 45 imagens, links, títulos, ARIA e contraste.
+- A auditoria estática cobriu 23 páginas, 45 imagens, links, títulos, ARIA e contraste.
 - As capturas em 320 px e 1280 px foram feitas em navegador headless e não foram versionadas.
 - Não houve ensaio com leitor de tela, zoom real, dispositivo físico ou impressão concluída.
 - Não houve validação externa de acessibilidade.
@@ -802,7 +790,7 @@ O risco maior é a conta, porque ela controla a publicação e o histórico.
 | Ações fixadas por SHA | Passa | Quatro ações com SHA e versão comentada. |
 | Nenhum segredo no repositório | Passa | Varredura por chaves, tokens e senhas sem achado. |
 | Dados privados fora do Git | Passa | `dados-pessoais/` e a base não aparecem em `git ls-files`. |
-| Ativos locais e licença | Passa | 29 ícones; `static/assets/icons/LICENSE.txt`. |
+| Ativos locais e licença | Passa | 28 SVGs; `LICENSE.txt` (lista Feather) e `LICENSE` (cópia genérica). |
 | Backup | Parcial | RAR da v1; v2 pendente. |
 | Página 404 | Passa | `static/404.html`, status 404 e `noindex`. |
 | Cópia limpa sem dados pessoais | Planejada | Decisão D-15; execução no encerramento. |
@@ -857,6 +845,7 @@ O risco maior é a conta, porque ela controla a publicação e o histórico.
 1. Concluir o 2FA e confirmar a proteção da `main`.
 2. Criar o backup da v2.
 3. Executar a cópia limpa sem dados pessoais no encerramento.
+   A lista vigente está em [Pendências](pendencias.md).
 
 ## 9. Governança, arquitetura e serviços de TI — fase 09
 
@@ -1040,23 +1029,15 @@ As declarações factuais continuam em `docs/fontes/competencias-declaradas.json
 ### 11.2 SFIA
 
 O SFIA combina habilidades profissionais com sete níveis de responsabilidade.
-Os níveis vão de 1 “segue” a 7 “define estratégia, inspira e mobiliza”.
-
 O projeto usa o SFIA como vocabulário para áreas de competência.
-Oito áreas foram propostas como candidatas: `USUP`, `NTAS`, `HSIN`, `ITOP`, `DATM`, `PROG`, `CFMG` e `CHMG`.
-
-Nenhum nível foi atribuído.
-Nível exige evidência de autonomia, complexidade e impacto, além de aprovação do responsável.
+Oito áreas foram propostas como candidatas, sem atribuição de nível.
+A estrutura, os limites e o piloto estão em [Competências e frameworks](competencias.md).
 
 ### 11.3 NICE
 
 O NICE Rev. 1 organiza o trabalho de segurança em tarefas, conhecimentos, habilidades e work roles.
-A revisão descontinuou as categorias e áreas de especialidade.
-Não há níveis de proficiência.
-
-O PDF descreve a estrutura, mas não contém o catálogo completo de tarefas e work roles.
+A revisão não define níveis de proficiência e o PDF não contém o catálogo completo.
 Por isso, não há mapeamento de work role nesta fase.
-Um mapeamento exigiria os componentes oficiais do NICE.
 
 ### 11.4 Regras de aplicação
 
@@ -1065,8 +1046,7 @@ Um mapeamento exigiria os componentes oficiais do NICE.
 3. Nenhum nível SFIA ou work role NICE é publicado sem evidência e aprovação.
 4. Não há selo, logotipo ou alegação de certificação.
 5. O piloto SFIA é uma proposta de vocabulário, não um resultado.
-6. A terminologia será revisada contra o JSON e o guia de redação.
-7. A publicação continua em pt-BR primeiro.
+6. A publicação continua em pt-BR primeiro.
 
 ### 11.5 Verificação e limites
 
@@ -1085,6 +1065,7 @@ Um mapeamento exigiria os componentes oficiais do NICE.
 2. Obter os componentes oficiais do NICE, se houver intenção de mapear work roles.
 3. Decidir se algum nível SFIA será publicado.
 4. Registrar a evidência de cada candidato antes de qualquer publicação.
+   A lista vigente está em [Pendências](pendencias.md).
 
 ## 12. Governança estratégica e riscos — fase 12
 
@@ -1114,29 +1095,17 @@ Linha de base medida em 02/11/2026.
 | Segurança | Segredos e arquivos privados rastreados | 0 e 0 | Manter; concluir 2FA. |
 | Publicação | Raiz, HTTPS e 404 | 200, 301 e 404 | Manter. |
 | Documentação | ADRs, requisitos e seções | 7, 25 e 12 | Manter. |
-| Governança | Riscos com dono | 10 de 10 | Revisar por evento. |
+| Governança | Riscos com dono | 13 de 13 | Revisar por evento. |
 
 Nenhum indicador foi criado sem medição.
 O peso é informativo, não uma meta de desempenho.
 
 ### 12.3 Riscos estratégicos
 
-| ID | Risco | P | I | Nível | Dono | Resposta |
-| --- | --- | --- | --- | --- | --- | --- |
-| E01 | Exposição de dados pessoais sem aviso. | 3 | -4 | 12 | Responsável | Aceitar e revisar se a exposição mudar. |
-| E02 | Divergência factual entre variantes. | 3 | -3 | 9 | Agente | Sincronizar a partir de pt-BR. |
-| E03 | Link externo quebrado ou malicioso. | 4 | -2 | 8 | Agente | Conferir por evento e registrar. |
-| E04 | Regressão de acessibilidade. | 3 | -3 | 9 | Agente | Checklist e ensaio manual. |
-| E05 | Perda de conta ou repositório. | 2 | -5 | 10 | Responsável | Concluir 2FA e manter cópia local. |
-| E06 | Perda da base ou do backup. | 2 | -3 | 6 | Responsável | Criar a v2 e manter cópia externa. |
-| E07 | Repositório público expõe dados. | 3 | -3 | 9 | Responsável | Cópia limpa no encerramento. |
-| E08 | Dependência do GitHub Pages. | 2 | -4 | 8 | Responsável | Aceitar; conferir após cada push. |
-| E09 | Alegação excessiva em SFIA ou NICE. | 2 | -4 | 8 | Responsável | Não publicar nível sem evidência. |
-| E10 | Sinônimos de ATS prejudicam a leitura. | 3 | -2 | 6 | Responsável | Decidir sobre EDIT-01 e EDIT-03. |
-
-Os riscos E01 a E06 correspondem a R01 a R06 da seção 1.
-O risco E07 corresponde a R09.
-O registro completo permanece na seção 1.5.
+Os riscos estratégicos E01–E10 foram consolidados no registro único da seção 1.5.
+E01–E06 correspondem a R01–R06; E07 corresponde a R09; E08–E10 correspondem a R11–R13.
+A tabela E foi removida em 02/11/2026 para evitar duplicidade.
+Consulte a seção 1.5 para probabilidade, impacto, dono e resposta.
 
 ### 12.4 Papéis e cadência
 
@@ -1159,15 +1128,6 @@ O registro completo permanece na seção 1.5.
 ### 12.6 Encerramento
 
 As doze seções estão preenchidas.
-O projeto permanece aberto até:
-
-1. o responsável aceitar a linha de base;
-2. o 2FA ser concluído;
-3. a proteção da `main` ser confirmada;
-4. os sinônimos de ATS serem decididos;
-5. os testes de zoom, tema escuro, impressão e leitor de tela serem feitos;
-6. os componentes do NICE serem obtidos, se houver mapeamento;
-7. a cópia limpa sem dados pessoais ser publicada.
-
+O encerramento depende das decisões e verificações listadas em [Pendências](pendencias.md).
 O encerramento não apaga as pendências.
 Ele registra o que está concluído e o que continua sob responsabilidade do operador.

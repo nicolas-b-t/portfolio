@@ -5,7 +5,7 @@ Projeto: portfólio estático HTML/CSS em cinco variantes linguísticas.
 Fonte: `docs/repertorio-tecnico-site/`, com 41 obras e 74 arquivos.
 Este plano usa a base local, com uma exceção registrada na fase 11: o SFIA v9 e o NICE Rev. 1 são consultados na biblioteca principal como referência externa. O SFIA não é copiado para a base por causa da licença.
 
-Este é o registro histórico das 12 fases. A versão enxuta para planejamento futuro está em [Mapa essencial e plano enxuto](docs/plano-enxuto.md). Ela não foi implementada.
+Este é o registro histórico das 12 fases. A versão enxuta para planejamento futuro está em [Mapa essencial e plano enxuto](docs/historico/plano-enxuto.md). Ela não foi implementada.
 
 ## 1. Premissa
 

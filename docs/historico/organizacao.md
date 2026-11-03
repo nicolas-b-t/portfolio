@@ -1,5 +1,8 @@
 # Organização e recuperação do acervo
 
+Registro histórico. Não é guia vigente.
+O estado atual está em [Pendências](../pendencias.md).
+
 Reorganização: 15 de outubro de 2026.
 Organização local: 2 de novembro de 2026.
 Base anterior: commit `56f6430f296f24048fed4327ab68b9708ffb928d`.

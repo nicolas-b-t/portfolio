@@ -97,7 +97,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | NFR-04 | O desempenho é avaliado por teste empírico, com economia de recursos. | Essencial | D-08; R07. | O teste fica registrado; não há meta numérica inventada. | 03 e 05 | Vigente. |
 | NFR-05 | O layout funciona de 320 CSS px até tela ampla, sem rolagem horizontal. | Essencial | WCAG 2.2; auditoria de 02/11/2026. | A 320 CSS px, o conteúdo fica legível e sem transbordamento horizontal. | 05 | Vigente. |
 | NFR-06 | O site respeita tema claro, tema escuro, impressão e `prefers-reduced-motion`. | Esperado | `static/assets/css/styles.css`; AGENTS.md. | As quatro condições funcionam nas páginas conferidas. | 05 | Vigente. |
-| NFR-07 | O HTML é semântico, com hierarquia de títulos e um `h1` por página. | Essencial | HTML Living Standard; AGENTS.md. | Cada página tem um `h1`; a hierarquia não salta níveis sem motivo; o HTML passa na validação adotada na fase 04. | 04 | Parcial; validação pendente. |
+| NFR-07 | O HTML é semântico, com hierarquia de títulos e um `h1` por página. | Essencial | HTML Living Standard; AGENTS.md. | Cada página tem um `h1`; a hierarquia não salta níveis sem motivo; o HTML passa em uma validação declarada e registrada. | 04 | Parcial; validação pendente. |
 | NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | 08 | Parcial; 2FA em ativação e proteção técnica a confirmar. |
 | NFR-09 | O site não usa cookies nem analytics e mantém os dados publicados como estão. | Essencial | D-12; auditoria de 02/11/2026. | Nenhum cookie ou analytics; dados publicados conforme a decisão; dados sensíveis só em cópia local. | 06 | Vigente. |
 | NFR-10 | O projeto mantém um CSS, documentação indexada, `CHANGELOG` e nenhuma etapa de build. | Esperado | AGENTS.md; D-11. | Um CSS comum; documentos ligados no índice; `CHANGELOG` atualizado; publicação sem build. | 03 e 10 | Vigente; `CHANGELOG` criado em 02/11/2026. |
@@ -115,7 +115,8 @@ O identificador não muda quando o texto é ajustado. Uma mudança de sentido cr
 - Backend, banco de dados, framework e etapa de build.
 - Tradução de novas páginas antes de concluir `pt-BR`.
 - Declaração de conformidade com norma ou certificação.
-- Uso de SFIA, NICE, ISO 31000 ou LGPD como fundamento, pois a base local não os contém.
+- Uso de ISO 31000 ou LGPD como fundamento, pois a base local não os contém.
+- Publicação de níveis SFIA ou work roles NICE sem evidência e aprovação; ambos são referências externas, não certificação.
 
 ## 10. Verificação e limites
 
@@ -136,4 +137,6 @@ Limites:
 
 ## 11. Pendências
 
-1. NFR-08: concluir o 2FA e confirmar a proteção da `main` na fase 08.
+A lista vigente está em [Pendências](pendencias.md).
+Os requisitos parciais são NFR-01, NFR-07, NFR-08 e NFR-11.
+A situação de cada um é atualizada na lista, não neste catálogo.

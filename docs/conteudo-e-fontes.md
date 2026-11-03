@@ -96,4 +96,4 @@ O uso internacional depende das condições do destino e da CNH válida.
 Não atribua equivalência a uma licença profissional estrangeira.
 Consulte a [Senatran](https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/portarias/2022/Portaria10432022.pdf) antes de alterar a explicação.
 
-Os históricos completos das decisões e dos testes foram preservados conforme o [registro da organização](organizacao.md).
+Os históricos completos das decisões e dos testes foram preservados conforme o [registro da organização](historico/organizacao.md).

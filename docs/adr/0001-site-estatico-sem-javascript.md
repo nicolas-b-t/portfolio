@@ -42,5 +42,5 @@ O site não usa JavaScript, formulário, iframe ou rastreador.
 
 ## Confirmação
 
-Conferir ausência de `<script>`, `<form>` e `<iframe>` nas 22 páginas.
+Conferir ausência de `<script>`, `<form>` e `<iframe>` nas 23 páginas.
 Conferir que o workflow copia `static/` sem etapa de build.

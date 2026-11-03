@@ -19,4 +19,4 @@ Não houve revisão por especialistas nativos.
 
 Os arquivos usam UTF-8, normalização NFC e quebras LF.
 Árabe, persa e hebraico possuem direção principal da direita para a esquerda.
-Os ensaios anteriores estão no arquivo descrito em [Organização](../organizacao.md).
+Os ensaios anteriores estão no arquivo descrito em [Organização](../historico/organizacao.md).

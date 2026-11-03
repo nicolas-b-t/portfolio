@@ -15,7 +15,7 @@ Os links externos abaixo identificam as fontes. Cópias integrais de normas não
 | Etiquetas de idioma | [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html) |
 | GitHub Pages | [Documentação oficial](https://docs.github.com/en/pages) |
 
-As cópias integrais anteriores de normas, bases de competências, código de terceiros e relatórios estão no arquivo local documentado em [Organização](../organizacao.md).
+As cópias integrais anteriores de normas, bases de competências, código de terceiros e relatórios estão no arquivo local documentado em [Organização](../historico/organizacao.md).
 As licenças e os avisos recebidos foram preservados com esse acervo.
 Consulte a fonte oficial antes de aplicar uma edição mais recente.
 
