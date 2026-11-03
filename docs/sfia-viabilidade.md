@@ -150,6 +150,7 @@ Arquivos alterados:
 - `CHANGELOG.md`: registro da publicação.
 
 O bloco usa HTML semântico, sem JavaScript.
+O bloco inclui um `<details>` nativo com metodologia, critérios e a lista das nove habilidades; o conteúdo é oculto na impressão.
 A nota visível diz que é autoavaliação baseada no SFIA 9, sem certificação, endosso ou afiliação.
 O logotipo não é usado.
 

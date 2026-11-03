@@ -141,6 +141,8 @@ Sem esses componentes, o mapeamento seria inventado.
 
 O site exibe um bloco compacto em pt-BR desde 02/11/2026.
 O bloco tem sete habilidades, níveis 2 e 3, evidência curta e nota de autoavaliação.
+Uma visualização colapsável, em `<details>` nativo, reúne a metodologia, os critérios dos níveis 2 e 3, a lista das nove habilidades analisadas e as duas não publicadas.
+Ela não depende de JavaScript e fica oculta na impressão.
 Os outros idiomas não receberam o bloco nesta etapa.
 Não há work role NICE, selo ou logotipo.
 A viabilidade e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
