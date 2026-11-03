@@ -153,9 +153,9 @@ Arquivos alterados:
 - `CHANGELOG.md`: registro da publicação.
 
 O bloco usa HTML semântico, sem JavaScript.
-A seção inteira é um `<details>` nativo, aberta por padrão e colapsável.
+A seção inteira é um `<details>` nativo, fechada por padrão e colapsável.
 Dentro dela, um segundo `<details>` reúne a metodologia e a lista das nove habilidades.
-Na impressão, o título e os cartões aparecem; a metodologia fica oculta.
+Na impressão, uma cópia estática mostra o título e os cartões; a metodologia e a seção interativa ficam ocultas.
 A nota visível diz que é autoavaliação baseada no SFIA 9, sem certificação, endosso ou afiliação.
 O logotipo não é usado.
 

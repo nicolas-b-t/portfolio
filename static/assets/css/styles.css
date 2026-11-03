@@ -457,6 +457,10 @@ p {
   border-top: var(--line) solid var(--ink);
 }
 
+.sfia-print {
+  display: none;
+}
+
 .sfia-summary {
   cursor: pointer;
   list-style-position: inside;
@@ -908,20 +912,11 @@ p {
   }
 
   .sfia-profile {
-    break-inside: avoid;
-  }
-
-  .sfia-summary {
-    display: block;
-    list-style: none;
-    cursor: default;
-  }
-
-  .sfia-summary::marker {
-    content: "";
-  }
-
-  .sfia-details {
     display: none;
+  }
+
+  .sfia-print {
+    display: block;
+    break-inside: avoid;
   }
 }
