@@ -17,6 +17,7 @@ Os riscos e seus donos estão na seção 1.5 de [Padrões técnicos](padroes-tec
 | P-04 | Decidir se algum nível SFIA será publicado. | §11.6; R12 | Responsável | Aberto | Exigir evidência antes de publicar. |
 | P-05 | Decidir se haverá mapeamento de work roles do NICE. | §11.6 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
 | P-06 | Confirmar a licença canônica dos ícones. | §8.4 | Responsável | Aberto | Confirmar `LICENSE.txt` e retirar a cópia genérica, se aprovado. |
+| P-13 | Decidir o COA para publicar o SFIA no site. | [SFIA: viabilidade](sfia-viabilidade.md) | Responsável | Aberto | Escolher A, B, C, D ou E; aprovar habilidades e níveis. |
 
 ## 2. Segurança e continuidade
 

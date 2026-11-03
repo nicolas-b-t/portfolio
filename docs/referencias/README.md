@@ -22,3 +22,6 @@ Consulte a fonte oficial antes de aplicar uma edição mais recente.
 O PDF da ASD-STE100 não acompanha clones do Git. Consulte a origem registrada no manifesto antes de citar uma edição.
 O manifesto anterior continua registrando a origem e a condição de recuperação.
 O guia do projeto adapta princípios de clareza. Ele não constitui tradução oficial nem certificação STE.
+
+O SFIA é consultado na biblioteca principal e em cópia privada local (`docs/referencias/sfia-local/`, ignorada pelo Git).
+A análise de viabilidade e as COAs estão em [SFIA: viabilidade](../sfia-viabilidade.md).

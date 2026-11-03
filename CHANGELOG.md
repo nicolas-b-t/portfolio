@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Reorganiza a documentação: pendências únicas, histórico separado e remoção de duplicidade. | Este commit. |
+| 2026-11-02 | Registra viabilidade e COAs para publicar o SFIA; cópia privada em `docs/referencias/sfia-local/`. | Este commit. |
+| 2026-11-02 | Reorganiza a documentação: pendências únicas, histórico separado e remoção de duplicidade. | `ad0ae8e` |
 | 2026-11-02 | Registra o mapa essencial e o plano enxuto, sem reimplementação. | `35c264d` |
 | 2026-11-02 | Governança estratégica, indicadores e riscos (fase 12). | `ad2b01a` |
 | 2026-11-02 | Competências: SFIA e NICE documentados, com regras de aplicação (fase 11). | `f71c9f3` |

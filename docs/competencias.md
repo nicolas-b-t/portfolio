@@ -138,6 +138,7 @@ Sem esses componentes, o mapeamento seria inventado.
 
 Nesta etapa, o uso é interno.
 O site não exibe níveis SFIA, work roles NICE, selos ou logotipos.
+A viabilidade de publicação, as condições e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
 Qualquer publicação exige:
 
 1. evidência da competência;
@@ -157,10 +158,12 @@ Qualquer publicação exige:
 
 O SFIA é propriedade da SFIA Foundation.
 O uso pessoal e a maior parte do uso interno de gestão são gratuitos; cópia, redistribuição e uso comercial exigem licença.
-O projeto não copia o PDF para a base local nem publica trechos no site.
+O projeto não copia o PDF para a base local versionada nem publica trechos no site.
+A cópia privada de consulta fica em `docs/referencias/sfia-local/`, ignorada pelo Git.
 O NICE é publicação do NIST, sem direitos autorais nos Estados Unidos; a atribuição é apreciada.
 
 Os caminhos da tabela são relativos à raiz `REPERTORIO_TECNICO`.
+A cópia privada de consulta é relativa à raiz do projeto e não integra a base.
 
 ## 9. Limites e revisão
 
@@ -168,4 +171,5 @@ Os caminhos da tabela são relativos à raiz `REPERTORIO_TECNICO`.
 - Não há mapeamento NICE completo.
 - Não há aprovação para publicar níveis ou work roles.
 - O piloto SFIA é uma proposta de vocabulário, não um resultado.
+- A viabilidade de publicação e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
 - A revisão ocorre quando houver nova competência, certificação, projeto ou decisão de publicação.

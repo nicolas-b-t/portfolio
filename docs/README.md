@@ -30,6 +30,7 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 | Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) | Referência |
 | Fatos, qualificações e atribuições | [Conteúdo e fontes](conteudo-e-fontes.md) | Referência |
 | Competências e frameworks | [Competências](competencias.md) | Explicação |
+| Viabilidade de publicação do SFIA | [SFIA: viabilidade](sfia-viabilidade.md) | Explicação |
 | Currículos gerais atuais | [PDFs V3](curriculos/v3/README.md) | Referência |
 | Europass, ATS e fontes externas | [Referências](referencias/README.md) | Referência |
 | Listas de consulta | [Tags](../listas-de-tags/README.md) | Referência |
