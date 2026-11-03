@@ -46,7 +46,7 @@ Depois do push, confira a página publicada, a troca de idioma e uma URL inexist
 Use pt-BR como base factual e sincronize o conteúdo comum nas outras variantes.
 Todas as páginas compartilham `static/assets/css/styles.css`.
 A documentação e os currículos em `docs/` acompanham o repositório, fora do site publicado.
-`docs/referencias/repertorio-tecnico-site/` e `dados-pessoais/` ficam somente no computador e são ignorados pelo Git.
+A base técnica foi arquivada fora do projeto; o catálogo fica em `docs/referencias/repertorio-tecnico-site/`. Os dados pessoais ficam em `dados-pessoais/`, ignorados pelo Git.
 
 O acervo anterior foi preservado fora da árvore ativa.
 Consulte o [registro histórico](docs/historico/historico.md) para recuperar fontes e históricos.

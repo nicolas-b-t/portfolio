@@ -97,10 +97,9 @@ O [guia de redação](../guia-de-redacao.md) adapta princípios de clareza; não
 
 ## Repertório técnico local
 
-A base de consulta fica em `repertorio-tecnico-site/` (67 MB, ignorada pelo Git).
-O catálogo está em `repertorio-tecnico-site/catalogo.json`; o índice, em `repertorio-tecnico-site/indice-local.md`.
-As citações históricas em [Padrões técnicos](../historico/padroes-tecnicos.md) usam esse caminho.
-O arquivamento da base depende de P-15 em [Requisitos](../requisitos.md), §11.
+A base técnica foi arquivada em 03/11/2026 em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/` (67 MB).
+O catálogo e o índice permanecem em `repertorio-tecnico-site/` como registro.
+As citações históricas em [Padrões técnicos](../historico/padroes-tecnicos.md) usam o caminho antigo.
 
 ## Fontes externas
 

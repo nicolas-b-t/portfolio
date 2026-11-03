@@ -5,6 +5,7 @@ Projeto: portfólio estático HTML/CSS em cinco variantes linguísticas.
 Registro histórico; movido para `docs/historico/` em 3 de novembro de 2026.
 Fonte: `docs/referencias/repertorio-tecnico-site/`, com 41 obras e 74 arquivos.
 Este plano usa a base local, com uma exceção registrada na fase 11: o SFIA v9 e o NICE Rev. 1 são consultados na biblioteca principal como referência externa. O SFIA não é copiado para a base por causa da licença.
+A base técnica citada foi arquivada em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/`.
 
 Este é o registro histórico das 12 fases. A versão enxuta para planejamento futuro está em [Mapa essencial e plano enxuto](historico.md). Ela não foi implementada.
 

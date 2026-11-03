@@ -4,6 +4,7 @@ Este arquivo registra a aplicação da base local `docs/referencias/repertorio-t
 Cada seção corresponde a uma pasta técnica, de `01` a `12`.
 O [plano](plano-12-fases.md) define as fases, a ordem e os limites.
 A situação das fases fica no plano, §6. Não repita a tabela aqui.
+As citações de `docs/referencias/repertorio-tecnico-site/` referem-se à base arquivada em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/`.
 
 Cada seção termina com uma decisão: aplicada, aplicada parcialmente, não aplicável ou lacuna.
 Nenhuma seção declara conformidade, certificação ou equivalência com norma.

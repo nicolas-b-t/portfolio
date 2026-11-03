@@ -14,7 +14,9 @@ __pycache__/
 
 # Bibliotecas de consulta privadas, somente locais
 /REPERTORIO_TECNICO/
-/docs/referencias/repertorio-tecnico-site/
+
+# Base técnica arquivada; catálogo e índice permanecem versionados
+/docs/referencias/repertorio-tecnico-site/*/
 
 # Dados pessoais, cópias privadas e rascunhos, somente locais
 /dados-pessoais/

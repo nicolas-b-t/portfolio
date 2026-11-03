@@ -48,7 +48,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 
 O GitHub Pages publica somente `static/`.
 Planos substituídos, caches e relatórios antigos ficam fora da árvore ativa.
-O repertório técnico de consulta fica em `docs/referencias/repertorio-tecnico-site/` (67 MB, inativo) e os dados pessoais em `dados-pessoais/`, ambos ignorados pelo Git.
-O arquivamento da base técnica depende da decisão P-15 em [Requisitos](requisitos.md), §11.
+A base técnica foi arquivada em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/`.
+O catálogo e o índice ficam em `docs/referencias/repertorio-tecnico-site/`; os dados pessoais ficam em `dados-pessoais/`, ignorados pelo Git.
 
 No Google Drive, consulte os [currículos V3](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI) e a [documentação Europass/ATS](https://drive.google.com/drive/folders/1GOtxB3WCRJYXLrCOFIdS7DaD_IWNPxij).
