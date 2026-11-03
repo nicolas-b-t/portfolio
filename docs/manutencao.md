@@ -21,7 +21,7 @@ Registre outras limitações nas descrições e na formação.
 
 A cópia oculta `dados-curriculo` deriva dos dados públicos da página.
 Ela não é uma entrada independente para ampliar qualificações.
-Confira a coerência entre a página, o bloco oculto e a [lista de consulta](../listas-de-tags/README.md).
+Confira a coerência entre a página, o bloco oculto e a [lista de consulta](listas-de-tags/README.md).
 Os aliases auxiliam consultas específicas; não garantem reconhecimento por todos os ATS.
 
 ## Página de projetos em pt-BR

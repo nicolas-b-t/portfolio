@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-03 | Arquiva a base técnica de 67 MB e mantém catálogo e índice. | Este commit. |
+| 2026-11-03 | Consolida as listas de tags em `docs/listas-de-tags/` e remove a coluna Fase dos requisitos. | Este commit. |
+| 2026-11-03 | Arquiva a base técnica de 67 MB e mantém catálogo e índice. | `89892e1` |
 | 2026-11-03 | Unifica referências e repertório técnico em `docs/referencias/`. | `8ad499c` |
 | 2026-11-03 | Move `docs/fontes/` para `dados-pessoais/fontes/` e funde os manifestos em um único arquivo. | `9372ba9` |
 | 2026-11-03 | Consolida dados e documentos: arquiva capturas, remove cópias e funde históricos, decisões, referências e pendências. | `56d6393` |

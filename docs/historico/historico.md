@@ -36,7 +36,7 @@ O catálogo e o índice do repertório não fundamentam regras do projeto.
 - `docs/referencias/`: Europass, ATS e fontes externas.
 - `docs/referencias/repertorio-tecnico-site/`: catálogo e índice; conteúdo arquivado.
 - `dados-pessoais/`: currículos, relatórios e rascunhos, ignorados pelo Git.
-- `listas-de-tags/` e `docs/tags-multilingues/`: listas e traduções editoriais.
+- `docs/listas-de-tags/`: listas de consulta, glossário e traduções editoriais.
 
 As cópias oficiais do Europass ficam em `docs/referencias/europass-fontes/`, versionadas e preservadas byte a byte.
 
@@ -46,7 +46,7 @@ As pastas passaram ao padrão do `AGENTS.md`: minúsculas, sem acentos, com híf
 
 | Antes | Depois |
 | --- | --- |
-| `Lista_de_tags/` | `listas-de-tags/` |
+| `Lista_de_tags/` | `docs/listas-de-tags/` |
 | `DADOS_PESSOAIS/` | `dados-pessoais/` |
 | `docs/REPERTORIO_TECNICO_SITE/` | `docs/referencias/repertorio-tecnico-site/` |
 | `docs/referencias/ats/originais-local/` | `docs/referencias/ats-local/` (arquivada em 03/11/2026) |

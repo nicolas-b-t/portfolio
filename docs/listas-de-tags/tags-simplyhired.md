@@ -1045,4 +1045,4 @@ Tags distintas: 2.
 
 Para ampliar esta pesquisa, use anúncios com identificadores distintos e preserve o vínculo entre cada tag e suas fontes.
 Atualize as contagens por grupo quando substituir ou acrescentar uma vaga.
-Não incorpore os rótulos automaticamente às listas pessoais. Confira a base factual e as [fontes do currículo](../docs/conteudo-e-fontes.md).
+Não incorpore os rótulos automaticamente às listas pessoais. Confira a base factual e as [fontes do currículo](../conteudo-e-fontes.md).

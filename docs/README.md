@@ -32,8 +32,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | Competências, SFIA e NICE | [Competências](competencias.md) | Explicação |
 | Currículos gerais atuais | [PDFs V3](curriculos/v3/README.md) | Referência |
 | Europass, ATS, fontes externas e repertório técnico | [Referências](referencias/README.md) | Referência |
-| Listas de consulta | [Tags](../listas-de-tags/README.md) | Referência |
-| Traduções editoriais das tags | [Glossário e manifesto](tags-multilingues/README.md) | Referência |
+| Listas e traduções de tags | [Listas de tags](listas-de-tags/README.md) | Referência |
 | Histórico de mudanças | [CHANGELOG](../CHANGELOG.md) | Referência |
 
 ## Histórico
