@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-03 | Corrige manifestos, funde o guia de redação em Manutenção e resume o registro das 12 fases. | Este commit. |
+| 2026-11-03 | Registra a linha de base de 02/11 (`75d5651`) e revisa os níveis SFIA: `HSIN` e `NTAS` no nível 2. | Este commit. |
+| 2026-11-03 | Corrige manifestos, funde o guia de redação em Manutenção e resume o registro das 12 fases. | `8dd903f` |
 | 2026-11-03 | Consolida as listas de tags em `docs/listas-de-tags/` e remove a coluna Fase dos requisitos. | `7a096cb` |
 | 2026-11-03 | Arquiva a base técnica de 67 MB e mantém catálogo e índice. | `89892e1` |
 | 2026-11-03 | Unifica referências e repertório técnico em `docs/referencias/`. | `8ad499c` |

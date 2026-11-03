@@ -104,13 +104,13 @@ O PDF do NIST não contém o catálogo completo de tarefas e work roles; esses a
 
 Perfil publicado em pt-BR em 02/11/2026 como autoavaliação.
 Os níveis 4 a 7 não foram usados.
-A revisão dos níveis está em [Requisitos](requisitos.md), §11 (P-14).
+A revisão dos níveis foi concluída em 03/11/2026.
 
 | Área declarada | Evidência atual | Habilidade SFIA | Níveis da habilidade | Nível adotado | Situação |
 | --- | --- | --- | --- | --- | --- |
 | Suporte técnico e incidentes | Lukos e Alpha; relatórios e texto do currículo | `USUP` — Gestão de incidentes | 1 a 6 | 3 — Aplica | Publicado. |
-| Redes e fibra óptica | RealFort; relatório e galeria | `NTAS` — Suporte a redes | 1 a 5 | 3 — Aplica | Publicado. |
-| Instalação e manutenção de sistemas | RealFort e Alpha | `HSIN` — Instalação e remoção de sistemas | 1 a 5 | 3 — Aplica | Publicado. |
+| Redes e fibra óptica | RealFort; relatório e galeria | `NTAS` — Suporte a redes | 1 a 5 | 2 — Auxilia | Publicado. |
+| Instalação e manutenção de sistemas | RealFort e Alpha | `HSIN` — Instalação e remoção de sistemas | 1 a 5 | 2 — Auxilia | Publicado. |
 | Suporte a aplicações | Lukos; ERP/PDV e NF-e/NFC-e | `ASUP` — Suporte a aplicações | 2 a 5 | 3 — Aplica | Publicado. |
 | Operações de infraestrutura | Alpha e Lukos; suporte e monitoramento | `ITOP` — Operações de infraestrutura | 1 a 5 | 2 — Auxilia | Publicado. |
 | Dados e SQL | Curso, projeto e competências | `DATM` — Gestão de dados | 2 a 6 | — | Não publicado; faixa 1–2. |
@@ -146,6 +146,7 @@ Na impressão, uma cópia estática mostra o título e os cartões; a seção in
 Os outros idiomas não receberam o bloco nesta etapa.
 Não há work role NICE, selo ou logotipo.
 A decisão A+B foi registrada em 02/11/2026: perfil em pt-BR, níveis 2 e 3, `CHMG` no lugar de `CFMG`; `CFMG` e `DATM` ficaram fora.
+A revisão de 03/11/2026 rebaixou `NTAS` e `HSIN` para o nível 2 e manteve os demais níveis.
 O histórico completo está no Git.
 
 Qualquer nova publicação exige:
@@ -179,7 +180,7 @@ Os caminhos da tabela são relativos à raiz `REPERTORIO_TECNICO`.
 - Não há mapeamento NICE completo.
 - Os níveis SFIA são autoavaliação.
 - Nenhum nível 4 a 7 foi publicado.
-- A revisão dos níveis está em [Requisitos](requisitos.md), §11 (P-14).
+- A revisão dos níveis foi concluída em 03/11/2026.
 - O perfil SFIA é uma proposta de vocabulário, não um resultado.
 - A revisão ocorre quando houver nova competência, certificação, projeto ou decisão de publicação.
 

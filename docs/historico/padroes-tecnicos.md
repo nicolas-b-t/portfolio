@@ -101,7 +101,7 @@ Os dados publicados foram mantidos e não há aviso de privacidade, conforme D-1
 
 **Resultado:** sete habilidades SFIA publicadas em pt-BR, com níveis 2 e 3; `CFMG` e `DATM` ficaram fora do piloto; nenhum work role NICE foi atribuído.
 
-**Limite:** sem avaliação certificada; o PDF do NICE não contém o catálogo completo; a revisão dos níveis está em P-14.
+**Limite:** sem avaliação certificada; o PDF do NICE não contém o catálogo completo; os níveis foram revisados em 03/11/2026.
 
 ## 12. Governança estratégica e riscos — fase 12
 
@@ -152,6 +152,8 @@ Os dados publicados foram mantidos e não há aviso de privacidade, conforme D-1
 | D-35 | Estimativa revista para cerca de 15 sessões com a fase 11 em esforço M. |
 | D-36 | Revisão mínima anual em 02/11/2027; revisão por evento quando houver dado novo. |
 | D-37 | O plano de 12 fases permanece como registro; o mapa essencial e o plano enxuto foram registrados em [Histórico](historico.md) e não serão implementados. |
+| D-38 | Linha de base de 02/11/2026 aceita: commit `75d5651`, abrangendo plano, requisitos, decisões e guias. |
+| D-39 | Revisão dos níveis SFIA: `HSIN` e `NTAS` rebaixados para o nível 2; os demais mantidos. Evidências preservadas. |
 
 ## 14. Medições de 02/11/2026
 

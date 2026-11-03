@@ -124,6 +124,7 @@ Limites: inspeção estática; ensaio visual interativo de `mask`, teclado, foco
 - `docs/guia-de-redacao.md`: fundido em [Manutenção](../manutencao.md), seção Redação.
 - `docs/referencias/asd-ste100/` e `docs/referencias/europass/`: manifestos movidos para `docs/referencias/manifestos/`; os caminhos do Europass foram corrigidos.
 - `docs/historico/padroes-tecnicos.md`: resumido para cerca de 10 KB; o texto integral foi arquivado em `_arquivo/site-curriculo-portfolio/2026-11-03/padroes-tecnicos-integral.md`.
+- `docs/competencias.md`: níveis SFIA revisados; `HSIN` e `NTAS` passaram ao nível 2.
 
 Os antigos arquivos de histórico, o plano enxuto, as pendências, a análise SFIA e os ADRs foram fundidos nos documentos atuais.
 O texto integral permanece no histórico Git.

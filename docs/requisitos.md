@@ -3,6 +3,7 @@
 Catálogo aceito em 02/11/2026, na fase 02 do [plano](historico/plano-12-fases.md).
 O catálogo das fontes normativas históricas fica em `docs/referencias/repertorio-tecnico-site/`; o conteúdo foi arquivado em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/`. As demais fontes são os documentos do projeto e as decisões registradas.
 Os requisitos marcados como vigentes descrevem o comportamento atual. O catálogo aceito é a linha de base.
+Linha de base aceita em 02/11/2026 no commit `75d5651`.
 
 ## 1. Finalidade e escopo
 
@@ -84,7 +85,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | FR-12 | A impressão mostra o conteúdo e oculta menus e cópia estruturada. | Esperado | `static/assets/css/styles.css`; auditoria de 02/11/2026. | A impressão mostra as seções; a cópia oculta não aparece; não há corte de conteúdo. | Vigente. |
 | FR-13 | O site tem página 404 no mesmo estilo, com retorno ao início. | Opcional | D-17; documentação do GitHub Pages (EXT-02). | A página abre no lugar do erro padrão; mantém `lang` e link de retorno. | Vigente; implementado em 02/11/2026. |
 | FR-14 | A estrutura aceita novas variantes sem duplicar CSS ou workflow. | Opcional | D-07; AGENTS.md. | Uma variante nova usa o mesmo CSS e o mesmo workflow; `pt-BR` está concluído antes. | Futuro. |
-| FR-15 | O currículo em pt-BR apresenta um perfil SFIA compacto, com 5 a 7 habilidades, nível e evidência, sem certificação. | Esperado | SFIA 9; D-34; `docs/competencias.md`. | O bloco lista as habilidades publicadas; cada nível tem evidência; não há logo, selo ou descrição oficial copiada; a cópia oculta confere; a seção é um `details` nativo, inicia fechada e pode ser aberta; a impressão usa uma cópia estática com título e cartões. | Vigente; publicado em 02/11/2026. |
+| FR-15 | O currículo em pt-BR apresenta um perfil SFIA compacto, com 5 a 7 habilidades, nível e evidência, sem certificação. | Esperado | SFIA 9; D-34; `docs/competencias.md`. | O bloco lista as habilidades publicadas; cada nível tem evidência; não há logo, selo ou descrição oficial copiada; a cópia oculta confere; a seção é um `details` nativo, inicia fechada e pode ser aberta; a impressão usa uma cópia estática com título e cartões. | Vigente; publicado em 02/11/2026, níveis revisados em 03/11/2026. |
 
 ## 7. Requisitos não funcionais
 
@@ -139,7 +140,6 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
-| P-01 | Aceitar formalmente a linha de base de 02/11/2026. | §12; requisitos | Responsável | Aberto | Registrar a data e o commit aceitos. |
 | P-02 | Decidir se os sinônimos visíveis de ATS permanecem na tela. | EDIT-01; R13 | Responsável | Aberto | Manter na tela ou mover para a cópia oculta. |
 | P-03 | Revisar as frases de ATS em inglês na lista visível. | EDIT-03; R13 | Responsável | Aberto | Decidir junto com P-02. |
 | P-05 | Decidir se haverá mapeamento de work roles do NICE. | Histórico, §11 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
@@ -160,8 +160,8 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | P-10 | Testar zoom, tema escuro, impressão e leitor de tela. | TEST-01; NFR-01 | Agente e responsável | Aberto | Executar, registrar a evidência e fechar TEST-01. |
 | P-11 | Validar HTML e hierarquia de títulos. | NFR-07 | Agente | Parcial | Definir o método, executar e registrar o resultado. |
 | P-12 | Ensaiar em navegador atual e em celular. | NFR-11 | Agente | Parcial | Registrar navegador, largura e resultado. |
-| P-14 | Revisar os sete níveis SFIA publicados. | FR-15 | Responsável | Aberto | Confirmar ou ajustar níveis e evidências; registrar a decisão. |
 
 A base técnica de 67 MB foi arquivada em 03/11/2026.
+P-01 e P-14 foram concluídas em 03/11/2026.
 
 **Regras:** uma pendência nova entra com ID, origem, dono e próximo passo. Item concluído sai da lista e entra no `CHANGELOG`. Item sem dono fica com o responsável. A lista é revisada ao fim de cada marco e antes de cada publicação.
