@@ -1,7 +1,7 @@
 # Requisitos do site
 
 Catálogo aceito em 02/11/2026, na fase 02 do [plano](historico/plano-12-fases.md).
-As fontes normativas estão na base local `docs/repertorio-tecnico-site/`. As demais fontes são os documentos do projeto e as decisões registradas.
+As fontes normativas estão na base local `docs/referencias/repertorio-tecnico-site/`. As demais fontes são os documentos do projeto e as decisões registradas.
 Os requisitos marcados como vigentes descrevem o comportamento atual. O catálogo aceito é a linha de base.
 
 ## 1. Finalidade e escopo
@@ -149,7 +149,7 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | P-03 | Revisar as frases de ATS em inglês na lista visível. | EDIT-03; R13 | Responsável | Aberto | Decidir junto com P-02. |
 | P-05 | Decidir se haverá mapeamento de work roles do NICE. | Histórico, §11 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
 | P-06 | Confirmar a licença canônica dos ícones. | Histórico, §8 | Responsável | Aberto | Confirmar `LICENSE.txt` e retirar a cópia genérica, se aprovado. |
-| P-15 | Decidir se a base técnica de 67 MB será arquivada. | `docs/repertorio-tecnico-site/` | Responsável | Aberto | Arquivar fora do projeto ou manter; registrar a decisão. |
+| P-15 | Decidir se a base técnica de 67 MB será arquivada. | `docs/referencias/repertorio-tecnico-site/` | Responsável | Aberto | Arquivar fora do projeto ou manter; registrar a decisão. |
 
 ### Segurança e continuidade
 

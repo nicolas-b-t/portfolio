@@ -95,6 +95,13 @@ O PDF da ASD-STE100 não acompanha clones do Git.
 Consulte a origem no [manifesto](asd-ste100/manifesto.json) antes de citar uma edição.
 O [guia de redação](../guia-de-redacao.md) adapta princípios de clareza; não é tradução oficial nem certificação STE.
 
+## Repertório técnico local
+
+A base de consulta fica em `repertorio-tecnico-site/` (67 MB, ignorada pelo Git).
+O catálogo está em `repertorio-tecnico-site/catalogo.json`; o índice, em `repertorio-tecnico-site/indice-local.md`.
+As citações históricas em [Padrões técnicos](../historico/padroes-tecnicos.md) usam esse caminho.
+O arquivamento da base depende de P-15 em [Requisitos](../requisitos.md), §11.
+
 ## Fontes externas
 
 | Assunto | Referência |

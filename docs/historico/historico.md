@@ -15,7 +15,7 @@ Base anterior: commit `56f6430f296f24048fed4327ab68b9708ffb928d`.
 Na reorganização de outubro, a árvore ativa passou de aproximadamente 110 MB para 14,4 MB, sem `.git`.
 Saíram do repositório 125 arquivos de consulta, evidência histórica ou documentação substituída.
 
-Em 02/11/2026, o repertório técnico voltou para `docs/repertorio-tecnico-site/`, com catálogo, índice e 74 cópias, sem alteração dos bytes.
+Em 02/11/2026, o repertório técnico voltou para `docs/repertorio-tecnico-site/` com catálogo, índice e 74 cópias, sem alteração dos bytes. Em 03/11/2026, foi movido para `docs/referencias/repertorio-tecnico-site/`.
 Os dados pessoais foram reunidos em `dados-pessoais/`:
 
 | Pasta | Conteúdo |
@@ -34,7 +34,7 @@ O catálogo e o índice do repertório não fundamentam regras do projeto.
 - `docs/curriculos/v3/`: dez PDFs atuais, índice e manifesto.
 - `dados-pessoais/fontes/`: declarações, relatório acadêmico e manifestos.
 - `docs/referencias/`: Europass, ATS e fontes externas.
-- `docs/repertorio-tecnico-site/`: repertório técnico, ignorado pelo Git.
+- `docs/referencias/repertorio-tecnico-site/`: repertório técnico, ignorado pelo Git.
 - `dados-pessoais/`: currículos, relatórios e rascunhos, ignorados pelo Git.
 - `listas-de-tags/` e `docs/tags-multilingues/`: listas e traduções editoriais.
 
@@ -48,7 +48,7 @@ As pastas passaram ao padrão do `AGENTS.md`: minúsculas, sem acentos, com híf
 | --- | --- |
 | `Lista_de_tags/` | `listas-de-tags/` |
 | `DADOS_PESSOAIS/` | `dados-pessoais/` |
-| `docs/REPERTORIO_TECNICO_SITE/` | `docs/repertorio-tecnico-site/` |
+| `docs/REPERTORIO_TECNICO_SITE/` | `docs/referencias/repertorio-tecnico-site/` |
 | `docs/referencias/ats/originais-local/` | `docs/referencias/ats-local/` (arquivada em 03/11/2026) |
 | `docs/referencias/europass/fontes/` | `docs/referencias/europass-fontes/` |
 | `docs/fontes/academico/originais-local/` | `docs/fontes/academico-local/` (arquivada em 03/11/2026) |
@@ -120,7 +120,7 @@ Limites: inspeção estática; ensaio visual interativo de `mask`, teclado, foco
 - `docs/referencias/ats-local/`: movida para `_arquivo/site-curriculo-portfolio/2026-11-03/referencias-ats-local/`.
 - `docs/fontes/academico-local/`: o PPC foi integrado em `dados-pessoais/fontes/academico/`; a pasta intermediária foi removida.
 - `docs/fontes/`: movida para `dados-pessoais/fontes/`; os arquivos deixam de acompanhar o Git.
-- `docs/repertorio-tecnico-site/`: mantida; o arquivamento dos 67 MB depende de P-15 em [Requisitos](../requisitos.md), §11.
+- `docs/referencias/repertorio-tecnico-site/`: base movida para dentro de `referencias`; o arquivamento dos 67 MB depende de P-15 em [Requisitos](../requisitos.md), §11.
 
 Os antigos arquivos de histórico, o plano enxuto, as pendências, a análise SFIA e os ADRs foram fundidos nos documentos atuais.
 O texto integral permanece no histórico Git.

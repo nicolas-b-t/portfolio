@@ -3,7 +3,7 @@
 Data: 2 de novembro de 2026.
 Projeto: portfólio estático HTML/CSS em cinco variantes linguísticas.
 Registro histórico; movido para `docs/historico/` em 3 de novembro de 2026.
-Fonte: `docs/repertorio-tecnico-site/`, com 41 obras e 74 arquivos.
+Fonte: `docs/referencias/repertorio-tecnico-site/`, com 41 obras e 74 arquivos.
 Este plano usa a base local, com uma exceção registrada na fase 11: o SFIA v9 e o NICE Rev. 1 são consultados na biblioteca principal como referência externa. O SFIA não é copiado para a base por causa da licença.
 
 Este é o registro histórico das 12 fases. A versão enxuta para planejamento futuro está em [Mapa essencial e plano enxuto](historico.md). Ela não foi implementada.
@@ -53,7 +53,7 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 
 ### Fase 01 — `01_GESTAO_DE_PROJETOS`
 
-- **Fonte:** `docs/repertorio-tecnico-site/gestao-requisitos-testes/Comissao Europeia - PM2 Metodologia de Gestao de Projetos (PT) - v3.1.pdf`.
+- **Fonte:** `docs/referencias/repertorio-tecnico-site/gestao-requisitos-testes/Comissao Europeia - PM2 Metodologia de Gestao de Projetos (PT) - v3.1.pdf`.
 - **Aplicar:** ficha do projeto com escopo, interessados, entregas, critérios de aceite, marcos e riscos iniciais. Tailoring do PM2 proporcional ao porte. Gates deste plano.
 - **Verificar:** ficha aprovada. Cada fase com responsável, data e critério de saída.
 - **Saída:** seção “Gestão” em `docs/historico/padroes-tecnicos.md`.
@@ -131,7 +131,7 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 
 ### Fase 09 — `09_GOVERNANCA_ARQUITETURA_E_SERVICOS_DE_TI`
 
-- **Fontes:** `docs/repertorio-tecnico-site/complementos/github-pages.html` (EXT-02) e RFC 5646.
+- **Fontes:** `docs/referencias/repertorio-tecnico-site/complementos/github-pages.html` (EXT-02) e RFC 5646.
 - **Aplicar:** conferir a publicação com origem em GitHub Actions, permissões mínimas e envio apenas de `static/`. Conferir HTTPS, 404, roteamento de idiomas e atributos `lang` e `hreflang`.
 - **Limite:** sem FitSM, ISO 20000 ou RFCs HTTP. Não criar catálogo de serviços nem SLA.
 - **Verificar:** workflow, status e cabeçalhos no publicado, troca de idioma e 404.

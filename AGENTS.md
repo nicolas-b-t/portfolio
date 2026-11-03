@@ -48,7 +48,7 @@ Este arquivo é auto-contido: não depende de instruções fora da raiz do proje
 - Para mudanças visuais, confira também teclado, foco, contraste, telas pequenas, zoom, temas e impressão.
 - Execute `git diff --check`. Informe verificações, resultados e limites.
 - Mantenha uma síntese vigente por assunto e atualize os links ao mover ou retirar arquivos.
-- Mantenha fora do Git `dados-pessoais/` e `docs/repertorio-tecnico-site/`. O `.gitignore` cobre esses caminhos.
+- Mantenha fora do Git `dados-pessoais/` e `docs/referencias/repertorio-tecnico-site/`. O `.gitignore` cobre esses caminhos.
 - Preserve fontes, licenças e meios de recuperação antes de retirar um acervo.
 - Mantenha os PDFs V3 versionados, conforme autorização do responsável.
 - Não acrescente credenciais, configurações pessoais de máquina ou documentos restritos ao site.

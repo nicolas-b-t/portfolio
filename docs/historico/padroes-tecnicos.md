@@ -1,6 +1,6 @@
 # Padrões técnicos aplicados ao portfólio
 
-Este arquivo registra a aplicação da base local `docs/repertorio-tecnico-site/` ao portfólio.
+Este arquivo registra a aplicação da base local `docs/referencias/repertorio-tecnico-site/` ao portfólio.
 Cada seção corresponde a uma pasta técnica, de `01` a `12`.
 O [plano](plano-12-fases.md) define as fases, a ordem e os limites.
 A situação das fases fica no plano, §6. Não repita a tabela aqui.
@@ -19,7 +19,7 @@ Nenhuma seção declara conformidade, certificação ou equivalência com norma.
 
 **Aplicar parcialmente o PM2 3.1.**
 
-Fonte: `docs/repertorio-tecnico-site/gestao-requisitos-testes/Comissao Europeia - PM2 Metodologia de Gestao de Projetos (PT) - v3.1.pdf`.
+Fonte: `docs/referencias/repertorio-tecnico-site/gestao-requisitos-testes/Comissao Europeia - PM2 Metodologia de Gestao de Projetos (PT) - v3.1.pdf`.
 
 O guia completo pressupõe projeto com mais de 4 ou 5 semanas e mais de 2 ou 3 pessoas (§3.4).
 Este projeto tem um responsável, um agente de implementação e cerca de 15 sessões.
@@ -610,7 +610,7 @@ Decisões aplicáveis: D-12, D-13 e D-14.
 | Cópia estruturada | Dados do currículo e dos projetos em seção oculta. | `index.html` e `projetos.html`. | No HTML publicado. |
 
 **Fora da publicação:** currículos DOCX, relatórios de experiência, candidaturas e a base técnica local.
-Esses arquivos ficam em `dados-pessoais/` e `docs/repertorio-tecnico-site/`, ignorados pelo Git.
+Esses arquivos ficam em `dados-pessoais/` e `docs/referencias/repertorio-tecnico-site/`, ignorados pelo Git.
 
 Não há telefone, endereço residencial, documento de identidade ou dado financeiro no site.
 
