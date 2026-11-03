@@ -1032,7 +1032,7 @@ As declarações factuais continuam em `docs/fontes/competencias-declaradas.json
 O SFIA combina habilidades profissionais com sete níveis de responsabilidade.
 O projeto usa o SFIA como vocabulário para áreas de competência.
 Sete áreas foram publicadas em pt-BR como autoavaliação, com níveis 2 e 3.
-`DATM` e `CHMG` ficaram fora do piloto.
+`CFMG` e `DATM` ficaram fora do piloto.
 A estrutura, os limites e a rubrica estão em [Competências e frameworks](competencias.md).
 
 ### 11.3 NICE

@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Adiciona visualização colapsável com metodologia e habilidades não publicadas ao perfil SFIA. | Este commit. |
+| 2026-11-02 | Troca CFMG por CHMG no perfil SFIA publicado. | Este commit. |
+| 2026-11-02 | Adiciona visualização colapsável com metodologia e habilidades não publicadas ao perfil SFIA. | `b1b094d` |
 | 2026-11-02 | Publica o perfil SFIA em pt-BR e registra a rubrica interna (COA A+B). | `7a879ff` |
 | 2026-11-02 | Registra viabilidade e COAs para publicar o SFIA; cópia privada em `docs/referencias/sfia-local/`. | `ca9ca0a` |
 | 2026-11-02 | Reorganiza a documentação: pendências únicas, histórico separado e remoção de duplicidade. | `ad0ae8e` |

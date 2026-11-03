@@ -195,26 +195,26 @@
         "situacao": "Publicado como autoavaliação."
       },
       {
-        "codigo": "CFMG",
-        "nome_pt": "Gestão da configuração",
-        "nome_en": "Configuration management",
+        "codigo": "CHMG",
+        "nome_pt": "Controle de mudanças",
+        "nome_en": "Change control",
         "nivel": 2,
         "nivel_rotulo": "Auxilia",
-        "evidencia": "Uso Git e GitHub para versionar o portfólio, manter a documentação e registrar mudanças.",
-        "fonte": "Repositório do portfólio; documentação versionada e manifestos.",
+        "evidencia": "Registro, avalio o impacto e acompanho mudanças no portfólio; uso commits, revisão e reversão para manter o histórico.",
+        "fonte": "Procedimento de mudanças, commits, revisão e reversão do portfólio.",
         "situacao": "Publicado como autoavaliação."
       }
     ],
     "nao_publicadas": [
       {
+        "codigo": "CFMG",
+        "nome_pt": "Gestão da configuração",
+        "motivo": "Evidência de versionamento e manifestos; não publicada nesta etapa."
+      },
+      {
         "codigo": "DATM",
         "nome_pt": "Gestão de dados",
         "motivo": "Faixa 1–2; não publicada neste piloto."
-      },
-      {
-        "codigo": "CHMG",
-        "nome_pt": "Controle de mudanças",
-        "motivo": "Coberto por CFMG nesta etapa."
       }
     ],
     "limites": "Níveis 4 a 7 não usados. Níveis e evidências sujeitos a revisão do responsável (P-14)."

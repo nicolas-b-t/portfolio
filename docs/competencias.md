@@ -116,8 +116,8 @@ A revisão dos níveis está em [Pendências](pendencias.md), item P-14.
 | Operações de infraestrutura | Alpha e Lukos; suporte e monitoramento | `ITOP` — Operações de infraestrutura | 1 a 5 | 2 — Auxilia | Publicado. |
 | Dados e SQL | Curso, projeto e competências | `DATM` — Gestão de dados | 2 a 6 | — | Não publicado; faixa 1–2. |
 | Desenvolvimento web | Portfólio, SGCS e cursos | `PROG` — Programação/desenvolvimento de software | 2 a 6 | 2 — Auxilia | Publicado. |
-| Gestão da configuração | Git, GitHub e documentação | `CFMG` — Gestão da configuração | 2 a 6 | 2 — Auxilia | Publicado. |
-| Controle de mudanças | Fluxo de commits e revisão | `CHMG` — Controle de mudanças | 2 a 6 | — | Não publicado; coberto por CFMG. |
+| Gestão da configuração | Git, GitHub e documentação | `CFMG` — Gestão da configuração | 2 a 6 | — | Não publicado; evidência de versionamento. |
+| Controle de mudanças | Procedimento de mudanças, commits e reversão | `CHMG` — Controle de mudanças | 2 a 6 | 2 — Auxilia | Publicado. |
 
 Sete habilidades foram publicadas.
 A publicação é uma autoavaliação; não é certificação, endosso ou afiliação.

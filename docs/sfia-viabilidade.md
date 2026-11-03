@@ -130,9 +130,12 @@ Conjunto publicado em 02/11/2026:
 - `ASUP` — Suporte a aplicações — nível 3;
 - `ITOP` — Operações de infraestrutura — nível 2;
 - `PROG` — Programação/desenvolvimento de software — nível 2;
-- `CFMG` — Gestão da configuração — nível 2.
+- `CHMG` — Controle de mudanças — nível 2.
 
-`DATM` e `CHMG` ficaram fora do piloto.
+Não publicadas nesta etapa:
+
+- `CFMG` — Gestão da configuração;
+- `DATM` — Gestão de dados.
 
 A rubrica interna está em [Competências](competencias.md), seção 10.
 Os níveis são autoavaliação e estão sujeitos a revisão do responsável (P-14).
