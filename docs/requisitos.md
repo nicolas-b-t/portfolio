@@ -1,10 +1,8 @@
 # Requisitos do site
 
-Catálogo aceito em 02/11/2026, na fase 02 do [plano](../PLANO-APLICACAO-PADROES-TECNICOS.md).
+Catálogo aceito em 02/11/2026, na fase 02 do [plano](historico/plano-12-fases.md).
 As fontes normativas estão na base local `docs/repertorio-tecnico-site/`. As demais fontes são os documentos do projeto e as decisões registradas.
 Os requisitos marcados como vigentes descrevem o comportamento atual. O catálogo aceito é a linha de base.
-
-Não há declaração de conformidade com o CPRE, com a WCAG ou com qualquer norma.
 
 ## 1. Finalidade e escopo
 
@@ -138,6 +136,36 @@ Limites:
 
 ## 11. Pendências
 
-A lista vigente está em [Pendências](pendencias.md).
-Os requisitos parciais são NFR-01, NFR-07, NFR-08 e NFR-11.
-A situação de cada um é atualizada na lista, não neste catálogo.
+Última revisão: 03/11/2026.
+Esta é a lista vigente de pendências do projeto.
+Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
+
+### Decisões do responsável
+
+| ID | Item | Origem | Dono | Situação | Próximo passo |
+| --- | --- | --- | --- | --- | --- |
+| P-01 | Aceitar formalmente a linha de base de 02/11/2026. | §12; requisitos | Responsável | Aberto | Registrar a data e o commit aceitos. |
+| P-02 | Decidir se os sinônimos visíveis de ATS permanecem na tela. | EDIT-01; R13 | Responsável | Aberto | Manter na tela ou mover para a cópia oculta. |
+| P-03 | Revisar as frases de ATS em inglês na lista visível. | EDIT-03; R13 | Responsável | Aberto | Decidir junto com P-02. |
+| P-05 | Decidir se haverá mapeamento de work roles do NICE. | Histórico, §11 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
+| P-06 | Confirmar a licença canônica dos ícones. | Histórico, §8 | Responsável | Aberto | Confirmar `LICENSE.txt` e retirar a cópia genérica, se aprovado. |
+| P-15 | Decidir se a base técnica de 67 MB será arquivada. | `docs/repertorio-tecnico-site/` | Responsável | Aberto | Arquivar fora do projeto ou manter; registrar a decisão. |
+
+### Segurança e continuidade
+
+| ID | Item | Origem | Dono | Situação | Próximo passo |
+| --- | --- | --- | --- | --- | --- |
+| P-07 | Concluir o 2FA e confirmar a proteção da `main`. | NFR-08; R05 | Responsável | Em andamento | Ativar o 2FA, conferir a proteção e registrar a evidência. |
+| P-08 | Criar o backup da v2 da base local. | R06 | Responsável | Parcial | Preferir formato aberto e manter cópia externa. |
+| P-09 | Publicar a cópia limpa sem dados pessoais. | R09; D-15 | Responsável | Planejado | Executar no encerramento. |
+
+### Verificação e qualidade
+
+| ID | Item | Origem | Dono | Situação | Próximo passo |
+| --- | --- | --- | --- | --- | --- |
+| P-10 | Testar zoom, tema escuro, impressão e leitor de tela. | TEST-01; NFR-01 | Agente e responsável | Aberto | Executar, registrar a evidência e fechar TEST-01. |
+| P-11 | Validar HTML e hierarquia de títulos. | NFR-07 | Agente | Parcial | Definir o método, executar e registrar o resultado. |
+| P-12 | Ensaiar em navegador atual e em celular. | NFR-11 | Agente | Parcial | Registrar navegador, largura e resultado. |
+| P-14 | Revisar os sete níveis SFIA publicados. | FR-15 | Responsável | Aberto | Confirmar ou ajustar níveis e evidências; registrar a decisão. |
+
+**Regras:** uma pendência nova entra com ID, origem, dono e próximo passo. Item concluído sai da lista e entra no `CHANGELOG`. Item sem dono fica com o responsável. A lista é revisada ao fim de cada marco e antes de cada publicação.

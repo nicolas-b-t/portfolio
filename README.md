@@ -49,4 +49,4 @@ A documentação e os currículos em `docs/` acompanham o repositório, fora do 
 `docs/repertorio-tecnico-site/` e `dados-pessoais/` ficam somente no computador e são ignorados pelo Git.
 
 O acervo anterior foi preservado fora da árvore ativa.
-Consulte o [registro da organização](docs/historico/organizacao.md) para recuperar fontes e históricos.
+Consulte o [registro histórico](docs/historico/historico.md) para recuperar fontes e históricos.

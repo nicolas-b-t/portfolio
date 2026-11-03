@@ -76,7 +76,6 @@ O PDF do NIST não contém o catálogo completo de tarefas e work roles; esses a
 
 - foco em cibersegurança e contexto dos EUA;
 - não define níveis de proficiência;
-- não é certificação;
 - o catálogo completo de work roles e tarefas não está no PDF da Revisão 1;
 - sem os componentes adicionais, não há mapeamento completo.
 
@@ -105,7 +104,7 @@ O PDF do NIST não contém o catálogo completo de tarefas e work roles; esses a
 
 Perfil publicado em pt-BR em 02/11/2026 como autoavaliação.
 Os níveis 4 a 7 não foram usados.
-A revisão dos níveis está em [Pendências](pendencias.md), item P-14.
+A revisão dos níveis está em [Requisitos](requisitos.md), §11 (P-14).
 
 | Área declarada | Evidência atual | Habilidade SFIA | Níveis da habilidade | Nível adotado | Situação |
 | --- | --- | --- | --- | --- | --- |
@@ -120,7 +119,7 @@ A revisão dos níveis está em [Pendências](pendencias.md), item P-14.
 | Controle de mudanças | Procedimento de mudanças, commits e reversão | `CHMG` — Controle de mudanças | 2 a 6 | 2 — Auxilia | Publicado. |
 
 Sete habilidades foram publicadas.
-A publicação é uma autoavaliação; não é certificação, endosso ou afiliação.
+A publicação é uma autoavaliação.
 Os níveis e as evidências podem ser revistos pelo responsável sem alterar a estrutura do bloco.
 
 ## 6. Piloto NICE
@@ -146,7 +145,8 @@ A seção não depende de JavaScript.
 Na impressão, uma cópia estática mostra o título e os cartões; a seção interativa fica oculta.
 Os outros idiomas não receberam o bloco nesta etapa.
 Não há work role NICE, selo ou logotipo.
-A viabilidade e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
+A decisão A+B foi registrada em 02/11/2026: perfil em pt-BR, níveis 2 e 3, `CHMG` no lugar de `CFMG`; `CFMG` e `DATM` ficaram fora.
+O histórico completo está no Git.
 
 Qualquer nova publicação exige:
 
@@ -168,21 +168,19 @@ Qualquer nova publicação exige:
 O SFIA é propriedade da SFIA Foundation.
 O uso pessoal e a maior parte do uso interno de gestão são gratuitos; cópia, redistribuição e uso comercial exigem licença.
 O projeto não copia o PDF para a base local versionada nem publica descrições ou tabelas do PDF no site.
-A cópia privada de consulta fica em `docs/referencias/sfia-local/`, ignorada pelo Git.
+A consulta usa a biblioteca principal; não há cópia local versionada.
 O NICE é publicação do NIST, sem direitos autorais nos Estados Unidos; a atribuição é apreciada.
 
 Os caminhos da tabela são relativos à raiz `REPERTORIO_TECNICO`.
-A cópia privada de consulta é relativa à raiz do projeto e não integra a base.
 
 ## 9. Limites e revisão
 
 - Não há avaliação independente de proficiência.
 - Não há mapeamento NICE completo.
-- Os níveis SFIA são autoavaliação; não são certificação.
+- Os níveis SFIA são autoavaliação.
 - Nenhum nível 4 a 7 foi publicado.
-- A revisão dos níveis está em [Pendências](pendencias.md), item P-14.
+- A revisão dos níveis está em [Requisitos](requisitos.md), §11 (P-14).
 - O perfil SFIA é uma proposta de vocabulário, não um resultado.
-- A viabilidade de publicação e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
 - A revisão ocorre quando houver nova competência, certificação, projeto ou decisão de publicação.
 
 ## 10. Rubrica interna

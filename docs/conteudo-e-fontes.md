@@ -40,6 +40,35 @@ O teste ocorreu em 26/02/2025, com validade registrada até 26/02/2027.
 Não converta esse resultado em certificação de fala, escrita ou nível de outro sistema sem evidência adequada.
 As traduções editoriais das tags não declaram fluência nos idiomas de destino.
 
+### Cursos complementares
+
+Cargas horárias e datas dos 17 cursos da página pt-BR, consultadas em 16/10/2026.
+A página usa o rótulo **Conclusão** por solicitação do responsável.
+A coluna de origem preserva a distinção entre conclusão e emissão; quando havia as duas, a data exibida é a de conclusão.
+
+| Curso | Horas | Data | Origem |
+| --- | --- | --- | --- |
+| Microsoft Office Specialist Associate | 60 h | 25/07/2026 | Conclusão; emissão em 30/07/2026. |
+| Formação White Belt Six Sigma | 2 h | 17/04/2026 | Emissão. |
+| Como Controlar o Fluxo de Caixa | 10 h | 09/01/2026 | Conclusão. |
+| Gestão Financeira | 10 h | 29/12/2025 | Conclusão. |
+| Introdução à Matemática Financeira: Regimes de Capitalização | 8 h | 20/12/2025 | Emissão. |
+| Excel Básico | 40 h | 02/09/2025 | Conclusão; emissão em 04/09/2025. |
+| Introdução à Gestão de Projetos | 10 h | 18/03/2025 | Conclusão. |
+| Inovação em Gestão de Projetos | 10 h | 19/01/2025 | Conclusão. |
+| Indicadores Estratégicos - Descomplica | 12 h | 27/11/2024 | Conclusão. |
+| 19ª Edição da Escola de Inovadores (2024-2) | 40 h | 11/11/2024 | Emissão. |
+| JavaScript Essentials 1 | 40 h | 16/05/2026 | Emissão. |
+| Modelagem de Dados | 8 h | 25/11/2025 | Conclusão. |
+| Python Essentials 1 | 30 h | 22/03/2025 | Emissão. |
+| AI Fundamentals with IBM SkillsBuild | 10 h | 05/11/2024 | Emissão. |
+| Redes de Computadores - Implantação de Redes Locais | 48 h | 13/05/2026 | Conclusão; emissão em 15/05/2026. |
+| Computer Hardware Basics | 6 h | 18/02/2025 | Emissão. |
+| Planeje Suas Metas e Resultados | 2 h | 25/11/2024 | Conclusão. |
+
+As quatro cargas horárias pesquisadas usam as páginas institucionais da Cisco Networking Academy, da DIFC Academy e da IBM SkillsBuild.
+As demais permanecem conforme o conteúdo aprovado do site.
+
 ## Projetos
 
 Em pt-BR, os textos dos projetos e sua cópia estruturada ficam em [Projetos](../static/pt-BR/projetos.html), com acesso na apresentação inicial e no menu da página principal. A separação de 02/11/2026 preservou as afirmações e atribuições anteriores; as outras variantes mantêm os projetos na página principal, conforme o escopo solicitado.
@@ -85,10 +114,10 @@ O cartão usa HTML e CSS do próprio portfólio. O banner externo depende de Jav
 
 ## Contatos, documentos e fontes
 
-Os [originais anteriores dos currículos](fontes/curriculos-originais/README.md) possuem manifesto próprio.
+Os quatro DOCX originais estão em `dados-pessoais/curriculos/`; o [manifesto](fontes/curriculos-originais/manifesto.json) registra URLs, bytes e SHA-256.
 O telefone e o país da V3 foram preservados desses documentos.
 Links institucionais dos cursos identificam as instituições, sem validar individualmente os certificados.
-As [cargas horárias pesquisadas e a origem das datas dos cursos](fontes/cursos/README.md) orientam a versão pt-BR.
+As cargas horárias e a origem das datas estão na seção Cursos acima.
 Essa versão usa o rótulo Conclusão por solicitação do responsável, com a distinção original entre conclusão e emissão preservada no registro.
 
 CNH AB e PID permanecem documentos declarados do responsável.
@@ -96,4 +125,4 @@ O uso internacional depende das condições do destino e da CNH válida.
 Não atribua equivalência a uma licença profissional estrangeira.
 Consulte a [Senatran](https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/portarias/2022/Portaria10432022.pdf) antes de alterar a explicação.
 
-Os históricos completos das decisões e dos testes foram preservados conforme o [registro da organização](historico/organizacao.md).
+Os históricos completos das decisões e dos testes foram preservados conforme o [registro histórico](historico/historico.md).

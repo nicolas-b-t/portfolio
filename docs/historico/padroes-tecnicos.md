@@ -2,16 +2,16 @@
 
 Este arquivo registra a aplicação da base local `docs/repertorio-tecnico-site/` ao portfólio.
 Cada seção corresponde a uma pasta técnica, de `01` a `12`.
-O [plano](../PLANO-APLICACAO-PADROES-TECNICOS.md) define as fases, a ordem e os limites.
+O [plano](plano-12-fases.md) define as fases, a ordem e os limites.
 A situação das fases fica no plano, §6. Não repita a tabela aqui.
 
 Cada seção termina com uma decisão: aplicada, aplicada parcialmente, não aplicável ou lacuna.
 Nenhuma seção declara conformidade, certificação ou equivalência com norma.
 
 > **Registro das 12 fases, revisado em 02/11/2026.**
-> As seções 3, 5, 8 e 10 contêm regras ainda usadas.
-> As demais registram a decisão e a evidência da fase.
-> A lista vigente de pendências está em [Pendências](pendencias.md).
+> As regras vivas foram consolidadas em [Manutenção](../manutencao.md) e [Requisitos](../requisitos.md).
+> Este arquivo preserva a decisão e a evidência de cada fase.
+> A lista vigente de pendências está em [Requisitos](../requisitos.md), §11.
 
 ## 1. Gestão — fase 01
 
@@ -63,7 +63,7 @@ Equivalente ao Termo de Abertura (§5.4): curto, com necessidades de alto nível
 | Objetivo | Registrar, por pasta técnica, a decisão de aplicação e a evidência, com foco inicial em pt-BR. |
 | Escopo incluído | Doze fases, documentos versionados, verificações estáticas e em navegador, registro de riscos e de decisões. |
 | Escopo excluído | Ampliar ou substituir a base local; consultar o acervo principal; alterar conteúdo ou site sem aprovação; novas funcionalidades (blog, formulário, analytics, domínio próprio); traduzir novas páginas antes de concluir pt-BR; JavaScript, backend, framework ou build; declarar conformidade. |
-| Entregáveis | Doze seções neste arquivo; `docs/requisitos.md`; `docs/adr/`; `CHANGELOG`; página 404; atualizações de manutenção e do guia de redação; checklist de segurança; registro final. |
+| Entregáveis | Doze seções neste arquivo; `docs/requisitos.md`; `docs/decisoes.md`; `CHANGELOG`; página 404; atualizações de manutenção e do guia de redação; checklist de segurança; registro final. |
 | Critérios de aceite | Doze seções preenchidas ou com lacuna registrada; uma decisão por fase; fonte local existente para cada citação; `git diff --check` limpo; revisão do responsável; nenhuma alegação de conformidade. |
 | Marcos | M1 processo; M2 produto documentado; M3 publicação e segurança; M4 lacunas. Ver plano, §5. Início da formalização: 28/10/2026. |
 | Restrições | Base local somente leitura; uma seção, uma atualização de guia e, quando estrutural, um ADR por fase; sem limite quantitativo de desempenho; teste empírico. |
@@ -86,7 +86,7 @@ O responsável é o operador que decide resoluções e aprovações.
 
 ### 1.4 Plano de trabalho
 
-O plano completo está em `PLANO-APLICACAO-PADROES-TECNICOS.md`, §5.
+O plano completo está em `plano-12-fases.md`, §5.
 Ele contém a ordem das doze fases, os quatro marcos e o esforço estimado.
 A ordem e o motivo de cada fase não se repetem aqui, conforme a diretriz de não duplicar informação (§6.6).
 
@@ -225,7 +225,7 @@ Decisão nova entra com ID seguinte e data.
 | D-34 | Nenhum nível SFIA ou work role NICE será publicado sem evidência e aprovação. |
 | D-35 | Estimativa revista para cerca de 15 sessões com a fase 11 em esforço M. |
 | D-36 | Revisão mínima anual em 02/11/2027; revisão por evento quando houver dado novo. |
-| D-37 | O plano de 12 fases permanece como registro; o mapa essencial e o plano enxuto foram registrados em `docs/historico/plano-enxuto.md` e não serão implementados. |
+| D-37 | O plano de 12 fases permanece como registro; o mapa essencial e o plano enxuto foram registrados em `docs/historico/historico.md` e não serão implementados. |
 
 ## 2. Requisitos — fase 02
 
@@ -235,7 +235,7 @@ Decisão nova entra com ID seguinte e data.
 
 Fontes: `gestao-requisitos-testes/IREB - CPRE Foundation Level Syllabus (EN) - v3.3.0.pdf`, `gestao-requisitos-testes/IREB Martin Glinz - Glossary of Requirements Engineering Terminology (EN) - v2.2.0.pdf` e `documentacao-revisao/Organizacao - Redacao e Rastreabilidade de Requisitos (PT-BR) - v1.0.md`.
 
-O catálogo está em [Requisitos do site](requisitos.md).
+O catálogo está em [Requisitos do site](../requisitos.md).
 Aceite: 02/11/2026.
 A aplicação parcial mantém a disciplina de qualidade, a fronteira do sistema, o glossário, a rastreabilidade e a priorização.
 Não há elicitação com usuários externos nem ferramenta de gestão de requisitos.
@@ -274,7 +274,7 @@ Cada item cita uma fonte ou uma decisão registrada.
 ### 2.5 Pendências
 
 1. NFR-08: concluir o 2FA e confirmar a proteção da `main`.
-   A lista vigente está em [Pendências](pendencias.md).
+   A lista vigente está em [Pendências](../requisitos.md).
 
 ## 3. Processos e qualidade — fase 03
 
@@ -368,7 +368,7 @@ O piloto usou um defeito real encontrado na revisão da fase 10.
 | ID | D-001 |
 | Data | 02/11/2026 |
 | Título | Seção de mudanças numerada como 3 em vez de 10. |
-| Objeto e ambiente | `docs/padroes-tecnicos.md`, revisão estática. |
+| Objeto e ambiente | `docs/historico/padroes-tecnicos.md`, revisão estática. |
 | Contexto | Conferência da numeração por pasta técnica. |
 | Esperado | Seção 10, coerente com a pasta `10_GESTAO_DE_MUDANCAS`. |
 | Obtido | Seção 3, na ordem de execução. |
@@ -433,7 +433,7 @@ Visitante
 
 ### 4.3 Registros de decisão
 
-Sete ADRs em [docs/adr/](adr/README.md), no formato MADR 4.0.0.
+Sete decisões em [Decisões](../decisoes.md), no formato MADR 4.0.0.
 O índice, o status e as consequências estão no README dos ADRs.
 A tabela de títulos não é repetida aqui.
 
@@ -461,9 +461,9 @@ A tabela de títulos não é repetida aqui.
 
 ### 4.5 Documentação com Diátaxis
 
-A classificação por assunto e tipo está no [índice](README.md).
+A classificação por assunto e tipo está no [índice](../README.md).
 Não há tutorial: o site é usado, não ensinado.
-Os registros históricos ficam em [histórico](historico/README.md).
+Os registros históricos ficam em [histórico](historico.md).
 
 ### 4.6 Git e revisão
 
@@ -569,7 +569,7 @@ O texto e a borda usam a cor muted, o sombreado é removido e o cursor indica in
 
 Três itens foram aplicados em 02/11/2026.
 Os demais aguardam decisão editorial ou ensaio.
-Situação em 02/11/2026. A lista vigente está em [Pendências](pendencias.md).
+Situação em 02/11/2026. A lista vigente está em [Pendências](../requisitos.md).
 
 ### 5.5 Verificação e limites
 
@@ -845,7 +845,7 @@ O risco maior é a conta, porque ela controla a publicação e o histórico.
 1. Concluir o 2FA e confirmar a proteção da `main`.
 2. Criar o backup da v2.
 3. Executar a cópia limpa sem dados pessoais no encerramento.
-   A lista vigente está em [Pendências](pendencias.md).
+   A lista vigente está em [Pendências](../requisitos.md).
 
 ## 9. Governança, arquitetura e serviços de TI — fase 09
 
@@ -1021,10 +1021,10 @@ Fontes, na biblioteca principal:
 - `REPERTORIO_TECNICO/11_COMPETENCIAS_PROFISSIONAIS/01_FRAMEWORKS_DE_COMPETENCIAS/NIST - SP 800-181 NICE Workforce Framework for Cybersecurity (EN) - Rev 1.pdf`.
 
 O SFIA é licenciado. O PDF não foi copiado para a base local.
-Há uma cópia privada de consulta em `docs/referencias/sfia-local/`, ignorada pelo Git.
+A consulta usa a biblioteca principal; não há cópia local versionada.
 O NICE é publicação pública do NIST.
 
-O documento completo está em [Competências e frameworks](competencias.md).
+O documento completo está em [Competências e frameworks](../competencias.md).
 As declarações factuais continuam em `docs/fontes/competencias-declaradas.json`.
 
 ### 11.2 SFIA
@@ -1033,7 +1033,7 @@ O SFIA combina habilidades profissionais com sete níveis de responsabilidade.
 O projeto usa o SFIA como vocabulário para áreas de competência.
 Sete áreas foram publicadas em pt-BR como autoavaliação, com níveis 2 e 3.
 `CFMG` e `DATM` ficaram fora do piloto.
-A estrutura, os limites e a rubrica estão em [Competências e frameworks](competencias.md).
+A estrutura, os limites e a rubrica estão em [Competências e frameworks](../competencias.md).
 
 ### 11.3 NICE
 
@@ -1057,7 +1057,7 @@ Por isso, não há mapeamento de work role nesta fase.
 - Nenhum work role NICE foi atribuído.
 - O bloco SFIA foi publicado em pt-BR em 02/11/2026.
 - A seção inteira é colapsável em `<details>` nativo, fechada por padrão; a impressão usa uma cópia estática dos cartões.
-- O SFIA não foi copiado para a base; a cópia privada fica em `docs/referencias/sfia-local/`.
+- O SFIA não foi copiado para a base; a consulta usa a biblioteca principal.
 - O NICE não tem catálogo completo no PDF.
 - Não há certificação, avaliação de proficiência ou parecer de competência.
 - A publicação de níveis foi decidida pelo responsável; a revisão está em P-14.
@@ -1068,7 +1068,7 @@ Por isso, não há mapeamento de work role nesta fase.
 2. Obter os componentes oficiais do NICE, se houver intenção de mapear work roles.
 3. Revisar os níveis SFIA publicados.
 4. Registrar a evidência de cada nível antes de qualquer alteração.
-   A lista vigente está em [Pendências](pendencias.md).
+   A lista vigente está em [Pendências](../requisitos.md).
 
 ## 12. Governança estratégica e riscos — fase 12
 
@@ -1131,6 +1131,6 @@ Consulte a seção 1.5 para probabilidade, impacto, dono e resposta.
 ### 12.6 Encerramento
 
 As doze seções estão preenchidas.
-O encerramento depende das decisões e verificações listadas em [Pendências](pendencias.md).
+O encerramento depende das decisões e verificações listadas em [Pendências](../requisitos.md).
 O encerramento não apaga as pendências.
 Ele registra o que está concluído e o que continua sob responsabilidade do operador.

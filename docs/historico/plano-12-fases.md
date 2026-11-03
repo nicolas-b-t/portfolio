@@ -2,10 +2,11 @@
 
 Data: 2 de novembro de 2026.
 Projeto: portfólio estático HTML/CSS em cinco variantes linguísticas.
+Registro histórico; movido para `docs/historico/` em 3 de novembro de 2026.
 Fonte: `docs/repertorio-tecnico-site/`, com 41 obras e 74 arquivos.
 Este plano usa a base local, com uma exceção registrada na fase 11: o SFIA v9 e o NICE Rev. 1 são consultados na biblioteca principal como referência externa. O SFIA não é copiado para a base por causa da licença.
 
-Este é o registro histórico das 12 fases. A versão enxuta para planejamento futuro está em [Mapa essencial e plano enxuto](docs/historico/plano-enxuto.md). Ela não foi implementada.
+Este é o registro histórico das 12 fases. A versão enxuta para planejamento futuro está em [Mapa essencial e plano enxuto](historico.md). Ela não foi implementada.
 
 ## 1. Premissa
 
@@ -42,7 +43,7 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 1. Cada fase cita o arquivo local ou a referência externa registrada.
 2. Fonte ausente gera registro de lacuna, não aplicação simulada.
 3. Fontes históricas entram só nos pontos permitidos pela base: princípios de documentação e controle de configuração. Não importar classes de segurança, obrigações militares ou alegação de conformidade.
-4. Cada fase entrega, no máximo, uma seção em `docs/padroes-tecnicos.md`, uma atualização em guia existente e um ADR quando a decisão for estrutural.
+4. Cada fase entrega, no máximo, uma seção em `docs/historico/padroes-tecnicos.md`, uma atualização em guia existente e um ADR quando a decisão for estrutural.
 5. Não acrescentar JavaScript, backend, framework ou etapa de build.
 6. Mudança de conteúdo ou de site exige aprovação do responsável e verificação nas variantes afetadas.
 7. As regras ficam nos documentos versionados. A base local é citada como procedência, não como único registro da regra.
@@ -55,7 +56,7 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 - **Fonte:** `docs/repertorio-tecnico-site/gestao-requisitos-testes/Comissao Europeia - PM2 Metodologia de Gestao de Projetos (PT) - v3.1.pdf`.
 - **Aplicar:** ficha do projeto com escopo, interessados, entregas, critérios de aceite, marcos e riscos iniciais. Tailoring do PM2 proporcional ao porte. Gates deste plano.
 - **Verificar:** ficha aprovada. Cada fase com responsável, data e critério de saída.
-- **Saída:** seção “Gestão” em `docs/padroes-tecnicos.md`.
+- **Saída:** seção “Gestão” em `docs/historico/padroes-tecnicos.md`.
 - **Esforço:** P.
 
 ### Fase 02 — `02_ANALISE_DE_NEGOCIOS`
@@ -86,7 +87,7 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
   - Git e revisão: mudanças pequenas, mensagem, checklist e reversão.
   - RFC 5646: conferir `lang` e `hreflang`.
 - **Verificar:** árvore real × documento. Estrutura HTML, CSS e links internos. Um ADR por decisão. Uma mudança revisada pelo checklist.
-- **Saída:** `docs/adr/`, seção e atualização de `docs/manutencao.md`.
+- **Saída:** `docs/decisoes.md`, seção e atualização de `docs/manutencao.md`.
 - **Esforço:** G.
 
 ### Fase 05 — `05_NORMAS_E_REDACAO_TECNICA`
@@ -193,18 +194,18 @@ Esforço total estimado: cerca de 15 sessões. As fases 04, 05 e 11 concentram o
 
 | Fase | Situação | Evidência |
 | --- | --- | --- |
-| 01 | Concluída — aceita em 02/11/2026 | `docs/padroes-tecnicos.md` §1 |
-| 02 | Concluída — aceita em 02/11/2026 | `docs/requisitos.md`; `docs/padroes-tecnicos.md` §2 |
-| 03 | Executada — processo e piloto D-001 | `docs/padroes-tecnicos.md` §3 |
-| 04 | Executada — ADRs, arquitetura e convenções | `docs/adr/`; `docs/padroes-tecnicos.md` §4 |
-| 05 | Executada — auditoria e correções A11Y-01, A11Y-02 e EDIT-02 | `docs/padroes-tecnicos.md` §5; `static/assets/css/styles.css` |
-| 06 | Executada — lacuna e inventário de dados | `docs/padroes-tecnicos.md` §6 |
-| 07 | Executada — fronteira, interfaces e cenários | `docs/padroes-tecnicos.md` §7 |
-| 08 | Executada — modelo de ameaças, controles e licença | `docs/padroes-tecnicos.md` §8; `static/assets/icons/LICENSE.txt` |
-| 09 | Executada — serviço, HTTPS e página 404 | `docs/padroes-tecnicos.md` §9; `static/404.html` |
-| 10 | Executada — procedimento e CHANGELOG | `docs/padroes-tecnicos.md` §10; `CHANGELOG.md` |
-| 11 | Executada — SFIA e NICE documentados | `docs/competencias.md`; `docs/padroes-tecnicos.md` §11 |
-| 12 | Executada — linha de base de governança | `docs/padroes-tecnicos.md` §12 |
+| 01 | Concluída — aceita em 02/11/2026 | `docs/historico/padroes-tecnicos.md` §1 |
+| 02 | Concluída — aceita em 02/11/2026 | `docs/requisitos.md`; `docs/historico/padroes-tecnicos.md` §2 |
+| 03 | Executada — processo e piloto D-001 | `docs/historico/padroes-tecnicos.md` §3 |
+| 04 | Executada — ADRs, arquitetura e convenções | `docs/decisoes.md`; `docs/historico/padroes-tecnicos.md` §4 |
+| 05 | Executada — auditoria e correções A11Y-01, A11Y-02 e EDIT-02 | `docs/historico/padroes-tecnicos.md` §5; `static/assets/css/styles.css` |
+| 06 | Executada — lacuna e inventário de dados | `docs/historico/padroes-tecnicos.md` §6 |
+| 07 | Executada — fronteira, interfaces e cenários | `docs/historico/padroes-tecnicos.md` §7 |
+| 08 | Executada — modelo de ameaças, controles e licença | `docs/historico/padroes-tecnicos.md` §8; `static/assets/icons/LICENSE.txt` |
+| 09 | Executada — serviço, HTTPS e página 404 | `docs/historico/padroes-tecnicos.md` §9; `static/404.html` |
+| 10 | Executada — procedimento e CHANGELOG | `docs/historico/padroes-tecnicos.md` §10; `CHANGELOG.md` |
+| 11 | Executada — SFIA e NICE documentados | `docs/competencias.md`; `docs/historico/padroes-tecnicos.md` §11 |
+| 12 | Executada — linha de base de governança | `docs/historico/padroes-tecnicos.md` §12 |
 
 Atualize a situação e a evidência ao concluir cada fase. Não registre aprovação do responsável sem confirmação dele.
 
@@ -252,7 +253,7 @@ Pendência operacional: conferir a proteção técnica da `main` na fase 08.
 
 O plano termina quando:
 
-- as 12 seções estiverem preenchidas em `docs/padroes-tecnicos.md`;
+- as 12 seções estiverem preenchidas em `docs/historico/padroes-tecnicos.md`;
 - cada fase tiver decisão registrada: aplicada, parcial, não aplicável ou lacuna;
 - as fontes citadas estiverem disponíveis na base local ou na referência externa registrada;
 - as mudanças de documentação passarem em `git diff --check`;

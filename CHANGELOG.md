@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-03 | Remove a cópia anterior e descontinuada do relatório de Aquecedores. | Este commit. |
+| 2026-11-03 | Consolida dados e documentos: arquiva capturas, remove cópias e funde históricos, decisões, referências e pendências. | Este commit. |
+| 2026-11-03 | Remove a cópia anterior e descontinuada do relatório de Aquecedores. | `14d76e5` |
 | 2026-11-03 | Remove textos e a metodologia da página principal pt-BR. | `316da4b` |
 | 2026-11-03 | Deixa a seção Perfil SFIA fechada por padrão e adiciona cópia de impressão. | `64d8e39` |
 | 2026-11-03 | Torna a seção Perfil SFIA colapsável, aberta por padrão. | `55ddd21` |
