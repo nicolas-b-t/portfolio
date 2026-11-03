@@ -1,7 +1,7 @@
 {
   "registrado_em": "2026-10-12",
   "origem": "Declarações do responsável na conversa de manutenção do portfólio",
-  "natureza": "insumo declarativo, sem comparação, avaliação de nível ou recomendação de tags",
+  "natureza": "insumo declarativo e registro do perfil SFIA; sem certificação ou avaliação independente",
   "declaracoes": [
     {
       "tema": "Ferramentas de escritório",
@@ -129,6 +129,96 @@
       "limites": "As variações de nomes e siglas em português e inglês adicionadas ao bloco oculto (#dados-curriculo e #dados-projetos) e à lista-geral-alfabeto-latino.txt destinam-se à correspondência lexical em ATS, preservando os níveis declarados (aprendiz, introdutório, N1, N1/N2 e TOEIC 910)."
     }
   ],
+  "sfia": {
+    "referencia": "SFIA 9 — Referência da Estrutura (PT)",
+    "publicado_em": "2026-11-02",
+    "escopo": "Perfil em pt-BR, autoavaliação, sem certificação, endosso ou afiliação.",
+    "habilidades": [
+      {
+        "codigo": "USUP",
+        "nome_pt": "Gestão de incidentes",
+        "nome_en": "Incident management",
+        "nivel": 3,
+        "nivel_rotulo": "Aplica",
+        "evidencia": "Atendo e diagnostico incidentes de N1/N2 em ERP/PDV e ambiente hospitalar; oriento usuários e escalono o que não resolvo.",
+        "fonte": "Experiências na Lukos Tecnologia e no Instituto Alpha de Saúde Integral; relatórios de experiência.",
+        "situacao": "Publicado como autoavaliação."
+      },
+      {
+        "codigo": "NTAS",
+        "nome_pt": "Suporte a redes",
+        "nome_en": "Network support",
+        "nivel": 3,
+        "nivel_rotulo": "Aplica",
+        "evidencia": "Instalo e mantenho redes FTTH e rádio, com cabo drop, SC/APC, ONU/ONT e roteadores; diagnostico com power meter, OTDR e VFL.",
+        "fonte": "Experiência na RealFort Sistemas; relatório de experiência e galeria.",
+        "situacao": "Publicado como autoavaliação."
+      },
+      {
+        "codigo": "HSIN",
+        "nome_pt": "Instalação e remoção de sistemas",
+        "nome_en": "Systems installation and removal",
+        "nivel": 3,
+        "nivel_rotulo": "Aplica",
+        "evidencia": "Instalo, configuro e mantenho estações, periféricos e ativos em ambiente corporativo e hospitalar.",
+        "fonte": "Experiências na RealFort Sistemas e no Instituto Alpha de Saúde Integral.",
+        "situacao": "Publicado como autoavaliação."
+      },
+      {
+        "codigo": "ASUP",
+        "nome_pt": "Suporte a aplicações",
+        "nome_en": "Application support",
+        "nivel": 3,
+        "nivel_rotulo": "Aplica",
+        "evidencia": "Presto suporte a ERP/PDV, configuro sistemas, diagnostico remotamente e oriento usuários em NF-e/NFC-e.",
+        "fonte": "Experiência na Lukos Tecnologia.",
+        "situacao": "Publicado como autoavaliação."
+      },
+      {
+        "codigo": "ITOP",
+        "nome_pt": "Operações de infraestrutura",
+        "nome_en": "Infrastructure operations",
+        "nivel": 2,
+        "nivel_rotulo": "Auxilia",
+        "evidencia": "Apoio o monitoramento e a manutenção de infraestrutura, registro incidentes e executo rotinas de suporte.",
+        "fonte": "Experiências no Instituto Alpha de Saúde Integral e na Lukos Tecnologia.",
+        "situacao": "Publicado como autoavaliação."
+      },
+      {
+        "codigo": "PROG",
+        "nome_pt": "Programação/desenvolvimento de software",
+        "nome_en": "Programming/software development",
+        "nivel": 2,
+        "nivel_rotulo": "Auxilia",
+        "evidencia": "Desenvolvo e mantenho este portfólio em HTML/CSS, com versionamento e publicação automatizada.",
+        "fonte": "Portfólio em HTML/CSS; projeto acadêmico SGCS; cursos de Python e JavaScript.",
+        "situacao": "Publicado como autoavaliação."
+      },
+      {
+        "codigo": "CFMG",
+        "nome_pt": "Gestão da configuração",
+        "nome_en": "Configuration management",
+        "nivel": 2,
+        "nivel_rotulo": "Auxilia",
+        "evidencia": "Uso Git e GitHub para versionar o portfólio, manter a documentação e registrar mudanças.",
+        "fonte": "Repositório do portfólio; documentação versionada e manifestos.",
+        "situacao": "Publicado como autoavaliação."
+      }
+    ],
+    "nao_publicadas": [
+      {
+        "codigo": "DATM",
+        "nome_pt": "Gestão de dados",
+        "motivo": "Faixa 1–2; não publicada neste piloto."
+      },
+      {
+        "codigo": "CHMG",
+        "nome_pt": "Controle de mudanças",
+        "motivo": "Coberto por CFMG nesta etapa."
+      }
+    ],
+    "limites": "Níveis 4 a 7 não usados. Níveis e evidências sujeitos a revisão do responsável (P-14)."
+  },
   "limites": [
     "Não foi atribuído domínio de todos os aplicativos de cada suíte.",
     "Não foi inferida administração corporativa completa das plataformas.",

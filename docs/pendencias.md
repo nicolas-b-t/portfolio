@@ -14,10 +14,8 @@ Os riscos e seus donos estão na seção 1.5 de [Padrões técnicos](padroes-tec
 | P-01 | Aceitar formalmente a linha de base de 02/11/2026. | §12; requisitos | Responsável | Aberto | Registrar a data e o commit aceitos. |
 | P-02 | Decidir se os sinônimos visíveis de ATS permanecem na tela. | EDIT-01; R13 | Responsável | Aberto | Manter na tela ou mover para a cópia oculta. |
 | P-03 | Revisar as frases de ATS em inglês na lista visível. | EDIT-03; R13 | Responsável | Aberto | Decidir junto com P-02. |
-| P-04 | Decidir se algum nível SFIA será publicado. | §11.6; R12 | Responsável | Aberto | Exigir evidência antes de publicar. |
 | P-05 | Decidir se haverá mapeamento de work roles do NICE. | §11.6 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
 | P-06 | Confirmar a licença canônica dos ícones. | §8.4 | Responsável | Aberto | Confirmar `LICENSE.txt` e retirar a cópia genérica, se aprovado. |
-| P-13 | Decidir o COA para publicar o SFIA no site. | [SFIA: viabilidade](sfia-viabilidade.md) | Responsável | Aberto | Escolher A, B, C, D ou E; aprovar habilidades e níveis. |
 
 ## 2. Segurança e continuidade
 
@@ -34,6 +32,7 @@ Os riscos e seus donos estão na seção 1.5 de [Padrões técnicos](padroes-tec
 | P-10 | Testar zoom, tema escuro, impressão e leitor de tela. | TEST-01; NFR-01 | Agente e responsável | Aberto | Executar, registrar a evidência e fechar TEST-01. |
 | P-11 | Validar HTML e hierarquia de títulos. | NFR-07 | Agente | Parcial | Definir o método, executar e registrar o resultado. |
 | P-12 | Ensaiar em navegador atual e em celular. | NFR-11 | Agente | Parcial | Registrar navegador, largura e resultado. |
+| P-14 | Revisar os sete níveis SFIA publicados. | FR-15; §11 | Responsável | Aberto | Confirmar ou ajustar níveis e evidências; registrar a decisão. |
 
 ## 4. Regras de manutenção
 

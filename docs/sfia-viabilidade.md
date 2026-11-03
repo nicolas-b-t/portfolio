@@ -1,7 +1,7 @@
 # SFIA no portfólio: viabilidade e cursos de ação
 
 Análise de 02/11/2026.
-Situação: **proposta registrada; nada implementado no site**.
+Situação: **COA A+B implementado em 02/11/2026; níveis publicados como autoavaliação, sujeitos a revisão.**
 Documentos consultados em `docs/referencias/sfia-local/`, cópia privada ignorada pelo Git.
 A referência principal de códigos e níveis é o SFIA 9 em português, na biblioteca principal.
 
@@ -82,7 +82,7 @@ A decisão final de cada nível é do responsável.
 
 ## 4. Condições mínimas
 
-1. O responsável aprova cada habilidade, nível e texto de evidência.
+1. O responsável revisa e aprova cada habilidade, nível e texto de evidência.
 2. O perfil usa o SFIA 9 como referência; o SFIA 8 serve apenas para conferir terminologia.
 3. O bloco tem no máximo 7 habilidades.
 4. A primeira publicação é em pt-BR.
@@ -112,65 +112,60 @@ As faixas abaixo são hipóteses de trabalho, não níveis atribuídos.
 | COA | Escopo | Esforço | Risco | Valor | Decisão |
 | --- | --- | --- | --- | --- | --- |
 | **A. Interno** | Usar o SFIA só como rubrica; nenhuma mudança no site. | 0 | Baixo | Baixo | Alternativa de contingência. |
-| **B. Bloco compacto em pt-BR** | 5 a 7 habilidades no `index.html`, com código, nome, nível, evidência e nota de autoavaliação. | 2 sessões | Baixo a médio | Alto | **Recomendado como piloto.** |
+| **B. Bloco compacto em pt-BR** | 5 a 7 habilidades no `index.html`, com código, nome, nível, evidência e nota de autoavaliação. | 2 sessões | Baixo a médio | Alto | **Implementado em 02/11/2026.** |
 | **C. Página dedicada em pt-BR** | `competencias.html` com método, tabela, evidências e limites; link no menu. | 3 a 4 sessões | Médio | Alto | Avaliar depois do piloto. |
 | **D. Cinco idiomas** | Repetir o bloco nas cinco variantes. | 6 a 10 sessões | Alto | Médio | Não agora. |
 | **E. Apenas no PDF** | Usar o SFIA no currículo PDF, sem mudar o site. | 1 a 2 sessões | Baixo | Médio | Alternativa se o site deve ficar simples. |
 | **F. Nível sem evidência ou selo** | Publicar níveis sem comprovação, logotipo ou selo. | 0 | Muito alto | Negativo | Rejeitado. |
 
-## 7. Recomendação
+## 7. Implementação adotada
 
-**COA B como piloto, em pt-BR, com 6 ou 7 habilidades.**
+**COA A+B, em pt-BR, com sete habilidades.**
 
-Sugestão de conjunto:
+Conjunto publicado em 02/11/2026:
 
-- `USUP` — Gestão de incidentes;
-- `NTAS` — Suporte a redes;
-- `HSIN` — Instalação e remoção de sistemas;
-- `ASUP` — Suporte a aplicações;
-- `ITOP` — Operações de infraestrutura;
-- `PROG` — Programação/desenvolvimento;
-- `CFMG` — Gestão da configuração.
+- `USUP` — Gestão de incidentes — nível 3;
+- `NTAS` — Suporte a redes — nível 3;
+- `HSIN` — Instalação e remoção de sistemas — nível 3;
+- `ASUP` — Suporte a aplicações — nível 3;
+- `ITOP` — Operações de infraestrutura — nível 2;
+- `PROG` — Programação/desenvolvimento de software — nível 2;
+- `CFMG` — Gestão da configuração — nível 2.
 
-`DATM` e `CHMG` ficam como alternativas ou segunda etapa.
-O responsável pode reduzir para 5 habilidades se preferir um bloco mais curto.
+`DATM` e `CHMG` ficaram fora do piloto.
 
-Portões de decisão:
+A rubrica interna está em [Competências](competencias.md), seção 10.
+Os níveis são autoavaliação e estão sujeitos a revisão do responsável (P-14).
+Não há níveis 4 a 7.
 
-1. o responsável aprova o conjunto e cada nível;
-2. o bloco é publicado em pt-BR e conferido;
-3. depois de um ciclo de uso, decidir se vale a página dedicada (COA C) e os idiomas (COA D).
+## 8. O que o COA B mudou
 
-Não publicar níveis 4 ou superiores sem evidência de autonomia ampliada, coordenação e impacto.
-
-## 8. O que o COA B mudaria
-
-Arquivos prováveis:
+Arquivos alterados:
 
 - `static/pt-BR/index.html`: seção “Perfil SFIA” e cópia estruturada;
 - `static/assets/css/styles.css`: estilos do bloco, impressão e telas pequenas;
 - `docs/fontes/competencias-declaradas.json`: habilidades, níveis e evidências aprovadas;
 - `docs/competencias.md`: método, níveis e limites;
-- `docs/requisitos.md`: requisito do perfil SFIA, se o responsável quiser rastreabilidade;
+- `docs/requisitos.md`: requisito FR-15 do perfil SFIA;
 - `CHANGELOG.md`: registro da publicação.
 
-O bloco usaria HTML semântico, sem JavaScript.
-A nota visível diria que é autoavaliação baseada no SFIA 9, sem certificação, endosso ou afiliação.
-O logotipo não seria usado.
+O bloco usa HTML semântico, sem JavaScript.
+A nota visível diz que é autoavaliação baseada no SFIA 9, sem certificação, endosso ou afiliação.
+O logotipo não é usado.
 
-## 9. Decisões pendentes
+## 9. Estado das decisões
 
-1. Aprovar o COA.
-2. Aprovar as habilidades e os níveis.
-3. Confirmar a leitura da licença para publicação do perfil pessoal.
-4. Definir se a cópia privada fica em `docs/referencias/sfia-local/` ou em outra pasta ignorada.
-5. Definir se o SFIA entra na página inicial ou em página dedicada.
+1. COA A+B aprovado e implementado.
+2. Níveis publicados; revisão do responsável em P-14.
+3. Leitura conservadora da licença mantida; sem logo, selo ou descrições oficiais.
+4. Cópia privada mantida em `docs/referencias/sfia-local/`.
+5. Bloco publicado na página inicial em pt-BR; COA C e D ficam para avaliação futura.
 
 ## 10. Limites
 
 - Não há avaliação independente de competência.
 - Não há certificação SFIA.
 - Não há parecer jurídico.
-- As faixas de nível são hipóteses até a aprovação do responsável.
+- As faixas de nível foram publicadas como autoavaliação; a revisão está em P-14.
 - A cópia privada não é publicada e não deve ser redistribuída.
 - O SFIA 8 não substitui a referência v9 usada pelo projeto.

@@ -89,7 +89,7 @@ O PDF do NIST não contém o catálogo completo de tarefas e work roles; esses a
 | Níveis | Sim, 1 a 7 | Não define |
 | Origem | SFIA Foundation | NIST |
 | Licença | Uso pessoal/interno gratuito; cópia e redistribuição restritas | Publicação pública do NIST |
-| Uso neste projeto | Vocabulário e candidatos de habilidade | Referência para segurança, sem mapeamento de cargo |
+| Uso neste projeto | Vocabulário e perfil publicado em pt-BR | Referência para segurança, sem mapeamento de cargo |
 
 ## 4. Regras de aplicação
 
@@ -98,27 +98,30 @@ O PDF do NIST não contém o catálogo completo de tarefas e work roles; esses a
 3. Nenhum nível SFIA será publicado sem evidência e aprovação do responsável.
 4. Nenhum work role do NICE será tratado como cargo ou certificação.
 5. Não haverá logotipo, selo ou alegação de certificação SFIA ou NICE.
-6. O mapeamento começa como proposta e só vira conteúdo do site após aprovação.
+6. O mapeamento foi publicado como autoavaliação em pt-BR; novas habilidades exigem aprovação.
 7. A publicação continua em pt-BR primeiro.
 
-## 5. Piloto SFIA
+## 5. Perfil SFIA
 
-Candidatos de habilidade, sem atribuição de nível.
-O nível depende de evidência de autonomia, complexidade e impacto.
+Perfil publicado em pt-BR em 02/11/2026 como autoavaliação.
+Os níveis 4 a 7 não foram usados.
+A revisão dos níveis está em [Pendências](pendencias.md), item P-14.
 
-| Área declarada | Evidência atual | Habilidade SFIA | Níveis da habilidade | Situação |
-| --- | --- | --- | --- | --- |
-| Suporte técnico e incidentes | Relatórios de experiência e texto do currículo | `USUP` — Gestão de incidentes | 1 a 6 | Candidato. |
-| Redes e fibra óptica | Relatório da RealFort e galeria | `NTAS` — Suporte a redes | 1 a 5 | Candidato. |
-| Instalação e manutenção de sistemas | Relatório da RealFort e experiência | `HSIN` — Instalação e remoção de sistemas | 1 a 5 | Candidato. |
-| Operações de infraestrutura | Experiência em suporte e redes | `ITOP` — Operações de infraestrutura | 1 a 5 | Candidato. |
-| Dados e SQL | Curso, projeto e competências | `DATM` — Gestão de dados | 2 a 6 | Candidato. |
-| Desenvolvimento web | Projetos e competências | `PROG` — Programação e desenvolvimento de software | 2 a 6 | Candidato. |
-| Gestão da configuração | Git, GitHub e documentação | `CFMG` — Gestão da configuração | 2 a 6 | Candidato. |
-| Controle de mudanças | Fluxo de commits e revisão | `CHMG` — Controle de mudanças | 2 a 6 | Candidato. |
+| Área declarada | Evidência atual | Habilidade SFIA | Níveis da habilidade | Nível adotado | Situação |
+| --- | --- | --- | --- | --- | --- |
+| Suporte técnico e incidentes | Lukos e Alpha; relatórios e texto do currículo | `USUP` — Gestão de incidentes | 1 a 6 | 3 — Aplica | Publicado. |
+| Redes e fibra óptica | RealFort; relatório e galeria | `NTAS` — Suporte a redes | 1 a 5 | 3 — Aplica | Publicado. |
+| Instalação e manutenção de sistemas | RealFort e Alpha | `HSIN` — Instalação e remoção de sistemas | 1 a 5 | 3 — Aplica | Publicado. |
+| Suporte a aplicações | Lukos; ERP/PDV e NF-e/NFC-e | `ASUP` — Suporte a aplicações | 2 a 5 | 3 — Aplica | Publicado. |
+| Operações de infraestrutura | Alpha e Lukos; suporte e monitoramento | `ITOP` — Operações de infraestrutura | 1 a 5 | 2 — Auxilia | Publicado. |
+| Dados e SQL | Curso, projeto e competências | `DATM` — Gestão de dados | 2 a 6 | — | Não publicado; faixa 1–2. |
+| Desenvolvimento web | Portfólio, SGCS e cursos | `PROG` — Programação/desenvolvimento de software | 2 a 6 | 2 — Auxilia | Publicado. |
+| Gestão da configuração | Git, GitHub e documentação | `CFMG` — Gestão da configuração | 2 a 6 | 2 — Auxilia | Publicado. |
+| Controle de mudanças | Fluxo de commits e revisão | `CHMG` — Controle de mudanças | 2 a 6 | — | Não publicado; coberto por CFMG. |
 
-Nenhum nível foi atribuído.
-Nenhum candidato foi publicado no site.
+Sete habilidades foram publicadas.
+A publicação é uma autoavaliação; não é certificação, endosso ou afiliação.
+Os níveis e as evidências podem ser revistos pelo responsável sem alterar a estrutura do bloco.
 
 ## 6. Piloto NICE
 
@@ -136,10 +139,13 @@ Sem esses componentes, o mapeamento seria inventado.
 
 ## 7. Publicação
 
-Nesta etapa, o uso é interno.
-O site não exibe níveis SFIA, work roles NICE, selos ou logotipos.
-A viabilidade de publicação, as condições e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
-Qualquer publicação exige:
+O site exibe um bloco compacto em pt-BR desde 02/11/2026.
+O bloco tem sete habilidades, níveis 2 e 3, evidência curta e nota de autoavaliação.
+Os outros idiomas não receberam o bloco nesta etapa.
+Não há work role NICE, selo ou logotipo.
+A viabilidade e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
+
+Qualquer nova publicação exige:
 
 1. evidência da competência;
 2. proposta de nível ou tarefa;
@@ -158,7 +164,7 @@ Qualquer publicação exige:
 
 O SFIA é propriedade da SFIA Foundation.
 O uso pessoal e a maior parte do uso interno de gestão são gratuitos; cópia, redistribuição e uso comercial exigem licença.
-O projeto não copia o PDF para a base local versionada nem publica trechos no site.
+O projeto não copia o PDF para a base local versionada nem publica descrições ou tabelas do PDF no site.
 A cópia privada de consulta fica em `docs/referencias/sfia-local/`, ignorada pelo Git.
 O NICE é publicação do NIST, sem direitos autorais nos Estados Unidos; a atribuição é apreciada.
 
@@ -167,9 +173,39 @@ A cópia privada de consulta é relativa à raiz do projeto e não integra a bas
 
 ## 9. Limites e revisão
 
-- Não há avaliação de proficiência.
+- Não há avaliação independente de proficiência.
 - Não há mapeamento NICE completo.
-- Não há aprovação para publicar níveis ou work roles.
-- O piloto SFIA é uma proposta de vocabulário, não um resultado.
+- Os níveis SFIA são autoavaliação; não são certificação.
+- Nenhum nível 4 a 7 foi publicado.
+- A revisão dos níveis está em [Pendências](pendencias.md), item P-14.
+- O perfil SFIA é uma proposta de vocabulário, não um resultado.
 - A viabilidade de publicação e as COAs estão em [SFIA: viabilidade](sfia-viabilidade.md).
 - A revisão ocorre quando houver nova competência, certificação, projeto ou decisão de publicação.
+
+## 10. Rubrica interna
+
+A rubrica orienta a proposta de nível.
+Ela não substitui evidência nem aprovação do responsável.
+Os critérios são uma paráfrase interna; não reproduzem os descritores oficiais.
+
+| Nível | Critério interno | Evidência mínima |
+| --- | --- | --- |
+| 1 | Executa tarefas rotineiras sob supervisão próxima e segue procedimentos. | Instrução recebida e tarefa conferida. |
+| 2 | Auxilia a equipe, trabalha sob supervisão rotineira e resolve problemas rotineiros com critérios próprios. | Apoio documentado em rotina, chamado ou projeto. |
+| 3 | Aplica métodos padrão, trabalha sob direção geral, gerencia o próprio trabalho e cumpre prazos. | Autonomia parcial e resultado entregue. |
+| 4 | Possibilita o trabalho de outras pessoas, planeja e monitora atividades e melhora métodos. | Coordenação de pessoas ou processos. |
+| 5 | Garante resultados e aconselha; define metas de qualidade e influencia decisões. | Responsabilidade por área ou serviço. |
+| 6 | Inicia e influencia; define direção em uma área significativa. | Impacto organizacional amplo. |
+| 7 | Define estratégia, inspira e mobiliza. | Responsabilidade estratégica. |
+
+Processo:
+
+1. Reunir evidência de experiência, projeto, curso ou certificação.
+2. Comparar a evidência com o critério do nível.
+3. Propor o nível e registrar a justificativa.
+4. O responsável revisa e aprova.
+5. Atualizar `docs/fontes/competencias-declaradas.json` e o bloco do site.
+6. Revisar quando houver novo projeto, certificado, função ou correção factual.
+
+A rubrica não cria competência.
+Ela apenas organiza a evidência que já existe.

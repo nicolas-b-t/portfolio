@@ -251,7 +251,7 @@ Não há elicitação com usuários externos nem ferramenta de gestão de requis
 | Priorização | CPRE §6.8, página 44 | Prioridade essencial, esperado ou opcional. |
 | Redação e fundamentação | Documento local, §“Manter a fundamentação” | Identificador, fonte, critério e evidência por item. |
 
-O catálogo tem 14 requisitos funcionais e 11 não funcionais.
+O catálogo tem 15 requisitos funcionais e 11 não funcionais.
 Cada item cita uma fonte ou uma decisão registrada.
 
 ### 2.3 Verificação
@@ -1021,6 +1021,7 @@ Fontes, na biblioteca principal:
 - `REPERTORIO_TECNICO/11_COMPETENCIAS_PROFISSIONAIS/01_FRAMEWORKS_DE_COMPETENCIAS/NIST - SP 800-181 NICE Workforce Framework for Cybersecurity (EN) - Rev 1.pdf`.
 
 O SFIA é licenciado. O PDF não foi copiado para a base local.
+Há uma cópia privada de consulta em `docs/referencias/sfia-local/`, ignorada pelo Git.
 O NICE é publicação pública do NIST.
 
 O documento completo está em [Competências e frameworks](competencias.md).
@@ -1030,8 +1031,9 @@ As declarações factuais continuam em `docs/fontes/competencias-declaradas.json
 
 O SFIA combina habilidades profissionais com sete níveis de responsabilidade.
 O projeto usa o SFIA como vocabulário para áreas de competência.
-Oito áreas foram propostas como candidatas, sem atribuição de nível.
-A estrutura, os limites e o piloto estão em [Competências e frameworks](competencias.md).
+Sete áreas foram publicadas em pt-BR como autoavaliação, com níveis 2 e 3.
+`DATM` e `CHMG` ficaram fora do piloto.
+A estrutura, os limites e a rubrica estão em [Competências e frameworks](competencias.md).
 
 ### 11.3 NICE
 
@@ -1045,26 +1047,26 @@ Por isso, não há mapeamento de work role nesta fase.
 2. SFIA e NICE organizam; não criam competência.
 3. Nenhum nível SFIA ou work role NICE é publicado sem evidência e aprovação.
 4. Não há selo, logotipo ou alegação de certificação.
-5. O piloto SFIA é uma proposta de vocabulário, não um resultado.
+5. O perfil SFIA é uma autoavaliação, não um resultado certificado.
 6. A publicação continua em pt-BR primeiro.
 
 ### 11.5 Verificação e limites
 
 - As duas fontes foram consultadas e citadas.
-- Oito habilidades SFIA foram propostas sem nível.
+- Sete habilidades SFIA foram publicadas com níveis 2 e 3; duas ficaram fora.
 - Nenhum work role NICE foi atribuído.
-- Nenhum conteúdo do site foi alterado.
-- O SFIA não foi copiado para a base.
+- O bloco SFIA foi publicado em pt-BR em 02/11/2026.
+- O SFIA não foi copiado para a base; a cópia privada fica em `docs/referencias/sfia-local/`.
 - O NICE não tem catálogo completo no PDF.
 - Não há certificação, avaliação de proficiência ou parecer de competência.
-- A publicação de níveis depende de decisão do responsável.
+- A publicação de níveis foi decidida pelo responsável; a revisão está em P-14.
 
 ### 11.6 Pendências
 
 1. Revisar a terminologia das competências declaradas contra o guia de redação.
 2. Obter os componentes oficiais do NICE, se houver intenção de mapear work roles.
-3. Decidir se algum nível SFIA será publicado.
-4. Registrar a evidência de cada candidato antes de qualquer publicação.
+3. Revisar os níveis SFIA publicados.
+4. Registrar a evidência de cada nível antes de qualquer alteração.
    A lista vigente está em [Pendências](pendencias.md).
 
 ## 12. Governança estratégica e riscos — fase 12
@@ -1094,7 +1096,7 @@ Linha de base medida em 02/11/2026.
 | Maior imagem | Arquivo individual | 345 KB | Sem meta numérica; avaliar no uso. |
 | Segurança | Segredos e arquivos privados rastreados | 0 e 0 | Manter; concluir 2FA. |
 | Publicação | Raiz, HTTPS e 404 | 200, 301 e 404 | Manter. |
-| Documentação | ADRs, requisitos e seções | 7, 25 e 12 | Manter. |
+| Documentação | ADRs, requisitos e seções | 7, 26 e 12 | Manter. |
 | Governança | Riscos com dono | 13 de 13 | Revisar por evento. |
 
 Nenhum indicador foi criado sem medição.
