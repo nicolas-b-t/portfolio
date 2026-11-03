@@ -206,7 +206,7 @@ Decisão nova entra com ID seguinte e data.
 | D-15 | Segurança: 2FA desativado; apenas o responsável é admin; repositório público; cópia limpa sem dados pessoais ao final. |
 | D-16 | Incidente: resposta em até 1 dia. |
 | D-17 | Manter GitHub Pages; criar página 404 no mesmo estilo; acompanhamento manual. |
-| D-18 | Competências vêm de `docs/fontes/competencias-declaradas.json`; certificações concluídas entram manualmente; ajustes são apenas apontados. |
+| D-18 | Competências vêm de `dados-pessoais/fontes/competencias-declaradas.json`; certificações concluídas entram manualmente; ajustes são apenas apontados. |
 | D-19 | Revisão conforme evento novo; indicadores manuais neste escopo. |
 | D-20 | Inglês revisado pelo responsável; espanhol mantém a diferença entre `es-419` e `es-ES`; inconsistências vão ao operador. |
 | D-21 | Documentação em pt-BR; o plano fica na raiz e será versionado. |
@@ -945,7 +945,7 @@ O responsável é o único aprovador. O agente prepara a análise e executa a mu
 | `.github/workflows/pages.yml` | Publicação | Permissões mínimas e ações por SHA. |
 | `docs/` e plano | Regras, requisitos, decisões e evidência | Documento revisado e versionado. |
 | `CHANGELOG.md` | Registro resumido das mudanças | Entrada por mudança publicada. |
-| `docs/fontes/` e listas de tags | Dados declarados e consulta | Fonte factual preservada. |
+| `dados-pessoais/fontes/` e listas de tags | Dados declarados e consulta | Fonte factual preservada. |
 
 A linha de base vigente é o commit aprovado na `main`.
 Mudança aprovada atualiza a linha de base. Mudança não aprovada não entra na `main`.
@@ -1025,7 +1025,7 @@ A consulta usa a biblioteca principal; não há cópia local versionada.
 O NICE é publicação pública do NIST.
 
 O documento completo está em [Competências e frameworks](../competencias.md).
-As declarações factuais continuam em `docs/fontes/competencias-declaradas.json`.
+As declarações factuais continuam em `dados-pessoais/fontes/competencias-declaradas.json`.
 
 ### 11.2 SFIA
 

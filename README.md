@@ -26,7 +26,7 @@ Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 ├── README.md             # Execução, estrutura e publicação
 ├── .github/workflows/    # Publicação no GitHub Pages
 ├── static/               # Site, CSS e fotografias
-├── docs/                 # Guias, fontes atuais, PDFs V3 e repertório técnico local
+├── docs/                 # Guias, PDFs V3 e repertório técnico local
 ├── listas-de-tags/      # Listas de consulta e traduções editoriais
 └── dados-pessoais/       # Currículos originais e rascunhos, fora do Git
 ```

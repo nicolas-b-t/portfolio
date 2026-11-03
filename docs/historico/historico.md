@@ -32,7 +32,7 @@ O catálogo e o índice do repertório não fundamentam regras do projeto.
 
 - `static/`: páginas, CSS, favicons e fotografias.
 - `docs/curriculos/v3/`: dez PDFs atuais, índice e manifesto.
-- `docs/fontes/`: declarações, relatório acadêmico e manifestos.
+- `dados-pessoais/fontes/`: declarações, relatório acadêmico e manifestos.
 - `docs/referencias/`: Europass, ATS e fontes externas.
 - `docs/repertorio-tecnico-site/`: repertório técnico, ignorado pelo Git.
 - `dados-pessoais/`: currículos, relatórios e rascunhos, ignorados pelo Git.
@@ -53,6 +53,8 @@ As pastas passaram ao padrão do `AGENTS.md`: minúsculas, sem acentos, com híf
 | `docs/referencias/europass/fontes/` | `docs/referencias/europass-fontes/` |
 | `docs/fontes/academico/originais-local/` | `docs/fontes/academico-local/` (arquivada em 03/11/2026) |
 | `docs/fontes/curriculos/` | `docs/fontes/curriculos-originais/` |
+
+Em 03/11/2026, o conteúdo de `docs/fontes/` foi movido para `dados-pessoais/fontes/`.
 | `docs/curriculos/v3/<idioma>/` | `docs/curriculos/v3/` |
 
 ### Arquivo anterior
@@ -112,12 +114,13 @@ Verificação: 28 SVGs em `static/assets/icons/`, seletores `[data-icon]` corres
 
 Limites: inspeção estática; ensaio visual interativo de `mask`, teclado, foco, contraste, 320 px, zoom, temas e paginação ficou pendente.
 
-## Arquivamento de 03/11/2026
+## Consolidação de 03/11/2026
 
 - `docs/referencias/sfia-local/`: removida. Os originais permanecem na biblioteca principal e o perfil está em [Competências](../competencias.md).
 - `docs/referencias/ats-local/`: movida para `_arquivo/site-curriculo-portfolio/2026-11-03/referencias-ats-local/`.
-- `docs/fontes/academico-local/`: movida para `_arquivo/site-curriculo-portfolio/2026-11-03/fontes-academico-local/`.
-- `docs/repertorio-tecnico-site/`: mantida; o arquivamento dos 67 MB depende de decisão registrada em [Requisitos](../requisitos.md), §11.
+- `docs/fontes/academico-local/`: o PPC foi integrado em `dados-pessoais/fontes/academico/`; a pasta intermediária foi removida.
+- `docs/fontes/`: movida para `dados-pessoais/fontes/`; os arquivos deixam de acompanhar o Git.
+- `docs/repertorio-tecnico-site/`: mantida; o arquivamento dos 67 MB depende de P-15 em [Requisitos](../requisitos.md), §11.
 
 Os antigos arquivos de histórico, o plano enxuto, as pendências, a análise SFIA e os ADRs foram fundidos nos documentos atuais.
 O texto integral permanece no histórico Git.

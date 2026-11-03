@@ -1,7 +1,7 @@
 # Competências e frameworks de referência
 
 Este documento explica o SFIA e o NICE, sua utilidade e a forma de aplicação neste projeto.
-As declarações factuais continuam em [competências declaradas](fontes/competencias-declaradas.json).
+As declarações factuais continuam em `dados-pessoais/fontes/competencias-declaradas.json` (local, ignorado pelo Git).
 
 Os frameworks são lentes de organização. Não são certificação, avaliação de proficiência ou prova de experiência.
 
@@ -92,7 +92,7 @@ O PDF do NIST não contém o catálogo completo de tarefas e work roles; esses a
 
 ## 4. Regras de aplicação
 
-1. `docs/fontes/competencias-declaradas.json` é a fonte factual.
+1. `dados-pessoais/fontes/competencias-declaradas.json` é a fonte factual local.
 2. SFIA e NICE não criam competência; apenas organizam o que foi declarado e comprovado.
 3. Nenhum nível SFIA será publicado sem evidência e aprovação do responsável.
 4. Nenhum work role do NICE será tratado como cargo ou certificação.
@@ -205,7 +205,7 @@ Processo:
 2. Comparar a evidência com o critério do nível.
 3. Propor o nível e registrar a justificativa.
 4. O responsável revisa e aprova.
-5. Atualizar `docs/fontes/competencias-declaradas.json` e o bloco do site.
+5. Atualizar `dados-pessoais/fontes/competencias-declaradas.json` e o bloco do site.
 6. Revisar quando houver novo projeto, certificado, função ou correção factual.
 
 A rubrica não cria competência.

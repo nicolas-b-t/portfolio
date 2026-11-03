@@ -152,7 +152,7 @@ Quando a pasta não tem fonte local, a fase registra a lacuna. Ela não simula a
 - **Fontes:** SFIA v9 (Referência da Estrutura e Sobre o SFIA, PT) e NICE SP 800-181 Rev. 1 (EN), na biblioteca principal.
 - **Aplicar:** usar SFIA e NICE como referência de vocabulário e organização, sem certificação. Registrar o que são, a utilidade e as regras de aplicação. Publicar um perfil piloto de sete habilidades com níveis 2 e 3, como autoavaliação, após aprovação. Não publicar níveis 4 a 7, work roles ou selos sem evidência e aprovação.
 - **Limite:** SFIA é licenciado; o PDF não é copiado para a base. O NICE Rev. 1 não traz o catálogo completo de tarefas e work roles. Não criar níveis ou certificações.
-- **Verificar:** cada nível cita a habilidade e a evidência; nenhum nível 4 a 7 publicado; terminologia revisada contra `docs/fontes/competencias-declaradas.json`.
+- **Verificar:** cada nível cita a habilidade e a evidência; nenhum nível 4 a 7 publicado; terminologia revisada contra `dados-pessoais/fontes/competencias-declaradas.json`.
 - **Saída:** `docs/competencias.md`, bloco em `static/pt-BR/index.html` e seção.
 - **Esforço:** M.
 

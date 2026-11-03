@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-03 | Consolida dados e documentos: arquiva capturas, remove cópias e funde históricos, decisões, referências e pendências. | Este commit. |
+| 2026-11-03 | Move `docs/fontes/` para `dados-pessoais/fontes/` e funde os manifestos em um único arquivo. | Este commit. |
+| 2026-11-03 | Consolida dados e documentos: arquiva capturas, remove cópias e funde históricos, decisões, referências e pendências. | `56d6393` |
 | 2026-11-03 | Remove a cópia anterior e descontinuada do relatório de Aquecedores. | `14d76e5` |
 | 2026-11-03 | Remove textos e a metodologia da página principal pt-BR. | `316da4b` |
 | 2026-11-03 | Deixa a seção Perfil SFIA fechada por padrão e adiciona cópia de impressão. | `64d8e39` |

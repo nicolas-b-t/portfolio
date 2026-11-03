@@ -1,13 +1,13 @@
 # Conteúdo, fontes e atribuições
 
 Este documento concentra os fatos e limites necessários à manutenção do conteúdo.
-O texto vigente em pt-BR orienta as traduções. As [declarações do responsável](fontes/competencias-declaradas.json) preservam as confirmações recebidas.
+O texto vigente em pt-BR orienta as traduções. As declarações do responsável em `dados-pessoais/fontes/competencias-declaradas.json` preservam as confirmações recebidas.
 
 ## Experiência profissional
 
 Correção de 02/11/2026: o responsável confirmou janeiro de 2026 como início da atuação em tráfego pago na Aquecedores e Piscinas Mairiporã. Esta declaração substitui o ano 2025 registrado no relatório recebido. Corrigidas as três ocorrências do DOCX, tela, resumo estruturado e lista de consulta; arquivo do Google Drive substituído no mesmo ID e conferido por leitura posterior. Fonte editorial: REF-0122, “Manter a fundamentação”, e guia de redação, preservação de datas. O pacote DOCX conserva os demais componentes e a formatação; a cópia anterior foi removida em 03/11/2026 por solicitação do responsável. Renderização tentada, mas indisponível por ausência de LibreOffice no ambiente; não houve inspeção visual do documento nesta correção. Manifesto atualizado com tamanho e hash.
 
-Os relatórios profissionais recebidos do Google Drive estão catalogados em [fontes de experiência profissional](fontes/experiencia-profissional/manifesto.json). O relatório da RealFort Telecom complementa a fonte já usada para essa experiência. Em 02/11/2026, o responsável solicitou incorporar a experiência mais recente a partir dos relatórios, mantendo o trabalho em pt-BR.
+Os relatórios profissionais recebidos do Google Drive estão catalogados em `dados-pessoais/fontes/manifesto.json`, seção `experiencia_profissional`. O relatório da RealFort Telecom complementa a fonte já usada para essa experiência. Em 02/11/2026, o responsável solicitou incorporar a experiência mais recente a partir dos relatórios, mantendo o trabalho em pt-BR.
 
 - Aquecedores e Piscinas Mairiporã: gestor de tráfego pago; apoio documental e treinamento digital, de janeiro de 2026 até o presente na data do relatório. Campanhas em Google Ads e Meta Ads, medição com Google Tag Manager e GA4, site, marketplaces, acervo documental, treinamento dos sócios e suporte digital.
 - Fonte local: `../dados-pessoais/experiencia-profissional/RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx`, versão 1.0 de 02/11/2026, quadro de identificação e seções “Resumo profissional”, “Atividades e resultados”, “Hard skills” e “Encerramento”. Relato do profissional, sem certificação ou validação independente.
@@ -31,7 +31,7 @@ O curso é Gestão da Tecnologia da Informação na Fatec Franco da Rocha – Gi
 O ingresso é julho de 2024. A conclusão prevista é julho de 2027.
 Os conteúdos previstos não comprovam conclusão individual das disciplinas ou domínio profissional.
 
-O [PPC ligado pelo site](https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view) é identificado no [manifesto acadêmico](fontes/academico/manifesto.json).
+O [PPC ligado pelo site](https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view) é identificado no manifesto local (`dados-pessoais/fontes/manifesto.json`, seção `academico`).
 O PPC antigo da Fatec Assis foi substituído e não fundamenta a formação do responsável.
 As fontes apresentam divergências de carga horária total. Não acrescente um total sem conferir a edição aplicável.
 
@@ -84,7 +84,7 @@ O SGCS é uma pesquisa acadêmica e um MVP em desenvolvimento, realizados pela e
 A gestão pessoal inclui planejamento, coordenação, prazos, entregáveis e integração de ferramentas.
 As tecnologias e competências dos projetos descrevem seu contexto, sem atribuir domínio individual de todas as ferramentas.
 
-O [relatório acadêmico do SGCS](fontes/academico/PI-IV_ENTREGA_FINAL.pdf) possui 58 páginas.
+O relatório acadêmico do SGCS (`dados-pessoais/fontes/academico/PI-IV_ENTREGA_FINAL.pdf`) possui 58 páginas.
 As posições abaixo se referem às páginas do PDF:
 
 | Páginas | Evidência |
@@ -114,7 +114,7 @@ O cartão usa HTML e CSS do próprio portfólio. O banner externo depende de Jav
 
 ## Contatos, documentos e fontes
 
-Os quatro DOCX originais estão em `dados-pessoais/curriculos/`; o [manifesto](fontes/curriculos-originais/manifesto.json) registra URLs, bytes e SHA-256.
+Os quatro DOCX originais estão em `dados-pessoais/curriculos/`; o manifesto local (`dados-pessoais/fontes/manifesto.json`, seção `curriculos_originais`) registra URLs, bytes e SHA-256.
 O telefone e o país da V3 foram preservados desses documentos.
 Links institucionais dos cursos identificam as instituições, sem validar individualmente os certificados.
 As cargas horárias e a origem das datas estão na seção Cursos acima.
