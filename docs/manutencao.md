@@ -8,10 +8,11 @@ O registro histórico está em [Histórico](historico/historico.md).
 ## Conteúdo e idiomas
 
 Use `static/pt-BR/index.html` como base factual.
-Atualize também `pt-PT`, `en`, `es-419` e `es-ES` quando o conteúdo comum mudar.
-Cada idioma mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`.
+Estado atual: somente `pt-BR` e `en` são publicados. As pastas `pt-PT`, `es-419` e `es-ES` redirecionam para `static/wip.html` até a conclusão da base e da tradução.
+Quando a base pt-BR estiver concluída, atualize as traduções e reative os links de idioma.
+Cada variante ativa mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`; em pt-BR, há também `projetos.html`.
 Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
-Em `es-419`, preserve a redação para o público sul-americano.
+Em `es-419`, preserve a redação para o público sul-americano quando a variante for reativada.
 
 Confira as [fontes e atribuições](conteudo-e-fontes.md) antes de alterar competências, cargos, projetos ou formação.
 Preserve as três categorias de competências e suas subcategorias.
@@ -146,13 +147,14 @@ Cada indicação usa um cartão com título, descrição curta e link descritivo
 Nos livros, preserve o título oficial e identifique a autoria e a edição quando informadas.
 Acrescente motivos pessoais para recomendar um item somente quando o responsável os fornecer.
 Confira a fonte e registre o contexto em [Conteúdo e fontes](conteudo-e-fontes.md).
-Traduza o conteúdo comum nos cinco idiomas e confira os links de troca de idioma.
+Traduza o conteúdo comum nos idiomas ativos e confira os links de troca de idioma.
+Quando as demais variantes forem reativadas, retome a tradução a partir da base pt-BR.
 Prefira o destino no idioma da página quando houver uma tradução disponível.
 
 ## Cursos e currículos
 
 A página mantém duas cópias de tela e impressão dos cursos, além do resumo estruturado.
-Quando um curso mudar, atualize suas ocorrências em cada idioma.
+Quando um curso mudar, atualize suas ocorrências nos idiomas ativos.
 Preserve títulos oficiais, instituições, datas, cargas horárias e atributos de idioma.
 Confira cada curso uma única vez na impressão, com o controle recolhível aberto e fechado.
 As cargas horárias e a origem das datas estão em [Cursos](conteudo-e-fontes.md#cursos-complementares).
@@ -165,17 +167,17 @@ Os DOCX V3 estão na [pasta de currículos no Drive](https://drive.google.com/dr
 ## HTML, CSS e publicação
 
 Todas as páginas usam `static/assets/css/styles.css`.
-Calcule os caminhos relativos conforme a profundidade de cada página.
+Calcule os caminhos relativos conforme a profundidade de cada página. A página 404 é a exceção: usa caminhos absolutos sob `/portfolio/` para funcionar em URLs aninhadas.
 Preserve fontes do sistema, recursos locais e as imagens WebP/JPEG em `static/media/realfort/`.
 Não adicione JavaScript, backend, frameworks, rastreadores ou etapa de build.
 
 Convenções de HTML:
 
 - UTF-8 e `lang` correto em cada página.
-- `hreflang` recíproco entre as variantes.
+- `hreflang` recíproco entre as variantes ativas.
 - Elementos semânticos: `header`, `nav`, `main`, `section`, `footer`.
 - Um `h1` por página e hierarquia sem saltos.
-- Caminhos relativos.
+- Caminhos relativos, exceto na página 404.
 - Sem `style` embutido, `<script>`, `<form>` ou `<iframe>`.
 - Toda imagem tem `alt`; a galeria usa `figure` e `figcaption`.
 - A cópia estruturada usa `hidden` e dados iguais aos da tela.

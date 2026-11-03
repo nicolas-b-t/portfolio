@@ -1,6 +1,6 @@
 # Decisões de arquitetura
 
-Sete decisões aceitas em 02/11/2026.
+Oito decisões aceitas em 02/11/2026 e 03/11/2026.
 O formato é uma síntese de MADR; o texto completo de cada ADR permanece no histórico Git.
 Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o registro e recebe o status `superseded`.
 
@@ -13,6 +13,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0005 | Ícones por máscara CSS | Aceita |
 | 0006 | Projetos apenas em `pt-BR` | Aceita |
 | 0007 | Publicação restrita a `static/` | Aceita |
+| 0008 | Publicação temporária de duas variantes | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -62,3 +63,10 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** publicar somente `static/`; o workflow copia a pasta para uma área temporária e envia ao Pages, com ações fixadas por SHA e permissões mínimas.
 **Consequências:** documentação e base privada não são publicadas; todo arquivo do site precisa estar em `static/`.
 **Confirmação:** passo que copia `static/.`; permissões `contents: read`, `pages: write` e `id-token: write`; página publicada aberta após o push.
+
+## 0008 — Publicação temporária de duas variantes
+
+**Contexto:** `pt-BR` está em revisão como base do modelo; manter as traduções de `pt-PT`, `es-419` e `es-ES` atualizadas durante a revisão consome recursos e cria divergência.
+**Decisão:** publicar somente `pt-BR` e `en`; `pt-PT`, `es-419` e `es-ES` redirecionam para `wip.html`. As pastas e o conteúdo anterior permanecem no histórico Git.
+**Consequências:** visitantes desses idiomas veem a página de trabalho em andamento; a tradução será refeita a partir da base concluída. A decisão 0003 permanece vigente como destino.
+**Confirmação:** apenas `pt-BR` e `en` têm conteúdo; as demais páginas usam `meta refresh` para `wip.html`; os links de idioma ativos apontam para `pt-BR` e `en`.

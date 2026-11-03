@@ -21,6 +21,9 @@ Os relatórios profissionais recebidos do Google Drive estão catalogados em `da
 - A fusão de fibra permanece no nível de aprendiz. O relatório da RealFort informa 28/08/2026 a 28/09/2026; a página ainda não incorpora esse período, pois esta alteração se limita à inclusão de Aquecedores e Piscinas Mairiporã.
 - Lukos Tecnologia: suporte N1 a ERP/PDV, configuração, diagnóstico remoto, orientação de clientes e análise de NF-e/NFC-e.
 - Instituto Alpha: suporte N1/N2 hospitalar, orientação de usuários, manutenção, documentação, ativos e Microsoft Active Directory.
+- JH Eletrônico: assistente de e-commerce, de julho de 2021 a janeiro de 2022, autônomo, Mairiporã (SP). Gestão de catálogo e anúncios, cadastro de produtos, atendimento B2C/B2B, prospecção de leads, elaboração de orçamentos, vendas diretas, acompanhamento de pedidos e conferência pré-expedição com Bling ERP, negociação de pendências com o Mercado Livre.
+- Fonte local: `../dados-pessoais/experiencia-profissional/RELATORIO_EXPERIENCIA_JH_ELETRONICO.docx`, versão 1.1 de 03/11/2026. Relato do profissional, sem documentos comprobatórios ou indicadores quantitativos apresentados. Razão social (JH ELETRÔNICO LTDA.) e CNPJ (09.344.228/0001-73) consultados em 03/11/2026 no site institucional.
+- Decisão em 03/11/2026: inserir a atuação no final da experiência em pt-BR (ordem cronológica inversa, após Instituto Alpha) e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Tags de e-commerce e vendas incorporadas na subcategoria “Tráfego pago, análise digital e comércio eletrônico”. Proposta de acordo com Mercado Livre não foi aprovada pelo responsável da empresa; bloqueio permaneceu. Repasses monetários e negociações dependiam de autorização.
 
 Os cargos, vínculos e datas pessoais devem seguir as páginas e as declarações aprovadas.
 Não acrescente certificações de segurança ou habilitações profissionais a partir de fotografias ou descrições de atividades.
@@ -43,8 +46,9 @@ As traduções editoriais das tags não declaram fluência nos idiomas de destin
 ### Cursos complementares
 
 Cargas horárias e datas dos 17 cursos da página pt-BR, consultadas em 16/10/2026.
-A página usa o rótulo **Conclusão** por solicitação do responsável.
+As variantes ativas usam o rótulo **Conclusão** por solicitação do responsável.
 A coluna de origem preserva a distinção entre conclusão e emissão; quando havia as duas, a data exibida é a de conclusão.
+A variante en-US foi padronizada para exibir somente a data de conclusão.
 
 | Curso | Horas | Data | Origem |
 | --- | --- | --- | --- |
@@ -118,11 +122,12 @@ Os quatro DOCX originais estão em `dados-pessoais/curriculos/`; o manifesto loc
 O telefone e o país da V3 foram preservados desses documentos.
 Links institucionais dos cursos identificam as instituições, sem validar individualmente os certificados.
 As cargas horárias e a origem das datas estão na seção Cursos acima.
-Essa versão usa o rótulo Conclusão por solicitação do responsável, com a distinção original entre conclusão e emissão preservada no registro.
+As variantes ativas usam o rótulo Conclusão (ou Completion) por solicitação do responsável, com a distinção original entre conclusão e emissão preservada no registro.
 
 CNH AB e PID permanecem documentos declarados do responsável.
 O uso internacional depende das condições do destino e da CNH válida.
+A página ativa cita a lista de países contratantes da Convenção de Viena sobre Trânsito Viário de 1968, mantida pela ONU.
 Não atribua equivalência a uma licença profissional estrangeira.
-Consulte a [Senatran](https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/portarias/2022/Portaria10432022.pdf) antes de alterar a explicação.
+Consulte a [Senatran](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/carteira-internacional) e a [lista de países](https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11) antes de alterar a explicação.
 
 Os históricos completos das decisões e dos testes foram preservados conforme o [registro histórico](historico/historico.md).

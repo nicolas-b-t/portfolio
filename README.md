@@ -1,6 +1,6 @@
 # Portfólio de Nicolas Beraldes Tarifa
 
-Currículo, projetos e registros profissionais em cinco variantes linguísticas.
+Currículo, projetos e registros profissionais em duas variantes ativas: português (Brasil) e inglês. As demais variantes estão em preparação.
 O site usa HTML e CSS, sem JavaScript, backend ou etapa de build.
 
 [Site publicado](https://nicolas-b-t.github.io/portfolio/) · [PDFs V3](docs/curriculos/v3/README.md) · [Documentação](docs/README.md)
@@ -14,8 +14,9 @@ python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 ```
 
 Abra `http://127.0.0.1:8001/`.
-As páginas ficam em `/pt-BR/`, `/pt-PT/`, `/en/`, `/es-419/` e `/es-ES/`.
-Cada idioma tem currículo e portfólio, galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`). Em pt-BR, `projetos.html` separa os projetos.
+As páginas ativas ficam em `/pt-BR/` e `/en/`.
+Cada variante ativa tem currículo e portfólio, galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`). Em pt-BR, `projetos.html` separa os projetos.
+As pastas `/pt-PT/`, `/es-419/` e `/es-ES/` redirecionam para `/wip.html` até a conclusão da base e da tradução.
 Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 
 ## Estrutura
@@ -39,10 +40,11 @@ O [workflow](.github/workflows/pages.yml) publica somente `static/` após push e
 No GitHub, configure **Settings → Pages → Source → GitHub Actions**.
 O site usa HTTPS com HSTS e o HTTP redireciona com 301.
 A página 404 personalizada fica em `static/404.html`.
+Ela usa caminhos absolutos sob `/portfolio/` para funcionar em URLs aninhadas. Ao publicar em outro caminho, ajuste esses caminhos.
 A disponibilidade depende do GitHub Pages e não há SLA.
 Depois do push, confira a página publicada, a troca de idioma e uma URL inexistente.
 
-Use pt-BR como base factual e sincronize o conteúdo comum nas outras variantes.
+Use pt-BR como base factual e sincronize o conteúdo comum nas variantes ativas.
 Todas as páginas compartilham `static/assets/css/styles.css`.
 A documentação e os currículos em `docs/` acompanham o repositório, fora do site publicado.
 A base técnica foi arquivada fora do projeto; o catálogo fica em `docs/referencias/repertorio-tecnico-site/`. Os dados pessoais ficam em `dados-pessoais/`, ignorados pelo Git.

@@ -78,48 +78,76 @@ Gestão e produtividade
 • Lean Six Sigma White Belt, introductory
 
 Tráfego pago, análise digital e comércio eletrônico
+• Acompanhamento de pedidos
+• Analytics
+• Atendimento B2C e B2B
+• Atendimento comercial
+• B2B sales
+• B2C sales
+• Bling
+• Bling ERP
+• Cadastro de produtos
+• Campanhas publicitárias
+• Catalog management
+• Catálogo de produtos
 • Comércio eletrônico
+• Conferência pré-expedição
+• Coordinate advertising campaigns
+• Digital advertising
+• Direct sales
 • E-commerce
 • E-Commerce
 • Ecommerce
+• Elaboração de orçamentos
 • Electronic commerce
-• Sistemas de comércio eletrônico
+• ERP Bling
 • Facebook
 • Facebook Ads
-• Gestão de tráfego pago
-• Paid traffic
-• Paid media
-• Mídia paga
-• PPC
-• SEM
-• Digital advertising
-• Publicidade digital
-• Google Ads
-• Google AdWords
-• Google Ads Editor
-• Google Analytics 4 (GA4)
 • GA4
+• Gerenciador de Anúncios
+• Gestão de catálogo
+• Gestão de pedidos
+• Gestão de tráfego pago
+• Google Ads
+• Google Ads Editor
+• Google AdWords
 • Google Analytics
-• Analytics
-• Web analytics
+• Google Analytics 4 (GA4)
 • Google Tag Manager
 • GTM
 • Instagram
-• Mercado Livre
+• Lead generation
+• Lead prospecting
 • Marketplace
 • Marketplaces
+• Mercado Livre
 • Meta Ads
 • Meta Ads Manager
-• Gerenciador de Anúncios
 • Meta Business Suite
+• Mídia paga
+• Orçamentos comerciais
+• Order fulfillment
+• Order management
+• Order tracking
 • Otimização de campanhas
-• Campanhas publicitárias
-• Coordinate advertising campaigns
+• Paid media
+• Paid traffic
+• PPC
+• Price quotation
+• Product cataloging
+• Product registration
+• Prospecção comercial
+• Prospecção de leads
 • Proteção de marca
+• Publicidade digital
 • Redes sociais
-• Social media
+• Revisão pré-expedição
+• SEM
 • Shopee
-
+• Sistemas de comércio eletrônico
+• Social media
+• Vendas diretas
+• Web analytics
 Sistemas operacionais
 • Microsoft Windows
 • Windows
@@ -451,6 +479,17 @@ Local: São Paulo, Brasil
 • Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.
 • Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).
 • Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.
+
+E-commerce Assistant
+
+JH Eletrônico
+Período: julho de 2021 – janeiro de 2022
+Local: Mairiporã, São Paulo, Brasil
+Vínculo: Autônomo
+• Cargo declarado: Assistente de E-commerce
+• Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.
+• Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.
+• Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.
 
 Formação acadêmica
 • Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027)

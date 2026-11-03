@@ -9,7 +9,7 @@ Este arquivo é auto-contido: não depende de instruções fora da raiz do proje
 - Não adicione JavaScript, eventos embutidos, rastreadores, widgets, frameworks, backend ou etapa de build.
 - Use somente tecnologias e dependências necessárias ao conteúdo.
 - Preserve caminhos relativos, fontes do sistema e recursos locais.
-- Use `static/pt-BR/index.html` como base factual para os cinco idiomas.
+- Use `static/pt-BR/index.html` como base factual para os cinco idiomas. Enquanto a base estiver em revisão, somente `pt-BR` e `en` são publicados; `pt-PT`, `es-419` e `es-ES` redirecionam para `wip.html` (decisão 0008).
 - Preserve nomes oficiais, cargos, vínculos, datas, qualificações, níveis e atribuições individuais ou da equipe.
 - Não transforme conteúdos previstos da graduação em formação concluída ou experiência profissional.
 - Consulte [fontes e atribuições](docs/conteudo-e-fontes.md) antes de ampliar ou alterar uma afirmação.
@@ -21,9 +21,9 @@ Este arquivo é auto-contido: não depende de instruções fora da raiz do proje
 
 - `static/` é a única fonte do site publicado.
 - O CSS comum fica em `static/assets/css/styles.css`. Não crie cópias por idioma.
-- Preserve `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`.
+- Preserve `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`. As pastas das variantes suspensas permanecem no repositório para reativação.
 - Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
-- Em `es-419`, preserve a redação para o público sul-americano.
+- Em `es-419`, preserve a redação para o público sul-americano quando a variante for reativada.
 - Cada idioma mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`. Em `pt-BR`, `projetos.html` reúne os projetos e a cópia estruturada.
 - Sincronize fatos e estrutura comuns entre os idiomas. Preserve as variantes linguísticas.
 - Preserve as três categorias de competências e suas subcategorias.
