@@ -12,6 +12,7 @@ As regras gerais estão em [AGENTS.md](../AGENTS.md).
 | Decisões de arquitetura | [ADRs](adr/README.md) | Explicação |
 | Competências e frameworks | [Competências](competencias.md) | Explicação |
 | Plano de aplicação | [Plano](../PLANO-APLICACAO-PADROES-TECNICOS.md) | Explicação |
+| Mapa essencial e plano enxuto | [Plano enxuto](plano-enxuto.md) | Explicação |
 | Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) | Referência |
 | Fatos, qualificações e atribuições | [Conteúdo e fontes](conteudo-e-fontes.md) | Referência |
 | Currículos gerais atuais | [PDFs V3](curriculos/v3/README.md) | Referência |

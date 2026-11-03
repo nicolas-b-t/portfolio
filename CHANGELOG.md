@@ -7,7 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
-| 2026-11-02 | Governança estratégica, indicadores e riscos (fase 12). | Este commit. |
+| 2026-11-02 | Registra o mapa essencial e o plano enxuto, sem reimplementação. | Este commit. |
+| 2026-11-02 | Governança estratégica, indicadores e riscos (fase 12). | `ad2b01a` |
 | 2026-11-02 | Competências: SFIA e NICE documentados, com regras de aplicação (fase 11). | `f71c9f3` |
 | 2026-11-02 | Governança de dados: lacuna e inventário factual (fase 06). | `4453a80` |
 | 2026-11-02 | Serviço, HTTPS, página 404 e verificação de publicação (fase 09). | `8d767c3` |

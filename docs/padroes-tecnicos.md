@@ -217,6 +217,7 @@ Decisão nova entra com ID seguinte e data.
 | D-34 | Nenhum nível SFIA ou work role NICE será publicado sem evidência e aprovação. |
 | D-35 | Estimativa revista para cerca de 15 sessões com a fase 11 em esforço M. |
 | D-36 | Revisão mínima anual em 02/11/2027; revisão por evento quando houver dado novo. |
+| D-37 | O plano de 12 fases permanece como registro; o mapa essencial e o plano enxuto foram registrados em `docs/plano-enxuto.md` e não serão implementados. |
 
 ## 2. Requisitos — fase 02
 
