@@ -20,7 +20,7 @@ A página de criação de CV sugere fotografia; as condições da vaga e do dest
 
 As páginas HTML preservam as respostas recebidas dos sites oficiais.
 Os recursos externos, como imagens e folhas de estilo, não foram espelhados.
-O [manifesto](europass/manifesto.json) registra URLs, títulos, datas, tamanhos e hashes SHA-256.
+O [manifesto](manifestos/europass.json) registra URLs, títulos, datas, tamanhos e hashes SHA-256.
 
 | Documento | Cópia local | Fonte oficial |
 | --- | --- | --- |
@@ -92,8 +92,8 @@ As capturas de ATS usadas na análise foram arquivadas em `_arquivo/site-curricu
 ## ASD-STE100
 
 O PDF da ASD-STE100 não acompanha clones do Git.
-Consulte a origem no [manifesto](asd-ste100/manifesto.json) antes de citar uma edição.
-O [guia de redação](../guia-de-redacao.md) adapta princípios de clareza; não é tradução oficial nem certificação STE.
+Consulte a origem no [manifesto](manifestos/asd-ste100.json) antes de citar uma edição.
+A seção Redação de [Manutenção](../manutencao.md) adapta princípios de clareza; não é tradução oficial nem certificação STE.
 
 ## Repertório técnico local
 

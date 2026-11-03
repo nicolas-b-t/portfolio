@@ -33,7 +33,7 @@ O catálogo e o índice do repertório não fundamentam regras do projeto.
 - `static/`: páginas, CSS, favicons e fotografias.
 - `docs/curriculos/v3/`: dez PDFs atuais, índice e manifesto.
 - `dados-pessoais/fontes/`: declarações, relatório acadêmico e manifestos.
-- `docs/referencias/`: Europass, ATS e fontes externas.
+- `docs/referencias/`: Europass, manifestos e fontes externas.
 - `docs/referencias/repertorio-tecnico-site/`: catálogo e índice; conteúdo arquivado.
 - `dados-pessoais/`: currículos, relatórios e rascunhos, ignorados pelo Git.
 - `docs/listas-de-tags/`: listas de consulta, glossário e traduções editoriais.
@@ -53,9 +53,9 @@ As pastas passaram ao padrão do `AGENTS.md`: minúsculas, sem acentos, com híf
 | `docs/referencias/europass/fontes/` | `docs/referencias/europass-fontes/` |
 | `docs/fontes/academico/originais-local/` | `docs/fontes/academico-local/` (arquivada em 03/11/2026) |
 | `docs/fontes/curriculos/` | `docs/fontes/curriculos-originais/` |
+| `docs/curriculos/v3/<idioma>/` | `docs/curriculos/v3/` |
 
 Em 03/11/2026, o conteúdo de `docs/fontes/` foi movido para `dados-pessoais/fontes/`.
-| `docs/curriculos/v3/<idioma>/` | `docs/curriculos/v3/` |
 
 ### Arquivo anterior
 
@@ -83,7 +83,7 @@ O plano de 12 fases permanece em [Plano de 12 fases](plano-12-fases.md).
 
 | Frente | Padrões mínimos | Onde está | Situação em 02/11/2026 |
 | --- | --- | --- | --- |
-| Conteúdo e idiomas | `pt-BR` como base, RFC 5646, guia de redação | Site, [Requisitos](../requisitos.md), [Guia de redação](../guia-de-redacao.md) | Ativa. |
+| Conteúdo e idiomas | `pt-BR` como base, RFC 5646, redação técnica | Site, [Requisitos](../requisitos.md), [Manutenção](../manutencao.md) | Ativa. |
 | Web e acessibilidade | HTML Living Standard, CSS, WCAG 2.2 AA | `static/`, [Manutenção](../manutencao.md) | Ativa; faltavam testes de zoom, tema escuro, impressão e leitor de tela. |
 | Segurança e privacidade | SSDF em nível alto, controles do GitHub, inventário de dados | [Manutenção](../manutencao.md), licença dos ícones | Ativa; 2FA e proteção da `main` pendentes. |
 | Publicação e serviço | GitHub Pages, HTTPS, 404, verificação pós-push | `README.md`, workflow | Ativa. |
@@ -121,6 +121,9 @@ Limites: inspeção estática; ensaio visual interativo de `mask`, teclado, foco
 - `docs/fontes/academico-local/`: o PPC foi integrado em `dados-pessoais/fontes/academico/`; a pasta intermediária foi removida.
 - `docs/fontes/`: movida para `dados-pessoais/fontes/`; os arquivos deixam de acompanhar o Git.
 - `docs/referencias/repertorio-tecnico-site/`: base movida para dentro de `referencias` e conteúdo arquivado; o catálogo e o índice permanecem.
+- `docs/guia-de-redacao.md`: fundido em [Manutenção](../manutencao.md), seção Redação.
+- `docs/referencias/asd-ste100/` e `docs/referencias/europass/`: manifestos movidos para `docs/referencias/manifestos/`; os caminhos do Europass foram corrigidos.
+- `docs/historico/padroes-tecnicos.md`: resumido para cerca de 10 KB; o texto integral foi arquivado em `_arquivo/site-curriculo-portfolio/2026-11-03/padroes-tecnicos-integral.md`.
 
 Os antigos arquivos de histórico, o plano enxuto, as pendências, a análise SFIA e os ADRs foram fundidos nos documentos atuais.
 O texto integral permanece no histórico Git.

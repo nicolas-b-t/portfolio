@@ -24,6 +24,104 @@ Ela não é uma entrada independente para ampliar qualificações.
 Confira a coerência entre a página, o bloco oculto e a [lista de consulta](listas-de-tags/README.md).
 Os aliases auxiliam consultas específicas; não garantem reconhecimento por todos os ATS.
 
+## Redação
+
+Aplique os princípios da ASD-STE100, edição 9, aos textos autorais do projeto.
+As regras gerais estão em [AGENTS.md](../AGENTS.md).
+O responsável preserva a referência inglesa na cópia pessoal por restrição de reprodução.
+Ela não acompanha clones.
+Consulte [a origem e as condições](referencias/manifestos/asd-ste100.json).
+
+### Escrever e revisar
+
+1. Identifique o leitor e a finalidade do texto.
+2. Escolha um termo preciso para cada conceito.
+3. Use o mesmo termo nas ocorrências seguintes.
+4. Prefira voz ativa e verbos diretos.
+5. Identifique quem realiza cada ação.
+6. Use o passado para atividades concluídas.
+7. Use o presente para atividades atuais.
+8. Apresente uma ação por frase de instrução.
+9. Coloque a condição necessária antes da ação.
+10. Revise instruções com mais de 20 palavras.
+11. Revise descrições com mais de 25 palavras.
+12. Apresente um assunto por parágrafo.
+13. Limite cada parágrafo a seis frases.
+14. Separe instruções, informações e resultados.
+15. Explique siglas quando o contexto não esclarecer seu significado.
+16. Preserve datas, qualificações e limites das fontes.
+17. Use pontos para separar frases na prosa.
+18. Revise clareza e precisão manualmente.
+
+Nas tags, use uma tecnologia, competência ou qualificação por item.
+Separe conceitos independentes. Preserve nomes oficiais que formem uma unidade.
+Use “habilidade, observação” somente para suporte técnico, fusão de fibra e inglês.
+Preserve outras limitações nas descrições e nos dados da formação.
+Preserve identificadores técnicos como SC/APC e N1/N2.
+Nomes oficiais e identificadores exigem análise contextual na contagem de palavras.
+Uma contagem automática por espaços serve apenas para triagem.
+
+### Revisar a compreensão do leitor
+
+1. Identifique quem realiza a ação e o objeto dessa ação.
+2. Troque nomes internos de equipes por funções compreensíveis, quando confirmadas.
+3. Explique o contexto de palavras genéricas como materiais, serviços e sistemas.
+4. Preserve termos técnicos necessários à identificação da atividade.
+5. Distinga repetição útil de informação que não acrescenta fatos.
+6. Confirme detalhes antes de tornar uma atividade mais específica.
+7. Não substitua uma ação declarada por inspeção ou auditoria sem evidência.
+
+As revisões anteriores estão preservadas no [registro histórico](historico/historico.md).
+As orientações não substituem testes de compreensão com os leitores.
+Os limites numéricos de frases são uma política editorial do projeto.
+
+### Inglês norte-americano
+
+Use inglês norte-americano nos textos autorais da versão en, inclusive nas tags e nos textos alternativos das imagens.
+A pasta `en/` permanece igual. Use `en-US` para identificar as páginas e os links dessa versão.
+Preserve os idiomas originais dos títulos oficiais de cursos e das citações.
+
+| Forma britânica | Forma adotada |
+| --- | --- |
+| Fibre-optic | Fiber optic |
+| Fibres | Fibers |
+| Modelling | Modeling |
+| Organisation | Organization |
+| Organised | Organized |
+| Optimisation | Optimization |
+| Analysed | Analyzed |
+| Prioritise | Prioritize |
+| Licence | License |
+| Programme | Program |
+
+Preserve qualificações como learner e os níveis de suporte ao revisar as tags.
+Não altere nomes oficiais, documentos recebidos ou resultados históricos para aplicar esta preferência editorial.
+A grafia escolhida não garante reconhecimento por todos os sistemas ATS.
+
+### Revisão editorial e acessibilidade
+
+Antes de publicar um texto, confira:
+
+- um termo para cada conceito;
+- variações de ATS apenas quando houver justificativa registrada;
+- frases de descrição com no máximo 25 palavras;
+- grafia norte-americana em `en/`;
+- nomes oficiais, datas e níveis preservados;
+- texto alternativo e nome compreensível para links e controles;
+- teclado, foco, contraste, 320 CSS px, zoom, temas e impressão.
+
+Registre cada achado na lista vigente de [Requisitos](requisitos.md), §11.
+Não declare conformidade com a WCAG ou com o STE100.
+
+### Limites
+
+A adaptação preserva a gramática portuguesa.
+Ela não constitui tradução oficial ou certificação STE.
+O dicionário inglês não define palavras aprovadas em português.
+Preserve documentos oficiais, licenças, fontes recebidas e citações literais.
+Não corrija os erros de uma amostra de avaliação dentro da citação original.
+Aplique a revisão aos comentários e às instruções que escrevemos sobre essas fontes.
+
 ## Página de projetos em pt-BR
 
 Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os três projetos e sua cópia estruturada.
@@ -158,7 +256,7 @@ Uma mudança termina quando todos os itens aplicáveis estão atendidos.
 | Acessibilidade | Teclado, foco, contraste, 320 CSS px, zoom, temas e impressão conferidos quando aplicável. |
 | Cópia oculta | Dados iguais aos da tela; ausente na impressão. |
 | Publicação | Workflow e permissões conferidos; página publicada aberta. |
-| Documentação | Requisitos, guia e `CHANGELOG` atualizados. |
+| Documentação | Requisitos, este guia e `CHANGELOG` atualizados. |
 | Texto | `git diff --check` limpo. |
 | Qualidade | Critérios qualitativos avaliados pelo responsável. |
 
@@ -180,7 +278,7 @@ Controles atuais:
 - Nenhum segredo no repositório.
 - `dados-pessoais/` e a base local fora do Git.
 - Licença dos ícones preservada.
-- Backups: RAR da v1; v2 pendente.
+- Backups: RAR da v1; base técnica arquivada em `_arquivo/`; cópia externa pendente (P-08).
 - Página 404 publicada.
 - Cópia limpa sem dados pessoais planejada.
 - Sem teste de intrusão, análise de dependências ou auditoria externa.

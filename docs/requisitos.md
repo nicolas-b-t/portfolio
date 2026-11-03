@@ -119,13 +119,8 @@ O identificador não muda quando o texto é ajustado. Uma mudança de sentido cr
 
 ## 10. Verificação e limites
 
-Verificação de 02/11/2026:
-
-- 23 arquivos HTML, cinco variantes, um redirecionamento na raiz e uma página 404;
-- nenhum `<script>`, `<form>`, `<iframe>` ou `style=` embutido;
-- 45 imagens, nenhuma sem `alt`;
-- links internos, âncoras e identificadores sem erro na conferência estática;
-- workflow publica somente `static/`, com permissões mínimas e ações por SHA.
+A verificação de 02/11/2026 está resumida em [Padrões técnicos](historico/padroes-tecnicos.md), §14.
+Ela cobriu 23 arquivos HTML, 45 imagens com `alt`, links internos, âncoras e o workflow de publicação.
 
 Limites:
 
@@ -155,7 +150,7 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
 | P-07 | Concluir o 2FA e confirmar a proteção da `main`. | NFR-08; R05 | Responsável | Em andamento | Ativar o 2FA, conferir a proteção e registrar a evidência. |
-| P-08 | Criar o backup da v2 da base local. | R06 | Responsável | Parcial | Preferir formato aberto e manter cópia externa. |
+| P-08 | Manter cópia externa da base técnica arquivada. | R06 | Responsável | Parcial | Copiar `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/` para mídia externa e registrar a verificação. |
 | P-09 | Publicar a cópia limpa sem dados pessoais. | R09; D-15 | Responsável | Planejado | Executar no encerramento. |
 
 ### Verificação e qualidade

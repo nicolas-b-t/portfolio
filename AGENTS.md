@@ -13,7 +13,7 @@ Este arquivo é auto-contido: não depende de instruções fora da raiz do proje
 - Preserve nomes oficiais, cargos, vínculos, datas, qualificações, níveis e atribuições individuais ou da equipe.
 - Não transforme conteúdos previstos da graduação em formação concluída ou experiência profissional.
 - Consulte [fontes e atribuições](docs/conteudo-e-fontes.md) antes de ampliar ou alterar uma afirmação.
-- Aplique o [guia de redação](docs/guia-de-redacao.md), baseado na ASD-STE100, edição 9, sem declarar certificação formal.
+- Aplique a seção Redação de [Manutenção](docs/manutencao.md), baseada na ASD-STE100, edição 9, sem declarar certificação formal.
 - Preserve textos e avisos de documentos oficiais. A adaptação editorial aplica-se aos textos autorais.
 - Preserve os bytes das cópias oficiais em `docs/referencias/europass-fontes/`. Esses documentos não integram o site publicado.
 

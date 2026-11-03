@@ -12,7 +12,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | conferir um fato ou uma atribuição | [Conteúdo e fontes](conteudo-e-fontes.md) |
 | saber o que falta | [Requisitos](requisitos.md), §11 |
 | entender uma decisão | [Decisões](decisoes.md) |
-| escrever ou revisar um texto | [Guia de redação](guia-de-redacao.md) |
+| escrever ou revisar um texto | [Manutenção](manutencao.md), seção Redação |
 
 ## Operação
 
@@ -27,7 +27,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 
 | Assunto | Documento | Tipo |
 | --- | --- | --- |
-| Clareza e precisão dos textos | [Guia de redação](guia-de-redacao.md) | Referência |
+| Clareza e precisão dos textos | [Manutenção](manutencao.md), seção Redação | Referência |
 | Fatos, fontes e cursos | [Conteúdo e fontes](conteudo-e-fontes.md) | Referência |
 | Competências, SFIA e NICE | [Competências](competencias.md) | Explicação |
 | Currículos gerais atuais | [PDFs V3](curriculos/v3/README.md) | Referência |
@@ -41,7 +41,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | --- | --- | --- |
 | Organização, plano enxuto e verificações | [Histórico](historico/historico.md) | Explicação |
 | Plano de aplicação das 12 fases | [Plano de 12 fases](historico/plano-12-fases.md) | Explicação |
-| Registro das 12 fases | [Padrões técnicos](historico/padroes-tecnicos.md) | Explicação |
+| Resumo das 12 fases | [Padrões técnicos](historico/padroes-tecnicos.md) | Explicação |
 
 ## Notas
 
