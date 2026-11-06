@@ -10,7 +10,7 @@ Fonte: União Europeia / Comissão Europeia / Europass.
 
 O perfil Europass reúne experiências, formação e competências para produzir currículos selecionados conforme a candidatura.
 As orientações oficiais recomendam destacar experiências relevantes, usar linguagem clara, revisar o texto e apresentar a experiência em ordem cronológica inversa.
-Mantenha os currículos gerais V3 como acervo completo e prepare versões direcionadas quando a oportunidade exigir outro foco.
+Mantenha os currículos gerais V3 como acervo histórico. O V4 é o currículo geral atual em pt-BR; prepare versões direcionadas quando a oportunidade exigir outro foco.
 
 Os PDFs V3 são documentos próprios, não exportações do editor Europass.
 O uso do Europass não comprova reconhecimento de diploma, equivalência profissional ou compatibilidade universal com ATS.
@@ -111,7 +111,7 @@ As citações históricas em [Padrões técnicos](../historico/padroes-tecnicos.
 | Etiquetas de idioma | [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html) |
 | GitHub Pages | [Documentação oficial](https://docs.github.com/en/pages) |
 | Competências | [SFIA e NICE](../competencias.md) |
-| Currículos atuais | [PDFs V3](../curriculos/v3/README.md) |
+| Currículo atual | [PDF V4 pt-BR](../curriculos/v4/README.md) |
 
 As cópias integrais anteriores de normas, bases de competências, código de terceiros e relatórios estão no arquivo local descrito em [Histórico](../historico/historico.md).
 Consulte a fonte oficial antes de aplicar uma edição mais recente.
