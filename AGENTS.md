@@ -54,3 +54,11 @@ Este arquivo é auto-contido: não depende de instruções fora da raiz do proje
 - Não acrescente credenciais, configurações pessoais de máquina ou documentos restritos ao site.
 - Use nomes de pasta em minúsculas, descritivos, sem acentos e com hífens. Preserve nomes oficiais e nomes de arquivos solicitados.
 - Mantenha no máximo quatro níveis de pasta. O sufixo `-local` identifica cópias de consulta ignoradas pelo Git.
+
+## Fechamento do turno
+
+- Termine cada turno com duas listas: inferências assumidas e pendências.
+- Em inferências, registre o que foi decidido sem fonte explícita, por analogia ou fora do escopo aprovado, com a razão.
+- Em pendências, registre o que ficou aberto, adiado, não verificado ou bloqueado, com o responsável quando houver.
+- Se uma lista estiver vazia, escreva "Nenhuma".
+- Mantenha as listas curtas e factuais. Não repita nelas o resumo da execução.
