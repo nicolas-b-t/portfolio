@@ -25,6 +25,8 @@ Os relatórios profissionais recebidos do Google Drive estão catalogados em `da
 - Fonte local: `../dados-pessoais/experiencia-profissional/RELATORIO_EXPERIENCIA_JH_ELETRONICO.docx`, versão 1.2 de 03/11/2026. Relato do profissional, sem documentos comprobatórios ou indicadores quantitativos apresentados. Razão social (JH ELETRÔNICO LTDA.) e CNPJ (09.344.228/0001-73) consultados em 03/11/2026 no site institucional.
 - Decisão em 03/11/2026: inserir a atuação no final da experiência em pt-BR (ordem cronológica inversa, após Instituto Alpha) e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Tags de e-commerce e vendas incorporadas na subcategoria “Tráfego pago, análise digital e comércio eletrônico”. Proposta de acordo com Mercado Livre não foi aprovada pelo responsável da empresa; bloqueio permaneceu. Repasses monetários e negociações dependiam de autorização.
 
+- Vínculos e locais confirmados pelo responsável em 06/11/2026: Aquecedores e Piscinas Mairiporã, prestação de serviços, Mairiporã (SP); Lukos Tecnologia, CLT, São Paulo (SP); Instituto Alpha de Saúde Integral, CLT, São Paulo (SP); RealFort Sistemas, prestação de serviços, São Paulo (SP). A página exibe esses campos na ficha e na cópia estruturada.
+
 Os cargos, vínculos e datas pessoais devem seguir as páginas e as declarações aprovadas.
 Não acrescente certificações de segurança ou habilitações profissionais a partir de fotografias ou descrições de atividades.
 

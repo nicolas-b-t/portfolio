@@ -159,10 +159,10 @@ Preserve títulos oficiais, instituições, datas, cargas horárias e atributos 
 Confira cada curso uma única vez na impressão, com o controle recolhível aberto e fechado.
 As cargas horárias e a origem das datas estão em [Cursos](conteudo-e-fontes.md#cursos-complementares).
 
-Os [PDFs V3](curriculos/v3/README.md) são edições identificadas, não exportações automáticas de cada alteração do site.
+O [PDF V4 pt-BR](curriculos/v4/README.md) é a edição atual. Os [PDFs V3](curriculos/v3/README.md) permanecem históricos. Cada edição é identificada e não é uma exportação automática de cada alteração do site.
 Ao gerar uma nova edição, confira o conteúdo, a extração textual, as margens e a paginação do DOCX e do PDF.
 Atualize o manifesto da edição e mantenha somente os arquivos necessários.
-Os DOCX V3 estão na [pasta de currículos no Drive](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI).
+Os DOCX V3 estão na [pasta de currículos no Drive](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI). Os rascunhos DOCX do V4 ficam em `docs/curriculos/v4/`, versionados com o PDF e o manifesto.
 
 ## HTML, CSS e publicação
 
@@ -189,6 +189,14 @@ Convenções de CSS:
 - Media queries por largura, tema e impressão.
 - Foco visível, contraste e `prefers-reduced-motion`.
 - Sem framework e sem pré-processador.
+
+### Padrão de HTML e modelos
+
+A norma de montagem da página principal está em [Padrão de HTML](padrao-html.md). Os modelos para copiar estão em [modelos](modelos/README.md).
+Para adicionar conteúdo, copie o modelo da seção, preencha os campos `{{CAMPO}}` e apague os blocos `OPCIONAL` sem fonte confirmada.
+Espelhe o mesmo fato na cópia oculta e, quando existir, na impressão.
+Campo sem fonte confirmada é omitido por inteiro, na tela e na cópia oculta. Não escreva "não informado".
+Ordem das experiências: data de término decrescente, com o vínculo atual primeiro. Competências: alfabética dentro da subcategoria. Cursos: data de conclusão decrescente dentro da subcategoria.
 
 Antes de mudar a estrutura do site, consulte [Decisões](decisoes.md).
 Uma decisão estrutural nova exige uma decisão registrada.
@@ -242,6 +250,8 @@ Não há SLA nem monitoramento contínuo. Incidente: resposta em até um dia.
 - Em mudança visual, verifique teclado, foco, contraste, 320 CSS px, zoom, temas e impressão.
 - Confira nomes acessíveis, texto alternativo, ARIA mínimo e leitor de tela quando possível.
 - Em mudança de conteúdo, confira a cópia estruturada e a impressão.
+- Confira que nenhum marcador `{{` permanece em `static/`.
+- Confira que a contagem da tela é igual à da cópia oculta e à da impressão.
 - Execute `git diff --check`.
 - Atualize o `CHANGELOG.md` e a situação em [Requisitos](requisitos.md), §11.
 

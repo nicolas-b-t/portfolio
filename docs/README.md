@@ -13,6 +13,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | saber o que falta | [Requisitos](requisitos.md), §11 |
 | entender uma decisão | [Decisões](decisoes.md) |
 | escrever ou revisar um texto | [Manutenção](manutencao.md), seção Redação |
+| adicionar conteúdo novo | [Padrão de HTML](padrao-html.md) |
 
 ## Operação
 
@@ -23,6 +24,15 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | Requisitos e pendências | [Requisitos](requisitos.md) | Referência |
 | Decisões de arquitetura | [Decisões](decisoes.md) | Explicação |
 
+## Documentação formal
+
+Comece pelo [índice da documentação formal](documentacao-formal/README.md): ordem de leitura, invariantes e verificação.
+
+| Assunto | Documento | Tipo |
+| --- | --- | --- |
+| Arquitetura, implantação e modelo de conteúdo | [Arquitetura](documentacao-formal/arquitetura.md) | Referência |
+| Processos, portas e decisões | [Processos](documentacao-formal/processos.md) | Explicação |
+
 ## Conteúdo e referência
 
 | Assunto | Documento | Tipo |
@@ -30,7 +40,9 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | Clareza e precisão dos textos | [Manutenção](manutencao.md), seção Redação | Referência |
 | Fatos, fontes e cursos | [Conteúdo e fontes](conteudo-e-fontes.md) | Referência |
 | Competências, SFIA e NICE | [Competências](competencias.md) | Explicação |
-| Currículos gerais atuais | [PDFs V3](curriculos/v3/README.md) | Referência |
+| Padrão de HTML e modelos de página | [Padrão de HTML](padrao-html.md), [modelos](modelos/README.md) | Referência |
+| Currículo geral atual | [PDF V4 pt-BR](curriculos/v4/README.md) | Referência |
+| Currículos gerais anteriores | [PDFs V3](curriculos/v3/README.md) | Histórico |
 | Europass, ATS, fontes externas e repertório técnico | [Referências](referencias/README.md) | Referência |
 | Listas e traduções de tags | [Listas de tags](listas-de-tags/README.md) | Referência |
 | Histórico de mudanças | [CHANGELOG](../CHANGELOG.md) | Referência |
