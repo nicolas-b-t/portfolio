@@ -150,6 +150,7 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
 | P-16 | Sincronizar `en` com a base `pt-BR`: a seção About/Perfil e os cargos ausentes (Aquecedores e Piscinas Mairiporã, JH Eletrônico). | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Revisar os fatos, traduzir o Perfil e alinhar a tagline da cópia oculta. |
+| P-17 | Confirmar vínculo de Aquecedores e Piscinas Mairiporã, Lukos Tecnologia e Instituto Alpha, e local de Aquecedores e RealFort Sistemas. Sem fonte confirmada, a ficha omite o campo, conforme [Padrão de HTML](padrao-html.md). | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Informar os campos e incluir os pares `<dt>`/`<dd>` na tela e na cópia oculta. |
 
 ### Segurança e continuidade
 

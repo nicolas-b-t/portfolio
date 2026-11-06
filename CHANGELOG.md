@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-06 | Padroniza a seção Experiência de `pt-BR` em fichas `<dl class="experience-meta">` com ordem fixa de campos, exibe o período da RealFort Sistemas (28/08/2026 a 28/09/2026) e alinha a cópia estruturada. Cria o [Padrão de HTML](docs/padrao-html.md) e os modelos de `docs/modelos/`. Registra a P-17 para os vínculos e locais sem fonte. | Este commit; P-17. |
 | 2026-11-06 | Inclui o Currículo Lattes nos contatos de `pt-BR` e `en`, com o endereço curto canônico e sem o token de sessão. | Este commit; [conteúdo e fontes](docs/conteudo-e-fontes.md). |
 | 2026-11-06 | Troca a seção Sobre por Perfil em `pt-BR`: remove a lista de empregos e a frase de apresentação, mantém os valores e inclui três atalhos para Experiência, Competências e Formação. Atualiza o menu e a cópia estruturada. Registra a pendência de sincronizar `en`. | Este commit; P-16. |
 | 2026-11-03 | Detalha a lista de países: a CNH liga aos acordos de trânsito com o Brasil e a PID à lista de Estados-partes da Convenção de Viena, em `pt-BR` e `en`. | Este commit. |

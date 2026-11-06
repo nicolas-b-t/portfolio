@@ -406,6 +406,36 @@ p {
   border: var(--line) solid var(--ink);
 }
 
+.experience-meta {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: baseline;
+  gap: 0.15rem 0.75rem;
+  margin: 0 0 0.75rem;
+}
+
+.experience-meta dt {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.experience-meta dd {
+  margin: 0 0 0.35rem;
+}
+
+@media (min-width: 45rem) {
+  .experience-meta {
+    grid-template-columns: 7rem 1fr;
+  }
+
+  .experience-meta dd {
+    margin-bottom: 0;
+  }
+}
+
 /* ---------- Skills ---------- */
 
 .skill-category + .skill-category {
@@ -767,6 +797,10 @@ p {
 
   .timeline li {
     padding-bottom: 0.75rem;
+  }
+
+  .experience-meta {
+    break-inside: avoid;
   }
 
   section.contact-section {

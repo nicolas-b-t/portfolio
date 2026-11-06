@@ -1,0 +1,31 @@
+<!-- ===== TELA ===== -->
+<div class="skill-category">
+  <h3 data-icon="{{ICONE}}">{{CATEGORIA}}</h3>
+
+  <h4 class="skill-subheading">{{SUBCATEGORIA}}</h4>
+  <ul class="skill-list" role="list">
+    <li>{{TAG}}</li>
+    <li lang="en">{{TAG_EM_INGLES}}</li>
+    <li>{{TAG}}<span class="skill-note">, {{NOTA}}</span></li>
+  </ul>
+</div>
+
+<!-- ===== CÓPIA OCULTA ===== -->
+<div class="skill-category">
+  <h4>{{CATEGORIA}}</h4>
+
+  <h5 class="skill-subheading">{{SUBCATEGORIA}}</h5>
+  <ul class="skill-list">
+    <li>{{TAG}}</li>
+    <li lang="en">{{SINONIMO_EM_INGLES}}</li>
+  </ul>
+</div>
+
+<!--
+Regras:
+- Uma competência por li.
+- Ordem alfabética dentro da subcategoria.
+- lang="en" quando a tag está em inglês.
+- A cópia oculta repete as tags visíveis e pode acrescentar sinônimos de ATS.
+- Não crie subcategoria nova sem decisão registrada.
+-->

@@ -1,0 +1,41 @@
+<!-- ===== TELA: details.sfia-profile ===== -->
+<details class="sfia-profile" aria-labelledby="sfia-title">
+  <summary class="sfia-summary">
+    <h3 id="sfia-title" data-icon="user-check">Perfil SFIA</h3>
+  </summary>
+  <div class="sfia-profile-body">
+    <p>Autoavaliação de responsabilidade baseada no SFIA 9.</p>
+    <ul class="sfia-list" role="list">
+      <li class="sfia-item">
+        <p class="sfia-skill"><span class="sfia-code">{{CODIGO}}</span> {{NOME}}</p>
+        <p class="sfia-level">Nível {{NIVEL}} · {{RESPONSABILIDADE}}</p>
+        <p class="sfia-evidence">{{EVIDENCIA}}</p>
+      </li>
+      <!-- Repita o li para cada habilidade. -->
+    </ul>
+    <p class="sfia-note">{{NOTA}}</p>
+  </div>
+</details>
+
+<!-- ===== IMPRESSÃO: section.sfia-print ===== -->
+<!-- Mantenha em sincronia com .sfia-profile. -->
+<section class="sfia-print" aria-hidden="true">
+  <h3 data-icon="user-check">Perfil SFIA</h3>
+  <p>Autoavaliação de responsabilidade baseada no SFIA 9.</p>
+  <ul class="sfia-list" role="list">
+    <li class="sfia-item">
+      <p class="sfia-skill"><span class="sfia-code">{{CODIGO}}</span> {{NOME}}</p>
+      <p class="sfia-level">Nível {{NIVEL}} · {{RESPONSABILIDADE}}</p>
+      <p class="sfia-evidence">{{EVIDENCIA}}</p>
+    </li>
+  </ul>
+  <p class="sfia-note">{{NOTA}}</p>
+</section>
+
+<!--
+Regras:
+- Tela e impressão precisam ter o mesmo conteúdo e a mesma contagem.
+- CODIGO com quatro letras. NIVEL de 1 a 7. RESPONSABILIDADE: Auxilia, Aplica ou equivalente.
+- EVIDENCIA precisa apontar fato verificável na própria página.
+- Use <wbr> em nomes compostos longos, como Programação/<wbr>desenvolvimento.
+-->

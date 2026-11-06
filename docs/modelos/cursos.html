@@ -1,0 +1,52 @@
+<!-- ===== TELA: .course-details.courses-screen ===== -->
+<h3 data-icon="award">Cursos e certificados</h3>
+<details class="course-details courses-screen">
+  <summary>Ver {{QUANTIDADE}} cursos e formações complementares</summary>
+  <div class="skill-category">
+    <h4 class="course-group">{{GRUPO}} <span lang="en">({{GRUPO_EN}})</span></h4>
+    <h5 class="skill-subheading">{{SUBCATEGORIA}}</h5>
+    <ul class="course-list">
+      <li>
+        <h6{{LANG_ATTR}}>{{CURSO}}</h6>
+        <p><a href="{{URL_INSTITUICAO}}">{{INSTITUICAO}}</a></p>
+        <p>{{TIPO}} · {{HORAS}} h · Conclusão: <time datetime="{{DATA_ISO}}">{{DATA_BR}}</time></p>
+      </li>
+      <!-- Repita o li para cada curso da subcategoria. -->
+    </ul>
+  </div>
+</details>
+
+<!-- ===== IMPRESSÃO: .courses-print ===== -->
+<section class="courses-print" aria-hidden="true">
+  <h3 data-icon="award">Cursos e certificados</h3>
+  <div class="skill-category">
+    <h4 class="course-group">{{GRUPO}} <span lang="en">({{GRUPO_EN}})</span></h4>
+    <h5 class="skill-subheading">{{SUBCATEGORIA}}</h5>
+    <ul class="course-list">
+      <li>
+        <h6{{LANG_ATTR}}>{{CURSO}}</h6>
+        <p><a href="{{URL_INSTITUICAO}}">{{INSTITUICAO}}</a></p>
+        <p>{{TIPO}} · {{HORAS}} h · Conclusão: <time datetime="{{DATA_ISO}}">{{DATA_BR}}</time></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== CÓPIA OCULTA ===== -->
+<section>
+  <h3>Cursos e certificados</h3>
+  <h4>{{GRUPO}}</h4>
+  <h5 class="skill-subheading">{{SUBCATEGORIA}}</h5>
+  <ul class="course-list">
+    <li>{{CURSO}} — {{INSTITUICAO}} — {{TIPO}} · {{HORAS}} h · Conclusão: <time datetime="{{DATA_ISO}}">{{DATA_BR}}</time></li>
+  </ul>
+</section>
+
+<!--
+Regras:
+- Tela (.courses-screen) e impressão (.courses-print) precisam ter o mesmo conteúdo e a mesma contagem.
+- Atualize o número em <summary> quando entrar ou sair curso.
+- LANG_ATTR: lang="en" para título em inglês, lang="pt-BR" para título em português.
+- Ordem: data de conclusão decrescente dentro da subcategoria.
+- Vocabulário de TIPO: Conclusão de curso, Participação, Curso SENAI ou Formação introdutória.
+-->

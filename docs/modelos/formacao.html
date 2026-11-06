@@ -1,0 +1,42 @@
+<!-- ===== TELA ===== -->
+<section id="formacao" class="wrap">
+  <h2 data-icon="graduation-cap">Formação acadêmica</h2>
+  <p class="meta">Instituição: <a href="{{URL_INSTITUICAO}}">{{INSTITUICAO}}</a></p>
+  <h3 data-icon="book-open">{{CURSO}}</h3>
+  <p>Início: <time datetime="{{INICIO_ISO}}">{{INICIO_TEXTO}}</time> · Conclusão prevista: <time datetime="{{FIM_ISO}}">{{FIM_TEXTO}}</time></p>
+  <p class="meta"><a href="{{URL_PPC}}">Conforme o projeto pedagógico do curso (PPC)</a>.</p>
+
+  <h3 data-icon="list-checks">Conteúdos previstos da graduação</h3>
+  <h4 class="skill-subheading">{{SUBCATEGORIA}}</h4>
+  <ul class="skill-list" role="list">
+    <li>{{CONTEUDO_1}}</li>
+    <!-- <li>{{CONTEUDO_2}}</li> -->
+  </ul>
+  <!-- Repita o par h4 + ul para cada subcategoria. -->
+</section>
+
+<!-- ===== CÓPIA OCULTA ===== -->
+<section>
+  <h3>Formação acadêmica</h3>
+  <ul class="academic-records">
+    <li>{{CURSO}} — <a href="{{URL_INSTITUICAO}}">{{INSTITUICAO}}</a> (Início: <time datetime="{{INICIO_ISO}}">{{INICIO_TEXTO}}</time> · Conclusão prevista: <time datetime="{{FIM_ISO}}">{{FIM_TEXTO}}</time>)</li>
+  </ul>
+  <h4>Informações adicionais</h4>
+  <p class="meta"><a href="{{URL_PPC}}">Conforme o projeto pedagógico do curso (PPC)</a>.</p>
+
+  <h4>Conteúdos previstos da graduação</h4>
+  <h5 class="skill-subheading">{{SUBCATEGORIA}}</h5>
+  <ul class="skill-list">
+    <li>{{CONTEUDO_1}}</li>
+    <!-- <li>{{CONTEUDO_2}}</li> -->
+  </ul>
+</section>
+
+<!--
+Regras:
+- Traga somente o curso superior. Não inclua o ensino médio.
+- Conteúdo previsto nunca vira formação concluída nem experiência profissional.
+- Início e conclusão sempre em <time datetime="AAAA-MM">.
+- Não use marcador manual (•) dentro do li: a lista já fornece o marcador.
+- Repita as subcategorias na cópia oculta com o mesmo texto da tela.
+-->

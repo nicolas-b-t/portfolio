@@ -1,0 +1,53 @@
+<!-- ===== TELA ===== -->
+<!-- Cole o li dentro do <ol class="timeline" role="list"> da seção #experiencia. -->
+<li>
+  <h3 data-icon="{{ICONE}}">{{CARGO}}</h3>
+  <dl class="experience-meta">
+    <dt>Empresa</dt>
+    <dd>{{EMPRESA}}</dd>
+    <!-- Com link: <dd><a href="{{URL_EMPRESA}}">{{EMPRESA}}</a></dd> -->
+
+    <!-- OPCIONAL: apague este par inteiro quando o vínculo não tiver fonte confirmada.
+    <dt>Vínculo</dt>
+    <dd>{{VINCULO}}</dd>
+    -->
+
+    <dt>Período</dt>
+    <dd><time datetime="{{INICIO_ISO}}">{{INICIO_TEXTO}}</time> – {{FIM}}</dd>
+    <!-- FIM: <time datetime="{{FIM_ISO}}">{{FIM_TEXTO}}</time> quando encerrado, ou a palavra atual -->
+
+    <!-- OPCIONAL: apague este par inteiro quando o local não tiver fonte confirmada.
+    <dt>Local</dt>
+    <dd>{{CIDADE}}, {{UF}}, Brasil</dd>
+    -->
+  </dl>
+  <p>{{ATIVIDADE_1}}</p>
+  <!-- <p>{{ATIVIDADE_2}}</p> -->
+</li>
+
+<!-- ===== CÓPIA OCULTA ===== -->
+<!-- Cole o li dentro do <ol class="timeline"> da cópia oculta de #dados-curriculo. -->
+<li>
+  <h4>{{CARGO}}</h4>
+  <p class="meta"><strong>{{EMPRESA}}</strong></p>
+  <!-- OPCIONAL
+  <p class="meta">Vínculo: {{VINCULO}}</p>
+  -->
+  <p class="meta">Período: <time datetime="{{INICIO_ISO}}">{{INICIO_TEXTO}}</time> – {{FIM}}</p>
+  <!-- OPCIONAL
+  <p class="meta">Local: {{CIDADE}}, {{UF}}, Brasil</p>
+  -->
+  <ul class="experience-details">
+    <li>{{ATIVIDADE_1}}</li>
+    <!-- <li>{{ATIVIDADE_2}}</li> -->
+  </ul>
+</li>
+
+<!--
+Regras:
+- Ordem fixa: Cargo, Empresa, Vínculo, Período, Local.
+- Ordenação: data de término decrescente; vínculo atual primeiro.
+- Não repita o cargo em "Cargo declarado".
+- Tela e cópia oculta precisam ter os mesmos fatos e a mesma ordem.
+- Cada atividade é um parágrafo na tela e um li na cópia oculta.
+-->
