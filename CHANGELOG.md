@@ -7,6 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-06 | Inclui o Currículo Lattes nos contatos de `pt-BR` e `en`, com o endereço curto canônico e sem o token de sessão. | Este commit; [conteúdo e fontes](docs/conteudo-e-fontes.md). |
+| 2026-11-06 | Troca a seção Sobre por Perfil em `pt-BR`: remove a lista de empregos e a frase de apresentação, mantém os valores e inclui três atalhos para Experiência, Competências e Formação. Atualiza o menu e a cópia estruturada. Registra a pendência de sincronizar `en`. | Este commit; P-16. |
 | 2026-11-03 | Detalha a lista de países: a CNH liga aos acordos de trânsito com o Brasil e a PID à lista de Estados-partes da Convenção de Viena, em `pt-BR` e `en`. | Este commit. |
 | 2026-11-03 | Remove a afirmação de aceitação da PID na Convenção de Viena e mantém apenas o link para a lista de países em `pt-BR` e `en`. | Este commit. |
 | 2026-11-03 | Corrige o período da experiência na JH Eletrônico para julho de 2022 a janeiro de 2023 em `pt-BR`, nas fontes e na lista de consulta; atualiza o relatório local para a versão 1.2. | Este commit. |

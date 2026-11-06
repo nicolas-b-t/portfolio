@@ -75,7 +75,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | FR-02 | Cada variante ativa oferece currículo, galeria, rede e recomendações. Em `pt-BR`, há também a página de projetos. | Essencial | AGENTS.md; auditoria de 02/11/2026; decisão de 03/11/2026. | As quatro páginas existem em `pt-BR` e `en`; `projetos.html` existe em `pt-BR`; o menu alcança todas; as demais variantes redirecionam para `wip.html`. | Vigente para `pt-BR` e `en`; traduções suspensas. |
 | FR-03 | O conteúdo de `pt-BR` é a base factual das variantes ativas. | Essencial | AGENTS.md; `docs/manutencao.md`; D-23. | Fato alterado em `pt-BR` aparece igual em `en` quando aplicável, ou a divergência está registrada. | Vigente com lacuna; traduções suspensas. |
 | FR-04 | A página de projetos lista os trabalhos com link de site e de repositório quando existirem. | Essencial | `static/pt-BR/projetos.html`; auditoria de 02/11/2026. | Cada projeto tem descrição, link e atribuição individual ou de equipe. | Vigente. |
-| FR-05 | O visitante acessa e-mail, LinkedIn e GitHub pelos links de contato. | Essencial | `static/pt-BR/index.html`; auditoria de 02/11/2026. | Os três links abrem o destino correto; o e-mail abre o cliente de e-mail. | Vigente. |
+| FR-05 | O visitante acessa e-mail, LinkedIn, GitHub e Currículo Lattes pelos links de contato. | Essencial | `static/pt-BR/index.html`; auditoria de 02/11/2026; inclusão do Lattes em 06/11/2026. | Os quatro links abrem o destino correto; o e-mail abre o cliente de e-mail. | Vigente. |
 | FR-06 | A galeria mostra imagens locais com texto alternativo e legenda. | Esperado | AGENTS.md; auditoria de 02/11/2026. | Toda imagem tem `alt`; nenhuma imagem depende de servidor externo; a legenda descreve o conteúdo. | Vigente. |
 | FR-07 | A página de recomendações publica textos autorizados, sem alterar o sentido. | Esperado | D-13; `docs/conteudo-e-fontes.md`. | Cada recomendação tem autor e autorização registrada; o texto preserva o original. | Vigente. |
 | FR-08 | O botão de download do currículo permanece visível e inativo até a publicação do PDF. | Esperado | D-27; `static/pt-BR/index.html`; auditoria de 02/11/2026. | O botão aparece desativado nas variantes ativas; não aponta para arquivo inexistente; a decisão está registrada. | Vigente; decisão D-27. |
@@ -132,7 +132,7 @@ Limites:
 
 ## 11. Pendências
 
-Última revisão: 03/11/2026.
+Última revisão: 06/11/2026.
 Esta é a lista vigente de pendências do projeto.
 Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
 
@@ -144,6 +144,12 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | P-03 | Revisar as frases de ATS em inglês na lista visível. | EDIT-03; R13 | Responsável | Aberto | Decidir junto com P-02. |
 | P-05 | Decidir se haverá mapeamento de work roles do NICE. | Histórico, §11 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
 | P-06 | Confirmar a licença canônica dos ícones. | Histórico, §8 | Responsável | Aberto | Confirmar `LICENSE.txt` e retirar a cópia genérica, se aprovado. |
+
+### Conteúdo e idiomas
+
+| ID | Item | Origem | Dono | Situação | Próximo passo |
+| --- | --- | --- | --- | --- | --- |
+| P-16 | Sincronizar `en` com a base `pt-BR`: a seção About/Perfil e os cargos ausentes (Aquecedores e Piscinas Mairiporã, JH Eletrônico). | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Revisar os fatos, traduzir o Perfil e alinhar a tagline da cópia oculta. |
 
 ### Segurança e continuidade
 

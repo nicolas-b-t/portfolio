@@ -124,6 +124,8 @@ Links institucionais dos cursos identificam as instituições, sem validar indiv
 As cargas horárias e a origem das datas estão na seção Cursos acima.
 As variantes ativas usam o rótulo Conclusão (ou Completion) por solicitação do responsável, com a distinção original entre conclusão e emissão preservada no registro.
 
+O Currículo Lattes usa o endereço curto canônico `https://lattes.cnpq.br/1293729943180703`, informado pelo próprio sistema. A consulta pede um código de segurança. Não publique o parâmetro `tokenCaptchar`: ele é temporário e pertence à sessão de quem gerou o link.
+
 CNH AB e PID permanecem documentos declarados do responsável.
 O uso internacional depende das condições do destino e da CNH válida.
 A página ativa liga a CNH à lista de países com acordo de trânsito viário com o Brasil (Detran-PR) e a PID à lista de Estados-partes da Convenção de Viena sobre Trânsito Viário de 1968, mantida pela ONU.
