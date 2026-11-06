@@ -1,0 +1,27 @@
+{
+  "versao": "V4",
+  "edicao": "2026-11-04",
+  "idiomas": ["pt-BR"],
+  "fonte": {
+    "commit_base": "445ea45f2a10c2aba8082e08296f41172bfdbb80",
+    "paginas": ["static/pt-BR/index.html", "static/pt-BR/projetos.html"],
+    "registros": ["docs/conteudo-e-fontes.md", "docs/competencias.md"],
+    "contatos": "PDFs V3 pt-BR"
+  },
+  "arquivos": [
+    {
+      "arquivo": "V4-geral-uma_coluna-pt-BR.pdf",
+      "bytes": 80108,
+      "sha256": "a8911264db8b6a734619269ab0c1bf59522c6ab132a23425c4d0f99c249c36eb",
+      "paginas": 2
+    }
+  ],
+  "conteudo": {
+    "experiencias": 5,
+    "projetos": 3,
+    "cursos": 17,
+    "habilidades_sfia": 7,
+    "datas_de_cursos": "Rótulo Conclusão por orientação do responsável; sete fontes originais registram somente emissão."
+  },
+  "verificacao": "PDF A4 renderizado e inspecionado; texto selecionável e paginação conferidos. Não é certificação de acessibilidade nem teste em ATS proprietário."
+}
