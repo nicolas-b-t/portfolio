@@ -97,14 +97,14 @@ O bloco `details` e o espelho `.sfia-print` precisam ter o mesmo conteúdo.
 | `{{ICONE}}` | Sim | Nome existente em `static/assets/icons/`. |
 | `{{EMPRESA}}` | Sim | Nome oficial. |
 | `{{URL_EMPRESA}}` | Não | `https`. Sem link, use `dd` sem `<a>`. |
-| `{{VINCULO}}` | Não | Prestação de serviços, Autônomo, CLT ou Estágio. |
+| `{{VINCULO}}` | Não | Não registrar vínculo empregatício; o campo não é exibido. |
 | `{{INICIO_ISO}}` | Sim | `AAAA-MM`, ou `AAAA-MM-DD` quando a fonte dá o dia. |
 | `{{INICIO_TEXTO}}` | Sim | Mês por extenso. |
 | `{{FIM}}` | Sim | `<time>` do fim ou a palavra `atual`. |
 | `{{CIDADE}}`, `{{UF}}` | Não | Cidade e UF. O país é sempre Brasil. |
-| `{{ATIVIDADE_n}}` | Sim, ao menos 1 | Frase completa. Presente no vínculo atual; passado nos encerrados. |
+| `{{ATIVIDADE_n}}` | Sim, ao menos 1 | Frase completa. Presente na experiência atual; passado nas encerradas. |
 
-Ordem das fichas: data de término decrescente. Vínculo atual primeiro.
+Ordem das fichas: data de término decrescente. Experiência atual primeiro.
 
 ### 4.8 Formação
 
@@ -182,7 +182,7 @@ O bloco `.courses-screen` e o bloco `.courses-print` precisam ter o mesmo conte�
 ## 7. Ordem
 
 - Menu: ordem vigente, sem reordenação.
-- Experiências: término decrescente; vínculo atual primeiro.
+- Experiências: término decrescente; experiência atual primeiro.
 - Competências: âncoras primeiro, na ordem aprovada; demais tags alfabéticas.
 - Cursos: data decrescente dentro da subcategoria.
 

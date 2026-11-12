@@ -60,7 +60,7 @@ Verificação manual: abra o arquivo no GitHub e confira a renderização dos 9 
 
 - O site é estático. Não adicione JavaScript, formulário, iframe ou etapa de build.
 - Não altere `static/` sem autorização do responsável.
-- Preserve fatos, datas, vínculos, cargos e níveis. Não infira o que não está escrito.
+- Preserve fatos, datas, locais, cargos e níveis. O vínculo empregatício não é registrado. Não infira o que não está escrito.
 - Um fato ausente é "não confirmado". Registre a lacuna; não invente a fonte.
 - A documentação não é publicada. O workflow publica somente `static/`.
 - Os textos seguem a redação enxuta do projeto, sem declarar certificação.

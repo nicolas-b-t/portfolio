@@ -9,7 +9,7 @@ Correção de 02/11/2026: o responsável confirmou janeiro de 2026 como início 
 
 Os relatórios profissionais recebidos do Google Drive estão catalogados em `dados-pessoais/fontes/manifesto.json`, seção `experiencia_profissional`. O relatório da RealFort Telecom complementa a fonte já usada para essa experiência. Em 02/11/2026, o responsável solicitou incorporar a experiência mais recente a partir dos relatórios, mantendo o trabalho em pt-BR.
 
-- Aquecedores e Piscinas Mairiporã: gestor de tráfego pago; apoio documental e treinamento digital, de janeiro de 2026 até o presente na data do relatório. Campanhas em Google Ads e Meta Ads, medição com Google Tag Manager e GA4, site, marketplaces, acervo documental, treinamento dos sócios e suporte digital.
+- Aquecedores e Piscinas Mairiporã: gestor de tráfego pago; apoio documental e treinamento digital, de janeiro de 2026 até o presente na data do relatório. Campanhas em Google Ads e Meta Ads, medição com Google Tag Manager e GA4, site, marketplaces, acervo documental, treinamento dos sócios e suporte digital. Em 12/11/2026, o responsável decidiu registrar o cargo apenas como gestor de tráfego pago; as demais atividades descritas permanecem.
 - Fonte local: `../dados-pessoais/experiencia-profissional/RELATORIO_EXPERIENCIA_AQUECEDORES_MAIRIPORA.docx`, versão 1.0 de 02/11/2026, quadro de identificação e seções “Resumo profissional”, “Atividades e resultados”, “Hard skills” e “Encerramento”. Relato do profissional, sem certificação ou validação independente.
 - Decisão: inserir a atuação em andamento no início da experiência em pt-BR e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Local e modalidade não foram informados no relatório; não foram inferidos. Indicadores financeiros não foram acrescentados, pois as evidências estão pendentes e há divergência no número de cliques.
 - Requisito e fundamento editorial: preservar função, período, autoria individual e limites da fonte, conforme a seção Redação de Manutenção. A autorização abrange a edição e a publicação do conteúdo.
@@ -25,9 +25,10 @@ Os relatórios profissionais recebidos do Google Drive estão catalogados em `da
 - Fonte local: `../dados-pessoais/experiencia-profissional/RELATORIO_EXPERIENCIA_JH_ELETRONICO.docx`, versão 1.2 de 03/11/2026. Relato do profissional, sem documentos comprobatórios ou indicadores quantitativos apresentados. Razão social (JH ELETRÔNICO LTDA.) e CNPJ (09.344.228/0001-73) consultados em 03/11/2026 no site institucional.
 - Decisão em 03/11/2026: inserir a atuação no final da experiência em pt-BR (ordem cronológica inversa, após Instituto Alpha) e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Tags de e-commerce e vendas incorporadas na subcategoria “Tráfego pago, análise digital e comércio eletrônico”. Proposta de acordo com Mercado Livre não foi aprovada pelo responsável da empresa; bloqueio permaneceu. Repasses monetários e negociações dependiam de autorização.
 
-- Vínculos e locais confirmados pelo responsável em 06/11/2026: Aquecedores e Piscinas Mairiporã, prestação de serviços, Mairiporã (SP); Lukos Tecnologia, CLT, São Paulo (SP); Instituto Alpha de Saúde Integral, CLT, São Paulo (SP); RealFort Sistemas, prestação de serviços, São Paulo (SP). A página exibe esses campos na ficha e na cópia estruturada.
+- Vínculos e locais confirmados pelo responsável em 06/11/2026: Aquecedores e Piscinas Mairiporã, prestação de serviços, Mairiporã (SP); Lukos Tecnologia, CLT, São Paulo (SP); Instituto Alpha de Saúde Integral, CLT, São Paulo (SP); RealFort Sistemas, prestação de serviços, São Paulo (SP). Em 12/11/2026, o responsável decidiu não registrar o vínculo empregatício; o campo foi removido da tela, da cópia oculta e da lista de consulta. Os locais permanecem.
 
-Os cargos, vínculos e datas pessoais devem seguir as páginas e as declarações aprovadas.
+Os cargos, datas e locais pessoais devem seguir as páginas e as declarações aprovadas.
+O vínculo empregatício não é registrado.
 Não acrescente certificações de segurança ou habilitações profissionais a partir de fotografias ou descrições de atividades.
 
 ## Formação e idiomas

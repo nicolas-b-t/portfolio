@@ -198,7 +198,7 @@ A norma de montagem da página principal está em [Padrão de HTML](padrao-html.
 Para adicionar conteúdo, copie o modelo da seção, preencha os campos `{{CAMPO}}` e apague os blocos `OPCIONAL` sem fonte confirmada.
 Espelhe o mesmo fato na cópia oculta e, quando existir, na impressão.
 Campo sem fonte confirmada é omitido por inteiro, na tela e na cópia oculta. Não escreva "não informado".
-Ordem das experiências: data de término decrescente, com o vínculo atual primeiro. Competências: âncoras na ordem aprovada e demais tags alfabéticas dentro do `details`. Cursos: data de conclusão decrescente dentro da subcategoria.
+Ordem das experiências: data de término decrescente, com a experiência atual primeiro. Competências: âncoras na ordem aprovada e demais tags alfabéticas dentro do `details`. Cursos: data de conclusão decrescente dentro da subcategoria.
 
 Antes de mudar a estrutura do site, consulte [Decisões](decisoes.md).
 Uma decisão estrutural nova exige uma decisão registrada.

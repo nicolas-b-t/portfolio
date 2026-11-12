@@ -440,11 +440,11 @@ A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e m
 
 Experiência profissional
 
-Gestor de tráfego pago; apoio documental e treinamento digital
+Gestor de tráfego pago
 
 Aquecedores e Piscinas Mairiporã
 Período: janeiro de 2026 – atual
-• Cargo declarado: Gestor de tráfego pago; apoio documental e treinamento digital
+• Cargo declarado: Gestor de tráfego pago
 • Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads. Configuro a medição com Google Tag Manager e analiso resultados no Google Analytics 4 (GA4).
 • Criei e gerencio o site e as páginas da empresa. Estruturei canais de comércio eletrônico no Mercado Livre e na Shopee.
 • Digitalizei e organizei o acervo documental, com armazenamento em nuvem e backups físicos. Removi sites obsoletos e cópias com uso indevido da marca.
@@ -453,7 +453,6 @@ Período: janeiro de 2026 – atual
 Fiber Optic Installation Assistant
 
 RealFort Sistemas
-Vínculo: Prestação de serviços
 • Cargo declarado: Auxiliar de instalação de fibra óptica
 • Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.
 • Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.
@@ -485,7 +484,6 @@ E-commerce Assistant
 JH Eletrônico
 Período: julho de 2022 – janeiro de 2023
 Local: Mairiporã, São Paulo, Brasil
-Vínculo: Autônomo
 • Cargo declarado: Assistente de E-commerce
 • Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.
 • Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.
