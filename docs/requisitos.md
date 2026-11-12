@@ -132,7 +132,7 @@ Limites:
 
 ## 11. Pendências
 
-Última revisão: 11/11/2026.
+Última revisão: 12/11/2026.
 Esta é a lista vigente de pendências do projeto.
 Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
 
@@ -152,6 +152,7 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | P-16 | Sincronizar `en` com a base `pt-BR`: a seção About/Perfil, os cargos ausentes (Aquecedores e Piscinas Mairiporã, JH Eletrônico) e a subcategoria de tráfego pago, ausente em `en`. | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Revisar os fatos, traduzir o Perfil, alinhar a tagline da cópia oculta e avaliar a subcategoria de tráfego pago. |
 | P-17 | Confirmar vínculo de Aquecedores e Piscinas Mairiporã, Lukos Tecnologia e Instituto Alpha, e local de Aquecedores e RealFort Sistemas. Sem fonte confirmada, a ficha omite o campo, conforme [Padrão de HTML](padrao-html.md). | Decisão de 06/11/2026; FR-03 | Responsável | Concluído | Vínculos confirmados em 06/11/2026; deixaram de ser exibidos em 12/11/2026 por decisão do responsável. |
 | P-18 | Decidir a promoção da Portugal Digital Solutions de projeto para experiência profissional após a constituição da empresa. | Decisão de 11/11/2026; FR-02 | Responsável | Aberto | Informar data de constituição e NIPC; então criar a ficha em Experiência, revisar o cartão de projeto e sincronizar `en`. |
+| P-19 | Incluir um bloco de agradecimentos acadêmicos em `rede.html`, separado das pessoas já apresentadas. | Pedido de 12/11/2026; FR-02 | Responsável | Aguarda conteúdo | Fornecer nomes, papéis confirmados e textos ou motivos dos agradecimentos; depois publicar o bloco em `pt-BR` e `en`, com âncoras e link da Formação acadêmica. |
 
 ### Segurança e continuidade
 

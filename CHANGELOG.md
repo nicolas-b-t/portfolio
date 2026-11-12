@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-12 | Distingue a página de agradecimentos à rede da seleção pessoal em `pt-BR` e `en`. Alinha títulos, descrições, navegação e modelos; limita a apresentação da seleção à iniciativa publicada. Registra a futura seção de agradecimentos acadêmicos, sem publicar um bloco vazio. | Pedido do responsável; [pendências](docs/requisitos.md), P-19. |
 | 2026-11-12 | Condensa as quatro atividades de Aquecedores e Piscinas Mairiporã de 591 para 525 caracteres (−11,2%), sem retirar fato, na tela, na cópia oculta e na lista de consulta. Mantém os quatro parágrafos e o texto visível. | Este commit; [conteúdo e fontes](docs/conteudo-e-fontes.md). |
 | 2026-11-12 | Remove o vínculo empregatício das cinco experiências de `pt-BR` e da experiência da RealFort em `en`, na tela, na cópia oculta e na lista de consulta. Encurta o cargo em Aquecedores e Piscinas Mairiporã para "Gestor de tráfego pago", mantendo as demais atividades. | Este commit; [conteúdo e fontes](docs/conteudo-e-fontes.md); P-17. |
 | 2026-11-11 | Reestrutura as competências de `pt-BR` e `en` com âncoras e detalhe expansível: subcategorias com 9 ou mais tags mostram quatro âncoras e um `details` fechado com as demais, aberto por `[ver mais]`. Reduz a tela inicial de `pt-BR` de 165 para 76 tags visíveis. Mantém a cópia oculta, a lista de tags e os cartões de projeto. | Este commit; [decisões](docs/decisoes.md), 0009; FR-10. |

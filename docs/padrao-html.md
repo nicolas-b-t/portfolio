@@ -145,7 +145,7 @@ O bloco `.courses-screen` e o bloco `.courses-print` precisam ter o mesmo conte�
 
 | Campo | Obrigatório | Regra |
 | --- | --- | --- |
-| Links | Sim | Galeria, agradecimentos e recomendações. |
+| Links | Sim | Galeria, agradecimentos à rede e seleção pessoal. |
 | Ano | Sim | `span` com o ano corrente. |
 
 ### 4.12 Cópia oculta
