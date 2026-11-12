@@ -1,6 +1,6 @@
 # Decisões de arquitetura
 
-Oito decisões aceitas em 02/11/2026 e 03/11/2026.
+Nove decisões aceitas entre 02/11/2026 e 11/11/2026.
 O formato é uma síntese de MADR; o texto completo de cada ADR permanece no histórico Git.
 Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o registro e recebe o status `superseded`.
 
@@ -14,6 +14,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0006 | Projetos apenas em `pt-BR` | Aceita |
 | 0007 | Publicação restrita a `static/` | Aceita |
 | 0008 | Publicação temporária de duas variantes | Aceita |
+| 0009 | Competências com âncoras e detalhe expansível | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -70,3 +71,10 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** publicar somente `pt-BR` e `en`; `pt-PT`, `es-419` e `es-ES` redirecionam para `wip.html`. As pastas e o conteúdo anterior permanecem no histórico Git.
 **Consequências:** visitantes desses idiomas veem a página de trabalho em andamento; a tradução será refeita a partir da base concluída. A decisão 0003 permanece vigente como destino.
 **Confirmação:** apenas `pt-BR` e `en` têm conteúdo; as demais páginas usam `meta refresh` para `wip.html`; os links de idioma ativos apontam para `pt-BR` e `en`.
+
+## 0009 — Competências com âncoras e detalhe expansível
+
+**Contexto:** a seção `#habilidades` de `pt-BR` exibia 165 tags, e seis subcategorias tinham 9 ou mais tags. A cópia oculta `#dados-curriculo` e a lista de consulta já preservam a cobertura para leitura automática.
+**Decisão:** subcategorias com até 8 tags continuam em lista aberta. Com 9 ou mais, a tela mostra quatro âncoras escolhidas entre as tags existentes e um `details.skill-group` fechado por padrão com as demais tags em ordem alfabética. O controle é `summary.skill-more`, com o texto `[ver mais]` e um `aria-label` próprio por subcategoria. As âncoras não se repetem na lista expandida. Sem JavaScript, sem persistência de estado e sem frase por subcategoria.
+**Consequências:** a tela inicial de `pt-BR` passa de 165 para 76 tags visíveis e o DOM mantém as 165. A cópia oculta e a lista de tags não mudam. Na impressão, as âncoras e as listas abertas aparecem; as colapsadas não aparecem, porque `summary` fica oculto. A contagem da tela e da impressão deixa de ser igual à da cópia oculta; a soma da tela com as listas expandidas continua igual.
+**Confirmação:** seis subcategorias colapsadas em `pt-BR` e quatro em `en`, conforme a contagem de tags de cada idioma; `details` fechados por padrão; `aria-label` único; contagem do DOM igual à anterior; `git diff --check` limpo.

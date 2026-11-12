@@ -679,6 +679,29 @@ Gestão e pesquisa
 • Pesquisa de mercado
 Site do projeto: https://optigrow.vercel.app/
 Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)
+Projeto empresarial · Empresa em abertura
+
+Portugal Digital Solutions
+A Portugal Digital Solutions (PDS) é uma consultoria digital para pequenas e médias empresas (PME) em Portugal. A empresa está em abertura.
+Planejo o posicionamento, o catálogo de serviços e o processo comercial. A equipe inicial tem dois sócios.
+As ofertas previstas incluem sites institucionais, landing pages e sistemas personalizados. A lista também inclui ERP e ponto de venda (PDV) em SaaS, campanhas publicitárias digitais, redes sociais e consultoria.
+O projeto usa o Trello para o acompanhamento estratégico e tático. Os preços, os prazos e a disponibilidade das ofertas ainda estão em definição.
+
+Pesquisa de mercado
+• Análise de concorrentes
+• Pesquisa de mercado
+
+Gestão e colaboração
+• Definição de catálogo de serviços
+• Desenvolvimento colaborativo
+• Gestão de capacidade
+• Modelo de negócio
+• Organização de processos
+• Posicionamento de mercado
+• Processo comercial
+
+Ferramentas de gestão e pesquisa
+• Trello
 Projeto acadêmico · Produto mínimo viável (MVP) em desenvolvimento
 
 SGCS — Sistema de Gestão de Chamados para Síndicos

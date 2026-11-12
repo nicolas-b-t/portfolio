@@ -9,7 +9,7 @@ A norma que explica as regras está em [Padrão de HTML](../padrao-html.md).
 | --- | --- |
 | [pagina.html](pagina.html) | Estrutura do documento, cabeçalho, hero, rodapé e cópia oculta. |
 | [perfil.html](perfil.html) | Seção Perfil e o resumo profissional oculto. |
-| [competencias.html](competencias.html) | Categoria, subcategoria e tag de competência. |
+| [competencias.html](competencias.html) | Categoria, subcategoria, âncora e tag de competência. |
 | [experiencia.html](experiencia.html) | Item da linha do tempo e o espelho oculto. |
 | [formacao.html](formacao.html) | Instituição, curso e conteúdos previstos. |
 | [cursos.html](cursos.html) | Curso na tela e na impressão. |

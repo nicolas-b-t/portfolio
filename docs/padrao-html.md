@@ -72,7 +72,10 @@ Mantenha a indentação de 2 espaços do HTML atual.
 | `{{TAG}}` | Sim | Uma competência por `li`. |
 | `{{LANG}}` | Condicional | `lang="en"` quando a tag está em inglês. |
 | `{{NOTA}}` | Não | Nível ou qualificador em `span.skill-note`. |
-| Ordem | Sim | Alfabética dentro da subcategoria. |
+| `{{ANCORA}}` | Condicional | Quatro tags existentes, quando a subcategoria tem 9 ou mais tags. Não se repetem na lista expandida. |
+| `details.skill-group` | Condicional | Fechado por padrão; `summary.skill-more` com `aria-label` próprio por subcategoria. |
+| Limiar | Sim | Até 8 tags, lista aberta; 9 ou mais, quatro âncoras e o restante no `details`. |
+| Ordem | Sim | Âncoras na ordem aprovada; demais tags em ordem alfabética dentro do `details`. |
 
 ### 4.6 SFIA
 
@@ -173,13 +176,14 @@ O bloco `.courses-screen` e o bloco `.courses-print` precisam ter o mesmo conte�
 | `#experiencia` | cópia oculta | Mesmos fatos e ordem. |
 | `.courses-screen` | `.courses-print` | Mesmo conteúdo, mesma contagem. |
 | `.sfia-profile` | `.sfia-print` | Mesmo conteúdo, mesma contagem. |
+| `.skill-anchors` + `.skill-group` | cópia oculta | Mesmas tags, sem repetir âncoras; a cópia oculta mantém a lista completa. |
 | Tela | cópia oculta | Nenhum fato exclusivo de um lado. |
 
 ## 7. Ordem
 
 - Menu: ordem vigente, sem reordenação.
 - Experiências: término decrescente; vínculo atual primeiro.
-- Competências: alfabética.
+- Competências: âncoras primeiro, na ordem aprovada; demais tags alfabéticas.
 - Cursos: data decrescente dentro da subcategoria.
 
 ## 8. Conferência
@@ -198,6 +202,9 @@ git diff --check
 
 # contagem de cursos na tela e na impressão
 (Select-String -Path static\pt-BR\index.html -Pattern 'course-list').Count
+
+# competências: um controle por subcategoria colapsada
+(Select-String -Path static\pt-BR\index.html -Pattern 'skill-more').Count
 ```
 
 Confira também, no navegador:
@@ -205,6 +212,8 @@ Confira também, no navegador:
 - âncoras internas resolvem;
 - ícones carregam;
 - impressão mostra as cinco experiências e oculta a cópia estruturada;
+- cada `[ver mais]` abre pelo teclado e anuncia a subcategoria;
+- impressão mostra as âncoras e as listas abertas e omite as colapsadas;
 - 320 CSS px sem rolagem horizontal;
 - zoom de 200% sem corte;
 - temas claro e escuro;

@@ -80,7 +80,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | FR-07 | A página de recomendações publica textos autorizados, sem alterar o sentido. | Esperado | D-13; `docs/conteudo-e-fontes.md`. | Cada recomendação tem autor e autorização registrada; o texto preserva o original. | Vigente. |
 | FR-08 | O botão de download do currículo permanece visível e inativo até a publicação do PDF. | Esperado | D-27; `static/pt-BR/index.html`; auditoria de 02/11/2026. | O botão aparece desativado nas variantes ativas; não aponta para arquivo inexistente; a decisão está registrada. | Vigente; decisão D-27. |
 | FR-09 | A cópia estruturada oculta mantém os mesmos dados da tela. | Esperado | `docs/manutencao.md`; auditoria de 02/11/2026. | Os dados conferem; a cópia não aparece na tela nem na impressão. | Vigente. |
-| FR-10 | As competências mantêm três categorias, com subcategorias, uma tag por item e níveis preservados. | Essencial | AGENTS.md; `dados-pessoais/fontes/competencias-declaradas.json`. | Três categorias; subcategorias coerentes; níveis de suporte, fibra e inglês preservados. | Vigente. |
+| FR-10 | As competências mantêm três categorias, com subcategorias, uma tag por item e níveis preservados. | Essencial | AGENTS.md; `dados-pessoais/fontes/competencias-declaradas.json`. | Três categorias; subcategorias coerentes; níveis de suporte, fibra e inglês preservados. Subcategoria com 9 ou mais tags exibe quatro âncoras e um `details` fechado; a soma das tags visíveis e expansíveis iguala a cópia oculta. | Vigente; âncoras e `details` desde 11/11/2026 (decisão 0009). |
 | FR-11 | A raiz apresenta as variantes ativas e leva à escolhida. | Esperado | `static/index.html`; auditoria de 02/11/2026; decisão de 03/11/2026. | A raiz lista `pt-BR` e `en`; cada link abre a variante correspondente; as demais são indicadas como em preparação. | Vigente; duas variantes ativas. |
 | FR-12 | A impressão mostra o conteúdo e oculta menus e cópia estruturada. | Esperado | `static/assets/css/styles.css`; auditoria de 02/11/2026. | A impressão mostra as seções; a cópia oculta não aparece; não há corte de conteúdo. | Vigente. |
 | FR-13 | O site tem página 404 no mesmo estilo, com retorno ao início. | Opcional | D-17; documentação do GitHub Pages (EXT-02). | A página abre no lugar do erro padrão em URLs de qualquer profundidade; mantém `lang`, estilo e link de retorno. | Vigente; caminhos corrigidos em 03/11/2026. |
@@ -132,7 +132,7 @@ Limites:
 
 ## 11. Pendências
 
-Última revisão: 06/11/2026.
+Última revisão: 11/11/2026.
 Esta é a lista vigente de pendências do projeto.
 Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
 
@@ -149,8 +149,9 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
-| P-16 | Sincronizar `en` com a base `pt-BR`: a seção About/Perfil e os cargos ausentes (Aquecedores e Piscinas Mairiporã, JH Eletrônico). | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Revisar os fatos, traduzir o Perfil e alinhar a tagline da cópia oculta. |
+| P-16 | Sincronizar `en` com a base `pt-BR`: a seção About/Perfil, os cargos ausentes (Aquecedores e Piscinas Mairiporã, JH Eletrônico) e a subcategoria de tráfego pago, ausente em `en`. | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Revisar os fatos, traduzir o Perfil, alinhar a tagline da cópia oculta e avaliar a subcategoria de tráfego pago. |
 | P-17 | Confirmar vínculo de Aquecedores e Piscinas Mairiporã, Lukos Tecnologia e Instituto Alpha, e local de Aquecedores e RealFort Sistemas. Sem fonte confirmada, a ficha omite o campo, conforme [Padrão de HTML](padrao-html.md). | Decisão de 06/11/2026; FR-03 | Responsável | Concluído | Campos confirmados e aplicados na tela e na cópia oculta em 06/11/2026. |
+| P-18 | Decidir a promoção da Portugal Digital Solutions de projeto para experiência profissional após a constituição da empresa. | Decisão de 11/11/2026; FR-02 | Responsável | Aberto | Informar data de constituição e NIPC; então criar a ficha em Experiência, revisar o cartão de projeto e sincronizar `en`. |
 
 ### Segurança e continuidade
 

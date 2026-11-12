@@ -471,6 +471,31 @@ p {
   break-inside: avoid;
 }
 
+.skill-anchors {
+  margin-bottom: 0.25rem;
+}
+
+.skill-group {
+  margin-top: 0.25rem;
+}
+
+.skill-more {
+  padding: 0.1rem 0;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  list-style-position: inside;
+  cursor: pointer;
+}
+
+.skill-more:hover {
+  text-decoration: underline;
+}
+
+.skill-group[open] > .skill-more {
+  margin-bottom: 0.25rem;
+}
+
 /* ---------- SFIA profile ---------- */
 
 .sfia-profile {
@@ -754,8 +779,13 @@ p {
   .site-footer .noprint,
   .contact-related,
   .courses-screen,
+  .skill-more,
   .photo-link-label {
     display: none !important;
+  }
+
+  .skill-group:not([open]) {
+    display: none;
   }
 
   body {

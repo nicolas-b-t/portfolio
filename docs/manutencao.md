@@ -19,6 +19,8 @@ Preserve as três categorias de competências e suas subcategorias.
 Use uma tecnologia, competência ou qualificação por tag.
 Mantenha observações de nível para suporte técnico, fusão de fibra e inglês.
 Registre outras limitações nas descrições e na formação.
+Em subcategoria com 9 ou mais tags, escolha quatro âncoras entre as tags existentes e mantenha as demais no `details`, em ordem alfabética.
+As âncoras não se repetem na lista expandida. Reavalie a escolha ao acrescentar ou retirar tags.
 
 A cópia oculta `dados-curriculo` deriva dos dados públicos da página.
 Ela não é uma entrada independente para ampliar qualificações.
@@ -78,7 +80,7 @@ Os limites numéricos de frases são uma política editorial do projeto.
 
 ### Inglês norte-americano
 
-Use inglês norte-americano nos textos autorais da versão en, inclusive nas tags e nos textos alternativos das imagens.
+Use inglês norte-americano nos textos autorais da versão en, inclusive nas tags, nos controles de expansão e nos textos alternativos das imagens.
 A pasta `en/` permanece igual. Use `en-US` para identificar as páginas e os links dessa versão.
 Preserve os idiomas originais dos títulos oficiais de cursos e das citações.
 
@@ -125,7 +127,7 @@ Aplique a revisão aos comentários e às instruções que escrevemos sobre essa
 
 ## Página de projetos em pt-BR
 
-Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os três projetos e sua cópia estruturada.
+Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os quatro projetos e sua cópia estruturada.
 A página principal mantém um link no menu, outro na apresentação inicial e uma referência no resumo oculto.
 A âncora antiga `index.html#projetos` leva ao acesso da apresentação.
 As outras variantes mantêm a estrutura anterior nesta etapa.
@@ -196,7 +198,7 @@ A norma de montagem da página principal está em [Padrão de HTML](padrao-html.
 Para adicionar conteúdo, copie o modelo da seção, preencha os campos `{{CAMPO}}` e apague os blocos `OPCIONAL` sem fonte confirmada.
 Espelhe o mesmo fato na cópia oculta e, quando existir, na impressão.
 Campo sem fonte confirmada é omitido por inteiro, na tela e na cópia oculta. Não escreva "não informado".
-Ordem das experiências: data de término decrescente, com o vínculo atual primeiro. Competências: alfabética dentro da subcategoria. Cursos: data de conclusão decrescente dentro da subcategoria.
+Ordem das experiências: data de término decrescente, com o vínculo atual primeiro. Competências: âncoras na ordem aprovada e demais tags alfabéticas dentro do `details`. Cursos: data de conclusão decrescente dentro da subcategoria.
 
 Antes de mudar a estrutura do site, consulte [Decisões](decisoes.md).
 Uma decisão estrutural nova exige uma decisão registrada.
@@ -251,7 +253,7 @@ Não há SLA nem monitoramento contínuo. Incidente: resposta em até um dia.
 - Confira nomes acessíveis, texto alternativo, ARIA mínimo e leitor de tela quando possível.
 - Em mudança de conteúdo, confira a cópia estruturada e a impressão.
 - Confira que nenhum marcador `{{` permanece em `static/`.
-- Confira que a contagem da tela é igual à da cópia oculta e à da impressão.
+- Confira que a soma das tags visíveis com as listas expansíveis é igual à da cópia oculta. Na impressão, as competências colapsadas não aparecem.
 - Execute `git diff --check`.
 - Atualize o `CHANGELOG.md` e a situação em [Requisitos](requisitos.md), §11.
 

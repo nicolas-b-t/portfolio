@@ -2,12 +2,29 @@
 <div class="skill-category">
   <h3 data-icon="{{ICONE}}">{{CATEGORIA}}</h3>
 
+  <!-- Subcategoria com até 8 tags: lista aberta. -->
   <h4 class="skill-subheading">{{SUBCATEGORIA}}</h4>
   <ul class="skill-list" role="list">
     <li>{{TAG}}</li>
     <li lang="en">{{TAG_EM_INGLES}}</li>
     <li>{{TAG}}<span class="skill-note">, {{NOTA}}</span></li>
   </ul>
+
+  <!-- Subcategoria com 9 ou mais tags: quatro âncoras e o restante no details. -->
+  <h4 class="skill-subheading">{{SUBCATEGORIA}}</h4>
+  <ul class="skill-list skill-anchors" role="list">
+    <li>{{ANCORA}}</li>
+    <li>{{ANCORA}}</li>
+    <li>{{ANCORA}}</li>
+    <li>{{ANCORA}}</li>
+  </ul>
+  <details class="skill-group">
+    <summary class="skill-more" aria-label="Ver mais competências de {{SUBCATEGORIA}}">[ver mais]</summary>
+    <ul class="skill-list" role="list">
+      <li>{{TAG}}</li>
+      <li>{{TAG}}<span class="skill-note">, {{NOTA}}</span></li>
+    </ul>
+  </details>
 </div>
 
 <!-- ===== CÓPIA OCULTA ===== -->
@@ -24,8 +41,11 @@
 <!--
 Regras:
 - Uma competência por li.
-- Ordem alfabética dentro da subcategoria.
+- Subcategoria com até 8 tags fica em lista aberta.
+- Subcategoria com 9 ou mais tags exibe quatro âncoras e o restante em details.skill-group fechado.
+- As âncoras são tags existentes e não se repetem na lista expandida.
+- Demais tags em ordem alfabética dentro do details.
 - lang="en" quando a tag está em inglês.
-- A cópia oculta repete as tags visíveis e pode acrescentar sinônimos de ATS.
+- A cópia oculta mantém a lista completa e não recebe as âncoras nem o details.
 - Não crie subcategoria nova sem decisão registrada.
 -->
