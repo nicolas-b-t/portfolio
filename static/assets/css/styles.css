@@ -891,12 +891,13 @@ p {
   }
 }
 
-/* ---------- pt-BR: editorial hierarchy and selective color ---------- */
+/* ---------- pt-BR: editorial hierarchy and restrained palette ---------- */
 @media screen {
   html[lang="pt-BR"] {
-    --pt-hero-panel: #e5eaff;
-    --pt-label-panel: #ffe178;
-    --pt-label-ink: #0a0a0a;
+    --accent: #31506a;
+    --pt-hero-panel: #f0f1ee;
+    --pt-label-panel: #e0e4e3;
+    --pt-label-ink: var(--ink);
   }
 
   html[lang="pt-BR"] .site-header .nav a {
@@ -1022,7 +1023,8 @@ p {
 
 @media screen and (prefers-color-scheme: dark) {
   html[lang="pt-BR"] {
-    --pt-hero-panel: #202947;
-    --pt-label-panel: #f1d36d;
+    --accent: #aec4d3;
+    --pt-hero-panel: #1f2226;
+    --pt-label-panel: #34393d;
   }
 }
