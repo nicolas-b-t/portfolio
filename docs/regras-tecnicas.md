@@ -1,0 +1,64 @@
+# Regras técnicas do portfólio
+
+Detalhe das regras resumidas em `AGENTS.md`. Vale para o repositório inteiro.
+
+## Projeto e conteúdo
+
+- Mantenha o site pessoal, estático e funcional com HTML e CSS.
+- Não adicione JavaScript, eventos embutidos, rastreadores, widgets, frameworks, backend ou etapa de build.
+- Use somente tecnologias e dependências necessárias ao conteúdo.
+- Preserve caminhos relativos, fontes do sistema e recursos locais.
+- Use `static/pt-BR/index.html` como base factual para os cinco idiomas.
+- Enquanto a base estiver em revisão, somente `pt-BR` e `en` são publicados; `pt-PT`, `es-419` e `es-ES` redirecionam para `wip.html` (decisão 0008).
+- Preserve nomes oficiais, cargos, vínculos, datas, qualificações, níveis e atribuições individuais ou da equipe.
+- Não transforme conteúdos previstos da graduação em formação concluída ou experiência profissional.
+- Consulte [fontes e atribuições](conteudo-e-fontes.md) antes de ampliar ou alterar uma afirmação.
+- Aplique a seção Redação de [Manutenção](manutencao.md), baseada na ASD-STE100, edição 9, sem declarar certificação formal.
+- Preserve textos e avisos de documentos oficiais. A adaptação editorial aplica-se aos textos autorais.
+- Preserve os bytes das cópias oficiais em `docs/referencias/europass-fontes/`. Esses documentos não integram o site publicado.
+
+## Estrutura e idiomas
+
+- `static/` é a única fonte do site publicado.
+- O CSS comum fica em `static/assets/css/styles.css`. Não crie cópias por idioma.
+- Preserve `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`. As pastas das variantes suspensas permanecem no repositório para reativação.
+- Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
+- Em `es-419`, preserve a redação para o público sul-americano quando a variante for reativada.
+- Cada idioma mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`. Em `pt-BR`, `projetos.html` reúne os projetos e a cópia estruturada.
+- Sincronize fatos e estrutura comuns entre os idiomas. Preserve as variantes linguísticas.
+- Preserve as três categorias de competências e suas subcategorias.
+- Ao alterar cursos, atualize as cópias de tela, impressão e resumo estruturado nos idiomas afetados.
+- Mantenha a coerência entre conteúdo visível, resumo oculto e listas de consulta.
+
+## HTML, CSS e acessibilidade
+
+- Siga o HTML Living Standard. Prefira semântica nativa e use ARIA somente quando necessária.
+- Mantenha UTF-8, títulos descritivos, hierarquia de cabeçalhos e atributos de idioma corretos.
+- Prefira CSS amplamente suportado. Forneça alternativa quando o suporte for limitado.
+- Use WCAG 2.2 nível AA como alvo, sem declarar conformidade apenas por testes automáticos.
+- Preserve navegação por teclado, foco visível, link de salto e nomes compreensíveis para controles e links.
+- Confira contraste, alternativas textuais, reorganização em telas pequenas e zoom.
+- Preserve temas claro e escuro, impressão e respeito a `prefers-reduced-motion`.
+
+## Trabalho no repositório
+
+- Confira `git status --short` antes de editar. Preserve alterações existentes.
+- Use o checkout atual. Não crie worktrees sem solicitação do responsável.
+- Consulte [Manutenção](manutencao.md) para execução, publicação e conferência das páginas.
+- Para mudanças visuais, confira também teclado, foco, contraste, telas pequenas, zoom, temas e impressão.
+- Execute `git diff --check`. Informe verificações, resultados e limites.
+- Mantenha uma síntese vigente por assunto e atualize os links ao mover ou retirar arquivos.
+- Mantenha fora do Git `dados-pessoais/`. A base técnica foi arquivada em `_arquivo/`; o catálogo e o índice ficam versionados em `docs/referencias/repertorio-tecnico-site/`.
+- Preserve fontes, licenças e meios de recuperação antes de retirar um acervo.
+- Mantenha os PDFs V3 versionados, conforme autorização do responsável.
+- Não acrescente credenciais, configurações pessoais de máquina ou documentos restritos ao site.
+- Use nomes de pasta em minúsculas, descritivos, sem acentos e com hífens. Preserve nomes oficiais e nomes de arquivos solicitados.
+- Mantenha no máximo quatro níveis de pasta. O sufixo `-local` identifica cópias de consulta ignoradas pelo Git.
+
+## Fechamento do turno
+
+- Termine cada turno com duas listas: inferências assumidas e pendências.
+- Em inferências, registre o que foi decidido sem fonte explícita, por analogia ou fora do escopo aprovado, com a razão.
+- Em pendências, registre o que ficou aberto, adiado, não verificado ou bloqueado, com o responsável quando houver.
+- Se uma lista estiver vazia, escreva "Nenhuma".
+- Mantenha as listas curtas e factuais. Não repita nelas o resumo da execução.
