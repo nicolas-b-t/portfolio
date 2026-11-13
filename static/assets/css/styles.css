@@ -1055,6 +1055,10 @@ p {
 }
 
 /* ---------- pt-BR home: CSS-only style switch ---------- */
+body.style-lab .style-art {
+  display: none;
+}
+
 @media screen {
   body.style-lab .style-switch {
     display: none;
@@ -1126,6 +1130,25 @@ p {
 
     body.style-lab .style-switch input {
       accent-color: var(--accent);
+    }
+
+    body.style-lab .style-art img {
+      display: none;
+      width: 100%;
+      height: auto;
+    }
+
+    body.style-lab:has(#style-nato:checked) .style-art,
+    body.style-lab:has(#style-warsaw:checked) .style-art {
+      display: block;
+      width: 100%;
+      max-width: 21rem;
+      margin: 1.5rem 0 0 auto;
+    }
+
+    body.style-lab:has(#style-nato:checked) .style-art-nato,
+    body.style-lab:has(#style-warsaw:checked) .style-art-warsaw {
+      display: block;
     }
 
     body.style-lab:has(#style-nato:checked) {
@@ -1221,6 +1244,90 @@ p {
     body.style-lab:has(#style-nato:checked) .site-footer {
       border-top: 2px solid var(--accent);
     }
+
+    body.style-lab:has(#style-warsaw:checked) {
+      --bg: #eee8d9;
+      --ink: #201f1a;
+      --muted: #4d4b42;
+      --accent: #912d27;
+      --button-text: #ffffff;
+      --panel: #faf6ec;
+      --pt-hero-panel: #e0d6be;
+      --pt-label-panel: #d9c9a8;
+      --pt-label-ink: #201f1a;
+      --pt-secondary-ink: #36352e;
+      --warsaw-olive: #4d5844;
+      --warsaw-heading: #912d27;
+      --warsaw-heading-text: #ffffff;
+      --line: 3px;
+      --shadow-sm: 4px 4px 0 var(--ink);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) .site-header {
+      border-bottom: 5px solid var(--accent);
+      background: var(--panel);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) main > .hero {
+      border-left: 8px solid var(--accent);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) .hero h1 {
+      font-family: var(--font-sans);
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      text-transform: uppercase;
+    }
+
+    body.style-lab:has(#style-warsaw:checked) .hero h1::after {
+      content: "";
+      display: block;
+      width: 4rem;
+      height: 0.35rem;
+      margin-top: 0.65rem;
+      background: var(--accent);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) main > section.wrap:not(.hero) {
+      border-top: 3px solid var(--ink);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) main > section.wrap:not(.hero) > h2 {
+      border-color: var(--warsaw-heading);
+      background: var(--warsaw-heading);
+      color: var(--warsaw-heading-text);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) #habilidades .skill-subheading {
+      border-left-color: var(--warsaw-olive);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) #experiencia .timeline li {
+      border-left-color: var(--accent);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) .sfia-item {
+      border: 2px solid var(--ink);
+    }
+
+    body.style-lab:has(#style-warsaw:checked) .site-footer {
+      border-top: 5px solid var(--accent);
+    }
+  }
+}
+
+@media screen and (min-width: 52rem) {
+  body.style-lab:has(#style-nato:checked) main > .hero,
+  body.style-lab:has(#style-warsaw:checked) main > .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
+    gap: 2rem;
+    align-items: center;
+  }
+
+  body.style-lab:has(#style-nato:checked) .style-art,
+  body.style-lab:has(#style-warsaw:checked) .style-art {
+    margin-top: 0;
   }
 }
 
@@ -1241,5 +1348,21 @@ p {
     --nato-heading: #294b60;
     --nato-heading-text: #ffffff;
     --nato-grid: rgba(238, 244, 245, 0.08);
+  }
+
+  body.style-lab:has(#style-warsaw:checked) {
+    --bg: #181914;
+    --ink: #eee8d9;
+    --muted: #bdb7a9;
+    --accent: #e18c76;
+    --button-text: #181914;
+    --panel: #24251f;
+    --pt-hero-panel: #313126;
+    --pt-label-panel: #484333;
+    --pt-label-ink: #f4ecdd;
+    --pt-secondary-ink: #ded6c4;
+    --warsaw-olive: #9dad88;
+    --warsaw-heading: #9f3d33;
+    --warsaw-heading-text: #ffffff;
   }
 }
