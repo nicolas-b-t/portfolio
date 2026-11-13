@@ -891,13 +891,12 @@ p {
   }
 }
 
-/* ---------- pt-BR: editorial hierarchy and restrained palette ---------- */
+/* ---------- pt-BR: editorial hierarchy and selective color ---------- */
 @media screen {
   html[lang="pt-BR"] {
-    --accent: #31506a;
-    --pt-hero-panel: #f0f1ee;
-    --pt-label-panel: #e0e4e3;
-    --pt-label-ink: var(--ink);
+    --pt-hero-panel: #e5eaff;
+    --pt-label-panel: #ffe178;
+    --pt-label-ink: #0a0a0a;
   }
 
   html[lang="pt-BR"] .site-header .nav a {
@@ -1023,8 +1022,7 @@ p {
 
 @media screen and (prefers-color-scheme: dark) {
   html[lang="pt-BR"] {
-    --accent: #aec4d3;
-    --pt-hero-panel: #1f2226;
-    --pt-label-panel: #34393d;
+    --pt-hero-panel: #202947;
+    --pt-label-panel: #f1d36d;
   }
 }
