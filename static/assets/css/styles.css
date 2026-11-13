@@ -890,3 +890,139 @@ p {
     break-inside: avoid;
   }
 }
+
+/* ---------- pt-BR: editorial hierarchy and selective color ---------- */
+@media screen {
+  html[lang="pt-BR"] {
+    --pt-hero-panel: #e5eaff;
+    --pt-label-panel: #ffe178;
+    --pt-label-ink: #0a0a0a;
+  }
+
+  html[lang="pt-BR"] .site-header .nav a {
+    padding: 0.15rem 0.35rem;
+  }
+
+  html[lang="pt-BR"] .site-header .nav a:hover,
+  html[lang="pt-BR"] .site-header .nav a:focus-visible,
+  html[lang="pt-BR"] .site-header .nav a[aria-current="page"] {
+    background: var(--pt-label-panel);
+    color: var(--pt-label-ink);
+  }
+
+  html[lang="pt-BR"] main > .hero {
+    margin-block: 1.5rem 2rem;
+    padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 2.5rem);
+    border: var(--line) solid var(--ink);
+    background: var(--pt-hero-panel);
+  }
+
+  html[lang="pt-BR"] .hero .kicker {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border: 2px solid var(--pt-label-ink);
+    background: var(--pt-label-panel);
+    color: var(--pt-label-ink);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  html[lang="pt-BR"] .hero h1 {
+    max-width: 22ch;
+    font-size: clamp(2.1rem, 6vw, 4.25rem);
+    line-height: 1.05;
+  }
+
+  html[lang="pt-BR"] .hero .lead {
+    max-width: 55ch;
+    font-size: 1.2rem;
+  }
+
+  html[lang="pt-BR"] .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1rem;
+    max-width: none;
+    margin-top: 1.5rem;
+  }
+
+  html[lang="pt-BR"] .hero-actions .btn {
+    max-width: 100%;
+  }
+
+  html[lang="pt-BR"] main > section.wrap:not(.hero) > h2 {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0.35rem 0.65rem;
+    border: var(--line) solid var(--pt-label-ink);
+    background: var(--pt-label-panel);
+    color: var(--pt-label-ink);
+    margin-bottom: 1.5rem;
+  }
+
+  html[lang="pt-BR"] #habilidades > .skill-category > h3 {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0.35rem 0.6rem;
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  html[lang="pt-BR"] #habilidades .skill-subheading {
+    padding-left: 0.65rem;
+    border-left: 4px solid var(--accent);
+  }
+
+  html[lang="pt-BR"] #habilidades .skill-more {
+    display: list-item;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0.35rem 0.6rem;
+    border: 2px solid var(--ink);
+    background: var(--panel);
+    color: var(--ink);
+  }
+
+  html[lang="pt-BR"] #experiencia .timeline li {
+    padding-top: 0.8rem;
+    border-bottom: 1px solid var(--muted);
+  }
+
+  html[lang="pt-BR"] #experiencia .timeline li::before {
+    top: 1.2rem;
+  }
+
+  html[lang="pt-BR"] .card .meta {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0.2rem 0.45rem;
+    border: 2px solid var(--pt-label-ink);
+    background: var(--pt-label-panel);
+    color: var(--pt-label-ink);
+  }
+
+  html[lang="pt-BR"] .card h3 {
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+
+  html[lang="pt-BR"] .photo-card {
+    box-shadow: var(--shadow-sm);
+  }
+
+  html[lang="pt-BR"] .photo-card figcaption {
+    border-top: var(--line) solid var(--ink);
+    font-weight: 600;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  html[lang="pt-BR"] {
+    --pt-hero-panel: #202947;
+    --pt-label-panel: #f1d36d;
+  }
+}
