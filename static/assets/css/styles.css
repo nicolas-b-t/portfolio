@@ -897,6 +897,32 @@ p {
     --pt-hero-panel: #e5eaff;
     --pt-label-panel: #ffe178;
     --pt-label-ink: #0a0a0a;
+    --pt-secondary-ink: #2f2f2f;
+  }
+
+  html[lang="pt-BR"] .meta,
+  html[lang="pt-BR"] .experience-meta dt,
+  html[lang="pt-BR"] .skill-note,
+  html[lang="pt-BR"] .sfia-level,
+  html[lang="pt-BR"] .sfia-note,
+  html[lang="pt-BR"] .site-footer {
+    color: var(--pt-secondary-ink);
+  }
+
+  html[lang="pt-BR"] .meta,
+  html[lang="pt-BR"] .experience-meta dt,
+  html[lang="pt-BR"] .sfia-level {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  html[lang="pt-BR"] .skill-note {
+    font-weight: 500;
+  }
+
+  html[lang="pt-BR"] .sfia-note,
+  html[lang="pt-BR"] .site-footer {
+    font-size: 0.9rem;
   }
 
   html[lang="pt-BR"] .site-header .nav a {
@@ -1024,5 +1050,6 @@ p {
   html[lang="pt-BR"] {
     --pt-hero-panel: #202947;
     --pt-label-panel: #f1d36d;
+    --pt-secondary-ink: #deded8;
   }
 }
