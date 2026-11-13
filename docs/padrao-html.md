@@ -7,7 +7,7 @@ Não há etapa de build. A conferência da seção 8 substitui o build.
 ## 1. Escopo
 
 - Vale para `static/pt-BR/index.html`.
-- `en/` segue a base `pt-BR` e tem pendência própria (P-16).
+- `en/` segue os fatos e a estrutura comum da base `pt-BR`; os modelos deste documento são exclusivos da página brasileira.
 - A página de projetos, a galeria e as recomendações não fazem parte deste padrão.
 
 ## 2. Onde ficam os modelos
@@ -233,5 +233,5 @@ Confira também, no navegador:
 
 - O modelo é copiado à mão; não há geração automática.
 - O padrão não valida fatos. Fonte e atribuição continuam em [Conteúdo e fontes](conteudo-e-fontes.md).
-- `en/` não é coberto enquanto P-16 estiver aberta.
+- Os modelos não cobrem a redação de `en/`; a versão inglesa segue as regras de idioma de [Manutenção](manutencao.md).
 - A declaração de conformidade com norma continua fora de escopo.

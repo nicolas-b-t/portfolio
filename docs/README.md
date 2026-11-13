@@ -21,6 +21,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | --- | --- | --- |
 | Execução e publicação | [README da raiz](../README.md) | Como fazer |
 | Atualização e verificação do site | [Manutenção](manutencao.md) | Como fazer |
+| Auditoria estética e textual | [Achados e plano de otimização](plano-auditoria-estetica-textual.md) | Avaliação vigente |
 | Requisitos e pendências | [Requisitos](requisitos.md) | Referência |
 | Decisões de arquitetura | [Decisões](decisoes.md) | Explicação |
 

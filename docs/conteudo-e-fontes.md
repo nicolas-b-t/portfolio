@@ -19,7 +19,7 @@ Os relatórios profissionais recebidos do Google Drive estão catalogados em `da
 
 - RealFort Sistemas: instalação e manutenção de redes FTTH e conexões a rádio, cabos drop, SC/APC, RJ45, ONU, ONT e roteadores.
 - A atuação inclui medições com power meter e OTDR, verificações com VFL e resolução de problemas de rede.
-- A fusão de fibra permanece no nível de aprendiz. O relatório da RealFort informa 28/08/2026 a 28/09/2026. Em 06/11/2026, a página passou a exibir esse período na ficha da experiência, na tela e na cópia estruturada, com a precisão de dias que a fonte confirma. O local da RealFort não está na fonte e por isso não aparece (P-17).
+- A fusão de fibra permanece no nível de aprendiz. O relatório da RealFort informa 28/08/2026 a 28/09/2026. Em 06/11/2026, a página passou a exibir esse período na ficha da experiência, na tela e na cópia estruturada, com a precisão de dias que a fonte confirma. O local, ausente do relatório, foi confirmado pelo responsável na mesma data, como registrado abaixo.
 - Lukos Tecnologia: suporte N1 a ERP/PDV, configuração, diagnóstico remoto, orientação de clientes e análise de NF-e/NFC-e.
 - Instituto Alpha: suporte N1/N2 hospitalar, orientação de usuários, manutenção, documentação, ativos e Microsoft Active Directory.
 - JH Eletrônico: assistente de e-commerce, de julho de 2022 a janeiro de 2023, autônomo, Mairiporã (SP). Gestão de catálogo e anúncios, cadastro de produtos, atendimento B2C/B2B, prospecção de leads, elaboração de orçamentos, vendas diretas, acompanhamento de pedidos e conferência pré-expedição com Bling ERP, negociação de pendências com o Mercado Livre.

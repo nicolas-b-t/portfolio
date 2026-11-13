@@ -149,8 +149,6 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
-| P-16 | Sincronizar `en` com a base `pt-BR`: a seção About/Perfil, os cargos ausentes (Aquecedores e Piscinas Mairiporã, JH Eletrônico) e a subcategoria de tráfego pago, ausente em `en`. | Decisão de 06/11/2026; FR-03 | Responsável | Aberto | Revisar os fatos, traduzir o Perfil, alinhar a tagline da cópia oculta e avaliar a subcategoria de tráfego pago. |
-| P-17 | Confirmar vínculo de Aquecedores e Piscinas Mairiporã, Lukos Tecnologia e Instituto Alpha, e local de Aquecedores e RealFort Sistemas. Sem fonte confirmada, a ficha omite o campo, conforme [Padrão de HTML](padrao-html.md). | Decisão de 06/11/2026; FR-03 | Responsável | Concluído | Vínculos confirmados em 06/11/2026; deixaram de ser exibidos em 12/11/2026 por decisão do responsável. |
 | P-18 | Decidir a promoção da Portugal Digital Solutions de projeto para experiência profissional após a constituição da empresa. | Decisão de 11/11/2026; FR-02 | Responsável | Aberto | Informar data de constituição e NIPC; então criar a ficha em Experiência, revisar o cartão de projeto e sincronizar `en`. |
 | P-19 | Incluir um bloco de agradecimentos acadêmicos em `rede.html`, separado das pessoas já apresentadas. | Pedido de 12/11/2026; FR-02 | Responsável | Aguarda conteúdo | Fornecer nomes, papéis confirmados e textos ou motivos dos agradecimentos; depois publicar o bloco em `pt-BR` e `en`, com âncoras e link da Formação acadêmica. |
 
@@ -166,9 +164,10 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
-| P-10 | Testar zoom, tema escuro, impressão e leitor de tela. | TEST-01; NFR-01 | Agente e responsável | Aberto | Executar, registrar a evidência e fechar TEST-01. |
-| P-11 | Validar HTML e hierarquia de títulos. | NFR-07 | Agente | Parcial | Definir o método, executar e registrar o resultado. |
-| P-12 | Ensaiar em navegador atual e em celular. | NFR-11 | Agente | Parcial | Registrar navegador, largura e resultado. |
+| P-10 | Testar zoom, tema escuro, impressão e leitor de tela. | TEST-01; NFR-01; [auditoria](plano-auditoria-estetica-textual.md#limites-da-auditoria) | Agente e responsável | Aberto | Completar zoom real, visual do tema escuro, impressão renderizada e leitor de tela; já houve cálculo de contraste dos tokens e inspeção estática do CSS. |
+| P-11 | Validar HTML e hierarquia de títulos. | NFR-07; [auditoria](plano-auditoria-estetica-textual.md#resultados-verificados) | Agente | Parcial | Rodar validador HTML Living Standard; a hierarquia visível das 12 páginas foi conferida no DOM. |
+| P-12 | Ensaiar em navegador atual e em celular. | NFR-11; [auditoria](plano-auditoria-estetica-textual.md) | Agente | Parcial | Registrar versão do navegador e testar celular real; as 12 páginas foram conferidas a 320, 768 e 1280 CSS px no navegador interno. |
+| P-21 | Separar visualmente os controles de idioma e a ação seguinte na 404 e na página de preparação (S3/P3). | [Auditoria A-03](plano-auditoria-estetica-textual.md#matriz-de-achados) | Agente | Em confirmação | A margem de 1 rem está no CSS comum; conferir em navegador as três larguras, os temas, o zoom, a impressão e o foco. |
 | P-15 | Adicionar CI de validação de HTML, links e consistência entre idiomas. | Avaliação de 03/11/2026; NFR-07; NFR-10 | Agente e responsável | Reconhecido | Criar workflow de verificação em interação futura, sem bloquear a publicação atual. |
 
 A base técnica de 67 MB foi arquivada em 03/11/2026.

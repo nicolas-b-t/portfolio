@@ -9,20 +9,17 @@ Instrução: Preserve os níveis de conhecimento e a atribuição individual ou 
 Instrução: Não interprete formação em andamento como formação concluída.
 
 Nicolas Beraldes Tarifa
-Suporte de TI · Redes · Gestão de TI
 Tenho experiência em suporte técnico de TI em hospitais, help desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.
 
 Contato
 • E-mail — beraldesnicolas@gmail.com
 • LinkedIn — Nicolas Beraldes Tarifa — https://www.linkedin.com/in/nicolas-t-a1ab74321/
 • GitHub — nicolas-b-t — https://github.com/nicolas-b-t
+• Currículo Lattes — lattes.cnpq.br/1293729943180703 — https://lattes.cnpq.br/1293729943180703
 
 Resumo profissional
-Curso Gestão da Tecnologia da Informação na Fatec Franco da Rocha – Giuliano Cecchettini.
-Atuei no suporte de TI do Instituto Alpha de Saúde Integral e no help desk da Lukos Tecnologia.
-Também atuei na instalação de fibra óptica na RealFort Sistemas.
+Atuo em suporte de TI, infraestrutura de redes e comércio eletrônico.
 Valorizo soluções simples e robustas, código claro e segurança por padrão. Sempre que possível, considero tecnologias de código aberto a melhor opção pela transparência e pela possibilidade de auditoria.
-Apresento aqui meu histórico e portfólio profissional e acadêmico.
 
 Competências e habilidades
 
@@ -436,7 +433,7 @@ Condução
 • CNH Categoria B
 • Driver's license
 • Permissão Internacional para Dirigir (PID)
-A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. A Permissão Internacional para Dirigir (PID) é aceita por 98 países.
+A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. Lista de países que aceitam a CNH: https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS. Lista de países que aceitam a PID: https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11.
 
 Experiência profissional
 
@@ -444,6 +441,7 @@ Gestor de tráfego pago
 
 Aquecedores e Piscinas Mairiporã
 Período: janeiro de 2026 – atual
+Local: Mairiporã, SP, Brasil
 • Cargo declarado: Gestor de tráfego pago
 • Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads, com medição no Google Tag Manager e análise no Google Analytics 4 (GA4).
 • Criei e gerencio o site, as páginas da empresa e o comércio eletrônico no Mercado Livre e na Shopee.
@@ -453,6 +451,8 @@ Período: janeiro de 2026 – atual
 Fiber Optic Installation Assistant
 
 RealFort Sistemas
+Período: 28 de agosto de 2026 – 28 de setembro de 2026
+Local: São Paulo, SP, Brasil
 • Cargo declarado: Auxiliar de instalação de fibra óptica
 • Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.
 • Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.
@@ -462,7 +462,7 @@ Help Desk Support Technician
 
 Lukos Tecnologia
 Período: setembro de 2025 – dezembro de 2025
-Local: São Paulo, Brasil
+Local: São Paulo, SP, Brasil
 • Cargo declarado: Técnico de suporte Help Desk
 • Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.
 • Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.
@@ -472,7 +472,7 @@ IT Support Technician
 
 Instituto Alpha de Saúde Integral
 Período: abril de 2023 – junho de 2024
-Local: São Paulo, Brasil
+Local: São Paulo, SP, Brasil
 • Cargo declarado: Técnico de suporte de TI
 • Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.
 • Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.
@@ -483,7 +483,7 @@ E-commerce Assistant
 
 JH Eletrônico
 Período: julho de 2022 – janeiro de 2023
-Local: Mairiporã, São Paulo, Brasil
+Local: Mairiporã, SP, Brasil
 • Cargo declarado: Assistente de E-commerce
 • Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.
 • Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.

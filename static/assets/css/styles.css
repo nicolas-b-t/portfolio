@@ -343,6 +343,10 @@ p {
   gap: 1rem;
 }
 
+.language-options + p {
+  margin-top: 1rem;
+}
+
 /* ---------- Hero ---------- */
 
 .hero {
