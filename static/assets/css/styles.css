@@ -1287,10 +1287,6 @@ html[lang="pt-BR"] #habilidades .skill-subheading:target {
 }
 
 /* ---------- pt-BR home: CSS-only style switch ---------- */
-body.style-lab .style-art {
-  display: none;
-}
-
 @media screen {
   body.style-lab .style-switch {
     display: none;
@@ -1362,25 +1358,6 @@ body.style-lab .style-art {
 
     body.style-lab .style-switch input {
       accent-color: var(--accent);
-    }
-
-    body.style-lab .style-art img {
-      display: none;
-      width: 100%;
-      height: auto;
-    }
-
-    body.style-lab:has(#style-nato:checked) .style-art,
-    body.style-lab:has(#style-warsaw:checked) .style-art {
-      display: block;
-      width: 100%;
-      max-width: 21rem;
-      margin: 1.5rem 0 0 auto;
-    }
-
-    body.style-lab:has(#style-nato:checked) .style-art-nato,
-    body.style-lab:has(#style-warsaw:checked) .style-art-warsaw {
-      display: block;
     }
 
     body.style-lab:has(#style-nato:checked) {
@@ -1545,21 +1522,6 @@ body.style-lab .style-art {
     body.style-lab:has(#style-warsaw:checked) .site-footer {
       border-top: 5px solid var(--accent);
     }
-  }
-}
-
-@media screen and (min-width: 52rem) {
-  body.style-lab:has(#style-nato:checked) main > .hero,
-  body.style-lab:has(#style-warsaw:checked) main > .hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
-    gap: 2rem;
-    align-items: center;
-  }
-
-  body.style-lab:has(#style-nato:checked) .style-art,
-  body.style-lab:has(#style-warsaw:checked) .style-art {
-    margin-top: 0;
   }
 }
 
