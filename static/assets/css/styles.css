@@ -1598,3 +1598,50 @@ body.style-lab .style-art {
     --warsaw-heading-text: #ffffff;
   }
 }
+
+/* ---------- pt-BR home: versão de comparação ---------- */
+.footer-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+body.style-lab .footer-tools > .style-switch {
+  margin-left: 0;
+}
+
+.site-footer .version-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 2px solid var(--ink);
+  background: var(--panel);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.version-switch:hover,
+.version-switch:focus-visible {
+  background: var(--pt-label-panel);
+  color: var(--pt-label-ink);
+}
+
+.version-switch .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

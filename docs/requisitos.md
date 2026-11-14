@@ -132,7 +132,7 @@ Limites:
 
 ## 11. Pendências
 
-Última revisão: 12/11/2026.
+Última revisão: 14/11/2026.
 Esta é a lista vigente de pendências do projeto.
 Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
 
@@ -151,6 +151,7 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 | --- | --- | --- | --- | --- | --- |
 | P-18 | Decidir a promoção da Portugal Digital Solutions de projeto para experiência profissional após a constituição da empresa. | Decisão de 11/11/2026; FR-02 | Responsável | Aberto | Informar data de constituição e NIPC; então criar a ficha em Experiência, revisar o cartão de projeto e sincronizar `en`. |
 | P-19 | Incluir um bloco de agradecimentos acadêmicos em `rede.html`, separado das pessoas já apresentadas. | Pedido de 12/11/2026; FR-02 | Responsável | Aguarda conteúdo | Fornecer nomes, papéis confirmados e textos ou motivos dos agradecimentos; depois publicar o bloco em `pt-BR` e `en`, com âncoras e link da Formação acadêmica. |
+| P-22 | Encerrar a comparação e escolher a versão da home de `pt-BR`. | Decisão 0011 | Responsável | Aberto | Definir a versão vencedora; então publicar em `index.html`, remover `painel.html` e o atalho do rodapé e sincronizar `en`. |
 
 ### Segurança e continuidade
 

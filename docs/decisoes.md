@@ -1,6 +1,6 @@
 # Decisões de arquitetura
 
-Dez decisões aceitas entre 02/11/2026 e 14/11/2026.
+Onze decisões aceitas entre 02/11/2026 e 14/11/2026.
 O formato é uma síntese de MADR; o texto completo de cada ADR permanece no histórico Git.
 Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o registro e recebe o status `superseded`.
 
@@ -16,6 +16,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0008 | Publicação temporária de duas variantes | Aceita |
 | 0009 | Competências com âncoras e detalhe expansível | Aceita |
 | 0010 | Home de `pt-BR` em painel de atalhos | Aceita |
+| 0011 | Comparação da home de `pt-BR` em duas versões | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -86,3 +87,10 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** a home de `pt-BR` abre com `section.hero.panel`, um painel com identidade, duas ações, três portas por âncora (Experiência, Competências, Formação), seis atalhos para subcategorias técnicas, três cartões de projeto e uma faixa de contato. Experiência passa a vir antes de Competências. O cabeçalho fica com a marca, o link de Contato e o seletor de idioma; os demais links passam para o rodapé e para o painel. A seção Perfil é removida, porque repetia as três portas. Os conteúdos previstos da graduação passam para um `details` fechado. A mudança vale apenas para `pt-BR` nesta etapa; `en` mantém a estrutura anterior.
 **Consequências:** o painel tem cerca de 190 palavras e a Experiência começa logo depois dele, a um clique de qualquer seção. A página não encurta no total: as seções abaixo do painel mantêm o conteúdo atual. A estrutura de `pt-BR` e de `en` diverge até a sincronização; a regra 8 do AGENTS.md fica com esta exceção registrada. Os atalhos e os cartões do painel não são impressos; a impressão mantém a identidade e as seções completas. Os três cartões repetem uma frase de cada projeto de `projetos.html` e exigem sincronização manual.
 **Confirmação:** âncoras do painel resolvem para seções e `h4` existentes; nenhuma âncora dentro de `details` fechado; `git diff --check` limpo; verificação visual e de impressão pendente.
+
+## 0011 — Comparação da home de `pt-BR` em duas versões
+
+**Contexto:** a decisão 0010 substituiu a home de `pt-BR`, mas a escolha entre as duas estruturas depende de comparação em produção, no mesmo aparelho e com o mesmo CSS.
+**Decisão:** manter `index.html` com a estrutura anterior como versão principal e publicar o painel em `pt-BR/painel.html`, sem link no menu, com `noindex` e sem os `link rel="alternate"` de idioma. Cada página oferece um ícone `⇄` no rodapé, ao lado do controle de estilos, que alterna entre as duas. As duas usam a mesma folha e mantêm o seletor de estilos experimentais.
+**Consequências:** o visitante vê a versão anterior por padrão e só encontra a candidata pelo ícone do rodapé. O parâmetro de cache `?v=20261114-comparacao` vale para as duas páginas. A candidata é uma duplicata da principal: `noindex` evita a indexação e os alternates de idioma ficam só na principal. A sincronização de `en` continua pendente, agora junto da escolha da versão (P-22). Remover a versão descartada exige apagar `painel.html`, o atalho e o bloco `.footer-tools`.
+**Confirmação:** os ícones alternam entre `index.html` e `painel.html` nos dois sentidos; as duas páginas carregam o CSS comum; `painel.html` tem `noindex` e nenhum alternate de idioma; sem rolagem horizontal a 1280×800 e 390×844; `git diff --check` limpo.
