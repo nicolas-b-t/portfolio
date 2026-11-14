@@ -27,6 +27,15 @@ Ela não é uma entrada independente para ampliar qualificações.
 Confira a coerência entre a página, o bloco oculto e a [lista de consulta](listas-de-tags/README.md).
 Os aliases auxiliam consultas específicas; não garantem reconhecimento por todos os ATS.
 
+### Painel da home em `pt-BR`
+
+A home abre com o painel `section.hero.panel`.
+Mantenha no painel as três portas, os seis atalhos de competência, os três cartões de projeto e a faixa de contato.
+Cada cartão repete uma frase do cartão correspondente em `projetos.html`; ao alterar a ficha, sincronize o painel.
+Os seis atalhos apontam para os `h4.skill-subheading` com `id`: `gestao-produtividade`, `trafego-pago`, `sistemas-operacionais`, `programacao-dados`, `redes` e `suporte-ti`. Não aponte para o interior de um `details` fechado.
+Não inclua contagens no painel, porque não há build para mantê-las sincronizadas.
+Na impressão, os atalhos e os cartões ficam ocultos; a identidade e as seções completas continuam impressas.
+
 ## Redação
 
 Aplique os princípios da ASD-STE100, edição 9, aos textos autorais do projeto.

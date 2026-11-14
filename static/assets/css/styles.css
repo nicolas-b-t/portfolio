@@ -784,6 +784,9 @@ p {
   .contact-related,
   .courses-screen,
   .skill-more,
+  .panel-nav,
+  .panel-projects,
+  .panel .hero-actions,
   .photo-link-label {
     display: none !important;
   }
@@ -1052,6 +1055,235 @@ p {
     --pt-label-panel: #f1d36d;
     --pt-secondary-ink: #deded8;
   }
+}
+
+/* ---------- pt-BR home panel (shortcuts) ---------- */
+
+html[lang="pt-BR"] main > .panel {
+  margin-block: 0.5rem 0.75rem;
+  padding: clamp(0.9rem, 2.2vw, 1.25rem);
+}
+
+html[lang="pt-BR"] .panel h1 {
+  max-width: none;
+  font-size: clamp(1.6rem, 3.6vw, 2.2rem);
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+html[lang="pt-BR"] .panel .lead {
+  max-width: 72ch;
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+
+.panel-now {
+  max-width: none;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+html[lang="pt-BR"] .panel .hero-actions {
+  margin-top: 0.85rem;
+}
+
+html[lang="pt-BR"] .panel .btn {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.panel-nav {
+  margin-top: 0.6rem;
+}
+
+.panel-doors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
+  gap: 0.6rem;
+}
+
+.panel-door {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.45rem 0.6rem;
+  border: var(--line) solid var(--ink);
+  background: var(--panel);
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.panel-door::before {
+  margin-bottom: 0.1rem;
+}
+
+.panel-door:hover,
+.panel-door:focus-visible {
+  background: var(--pt-label-panel);
+  color: var(--pt-label-ink);
+  box-shadow: 2px 2px 0 var(--ink);
+  transform: translate(2px, 2px);
+}
+
+.panel-door-note {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.panel-label {
+  margin: 0.5rem 0 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.panel-chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.panel-chips a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0.1rem 0.45rem;
+  border: 2px solid var(--ink);
+  background: var(--panel);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.panel-chips a:hover,
+.panel-chips a:focus-visible {
+  background: var(--pt-label-panel);
+  color: var(--pt-label-ink);
+}
+
+.panel-projects {
+  margin-top: 0.75rem;
+  padding-top: 0.6rem;
+  border-top: 2px solid var(--ink);
+}
+
+.panel-projects .grid {
+  gap: 0.75rem;
+}
+
+html[lang="pt-BR"] .panel-projects > h2 {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.25rem 0.5rem;
+  border: var(--line) solid var(--pt-label-ink);
+  background: var(--pt-label-panel);
+  color: var(--pt-label-ink);
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.panel-projects .card {
+  padding: 0.75rem;
+  border-width: 2px;
+  box-shadow: none;
+}
+
+html[lang="pt-BR"] .panel-projects .card h3 {
+  font-size: 0.95rem;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+html[lang="pt-BR"] .panel-projects .card .meta {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.panel-projects .card p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+
+.panel-more {
+  margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 40rem) {
+  .panel-door {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.4rem;
+    padding: 0.35rem 0.55rem;
+  }
+
+  .panel-door::before {
+    margin-bottom: 0;
+  }
+
+  .panel-door-note {
+    flex-basis: 100%;
+  }
+
+  .panel-doors {
+    gap: 0.45rem;
+  }
+
+  .panel-nav {
+    margin-top: 0.5rem;
+  }
+
+  .panel-label {
+    margin: 0.4rem 0 0.3rem;
+  }
+}
+
+html[lang="pt-BR"] main section[id],
+html[lang="pt-BR"] #habilidades .skill-subheading[id] {
+  scroll-margin-top: 0.75rem;
+}
+
+html[lang="pt-BR"] #habilidades .skill-subheading:target {
+  background: var(--pt-label-panel);
+  color: var(--pt-label-ink);
+  border-left-color: var(--pt-label-ink);
+}
+
+.graduation-details > summary {
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.graduation-details > summary h3 {
+  display: inline;
+  margin: 0;
+}
+
+.graduation-details > summary:hover {
+  color: var(--accent);
+}
+
+.graduation-details[open] > summary {
+  margin-bottom: 0.75rem;
 }
 
 /* ---------- pt-BR home: CSS-only style switch ---------- */

@@ -821,12 +821,6 @@
       <a class="brand" href="index.html">Nicolas Beraldes Tarifa</a>
       <nav class="nav" aria-label="Seções">
         <a href="#contato">Contato</a>
-        <a href="recomendacoes.html">Minha seleção</a>
-        <a href="#sobre">Perfil</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#experiencia">Experiência profissional</a>
-        <a href="#formacao">Formação acadêmica</a>
-        <a href="projetos.html">Projetos</a>
       </nav>
       <nav class="lang-switch" aria-label="Idioma">
         <span class="is-current" aria-current="page" lang="pt-BR">Português (Brasil)</span>
@@ -837,16 +831,70 @@
   </header>
 
   <main id="main" tabindex="-1">
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <h1>Nicolas Beraldes Tarifa</h1>
-        <p class="lead">Tenho experiência em suporte técnico de TI em hospitais, help desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.</p>
+    <section class="hero panel wrap" aria-labelledby="painel-nome">
+      <div class="panel-main">
+        <p class="kicker">Portfólio profissional</p>
+        <h1 id="painel-nome">Nicolas Beraldes Tarifa</h1>
+        <p class="lead">Suporte técnico de TI em hospitais, help desk de ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação na Fatec Franco da Rocha.</p>
+        <p class="panel-now"><strong>Atualmente:</strong> gestor de tráfego pago na Aquecedores e Piscinas Mairiporã, desde <time datetime="2026-01">janeiro de 2026</time>.</p>
         <p class="hero-actions">
-          <a class="btn" id="projetos" href="projetos.html">Conheça meus projetos</a>
-          <a class="btn ghost" href="#contato">Fale comigo</a>
-          <a class="btn ghost" href="../en/index.html" hreflang="en-US" lang="en-US">View in English</a>
-          <button class="btn ghost" type="button" disabled>Baixar currículo</button>
+          <a class="btn" href="#experiencia">Ver experiência</a>
+          <a class="btn ghost" href="#contato">Falar comigo</a>
         </p>
+
+        <nav class="panel-nav" aria-label="Acesso rápido">
+          <ul class="panel-doors" role="list">
+            <li>
+              <a class="panel-door" data-icon="briefcase" href="#experiencia">
+                <span class="panel-door-title">Experiência</span>
+                <span class="panel-door-note">Suporte de TI, redes e tráfego pago</span>
+              </a>
+            </li>
+            <li>
+              <a class="panel-door" data-icon="sliders-horizontal" href="#habilidades">
+                <span class="panel-door-title">Competências</span>
+                <span class="panel-door-note">Técnicas, sociais e práticas</span>
+              </a>
+            </li>
+            <li>
+              <a class="panel-door" data-icon="graduation-cap" href="#formacao">
+                <span class="panel-door-title">Formação</span>
+                <span class="panel-door-note">Gestão de TI · conclusão prevista em 2027</span>
+              </a>
+            </li>
+          </ul>
+          <p class="panel-label" id="painel-competencias">Competências técnicas</p>
+          <ul class="panel-chips" role="list" aria-labelledby="painel-competencias">
+            <li><a data-icon="sliders-horizontal" href="#gestao-produtividade">Gestão e produtividade</a></li>
+            <li><a data-icon="megaphone" href="#trafego-pago">Tráfego pago</a></li>
+            <li><a data-icon="monitor" href="#sistemas-operacionais">Sistemas operacionais</a></li>
+            <li><a data-icon="code-2" href="#programacao-dados">Programação e dados</a></li>
+            <li><a data-icon="network" href="#redes">Redes</a></li>
+            <li><a data-icon="headset" href="#suporte-ti">Suporte de TI</a></li>
+          </ul>
+        </nav>
+
+        <div class="panel-projects">
+          <h2 data-icon="folder-code">Projetos em destaque</h2>
+          <div class="grid">
+            <article class="card">
+              <p class="meta">Parceria · Portugal</p>
+              <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
+              <p>Site de marketing e tecnologia para óticas do Porto. <a href="projetos.html#optigrow">Ver ficha</a></p>
+            </article>
+            <article class="card">
+              <p class="meta">Empresa em abertura</p>
+              <h3 data-icon="briefcase">Portugal Digital Solutions</h3>
+              <p>Consultoria digital para pequenas e médias empresas em Portugal. <a href="projetos.html#portugal-digital-solutions">Ver ficha</a></p>
+            </article>
+            <article class="card">
+              <p class="meta">Acadêmico · MVP</p>
+              <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
+              <p>Pesquisa e aplicação para síndicos profissionais. <a href="projetos.html#proximos-projetos">Ver ficha</a></p>
+            </article>
+          </div>
+          <p class="panel-more"><a href="projetos.html">Ver todos os projetos</a></p>
+        </div>
       </div>
       <div class="style-art" aria-hidden="true">
         <img class="style-art-nato" src="assets/style-nato.svg" alt="" width="480" height="320">
@@ -854,18 +902,90 @@
       </div>
     </section>
 
-    <section id="sobre" class="wrap">
-      <h2 data-icon="user">Perfil</h2>
-      <p>Atuo em suporte de TI, infraestrutura de redes e comércio eletrônico.</p>
-      <p>Valorizo soluções simples e robustas, código claro e segurança por padrão. Sempre que possível, considero tecnologias de código aberto a melhor opção pela transparência e pela possibilidade de auditoria.</p>
-      <p><a href="#experiencia">Ver experiência profissional</a> · <a href="#habilidades">Ver competências e habilidades</a> · <a href="#formacao">Ver formação acadêmica</a></p>
+    <section id="experiencia" class="wrap">
+      <h2 data-icon="briefcase">Experiência profissional</h2>
+      <ol class="timeline" role="list">
+        <li>
+          <h3 data-icon="trending-up">Gestor de tráfego pago</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd>Aquecedores e Piscinas Mairiporã</dd>
+            <dt>Período</dt>
+            <dd><time datetime="2026-01">janeiro de 2026</time> – atual</dd>
+            <dt>Local</dt>
+            <dd>Mairiporã, SP, Brasil</dd>
+          </dl>
+          <p>Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads, com medição no Google Tag Manager e análise no Google Analytics 4 (GA4).</p>
+          <p>Criei e gerencio o site, as páginas da empresa e o comércio eletrônico no Mercado Livre e na Shopee.</p>
+          <p>Digitalizei e organizei o acervo documental, com nuvem e backups físicos, e removi sites obsoletos e cópias com uso indevido da marca.</p>
+          <p>Treinei os sócios administradores em Facebook, Instagram e recursos da Meta. Presto suporte de TI sob demanda para configurar serviços e contas digitais.</p>
+        </li>
+        <li>
+          <h3 data-icon="cable">Auxiliar de instalação de fibra óptica</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://realfortsistemas.com.br/">RealFort Sistemas</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2026-08-28">28 de agosto de 2026</time> – <time datetime="2026-09-28">28 de setembro de 2026</time></dd>
+            <dt>Local</dt>
+            <dd>São Paulo, SP, Brasil</dd>
+          </dl>
+          <p>Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.</p>
+          <p>Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.</p>
+          <p>Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.</p>
+          <p><a href="galeria.html">Ver registros fotográficos de redes e eletrônica</a></p>
+        </li>
+        <li>
+          <h3 data-icon="headset">Técnico de suporte Help Desk</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://lukos.com.br/">Lukos Tecnologia</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2025-09">setembro de 2025</time> – <time datetime="2025-12">dezembro de 2025</time></dd>
+            <dt>Local</dt>
+            <dd>São Paulo, SP, Brasil</dd>
+          </dl>
+          <p>Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.</p>
+          <p>Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.</p>
+          <p>Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.</p>
+        </li>
+        <li>
+          <h3 data-icon="monitor">Técnico de suporte de TI</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://alphainstituto.com.br/">Instituto Alpha de Saúde Integral</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2023-04">abril de 2023</time> – <time datetime="2024-06">junho de 2024</time></dd>
+            <dt>Local</dt>
+            <dd>São Paulo, SP, Brasil</dd>
+          </dl>
+          <p>Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.</p>
+          <p>Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.</p>
+          <p>Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).</p>
+          <p>Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.</p>
+        </li>
+        <li>
+          <h3 data-icon="globe">Assistente de E-commerce</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://institucional.jheletronico.com.br/">JH Eletrônico</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2022-07">julho de 2022</time> – <time datetime="2023-01">janeiro de 2023</time></dd>
+            <dt>Local</dt>
+            <dd>Mairiporã, SP, Brasil</dd>
+          </dl>
+          <p>Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.</p>
+          <p>Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.</p>
+          <p>Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.</p>
+        </li>
+      </ol>
     </section>
 
     <section id="habilidades" class="wrap">
       <h2 data-icon="sliders-horizontal">Competências e habilidades</h2>
       <div class="skill-category">
         <h3 data-icon="code-2">Competências técnicas <span lang="en">(Hard skills)</span></h3>
-        <h4 class="skill-subheading">Gestão e produtividade</h4>
+        <h4 class="skill-subheading" id="gestao-produtividade">Gestão e produtividade</h4>
         <ul class="skill-list skill-anchors" role="list">
           <li>Microsoft Excel</li>
           <li>Gestão de projetos</li>
@@ -896,7 +1016,7 @@
             <li>White Belt Six Sigma<span class="skill-note">, introdutório</span></li>
           </ul>
         </details>
-        <h4 class="skill-subheading">Tráfego pago, análise digital e comércio eletrônico</h4>
+        <h4 class="skill-subheading" id="trafego-pago">Tráfego pago, análise digital e comércio eletrônico</h4>
         <ul class="skill-list skill-anchors" role="list">
           <li>Google Ads</li>
           <li>Meta Ads</li>
@@ -928,7 +1048,7 @@
             <li>Vendas diretas</li>
           </ul>
         </details>
-        <h4 class="skill-subheading">Sistemas operacionais</h4>
+        <h4 class="skill-subheading" id="sistemas-operacionais">Sistemas operacionais</h4>
         <ul class="skill-list skill-anchors" role="list">
           <li>Microsoft Windows</li>
           <li>Microsoft Windows Server</li>
@@ -945,7 +1065,7 @@
             <li>Windows Server 2016</li>
           </ul>
         </details>
-        <h4 class="skill-subheading">Programação e dados</h4>
+        <h4 class="skill-subheading" id="programacao-dados">Programação e dados</h4>
         <ul class="skill-list" role="list">
           <li>Aprendizado de máquina</li>
           <li>Inteligência artificial (IA)</li>
@@ -977,7 +1097,7 @@
           <li>PostgreSQL</li>
           <li>SQLite</li>
         </ul>
-        <h4 class="skill-subheading">Redes</h4>
+        <h4 class="skill-subheading" id="redes">Redes</h4>
         <ul class="skill-list skill-anchors" role="list">
           <li>FTTH</li>
           <li>SC/APC</li>
@@ -1014,7 +1134,7 @@
           <li>OPNsense</li>
           <li>pfSense</li>
         </ul>
-        <h4 class="skill-subheading">Suporte de TI</h4>
+        <h4 class="skill-subheading" id="suporte-ti">Suporte de TI</h4>
         <ul class="skill-list skill-anchors" role="list">
           <li>Suporte a ERP<span class="skill-note">, N1</span></li>
           <li>Suporte a PDV<span class="skill-note">, N1</span></li>
@@ -1215,84 +1335,6 @@
       </section>
     </section>
 
-    <section id="experiencia" class="wrap">
-      <h2 data-icon="briefcase">Experiência profissional</h2>
-      <ol class="timeline" role="list">
-        <li>
-          <h3 data-icon="trending-up">Gestor de tráfego pago</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd>Aquecedores e Piscinas Mairiporã</dd>
-            <dt>Período</dt>
-            <dd><time datetime="2026-01">janeiro de 2026</time> – atual</dd>
-            <dt>Local</dt>
-            <dd>Mairiporã, SP, Brasil</dd>
-          </dl>
-          <p>Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads, com medição no Google Tag Manager e análise no Google Analytics 4 (GA4).</p>
-          <p>Criei e gerencio o site, as páginas da empresa e o comércio eletrônico no Mercado Livre e na Shopee.</p>
-          <p>Digitalizei e organizei o acervo documental, com nuvem e backups físicos, e removi sites obsoletos e cópias com uso indevido da marca.</p>
-          <p>Treinei os sócios administradores em Facebook, Instagram e recursos da Meta. Presto suporte de TI sob demanda para configurar serviços e contas digitais.</p>
-        </li>
-        <li>
-          <h3 data-icon="cable">Auxiliar de instalação de fibra óptica</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://realfortsistemas.com.br/">RealFort Sistemas</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2026-08-28">28 de agosto de 2026</time> – <time datetime="2026-09-28">28 de setembro de 2026</time></dd>
-            <dt>Local</dt>
-            <dd>São Paulo, SP, Brasil</dd>
-          </dl>
-          <p>Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.</p>
-          <p>Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.</p>
-          <p>Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.</p>
-          <p><a href="galeria.html">Ver registros fotográficos de redes e eletrônica</a></p>
-        </li>
-        <li>
-          <h3 data-icon="headset">Técnico de suporte Help Desk</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://lukos.com.br/">Lukos Tecnologia</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2025-09">setembro de 2025</time> – <time datetime="2025-12">dezembro de 2025</time></dd>
-            <dt>Local</dt>
-            <dd>São Paulo, SP, Brasil</dd>
-          </dl>
-          <p>Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.</p>
-          <p>Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.</p>
-          <p>Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.</p>
-        </li>
-        <li>
-          <h3 data-icon="monitor">Técnico de suporte de TI</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://alphainstituto.com.br/">Instituto Alpha de Saúde Integral</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2023-04">abril de 2023</time> – <time datetime="2024-06">junho de 2024</time></dd>
-            <dt>Local</dt>
-            <dd>São Paulo, SP, Brasil</dd>
-          </dl>
-          <p>Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.</p>
-          <p>Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.</p>
-          <p>Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).</p>
-          <p>Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.</p>
-        </li>
-        <li>
-          <h3 data-icon="globe">Assistente de E-commerce</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://institucional.jheletronico.com.br/">JH Eletrônico</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2022-07">julho de 2022</time> – <time datetime="2023-01">janeiro de 2023</time></dd>
-            <dt>Local</dt>
-            <dd>Mairiporã, SP, Brasil</dd>
-          </dl>
-          <p>Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.</p>
-          <p>Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.</p>
-          <p>Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.</p>
-        </li>
-      </ol>
-    </section>
 
     <section id="formacao" class="wrap">
       <h2 data-icon="graduation-cap">Formação acadêmica</h2>
@@ -1300,37 +1342,39 @@
       <h3 data-icon="book-open">Curso superior de tecnologia em Gestão da Tecnologia da Informação</h3>
       <p>Início: <time datetime="2024-07">julho de 2024</time> · Conclusão prevista: <time datetime="2027-07">julho de 2027</time></p>
       <p class="meta"><a href="https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view">Conforme o projeto pedagógico do curso (PPC)</a>.</p>
-      <h3 data-icon="list-checks">Conteúdos previstos da graduação</h3>
-      <h4 class="skill-subheading">Gestão e negócios</h4>
-      <ul class="skill-list" role="list">
-        <li>Avaliação de soluções</li>
-        <li>Gestão de pessoas</li>
-        <li>Gestão de processos</li>
-        <li>Gestão de projetos de TI</li>
-        <li>Gestão financeira</li>
-        <li>Planejamento estratégico</li>
-      </ul>
-      <h4 class="skill-subheading">Pesquisa e competências sociais</h4>
-      <ul class="skill-list" role="list">
-        <li>Comunicação</li>
-        <li>Negociação</li>
-        <li>Gestão de conflitos</li>
-        <li>Pensamento crítico</li>
-        <li>Pesquisa acadêmica</li>
-        <li>Resolução de problemas</li>
-        <li>Trabalho em equipe</li>
-        <li>Visão sistêmica</li>
-      </ul>
-      <h4 class="skill-subheading">Tecnologia e sistemas</h4>
-      <ul class="skill-list" role="list">
-        <li>Bancos de dados</li>
-        <li>Diagnóstico de infraestrutura</li>
-        <li>Engenharia de software</li>
-        <li>Inteligência de negócios</li>
-        <li>Programação para internet</li>
-        <li>Redes de computadores</li>
-        <li>Sistemas operacionais</li>
-      </ul>
+      <details class="skill-group graduation-details">
+        <summary><h3 data-icon="list-checks">Conteúdos previstos da graduação</h3></summary>
+        <h4 class="skill-subheading">Gestão e negócios</h4>
+        <ul class="skill-list" role="list">
+          <li>Avaliação de soluções</li>
+          <li>Gestão de pessoas</li>
+          <li>Gestão de processos</li>
+          <li>Gestão de projetos de TI</li>
+          <li>Gestão financeira</li>
+          <li>Planejamento estratégico</li>
+        </ul>
+        <h4 class="skill-subheading">Pesquisa e competências sociais</h4>
+        <ul class="skill-list" role="list">
+          <li>Comunicação</li>
+          <li>Negociação</li>
+          <li>Gestão de conflitos</li>
+          <li>Pensamento crítico</li>
+          <li>Pesquisa acadêmica</li>
+          <li>Resolução de problemas</li>
+          <li>Trabalho em equipe</li>
+          <li>Visão sistêmica</li>
+        </ul>
+        <h4 class="skill-subheading">Tecnologia e sistemas</h4>
+        <ul class="skill-list" role="list">
+          <li>Bancos de dados</li>
+          <li>Diagnóstico de infraestrutura</li>
+          <li>Engenharia de software</li>
+          <li>Inteligência de negócios</li>
+          <li>Programação para internet</li>
+          <li>Redes de computadores</li>
+          <li>Sistemas operacionais</li>
+        </ul>
+      </details>
 
       <h3 data-icon="award">Cursos e certificados</h3>
       <details class="course-details courses-screen">
@@ -1571,7 +1615,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p class="noprint"><a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
+      <p class="noprint"><a href="projetos.html">Projetos</a> · <a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
       <p>&copy; <span>2026</span> Nicolas Beraldes Tarifa.</p>
       <details class="style-switch noprint">
         <summary title="Estilos experimentais"><span aria-hidden="true">◇</span><span class="visually-hidden">Estilos experimentais</span></summary>
