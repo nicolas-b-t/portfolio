@@ -179,7 +179,7 @@ Preserve títulos oficiais, instituições, datas, cargas horárias e atributos 
 Confira cada curso uma única vez na impressão, com o controle recolhível aberto e fechado.
 As cargas horárias e a origem das datas estão em [Cursos](conteudo-e-fontes.md#cursos-complementares).
 
-O [PDF V4 pt-BR](curriculos/v4/README.md) é a edição atual. Os [PDFs V3](curriculos/v3/README.md) permanecem históricos. Cada edição é identificada e não é uma exportação automática de cada alteração do site.
+O [PDF V5 pt-BR](curriculos/v5/README.md) é a edição atual e está disponível no botão de download da página principal pt-BR. Os [PDFs V4](curriculos/v4/README.md) e [V3](curriculos/v3/README.md) permanecem históricos. O botão da página en continua inativo enquanto não houver PDF correspondente em inglês. Cada edição é identificada e não é uma exportação automática de cada alteração do site.
 Ao gerar uma nova edição, confira o conteúdo, a extração textual, as margens e a paginação do DOCX e do PDF.
 Atualize o manifesto da edição e mantenha somente os arquivos necessários.
 Os DOCX V3 estão na [pasta de currículos no Drive](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI). Os rascunhos DOCX do V4 ficam em `docs/curriculos/v4/`, versionados com o PDF e o manifesto.
