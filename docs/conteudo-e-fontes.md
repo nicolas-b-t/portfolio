@@ -3,6 +3,8 @@
 Este documento concentra os fatos e limites necessários à manutenção do conteúdo.
 O texto vigente em pt-BR orienta as traduções. As declarações do responsável em `dados-pessoais/fontes/competencias-declaradas.json` preservam as confirmações recebidas.
 
+Em 17/11/2026, o responsável pediu a separação das competências financeiras e das ferramentas Microsoft da subcategoria Gestão administrativa e produtividade. Finanças reúne capitalização, fluxo de caixa e gestão financeira; indicadores estratégicos e melhoria de processos permanecem na subcategoria administrativa. Ferramentas Microsoft reúne os produtos declarados e seus aliases. A versão `en` passa a exibir Microsoft Word e Microsoft 365, já presentes na base `pt-BR`; Office 365 permanece como alias na cópia estruturada.
+
 ## Experiência profissional
 
 Correção de 02/11/2026: o responsável confirmou janeiro de 2026 como início da atuação em tráfego pago na Aquecedores e Piscinas Mairiporã. Esta declaração substitui o ano 2025 registrado no relatório recebido. Corrigidas as três ocorrências do DOCX, tela, resumo estruturado e lista de consulta; arquivo do Google Drive substituído no mesmo ID e conferido por leitura posterior. Fonte editorial: REF-0122, "Manter a fundamentação", e a seção Redação de Manutenção, preservação de datas. O pacote DOCX conserva os demais componentes e a formatação; a cópia anterior foi removida em 03/11/2026 por solicitação do responsável. Renderização tentada, mas indisponível por ausência de LibreOffice no ambiente; não houve inspeção visual do documento nesta correção. Manifesto atualizado com tamanho e hash.

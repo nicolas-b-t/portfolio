@@ -28,18 +28,13 @@ Competências técnicas (Hard skills)
 Gestão administrativa e produtividade
 • Arquivamento de documentos
 • Canva
-• Capitalização
 • Digitalização de documentos
 • Digitalização
 • Escaneamento e digitalização de arquivos
 • Digitization
-• Fluxo de caixa
-• Cash flow
 • Gerenciamento de arquivos
 • Gestão documental
 • Manage digital documents
-• Gestão financeira
-• Financial management
 • Google Drive
 • Indicadores estratégicos
 • KPI
@@ -48,9 +43,23 @@ Gestão administrativa e produtividade
 • LibreOffice
 • Melhoria de processos
 • Process improvement
+• Planilhas
+• Organização de arquivos
+• Trello
+• White Belt Six Sigma, introdutório
+• Six Sigma, White Belt introdutório
+• Lean Six Sigma White Belt, introductory
+
+Finanças
+• Capitalização
+• Fluxo de caixa
+• Cash flow
+• Gestão financeira
+• Financial management
+
+Ferramentas Microsoft
 • Microsoft Excel
 • Excel
-• Planilhas
 • Microsoft Office
 • Pacote Office
 • Microsoft Office software
@@ -61,11 +70,6 @@ Gestão administrativa e produtividade
 • Office 365
 • Microsoft 365
 • OneDrive
-• Organização de arquivos
-• Trello
-• White Belt Six Sigma, introdutório
-• Six Sigma, White Belt introdutório
-• Lean Six Sigma White Belt, introductory
 
 Gestão de projetos
 • Gestão de projetos

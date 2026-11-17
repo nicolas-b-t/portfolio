@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-17 | Separa Finanças e Ferramentas Microsoft de Gestão administrativa e produtividade em `pt-BR` e `en`, com cópias estruturadas e lista de consulta sincronizadas. Mantém indicadores estratégicos e melhoria de processos em gestão administrativa. | Pedido do responsável; [fontes](docs/conteudo-e-fontes.md); decisão 0013. |
 | 2026-11-17 | Ajusta as fichas de Portugal Digital Solutions, Optigrow e SGCS nas variantes ativas e no painel experimental. Separa Gestão de projetos de Gestão administrativa e produtividade, renomeia Marketing digital e comércio eletrônico e prioriza competências amplas nas âncoras visíveis. | Pedido do responsável; [fontes](docs/conteudo-e-fontes.md); decisão 0012. |
 | 2026-11-14 | Remove as ilustrações NATO e Warsaw Pact do topo da home de `pt-BR`, nas duas versões, e apaga os dois SVGs, sem outro uso. Os estilos experimentais continuam disponíveis no ícone do rodapé. | Pedido do responsável; `git diff --check`. |
 | 2026-11-14 | Publica a home de `pt-BR` em duas versões: `index.html` mantém a estrutura anterior como principal e `painel.html` apresenta o painel de atalhos com `noindex`. Um ícone `⇄` no rodapé das duas alterna entre elas, ao lado do controle de estilos. | Decisão 0011; pendência P-22; `git diff --check`. |

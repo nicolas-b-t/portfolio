@@ -1,6 +1,6 @@
 # Decisões de arquitetura
 
-Doze decisões aceitas entre 02/11/2026 e 17/11/2026.
+Treze decisões aceitas entre 02/11/2026 e 17/11/2026.
 O formato é uma síntese de MADR; o texto completo de cada ADR permanece no histórico Git.
 Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o registro e recebe o status `superseded`.
 
@@ -18,6 +18,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0010 | Home de `pt-BR` em painel de atalhos | Aceita |
 | 0011 | Comparação da home de `pt-BR` em duas versões | Aceita |
 | 0012 | Gestão de projetos como subcategoria própria | Aceita |
+| 0013 | Finanças e ferramentas Microsoft como subcategorias | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -102,3 +103,10 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** separar Gestão de projetos de Gestão administrativa e produtividade nas variantes `pt-BR` e `en`. Renomear a subcategoria de marketing, selecionar quatro âncoras que incluam competências amplas e manter as demais tags no detalhe expansível. O primeiro atalho do painel aponta para Gestão de projetos.
 **Consequências:** os três grupos principais e a quantidade de tags permanecem; o leitor vê gestão de projetos e competências amplas sem expandir listas. As cópias estruturadas preservam todas as tags e separam a nova subcategoria.
 **Confirmação:** comparar tags visíveis e ocultas antes e depois da mudança, verificar as seis âncoras do painel, a cópia estruturada e `git diff --check`.
+
+## 0013 — Finanças e ferramentas Microsoft como subcategorias
+
+**Contexto:** Gestão administrativa e produtividade ainda agrupava finanças e produtos Microsoft. O responsável pediu subcategorias próprias para os dois conjuntos.
+**Decisão:** mover capitalização, fluxo de caixa e gestão financeira para Finanças; mover os produtos Microsoft para Ferramentas Microsoft. Indicadores estratégicos e melhoria de processos permanecem em Gestão administrativa e produtividade. A versão `en` usa Finance e Microsoft tools. Os aliases permanecem na cópia estruturada.
+**Consequências:** as três categorias principais, os seis atalhos do painel e os níveis das tags permanecem. Microsoft 365 substitui Office 365 na lista de tela; Office 365 continua na cópia estruturada. Microsoft Word e Microsoft 365 passam a constar da lista de competências em `en`, em alinhamento com a base `pt-BR`.
+**Confirmação:** conferir a distribuição e a contagem das tags em `pt-BR`, `en` e na lista de consulta; verificar as quatro âncoras da subcategoria administrativa e executar `git diff --check`.
