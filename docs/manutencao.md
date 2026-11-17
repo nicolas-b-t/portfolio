@@ -34,7 +34,7 @@ Os aliases auxiliam consultas específicas; não garantem reconhecimento por tod
 A versão alternativa `painel.html` abre com o painel `section.hero.panel`.
 Mantenha no painel as três portas, os seis atalhos de competência e os três cartões de projeto.
 Cada cartão repete uma frase do cartão correspondente em `projetos.html`; ao alterar a ficha, sincronize o painel.
-Os seis atalhos apontam para os `h4.skill-subheading` com `id`: `gestao-produtividade`, `trafego-pago`, `sistemas-operacionais`, `programacao-dados`, `redes` e `suporte-ti`. Não aponte para o interior de um `details` fechado.
+Os seis atalhos apontam para os `h4.skill-subheading` com `id`: `gestao-projetos`, `trafego-pago`, `sistemas-operacionais`, `programacao-dados`, `redes` e `suporte-ti`. Não aponte para o interior de um `details` fechado.
 Não inclua contagens no painel, porque não há build para mantê-las sincronizadas.
 Na impressão, os atalhos e os cartões ficam ocultos; a identidade e as seções completas continuam impressas.
 

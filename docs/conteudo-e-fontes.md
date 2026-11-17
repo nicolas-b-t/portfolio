@@ -87,8 +87,10 @@ As otimizações e verificações descritas não constituem certificação integ
 O desenvolvimento do Optigrow é colaborativo com Rodrigo Nascimento.
 As tecnologias confirmadas são Google AI Studio, Supabase, Vercel e GitHub.
 Não atribua funções exclusivas a cada participante sem nova confirmação.
+Em 17/11/2026, o responsável definiu a apresentação do Optigrow como ferramenta de marketing e tecnologia para óticas da região do Porto. A descrição não atribui funcionalidades específicas ainda não confirmadas.
 
 O SGCS é uma pesquisa acadêmica e um MVP em desenvolvimento, realizados pela equipe.
+Em 17/11/2026, o responsável definiu o produto como SaaS em desenvolvimento. O termo descreve o modelo pretendido do produto; não afirma lançamento comercial.
 A gestão pessoal inclui planejamento, coordenação, prazos, entregáveis e integração de ferramentas.
 As tecnologias e competências dos projetos descrevem seu contexto, sem atribuir domínio individual de todas as ferramentas.
 
@@ -109,7 +111,7 @@ Requisitos de segurança não equivalem a certificações ou garantias de segura
 A motivação legislativa do SGCS refere-se ao [PL 4739/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659).
 Confira a tramitação antes de atualizar esse contexto. A redação atual não afirma que a proposta virou lei.
 
-- Portugal Digital Solutions (PDS): projeto empresarial em abertura, com atuação prevista em Portugal e equipe inicial de dois sócios. Em 11/11/2026, o responsável autorizou o registro como projeto em `static/pt-BR/projetos.html` e em `static/en/index.html`, e informou que a empresa segue em abertura. As páginas descrevem o posicionamento, o catálogo de serviços, o processo comercial e as ofertas previstas. A versão `en` usa inglês norte-americano.
+- Portugal Digital Solutions (PDS): projeto de consultoria digital com atuação prevista em Portugal e equipe inicial de dois sócios. Em 11/11/2026, o responsável autorizou o registro como projeto em `static/pt-BR/projetos.html` e em `static/en/index.html`. Em 17/11/2026, solicitou o rótulo “Sócio - Consultoria Digital” no lugar de “Empresa em abertura”. As páginas descrevem o posicionamento, o catálogo de serviços, o processo comercial e as ofertas previstas. O rótulo não comprova constituição da empresa. A versão `en` usa inglês norte-americano.
 - Fonte: histórico em `../../../portugal_digital_solutions/HISTORICO_DO_PROJETO.md`, preparado em 11/11/2026 a partir de 12 conversas entre 02/10/2026 e 10/11/2026. A fonte registra propostas; não comprova constituição, aprovação de documentos nem ofertas disponíveis.
 - Limites: não há confirmação de constituição, NIPC, clientes, preços, prazos, níveis de serviço ou logótipo final. A página não declara conformidade com as normas citadas na fonte. O Optigrow permanece em cartão próprio e não é atribuído à PDS. A ficha de experiência só entra após a constituição (P-18). Não acrescente clientes, preços ou resultados sem nova confirmação.
 

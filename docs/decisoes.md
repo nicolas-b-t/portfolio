@@ -1,6 +1,6 @@
 # Decisões de arquitetura
 
-Onze decisões aceitas entre 02/11/2026 e 14/11/2026.
+Doze decisões aceitas entre 02/11/2026 e 17/11/2026.
 O formato é uma síntese de MADR; o texto completo de cada ADR permanece no histórico Git.
 Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o registro e recebe o status `superseded`.
 
@@ -17,6 +17,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0009 | Competências com âncoras e detalhe expansível | Aceita |
 | 0010 | Home de `pt-BR` em painel de atalhos | Aceita |
 | 0011 | Comparação da home de `pt-BR` em duas versões | Aceita |
+| 0012 | Gestão de projetos como subcategoria própria | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -94,3 +95,10 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** manter `index.html` com a estrutura anterior como versão principal e publicar o painel em `pt-BR/painel.html`, sem link no menu, com `noindex` e sem os `link rel="alternate"` de idioma. Cada página oferece um ícone `⇄` no rodapé, ao lado do controle de estilos, que alterna entre as duas. As duas usam a mesma folha e mantêm o seletor de estilos experimentais.
 **Consequências:** o visitante vê a versão anterior por padrão e só encontra a candidata pelo ícone do rodapé. O parâmetro de cache `?v=20261114-comparacao` vale para as duas páginas. A candidata é uma duplicata da principal: `noindex` evita a indexação e os alternates de idioma ficam só na principal. A sincronização de `en` continua pendente, agora junto da escolha da versão (P-22). Remover a versão descartada exige apagar `painel.html`, o atalho e o bloco `.footer-tools`.
 **Confirmação:** os ícones alternam entre `index.html` e `painel.html` nos dois sentidos; as duas páginas carregam o CSS comum; `painel.html` tem `noindex` e nenhum alternate de idioma; sem rolagem horizontal a 1280×800 e 390×844; `git diff --check` limpo.
+
+## 0012 — Gestão de projetos como subcategoria própria
+
+**Contexto:** a subcategoria Gestão e produtividade misturava administração, ferramentas de escritório e gestão de projetos. Competências amplas, como gestão de tráfego pago e comércio eletrônico, ficavam ocultas no controle de expansão.
+**Decisão:** separar Gestão de projetos de Gestão administrativa e produtividade nas variantes `pt-BR` e `en`. Renomear a subcategoria de marketing, selecionar quatro âncoras que incluam competências amplas e manter as demais tags no detalhe expansível. O primeiro atalho do painel aponta para Gestão de projetos.
+**Consequências:** os três grupos principais e a quantidade de tags permanecem; o leitor vê gestão de projetos e competências amplas sem expandir listas. As cópias estruturadas preservam todas as tags e separam a nova subcategoria.
+**Confirmação:** comparar tags visíveis e ocultas antes e depois da mudança, verificar as seis âncoras do painel, a cópia estruturada e `git diff --check`.
