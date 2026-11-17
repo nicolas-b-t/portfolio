@@ -16,7 +16,8 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0008 | Publicação temporária de duas variantes | Aceita |
 | 0009 | Competências com âncoras e detalhe expansível | Aceita |
 | 0010 | Home de `pt-BR` em painel de atalhos | Aceita |
-| 0011 | Comparação da home de `pt-BR` em duas versões | Aceita |
+| 0011 | Comparação da home de `pt-BR` em duas versões | superseded |
+| 0012 | Painel como home oficial somente em `pt-BR` | Aceita |
 | 0012 | Gestão de projetos como subcategoria própria | Aceita |
 | 0013 | Finanças e ferramentas Microsoft como subcategorias | Aceita |
 
@@ -110,3 +111,14 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** mover capitalização, fluxo de caixa e gestão financeira para Finanças; mover os produtos Microsoft para Ferramentas Microsoft. Indicadores estratégicos e melhoria de processos permanecem em Gestão administrativa e produtividade. A versão `en` usa Finance e Microsoft tools. Os aliases permanecem na cópia estruturada.
 **Consequências:** as três categorias principais, os seis atalhos do painel e os níveis das tags permanecem. Microsoft 365 substitui Office 365 na lista de tela; Office 365 continua na cópia estruturada. Microsoft Word e Microsoft 365 passam a constar da lista de competências em `en`, em alinhamento com a base `pt-BR`.
 **Confirmação:** conferir a distribuição e a contagem das tags em `pt-BR`, `en` e na lista de consulta; verificar as quatro âncoras da subcategoria administrativa e executar `git diff --check`.
+
+## 0012 — Painel como home oficial somente em `pt-BR`
+
+**Contexto:** o responsável escolheu a versão alternativa como oficial, apenas em `pt-BR`.
+**Decisão:** promover o conteúdo de `painel.html` a `index.html`, restaurar o título e os alternates de idioma, retirar `noindex`, remover a página alternativa e o atalho de comparação. Preservar o seletor de estilos. Substitui a decisão 0011.
+**Consequências:** o endereço principal apresenta o painel; a versão anterior permanece recuperável no Git. `en` mantém sua estrutura por escopo explícito do pedido.
+**Confirmação:** verificar âncoras, links locais, metadados e apresentação responsiva; executar `git diff --check`.
+
+### Extensão da decisão 0012 — sincronização de `en`
+
+Em pedido posterior, o responsável autorizou atualizar a home em inglês. O painel, a ordem das seções, os conteúdos previstos colapsados, o perfil SFIA e as competências seguem a base `pt-BR`, com redação en-US. As fichas completas dos projetos permanecem em `en/index.html`, e os três destaques apontam para suas âncoras. As regras visuais são compartilhadas no CSS comum; o escopo adicional é somente a home inglesa. A restrição anterior de manter a estrutura de `en` deixa de valer.

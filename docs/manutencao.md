@@ -11,8 +11,7 @@ Use `static/pt-BR/index.html` como base factual.
 Estado atual: somente `pt-BR` e `en` são publicados. As pastas `pt-PT`, `es-419` e `es-ES` redirecionam para `static/wip.html` até a conclusão da base e da tradução.
 Quando a base pt-BR estiver concluída, atualize as traduções e reative os links de idioma.
 Cada variante ativa mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`; em pt-BR, há também `projetos.html`.
-Enquanto a comparação da home estiver aberta, `pt-BR` publica ainda `painel.html`, uma versão alternativa sem link no menu e com `noindex`.
-A versão principal continua em `index.html`; o rodapé de cada uma leva à outra pelo ícone `⇄`.
+A home oficial de `pt-BR` em `index.html` usa o painel de atalhos (decisão 0012).
 Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
 Em `es-419`, preserve a redação para o público sul-americano quando a variante for reativada.
 
@@ -29,21 +28,18 @@ Ela não é uma entrada independente para ampliar qualificações.
 Confira a coerência entre a página, o bloco oculto e a [lista de consulta](listas-de-tags/README.md).
 Os aliases auxiliam consultas específicas; não garantem reconhecimento por todos os ATS.
 
-### Painel da home em `pt-BR`
+### Painel das homes em `pt-BR` e `en`
 
-A versão alternativa `painel.html` abre com o painel `section.hero.panel`.
+As páginas oficiais `pt-BR/index.html` e `en/index.html` abrem com o painel `section.hero.panel`.
 Mantenha no painel as três portas, os seis atalhos de competência e os três cartões de projeto.
 Cada cartão repete uma frase do cartão correspondente em `projetos.html`; ao alterar a ficha, sincronize o painel.
 Os seis atalhos apontam para os `h4.skill-subheading` com `id`: `gestao-projetos`, `trafego-pago`, `sistemas-operacionais`, `programacao-dados`, `redes` e `suporte-ti`. Não aponte para o interior de um `details` fechado.
 Não inclua contagens no painel, porque não há build para mantê-las sincronizadas.
 Na impressão, os atalhos e os cartões ficam ocultos; a identidade e as seções completas continuam impressas.
 
-### Comparação da home em `pt-BR`
-
-`index.html` é a versão principal e mantém a estrutura anterior.
-`painel.html` é a versão candidata: não aparece no menu, usa `noindex` e não declara os alternates de idioma.
-Cada página leva à outra pelo ícone `⇄` do grupo `.footer-tools` no rodapé, ao lado do controle de estilos.
-Ao encerrar a comparação, publique a versão escolhida em `index.html`, remova `painel.html` e o atalho, e atualize a decisão 0011 e a pendência P-22.
+A comparação foi encerrada por escolha do responsável. A versão anterior permanece no histórico Git.
+Em pedido posterior, o responsável autorizou sincronizar `en` com o painel e a ordem Experiência, Competências e Formação.
+Em `en`, os cartões em destaque apontam para as fichas completas na seção `#projects` da própria home; não há página separada de projetos.
 
 ## Redação
 

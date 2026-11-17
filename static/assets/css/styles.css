@@ -896,57 +896,57 @@ p {
 
 /* ---------- pt-BR: editorial hierarchy and selective color ---------- */
 @media screen {
-  html[lang="pt-BR"] {
+  :is(html[lang="pt-BR"], html.home-panel) {
     --pt-hero-panel: #e5eaff;
     --pt-label-panel: #ffe178;
     --pt-label-ink: #0a0a0a;
     --pt-secondary-ink: #2f2f2f;
   }
 
-  html[lang="pt-BR"] .meta,
-  html[lang="pt-BR"] .experience-meta dt,
-  html[lang="pt-BR"] .skill-note,
-  html[lang="pt-BR"] .sfia-level,
-  html[lang="pt-BR"] .sfia-note,
-  html[lang="pt-BR"] .site-footer {
+  :is(html[lang="pt-BR"], html.home-panel) .meta,
+  :is(html[lang="pt-BR"], html.home-panel) .experience-meta dt,
+  :is(html[lang="pt-BR"], html.home-panel) .skill-note,
+  :is(html[lang="pt-BR"], html.home-panel) .sfia-level,
+  :is(html[lang="pt-BR"], html.home-panel) .sfia-note,
+  :is(html[lang="pt-BR"], html.home-panel) .site-footer {
     color: var(--pt-secondary-ink);
   }
 
-  html[lang="pt-BR"] .meta,
-  html[lang="pt-BR"] .experience-meta dt,
-  html[lang="pt-BR"] .sfia-level {
+  :is(html[lang="pt-BR"], html.home-panel) .meta,
+  :is(html[lang="pt-BR"], html.home-panel) .experience-meta dt,
+  :is(html[lang="pt-BR"], html.home-panel) .sfia-level {
     font-size: 0.875rem;
     font-weight: 600;
   }
 
-  html[lang="pt-BR"] .skill-note {
+  :is(html[lang="pt-BR"], html.home-panel) .skill-note {
     font-weight: 500;
   }
 
-  html[lang="pt-BR"] .sfia-note,
-  html[lang="pt-BR"] .site-footer {
+  :is(html[lang="pt-BR"], html.home-panel) .sfia-note,
+  :is(html[lang="pt-BR"], html.home-panel) .site-footer {
     font-size: 0.9rem;
   }
 
-  html[lang="pt-BR"] .site-header .nav a {
+  :is(html[lang="pt-BR"], html.home-panel) .site-header .nav a {
     padding: 0.15rem 0.35rem;
   }
 
-  html[lang="pt-BR"] .site-header .nav a:hover,
-  html[lang="pt-BR"] .site-header .nav a:focus-visible,
-  html[lang="pt-BR"] .site-header .nav a[aria-current="page"] {
+  :is(html[lang="pt-BR"], html.home-panel) .site-header .nav a:hover,
+  :is(html[lang="pt-BR"], html.home-panel) .site-header .nav a:focus-visible,
+  :is(html[lang="pt-BR"], html.home-panel) .site-header .nav a[aria-current="page"] {
     background: var(--pt-label-panel);
     color: var(--pt-label-ink);
   }
 
-  html[lang="pt-BR"] main > .hero {
+  :is(html[lang="pt-BR"], html.home-panel) main > .hero {
     margin-block: 1.5rem 2rem;
     padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 2.5rem);
     border: var(--line) solid var(--ink);
     background: var(--pt-hero-panel);
   }
 
-  html[lang="pt-BR"] .hero .kicker {
+  :is(html[lang="pt-BR"], html.home-panel) .hero .kicker {
     display: inline-block;
     padding: 0.2rem 0.55rem;
     border: 2px solid var(--pt-label-ink);
@@ -959,18 +959,18 @@ p {
     text-transform: uppercase;
   }
 
-  html[lang="pt-BR"] .hero h1 {
+  :is(html[lang="pt-BR"], html.home-panel) .hero h1 {
     max-width: 22ch;
     font-size: clamp(2.1rem, 6vw, 4.25rem);
     line-height: 1.05;
   }
 
-  html[lang="pt-BR"] .hero .lead {
+  :is(html[lang="pt-BR"], html.home-panel) .hero .lead {
     max-width: 55ch;
     font-size: 1.2rem;
   }
 
-  html[lang="pt-BR"] .hero-actions {
+  :is(html[lang="pt-BR"], html.home-panel) .hero-actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -979,11 +979,11 @@ p {
     margin-top: 1.5rem;
   }
 
-  html[lang="pt-BR"] .hero-actions .btn {
+  :is(html[lang="pt-BR"], html.home-panel) .hero-actions .btn {
     max-width: 100%;
   }
 
-  html[lang="pt-BR"] main > section.wrap:not(.hero) > h2 {
+  :is(html[lang="pt-BR"], html.home-panel) main > section.wrap:not(.hero) > h2 {
     display: inline-block;
     max-width: 100%;
     padding: 0.35rem 0.65rem;
@@ -993,7 +993,7 @@ p {
     margin-bottom: 1.5rem;
   }
 
-  html[lang="pt-BR"] #habilidades > .skill-category > h3 {
+  :is(html[lang="pt-BR"], html.home-panel) :is(#habilidades, #skills) > .skill-category > h3 {
     display: inline-block;
     max-width: 100%;
     padding: 0.35rem 0.6rem;
@@ -1001,12 +1001,12 @@ p {
     color: var(--bg);
   }
 
-  html[lang="pt-BR"] #habilidades .skill-subheading {
+  :is(html[lang="pt-BR"], html.home-panel) :is(#habilidades, #skills) .skill-subheading {
     padding-left: 0.65rem;
     border-left: 4px solid var(--accent);
   }
 
-  html[lang="pt-BR"] #habilidades .skill-more {
+  :is(html[lang="pt-BR"], html.home-panel) :is(#habilidades, #skills) .skill-more {
     display: list-item;
     width: fit-content;
     max-width: 100%;
@@ -1016,16 +1016,16 @@ p {
     color: var(--ink);
   }
 
-  html[lang="pt-BR"] #experiencia .timeline li {
+  :is(html[lang="pt-BR"], html.home-panel) :is(#experiencia, #experience) .timeline li {
     padding-top: 0.8rem;
     border-bottom: 1px solid var(--muted);
   }
 
-  html[lang="pt-BR"] #experiencia .timeline li::before {
+  :is(html[lang="pt-BR"], html.home-panel) :is(#experiencia, #experience) .timeline li::before {
     top: 1.2rem;
   }
 
-  html[lang="pt-BR"] .card .meta {
+  :is(html[lang="pt-BR"], html.home-panel) .card .meta {
     display: inline-block;
     max-width: 100%;
     padding: 0.2rem 0.45rem;
@@ -1034,23 +1034,23 @@ p {
     color: var(--pt-label-ink);
   }
 
-  html[lang="pt-BR"] .card h3 {
+  :is(html[lang="pt-BR"], html.home-panel) .card h3 {
     font-size: 1.2rem;
     line-height: 1.25;
   }
 
-  html[lang="pt-BR"] .photo-card {
+  :is(html[lang="pt-BR"], html.home-panel) .photo-card {
     box-shadow: var(--shadow-sm);
   }
 
-  html[lang="pt-BR"] .photo-card figcaption {
+  :is(html[lang="pt-BR"], html.home-panel) .photo-card figcaption {
     border-top: var(--line) solid var(--ink);
     font-weight: 600;
   }
 }
 
 @media screen and (prefers-color-scheme: dark) {
-  html[lang="pt-BR"] {
+  :is(html[lang="pt-BR"], html.home-panel) {
     --pt-hero-panel: #202947;
     --pt-label-panel: #f1d36d;
     --pt-secondary-ink: #deded8;
@@ -1059,19 +1059,19 @@ p {
 
 /* ---------- pt-BR home panel (shortcuts) ---------- */
 
-html[lang="pt-BR"] main > .panel {
+:is(html[lang="pt-BR"], html.home-panel) main > .panel {
   margin-block: 0.5rem 0.75rem;
   padding: clamp(0.9rem, 2.2vw, 1.25rem);
 }
 
-html[lang="pt-BR"] .panel h1 {
+:is(html[lang="pt-BR"], html.home-panel) .panel h1 {
   max-width: none;
   font-size: clamp(1.6rem, 3.6vw, 2.2rem);
   line-height: 1.1;
   margin-bottom: 0.35rem;
 }
 
-html[lang="pt-BR"] .panel .lead {
+:is(html[lang="pt-BR"], html.home-panel) .panel .lead {
   max-width: 72ch;
   font-size: 1rem;
   margin-bottom: 0.45rem;
@@ -1083,11 +1083,11 @@ html[lang="pt-BR"] .panel .lead {
   font-size: 0.9rem;
 }
 
-html[lang="pt-BR"] .panel .hero-actions {
+:is(html[lang="pt-BR"], html.home-panel) .panel .hero-actions {
   margin-top: 0.85rem;
 }
 
-html[lang="pt-BR"] .panel .btn {
+:is(html[lang="pt-BR"], html.home-panel) .panel .btn {
   padding: 0.45rem 0.8rem;
   font-size: 0.85rem;
 }
@@ -1188,7 +1188,7 @@ html[lang="pt-BR"] .panel .btn {
   gap: 0.75rem;
 }
 
-html[lang="pt-BR"] .panel-projects > h2 {
+:is(html[lang="pt-BR"], html.home-panel) .panel-projects > h2 {
   display: inline-block;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
@@ -1205,13 +1205,13 @@ html[lang="pt-BR"] .panel-projects > h2 {
   box-shadow: none;
 }
 
-html[lang="pt-BR"] .panel-projects .card h3 {
+:is(html[lang="pt-BR"], html.home-panel) .panel-projects .card h3 {
   font-size: 0.95rem;
   line-height: 1.2;
   margin-bottom: 0.25rem;
 }
 
-html[lang="pt-BR"] .panel-projects .card .meta {
+:is(html[lang="pt-BR"], html.home-panel) .panel-projects .card .meta {
   font-size: 0.7rem;
   padding: 0.1rem 0.35rem;
   margin-bottom: 0.35rem;
@@ -1257,12 +1257,12 @@ html[lang="pt-BR"] .panel-projects .card .meta {
   }
 }
 
-html[lang="pt-BR"] main section[id],
-html[lang="pt-BR"] #habilidades .skill-subheading[id] {
+:is(html[lang="pt-BR"], html.home-panel) main section[id],
+:is(html[lang="pt-BR"], html.home-panel) :is(#habilidades, #skills) .skill-subheading[id] {
   scroll-margin-top: 0.75rem;
 }
 
-html[lang="pt-BR"] #habilidades .skill-subheading:target {
+:is(html[lang="pt-BR"], html.home-panel) :is(#habilidades, #skills) .skill-subheading:target {
   background: var(--pt-label-panel);
   color: var(--pt-label-ink);
   border-left-color: var(--pt-label-ink);
@@ -1437,7 +1437,7 @@ html[lang="pt-BR"] #habilidades .skill-subheading:target {
       color: var(--nato-heading-text);
     }
 
-    body.style-lab:has(#style-nato:checked) #experiencia .timeline li {
+    body.style-lab:has(#style-nato:checked) :is(#experiencia, #experience) .timeline li {
       border-left-color: var(--accent);
     }
 
@@ -1507,11 +1507,11 @@ html[lang="pt-BR"] #habilidades .skill-subheading:target {
       color: var(--warsaw-heading-text);
     }
 
-    body.style-lab:has(#style-warsaw:checked) #habilidades .skill-subheading {
+    body.style-lab:has(#style-warsaw:checked) :is(#habilidades, #skills) .skill-subheading {
       border-left-color: var(--warsaw-olive);
     }
 
-    body.style-lab:has(#style-warsaw:checked) #experiencia .timeline li {
+    body.style-lab:has(#style-warsaw:checked) :is(#experiencia, #experience) .timeline li {
       border-left-color: var(--accent);
     }
 
@@ -1559,51 +1559,4 @@ html[lang="pt-BR"] #habilidades .skill-subheading:target {
     --warsaw-heading: #9f3d33;
     --warsaw-heading-text: #ffffff;
   }
-}
-
-/* ---------- pt-BR home: versão de comparação ---------- */
-.footer-tools {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-end;
-  gap: 0.5rem;
-  margin-top: 0.85rem;
-}
-
-body.style-lab .footer-tools > .style-switch {
-  margin-left: 0;
-}
-
-.site-footer .version-switch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border: 2px solid var(--ink);
-  background: var(--panel);
-  color: var(--ink);
-  font-family: var(--font-mono);
-  font-size: 1.1rem;
-  line-height: 1;
-  text-decoration: none;
-}
-
-.version-switch:hover,
-.version-switch:focus-visible {
-  background: var(--pt-label-panel);
-  color: var(--pt-label-ink);
-}
-
-.version-switch .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }

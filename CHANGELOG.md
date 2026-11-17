@@ -7,6 +7,8 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-16 | Sincroniza a home em inglês com o painel oficial: experiência antes das competências, seis atalhos, três projetos em destaque, graduação colapsada, perfil SFIA e competências ausentes na tradução. Mantém as fichas de projetos na própria home e compartilha os estilos. | Pedido do responsável; extensão da decisão 0012; links e estrutura conferidos; 320/390/1280 px em claro/escuro e nos três estilos; teclado, ampliação de texto e impressão emulada; `git diff --check`. |
+| 2026-11-16 | Torna o painel a home oficial de `pt-BR`, restaura os metadados da principal e remove a alternativa e o atalho de comparação. Preserva os estilos e limita a mudança a `pt-BR`. | Pedido do responsável; decisão 0012; P-22. |
 | 2026-11-17 | Separa Finanças e Ferramentas Microsoft de Gestão administrativa e produtividade em `pt-BR` e `en`, com cópias estruturadas e lista de consulta sincronizadas. Mantém indicadores estratégicos e melhoria de processos em gestão administrativa. | Pedido do responsável; [fontes](docs/conteudo-e-fontes.md); decisão 0013. |
 | 2026-11-17 | Ajusta as fichas de Portugal Digital Solutions, Optigrow e SGCS nas variantes ativas e no painel experimental. Separa Gestão de projetos de Gestão administrativa e produtividade, renomeia Marketing digital e comércio eletrônico e prioriza competências amplas nas âncoras visíveis. | Pedido do responsável; [fontes](docs/conteudo-e-fontes.md); decisão 0012. |
 | 2026-11-14 | Remove as ilustrações NATO e Warsaw Pact do topo da home de `pt-BR`, nas duas versões, e apaga os dois SVGs, sem outro uso. Os estilos experimentais continuam disponíveis no ícone do rodapé. | Pedido do responsável; `git diff --check`. |
