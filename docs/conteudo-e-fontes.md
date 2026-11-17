@@ -49,13 +49,17 @@ As traduções editoriais das tags não declaram fluência nos idiomas de destin
 
 ### Cursos complementares
 
-Cargas horárias e datas dos 17 cursos da página pt-BR, consultadas em 16/10/2026.
+Cargas horárias e datas dos 17 cursos anteriores da página pt-BR, consultadas em 16/10/2026. O curso do IFRS foi conferido em 17/11/2026 no certificado da pasta `1.CERTIFICADOS/IFRS` do Google Drive. A página passa a reunir 18 cursos.
+
+O certificado do IFRS confirma conclusão em 13/11/2026, carga de 40 horas e período de 07/10/2026 a 13/11/2026. O PDF contém dados pessoais e permanece fora do site e do Git. A cópia em imagem com CPF oculto também está na pasta de origem.
+
 As variantes ativas usam o rótulo **Conclusão** por solicitação do responsável.
 A coluna de origem preserva a distinção entre conclusão e emissão; quando havia as duas, a data exibida é a de conclusão.
 A variante en-US foi padronizada para exibir somente a data de conclusão.
 
 | Curso | Horas | Data | Origem |
 | --- | --- | --- | --- |
+| SCRUM: Gerenciando Projetos de Software com Agilidade | 40 h | 13/11/2026 | Conclusão; certificado do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS). |
 | Microsoft Office Specialist Associate | 60 h | 25/07/2026 | Conclusão; emissão em 30/07/2026. |
 | Formação White Belt Six Sigma | 2 h | 17/04/2026 | Emissão. |
 | Como Controlar o Fluxo de Caixa | 10 h | 09/01/2026 | Conclusão. |
