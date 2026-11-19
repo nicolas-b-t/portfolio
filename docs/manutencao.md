@@ -10,7 +10,7 @@ O registro histórico está em [Histórico](historico/historico.md).
 Use `static/pt-BR/index.html` como base factual.
 Estado atual: somente `pt-BR` e `en` são publicados. As pastas `pt-PT`, `es-419` e `es-ES` redirecionam para `static/wip.html` até a conclusão da base e da tradução.
 Quando a base pt-BR estiver concluída, atualize as traduções e reative os links de idioma.
-Cada variante ativa mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`; em pt-BR, há também `projetos.html`.
+Cada variante ativa mantém `index.html`, `galeria.html`, `rede.html`, `recomendacoes.html` e `projetos.html`.
 A home oficial de `pt-BR` em `index.html` usa o painel de atalhos (decisão 0012).
 Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
 Em `es-419`, preserve a redação para o público sul-americano quando a variante for reativada.
@@ -39,7 +39,7 @@ Na impressão, os atalhos e os cartões ficam ocultos; a identidade e as seçõe
 
 A comparação foi encerrada por escolha do responsável. A versão anterior permanece no histórico Git.
 Em pedido posterior, o responsável autorizou sincronizar `en` com o painel e a ordem Experiência, Competências e Formação.
-Em `en`, os cartões em destaque apontam para as fichas completas na seção `#projects` da própria home; não há página separada de projetos.
+Nas duas variantes ativas, os cartões em destaque apontam para as fichas completas em `projetos.html`. Os links da antiga seção `#projects` em inglês continuam a encaminhar às fichas.
 
 ## Redação
 
@@ -139,12 +139,12 @@ Preserve documentos oficiais, licenças, fontes recebidas e citações literais.
 Não corrija os erros de uma amostra de avaliação dentro da citação original.
 Aplique a revisão aos comentários e às instruções que escrevemos sobre essas fontes.
 
-## Página de projetos em pt-BR
+## Páginas de projetos
 
 Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os quatro projetos e sua cópia estruturada.
 A página principal mantém o botão “Meus projetos”, os links dos destaques, o acesso no rodapé e uma referência no resumo oculto.
 A âncora antiga `index.html#projetos` leva ao acesso da apresentação.
-As outras variantes mantêm a estrutura anterior nesta etapa.
+A versão em inglês tem a mesma estrutura de projetos e publicações. As variantes suspensas seguem em preparação.
 
 Para editar, use a página de projetos e confira a cópia estruturada, as atribuições em [Conteúdo e fontes](conteudo-e-fontes.md#projetos) e as listas de consulta.
 A impressão da página principal mostra o currículo sem os cartões; a página de projetos permite imprimir os quatro cartões.

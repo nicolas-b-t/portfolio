@@ -11,7 +11,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0003 | Cinco variantes com base em `pt-BR` | Aceita |
 | 0004 | Cópia estruturada oculta | Aceita |
 | 0005 | Ícones por máscara CSS | Aceita |
-| 0006 | Projetos apenas em `pt-BR` | Aceita |
+| 0006 | Projetos apenas em `pt-BR` | superseded |
 | 0007 | Publicação restrita a `static/` | Aceita |
 | 0008 | Publicação temporária de duas variantes | Aceita |
 | 0009 | Competências com âncoras e detalhe expansível | Aceita |
@@ -21,6 +21,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0012 | Gestão de projetos como subcategoria própria | Aceita |
 | 0013 | Finanças e ferramentas Microsoft como subcategorias | Aceita |
 | 0014 | Páginas experimentais de Projetos e Agradecimentos | Aceita |
+| 0015 | Projetos e publicações nas duas variantes ativas | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -63,6 +64,8 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 **Decisão:** manter `projetos.html` apenas em `pt-BR`; a expansão entra depois da conclusão de `pt-BR`.
 **Consequências:** escopo menor e base factual concentrada; a navegação difere entre variantes.
 **Confirmação:** cinco páginas em `pt-BR` e quatro nas demais; menus apontam apenas para páginas existentes.
+
+Esta decisão foi substituída pela decisão 0015.
 
 ## 0007 — Publicação restrita a static
 
@@ -133,3 +136,7 @@ Em pedido posterior, o responsável autorizou atualizar a home em inglês. O pai
 ### Extensão da decisão 0014 — promoção das páginas
 
 Em 19/11/2026, o responsável aprovou a estrutura experimental de Projetos em `pt-BR` e de Agradecimentos em `pt-BR` e `en` como principal. Os endereços oficiais recebem essa estrutura; os endereços experimentais redirecionam para eles. Projetos conserva o SGCS antes da Portugal Digital Solutions nas fichas visíveis e na cópia estruturada. Agradecimentos conserva âncoras estáveis para os quatro perfis reais e a introdução da página anterior. Os marcadores de texto pessoal e o perfil fictício de professor ficam fora das páginas oficiais até que o responsável forneça conteúdo confirmado.
+
+## 0015 — Projetos e publicações nas duas variantes ativas
+
+**Decisão:** manter `projetos.html` em `pt-BR` e `en`, com as mesmas seções e navegação entre idiomas. A página inicial inglesa conserva links nos destinos das âncoras antigas. A antiga página experimental inglesa do SGCS redireciona à ficha oficial.

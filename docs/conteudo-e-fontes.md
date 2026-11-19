@@ -87,7 +87,7 @@ As demais permanecem conforme o conteúdo aprovado do site.
 
 ## Projetos
 
-Em pt-BR, os textos dos projetos e sua cópia estruturada ficam em [Projetos](../static/pt-BR/projetos.html), com acesso pelo botão “Meus projetos”, pelos destaques e pelo rodapé da página principal. A separação de 02/11/2026 preservou as afirmações e atribuições anteriores; as outras variantes mantêm os projetos na página principal, conforme o escopo solicitado.
+Os textos dos projetos e a cópia estruturada ficam nas páginas de [Projetos em português](../static/pt-BR/projetos.html) e [Projects em inglês](../static/en/projetos.html). A página inicial de cada idioma oferece acesso pelo botão de projetos, pelos destaques e pelo rodapé.
 
 O portfólio usa HTML, CSS, GitHub Actions e GitHub Pages.
 As otimizações e verificações descritas não constituem certificação integral de acessibilidade.

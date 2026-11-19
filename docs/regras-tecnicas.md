@@ -24,7 +24,7 @@ Detalhe das regras resumidas em `AGENTS.md`. Vale para o repositório inteiro.
 - Preserve `pt-BR`, `pt-PT`, `en`, `es-419` e `es-ES`. As pastas das variantes suspensas permanecem no repositório para reativação.
 - Use inglês norte-americano em `en/`, com `lang` e `hreflang` definidos como `en-US`.
 - Em `es-419`, preserve a redação para o público sul-americano quando a variante for reativada.
-- Cada idioma mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`. Em `pt-BR`, `projetos.html` reúne os projetos e a cópia estruturada.
+- Cada idioma mantém `index.html`, `galeria.html`, `rede.html` e `recomendacoes.html`. Nas variantes ativas, `projetos.html` reúne projetos, publicações e a cópia estruturada.
 - Sincronize fatos e estrutura comuns entre os idiomas. Preserve as variantes linguísticas.
 - Preserve as três categorias de competências e suas subcategorias.
 - Ao alterar cursos, atualize as cópias de tela, impressão e resumo estruturado nos idiomas afetados.
