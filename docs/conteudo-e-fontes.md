@@ -127,6 +127,16 @@ Confira a tramitação antes de atualizar esse contexto. A redação atual não 
 - Fonte: histórico em `../../../portugal_digital_solutions/HISTORICO_DO_PROJETO.md`, preparado em 11/11/2026 a partir de 12 conversas entre 02/10/2026 e 10/11/2026. A fonte registra propostas; não comprova constituição, aprovação de documentos nem ofertas disponíveis.
 - Limites: não há confirmação de constituição, NIPC, clientes, preços, prazos, níveis de serviço ou logótipo final. A página não declara conformidade com as normas citadas na fonte. O Optigrow permanece em cartão próprio e não é atribuído à PDS. A ficha de experiência só entra após a constituição (P-18). Não acrescente clientes, preços ou resultados sem nova confirmação.
 
+## Agradecimentos acadêmicos
+
+Em 19/11/2026, o responsável informou os vínculos e as contribuições abaixo para a página Agradecimentos à minha rede. As orientações específicas descritas são seu relato pessoal; os perfis públicos não comprovam a participação individual no SGCS.
+
+- Antonio Marcos Fonseca de Jesus: professor de Gestão de Projetos; orientou a gestão e a coordenação do SGCS e de outros projetos. [Perfil público informado](https://www.linkedin.com/in/antonio-marcos-fonseca-de-jesus-1a96416b/). A [lista de docentes da Fatec Franco da Rocha](https://fatecfrancodarocha.cps.sp.gov.br/professores/) confirma seu nome entre os professores.
+- Luiz Silva: bibliotecário da Fatec Franco da Rocha; ajudou na seleção e revisão das fontes usadas em pesquisas e estudos do responsável na instituição. [Perfil público informado](https://www.linkedin.com/in/luiz-silva-bibliotecario/). O perfil público usa o nome Luiz Silva e registra atuação no Centro Paula Souza; o vínculo com a unidade e a ajuda específica foram informados pelo responsável.
+- Joselma Rocha Lopes: professora de Banco de Dados e Projetos de TI; orientou a documentação e o banco de dados do SGCS. [Perfil público informado](https://www.linkedin.com/in/joselma-rocha-lopes/). A [lista de docentes da Fatec Franco da Rocha](https://fatecfrancodarocha.cps.sp.gov.br/professores/) confirma seu nome entre os professores.
+- Silvia Maria Farani Costa: coordenadora do curso de Gestão da Tecnologia da Informação; orientou diretamente a revisão acadêmica do SGCS durante seu desenvolvimento. [Perfil público informado](https://www.linkedin.com/in/silvia-maria-farani-costa-3777741b/). A [página de coordenadores da Fatec Franco da Rocha](https://fatecfrancodarocha.cps.sp.gov.br/coordenadores/) confirma a coordenação de GTI.
+- Raphael Naves: professor orientador no 5º semestre, quando a pesquisa do SGCS recebeu menção honrosa e foi publicada. O responsável pediu agradecimento especial e informou que não encontrou perfil público; por isso, o cartão não tem link de perfil. Nome, vínculo e contribuição seguem apenas sua declaração.
+
 ## Recomendações
 
 O responsável selecionou o Keep Android Open para divulgação em uma página dedicada a recomendações.
