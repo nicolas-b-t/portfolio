@@ -15,6 +15,11 @@
     "experiencias": 5,
     "cursos": 18,
     "projetos": ["Portfólio pessoal", "Optigrow", "SGCS"],
+    "publicacao": {
+      "tipo": "Capitulo de livro em coautoria",
+      "ano": 2026,
+      "doi": "10.63330/aurumpub.069-039"
+    },
     "datas_de_conclusao_dos_cursos": "Omitidas a pedido do responsavel",
     "ingles_conversacional": "Declaracao do responsavel; TOEIC Listening & Reading informado separadamente",
     "habilidades_praticas_em_destaque": ["Trabalho em altura", "CNH AB"],
@@ -24,32 +29,30 @@
   "arquivos": [
     {
       "arquivo": "V5-geral-padrao-pt-BR.docx",
-      "bytes": 40212,
-      "sha256": "eda8676c41ae30f572be966a00fcb669b4425d6fdf89982ce17f7eb88f2bf0e7",
-      "paginas_renderizadas": 2
+      "bytes": 40451,
+      "sha256": "c9776a6c09f17593ede3dd06b0872b4098a886db9645e3f5e51481af9b88defd"
     },
     {
       "arquivo": "V5-geral-barra-lateral-pt-BR.docx",
-      "bytes": 40482,
-      "sha256": "fbe236413c9cf425451865d7653993183733530f01534c99881b348caa6e00a2",
-      "paginas_renderizadas": 2
+      "bytes": 40731,
+      "sha256": "229a462f8e1d33c85ff187a76142bc52a7870d68c31f6fc3852a6c480d618e0f"
     },
     {
       "arquivo": "V5-geral-padrao-pt-BR.pdf",
-      "bytes": 241528,
-      "sha256": "2d98490b05d2d0b974b8a712db250265d49cb8e08d398fe385ad0fbe00f5b755",
+      "bytes": 323396,
+      "sha256": "a399e3ac6400f3782b13ae1fe60528ae961e1cb250ae47544208d299381b4238",
       "paginas": 2,
       "origem": "Ajustes manuais do responsavel; link Lattes adicionado em 2026-11-19",
       "publicado_em": "static/assets/curriculos/V5-geral-padrao-pt-BR.pdf"
     },
     {
       "arquivo": "V5-geral-barra-lateral-pt-BR.pdf",
-      "bytes": 184518,
-      "sha256": "0b95ac2d7881837cb30eabdaa18e0aa15d3b746c0151fb376369caa47f25a852",
+      "bytes": 274306,
+      "sha256": "ccafaf3b0736753a6a1fe36974aecc37410b69ca01d55a6b32a5793a289a111a",
       "paginas": 2,
       "origem": "Ajustes manuais do responsavel",
       "publicado_em": "static/assets/curriculos/V5-geral-barra-lateral-pt-BR.pdf"
     }
   ],
-  "verificacao": "Dois PDFs com duas paginas, texto selecionavel, Lattes clicavel e copias publicadas com hash identico. Sem inspecao visual nesta atualizacao, por solicitacao do responsavel; sem certificacao de acessibilidade ou teste em ATS proprietario."
+  "verificacao": "Dois PDFs com duas paginas, texto selecionavel, Lattes e DOI clicaveis e copias publicadas com hash identico. Sem inspecao visual nesta atualizacao, por solicitacao do responsavel; paginacao dos DOCX nao verificada. Sem certificacao de acessibilidade ou teste em ATS proprietario."
 }

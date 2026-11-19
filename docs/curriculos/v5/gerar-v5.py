@@ -158,6 +158,10 @@ def validate_sources() -> None:
     categories = {text(n) for n in INDEX.xpath('//main//section[@id="habilidades"]//h4[contains(@class,"skill-subheading")]')}
     assert all(name in categories for name, _ in TECHNICAL_SKILLS + SOCIAL_SKILLS + PRACTICAL_SKILLS)
     assert len(SFIA) == 7
+    publication = PROJECT_PAGE.xpath('//main//article[@id="publicacao-sgcs"]')
+    assert len(publication) == 1
+    assert len(publication[0].xpath('./h3')) == 1
+    assert len(publication[0].xpath('.//a[starts-with(@href, "https://doi.org/")]')) == 1
 
 
 def set_style(style, size: float, *, bold=False, before=0, after=0,
@@ -323,6 +327,21 @@ def sfia(container, compact=False) -> None:
         add(container, second + ".", "CV Small")
 
 
+def publication(container, compact=False) -> None:
+    article = PROJECT_PAGE.xpath('//main//article[@id="publicacao-sgcs"]')[0]
+    title = text(article.xpath('./h3')[0])
+    citation = text(article.xpath('./p[cite]')[0])
+    doi = article.xpath('.//a[starts-with(@href, "https://doi.org/")]')[0].get('href')
+    heading(container, "Publicação", side=compact)
+    style = "CV Side" if compact else "CV Small"
+    add(container, "Capítulo de livro · coautoria · 2026", style)
+    para = container.add_paragraph(style=style)
+    link(para, title, doi)
+    add(container, citation, style)
+    para = container.add_paragraph(style=style)
+    link(para, "DOI: " + doi.removeprefix("https://doi.org/"), doi)
+
+
 def page_break(doc) -> None:
     para = doc.add_paragraph()
     para.add_run().add_break(WD_BREAK.PAGE)
@@ -380,6 +399,7 @@ def build_standard() -> Path:
     courses(doc)
     projects(doc)
     sfia(doc)
+    publication(doc)
     doc.core_properties.title = "Currículo geral V5 de Nicolas Beraldes Tarifa"
     doc.core_properties.subject = "Modelo padrão em português brasileiro"
     doc.core_properties.author = "Nicolas Beraldes Tarifa"
@@ -409,6 +429,7 @@ def build_sidebar() -> Path:
     left, right = columns(doc)
     projects(left, compact=True)
     sfia(left, compact=True)
+    publication(left, compact=True)
     courses(right, compact=True)
     remove_empty_cell_start(left)
     remove_empty_cell_start(right)
