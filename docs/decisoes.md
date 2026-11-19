@@ -1,6 +1,6 @@
 # Decisões de arquitetura
 
-Treze decisões aceitas entre 02/11/2026 e 17/11/2026.
+Decisões registradas desde 02/11/2026.
 O formato é uma síntese de MADR; o texto completo de cada ADR permanece no histórico Git.
 Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o registro e recebe o status `superseded`.
 
@@ -20,6 +20,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0012 | Painel como home oficial somente em `pt-BR` | Aceita |
 | 0012 | Gestão de projetos como subcategoria própria | Aceita |
 | 0013 | Finanças e ferramentas Microsoft como subcategorias | Aceita |
+| 0014 | Páginas experimentais de Projetos e Agradecimentos | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -122,3 +123,9 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 ### Extensão da decisão 0012 — sincronização de `en`
 
 Em pedido posterior, o responsável autorizou atualizar a home em inglês. O painel, a ordem das seções, os conteúdos previstos colapsados, o perfil SFIA e as competências seguem a base `pt-BR`, com redação en-US. As fichas completas dos projetos permanecem em `en/index.html`, e os três destaques apontam para suas âncoras. As regras visuais são compartilhadas no CSS comum; o escopo adicional é somente a home inglesa. A restrição anterior de manter a estrutura de `en` deixa de valer.
+
+## 0014 — Páginas experimentais de Projetos e Agradecimentos
+
+**Contexto:** o responsável quer avaliar a nova organização de perfis e créditos em produção.
+**Decisão:** publicar as prévias com `noindex` e acesso pelo ícone ⇄ no rodapé, seguindo a decisão 0011. As páginas oficiais mantêm seu conteúdo. Em inglês, a prévia de Projetos contém a ficha do SGCS, cuja versão oficial fica na home.
+**Confirmação:** verificar a alternância nos dois sentidos, os links entre créditos e perfis experimentais e a troca de idioma em Agradecimentos. A promoção das prévias depende da avaliação do responsável.

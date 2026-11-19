@@ -103,6 +103,7 @@ A gestão pessoal inclui planejamento, coordenação, prazos, entregáveis e int
 As tecnologias e competências dos projetos descrevem seu contexto, sem atribuir domínio individual de todas as ferramentas.
 
 O certificado emitido pela Fatec Franco da Rocha em 17/11/2026 registra a menção honrosa do trabalho apresentado no VI SIMBAJU – Energia e Tecnologia.
+O certificado identifica a equipe apresentada no simpósio: Ismael Jackson Barbosa Silveira, Letícia Vitória Santos Rocha, Miller de Souza Reis, Nicolas Beraldes Tarifa e Rodrigo do Nascimento Kussano Carneiro. A orientação formal exige confirmação própria.
 A [Aurum Editora](https://aurumpublicacoes.com/index.php/editora/article/view/2651) confirma a coautoria de Nicolas Beraldes Tarifa e a publicação do capítulo 39, páginas 550–571, em 17/11/2026.
 
 O relatório acadêmico do SGCS (`dados-pessoais/fontes/academico/PI-IV_ENTREGA_FINAL.pdf`) possui 58 páginas.
