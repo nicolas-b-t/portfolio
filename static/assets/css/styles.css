@@ -383,6 +383,29 @@ p {
   margin-top: 0;
 }
 
+.project-summary {
+  margin: 0.75rem 0;
+}
+
+.project-summary dt {
+  font-weight: 700;
+}
+
+.project-summary dd {
+  margin: 0 0 0.5rem;
+}
+
+.project-details {
+  margin-top: 1rem;
+}
+
+.project-details > summary {
+  cursor: pointer;
+  min-height: 24px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .profile-links {
   display: flex;
   flex-wrap: wrap;
@@ -843,6 +866,15 @@ p {
 
   .skill-group:not([open]) {
     display: none;
+  }
+
+  .project-details::details-content {
+    content-visibility: visible;
+  }
+
+  .project-details > summary {
+    list-style: none;
+    text-decoration: none;
   }
 
   body {

@@ -151,10 +151,15 @@ A impressão da página principal mostra o currículo sem os cartões; a página
 Os PDFs V3 permanecem edições históricas.
 Evidência e limites: [Histórico](historico/historico.md).
 
+Na versão experimental, apresente objetivo, contribuição e resultado, seguidos de palavras-chave e dos links do projeto.
+Use um bloco expansível para competências, tecnologias e detalhes de contexto. Preserve a lista completa e confira a impressão.
+Em Publicações, informe tipo e ano, título, veículo ou instituição, resumo breve e DOI ou link de repositório.
+
 ## Recomendações
 
 Use `recomendacoes.html` para divulgar projetos, iniciativas, livros e recursos selecionados pelo responsável.
 A página `rede.html` mantém os agradecimentos às pessoas da rede.
+Na versão experimental de Agradecimentos, dê a cada perfil real uma âncora estável. Em Professores e orientadores, informe o vínculo confirmado, a frase pessoal e os links públicos confirmados.
 Preserve o acesso às recomendações pelo menu, pela seção Contato e pelo rodapé da página principal.
 O acesso junto aos contatos fica oculto na impressão do currículo.
 
