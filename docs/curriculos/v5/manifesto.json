@@ -1,6 +1,7 @@
 {
   "versao": "V5",
   "edicao": "2026-11-17",
+  "atualizado_em": "2026-11-19",
   "idiomas": ["pt-BR"],
   "formatos": ["DOCX", "PDF"],
   "pagina": "A4",
@@ -35,10 +36,10 @@
     },
     {
       "arquivo": "V5-geral-padrao-pt-BR.pdf",
-      "bytes": 186452,
-      "sha256": "7ee36126276e3c30fbbc6116e9dfe5200696c3704dd0e094295a100d55e45cf3",
+      "bytes": 241528,
+      "sha256": "2d98490b05d2d0b974b8a712db250265d49cb8e08d398fe385ad0fbe00f5b755",
       "paginas": 2,
-      "origem": "Ajustes manuais do responsavel",
+      "origem": "Ajustes manuais do responsavel; link Lattes adicionado em 2026-11-19",
       "publicado_em": "static/assets/curriculos/V5-geral-padrao-pt-BR.pdf"
     },
     {
@@ -46,8 +47,9 @@
       "bytes": 184518,
       "sha256": "0b95ac2d7881837cb30eabdaa18e0aa15d3b746c0151fb376369caa47f25a852",
       "paginas": 2,
-      "origem": "Ajustes manuais do responsavel"
+      "origem": "Ajustes manuais do responsavel",
+      "publicado_em": "static/assets/curriculos/V5-geral-barra-lateral-pt-BR.pdf"
     }
   ],
-  "verificacao": "PDF padrao com duas paginas, texto selecionavel, PNGs inspecionados e copia publicada com hash identico. Sem certificacao de acessibilidade ou teste em ATS proprietario."
+  "verificacao": "Dois PDFs com duas paginas, texto selecionavel, Lattes clicavel e copias publicadas com hash identico. Sem inspecao visual nesta atualizacao, por solicitacao do responsavel; sem certificacao de acessibilidade ou teste em ATS proprietario."
 }
