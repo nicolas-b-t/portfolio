@@ -97,10 +97,13 @@ As tecnologias confirmadas são Google AI Studio, Supabase, Vercel e GitHub.
 Não atribua funções exclusivas a cada participante sem nova confirmação.
 Em 17/11/2026, o responsável definiu a apresentação do Optigrow como ferramenta de marketing e tecnologia para óticas da região do Porto. A descrição não atribui funcionalidades específicas ainda não confirmadas.
 
-O SGCS é uma pesquisa acadêmica e um MVP em desenvolvimento, realizados pela equipe.
+O SGCS é uma pesquisa acadêmica realizada em equipe na Fatec Franco da Rocha. A equipe desenvolveu um protótipo funcional para registro, classificação e acompanhamento de chamados condominiais.
 Em 17/11/2026, o responsável definiu o produto como SaaS em desenvolvimento. O termo descreve o modelo pretendido do produto; não afirma lançamento comercial.
 A gestão pessoal inclui planejamento, coordenação, prazos, entregáveis e integração de ferramentas.
 As tecnologias e competências dos projetos descrevem seu contexto, sem atribuir domínio individual de todas as ferramentas.
+
+O certificado emitido pela Fatec Franco da Rocha em 17/11/2026 registra a menção honrosa do trabalho apresentado no VI SIMBAJU – Energia e Tecnologia.
+A [Aurum Editora](https://aurumpublicacoes.com/index.php/editora/article/view/2651) confirma a coautoria de Nicolas Beraldes Tarifa e a publicação do capítulo 39, páginas 550–571, em 17/11/2026.
 
 O relatório acadêmico do SGCS (`dados-pessoais/fontes/academico/PI-IV_ENTREGA_FINAL.pdf`) possui 58 páginas.
 As posições abaixo se referem às páginas do PDF:

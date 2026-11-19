@@ -357,6 +357,13 @@ p {
   font-size: 1.15rem;
 }
 
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
 /* ---------- Grid / cards ---------- */
 
 .grid {
@@ -779,6 +786,7 @@ p {
   .site-header,
   .lang-switch,
   .skip-link,
+  .section-nav,
   .btn,
   .site-footer .noprint,
   .contact-related,
