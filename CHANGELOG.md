@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-19 | Promove a estrutura experimental de Projetos em `pt-BR` e de Agradecimentos em `pt-BR` e `en` aos endereços principais. Mantém SGCS antes da Portugal Digital Solutions e retira exemplos sem conteúdo confirmado da rede. | Pedido do responsável; extensão da decisão 0014; [fontes](docs/conteudo-e-fontes.md). |
 | 2026-11-16 | Sincroniza a home em inglês com o painel oficial: experiência antes das competências, seis atalhos, três projetos em destaque, graduação colapsada, perfil SFIA e competências ausentes na tradução. Mantém as fichas de projetos na própria home e compartilha os estilos. | Pedido do responsável; extensão da decisão 0012; links e estrutura conferidos; 320/390/1280 px em claro/escuro e nos três estilos; teclado, ampliação de texto e impressão emulada; `git diff --check`. |
 | 2026-11-16 | Torna o painel a home oficial de `pt-BR`, restaura os metadados da principal e remove a alternativa e o atalho de comparação. Preserva os estilos e limita a mudança a `pt-BR`. | Pedido do responsável; decisão 0012; P-22. |
 | 2026-11-17 | Separa Finanças e Ferramentas Microsoft de Gestão administrativa e produtividade em `pt-BR` e `en`, com cópias estruturadas e lista de consulta sincronizadas. Mantém indicadores estratégicos e melhoria de processos em gestão administrativa. | Pedido do responsável; [fontes](docs/conteudo-e-fontes.md); decisão 0013. |

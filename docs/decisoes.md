@@ -129,3 +129,7 @@ Em pedido posterior, o responsável autorizou atualizar a home em inglês. O pai
 **Contexto:** o responsável quer avaliar a nova organização de perfis e créditos em produção.
 **Decisão:** publicar as prévias com `noindex` e acesso pelo ícone ⇄ no rodapé, seguindo a decisão 0011. As páginas oficiais mantêm seu conteúdo. Em inglês, a prévia de Projetos contém a ficha do SGCS, cuja versão oficial fica na home.
 **Confirmação:** verificar a alternância nos dois sentidos, os links entre créditos e perfis experimentais e a troca de idioma em Agradecimentos. A promoção das prévias depende da avaliação do responsável.
+
+### Extensão da decisão 0014 — promoção das páginas
+
+Em 19/11/2026, o responsável aprovou a estrutura experimental de Projetos em `pt-BR` e de Agradecimentos em `pt-BR` e `en` como principal. Os endereços oficiais recebem essa estrutura; os endereços experimentais redirecionam para eles. Projetos conserva o SGCS antes da Portugal Digital Solutions nas fichas visíveis e na cópia estruturada. Agradecimentos conserva âncoras estáveis para os quatro perfis reais e a introdução da página anterior. Os marcadores de texto pessoal e o perfil fictício de professor ficam fora das páginas oficiais até que o responsável forneça conteúdo confirmado.

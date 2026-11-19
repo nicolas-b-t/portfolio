@@ -31,8 +31,8 @@ Os aliases auxiliam consultas específicas; não garantem reconhecimento por tod
 ### Painel das homes em `pt-BR` e `en`
 
 As páginas oficiais `pt-BR/index.html` e `en/index.html` abrem com o painel `section.hero.panel`.
-Mantenha no painel as três portas, os seis atalhos de competência e os três cartões de projeto.
-Cada cartão repete uma frase do cartão correspondente em `projetos.html`; ao alterar a ficha, sincronize o painel.
+Mantenha no painel as três portas e os seis atalhos de competência. Em `pt-BR`, o painel destaca Optigrow e SGCS; em `en`, mantém três cartões de projeto.
+Cada cartão de `pt-BR` repete uma frase do cartão correspondente em `projetos.html`; ao alterar a ficha, sincronize o painel.
 Os seis atalhos apontam para os `h4.skill-subheading` com `id`: `gestao-projetos`, `trafego-pago`, `sistemas-operacionais`, `programacao-dados`, `redes` e `suporte-ti`. Não aponte para o interior de um `details` fechado.
 Não inclua contagens no painel, porque não há build para mantê-las sincronizadas.
 Na impressão, os atalhos e os cartões ficam ocultos; a identidade e as seções completas continuam impressas.
@@ -142,16 +142,16 @@ Aplique a revisão aos comentários e às instruções que escrevemos sobre essa
 ## Página de projetos em pt-BR
 
 Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os quatro projetos e sua cópia estruturada.
-A página principal mantém um link no menu, outro na apresentação inicial e uma referência no resumo oculto.
+A página principal mantém o botão “Meus projetos”, os links dos destaques, o acesso no rodapé e uma referência no resumo oculto.
 A âncora antiga `index.html#projetos` leva ao acesso da apresentação.
 As outras variantes mantêm a estrutura anterior nesta etapa.
 
 Para editar, use a página de projetos e confira a cópia estruturada, as atribuições em [Conteúdo e fontes](conteudo-e-fontes.md#projetos) e as listas de consulta.
-A impressão da página principal mostra o currículo sem os cartões; a página de projetos permite imprimir os três cartões.
+A impressão da página principal mostra o currículo sem os cartões; a página de projetos permite imprimir os quatro cartões.
 Os PDFs V3 permanecem edições históricas.
 Evidência e limites: [Histórico](historico/historico.md).
 
-Na versão experimental, apresente objetivo, contribuição e resultado, seguidos de palavras-chave e dos links do projeto.
+A página oficial apresenta objetivo, contribuição e resultado, seguidos de palavras-chave e dos links do projeto.
 Use um bloco expansível para competências, tecnologias e detalhes de contexto. Preserve a lista completa e confira a impressão.
 Em Publicações, informe tipo e ano, título, veículo ou instituição, resumo breve e DOI ou link de repositório.
 
@@ -159,7 +159,7 @@ Em Publicações, informe tipo e ano, título, veículo ou instituição, resumo
 
 Use `recomendacoes.html` para divulgar projetos, iniciativas, livros e recursos selecionados pelo responsável.
 A página `rede.html` mantém os agradecimentos às pessoas da rede.
-Na versão experimental de Agradecimentos, dê a cada perfil real uma âncora estável. Em Professores e orientadores, informe o vínculo confirmado, a frase pessoal e os links públicos confirmados.
+Em Agradecimentos, dê a cada perfil real uma âncora estável. Publique Professores e orientadores somente quando houver nomes, vínculos e motivos de agradecimento confirmados.
 Preserve o acesso às recomendações pelo menu, pela seção Contato e pelo rodapé da página principal.
 O acesso junto aos contatos fica oculto na impressão do currículo.
 
