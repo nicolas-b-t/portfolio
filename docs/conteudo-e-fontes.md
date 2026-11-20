@@ -64,7 +64,7 @@ A variante en-US foi padronizada para exibir somente a data de conclusão.
 | Curso | Horas | Data | Origem |
 | --- | --- | --- | --- |
 | SCRUM: Gerenciando Projetos de Software com Agilidade | 40 h | 13/11/2026 | Conclusão; certificado do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS). |
-| Microsoft Office Specialist Associate | 60 h | 25/07/2026 | Conclusão; emissão em 30/07/2026. |
+| Microsoft Office Specialist Associate | 60 h | 25/07/2026 | Curso preparatório do SENAI para a prova de certificação. Conclusão em 25/07/2026. Emissão em 30/07/2026. |
 | Formação White Belt Six Sigma | 2 h | 17/04/2026 | Emissão. |
 | Como Controlar o Fluxo de Caixa | 10 h | 09/01/2026 | Conclusão. |
 | Gestão Financeira | 10 h | 29/12/2025 | Conclusão. |

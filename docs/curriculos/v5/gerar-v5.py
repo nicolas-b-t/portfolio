@@ -310,6 +310,8 @@ def courses(container, compact=False) -> None:
         if category != previous:
             add(container, category, "CV Course Group")
             previous = category
+        if title == "Microsoft Office Specialist Associate":
+            title += " (preparatório do SENAI para a prova)"
         add(container, f"{title}  —  {hours} h", "CV Course")
 
 

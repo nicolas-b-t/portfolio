@@ -50,40 +50,40 @@
   "arquivos": [
     {
       "arquivo": "V5-geral-padrao-pt-BR.docx",
-      "bytes": 40458,
-      "sha256": "31d42e0742a779ea0a6161861aa4019a9df4be126bb755af37b2b38203043697"
+      "bytes": 40488,
+      "sha256": "3d07968fc07e143d6b6a08dd33667482e2a6c45127829028b69414cebac2da36"
     },
     {
       "arquivo": "V5-geral-barra-lateral-pt-BR.docx",
-      "bytes": 40749,
-      "sha256": "d5837ac5dc9c8a58c97601d03c45213d00582ca7f3e65b59347489880d85dd2f"
+      "bytes": 40773,
+      "sha256": "8754b6a34ca7476da5b3caec866d0219a2cd20aa45ce1bce61565ed2debd5be4"
     },
     {
       "arquivo": "V5-geral-padrao-pt-BR.pdf",
-      "bytes": 103397,
-      "sha256": "8bbe8ecff24328655c9d359dbb63d8458e8e71252e52baf5f348aad49a29348c",
+      "bytes": 103435,
+      "sha256": "089e1e91d713a78b10f694aa8191b6e2a26b04f4190b8fb1f3a2b37823bd2953",
       "paginas": 2,
       "origem": "Exportação do DOCX com preservação dos ajustes de texto da versão publicada em português.",
       "publicado_em": "static/assets/curriculos/V5-geral-padrao-pt-BR.pdf"
     },
     {
       "arquivo": "V5-geral-barra-lateral-pt-BR.pdf",
-      "bytes": 107206,
-      "sha256": "d7683d9eec11e0b1677a407389d87f7fdb21e4fb2028fbc2e02317877a6389a4",
+      "bytes": 107255,
+      "sha256": "64e9e75260adda12ce1b4e64ae485ceb8ba7b7fd0b1a1405feaadde9dcd91e1e",
       "paginas": 2,
       "origem": "Exportação do DOCX com preservação dos ajustes de texto da versão publicada em português.",
       "publicado_em": "static/assets/curriculos/V5-geral-barra-lateral-pt-BR.pdf"
     },
     {
       "arquivo": "V5-geral-barra-lateral-en-US.docx",
-      "bytes": 40723,
-      "sha256": "028df9bba714fe14eb621636c4dcc73da01536328741d1a2d03d66ad154fbc5f",
+      "bytes": 40740,
+      "sha256": "b882272448504a8ae68d60074ce5ee02ed52265809157a3d82892a4fbddab656",
       "idioma": "en-US"
     },
     {
       "arquivo": "V5-geral-barra-lateral-en-US.pdf",
-      "bytes": 95587,
-      "sha256": "b317d17e300d6976ad82d425ddcae21cced22142d52b6fc024e1d59bc3a9bafe",
+      "bytes": 95621,
+      "sha256": "69133fe17252cce0d9632667f84de0ac2aaa80443ff8f15a29c1eff7adb2b65d",
       "idioma": "en-US",
       "paginas": 2,
       "origem": "Exportação do DOCX em inglês",
@@ -91,14 +91,14 @@
     },
     {
       "arquivo": "V5-geral-padrao-en-US.docx",
-      "bytes": 40425,
-      "sha256": "9c18e11ec3b1199fcbf88eda20492e0215331e459a1d0b38cda1d1be8b124fc2",
+      "bytes": 40442,
+      "sha256": "c0cafe7995712959aa6c043210ea3644387f76ad25b75ebbe9f00387c99a7bff",
       "idioma": "en-US"
     },
     {
       "arquivo": "V5-geral-padrao-en-US.pdf",
-      "bytes": 92148,
-      "sha256": "f9c39584003fa51dd50a48da6aa412e66b40eba38fe5a4faa4d367abd8b1d0a9",
+      "bytes": 92182,
+      "sha256": "76fa74dbc7a46a98585f1b0808461c05c258e02df2a0cd219e6c2ed73bfd72a5",
       "idioma": "en-US",
       "paginas": 2,
       "origem": "Exportação do DOCX em inglês",

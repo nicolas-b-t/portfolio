@@ -186,8 +186,6 @@ Programação e dados
 • Data modeling
 • Modelos de dados
 • Python
-Conhecimento introdutório em aprendizado de máquina, conforme a formação.
-Fiz cursos de JavaScript e Python e tenho prática em programação.
 
 Desenvolvimento com IA
 • OpenAI ChatGPT
@@ -540,9 +538,11 @@ Competências técnicas (Hard skills)
 
 Gestão e produtividade
 
+Fiz cursos de JavaScript e Python e tenho prática em programação. Meu conhecimento em aprendizado de máquina é introdutório.
+
 Microsoft Office Specialist Associate
 SENAI São Paulo — Escola Hermenegildo Campos de Almeida
-Curso SENAI · 60 h · Conclusão: 25/07/2026
+Curso preparatório do SENAI para a prova de certificação · 60 h · Conclusão: 25/07/2026
 
 Formação White Belt Six Sigma
 RL&Associados
