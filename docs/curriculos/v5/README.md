@@ -1,5 +1,18 @@
 # Currículo geral V5
 
+## Edição em inglês
+
+Os dois modelos em inglês dos Estados Unidos preservam a estrutura V5. As competências e os cargos seguem os rótulos da [página em inglês](../../../static/en/index.html), conferidos nas [listas de tags](../../listas-de-tags/README.md). Os títulos dos cursos foram traduzidos para leitura. Nomes de instituições e produtos, códigos SFIA e o título original do livro foram preservados. O capítulo usa o título em inglês publicado pela Aurum.
+
+| Modelo | Editável | PDF |
+| --- | --- | --- |
+| General resume | [DOCX](V5-geral-padrao-en-US.docx) | [PDF](V5-geral-padrao-en-US.pdf) |
+| Sidebar resume | [DOCX](V5-geral-barra-lateral-en-US.docx) | [PDF](V5-geral-barra-lateral-en-US.pdf) |
+
+Os contatos identificam o Lattes como a plataforma nacional brasileira de currículos acadêmicos, mantida pelo CNPq. A página inicial em inglês oferece os dois PDFs em inglês.
+
+## Edição em português
+
 Edição de 17 de novembro de 2026, atualizada em 19 de novembro de 2026. Dois currículos editáveis em português brasileiro, A4 e com dois PDFs de duas páginas cada.
 
 | Modelo | DOCX | PDF |

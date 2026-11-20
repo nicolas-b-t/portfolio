@@ -2,19 +2,35 @@
   "versao": "V5",
   "edicao": "2026-11-17",
   "atualizado_em": "2026-11-19",
-  "idiomas": ["pt-BR"],
-  "formatos": ["DOCX", "PDF"],
+  "idiomas": [
+    "pt-BR",
+    "en-US"
+  ],
+  "formatos": [
+    "DOCX",
+    "PDF"
+  ],
   "pagina": "A4",
   "fonte": {
     "commit_base": "f26f1ea177e97d6ccebee42ac08e6859000b0a31",
-    "paginas": ["static/pt-BR/index.html", "static/pt-BR/projetos.html"],
-    "registros": ["docs/conteudo-e-fontes.md", "docs/competencias.md"],
+    "paginas": [
+      "static/pt-BR/index.html",
+      "static/pt-BR/projetos.html"
+    ],
+    "registros": [
+      "docs/conteudo-e-fontes.md",
+      "docs/competencias.md"
+    ],
     "telefone": "Curriculos V3 e V4"
   },
   "conteudo": {
     "experiencias": 5,
     "cursos": 18,
-    "projetos": ["Portfólio pessoal", "Optigrow", "SGCS"],
+    "projetos": [
+      "Portfólio pessoal",
+      "Optigrow",
+      "SGCS"
+    ],
     "publicacao": {
       "tipo": "Capitulo de livro em coautoria",
       "ano": 2026,
@@ -22,7 +38,10 @@
     },
     "datas_de_conclusao_dos_cursos": "Omitidas a pedido do responsavel",
     "ingles_conversacional": "Declaracao do responsavel; TOEIC Listening & Reading informado separadamente",
-    "habilidades_praticas_em_destaque": ["Trabalho em altura", "CNH AB"],
+    "habilidades_praticas_em_destaque": [
+      "Trabalho em altura",
+      "CNH AB"
+    ],
     "habilidades_sfia": 7,
     "observacao_sfia": "Autoavaliacao de responsabilidade, nao certificacao"
   },
@@ -52,7 +71,38 @@
       "paginas": 2,
       "origem": "Ajustes manuais do responsavel",
       "publicado_em": "static/assets/curriculos/V5-geral-barra-lateral-pt-BR.pdf"
+    },
+    {
+      "arquivo": "V5-geral-barra-lateral-en-US.docx",
+      "bytes": 40651,
+      "sha256": "9f98f48a5e1639a1d975e6263239b6a0e4ba9d1a201187ad225ca4275a1bb243",
+      "idioma": "en-US"
+    },
+    {
+      "arquivo": "V5-geral-barra-lateral-en-US.pdf",
+      "bytes": 95913,
+      "sha256": "3c6d3e3dcf8c7941115be5d2348e5ce4244b7f609d8103160b7e85f42281cbdb",
+      "idioma": "en-US",
+      "paginas": 2,
+      "origem": "Exportação do DOCX em inglês",
+      "publicado_em": "static/assets/curriculos/V5-geral-barra-lateral-en-US.pdf"
+    },
+    {
+      "arquivo": "V5-geral-padrao-en-US.docx",
+      "bytes": 40355,
+      "sha256": "0694649493d8144b7741e113f2468ab6dd89f80ef1e6fa25dcc0dbf67869eca7",
+      "idioma": "en-US"
+    },
+    {
+      "arquivo": "V5-geral-padrao-en-US.pdf",
+      "bytes": 92353,
+      "sha256": "cb6003ab51bb85107a17a492bb9e9e518622376f271985b4993f412aecf5f72d",
+      "idioma": "en-US",
+      "paginas": 2,
+      "origem": "Exportação do DOCX em inglês",
+      "publicado_em": "static/assets/curriculos/V5-geral-padrao-en-US.pdf"
     }
   ],
-  "verificacao": "Dois PDFs com duas paginas, texto selecionavel, Lattes e DOI clicaveis e copias publicadas com hash identico. Sem inspecao visual nesta atualizacao, por solicitacao do responsavel; paginacao dos DOCX nao verificada. Sem certificacao de acessibilidade ou teste em ATS proprietario."
+  "verificacao": "Dois PDFs com duas paginas, texto selecionavel, Lattes e DOI clicaveis e copias publicadas com hash identico. Sem inspecao visual nesta atualizacao, por solicitacao do responsavel; paginacao dos DOCX nao verificada. Sem certificacao de acessibilidade ou teste em ATS proprietario.",
+  "verificacao_en_US": "Dois PDFs A4 com duas páginas, texto selecionável e links para o Lattes e o DOI. Cópias do site idênticas às fontes."
 }
