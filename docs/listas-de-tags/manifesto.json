@@ -1,8 +1,8 @@
 {
   "data": "2026-10-14",
   "glossario": "docs/listas-de-tags/glossario.json",
-  "sha256_glossario": "5c6ad4755c1799589a5a77b9a337a244ab21d96d9757c151e2c5ad8084853d87",
-  "fonte_sha256_lf": "749812f8fa231d626db0a5dc6f8d2ed963200c2a403d45eed45c57e32a1befef",
+  "sha256_glossario": "324ed0439057b7a1cf98e408ba9180fc7b48351a5a2cddd1597b1d2c1d410c88",
+  "fonte_sha256_lf": "5a2ad9ed0e838499e4d58f124fb4c8fcd3409fb836c7f4a718f33c5804cd2979",
   "arquivos": [
     {
       "idioma": "ru",

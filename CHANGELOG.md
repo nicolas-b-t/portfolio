@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-20 | Harmoniza a terminologia de engenharia de software e desenvolvimento com agentes de IA nas variantes pt-BR e en. Atualiza a página inicial, as fichas de projetos, a rede, o perfil SFIA e as cópias estruturadas. | Pedido do responsável e [referências de terminologia](docs/conteudo-e-fontes.md#projetos). |
 | 2026-11-19 | Publica cinco agradecimentos acadêmicos em `pt-BR` e `en`, com âncoras estáveis, quatro perfis do LinkedIn e acesso pela seção Formação. | Declaração do responsável; [fontes](docs/conteudo-e-fontes.md#agradecimentos-academicos); P-19. |
 | 2026-11-19 | Acrescenta o capítulo publicado sobre gestão condominial, em coautoria, aos dois modelos de currículo V5 em DOCX e PDF, com DOI clicável. Atualiza as cópias de download. | [Página de projetos](static/pt-BR/projetos.html#publicacao-sgcs); [fontes](docs/conteudo-e-fontes.md); manifesto V5. |
 | 2026-11-19 | Promove a estrutura experimental de Projetos em `pt-BR` e de Agradecimentos em `pt-BR` e `en` aos endereços principais. Mantém SGCS antes da Portugal Digital Solutions e retira exemplos sem conteúdo confirmado da rede. | Pedido do responsável; extensão da decisão 0014; [fontes](docs/conteudo-e-fontes.md). |

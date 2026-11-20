@@ -201,9 +201,8 @@ Desenvolvimento com IA
 • Agentes de IA
 • AI agents
 • OpenCode
-Agentes de IA escrevem o código dos meus projetos de software atuais. Meu foco é gestão de projetos e engenharia de software.
-Gerencio o escopo e os entregáveis. Analiso requisitos e especificações e uso personas para entender as necessidades dos usuários.
-Ajusto as instruções, o contexto e o fluxo de trabalho dos agentes. Reviso os resultados com base nos requisitos do projeto.
+Em 2026, passei a usar agentes de IA para escrever o código dos meus projetos. Minhas entregas ganharam qualidade, segurança e agilidade.
+Meu foco é engenharia de software e gestão de projetos. Defino o escopo e planejo o desenvolvimento. Configuro os agentes, orquestro os fluxos de trabalho e valido as entregas.
 
 Desenvolvimento de software
 • Desenvolvimento ágil
@@ -454,7 +453,7 @@ Período: janeiro de 2026 – atual
 Local: Mairiporã, SP, Brasil
 • Cargo declarado: Gestor de tráfego pago
 • Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads, com medição no Google Tag Manager e análise no Google Analytics 4 (GA4).
-• Criei e gerencio o site, as páginas da empresa e o comércio eletrônico no Mercado Livre e na Shopee.
+• Implantei e gerencio o site e as páginas da empresa, além dos canais de venda no Mercado Livre e na Shopee.
 • Digitalizei e organizei o acervo documental, com nuvem e backups físicos, e removi sites obsoletos e cópias com uso indevido da marca.
 • Treinei os sócios administradores em Facebook, Instagram e recursos da Meta. Presto suporte de TI sob demanda para configurar serviços e contas digitais.
 
@@ -474,7 +473,7 @@ Lukos Tecnologia
 Período: setembro de 2025 – dezembro de 2025
 Local: São Paulo, SP, Brasil
 • Cargo declarado: Técnico de suporte Help Desk
-• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei sistemas conforme os requisitos e as necessidades do cliente. Encaminhei chamados para outros níveis de suporte.
+• Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei os sistemas conforme os requisitos dos clientes. Escalonei chamados para outros níveis de suporte.
 • Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.
 • Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.
 
@@ -629,9 +628,9 @@ Projetos
 Projeto pessoal
 
 Este portfólio
-Defini o escopo e orientei os agentes de IA que escreveram o HTML e o CSS. Revisei as alterações com foco em desempenho e acessibilidade.
+Defini o escopo e orquestrei o trabalho dos agentes de IA que implementaram o site em HTML e CSS. Revisei as alterações com foco em desempenho e acessibilidade.
 Está disponível em português (Brasil) e inglês, com as demais variantes em preparação, temas claro e escuro e estilos de impressão.
-O projeto utiliza a infraestrutura do GitHub. O GitHub Actions publica o site no GitHub Pages.
+O GitHub Actions automatiza a publicação no GitHub Pages.
 
 Tecnologias
 • HTML
@@ -668,7 +667,7 @@ Repositório do projeto: https://github.com/nicolas-b-t/portfolio
 Ferramenta de marketing para óticas · Portugal
 
 Optigrow
-O Optigrow é meu primeiro projeto em parceria com meu sócio e amigo Rodrigo Nascimento. Desenvolvemos o projeto de forma colaborativa.
+Colaborei com meu sócio e amigo Rodrigo Nascimento na pesquisa de mercado e no desenvolvimento do produto. Foi nosso primeiro projeto em parceria.
 Estudamos o mercado digital em Portugal. Criamos uma ferramenta de marketing e tecnologia para óticas da região do Porto.
 
 Tecnologias
@@ -693,7 +692,7 @@ Sócio - Consultoria Digital
 Portugal Digital Solutions
 A Portugal Digital Solutions (PDS) é um projeto de consultoria digital para pequenas e médias empresas (PME) em Portugal.
 Planejo o posicionamento, o catálogo de serviços e o processo comercial. A equipe inicial tem dois sócios.
-As ofertas previstas incluem sites institucionais, landing pages e sistemas personalizados. A lista também inclui ERP e ponto de venda (PDV) em SaaS, campanhas publicitárias digitais, redes sociais e consultoria.
+O catálogo previsto inclui sites institucionais, landing pages e software sob medida. Também prevê sistemas de gestão empresarial (ERP) e ponto de venda (PDV) no modelo SaaS. As demais ofertas planejadas são campanhas publicitárias digitais, redes sociais e consultoria.
 O projeto usa o Trello para o acompanhamento estratégico e tático. Os preços, os prazos e a disponibilidade das ofertas ainda estão em definição.
 
 Pesquisa de mercado
@@ -714,9 +713,9 @@ Ferramentas de gestão e pesquisa
 Pesquisa acadêmica · SaaS em desenvolvimento
 
 SGCS — Sistema de Gestão de Chamados para Síndicos
-Nossa equipe desenvolve uma pesquisa acadêmica e um SaaS simples e acessível para síndicos profissionais na Fatec Franco da Rocha. O produto mínimo viável (MVP) está em desenvolvimento.
+A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O trabalho recebeu menção honrosa no VI SIMBAJU, em 2026. O produto segue o modelo de software como serviço (SaaS) e está em desenvolvimento.
 O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda em discussão no Congresso Nacional.
-Gerencio o projeto, coordeno a equipe e acompanho prazos e entregáveis. Também administro e integro as ferramentas de trabalho.
+Gerenciei o projeto, coordenei a equipe e acompanhei o cronograma e os entregáveis. Administrei e integrei as ferramentas do projeto.
 
 Tecnologias de desenvolvimento
 • Google AI Studio
@@ -727,7 +726,7 @@ Tecnologias de desenvolvimento
 Desenvolvimento de software
 • Engenharia de software
 • Engenharia de requisitos
-• Levantamento de requisitos
+• Elicitação de requisitos
 • Requisitos funcionais
 • Requisitos não funcionais
 • Modelagem de processos

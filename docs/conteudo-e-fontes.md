@@ -90,7 +90,10 @@ As demais permanecem conforme o conteúdo aprovado do site.
 Os textos dos projetos e a cópia estruturada ficam nas páginas de [Projetos em português](../static/pt-BR/projetos.html) e [Projects em inglês](../static/en/projetos.html). A página inicial de cada idioma oferece acesso pelo botão de projetos, pelos destaques e pelo rodapé.
 
 O portfólio usa HTML, CSS, GitHub Actions e GitHub Pages.
-Em 20/11/2026, o responsável declarou que usa agentes de IA para escrever o código em seus projetos atuais. Seu trabalho se concentra na gestão de projetos e na engenharia de software. Inclui análise de requisitos, especificações e personas, configuração de agentes e revisão de entregáveis. A configuração abrange instruções, contexto e fluxo de trabalho. Os cursos e a prática em programação integram sua base técnica. O portfólio exemplifica esse método, e a análise de requisitos do SGCS tem autoria de equipe.
+Em 20/11/2026, o responsável declarou que passou a usar agentes de IA em 2026 para escrever o código dos seus projetos. Ele relata ganhos de qualidade, segurança e agilidade nas entregas. Seu trabalho se concentra na gestão de projetos e na engenharia de software. Inclui análise de requisitos, especificações e personas, configuração de agentes e revisão de entregáveis. A configuração abrange instruções, contexto e fluxo de trabalho. Os cursos e a prática em programação integram sua base técnica. O portfólio exemplifica esse método, e a análise de requisitos do SGCS tem autoria de equipe.
+
+A redação do site usa termos de gestão e qualidade de software, como definição de escopo, planejamento e validação. Na ficha do SGCS, elicitação de requisitos descreve a identificação de necessidades por entrevistas e questionários. No portfólio, orquestração descreve a coordenação do trabalho dos agentes de IA. [SWEBOK, IEEE Computer Society](https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics) · [Orquestração de agentes, OpenAI](https://openai.com/index/open-source-codex-orchestration-symphony/)
+
 As otimizações e verificações descritas não constituem certificação integral de acessibilidade.
 
 O desenvolvimento do Optigrow é colaborativo com Rodrigo Nascimento.
@@ -100,7 +103,7 @@ Em 17/11/2026, o responsável definiu a apresentação do Optigrow como ferramen
 
 O SGCS é uma pesquisa acadêmica realizada em equipe na Fatec Franco da Rocha. A equipe desenvolveu um protótipo funcional para registro, classificação e acompanhamento de chamados condominiais.
 Em 17/11/2026, o responsável definiu o produto como SaaS em desenvolvimento. O termo descreve o modelo pretendido do produto; não afirma lançamento comercial.
-A gestão pessoal inclui planejamento, coordenação, prazos, entregáveis e integração de ferramentas.
+A contribuição individual inclui planejamento, coordenação da equipe, acompanhamento do cronograma e dos entregáveis, além de administração e integração de ferramentas.
 As tecnologias e competências dos projetos descrevem seu contexto, sem atribuir domínio individual de todas as ferramentas.
 
 O certificado emitido pela Fatec Franco da Rocha em 17/11/2026 registra a menção honrosa do trabalho apresentado no VI SIMBAJU – Energia e Tecnologia.
