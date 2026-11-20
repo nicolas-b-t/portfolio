@@ -1,7 +1,7 @@
 {
   "versao": "V5",
   "edicao": "2026-11-17",
-  "atualizado_em": "2026-11-19",
+  "atualizado_em": "2026-11-20",
   "idiomas": [
     "pt-BR",
     "en-US"
@@ -15,7 +15,9 @@
     "commit_base": "f26f1ea177e97d6ccebee42ac08e6859000b0a31",
     "paginas": [
       "static/pt-BR/index.html",
-      "static/pt-BR/projetos.html"
+      "static/pt-BR/projetos.html",
+      "static/en/index.html",
+      "static/en/projetos.html"
     ],
     "registros": [
       "docs/conteudo-e-fontes.md",
@@ -48,40 +50,40 @@
   "arquivos": [
     {
       "arquivo": "V5-geral-padrao-pt-BR.docx",
-      "bytes": 40451,
-      "sha256": "c9776a6c09f17593ede3dd06b0872b4098a886db9645e3f5e51481af9b88defd"
+      "bytes": 40458,
+      "sha256": "31d42e0742a779ea0a6161861aa4019a9df4be126bb755af37b2b38203043697"
     },
     {
       "arquivo": "V5-geral-barra-lateral-pt-BR.docx",
-      "bytes": 40731,
-      "sha256": "229a462f8e1d33c85ff187a76142bc52a7870d68c31f6fc3852a6c480d618e0f"
+      "bytes": 40749,
+      "sha256": "d5837ac5dc9c8a58c97601d03c45213d00582ca7f3e65b59347489880d85dd2f"
     },
     {
       "arquivo": "V5-geral-padrao-pt-BR.pdf",
-      "bytes": 323396,
-      "sha256": "a399e3ac6400f3782b13ae1fe60528ae961e1cb250ae47544208d299381b4238",
+      "bytes": 103397,
+      "sha256": "8bbe8ecff24328655c9d359dbb63d8458e8e71252e52baf5f348aad49a29348c",
       "paginas": 2,
-      "origem": "Ajustes manuais do responsavel; link Lattes adicionado em 2026-11-19",
+      "origem": "Exportação do DOCX com preservação dos ajustes de texto da versão publicada em português.",
       "publicado_em": "static/assets/curriculos/V5-geral-padrao-pt-BR.pdf"
     },
     {
       "arquivo": "V5-geral-barra-lateral-pt-BR.pdf",
-      "bytes": 274306,
-      "sha256": "ccafaf3b0736753a6a1fe36974aecc37410b69ca01d55a6b32a5793a289a111a",
+      "bytes": 107206,
+      "sha256": "d7683d9eec11e0b1677a407389d87f7fdb21e4fb2028fbc2e02317877a6389a4",
       "paginas": 2,
-      "origem": "Ajustes manuais do responsavel",
+      "origem": "Exportação do DOCX com preservação dos ajustes de texto da versão publicada em português.",
       "publicado_em": "static/assets/curriculos/V5-geral-barra-lateral-pt-BR.pdf"
     },
     {
       "arquivo": "V5-geral-barra-lateral-en-US.docx",
-      "bytes": 40651,
-      "sha256": "9f98f48a5e1639a1d975e6263239b6a0e4ba9d1a201187ad225ca4275a1bb243",
+      "bytes": 40723,
+      "sha256": "028df9bba714fe14eb621636c4dcc73da01536328741d1a2d03d66ad154fbc5f",
       "idioma": "en-US"
     },
     {
       "arquivo": "V5-geral-barra-lateral-en-US.pdf",
-      "bytes": 95913,
-      "sha256": "3c6d3e3dcf8c7941115be5d2348e5ce4244b7f609d8103160b7e85f42281cbdb",
+      "bytes": 95587,
+      "sha256": "b317d17e300d6976ad82d425ddcae21cced22142d52b6fc024e1d59bc3a9bafe",
       "idioma": "en-US",
       "paginas": 2,
       "origem": "Exportação do DOCX em inglês",
@@ -89,20 +91,20 @@
     },
     {
       "arquivo": "V5-geral-padrao-en-US.docx",
-      "bytes": 40355,
-      "sha256": "0694649493d8144b7741e113f2468ab6dd89f80ef1e6fa25dcc0dbf67869eca7",
+      "bytes": 40425,
+      "sha256": "9c18e11ec3b1199fcbf88eda20492e0215331e459a1d0b38cda1d1be8b124fc2",
       "idioma": "en-US"
     },
     {
       "arquivo": "V5-geral-padrao-en-US.pdf",
-      "bytes": 92353,
-      "sha256": "cb6003ab51bb85107a17a492bb9e9e518622376f271985b4993f412aecf5f72d",
+      "bytes": 92148,
+      "sha256": "f9c39584003fa51dd50a48da6aa412e66b40eba38fe5a4faa4d367abd8b1d0a9",
       "idioma": "en-US",
       "paginas": 2,
       "origem": "Exportação do DOCX em inglês",
       "publicado_em": "static/assets/curriculos/V5-geral-padrao-en-US.pdf"
     }
   ],
-  "verificacao": "Dois PDFs com duas paginas, texto selecionavel, Lattes e DOI clicaveis e copias publicadas com hash identico. Sem inspecao visual nesta atualizacao, por solicitacao do responsavel; paginacao dos DOCX nao verificada. Sem certificacao de acessibilidade ou teste em ATS proprietario.",
-  "verificacao_en_US": "Dois PDFs A4 com duas páginas, texto selecionável e links para o Lattes e o DOI. Cópias do site idênticas às fontes."
+  "verificacao": "PDFs pt-BR com duas páginas A4, texto selecionável, links do Lattes e do DOI e cópias do site com hash idêntico. Layout revisado visualmente.",
+  "verificacao_en_US": "PDFs en-US com duas páginas A4, texto selecionável, links do Lattes e do DOI e cópias do site com hash idêntico. Layout revisado visualmente."
 }

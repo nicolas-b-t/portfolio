@@ -187,6 +187,7 @@ Programação e dados
 • Modelos de dados
 • Python
 Conhecimento introdutório em aprendizado de máquina, conforme a formação.
+Fiz cursos de JavaScript e Python e tenho prática em programação.
 
 Desenvolvimento com IA
 • OpenAI ChatGPT
@@ -200,6 +201,9 @@ Desenvolvimento com IA
 • Agentes de IA
 • AI agents
 • OpenCode
+Agentes de IA escrevem o código dos meus projetos de software atuais. Meu foco é gestão de projetos e engenharia de software.
+Gerencio o escopo e os entregáveis. Analiso requisitos e especificações e uso personas para entender as necessidades dos usuários.
+Ajusto as instruções, o contexto e o fluxo de trabalho dos agentes. Reviso os resultados com base nos requisitos do projeto.
 
 Desenvolvimento de software
 • Desenvolvimento ágil
@@ -625,7 +629,8 @@ Projetos
 Projeto pessoal
 
 Este portfólio
-Site desenvolvido em HTML e CSS, com otimizações de desempenho e acessibilidade. Está disponível em cinco idiomas, com temas claro e escuro e estilos de impressão.
+Defini o escopo e orientei os agentes de IA que escreveram o HTML e o CSS. Revisei as alterações com foco em desempenho e acessibilidade.
+Está disponível em português (Brasil) e inglês, com as demais variantes em preparação, temas claro e escuro e estilos de impressão.
 O projeto utiliza a infraestrutura do GitHub. O GitHub Actions publica o site no GitHub Pages.
 
 Tecnologias

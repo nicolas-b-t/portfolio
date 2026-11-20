@@ -1,5 +1,9 @@
 # Currículo geral V5
 
+## Revisão de 20 de novembro de 2026
+
+Os perfis, as competências e a descrição do portfólio nos quatro modelos registram o uso de agentes de IA para implementar código e o foco do responsável na gestão de projetos e na engenharia de software. Os PDFs em português preservam o texto dos ajustes manuais anteriores nas seções de experiência, projetos e SFIA. Os PDFs permanecem em A4, com duas páginas e texto selecionável. A revisão conferiu o layout, os destinos do Lattes e do DOI e os hashes das cópias oferecidas no site.
+
 ## Edição em inglês
 
 Os dois modelos em inglês dos Estados Unidos preservam a estrutura V5. As competências e os cargos seguem os rótulos da [página em inglês](../../../static/en/index.html), conferidos nas [listas de tags](../../listas-de-tags/README.md). Os títulos dos cursos foram traduzidos para leitura. Nomes de instituições e produtos, códigos SFIA e o título original do livro foram preservados. O capítulo usa o título em inglês publicado pela Aurum.

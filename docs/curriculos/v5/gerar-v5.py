@@ -59,11 +59,18 @@ EXPERIENCE_SUMMARIES = {
     ),
 }
 
+PROFESSIONAL_PROFILE = (
+    "Em projetos de software, agentes de IA escrevem o código. Foco em gestão de projetos "
+    "e engenharia de software. Tenho experiência em suporte de TI, redes, comércio eletrônico "
+    "e tráfego pago. Curso Gestão da Tecnologia da Informação."
+)
+
 PROJECTS = [
     (
         "Portfólio pessoal",
-        "Site pessoal em HTML e CSS, com design responsivo, recursos de acessibilidade e "
-        "publicação por GitHub Actions e GitHub Pages.",
+        "Coordeno o desenvolvimento com agentes de IA deste site em HTML e CSS. "
+        "O site é responsivo e inclui recursos de acessibilidade. "
+        "O GitHub Actions publica o site no GitHub Pages.",
         "https://nicolas-b-t.github.io/portfolio/",
     ),
     (
@@ -92,8 +99,8 @@ SFIA = [
 
 TECHNICAL_SKILLS = [
     ("Gestão de projetos", "Metodologias ágeis, Scrum, metas, coordenação e entregáveis."),
-    ("Desenvolvimento com IA", "Agentes de IA, Codex (OpenAI), Claude Code e OpenCode em desenvolvimento e operações."),
-    ("Desenvolvimento de software", "Especificações, prototipação e produto mínimo viável (MVP)."),
+    ("Desenvolvimento com IA", "Configuração de agentes. Codex (OpenAI), Claude Code e OpenCode."),
+    ("Desenvolvimento de software", "Requisitos, especificações, personas, prototipação e MVP."),
     ("Suporte de TI", "ERP (N1), hospitais (N1/N2), gestão de ativos de TI, incidentes e documentação técnica."),
     ("Redes", "FTTH, LAN, OTDR e configuração de roteadores."),
     ("Ferramentas Microsoft", "Microsoft Word, Microsoft Teams e Microsoft 365."),
@@ -388,10 +395,7 @@ def build_standard() -> Path:
     add(doc, "Nicolas Beraldes Tarifa", "Title")
     contacts(doc)
     heading(doc, "Resumo profissional")
-    add(doc, "Atuo em suporte de TI, redes e gestão de projetos. Desenvolvo este portfólio "
-        "com agentes de IA e aplico ferramentas de IA em rotinas de desenvolvimento e "
-        "operações. Tenho experiência adicional em comércio eletrônico e tráfego pago. "
-        "Curso Gestão da Tecnologia da Informação.")
+    add(doc, PROFESSIONAL_PROFILE)
     experience(doc)
     education(doc)
     skills(doc)
@@ -418,10 +422,7 @@ def build_sidebar() -> Path:
     languages(left, True)
     education(left, True)
     heading(right, "Perfil profissional")
-    add(right, "Atuo em suporte de TI, redes e gestão de projetos. Desenvolvo este portfólio "
-        "com agentes de IA e aplico ferramentas de IA em desenvolvimento e operações. "
-        "Também tenho experiência em comércio eletrônico e tráfego pago. Curso "
-        "Gestão da Tecnologia da Informação.")
+    add(right, PROFESSIONAL_PROFILE)
     experience(right, compact=True)
     remove_empty_cell_start(left)
     remove_empty_cell_start(right)

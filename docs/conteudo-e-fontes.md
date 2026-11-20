@@ -90,6 +90,7 @@ As demais permanecem conforme o conteúdo aprovado do site.
 Os textos dos projetos e a cópia estruturada ficam nas páginas de [Projetos em português](../static/pt-BR/projetos.html) e [Projects em inglês](../static/en/projetos.html). A página inicial de cada idioma oferece acesso pelo botão de projetos, pelos destaques e pelo rodapé.
 
 O portfólio usa HTML, CSS, GitHub Actions e GitHub Pages.
+Em 20/11/2026, o responsável declarou que usa agentes de IA para escrever o código em seus projetos atuais. Seu trabalho se concentra na gestão de projetos e na engenharia de software. Inclui análise de requisitos, especificações e personas, configuração de agentes e revisão de entregáveis. A configuração abrange instruções, contexto e fluxo de trabalho. Os cursos e a prática em programação integram sua base técnica. O portfólio exemplifica esse método, e a análise de requisitos do SGCS tem autoria de equipe.
 As otimizações e verificações descritas não constituem certificação integral de acessibilidade.
 
 O desenvolvimento do Optigrow é colaborativo com Rodrigo Nascimento.
