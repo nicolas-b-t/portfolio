@@ -175,7 +175,7 @@ erDiagram
 | Perfil SFIA em `details` e espelho | `static/pt-BR/index.html:1101` e `:1149` |
 | Cursos em `details` e cópia de impressão | `static/pt-BR/index.html:1282` e `:1392` |
 | Tokens, tema escuro, ícones e impressão | `static/assets/css/styles.css:6`, `:22`, `:146` e `:711` |
-| Workflow copia `static/` e usa permissões mínimas | `.github/workflows/pages.yml:8` e `:33` |
+| Workflow copia `static/` e usa permissões mínimas | `.github/workflows/pages.yml:18` e `:38` |
 | Página 404 com caminhos absolutos | `static/404.html:9` e `:10` |
 | Cache de 600 segundos e publicação sem build | `docs/manutencao.md#serviço` e `docs/manutencao.md#publicação` |
 | Variantes suspensas usam `meta refresh` | `static/es-419/index.html:8` |
