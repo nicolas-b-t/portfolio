@@ -5,6 +5,7 @@ Este README, o catálogo e o índice permanecem como registro.
 Seleção realizada em 30/10/2026 para o portfólio estático HTML/CSS.
 Foram analisados os catálogos de `REPERTORIO_TECNICO` e `fas-doddir`, os sumários e trechos pertinentes das candidatas, além de fontes oficiais complementares.
 O nome `fas-ddoir` informado na solicitação correspondeu à pasta encontrada `fas-doddir`.
+Atualmente, essa coleção está em `REPERTORIO_PUBLICACOES_MILITARES/fas-doddir/`.
 
 São **41 obras ou coleções, 74 arquivos e 66.843.699 bytes (63,75 MiB)** no catálogo.
 O [índice local](indice-local.md) preserva os caminhos originais. O [catálogo](catalogo.json) conserva os identificadores, caminhos de origem, URLs e condições recebidas.

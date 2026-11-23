@@ -4,7 +4,7 @@ Auditoria realizada em 12/11/2026. Este documento reúne método, evidências, a
 
 ## Base disponível
 
-O acervo principal está no `REPERTORIO_TECNICO`, fora do Git e fora de `static/`. Os caminhos abaixo são relativos à raiz desse repertório; os identificadores constam em `catalogo-comum.json`.
+O acervo principal está no `REPERTORIO_TECNICO`, fora do Git e fora de `static/`. Os caminhos abaixo são relativos à raiz desse repertório; os identificadores constam em `00_CONTROLE_E_OPERACAO/catalogo-comum.json`.
 
 | Fonte | Cópia disponível e consulta realizada | Aplicação à auditoria |
 | --- | --- | --- |
