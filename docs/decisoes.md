@@ -156,3 +156,5 @@ Em 23/11/2026, o responsável pediu a edição `CV-NicolasBt-2026-11-01` com bas
 Ainda em 23/11/2026, o responsável pediu a versão `CV-NicolasBt-2026-11-02` para abreviar a indicação de autoavaliação no perfil SFIA. A edição também incorpora o vínculo de prestação de serviços da JH Eletrônico, atualizado no site depois da versão 01. Os quatro PDFs da versão 02 substituem os destinos dos downloads.
 
 Na revisão seguinte, o responsável aprovou um perfil profissional mais próximo do cotidiano de usuários e clientes e a apresentação de suas preferências de desenvolvimento na home. A edição `CV-NicolasBt-2026-11-03` incorpora o novo perfil e substitui os quatro downloads nas variantes ativas.
+
+Depois de avaliar essa redação, o responsável pediu um perfil mais geral e aprovou o texto que apresenta sua atuação em tecnologia, a graduação em andamento e suas experiências sem enumerar critérios de desenvolvimento. A edição `CV-NicolasBt-2026-11-04` aplica o texto aprovado aos quatro currículos e atualiza os downloads em pt-BR e en-US.

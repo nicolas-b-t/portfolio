@@ -4,9 +4,9 @@ Registro de trabalho iniciado em 23/11/2026 a partir das declarações do respon
 
 ## Perfil profissional aprovado para publicação
 
-> Minha experiência em suporte de TI, redes, comércio eletrônico e tráfego pago me aproximou do cotidiano de usuários e clientes. Em projetos de software, procuro entender esse contexto, escolher soluções simples de manter e acompanhar seu uso depois da entrega. Atualmente curso Gestão da Tecnologia da Informação.
+> Trabalho com tecnologia e curso Gestão da Tecnologia da Informação. Já atuei em suporte, redes e comércio eletrônico. Hoje também desenvolvo projetos de software e reúno neste site alguns trabalhos dessa trajetória.
 
-Texto aprovado pelo responsável em 23/11/2026 para o site e a edição `CV-NicolasBt-2026-11-03`. As práticas e preferências abaixo continuam classificadas de acordo com a evidência disponível.
+Texto aprovado pelo responsável em 23/11/2026 para o site e a edição `CV-NicolasBt-2026-11-04`. Substitui o perfil da edição 03, que detalhava preferências de desenvolvimento no resumo. As práticas e preferências abaixo continuam classificadas de acordo com a evidência disponível.
 
 ## Práticas e experiências declaradas
 

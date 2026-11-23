@@ -44,7 +44,7 @@ Comece pelo [índice da documentação formal](documentacao-formal/README.md): o
 | Competências, SFIA e NICE | [Competências](competencias.md) | Explicação |
 | Padrão de HTML e modelos de página | [Padrão de HTML](padrao-html.md), [modelos](modelos/README.md) | Referência |
 | Currículos | [Edições e arquivo](curriculos/README.md) | Referência |
-| Currículo publicado no site | [CV-NicolasBt-2026-11-03](curriculos/CV-NicolasBt-2026-11-03/README.md) | Edição publicada |
+| Currículo publicado no site | [CV-NicolasBt-2026-11-04](curriculos/CV-NicolasBt-2026-11-04/README.md) | Edição publicada |
 | Europass, ATS, fontes externas e repertório técnico | [Referências](referencias/README.md) | Referência |
 | Listas e traduções de tags | [Listas de tags](listas-de-tags/README.md) | Referência |
 | Histórico de mudanças | [CHANGELOG](../CHANGELOG.md) | Referência |

@@ -111,7 +111,7 @@ As citações históricas em [Padrões técnicos](../historico/padroes-tecnicos.
 | Etiquetas de idioma | [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html) |
 | GitHub Pages | [Documentação oficial](https://docs.github.com/en/pages) |
 | Competências | [SFIA e NICE](../competencias.md) |
-| Currículo publicado | [CV-NicolasBt-2026-11-03](../curriculos/CV-NicolasBt-2026-11-03/README.md) |
+| Currículo publicado | [CV-NicolasBt-2026-11-04](../curriculos/CV-NicolasBt-2026-11-04/README.md) |
 
 As cópias integrais anteriores de normas, bases de competências, código de terceiros e relatórios estão no arquivo local descrito em [Histórico](../historico/historico.md).
 Consulte a fonte oficial antes de aplicar uma edição mais recente.

@@ -1,0 +1,77 @@
+{
+  "edicao": "2026-11-04",
+  "data": "2026-11-23",
+  "idiomas": [
+    "pt-BR",
+    "en-US"
+  ],
+  "modelos": [
+    "padrao",
+    "barra-lateral"
+  ],
+  "fonte": {
+    "edicao_anterior": "docs/curriculos/CV-NicolasBt-2026-11-03/manifesto.json",
+    "paginas": [
+      "static/pt-BR/index.html",
+      "static/en/index.html"
+    ],
+    "registro": "docs/conteudo-e-fontes.md"
+  },
+  "conteudo": {
+    "experiencias": 5,
+    "cursos": 18,
+    "projetos": 3,
+    "publicacoes": 1,
+    "habilidades_sfia": 7
+  },
+  "arquivos": [
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-padrao-pt-BR.docx",
+      "bytes": 40372,
+      "sha256": "0e5e535cb48b6470243e147095915b2b7c662258e9ef5edac5e59874b570fe30"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-padrao-pt-BR.pdf",
+      "bytes": 103444,
+      "sha256": "30d8b105e5054a5cee62c50d9d559dfaa7aee44564af9df0ff0bd66ee80e54ab",
+      "paginas": 2,
+      "publicado_em": "static/assets/curriculos/CV-NicolasBt-2026-11-04-padrao-pt-BR.pdf"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.docx",
+      "bytes": 40632,
+      "sha256": "221092295e59a70458806f07d4fdfa2322bfdd008e1ee3c6bf798fe94dd0a9b5"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.pdf",
+      "bytes": 106890,
+      "sha256": "c037f936f0307503c0b8724308705f069bfbb195f4298cf24e3dae581eed86e4",
+      "paginas": 2,
+      "publicado_em": "static/assets/curriculos/CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.pdf"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-padrao-en-US.docx",
+      "bytes": 40336,
+      "sha256": "66411cb76639cb0482f25b8e7f8139074a4c1d1464112f870eb60e0050b0b629"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-padrao-en-US.pdf",
+      "bytes": 91902,
+      "sha256": "e1f4c10715d30f5a7f27bdca7b3561d86f22a455a48fc2dc9d0b2c038f6e24c0",
+      "paginas": 2,
+      "publicado_em": "static/assets/curriculos/CV-NicolasBt-2026-11-04-padrao-en-US.pdf"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-barra-lateral-en-US.docx",
+      "bytes": 40627,
+      "sha256": "b949f471e230e19ae8175c993d8ef13012e332083e8a5f607c20278f125f4dc7"
+    },
+    {
+      "arquivo": "CV-NicolasBt-2026-11-04-barra-lateral-en-US.pdf",
+      "bytes": 95210,
+      "sha256": "a452194277805d29a4fc43561e3f21c9d75c13779b30c150d532bffdf4a580a0",
+      "paginas": 2,
+      "publicado_em": "static/assets/curriculos/CV-NicolasBt-2026-11-04-barra-lateral-en-US.pdf"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # CV NicolasBt · 2026-11 · versão 03
 
-Terceira edição de novembro de 2026, publicada no site. Os quatro modelos derivam da [versão 02](../CV-NicolasBt-2026-11-02/README.md) e apresentam o perfil profissional revisado nas variantes [pt-BR](../../../static/pt-BR/index.html) e [en-US](../../../static/en/index.html).
+Terceira edição de novembro de 2026, publicada anteriormente no site e substituída pela [versão 04](../CV-NicolasBt-2026-11-04/README.md). Os quatro modelos derivam da [versão 02](../CV-NicolasBt-2026-11-02/README.md) e preservam o perfil profissional vigente na época.
 
 | Idioma e modelo | Editável | PDF publicado |
 | --- | --- | --- |
