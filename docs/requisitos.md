@@ -132,7 +132,7 @@ Limites:
 
 ## 11. Pendências
 
-Última revisão: 20/11/2026.
+Última revisão: 23/11/2026.
 Esta é a lista vigente de pendências do projeto.
 Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
 
