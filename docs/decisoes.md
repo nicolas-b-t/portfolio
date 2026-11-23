@@ -22,6 +22,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0013 | Finanças e ferramentas Microsoft como subcategorias | Aceita |
 | 0014 | Páginas experimentais de Projetos e Agradecimentos | Aceita |
 | 0015 | Projetos e publicações nas duas variantes ativas | Aceita |
+| 0016 | Arquivo de currículos legados e nomeação de novas edições | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -140,3 +141,14 @@ Em 19/11/2026, o responsável aprovou a estrutura experimental de Projetos em `p
 ## 0015 — Projetos e publicações nas duas variantes ativas
 
 **Decisão:** manter `projetos.html` em `pt-BR` e `en`, com as mesmas seções e navegação entre idiomas. A página inicial inglesa conserva links nos destinos das âncoras antigas. A antiga página experimental inglesa do SGCS redireciona à ficha oficial.
+
+## 0016 — Arquivo de currículos legados e nomeação de novas edições
+
+**Contexto:** as edições V3, V4 e V5 estavam lado a lado com a próxima edição, sem distinção entre arquivo e trabalho atual.
+**Decisão:** reunir V3, V4 e V5 em `docs/curriculos/cvs-legados/`. Iniciar a próxima edição em `docs/curriculos/CV-NicolasBt-2026-11-01/` e usar `CV-NicolasBt-AAAA-MM-VV` para as edições seguintes. O mês usa dois dígitos e a versão reinicia em `01` a cada mês.
+**Consequências:** links e caminhos dos geradores acompanham o novo local. Os PDFs V5 disponibilizados em `static/assets/curriculos/` continuam sendo a edição publicada até a próxima estar pronta.
+**Confirmação:** conferir links internos, caminhos dos geradores, hashes dos currículos legados e os downloads do site.
+
+### Edição publicada de novembro de 2026
+
+Em 23/11/2026, o responsável pediu a edição `CV-NicolasBt-2026-11-01` com base na V5 e nas informações atuais do site. Os quatro PDFs dessa edição passam a ser os destinos dos downloads nas variantes ativas. Os quatro DOCX e o manifesto ficam na pasta da edição.

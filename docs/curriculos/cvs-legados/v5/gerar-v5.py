@@ -15,7 +15,7 @@ from docx.shared import Cm, Pt, RGBColor
 from lxml import html
 
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = Path(__file__).resolve().parents[4]
 OUT = Path(__file__).resolve().parent
 INDEX = html.parse(str(ROOT / "static/pt-BR/index.html"))
 PROJECT_PAGE = html.parse(str(ROOT / "static/pt-BR/projetos.html"))
@@ -31,12 +31,9 @@ CONTACTS = [
 ]
 
 EXPERIENCE_SUMMARIES = {
-    "Gestor de tráfego pago": (
-        "Criei e gerencio o site e os canais no Mercado Livre e na Shopee. Organizei o "
-        "acervo documental e backups, removi sites obsoletos e cópias com uso indevido "
-        "da marca, treinei os sócios em ferramentas da Meta e presto suporte de TI sob "
-        "demanda. Também planejo e otimizo campanhas no Google Ads e Meta Ads, com "
-        "medição no Google Tag Manager e análise no GA4."
+    "Gestor de tráfego pago - Prestação de serviços": (
+        "Gerencio o site e os canais no Mercado Livre e Shopee, planejo campanhas no "
+        "Google Ads e Meta Ads, treino os sócios e presto suporte de TI sob demanda."
     ),
     "Auxiliar de instalação de fibra óptica": (
         "Instalei e mantive redes FTTH e rádio; lancei cabos drop, fiz conectorização SC/APC, "

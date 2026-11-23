@@ -3,7 +3,7 @@
 Currículo, projetos e registros profissionais em duas variantes ativas: português (Brasil) e inglês. As demais variantes estão em preparação.
 O site usa HTML e CSS, sem JavaScript, backend ou etapa de build.
 
-[Site publicado](https://nicolas-b-t.github.io/portfolio/) · [PDFs V3](docs/curriculos/v3/README.md) · [Documentação](docs/README.md)
+[Site publicado](https://nicolas-b-t.github.io/portfolio/) · [Currículos](docs/curriculos/README.md) · [Documentação](docs/README.md)
 
 ## Executar
 

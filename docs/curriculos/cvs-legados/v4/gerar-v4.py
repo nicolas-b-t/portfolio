@@ -16,7 +16,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import KeepTogether, PageBreak, Paragraph, SimpleDocTemplate, Spacer
 
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = Path(__file__).resolve().parents[4]
 OUTPUT = Path(__file__).resolve().parent / "V4-geral-uma_coluna-pt-BR.pdf"
 INDEX = lhtml.parse(str(ROOT / "static/pt-BR/index.html"))
 PROJECTS = lhtml.parse(str(ROOT / "static/pt-BR/projetos.html"))

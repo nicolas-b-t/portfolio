@@ -121,7 +121,7 @@ Recuperação: publicar a partir de um commit conhecido e conferir as páginas.
 | Situação e pendências | `docs/requisitos.md` §11 | A cada mudança e revisão. |
 | Decisão estrutural | `docs/decisoes.md` | Quando a estrutura muda. |
 | Evidência de verificação | Commit e relatório da sessão | Antes da publicação. |
-| Edição de currículo | `docs/curriculos/v4/manifesto.json` | A cada edição. |
+| Edição de currículo | Manifesto da edição em `docs/curriculos/` | A cada edição. |
 | Incidente | `CHANGELOG.md` | Ao encerrar o incidente. |
 
 ## 10. Lacunas e premissas
@@ -148,7 +148,7 @@ Recuperação: publicar a partir de um commit conhecido e conferir as páginas.
 | CI pendente | `docs/requisitos.md#verificação-e-qualidade` |
 | Sem SLA nem monitoramento contínuo | `docs/manutencao.md#serviço` |
 | Página 404 e `CHANGELOG` desde 02/11/2026 | `docs/requisitos.md#10-verificação-e-limites` |
-| Edição V4 e manifesto | `docs/curriculos/v4/README.md`; `docs/curriculos/v4/manifesto.json` |
+| Edição publicada e manifesto | `docs/curriculos/CV-NicolasBt-2026-11-01/README.md`; `docs/curriculos/CV-NicolasBt-2026-11-01/manifesto.json` |
 | Última entrada do histórico | `CHANGELOG.md` |
 
 ## 12. Referências

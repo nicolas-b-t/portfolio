@@ -15,7 +15,7 @@ from docx.shared import Cm, Pt, RGBColor
 from lxml import html
 
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = Path(__file__).resolve().parents[4]
 OUTPUT_ONE = Path(__file__).resolve().parent / "V4-geral-uma_coluna-pt-BR-rascunho.docx"
 OUTPUT_SIDE = Path(__file__).resolve().parent / "V4-geral_coluna_lateral-pt-BR-rascunho.docx"
 INDEX = html.parse(str(ROOT / "static/pt-BR/index.html"))

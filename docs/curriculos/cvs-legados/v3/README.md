@@ -19,5 +19,5 @@ O responsável autorizou o versionamento dos PDFs. Nenhum deles está excluído 
 Esta pasta acompanha o repositório, fora do site publicado.
 Os vinte arquivos V3 em DOCX e PDF estão na [pasta V3 do Drive](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI).
 
-Para atualização, consulte [Manutenção](../../manutencao.md).
-Para candidaturas, consulte [Europass](../../referencias/README.md#europass) e [ATS](../../referencias/README.md#ats).
+Para atualização, consulte [Manutenção](../../../manutencao.md).
+Para candidaturas, consulte [Europass](../../../referencias/README.md#europass) e [ATS](../../../referencias/README.md#ats).

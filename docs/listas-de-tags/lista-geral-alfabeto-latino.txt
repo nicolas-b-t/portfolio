@@ -26,15 +26,7 @@ Competências e habilidades
 Competências técnicas (Hard skills)
 
 Gestão administrativa e produtividade
-• Arquivamento de documentos
 • Canva
-• Digitalização de documentos
-• Digitalização
-• Escaneamento e digitalização de arquivos
-• Digitization
-• Gerenciamento de arquivos
-• Gestão documental
-• Manage digital documents
 • Google Drive
 • Indicadores estratégicos
 • KPI
@@ -44,7 +36,6 @@ Gestão administrativa e produtividade
 • Melhoria de processos
 • Process improvement
 • Planilhas
-• Organização de arquivos
 • Trello
 • White Belt Six Sigma, introdutório
 • Six Sigma, White Belt introdutório
@@ -82,7 +73,6 @@ Gestão de projetos
 
 Marketing digital e comércio eletrônico
 • Acompanhamento de pedidos
-• Analytics
 • Atendimento B2C e B2B
 • Atendimento comercial
 • B2B sales
@@ -113,8 +103,6 @@ Marketing digital e comércio eletrônico
 • Google Ads
 • Google Ads Editor
 • Google AdWords
-• Google Tag Manager
-• GTM
 • Instagram
 • Lead generation
 • Lead prospecting
@@ -138,7 +126,6 @@ Marketing digital e comércio eletrônico
 • Product registration
 • Prospecção comercial
 • Prospecção de leads
-• Proteção de marca
 • Publicidade digital
 • Redes sociais
 • Revisão pré-expedição
@@ -147,7 +134,6 @@ Marketing digital e comércio eletrônico
 • Sistemas de comércio eletrônico
 • Social media
 • Vendas diretas
-• Web analytics
 Sistemas operacionais
 • Microsoft Windows
 • Windows
@@ -282,12 +268,6 @@ Sistemas para redes
 • Firewall
 
 Suporte de TI
-• Armazenamento em nuvem
-• Cloud storage
-• Backup de dados
-• Data backup
-• Perform backups
-• Backups físicos
 • Configuração de contas digitais
 • Documentação técnica
 • Technical documentation
@@ -441,15 +421,14 @@ A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e m
 
 Experiência profissional
 
-Gestor de tráfego pago
+Gestor de tráfego pago - Prestação de serviços
 
 Aquecedores e Piscinas Mairiporã
 Período: janeiro de 2026 – atual
 Local: Mairiporã, SP, Brasil
-Vínculo: prestação de serviços (sem contrato CLT)
 • Cargo declarado: Gestor de tráfego pago
-• Implantei e gerencio o site, as páginas e os canais no Mercado Livre e Shopee. Planejo, executo e otimizo campanhas no Google Ads e Meta Ads, medidas pelo Google Tag Manager.
-• Treinei os sócios administradores em Facebook, Instagram e Meta e presto suporte de TI a serviços e contas digitais sob demanda. Digitalizei o acervo, organizei cópias na nuvem e backups físicos e removi sites obsoletos e cópias indevidas da marca.
+• Implantei e gerencio o site, as páginas e os canais no Mercado Livre e Shopee. Planejo, executo e otimizo campanhas no Google Ads e Meta Ads.
+• Treinei os sócios administradores em Facebook, Instagram e Meta e presto suporte de TI a serviços e contas digitais sob demanda.
 
 Fiber Optic Installation Assistant
 
@@ -813,7 +792,6 @@ Tags originais do SimplyHired
 • Apoio à auditoria
 • Apoio à criação de dashboards
 • Apoio a tarefas simples de manutenção
-• Arquivamento de documentos
 • Articulação com departamentos internos
 • Atendimento ao Cliente
 • Atendimento ao cliente interno
@@ -832,7 +810,6 @@ Tags originais do SimplyHired
 • Bacharelado em Administração
 • Bacharelado em Ciências Contábeis
 • Bacharelado em Direito
-• Backup de dados
 • Banco de Dados
 • Bootstrap
 • C#
@@ -898,8 +875,6 @@ Tags originais do SimplyHired
 • Diagnóstico e solução de falhas em equipamentos
 • Diagnóstico e solução de problemas
 • Diagnóstico e solução de problemas de rede
-• Digitalização
-• Digitalização de documentos
 • Direito
 • DNS
 • Docker
@@ -924,7 +899,6 @@ Tags originais do SimplyHired
 • Entrada de dados contábeis
 • Escalabilidade
 • Escalonamento de problemas de clientes
-• Escaneamento e digitalização de arquivos
 • Escrita Técnica
 • Espanhol
 • Estatística
@@ -949,7 +923,6 @@ Tags originais do SimplyHired
 • Funções avançadas do Microsoft Excel
 • Garantia de qualidade
 • Geração de relatórios de inteligência de negócios
-• Gerenciamento de arquivos
 • Gerenciamento de chamadas telefônicas
 • Gerenciamento de contas de usuário
 • Gerenciamento de correspondência
@@ -978,9 +951,7 @@ Tags originais do SimplyHired
 • Gestão orçamentária
 • Gestão precisa de registros de transações
 • Git
-• Google Analytics
 • Google Sheets
-• Google Tag Manager
 • Graduação
 • Habilidade de Comunicação
 • Habilidade de Escrita
@@ -1073,7 +1044,6 @@ Tags originais do SimplyHired
 • Operações de manutenção corretiva
 • Oracle
 • Orçamento de projetos
-• Organização de arquivos
 • Organização de documentos financeiros
 • Orientação a visitantes
 • Otimização de fluxos de trabalho

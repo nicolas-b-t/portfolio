@@ -55,6 +55,8 @@ As pastas passaram ao padrão do `AGENTS.md`: minúsculas, sem acentos, com híf
 | `docs/fontes/curriculos/` | `docs/fontes/curriculos-originais/` |
 | `docs/curriculos/v3/<idioma>/` | `docs/curriculos/v3/` |
 
+Em 23/11/2026, as edições V3 a V5 foram reunidas em [Currículos legados](../curriculos/cvs-legados/README.md). Os caminhos acima registram a organização da época.
+
 Em 03/11/2026, o conteúdo de `docs/fontes/` foi movido para `dados-pessoais/fontes/`.
 
 ### Arquivo anterior

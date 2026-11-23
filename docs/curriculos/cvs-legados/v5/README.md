@@ -1,12 +1,18 @@
 # Currículo geral V5
 
+A V5 serviu de base para a edição [CV-NicolasBt-2026-11-01](../../CV-NicolasBt-2026-11-01/README.md), atualmente oferecida no site.
+
+## Revisão de 23 de novembro de 2026
+
+Os quatro DOCX e os quatro PDFs passaram a apresentar Aquecedores e Piscinas Mairiporã com o vínculo no título do cargo e uma descrição curta que acompanha a página vigente. As referências a GA4, Google Tag Manager, acervo, backups e proteção de marca foram retiradas dessa experiência. Os PDFs publicados em `static/assets/curriculos/` são cópias idênticas aos desta pasta. Conferimos texto selecionável, duas páginas A4, links do Lattes e do DOI, hashes e a aparência da área alterada nos quatro PDFs. Os arquivos existentes foram editados para preservar os ajustes manuais das demais seções.
+
 ## Revisão de 20 de novembro de 2026
 
 Os perfis, as competências e a descrição do portfólio nos quatro modelos registram o uso de agentes de IA para implementar código e o foco do responsável na gestão de projetos e na engenharia de software. Os PDFs em português preservam o texto dos ajustes manuais anteriores nas seções de experiência, projetos e SFIA. Os PDFs permanecem em A4, com duas páginas e texto selecionável. A revisão conferiu o layout, os destinos do Lattes e do DOI e os hashes das cópias oferecidas no site.
 
 ## Edição em inglês
 
-Os dois modelos em inglês dos Estados Unidos preservam a estrutura V5. As competências e os cargos seguem os rótulos da [página em inglês](../../../static/en/index.html), conferidos nas [listas de tags](../../listas-de-tags/README.md). Os títulos dos cursos foram traduzidos para leitura. Nomes de instituições e produtos, códigos SFIA e o título original do livro foram preservados. O capítulo usa o título em inglês publicado pela Aurum.
+Os dois modelos em inglês dos Estados Unidos preservam a estrutura V5. As competências e os cargos seguem os rótulos da [página em inglês](../../../../static/en/index.html), conferidos nas [listas de tags](../../../listas-de-tags/README.md). Os títulos dos cursos foram traduzidos para leitura. Nomes de instituições e produtos, códigos SFIA e o título original do livro foram preservados. O capítulo usa o título em inglês publicado pela Aurum.
 
 | Modelo | Editável | PDF |
 | --- | --- | --- |
@@ -26,10 +32,10 @@ Edição de 17 de novembro de 2026, atualizada em 19 de novembro de 2026. Dois c
 
 Os modelos trazem cinco experiências, formação em andamento, competências selecionadas conforme as subcategorias do site, os 18 cursos com título e carga horária, três projetos, uma publicação em coautoria e sete habilidades SFIA identificadas como autoavaliação. Em habilidades práticas e operacionais, destacam trabalho em altura e CNH AB. As datas de conclusão dos cursos foram omitidas a pedido do responsável. A primeira página prioriza perfil e trajetória; a segunda contém cursos, projetos, SFIA e publicação. O modelo padrão mantém leitura linear; o lateral destaca contatos, competências e formação.
 
-A seção Publicação registra o capítulo 39 de <cite>Ciências Humanas, Sociais e Sociais Aplicadas: Pesquisas e Estudos</cite>, publicado pela Aurum Editora em 2026, páginas 550–571, com o [DOI 10.63330/aurumpub.069-039](https://doi.org/10.63330/aurumpub.069-039). O título oficial e a coautoria seguem a [página de projetos](../../../static/pt-BR/projetos.html#publicacao-sgcs) e [Conteúdo e fontes](../../conteudo-e-fontes.md#projetos).
+A seção Publicação registra o capítulo 39 de <cite>Ciências Humanas, Sociais e Sociais Aplicadas: Pesquisas e Estudos</cite>, publicado pela Aurum Editora em 2026, páginas 550–571, com o [DOI 10.63330/aurumpub.069-039](https://doi.org/10.63330/aurumpub.069-039). O título oficial e a coautoria seguem a [página de projetos](../../../../static/pt-BR/projetos.html#publicacao-sgcs) e [Conteúdo e fontes](../../../conteudo-e-fontes.md#projetos).
 
-O responsável escolheu **Este portfólio**, **Optigrow** e **SGCS** entre os quatro projetos da [página de projetos](../../../static/pt-BR/projetos.html). Nesta edição, o primeiro é apresentado como **Portfólio pessoal**. Portugal Digital Solutions permanece no site e não integra esta edição do currículo. Essa seleção não altera o conteúdo publicado.
+O responsável escolheu **Este portfólio**, **Optigrow** e **SGCS** entre os quatro projetos da [página de projetos](../../../../static/pt-BR/projetos.html). Nesta edição, o primeiro é apresentado como **Portfólio pessoal**. Portugal Digital Solutions permanece no site e não integra esta edição do currículo. Essa seleção não altera o conteúdo publicado.
 
-As fontes factuais são a [página pt-BR](../../../static/pt-BR/index.html), a página de projetos, [Conteúdo e fontes](../../conteudo-e-fontes.md) e [Competências](../../competencias.md). O telefone segue os currículos anteriores. O responsável declarou nesta revisão “inglês avançado - conversacional”; o resultado do TOEIC Listening & Reading aparece abaixo, separadamente, sem ser usado para inferir conversação. Os rascunhos V4 serviram apenas como referência de estrutura. O script [gerar-v5.py](gerar-v5.py) gera os dois DOCX a partir do checkout atual e confere a quantidade de experiências, cursos, projetos e publicações; alterar a fonte exige nova revisão editorial e visual.
+As fontes factuais são a [página pt-BR](../../../../static/pt-BR/index.html), a página de projetos, [Conteúdo e fontes](../../../conteudo-e-fontes.md) e [Competências](../../../competencias.md). O telefone segue os currículos anteriores. O responsável declarou nesta revisão “inglês avançado - conversacional”; o resultado do TOEIC Listening & Reading aparece abaixo, separadamente, sem ser usado para inferir conversação. Os rascunhos V4 serviram apenas como referência de estrutura. O script [gerar-v5.py](gerar-v5.py) gera os dois DOCX a partir do checkout atual e confere a quantidade de experiências, cursos, projetos e publicações; alterar a fonte exige nova revisão editorial e visual.
 
 O PDF padrão recebeu ajustes manuais do responsável. Em 19/11/2026, o link do Lattes voltou à linha de contatos desse PDF, sem regenerar o restante do currículo. O DOCX padrão e o modelo com barra lateral já continham o Lattes. A publicação foi acrescentada aos dois DOCX e aos dois PDFs na segunda página. Os PDFs preservam duas páginas e texto selecionável. Cópias de bytes idênticos estão em `static/assets/curriculos/` para o menu de download das páginas pt-BR e en. Nesta atualização, conferimos texto, posição da nova seção, destino clicável do DOI e hashes; não houve inspeção visual, conforme solicitação do responsável. A revisão visual anterior não representa certificação de acessibilidade nem teste em ATS proprietário. Tamanhos e hashes estão no [manifesto](manifesto.json).
