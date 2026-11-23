@@ -180,7 +180,7 @@ Preserve títulos oficiais, instituições, datas, cargas horárias e atributos 
 Confira cada curso uma única vez na impressão, com o controle recolhível aberto e fechado.
 As cargas horárias e a origem das datas estão em [Cursos](conteudo-e-fontes.md#cursos-complementares).
 
-Os [PDFs da edição 2026-11-01](curriculos/CV-NicolasBt-2026-11-01/README.md) estão disponíveis no menu de download das páginas principais pt-BR e en. A página en identifica os PDFs em inglês com `hreflang="en-US"`. Os currículos [V5](curriculos/cvs-legados/v5/README.md), [V4](curriculos/cvs-legados/v4/README.md) e [V3](curriculos/cvs-legados/v3/README.md) permanecem históricos. Cada edição é identificada e não é uma exportação automática de cada alteração do site.
+Os [PDFs da edição 2026-11-02](curriculos/CV-NicolasBt-2026-11-02/README.md) estão disponíveis no menu de download das páginas principais pt-BR e en. A página en identifica os PDFs em inglês com `hreflang="en-US"`. A [edição 2026-11-01](curriculos/CV-NicolasBt-2026-11-01/README.md) e os currículos [V5](curriculos/cvs-legados/v5/README.md), [V4](curriculos/cvs-legados/v4/README.md) e [V3](curriculos/cvs-legados/v3/README.md) permanecem históricos. Cada edição é identificada e não é uma exportação automática de cada alteração do site.
 Ao gerar uma nova edição, confira o conteúdo, a extração textual, as margens e a paginação do DOCX e do PDF.
 Atualize o manifesto da edição e mantenha somente os arquivos necessários.
 Os DOCX V3 estão na [pasta de currículos no Drive](https://drive.google.com/drive/folders/1v7H0YOlGlE_R9osngevcE5LquYOzcIDI). Os rascunhos DOCX do V4 ficam em `docs/curriculos/cvs-legados/v4/`, versionados com o PDF e o manifesto.

@@ -1,6 +1,6 @@
 # CV NicolasBt · 2026-11 · versão 01
 
-Primeira edição de novembro de 2026, publicada no site. Os quatro modelos usam a [V5 legada](../cvs-legados/v5/README.md) como base editorial e foram conferidos com as páginas atuais em [pt-BR](../../../static/pt-BR/index.html) e [en-US](../../../static/en/index.html).
+Primeira edição de novembro de 2026, substituída no site pela [versão 02](../CV-NicolasBt-2026-11-02/README.md). Os quatro modelos usam a [V5 legada](../cvs-legados/v5/README.md) como base editorial e foram conferidos com as páginas em [pt-BR](../../../static/pt-BR/index.html) e [en-US](../../../static/en/index.html) vigentes na data da edição.
 
 | Idioma e modelo | Editável | PDF publicado |
 | --- | --- | --- |

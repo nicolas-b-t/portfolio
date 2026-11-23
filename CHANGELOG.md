@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-23 | Publica a versão 02 dos quatro currículos de novembro. A seção SFIA passa a usar “Autoavaliação:” ou “Self-assessment:”; o cargo na JH Eletrônico inclui o vínculo de prestação de serviços. Atualiza os PDFs oferecidos nas páginas pt-BR e en. | Pedido do responsável; [edição e manifesto](docs/curriculos/CV-NicolasBt-2026-11-02/README.md). |
 | 2026-11-23 | Identifica a experiência na JH Eletrônico como prestação de serviços no título do cargo em pt-BR e como “Contractor” em en-US. Alinha a cópia estruturada e a lista de consulta. | Pedido do responsável; [conteúdo e fontes](docs/conteudo-e-fontes.md#experiência-profissional). |
 | 2026-11-23 | Separa o envio do artefato e o deploy do GitHub Pages em jobs dependentes após falha de leitura do artefato na execução inicial. | [Workflow](.github/workflows/pages.yml); [execução com falha](https://github.com/nicolas-b-t/portfolio/actions/runs/45215014058). |
 | 2026-11-23 | Produz a edição `CV-NicolasBt-2026-11-01` em pt-BR e en-US, nos modelos padrão e barra lateral. Exporta quatro PDFs dos DOCX, registra hashes e atualiza os downloads do site. | Pedido do responsável; [edição e manifesto](docs/curriculos/CV-NicolasBt-2026-11-01/README.md). |
