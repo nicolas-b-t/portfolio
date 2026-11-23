@@ -3,6 +3,8 @@
 Este documento concentra os fatos e limites necessários à manutenção do conteúdo.
 O texto vigente em pt-BR orienta as traduções. As declarações do responsável em `dados-pessoais/fontes/competencias-declaradas.json` preservam as confirmações recebidas.
 
+Em 23/11/2026, o responsável aprovou a revisão do perfil profissional e a substituição da apresentação repetida sobre agentes de IA por uma seção sobre critérios de desenvolvimento. O perfil descreve contato com usuários e clientes, escolha de soluções simples de manter e acompanhamento após a entrega. A seção descreve preferências e práticas relatadas pelo responsável, sem declarar resultados de escala ou desempenho medidos. Os relatos que ainda pedem registros próprios estão em [Relatos profissionais em validação](relatos-profissionais-em-validacao.md).
+
 Em 17/11/2026, o responsável pediu a separação das competências financeiras e das ferramentas Microsoft da subcategoria Gestão administrativa e produtividade. Finanças reúne capitalização, fluxo de caixa e gestão financeira; indicadores estratégicos e melhoria de processos permanecem na subcategoria administrativa. Ferramentas Microsoft reúne os produtos declarados e seus aliases. A versão `en` passa a exibir Microsoft Word e Microsoft 365, já presentes na base `pt-BR`; Office 365 permanece como alias na cópia estruturada.
 
 A versão `en` acompanha as competências vigentes na home oficial `pt-BR`, incluindo White Belt Six Sigma introdutório, autonomia e resolução de problemas, multímetro, manutenção, configuração de contas, suporte remoto e treinamento. O perfil SFIA traduz a mesma autoavaliação, com os mesmos códigos, níveis e evidências, sem atribuir certificação.

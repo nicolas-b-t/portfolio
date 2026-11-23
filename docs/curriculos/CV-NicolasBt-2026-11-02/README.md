@@ -1,6 +1,6 @@
 # CV NicolasBt · 2026-11 · versão 02
 
-Segunda edição de novembro de 2026, publicada no site. Os quatro modelos derivam da [versão 01](../CV-NicolasBt-2026-11-01/README.md) e acompanham o vínculo da JH Eletrônico nas páginas atuais em [pt-BR](../../../static/pt-BR/index.html) e [en-US](../../../static/en/index.html).
+Segunda edição de novembro de 2026, substituída no site pela [versão 03](../CV-NicolasBt-2026-11-03/README.md). Os quatro modelos derivam da [versão 01](../CV-NicolasBt-2026-11-01/README.md) e acompanham o vínculo da JH Eletrônico nas páginas em [pt-BR](../../../static/pt-BR/index.html) e [en-US](../../../static/en/index.html) vigentes na data da edição.
 
 | Idioma e modelo | Editável | PDF publicado |
 | --- | --- | --- |

@@ -148,7 +148,7 @@ Recuperação: publicar a partir de um commit conhecido e conferir as páginas.
 | CI pendente | `docs/requisitos.md#verificação-e-qualidade` |
 | Sem SLA nem monitoramento contínuo | `docs/manutencao.md#serviço` |
 | Página 404 e `CHANGELOG` desde 02/11/2026 | `docs/requisitos.md#10-verificação-e-limites` |
-| Edição publicada e manifesto | `docs/curriculos/CV-NicolasBt-2026-11-02/README.md`; `docs/curriculos/CV-NicolasBt-2026-11-02/manifesto.json` |
+| Edição publicada e manifesto | `docs/curriculos/CV-NicolasBt-2026-11-03/README.md`; `docs/curriculos/CV-NicolasBt-2026-11-03/manifesto.json` |
 | Última entrada do histórico | `CHANGELOG.md` |
 
 ## 12. Referências

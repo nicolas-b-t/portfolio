@@ -154,3 +154,5 @@ Em 19/11/2026, o responsável aprovou a estrutura experimental de Projetos em `p
 Em 23/11/2026, o responsável pediu a edição `CV-NicolasBt-2026-11-01` com base na V5 e nas informações atuais do site. Os quatro PDFs dessa edição passam a ser os destinos dos downloads nas variantes ativas. Os quatro DOCX e o manifesto ficam na pasta da edição.
 
 Ainda em 23/11/2026, o responsável pediu a versão `CV-NicolasBt-2026-11-02` para abreviar a indicação de autoavaliação no perfil SFIA. A edição também incorpora o vínculo de prestação de serviços da JH Eletrônico, atualizado no site depois da versão 01. Os quatro PDFs da versão 02 substituem os destinos dos downloads.
+
+Na revisão seguinte, o responsável aprovou um perfil profissional mais próximo do cotidiano de usuários e clientes e a apresentação de suas preferências de desenvolvimento na home. A edição `CV-NicolasBt-2026-11-03` incorpora o novo perfil e substitui os quatro downloads nas variantes ativas.

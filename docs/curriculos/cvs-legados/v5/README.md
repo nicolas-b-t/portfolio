@@ -1,6 +1,6 @@
 # Currículo geral V5
 
-A V5 serviu de base para a edição [CV-NicolasBt-2026-11-01](../../CV-NicolasBt-2026-11-01/README.md), seguida pela [versão 02](../../CV-NicolasBt-2026-11-02/README.md), atualmente oferecida no site.
+A V5 serviu de base para a edição [CV-NicolasBt-2026-11-01](../../CV-NicolasBt-2026-11-01/README.md), seguida pela [versão 02](../../CV-NicolasBt-2026-11-02/README.md) e pela [versão 03](../../CV-NicolasBt-2026-11-03/README.md), atualmente oferecida no site.
 
 ## Revisão de 23 de novembro de 2026
 

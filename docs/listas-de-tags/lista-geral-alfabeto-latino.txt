@@ -9,7 +9,7 @@ Instrução: Preserve os níveis de conhecimento e a atribuição individual ou 
 Instrução: Não interprete formação em andamento como formação concluída.
 
 Nicolas Beraldes Tarifa
-Tenho experiência em suporte técnico de TI em hospitais, help desk para ERP e PDV e infraestrutura de redes. Curso Gestão da Tecnologia da Informação.
+Minha experiência em suporte de TI, redes, comércio eletrônico e tráfego pago me aproximou do cotidiano de usuários e clientes. Em projetos de software, procuro entender esse contexto, escolher soluções simples de manter e acompanhar seu uso depois da entrega. Atualmente curso Gestão da Tecnologia da Informação.
 
 Contato
 • E-mail — beraldesnicolas@gmail.com
@@ -18,8 +18,11 @@ Contato
 • Currículo Lattes — lattes.cnpq.br/1293729943180703 — https://lattes.cnpq.br/1293729943180703
 
 Resumo profissional
-Atuo em suporte de TI, infraestrutura de redes e comércio eletrônico.
-Valorizo soluções simples e robustas, código claro e segurança por padrão. Sempre que possível, considero tecnologias de código aberto a melhor opção pela transparência e pela possibilidade de auditoria.
+Minha experiência em suporte de TI, redes, comércio eletrônico e tráfego pago me aproximou do cotidiano de usuários e clientes. Em projetos de software, procuro entender esse contexto, escolher soluções simples de manter e acompanhar seu uso depois da entrega. Atualmente curso Gestão da Tecnologia da Informação.
+
+Como penso o desenvolvimento
+Antes de escolher a tecnologia, procuro entender como o trabalho acontece, quem vai usar a solução e o que precisa mudar. Prefiro arquiteturas enxutas, fáceis de manter e capazes de crescer conforme a demanda.
+Para mim, o desenvolvimento continua depois da publicação. Acompanho o funcionamento, testo limites e converso com o cliente para ajustar o sistema quando a rotina muda.
 
 Competências e habilidades
 

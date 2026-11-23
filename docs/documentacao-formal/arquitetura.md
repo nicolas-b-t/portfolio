@@ -180,7 +180,7 @@ erDiagram
 | Cache de 600 segundos e publicação sem build | `docs/manutencao.md#serviço` e `docs/manutencao.md#publicação` |
 | Variantes suspensas usam `meta refresh` | `static/es-419/index.html:8` |
 | 8 decisões registradas | `docs/decisoes.md#decisões-de-arquitetura` |
-| Edição publicada e manifesto | `docs/curriculos/CV-NicolasBt-2026-11-02/README.md`; `docs/curriculos/CV-NicolasBt-2026-11-02/manifesto.json` |
+| Edição publicada e manifesto | `docs/curriculos/CV-NicolasBt-2026-11-03/README.md`; `docs/curriculos/CV-NicolasBt-2026-11-03/manifesto.json` |
 
 ## 12. Referências
 
