@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-23 | Condensa a experiência em Aquecedores e Piscinas Mairiporã em dois parágrafos, com destaque para implantação e gestão dos canais digitais e treinamento dos sócios. Retira GA4 da apresentação e explicita a prestação de serviços sem contrato CLT em pt-BR e en. Alinha a lista de consulta e as cópias estruturadas. | Pedido do responsável; [conteúdo e fontes](docs/conteudo-e-fontes.md#experiência-profissional). |
 | 2026-11-20 | Harmoniza a terminologia de engenharia de software e desenvolvimento com agentes de IA nas variantes pt-BR e en. Atualiza a página inicial, as fichas de projetos, a rede, o perfil SFIA e as cópias estruturadas. | Pedido do responsável e [referências de terminologia](docs/conteudo-e-fontes.md#projetos). |
 | 2026-11-19 | Publica cinco agradecimentos acadêmicos em `pt-BR` e `en`, com âncoras estáveis, quatro perfis do LinkedIn e acesso pela seção Formação. | Declaração do responsável; [fontes](docs/conteudo-e-fontes.md#agradecimentos-academicos); P-19. |
 | 2026-11-19 | Acrescenta o capítulo publicado sobre gestão condominial, em coautoria, aos dois modelos de currículo V5 em DOCX e PDF, com DOI clicável. Atualiza as cópias de download. | [Página de projetos](static/pt-BR/projetos.html#publicacao-sgcs); [fontes](docs/conteudo-e-fontes.md); manifesto V5. |

@@ -31,9 +31,11 @@ Os relatórios profissionais recebidos do Google Drive estão catalogados em `da
 - Decisão em 03/11/2026: inserir a atuação no final da experiência em pt-BR (ordem cronológica inversa, após Instituto Alpha) e reproduzir os mesmos fatos na cópia estruturada e na lista de consulta. Tags de e-commerce e vendas incorporadas na subcategoria “Tráfego pago, análise digital e comércio eletrônico”. Proposta de acordo com Mercado Livre não foi aprovada pelo responsável da empresa; bloqueio permaneceu. Repasses monetários e negociações dependiam de autorização.
 
 - Vínculos e locais confirmados pelo responsável em 06/11/2026: Aquecedores e Piscinas Mairiporã, prestação de serviços, Mairiporã (SP); Lukos Tecnologia, CLT, São Paulo (SP); Instituto Alpha de Saúde Integral, CLT, São Paulo (SP); RealFort Sistemas, prestação de serviços, São Paulo (SP). Em 12/11/2026, o responsável decidiu não registrar o vínculo empregatício; o campo foi removido da tela, da cópia oculta e da lista de consulta. Os locais permanecem.
+- Em 23/11/2026, o responsável pediu para retirar GA4 da apresentação, reduzir a descrição de Aquecedores e Piscinas Mairiporã e explicitar que essa atuação é prestação de serviços, sem contrato CLT. A orientação atual substitui a decisão de 12/11/2026 para essa experiência. As descrições e o vínculo foram alinhados na tela, no resumo estruturado e na lista de consulta de pt-BR, além da tela e do resumo de en. As tags de GA4 e Google Analytics associadas a essa experiência foram retiradas das variantes ativas e da lista de consulta. Os registros anteriores nesta seção documentam a origem e a evolução do conteúdo.
+- No mesmo dia, o responsável limitou a descrição a dois parágrafos, com destaque para implantação e gestão dos canais digitais e treinamento dos sócios. As duas atividades correspondentes permanecem alinhadas na página visível, no resumo estruturado e na lista de consulta em pt-BR, além da versão en.
 
 Os cargos, datas e locais pessoais devem seguir as páginas e as declarações aprovadas.
-O vínculo empregatício não é registrado.
+O vínculo da experiência em Aquecedores e Piscinas Mairiporã é exibido como prestação de serviços, sem contrato CLT.
 Não acrescente certificações de segurança ou habilitações profissionais a partir de fotografias ou descrições de atividades.
 
 ## Formação e idiomas

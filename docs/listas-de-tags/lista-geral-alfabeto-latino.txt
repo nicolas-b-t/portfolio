@@ -106,7 +106,6 @@ Marketing digital e comércio eletrônico
 • ERP Bling
 • Facebook
 • Facebook Ads
-• GA4
 • Gerenciador de Anúncios
 • Gestão de catálogo
 • Gestão de pedidos
@@ -114,8 +113,6 @@ Marketing digital e comércio eletrônico
 • Google Ads
 • Google Ads Editor
 • Google AdWords
-• Google Analytics
-• Google Analytics 4 (GA4)
 • Google Tag Manager
 • GTM
 • Instagram
@@ -449,11 +446,10 @@ Gestor de tráfego pago
 Aquecedores e Piscinas Mairiporã
 Período: janeiro de 2026 – atual
 Local: Mairiporã, SP, Brasil
+Vínculo: prestação de serviços (sem contrato CLT)
 • Cargo declarado: Gestor de tráfego pago
-• Planejo, executo e otimizo campanhas no Google Ads e no Meta Ads, com medição no Google Tag Manager e análise no Google Analytics 4 (GA4).
-• Implantei e gerencio o site e as páginas da empresa, além dos canais de venda no Mercado Livre e na Shopee.
-• Digitalizei e organizei o acervo documental, com nuvem e backups físicos, e removi sites obsoletos e cópias com uso indevido da marca.
-• Treinei os sócios administradores em Facebook, Instagram e recursos da Meta. Presto suporte de TI sob demanda para configurar serviços e contas digitais.
+• Implantei e gerencio o site, as páginas e os canais no Mercado Livre e Shopee. Planejo, executo e otimizo campanhas no Google Ads e Meta Ads, medidas pelo Google Tag Manager.
+• Treinei os sócios administradores em Facebook, Instagram e Meta e presto suporte de TI a serviços e contas digitais sob demanda. Digitalizei o acervo, organizei cópias na nuvem e backups físicos e removi sites obsoletos e cópias indevidas da marca.
 
 Fiber Optic Installation Assistant
 
