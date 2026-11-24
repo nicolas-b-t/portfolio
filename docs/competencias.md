@@ -2,7 +2,7 @@
 
 Este documento explica o SFIA e o NICE, sua utilidade e a forma de aplicação neste projeto.
 As declarações factuais continuam em `dados-pessoais/fontes/competencias-declaradas.json` (local, ignorado pelo Git).
-Consulte as [habilidades com comprovação pendente](pendencias.html#habilidades).
+Consulte as [habilidades com comprovação pendente](../static/pt-BR/documentacao/pendencias.html#habilidades).
 
 Os frameworks são lentes de organização. Não são certificação, avaliação de proficiência ou prova de experiência.
 

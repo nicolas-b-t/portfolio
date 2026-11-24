@@ -181,4 +181,4 @@ O peso é informativo, não uma meta de desempenho.
 - As decisões D-01 a D-37 continuam válidas enquanto não forem superadas.
 - As citações da base local usam o caminho anterior ao arquivamento; o conteúdo está em `_arquivo/`.
 - O inventário de dados, o modelo de ameaças e o plano de incidente completos estão no texto integral.
-- Consulte a [lista vigente de pendências](../pendencias.html).
+- Consulte a [lista vigente de pendências](../../static/pt-BR/documentacao/pendencias.html).

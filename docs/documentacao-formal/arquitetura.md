@@ -156,10 +156,10 @@ erDiagram
 
 ## 10. Lacunas e premissas
 
-- A verificação é manual. A [P-08](../pendencias.html#verificacoes-automatizadas) registra a automatização.
-- A auditoria conferiu a hierarquia dos títulos. A [P-06](../pendencias.html#validacao-html) registra a validação formal do HTML.
-- O ensaio com leitor de tela está na [P-05](../pendencias.html#ensaios-acessibilidade).
-- O responsável confirmou o 2FA e a proteção da `main` em 24/11/2026 ([PR-04](../pendencias.html#protecao-main)).
+- A verificação é manual. A [P-08](../../static/pt-BR/documentacao/pendencias.html#verificacoes-automatizadas) registra a automatização.
+- A auditoria conferiu a hierarquia dos títulos. A [P-06](../../static/pt-BR/documentacao/pendencias.html#validacao-html) registra a validação formal do HTML.
+- O ensaio com leitor de tela está na [P-05](../../static/pt-BR/documentacao/pendencias.html#ensaios-acessibilidade).
+- O responsável confirmou o 2FA e a proteção da `main` em 24/11/2026 ([PR-04](../../static/pt-BR/documentacao/pendencias.html#protecao-main)).
 - A base técnica v2.0 está catalogada, mas o conteúdo foi arquivado fora deste checkout.
 - O PDF V4 e o manifesto não incorporam as mudanças dos rascunhos DOCX.
 - A documentação não é publicada; o site publica somente `static/`.

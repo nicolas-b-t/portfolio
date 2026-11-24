@@ -169,8 +169,12 @@ Os dois endereços usam `noindex`, acesso direto e links para comparar com as p�
 
 Após avaliar a prévia de Projetos, o responsável substituiu o índice por dois grupos recolhíveis na mesma página. **Ver meus projetos** abre as fichas de projetos. **Ver minhas pesquisas** abre a seção de pesquisas e publicações. Os grupos começam fechados e as âncoras levam às fichas e publicações correspondentes.
 
+O atalho ⇄ no rodapé da página inicial de pt-BR abre o painel experimental. O atalho correspondente em Projetos abre a prévia de Projetos e Pesquisas.
+
 ## 0018 — Guia público de documentação na área experimental
 
 Em 24/11/2026, o responsável autorizou a publicação de uma seleção da documentação técnica. O [guia experimental](../static/pt-BR/documentacao/index.html) apresenta versões públicas de Requisitos, Personas, Arquitetura e Evolução. Os links para o guia ficam no painel e na página de Projetos e Pesquisas experimentais. As páginas do guia usam `noindex` e o CSS comum do site.
 
 Ao atualizar o guia, revise a versão pública de cada documento e confira seus links. O workflow publica os arquivos revisados em `static/`.
+
+As páginas [Pendências](../static/pt-BR/documentacao/pendencias.html) e [Roadmap](../static/pt-BR/documentacao/roadmap.html) integram o guia e usam a mesma navegação. As fontes da documentação do repositório são vinculadas no GitHub.

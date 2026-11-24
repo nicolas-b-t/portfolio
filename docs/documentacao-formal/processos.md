@@ -118,7 +118,7 @@ Recuperação: publicar a partir de um commit conhecido e conferir as páginas.
 | Registro | Onde fica | Quando é atualizado |
 | --- | --- | --- |
 | Histórico de mudanças | `CHANGELOG.md` | A cada mudança publicada. |
-| Situação e pendências | [Pendências](../pendencias.html) | A cada mudança e revisão. |
+| Situação e pendências | [Pendências](../../static/pt-BR/documentacao/pendencias.html) | A cada mudança e revisão. |
 | Decisão estrutural | `docs/decisoes.md` | Quando a estrutura muda. |
 | Evidência de verificação | Commit e relatório da sessão | Antes da publicação. |
 | Edição de currículo | Manifesto da edição em `docs/curriculos/` | A cada edição. |
@@ -126,11 +126,11 @@ Recuperação: publicar a partir de um commit conhecido e conferir as páginas.
 
 ## 10. Lacunas e premissas
 
-- A verificação é manual. A [P-08](../pendencias.html#verificacoes-automatizadas) registra a automatização.
-- O responsável confirmou o 2FA e a proteção da `main` em 24/11/2026 ([PR-04](../pendencias.html#protecao-main)).
-- A cópia externa da base arquivada está pendente ([P-04](../pendencias.html#copia-externa)).
-- Os ensaios de zoom, tema escuro, impressão e leitor de tela estão na [P-05](../pendencias.html#ensaios-acessibilidade).
-- A validação de HTML e os ensaios em navegador e celular estão parciais ([P-06](../pendencias.html#validacao-html), [P-07](../pendencias.html#ensaio-navegador-celular)).
+- A verificação é manual. A [P-08](../../static/pt-BR/documentacao/pendencias.html#verificacoes-automatizadas) registra a automatização.
+- O responsável confirmou o 2FA e a proteção da `main` em 24/11/2026 ([PR-04](../../static/pt-BR/documentacao/pendencias.html#protecao-main)).
+- A cópia externa da base arquivada está pendente ([P-04](../../static/pt-BR/documentacao/pendencias.html#copia-externa)).
+- Os ensaios de zoom, tema escuro, impressão e leitor de tela estão na [P-05](../../static/pt-BR/documentacao/pendencias.html#ensaios-acessibilidade).
+- A validação de HTML e os ensaios em navegador e celular estão parciais ([P-06](../../static/pt-BR/documentacao/pendencias.html#validacao-html), [P-07](../../static/pt-BR/documentacao/pendencias.html#ensaio-navegador-celular)).
 - Não há SLA nem monitoramento contínuo; a resposta a incidente é de até um dia.
 
 ## 11. Rastreabilidade das afirmações
@@ -144,8 +144,8 @@ Recuperação: publicar a partir de um commit conhecido e conferir as páginas.
 | Incidente e comunicação em um dia | `docs/manutencao.md#incidente` |
 | Severidade e prioridade de defeito | `docs/manutencao.md#defeitos` |
 | Duas variantes ativas | `docs/requisitos.md#6-requisitos-funcionais`; `docs/decisoes.md#0008--publicação-temporária-de-duas-variantes` |
-| 2FA e proteção da `main` | [NFR-08](../requisitos.md#7-requisitos-não-funcionais) e [PR-04](../pendencias.html#protecao-main) |
-| CI pendente | [P-08](../pendencias.html#verificacoes-automatizadas) |
+| 2FA e proteção da `main` | [NFR-08](../requisitos.md#7-requisitos-não-funcionais) e [PR-04](../../static/pt-BR/documentacao/pendencias.html#protecao-main) |
+| CI pendente | [P-08](../../static/pt-BR/documentacao/pendencias.html#verificacoes-automatizadas) |
 | Sem SLA nem monitoramento contínuo | `docs/manutencao.md#serviço` |
 | Página 404 e `CHANGELOG` desde 02/11/2026 | `docs/requisitos.md#10-verificação-e-limites` |
 | Edição publicada e manifesto | `docs/curriculos/CV-NicolasBt-2026-11-04/README.md`; `docs/curriculos/CV-NicolasBt-2026-11-04/manifesto.json` |

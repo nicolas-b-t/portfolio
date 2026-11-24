@@ -98,7 +98,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | NFR-05 | O layout funciona de 320 CSS px até tela ampla, sem rolagem horizontal. | Essencial | WCAG 2.2; auditoria de 02/11/2026. | A 320 CSS px, o conteúdo fica legível e sem transbordamento horizontal. | Vigente. |
 | NFR-06 | O site respeita tema claro, tema escuro, impressão e `prefers-reduced-motion`. | Esperado | `static/assets/css/styles.css`; AGENTS.md. | As quatro condições funcionam nas páginas conferidas. | Vigente. |
 | NFR-07 | O HTML é semântico, com hierarquia de títulos e um `h1` por página. | Essencial | HTML Living Standard; AGENTS.md. | Cada página tem um `h1`; a hierarquia não salta níveis sem motivo; o HTML passa em uma validação declarada e registrada. | Parcial; validação pendente. |
-| NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | Vigente. O responsável confirmou o encerramento de [PR-04](pendencias.html#protecao-main) em 24/11/2026. |
+| NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | Vigente. O responsável confirmou o encerramento de [PR-04](../static/pt-BR/documentacao/pendencias.html#protecao-main) em 24/11/2026. |
 | NFR-09 | O site não usa cookies nem analytics e mantém os dados publicados como estão. | Essencial | D-12; auditoria de 02/11/2026. | Nenhum cookie ou analytics; dados publicados conforme a decisão; dados sensíveis só em cópia local. | Vigente. |
 | NFR-10 | O projeto mantém um CSS, documentação indexada, `CHANGELOG` e nenhuma etapa de build. | Esperado | AGENTS.md; D-11. | Um CSS comum; documentos ligados no índice; `CHANGELOG` atualizado; publicação sem build. | Vigente; `CHANGELOG` criado em 02/11/2026. |
 | NFR-11 | O site funciona nos navegadores atuais e em celular. | Esperado | D-23; R06; Q3. | Ensaio em LibreWolf e em navegador atual; limitação registrada quando não houver cobertura. | Parcial; ensaio no LibreWolf e registro anterior no Chromium. |
@@ -132,5 +132,5 @@ Limites:
 
 ## 11. Pendências
 
-As tarefas técnicas, as comprovações de habilidades e os itens resolvidos estão na [página de pendências](pendencias.html).
-O [roadmap](roadmap.html) reúne os marcos do projeto e a sequência proposta para o trabalho restante.
+As tarefas técnicas, as comprovações de habilidades e os itens resolvidos estão na [página de pendências](../static/pt-BR/documentacao/pendencias.html).
+O [roadmap](../static/pt-BR/documentacao/roadmap.html) reúne os marcos do projeto e a sequência proposta para o trabalho restante.

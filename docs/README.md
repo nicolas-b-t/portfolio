@@ -10,8 +10,8 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | --- | --- |
 | alterar o site | [Manutenção](manutencao.md) |
 | conferir um fato ou uma atribuição | [Conteúdo e fontes](conteudo-e-fontes.md) |
-| consultar tarefas vigentes, itens resolvidos e comprovações de habilidades | [Pendências](pendencias.html) |
-| acompanhar os marcos e próximos passos do portfólio | [Roadmap](roadmap.html) |
+| consultar tarefas vigentes, itens resolvidos e comprovações de habilidades | [Pendências](https://nicolas-b-t.github.io/portfolio/pt-BR/documentacao/pendencias.html) |
+| acompanhar os marcos e próximos passos do portfólio | [Roadmap](https://nicolas-b-t.github.io/portfolio/pt-BR/documentacao/roadmap.html) |
 | entender uma decisão | [Decisões](decisoes.md) |
 | escrever ou revisar um texto | [Manutenção](manutencao.md), seção Redação |
 | adicionar conteúdo novo | [Padrão de HTML](padrao-html.md) |
@@ -61,7 +61,7 @@ Comece pelo [índice da documentação formal](documentacao-formal/README.md): o
 ## Notas
 
 O GitHub Pages publica somente `static/`.
-Para ver as páginas de planejamento com o estilo do portfólio, abra `docs/pendencias.html` ou `docs/roadmap.html` no navegador a partir de uma cópia do repositório.
+As páginas de planejamento integram o [guia de documentação técnica](https://nicolas-b-t.github.io/portfolio/pt-BR/documentacao/). Os arquivos HTML ficam em `static/pt-BR/documentacao/`.
 Planos substituídos, caches e relatórios antigos ficam fora da árvore ativa.
 A base técnica foi arquivada em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/`.
 O catálogo e o índice ficam em `docs/referencias/repertorio-tecnico-site/`; os dados pessoais ficam em `dados-pessoais/`, ignorados pelo Git.
