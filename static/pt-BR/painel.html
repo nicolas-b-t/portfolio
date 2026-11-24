@@ -3,15 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nicolas Beraldes Tarifa — Currículo e Portfólio</title>
+  <title>Nicolas Beraldes Tarifa — Painel experimental</title>
   <meta name="description" content="Trabalho com tecnologia e curso Gestão da Tecnologia da Informação. Já atuei em suporte, redes e comércio eletrônico e hoje também desenvolvo projetos de software.">
+  <meta name="robots" content="noindex">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20261114-sem-arte">
-  <link rel="alternate" hreflang="pt-BR" href="index.html">
-  <link rel="alternate" hreflang="en-US" href="../en/index.html">
-  <link rel="alternate" hreflang="x-default" href="../index.html">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20261124-previas">
 </head>
-<body class="style-lab">
+<body class="style-lab preview-page preview-home">
   <a class="skip-link" href="#main">Ir para o conteúdo</a>
   <!-- Cópia hierárquica dos dados públicos. Conteúdo oculto pode ser ignorado por extratores. -->
   <section id="dados-curriculo" hidden="">
@@ -824,16 +822,19 @@
   </header>
 
   <main id="main" tabindex="-1">
-    <section class="hero panel wrap" aria-labelledby="painel-nome">
+    <section id="visao-geral" class="hero panel wrap" aria-labelledby="painel-nome" tabindex="-1">
       <div class="panel-main">
-        <p class="kicker">Portfólio profissional</p>
+        <p class="kicker noprint">Prévia da página inicial</p>
         <h1 id="painel-nome">Nicolas Beraldes Tarifa</h1>
-        <p class="lead">Trabalho com tecnologia e curso Gestão da Tecnologia da Informação. Já atuei em suporte, redes e comércio eletrônico. Hoje também desenvolvo projetos de software e reúno neste site alguns trabalhos dessa trajetória.</p>
+        <p class="lead">Trabalho com tecnologia e curso Gestão da Tecnologia da Informação.</p>
+        <nav class="hero-actions preview-primary" aria-label="Ações principais">
+          <a class="btn" href="#experiencia">Experiência</a>
+          <a class="btn ghost" href="projetos-experimental.html">Projetos</a>
+          <a class="btn ghost" href="#contato">Contato</a>
+        </nav>
+        <p class="preview-context">Já atuei em suporte, redes e comércio eletrônico. Hoje também desenvolvo projetos de software e reúno neste site alguns trabalhos dessa trajetória.</p>
         <p class="panel-now"><strong>Atualmente:</strong> gestor de tráfego pago na Aquecedores e Piscinas Mairiporã, desde <time datetime="2026-01">janeiro de 2026</time>.</p>
         <div class="hero-actions">
-          <a class="btn" href="#experiencia">Ver experiência</a>
-          <a class="btn ghost" href="#contato">Fale comigo</a>
-          <a class="btn ghost" href="projetos.html">Meus projetos</a>
           <a class="btn ghost" href="rede.html">Minha rede</a>
           <details class="cv-download">
             <summary class="btn ghost">Baixar currículo</summary>
@@ -882,15 +883,15 @@
             <article class="card">
               <p class="meta">Ferramenta de marketing para óticas · Portugal</p>
               <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
-              <p>Criamos uma ferramenta de marketing e tecnologia para óticas da região do Porto. <a href="projetos.html#optigrow">Ver ficha</a></p>
+              <p>Criamos uma ferramenta de marketing e tecnologia para óticas da região do Porto. <a href="projetos-experimental.html#optigrow">Ver ficha do Optigrow</a></p>
             </article>
             <article class="card">
               <p class="meta">Pesquisa acadêmica · SaaS em desenvolvimento</p>
               <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
-              <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. <a href="projetos.html#proximos-projetos">Ver ficha</a></p>
+              <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. <a href="projetos-experimental.html#proximos-projetos">Ver ficha do SGCS</a></p>
             </article>
           </div>
-          <p class="panel-more"><a href="projetos.html">Ver todos os projetos</a></p>
+          <p class="panel-more"><a href="projetos-experimental.html">Ver todos os projetos</a></p>
         </div>
       </div>
     </section>
@@ -976,6 +977,7 @@
           <p>Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.</p>
         </li>
       </ol>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
     </section>
 
     <section id="habilidades" class="wrap">
@@ -1330,6 +1332,7 @@
         </ul>
         <p class="sfia-note">Níveis 2 e 3.</p>
       </section>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
     </section>
 
 
@@ -1607,6 +1610,7 @@
       <h3 data-icon="languages">Inglês — <span lang="en">TOEIC Listening &amp; Reading</span></h3>
       <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Aplicado pelo <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
       <p>Total: <strong>910 pontos</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
     </section>
 
 
@@ -1624,7 +1628,8 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p class="noprint"><a href="projetos.html">Projetos</a> · <a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
+      <p class="noprint"><a href="projetos-experimental.html">Projetos</a> · <a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
+      <p class="noprint"><a href="index.html"><span aria-hidden="true">⇄ </span>Comparar com a página inicial oficial</a></p>
       <p>&copy; <span>2026</span> Nicolas Beraldes Tarifa.</p>
         <details class="style-switch noprint">
           <summary title="Estilos experimentais"><span aria-hidden="true">◇</span><span class="visually-hidden">Estilos experimentais</span></summary>

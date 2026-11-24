@@ -23,6 +23,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0014 | Páginas experimentais de Projetos e Agradecimentos | Aceita |
 | 0015 | Projetos e publicações nas duas variantes ativas | Aceita |
 | 0016 | Arquivo de currículos legados e nomeação de novas edições | Aceita |
+| 0017 | Nova rodada de prévias da home e de Projetos em `pt-BR` | Em avaliação |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -158,3 +159,9 @@ Ainda em 23/11/2026, o responsável pediu a versão `CV-NicolasBt-2026-11-02` pa
 Na revisão seguinte, o responsável aprovou um perfil profissional mais próximo do cotidiano de usuários e clientes e a apresentação de suas preferências de desenvolvimento na home. A edição `CV-NicolasBt-2026-11-03` incorpora o novo perfil e substitui os quatro downloads nas variantes ativas.
 
 Depois de avaliar essa redação, o responsável pediu um perfil mais geral e aprovou o texto que apresenta sua atuação em tecnologia, a graduação em andamento e suas experiências sem enumerar critérios de desenvolvimento. A edição `CV-NicolasBt-2026-11-04` aplica o texto aprovado aos quatro currículos e atualiza os downloads em pt-BR e en-US.
+
+## 0017 — Nova rodada de prévias da home e de Projetos em `pt-BR`
+
+Em 24/11/2026, o responsável aprovou a publicação de duas prévias para avaliar a navegação em telas estreitas. A [prévia da home](../static/pt-BR/painel.html) parte de uma cópia da página publicada. Ela antecipa os atalhos de experiência, projetos e contato e permite voltar ao painel após as seções longas. A [prévia de Projetos](../static/pt-BR/projetos-experimental.html) recupera o endereço do teste de 19/11. Ela usa as fichas vigentes, com um índice por nome e detalhes expansíveis.
+
+Os dois endereços usam `noindex`, acesso direto e links para comparar com as páginas oficiais. O CSS comum restringe os ajustes às prévias. A promoção das mudanças depende da avaliação do responsável.

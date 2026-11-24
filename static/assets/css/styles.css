@@ -1689,3 +1689,51 @@ p {
     --warsaw-heading-text: #ffffff;
   }
 }
+
+/* ---------- pt-BR: home and project previews ---------- */
+@media screen {
+  body.preview-page main > .hero {
+    margin-block: 0.75rem 1.5rem;
+    padding-block: clamp(1rem, 4vw, 2rem);
+  }
+
+  body.preview-home .panel .hero-actions.preview-primary,
+  .preview-projects .preview-index {
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .preview-home .preview-context {
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .preview-home .preview-return {
+    margin: 1.5rem 0 0;
+  }
+
+  .preview-projects #projetos .grid {
+    align-items: start;
+  }
+
+  .preview-projects .preview-index .btn {
+    padding: 0.4rem 0.65rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 35rem) {
+  .preview-page .site-header {
+    padding-block: 0.6rem;
+  }
+
+  .preview-page .header-inner {
+    gap: 0.5rem;
+  }
+}
+
+@media print {
+  .preview-page main .noprint {
+    display: none !important;
+  }
+}
