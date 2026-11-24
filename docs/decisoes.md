@@ -165,3 +165,5 @@ Depois de avaliar essa redação, o responsável pediu um perfil mais geral e ap
 Em 24/11/2026, o responsável aprovou a publicação de duas prévias para avaliar a navegação em telas estreitas. A [prévia da home](../static/pt-BR/painel.html) parte de uma cópia da página publicada. Ela antecipa os atalhos de experiência, projetos e contato e permite voltar ao painel após as seções longas. A [prévia de Projetos](../static/pt-BR/projetos-experimental.html) recupera o endereço do teste de 19/11. Ela usa as fichas vigentes, com um índice por nome e detalhes expansíveis.
 
 Os dois endereços usam `noindex`, acesso direto e links para comparar com as páginas oficiais. O CSS comum restringe os ajustes às prévias. A promoção das mudanças depende da avaliação do responsável.
+
+Após avaliar a prévia de Projetos, o responsável substituiu o índice por dois grupos recolhíveis na mesma página. **Ver meus projetos** abre as fichas de projetos. **Ver minhas pesquisas** abre a seção de pesquisas e publicações. Os grupos começam fechados e as âncoras levam às fichas e publicações correspondentes.

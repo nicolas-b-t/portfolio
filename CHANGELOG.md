@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-24 | Substitui o índice da prévia de Projetos por dois grupos recolhíveis, um para projetos e outro para pesquisas e publicações. | [Decisão 0017](docs/decisoes.md#0017--nova-rodada-de-prévias-da-home-e-de-projetos-em-pt-br). |
 | 2026-11-24 | Retoma as prévias da home e de Projetos em pt-BR. Compacta a abertura, acrescenta um índice de projetos e publicações e permite voltar ao painel após as seções longas. | [Decisão 0017](docs/decisoes.md#0017--nova-rodada-de-prévias-da-home-e-de-projetos-em-pt-br). |
 | 2026-11-23 | Aplica o perfil profissional mais geral e natural em pt-BR e en-US e publica a edição `CV-NicolasBt-2026-11-04` nos quatro downloads. | Texto aprovado pelo responsável; [edição e manifesto](docs/curriculos/CV-NicolasBt-2026-11-04/README.md). |
 | 2026-11-23 | Publica o perfil profissional revisado em pt-BR e en-US, substitui a seção repetida sobre agentes de IA por critérios de desenvolvimento e oferece a edição `CV-NicolasBt-2026-11-03` nos quatro downloads. Registra separadamente os relatos profissionais ainda em validação. | Pedido do responsável; [relatos em validação](docs/relatos-profissionais-em-validacao.md); [edição e manifesto](docs/curriculos/CV-NicolasBt-2026-11-03/README.md). |

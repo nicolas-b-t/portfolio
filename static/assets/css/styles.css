@@ -399,7 +399,8 @@ p {
   margin-top: 1rem;
 }
 
-.project-details > summary {
+.project-details > summary,
+.preview-collection > details > summary {
   cursor: pointer;
   min-height: 24px;
   text-decoration: underline;
@@ -1697,8 +1698,7 @@ p {
     padding-block: clamp(1rem, 4vw, 2rem);
   }
 
-  body.preview-home .panel .hero-actions.preview-primary,
-  .preview-projects .preview-index {
+  body.preview-home .panel .hero-actions.preview-primary {
     gap: 0.5rem;
     margin-top: 0.75rem;
   }
@@ -1712,13 +1712,28 @@ p {
     margin: 1.5rem 0 0;
   }
 
-  .preview-projects #projetos .grid {
-    align-items: start;
+  body.preview-projects main > .hero {
+    margin-bottom: 0;
   }
 
-  .preview-projects .preview-index .btn {
-    padding: 0.4rem 0.65rem;
-    font-size: 0.85rem;
+  .preview-projects .preview-collection {
+    padding-block: 0.625rem;
+  }
+
+  .preview-collection > details > summary {
+    width: fit-content;
+    padding: 0.35rem 0.65rem;
+    border: 2px solid var(--ink);
+    background: var(--panel);
+    font-weight: 700;
+  }
+
+  .preview-collection h2 {
+    margin-top: 1rem;
+  }
+
+  .preview-collection .grid {
+    align-items: start;
   }
 }
 
@@ -1735,5 +1750,9 @@ p {
 @media print {
   .preview-page main .noprint {
     display: none !important;
+  }
+
+  .preview-collection > details::details-content {
+    content-visibility: visible;
   }
 }
