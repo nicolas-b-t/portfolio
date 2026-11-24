@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-24 | Disponibiliza o guia de documentação técnica na área experimental, com versões públicas de requisitos, personas, arquitetura e evolução. | [Decisão 0018](docs/decisoes.md#0018--guia-público-de-documentação-na-área-experimental). |
 | 2026-11-24 | Atualiza a seleção de projetos nas páginas oficiais, na prévia e nas cópias estruturadas. Limpa as referências na documentação e na lista de consulta. | Pedido do responsável. |
 | 2026-11-24 | Substitui o índice da prévia de Projetos por dois grupos recolhíveis, um para projetos e outro para pesquisas e publicações. | [Decisão 0017](docs/decisoes.md#0017--nova-rodada-de-prévias-da-home-e-de-projetos-em-pt-br). |
 | 2026-11-24 | Retoma as prévias da home e de Projetos em pt-BR. Compacta a abertura, acrescenta um índice de projetos e publicações e permite voltar ao painel após as seções longas. | [Decisão 0017](docs/decisoes.md#0017--nova-rodada-de-prévias-da-home-e-de-projetos-em-pt-br). |

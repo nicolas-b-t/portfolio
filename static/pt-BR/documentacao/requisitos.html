@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Requisitos do portfólio — Nicolas Beraldes Tarifa</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body class="preview-page">
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../painel.html">Painel experimental</a>
+      <nav class="nav" aria-label="Documentação experimental">
+        <a href="index.html">Documentação</a>
+        <a href="requisitos.html" aria-current="page">Requisitos</a>
+        <a href="personas.html">Personas</a>
+        <a href="arquitetura.html">Arquitetura</a>
+        <a href="evolucao.html">Evolução</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero wrap">
+      <p class="kicker noprint">Área experimental</p>
+      <h1>Requisitos do portfólio</h1>
+      <p class="lead">Veja o que o site oferece e os critérios que orientam sua revisão.</p>
+      <nav class="section-nav" aria-label="Nesta página">
+        <a class="btn ghost" href="#funcionais">Funcionais</a>
+        <a class="btn ghost" href="#nao-funcionais">Não funcionais</a>
+      </nav>
+    </section>
+
+    <section class="wrap" id="funcionais">
+      <h2>Requisitos funcionais</h2>
+      <dl class="project-summary">
+        <dt id="FR-01"><code>FR-01</code> · Idiomas ativos</dt>
+        <dd>Alternar entre português do Brasil e inglês. As variantes em preparação levam a um aviso com acesso aos idiomas ativos.</dd>
+        <dt id="FR-02"><code>FR-02</code> · Páginas oficiais</dt>
+        <dd>Encontrar currículo, galeria, rede, recomendações e projetos nas duas versões ativas.</dd>
+        <dt id="FR-03"><code>FR-03</code> · Coerência entre idiomas</dt>
+        <dd>Conservar os mesmos fatos quando o conteúdo está disponível nos dois idiomas.</dd>
+        <dt id="FR-04"><code>FR-04</code> · Fichas de projeto</dt>
+        <dd>Identificar objetivo, contribuição individual ou da equipe, resultado ou situação e links disponíveis.</dd>
+        <dt id="FR-05"><code>FR-05</code> · Contato</dt>
+        <dd>Encontrar os canais de contato e identificar o destino de cada link.</dd>
+        <dt id="FR-06"><code>FR-06</code> · Galeria de trabalho</dt>
+        <dd>Consultar imagens locais com legenda e texto alternativo.</dd>
+        <dt id="FR-07"><code>FR-07</code> · Recomendações</dt>
+        <dd>Encontrar a fonte de cada indicação e os créditos aplicáveis.</dd>
+        <dt id="FR-08"><code>FR-08</code> · Download do currículo</dt>
+        <dd>Baixar os PDFs padrão e com barra lateral no idioma escolhido.</dd>
+        <dt id="FR-09"><code>FR-09</code> · Cópia estruturada</dt>
+        <dd>Manter os fatos das cópias estruturadas de currículo e projetos coerentes com a apresentação da página.</dd>
+        <dt id="FR-10"><code>FR-10</code> · Organização de competências</dt>
+        <dd>Conservar as categorias, subcategorias e níveis declarados. Usar listas expansíveis onde há mais itens.</dd>
+        <dt id="FR-11"><code>FR-11</code> · Entrada por idioma</dt>
+        <dd>Escolher português ou inglês a partir da raiz do portfólio.</dd>
+        <dt id="FR-12"><code>FR-12</code> · Impressão</dt>
+        <dd>Ler as seções previstas no papel ou PDF, com menus omitidos.</dd>
+        <dt id="FR-13"><code>FR-13</code> · Página 404</dt>
+        <dd>Encontrar um caminho de volta ao portfólio ao abrir uma rota inexistente.</dd>
+        <dt id="FR-14"><code>FR-14</code> · Ativação de outra variante</dt>
+        <dd>Reutilizar a estrutura e a folha de estilos, com conteúdo, links e acessibilidade revisados antes de ativar uma variante.</dd>
+        <dt id="FR-15"><code>FR-15</code> · Perfil SFIA</dt>
+        <dd>Consultar a autoavaliação de habilidades com nível e evidência.</dd>
+        <dt id="FR-16"><code>FR-16</code> · Publicações acadêmicas</dt>
+        <dd>Encontrar tipo, ano, título, crédito de autoria, veículo e DOI ou link. Relacionar a publicação à ficha do projeto quando aplicável.</dd>
+      </dl>
+    </section>
+
+    <section class="wrap" id="nao-funcionais">
+      <h2>Requisitos não funcionais</h2>
+      <dl class="project-summary">
+        <dt id="NFR-01"><code>NFR-01</code> · Acessibilidade</dt>
+        <dd>Usar a WCAG 2.2 nível AA como alvo e verificar teclado, foco, nomes acessíveis e contraste.</dd>
+        <dt id="NFR-02"><code>NFR-02</code> · Implementação estática</dt>
+        <dd>Entregar as páginas com HTML e CSS, usando os controles nativos do navegador.</dd>
+        <dt id="NFR-03"><code>NFR-03</code> · Recursos locais</dt>
+        <dd>Usar imagens, ícones e estilos do site e as fontes do sistema.</dd>
+        <dt id="NFR-04"><code>NFR-04</code> · Desempenho</dt>
+        <dd>Comparar mudanças que afetam o carregamento com medições em condições equivalentes.</dd>
+        <dt id="NFR-05"><code>NFR-05</code> · Telas pequenas</dt>
+        <dd>Verificar que o conteúdo e os controles ficam legíveis a partir de 320 CSS px sem rolagem horizontal.</dd>
+        <dt id="NFR-06"><code>NFR-06</code> · Temas e impressão</dt>
+        <dd>Respeitar o tema do sistema, a preferência de movimento reduzido e os estilos de impressão.</dd>
+        <dt id="NFR-07"><code>NFR-07</code> · Semântica do HTML</dt>
+        <dd>Usar um título principal por página e manter uma hierarquia clara de títulos.</dd>
+        <dt id="NFR-09"><code>NFR-09</code> · Privacidade do visitante</dt>
+        <dd>Manter a interface sem coleta própria de dados por formulários, cookies ou analytics.</dd>
+        <dt id="NFR-10"><code>NFR-10</code> · Manutenção</dt>
+        <dd>Compartilhar a folha de estilos do site e manter as mudanças documentadas.</dd>
+        <dt id="NFR-11"><code>NFR-11</code> · Navegadores e celular</dt>
+        <dd>Conferir as tarefas principais em navegadores atuais e em dispositivos móveis.</dd>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="noprint"><a href="../painel.html">Painel experimental</a> · <a href="../projetos-experimental.html">Projetos e Pesquisas</a></p>
+      <p>&copy; 2026 Nicolas Beraldes Tarifa.</p>
+    </div>
+  </footer>
+</body>
+</html>

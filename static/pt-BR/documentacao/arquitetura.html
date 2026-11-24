@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Arquitetura do portfólio — Nicolas Beraldes Tarifa</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body class="preview-page">
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../painel.html">Painel experimental</a>
+      <nav class="nav" aria-label="Documentação experimental">
+        <a href="index.html">Documentação</a>
+        <a href="requisitos.html">Requisitos</a>
+        <a href="personas.html">Personas</a>
+        <a href="arquitetura.html" aria-current="page">Arquitetura</a>
+        <a href="evolucao.html">Evolução</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero wrap">
+      <p class="kicker noprint">Área experimental</p>
+      <h1>Arquitetura do portfólio</h1>
+      <p class="lead">Conheça as partes do site e o caminho dos arquivos até o navegador.</p>
+    </section>
+
+    <section class="wrap" id="componentes">
+      <h2>Componentes e dados</h2>
+      <dl class="project-summary">
+        <dt>Interface</dt><dd>Páginas HTML e uma folha CSS compartilhada. Os links e os grupos recolhíveis usam controles nativos do navegador.</dd>
+        <dt>Conteúdo</dt><dd>Currículo, projetos, publicações acadêmicas, galeria e rede. A versão brasileira orienta os fatos comuns à versão em inglês.</dd>
+        <dt>Recursos</dt><dd>As páginas usam imagens, ícones e PDFs locais. Os links externos levam a perfis, demonstrações e publicações.</dd>
+      </dl>
+    </section>
+
+    <section class="wrap" id="mapa">
+      <h2>Mapa do site</h2>
+      <ul>
+        <li>A raiz oferece português do Brasil e inglês.</li>
+        <li>Cada versão ativa tem currículo, projetos, galeria, rede e recomendações.</li>
+        <li>Português europeu e as duas variantes de espanhol levam ao aviso de preparação.</li>
+        <li>A área experimental em português reúne o painel, Projetos e Pesquisas e a documentação.</li>
+      </ul>
+    </section>
+
+    <section class="wrap" id="publicacao">
+      <h2>Fluxo de publicação</h2>
+      <ol>
+        <li>O Git registra as mudanças nas páginas e nos recursos.</li>
+        <li>O GitHub Actions reúne os arquivos estáticos para publicação.</li>
+        <li>O GitHub Pages disponibiliza o site, que o navegador carrega por HTTPS.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="noprint"><a href="../painel.html">Painel experimental</a> · <a href="../projetos-experimental.html">Projetos e Pesquisas</a></p>
+      <p>&copy; 2026 Nicolas Beraldes Tarifa.</p>
+    </div>
+  </footer>
+</body>
+</html>
