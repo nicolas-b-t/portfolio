@@ -141,13 +141,13 @@ Aplique a revisão aos comentários e às instruções que escrevemos sobre essa
 
 ## Páginas de projetos
 
-Desde 02/11/2026, `static/pt-BR/projetos.html` reúne os quatro projetos e sua cópia estruturada.
+A página `static/pt-BR/projetos.html` reúne os projetos, as publicações e a cópia estruturada.
 A página principal mantém o botão “Meus projetos”, os links dos destaques, o acesso no rodapé e uma referência no resumo oculto.
 A âncora antiga `index.html#projetos` leva ao acesso da apresentação.
 A versão em inglês tem a mesma estrutura de projetos e publicações. As variantes suspensas seguem em preparação.
 
 Para editar, use a página de projetos e confira a cópia estruturada, as atribuições em [Conteúdo e fontes](conteudo-e-fontes.md#projetos) e as listas de consulta.
-A impressão da página principal mostra o currículo sem os cartões; a página de projetos permite imprimir os quatro cartões.
+A impressão da página principal mostra o currículo. A página de projetos permite imprimir as fichas e as publicações.
 Os PDFs V3 permanecem edições históricas.
 Evidência e limites: [Histórico](historico/historico.md).
 

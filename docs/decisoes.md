@@ -137,7 +137,7 @@ Em pedido posterior, o responsável autorizou atualizar a home em inglês. O pai
 
 ### Extensão da decisão 0014 — promoção das páginas
 
-Em 19/11/2026, o responsável aprovou a estrutura experimental de Projetos em `pt-BR` e de Agradecimentos em `pt-BR` e `en` como principal. Os endereços oficiais recebem essa estrutura; os endereços experimentais redirecionam para eles. Projetos conserva o SGCS antes da Portugal Digital Solutions nas fichas visíveis e na cópia estruturada. Agradecimentos conserva âncoras estáveis para os quatro perfis reais e a introdução da página anterior. Os marcadores de texto pessoal e o perfil fictício de professor ficam fora das páginas oficiais até que o responsável forneça conteúdo confirmado.
+Em 19/11/2026, o responsável aprovou a estrutura experimental de Projetos em `pt-BR` e de Agradecimentos em `pt-BR` e `en` como principal. Os endereços oficiais recebem essa estrutura; os endereços experimentais redirecionam para eles. Agradecimentos conserva âncoras estáveis para os quatro perfis reais e a introdução da página anterior. Os marcadores de texto pessoal e o perfil fictício de professor ficam fora das páginas oficiais até que o responsável forneça conteúdo confirmado.
 
 ## 0015 — Projetos e publicações nas duas variantes ativas
 

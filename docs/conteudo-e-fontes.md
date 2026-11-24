@@ -134,10 +134,6 @@ Requisitos de segurança não equivalem a certificações ou garantias de segura
 A motivação legislativa do SGCS refere-se ao [PL 4739/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659).
 Confira a tramitação antes de atualizar esse contexto. A redação atual não afirma que a proposta virou lei.
 
-- Portugal Digital Solutions (PDS): projeto de consultoria digital com atuação prevista em Portugal e equipe inicial de dois sócios. Em 11/11/2026, o responsável autorizou o registro como projeto em `static/pt-BR/projetos.html` e em `static/en/index.html`. Em 17/11/2026, solicitou o rótulo “Sócio - Consultoria Digital” no lugar de “Empresa em abertura”. As páginas descrevem o posicionamento, o catálogo de serviços, o processo comercial e as ofertas previstas. O rótulo não comprova constituição da empresa. A versão `en` usa inglês norte-americano.
-- Fonte: histórico em `../../../portugal_digital_solutions/HISTORICO_DO_PROJETO.md`, preparado em 11/11/2026 a partir de 12 conversas entre 02/10/2026 e 10/11/2026. A fonte registra propostas; não comprova constituição, aprovação de documentos nem ofertas disponíveis.
-- Limites: não há confirmação de constituição, NIPC, clientes, preços, prazos, níveis de serviço ou logótipo final. A página não declara conformidade com as normas citadas na fonte. O Optigrow permanece em cartão próprio e não é atribuído à PDS. A ficha de experiência só entra após a constituição (P-18). Não acrescente clientes, preços ou resultados sem nova confirmação.
-
 ## Agradecimentos acadêmicos
 
 Em 19/11/2026, o responsável informou os vínculos e as contribuições abaixo para a página Agradecimentos à minha rede. As orientações específicas descritas são seu relato pessoal; os perfis públicos não comprovam a participação individual no SGCS.

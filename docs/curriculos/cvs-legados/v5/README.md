@@ -34,7 +34,7 @@ Os modelos trazem cinco experiências, formação em andamento, competências se
 
 A seção Publicação registra o capítulo 39 de <cite>Ciências Humanas, Sociais e Sociais Aplicadas: Pesquisas e Estudos</cite>, publicado pela Aurum Editora em 2026, páginas 550–571, com o [DOI 10.63330/aurumpub.069-039](https://doi.org/10.63330/aurumpub.069-039). O título oficial e a coautoria seguem a [página de projetos](../../../../static/pt-BR/projetos.html#publicacao-sgcs) e [Conteúdo e fontes](../../../conteudo-e-fontes.md#projetos).
 
-O responsável escolheu **Este portfólio**, **Optigrow** e **SGCS** entre os quatro projetos da [página de projetos](../../../../static/pt-BR/projetos.html). Nesta edição, o primeiro é apresentado como **Portfólio pessoal**. Portugal Digital Solutions permanece no site e não integra esta edição do currículo. Essa seleção não altera o conteúdo publicado.
+O responsável escolheu **Este portfólio**, **Optigrow** e **SGCS** da [página de projetos](../../../../static/pt-BR/projetos.html). Nesta edição, o primeiro é apresentado como **Portfólio pessoal**.
 
 As fontes factuais são a [página pt-BR](../../../../static/pt-BR/index.html), a página de projetos, [Conteúdo e fontes](../../../conteudo-e-fontes.md) e [Competências](../../../competencias.md). O telefone segue os currículos anteriores. O responsável declarou nesta revisão “inglês avançado - conversacional”; o resultado do TOEIC Listening & Reading aparece abaixo, separadamente, sem ser usado para inferir conversação. Os rascunhos V4 serviram apenas como referência de estrutura. O script [gerar-v5.py](gerar-v5.py) gera os dois DOCX a partir do checkout atual e confere a quantidade de experiências, cursos, projetos e publicações; alterar a fonte exige nova revisão editorial e visual.
 

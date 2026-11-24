@@ -149,7 +149,6 @@ Os registros históricos mantêm o texto da época; não são atualizados a cada
 
 | ID | Item | Origem | Dono | Situação | Próximo passo |
 | --- | --- | --- | --- | --- | --- |
-| P-18 | Decidir a promoção da Portugal Digital Solutions de projeto para experiência profissional após a constituição da empresa. | Decisão de 11/11/2026; FR-02 | Responsável | Aberto | Informar data de constituição e NIPC; então criar a ficha em Experiência, revisar o cartão de projeto e sincronizar `en`. |
 | P-19 | Incluir um bloco de agradecimentos acadêmicos em `rede.html`, separado das pessoas já apresentadas. | Pedidos de 12/11/2026 e 19/11/2026; FR-02 | Responsável | Concluído | Cinco perfis publicados em `pt-BR` e `en`, com âncoras e link de Formação acadêmica; Raphael Naves permanece sem link de perfil público, conforme informação do responsável. |
 | P-22 | Encerrar a comparação e escolher a versão da home de `pt-BR`. | Decisões 0011 e 0012 | Responsável | Concluído | Painel promovido a `index.html`; alternativa e atalho removidos. Em solicitação posterior, a home `en` também foi sincronizada. |
 | P-24 | Alinhar a terminologia de engenharia de software e desenvolvimento com agentes nas variantes publicadas. | Pedido de 20/11/2026 | Agente | Concluído | Páginas em pt-BR e en, cópias estruturadas e lista de consulta revisadas. |
