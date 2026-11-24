@@ -422,6 +422,12 @@ Condução
 • Permissão Internacional para Dirigir (PID)
 A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. Lista de países que aceitam a CNH: https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS. Lista de países que aceitam a PID: https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11.
 
+NICE — Correspondência de tarefas
+Tarefas selecionadas do papel Technical Support (IO-WRL-007).
+• T0237 — Diagnóstico de hardware e software. Na Lukos, diagnostiquei e resolvi problemas no ERP, na rede e nos dispositivos dos clientes por acesso remoto.
+• T1412 — Treinamento técnico a clientes. Na Lukos, treinei e orientei clientes no uso do sistema ERP e PDV.
+• T1567 — Configuração de software e periféricos. Configurei sistemas para clientes da Lukos e impressoras no Instituto Alpha.
+
 Experiência profissional
 
 Gestor de tráfego pago - Prestação de serviços

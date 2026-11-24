@@ -60,7 +60,7 @@ O NICE é específico de cibersegurança e foi criado para organizar o trabalho,
 - **Knowledge e Skills:** o que a pessoa precisa saber e saber fazer.
 - **Work Roles:** agrupamento de trabalho pelo qual alguém responde.
 - **Competencies:** combinação de conhecimento, habilidade e contexto.
-- **Categories e Specialty Areas:** foram descontinuadas na Revisão 1; organizações ainda podem usá-las.
+- **Work Role Categories:** agrupam os papéis no catálogo de componentes, mantido separadamente da publicação SP 800-181 Rev. 1.
 
 A Revisão 1 **não define níveis de proficiência**.
 Work Roles não são títulos de cargo nem ocupações.
@@ -125,17 +125,15 @@ Os níveis e as evidências podem ser revistos pelo responsável sem alterar a e
 
 ## 6. Piloto NICE
 
-Não há mapeamento de work role nesta etapa.
+Em 24/11/2026, o responsável aprovou uma correspondência de tarefas do papel Technical Support (`IO-WRL-007`) abaixo do SFIA. O catálogo de referência é o [NICE Framework Components v2.2.0](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions).
 
-Motivos:
+| Tarefa | Atividade publicada |
+| --- | --- |
+| `T0237` · Diagnóstico de hardware e software | Diagnóstico remoto de problemas no ERP, na rede e nos dispositivos dos clientes da Lukos. |
+| `T1412` · Treinamento técnico a clientes | Treinamento e orientação no uso do ERP e do PDV na Lukos. |
+| `T1567` · Configuração de software e periféricos | Configuração de sistemas para clientes da Lukos e de impressoras no Instituto Alpha. |
 
-- o PDF da Revisão 1 descreve a estrutura, mas não o catálogo completo;
-- o site não publica um cargo de segurança;
-- o conteúdo de segurança é transversal, não uma função dedicada;
-- faltam os componentes de tarefas e work roles do NICE.
-
-Próximo passo possível: obter os componentes oficiais do NICE e mapear apenas as tarefas de segurança que tenham evidência.
-Sem esses componentes, o mapeamento seria inventado.
+A correspondência usa as atividades descritas no portfólio. [Bloco NICE](../static/pt-BR/index.html#nice) · [Pendência resolvida PR-09](../static/pt-BR/documentacao/pendencias.html#mapeamento-nice)
 
 ## 7. Publicação
 
@@ -145,7 +143,7 @@ A seção inteira é um `<details>` nativo, fechada por padrão e colapsável.
 A seção não depende de JavaScript.
 Na impressão, uma cópia estática mostra o título e os cartões; a seção interativa fica oculta.
 Os outros idiomas não receberam o bloco nesta etapa.
-Não há work role NICE, selo ou logotipo.
+O piloto NICE apresenta tarefas selecionadas do papel Technical Support abaixo do SFIA, em português e inglês.
 A decisão A+B foi registrada em 02/11/2026: perfil em pt-BR, níveis 2 e 3, `CHMG` no lugar de `CFMG`; `CFMG` e `DATM` ficaram fora.
 A revisão de 03/11/2026 rebaixou `NTAS` e `HSIN` para o nível 2 e manteve os demais níveis.
 O histórico completo está no Git.

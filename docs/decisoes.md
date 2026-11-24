@@ -25,6 +25,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0016 | Arquivo de currículos legados e nomeação de novas edições | Aceita |
 | 0017 | Nova rodada de prévias da home e de Projetos em `pt-BR` | Em avaliação |
 | 0018 | Guia público de documentação na área experimental | Aceita |
+| 0019 | Correspondência de tarefas NICE abaixo do SFIA | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -178,3 +179,7 @@ Em 24/11/2026, o responsável autorizou a publicação de uma seleção da docum
 Ao atualizar o guia, revise a versão pública de cada documento e confira seus links. O workflow publica os arquivos revisados em `static/`.
 
 As páginas [Pendências](../static/pt-BR/documentacao/pendencias.html) e [Roadmap](../static/pt-BR/documentacao/roadmap.html) integram o guia e usam a mesma navegação. As fontes da documentação do repositório são vinculadas no GitHub.
+
+## 0019 — Correspondência de tarefas NICE abaixo do SFIA
+
+Em 24/11/2026, o responsável aprovou um bloco recolhível abaixo do SFIA nas duas homes ativas e no painel experimental. O bloco relaciona as tarefas `T0237`, `T1412` e `T1567` de Technical Support (`IO-WRL-007`) às atividades profissionais já descritas. A cópia estruturada, a impressão e a lista de consulta acompanham as fichas visíveis. [Catálogo NICE](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions)
