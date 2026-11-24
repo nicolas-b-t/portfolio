@@ -10,7 +10,8 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | --- | --- |
 | alterar o site | [Manutenção](manutencao.md) |
 | conferir um fato ou uma atribuição | [Conteúdo e fontes](conteudo-e-fontes.md) |
-| saber o que falta | [Requisitos](requisitos.md), §11 |
+| consultar tarefas vigentes, itens resolvidos e comprovações de habilidades | [Pendências](pendencias.html) |
+| acompanhar os marcos e próximos passos do portfólio | [Roadmap](roadmap.html) |
 | entender uma decisão | [Decisões](decisoes.md) |
 | escrever ou revisar um texto | [Manutenção](manutencao.md), seção Redação |
 | adicionar conteúdo novo | [Padrão de HTML](padrao-html.md) |
@@ -22,7 +23,7 @@ As normas citadas são referências técnicas; o projeto não declara conformida
 | Execução e publicação | [README da raiz](../README.md) | Como fazer |
 | Atualização e verificação do site | [Manutenção](manutencao.md) | Como fazer |
 | Auditoria estética e textual | [Achados e plano de otimização](plano-auditoria-estetica-textual.md) | Avaliação vigente |
-| Requisitos e pendências | [Requisitos](requisitos.md) | Referência |
+| Requisitos e critérios de aceite | [Requisitos](requisitos.md) | Referência |
 | Decisões de arquitetura | [Decisões](decisoes.md) | Explicação |
 
 ## Documentação formal
@@ -60,6 +61,7 @@ Comece pelo [índice da documentação formal](documentacao-formal/README.md): o
 ## Notas
 
 O GitHub Pages publica somente `static/`.
+Para ver as páginas de planejamento com o estilo do portfólio, abra `docs/pendencias.html` ou `docs/roadmap.html` no navegador a partir de uma cópia do repositório.
 Planos substituídos, caches e relatórios antigos ficam fora da árvore ativa.
 A base técnica foi arquivada em `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/`.
 O catálogo e o índice ficam em `docs/referencias/repertorio-tecnico-site/`; os dados pessoais ficam em `dados-pessoais/`, ignorados pelo Git.

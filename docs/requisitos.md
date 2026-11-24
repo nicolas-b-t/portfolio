@@ -98,7 +98,7 @@ As características de qualidade seguem o CPRE §3.8, páginas 29 e 30:
 | NFR-05 | O layout funciona de 320 CSS px até tela ampla, sem rolagem horizontal. | Essencial | WCAG 2.2; auditoria de 02/11/2026. | A 320 CSS px, o conteúdo fica legível e sem transbordamento horizontal. | Vigente. |
 | NFR-06 | O site respeita tema claro, tema escuro, impressão e `prefers-reduced-motion`. | Esperado | `static/assets/css/styles.css`; AGENTS.md. | As quatro condições funcionam nas páginas conferidas. | Vigente. |
 | NFR-07 | O HTML é semântico, com hierarquia de títulos e um `h1` por página. | Essencial | HTML Living Standard; AGENTS.md. | Cada página tem um `h1`; a hierarquia não salta níveis sem motivo; o HTML passa em uma validação declarada e registrada. | Parcial; validação pendente. |
-| NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | Parcial; 2FA em ativação e proteção técnica a confirmar. |
+| NFR-08 | A publicação usa permissões mínimas, ações fixadas e nenhum segredo no repositório. | Essencial | NIST SSDF 800-218; auditoria de 02/11/2026. | Workflow com `contents: read`; ações por SHA; nenhum segredo; 2FA concluído; alterações na `main` autorizadas. | Vigente. O responsável confirmou o encerramento de [PR-04](pendencias.html#protecao-main) em 24/11/2026. |
 | NFR-09 | O site não usa cookies nem analytics e mantém os dados publicados como estão. | Essencial | D-12; auditoria de 02/11/2026. | Nenhum cookie ou analytics; dados publicados conforme a decisão; dados sensíveis só em cópia local. | Vigente. |
 | NFR-10 | O projeto mantém um CSS, documentação indexada, `CHANGELOG` e nenhuma etapa de build. | Esperado | AGENTS.md; D-11. | Um CSS comum; documentos ligados no índice; `CHANGELOG` atualizado; publicação sem build. | Vigente; `CHANGELOG` criado em 02/11/2026. |
 | NFR-11 | O site funciona nos navegadores atuais e em celular. | Esperado | D-23; R06; Q3. | Ensaio em LibreWolf e em navegador atual; limitação registrada quando não houver cobertura. | Parcial; ensaio no LibreWolf e registro anterior no Chromium. |
@@ -132,46 +132,5 @@ Limites:
 
 ## 11. Pendências
 
-Última revisão: 23/11/2026.
-Esta é a lista vigente de pendências do projeto.
-Os registros históricos mantêm o texto da época; não são atualizados a cada mudança.
-
-### Decisões do responsável
-
-| ID | Item | Origem | Dono | Situação | Próximo passo |
-| --- | --- | --- | --- | --- | --- |
-| P-02 | Decidir se os sinônimos visíveis de ATS permanecem na tela. | EDIT-01; R13 | Responsável | Aberto | Manter na tela ou mover para a cópia oculta. |
-| P-03 | Revisar as frases de ATS em inglês na lista visível. | EDIT-03; R13 | Responsável | Aberto | Decidir junto com P-02. |
-| P-05 | Decidir se haverá mapeamento de work roles do NICE. | Histórico, §11 | Responsável | Condicional | Obter os componentes oficiais apenas se a resposta for sim. |
-| P-06 | Confirmar a licença canônica dos ícones. | Histórico, §8 | Responsável | Aberto | Confirmar `LICENSE.txt` e retirar a cópia genérica, se aprovado. |
-
-### Conteúdo e idiomas
-
-| ID | Item | Origem | Dono | Situação | Próximo passo |
-| --- | --- | --- | --- | --- | --- |
-| P-19 | Incluir um bloco de agradecimentos acadêmicos em `rede.html`, separado das pessoas já apresentadas. | Pedidos de 12/11/2026 e 19/11/2026; FR-02 | Responsável | Concluído | Cinco perfis publicados em `pt-BR` e `en`, com âncoras e link de Formação acadêmica; Raphael Naves permanece sem link de perfil público, conforme informação do responsável. |
-| P-22 | Encerrar a comparação e escolher a versão da home de `pt-BR`. | Decisões 0011 e 0012 | Responsável | Concluído | Painel promovido a `index.html`; alternativa e atalho removidos. Em solicitação posterior, a home `en` também foi sincronizada. |
-| P-24 | Alinhar a terminologia de engenharia de software e desenvolvimento com agentes nas variantes publicadas. | Pedido de 20/11/2026 | Agente | Concluído | Páginas em pt-BR e en, cópias estruturadas e lista de consulta revisadas. |
-
-### Segurança e continuidade
-
-| ID | Item | Origem | Dono | Situação | Próximo passo |
-| --- | --- | --- | --- | --- | --- |
-| P-07 | Concluir o 2FA e confirmar a proteção da `main`. | NFR-08; R05 | Responsável | Em andamento | Ativar o 2FA, conferir a proteção e registrar a evidência. |
-| P-08 | Manter cópia externa da base técnica arquivada. | R06 | Responsável | Parcial | Copiar `_arquivo/site-curriculo-portfolio/2026-11-03/repertorio-tecnico-site/` para mídia externa e registrar a verificação. |
-| P-09 | Publicar a cópia limpa sem dados pessoais. | R09; D-15 | Responsável | Planejado | Executar no encerramento. |
-
-### Verificação e qualidade
-
-| ID | Item | Origem | Dono | Situação | Próximo passo |
-| --- | --- | --- | --- | --- | --- |
-| P-10 | Testar zoom, tema escuro, impressão e leitor de tela. | TEST-01; NFR-01; [auditoria](plano-auditoria-estetica-textual.md#limites-da-auditoria) | Agente e responsável | Aberto | Completar zoom real, visual do tema escuro, impressão renderizada e leitor de tela; já houve cálculo de contraste dos tokens e inspeção estática do CSS. |
-| P-11 | Validar HTML e hierarquia de títulos. | NFR-07; [auditoria](plano-auditoria-estetica-textual.md#resultados-verificados) | Agente | Parcial | Rodar validador HTML Living Standard; a hierarquia visível das 12 páginas foi conferida no DOM. |
-| P-12 | Ensaiar em navegador atual e em celular. | NFR-11; [auditoria](plano-auditoria-estetica-textual.md) | Agente | Parcial | Registrar versão do navegador e testar celular real; as 12 páginas foram conferidas a 320, 768 e 1280 CSS px no navegador interno. |
-| P-21 | Separar visualmente os controles de idioma e a ação seguinte na 404 e na página de preparação (S3/P3). | [Auditoria A-03](plano-auditoria-estetica-textual.md#matriz-de-achados) | Agente | Em confirmação | A margem de 1 rem está no CSS comum; conferir em navegador as três larguras, os temas, o zoom, a impressão e o foco. |
-| P-15 | Adicionar CI de validação de HTML, links e consistência entre idiomas. | Avaliação de 03/11/2026; NFR-07; NFR-10 | Agente e responsável | Reconhecido | Criar workflow de verificação em interação futura, sem bloquear a publicação atual. |
-
-A base técnica de 67 MB foi arquivada em 03/11/2026.
-P-01 e P-14 foram concluídas em 03/11/2026.
-
-**Regras:** uma pendência nova entra com ID, origem, dono e próximo passo. Item concluído sai da lista e entra no `CHANGELOG`. Item sem dono fica com o responsável. A lista é revisada ao fim de cada marco e antes de cada publicação.
+As tarefas técnicas, as comprovações de habilidades e os itens resolvidos estão na [página de pendências](pendencias.html).
+O [roadmap](roadmap.html) reúne os marcos do projeto e a sequência proposta para o trabalho restante.

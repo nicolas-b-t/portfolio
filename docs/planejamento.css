@@ -1,0 +1,144 @@
+/* Complemento ao CSS comum nas páginas de planejamento. */
+
+.planning .nav [aria-current="page"] {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 0.15rem 0.5rem;
+  text-decoration: none;
+}
+
+.planning .planning-hero {
+  padding-block: clamp(2rem, 6vw, 4rem);
+}
+
+.planning-hero .nav {
+  margin-top: 1.5rem;
+}
+
+.planning .planning-section {
+  border-top: var(--line) solid var(--ink);
+  padding-block: clamp(1.75rem, 4vw, 3rem);
+}
+
+.planning .grid {
+  gap: 1rem;
+}
+
+.task-group {
+  margin-top: 1.75rem;
+}
+
+.planning .card {
+  padding: 1rem;
+}
+
+.planning .card h4 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.planning .card > :last-child,
+.planning .site-footer p {
+  margin-bottom: 0;
+}
+
+.task-source {
+  margin: 0.75rem 0 0;
+  max-width: none;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.task-code {
+  display: inline-block;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.closed-tasks {
+  padding-left: 1.25rem;
+}
+
+.planning .milestones {
+  margin: 1.75rem 0 0 0.45rem;
+}
+
+.planning .milestones > li:last-child {
+  padding-bottom: 0;
+}
+
+.planning .milestones > li::before {
+  top: 1.15rem;
+}
+
+.milestone-content {
+  display: grid;
+  align-items: start;
+  gap: 0.5rem 1.25rem;
+}
+
+.milestone-content p {
+  margin-bottom: 0;
+}
+
+.milestone-count {
+  display: block;
+}
+
+.commit-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.8rem;
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+}
+
+.roadmap-steps {
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roadmap-steps > li {
+  border-top-color: var(--accent);
+}
+
+@media (min-width: 45rem) {
+  .milestone-content {
+    grid-template-columns: 10.5rem minmax(0, 1fr);
+  }
+
+  .milestone-content > .meta {
+    padding-top: 0.1rem;
+  }
+}
+
+@media print {
+  .planning .planning-hero,
+  .planning .planning-section {
+    padding: 0.75rem 0;
+  }
+
+  .planning .nav {
+    display: none;
+  }
+
+  .planning .grid {
+    display: block;
+  }
+
+  .planning .grid > * + * {
+    margin-top: 0.5rem;
+  }
+
+  .planning .milestones > li {
+    break-inside: avoid;
+  }
+
+  .commit-links a[href^="http"]::after {
+    content: none;
+  }
+}

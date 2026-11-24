@@ -93,7 +93,7 @@ Depois confira:
 - `static/` não tem alteração sem autorização;
 - a contagem de páginas HTML confere com a seção 7 de `arquitetura.md`.
 
-Não há validador automático nem CI de documentação (`P-15`). A conferência é manual.
+A conferência é manual. A [P-08](../pendencias.html#verificacoes-automatizadas) registra a automatização.
 
 ## 8. Referências de método
 

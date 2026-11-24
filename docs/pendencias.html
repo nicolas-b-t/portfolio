@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pendências | Documentação do Portfólio</title>
+  <link rel="stylesheet" href="../static/assets/css/styles.css">
+  <link rel="stylesheet" href="planejamento.css">
+</head>
+<body class="planning">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="README.md">Documentação do Portfólio</a>
+      <nav class="nav" aria-label="Planejamento">
+        <a href="pendencias.html" aria-current="page">Pendências</a>
+        <a href="roadmap.html">Roadmap</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <header class="wrap hero planning-hero">
+      <p class="meta">Revisão em <time datetime="2026-11-24">24 de novembro de 2026</time></p>
+      <h1>Pendências do portfólio</h1>
+      <nav class="nav" aria-label="Nesta página">
+        <a href="#tecnicas">Pendências vigentes</a>
+        <a href="#habilidades">Comprovação de habilidades</a>
+        <a href="#resolvidas">Pendências resolvidas</a>
+      </nav>
+    </header>
+
+    <section class="wrap planning-section" id="tecnicas">
+      <h2>Pendências técnicas vigentes</h2>
+
+      <!-- Os IDs numéricos nos títulos preservam os links da lista anterior. -->
+      <section class="task-group">
+        <h3>Conteúdo, licenças e acervo</h3>
+        <div class="grid">
+          <article class="card" id="revisao-ats">
+            <p class="meta">P-01 · Aberta · Responsável</p>
+            <h4 id="p-03">Revisar as frases de ATS em inglês</h4>
+            <p>Revisar os termos na lista visível e registrar os ajustes aprovados.</p>
+            <p class="task-source">Origem em EDIT-03 e R13.</p>
+          </article>
+          <article class="card" id="mapeamento-nice">
+            <p class="meta">P-02 · Aberta · Responsável</p>
+            <h4 id="p-05">Decidir sobre o mapeamento de funções do NICE</h4>
+            <p>Registrar a decisão. Se aprovada, consultar o catálogo oficial e mapear as tarefas com evidência.</p>
+            <p class="task-source">Origem no <a href="competencias.md#6-piloto-nice">piloto NICE</a>.</p>
+          </article>
+          <article class="card" id="licenca-icones">
+            <p class="meta">P-03 · Aberta · Responsável</p>
+            <h4 id="p-06">Confirmar a licença dos ícones</h4>
+            <p>Conferir se <code>LICENSE.txt</code> contém a licença oficial da Lucide e retirar a cópia redundante após aprovação.</p>
+            <p class="task-source">Origem na <a href="decisoes.md#0005--ícones-por-máscara-css">decisão 0005</a>.</p>
+          </article>
+          <article class="card" id="copia-externa">
+            <p class="meta">P-04 · Aberta · Responsável</p>
+            <h4 id="p-08">Manter uma cópia externa da base técnica</h4>
+            <p>Copiar o acervo arquivado em 03/11/2026 para mídia externa e registrar a verificação da cópia.</p>
+            <p class="task-source">Origem em R06 e no <a href="historico/historico.md#organização-e-recuperação">registro do acervo</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-group">
+        <h3>Verificação e qualidade</h3>
+        <div class="grid">
+          <article class="card" id="ensaios-acessibilidade">
+            <p class="meta">P-05 · Aberta · Agente e responsável</p>
+            <h4 id="p-10">Testar zoom, tema escuro, impressão e leitor de tela</h4>
+            <p>Completar os ensaios de zoom real, tema escuro, impressão e leitor de tela. A auditoria registrou o contraste e a inspeção do CSS. Registrar os resultados e fechar TEST-01.</p>
+            <p class="task-source">Origem em TEST-01, NFR-01 e nos <a href="plano-auditoria-estetica-textual.md#limites-da-auditoria">limites da auditoria</a>.</p>
+          </article>
+          <article class="card" id="validacao-html">
+            <p class="meta">P-06 · Parcial · Agente</p>
+            <h4 id="p-11">Validar HTML e hierarquia de títulos</h4>
+            <p>Executar a validação do HTML conforme o HTML Living Standard e registrar o resultado. A auditoria conferiu a hierarquia visível de 12 páginas pelo DOM.</p>
+            <p class="task-source">Origem em NFR-07 e nos <a href="plano-auditoria-estetica-textual.md#resultados-verificados">resultados da auditoria</a>.</p>
+          </article>
+          <article class="card" id="ensaio-navegador-celular">
+            <p class="meta">P-07 · Parcial · Agente</p>
+            <h4 id="p-12">Testar o site em navegador atual e em celular</h4>
+            <p>Registrar a versão do navegador, a largura da tela e o resultado em celular real. A auditoria conferiu 12 páginas a 320, 768 e 1280 CSS px em navegador interno.</p>
+            <p class="task-source">Origem em NFR-11 e na <a href="plano-auditoria-estetica-textual.md">auditoria do site</a>.</p>
+          </article>
+          <article class="card" id="verificacoes-automatizadas">
+            <p class="meta">P-08 · Reconhecida · Agente e responsável</p>
+            <h4 id="p-15">Automatizar as verificações do site</h4>
+            <p>Criar um workflow de integração contínua para validar HTML, links e consistência entre idiomas. Manter a publicação atual disponível durante a adoção.</p>
+            <p class="task-source">Origem na avaliação de 03/11/2026, em NFR-07 e NFR-10.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-group">
+        <h3>Reúso</h3>
+        <article class="card" id="template-reutilizavel">
+          <p class="meta">P-09 · Planejada · Responsável</p>
+          <h4 id="p-09">Transformar o site em template reutilizável</h4>
+          <p>Definir a estrutura do template, usar conteúdo de exemplo no lugar de dados pessoais e documentar como adaptar e publicar uma nova cópia.</p>
+          <p class="task-source">Escopo revisto pelo responsável em 24/11/2026. Origem em R09 e D-15.</p>
+        </article>
+      </section>
+
+      <section class="task-group">
+        <h3>Confirmação de auditoria</h3>
+        <article class="card" id="espacamento-controles-idioma">
+          <p class="meta">P-10 · Em confirmação · Agente</p>
+          <h4 id="p-21">Conferir o espaçamento dos controles de idioma</h4>
+          <p>Conferir a margem de 1 rem na 404 e na página em preparação em três larguras, nos temas claro e escuro, com zoom, impressão e foco por teclado.</p>
+          <p class="task-source">Origem no <a href="plano-auditoria-estetica-textual.md#matriz-de-achados">achado A-03 da auditoria</a>.</p>
+        </article>
+      </section>
+    </section>
+
+    <section class="wrap planning-section" id="habilidades">
+      <h2>Habilidades com comprovação pendente</h2>
+      <p>Estas lacunas vêm dos registros do portfólio. Cada item indica a evidência que falta para sustentar a habilidade, um nível ou um resultado específico.</p>
+
+      <section class="task-group">
+        <h3>Habilidades avaliadas pelo SFIA</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>Gestão de dados e SQL <span class="task-code">DATM</span></h4>
+            <p>Há curso de modelagem, SQL e registros do SGCS. Falta uma entrega que identifique a contribuição individual em gestão de dados. O perfil ainda não atribui nível.</p>
+          </article>
+          <article class="card">
+            <h4>Gestão da configuração <span class="task-code">CFMG</span></h4>
+            <p>Há histórico de Git, GitHub e manifestos. Falta documentar um caso de controle de configuração ao longo de mudanças, com identificação da configuração e registro do que mudou. O perfil ainda não atribui nível.</p>
+          </article>
+          <article class="card">
+            <h4>Instalação de sistemas e suporte a redes <span class="task-code">HSIN · NTAS</span></h4>
+            <p>As duas habilidades estão no nível 2. Uma revisão para o nível 3 exige evidência de autonomia na instalação e entrega de sistemas ou no diagnóstico e resolução de problemas de rede.</p>
+          </article>
+          <article class="card">
+            <h4>Operação, desenvolvimento e controle de mudanças <span class="task-code">ITOP · PROG · CHMG</span></h4>
+            <p>As três habilidades estão no nível 2. Para avaliar o nível 3, faltam registros da operação de infraestrutura além dos chamados, de contribuições em código colaborativo ou do controle de mudanças com análise de impacto e aprovação.</p>
+          </article>
+        </div>
+        <p class="task-source">Fontes no <a href="competencias.md#5-perfil-sfia">perfil SFIA atual</a> e na <a href="https://github.com/nicolas-b-t/portfolio/blob/ca9ca0a0fef5fb599366334f4f73a57ac7f385cf/docs/sfia-viabilidade.md#5-evidência-e-faixas-prováveis">análise de evidências no Git</a>.</p>
+      </section>
+
+      <section class="task-group">
+        <h3>Evidências profissionais, práticas e de idiomas</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>Inglês falado e escrito</h4>
+            <p>O TOEIC 910 registra compreensão oral e leitura. Faltam evidências avaliadas de fala e escrita. Os níveis por habilidade do autoteste baseado no QECR continuam pendentes.</p>
+          </article>
+          <article class="card">
+            <h4>ITIL e certificações profissionais</h4>
+            <p>ITIL aparece em currículos antigos. Falta um registro de prática para comprovar a habilidade. Para declarar credenciais de exame como ITIL, MOS ou PCEP, é preciso apresentar o resultado ou a credencial correspondente.</p>
+          </article>
+          <article class="card">
+            <h4>Trabalho em altura e ferramentas pneumáticas</h4>
+            <p>A experiência em postes tem relato e registro visual. Faltam os documentos correspondentes a NR-35, aptidão e autorização, caso essas qualificações sejam declaradas. O uso de ferramentas pneumáticas tem apenas confirmação do responsável na matriz histórica.</p>
+          </article>
+          <article class="card">
+            <h4>Implementação individual em projetos de equipe</h4>
+            <p>SGCS e Optigrow registram trabalho colaborativo. Faltam entregas com autoria identificada para comprovar implementação individual de tecnologias ou arquitetura de infraestrutura em nuvem.</p>
+          </article>
+          <article class="card">
+            <h4>Tráfego pago e análise de campanhas</h4>
+            <p>O relatório descreve as atividades. Faltam registros para validar os resultados financeiros e esclarecer a divergência no número de cliques.</p>
+          </article>
+          <article class="card">
+            <h4>Comércio eletrônico na JH Eletrônico</h4>
+            <p>O relato descreve catálogo, atendimento, vendas e uso do Bling ERP. Faltam registros de apoio para comprovar as atividades e eventuais resultados quantitativos.</p>
+          </article>
+        </div>
+        <p class="task-source">Fontes em <a href="conteudo-e-fontes.md">Conteúdo e fontes</a>, na <a href="https://github.com/nicolas-b-t/portfolio/blob/319051982b3ec7bf89394159dd26c34ef3483e63/docs/competencias-e-evidencias.md">matriz histórica de competências</a> e na <a href="https://github.com/nicolas-b-t/portfolio/blob/319051982b3ec7bf89394159dd26c34ef3483e63/docs/autoavaliacao-ingles.md">autoavaliação de inglês</a>. Consulte também os <a href="relatos-profissionais-em-validacao.md">relatos profissionais em validação</a>.</p>
+      </section>
+    </section>
+
+    <section class="wrap planning-section" id="resolvidas">
+      <h2 id="encerradas">Pendências resolvidas</h2>
+      <ul class="closed-tasks">
+        <li id="aceite-linha-de-base"><strong id="p-01">PR-01</strong> · <time datetime="2026-11-03">03/11/2026</time> · Aceite da linha de base do projeto.</li>
+        <li id="revisao-perfil-sfia"><strong id="p-14">PR-02</strong> · <time datetime="2026-11-03">03/11/2026</time> · Revisão dos sete níveis SFIA publicados.</li>
+        <li id="decisao-sinonimos-ats"><strong id="p-02">PR-03</strong> · <time datetime="2026-11-24">24/11/2026</time> · Decisão sobre os sinônimos de ATS visíveis no site.</li>
+        <li id="protecao-main"><strong id="p-07">PR-04</strong> · <time datetime="2026-11-24">24/11/2026</time> · Autenticação em dois fatores e proteção da branch <code>main</code>.</li>
+        <li id="vinculos-locais"><strong id="p-17">PR-05</strong> · <time datetime="2026-11-06">06/11/2026</time> · Confirmação dos vínculos e locais das experiências profissionais.</li>
+        <li id="escolha-home"><strong id="p-22">PR-06</strong> · <time datetime="2026-11-16">16/11/2026</time> · Escolha do painel como home oficial de pt-BR, com sincronização posterior em inglês.</li>
+        <li id="agradecimentos-academicos"><strong id="p-19">PR-07</strong> · <time datetime="2026-11-19">19/11/2026</time> · Publicação de cinco agradecimentos acadêmicos nas páginas da rede em pt-BR e en.</li>
+        <li id="terminologia-engenharia"><strong id="p-24">PR-08</strong> · <time datetime="2026-11-20">20/11/2026</time> · Alinhamento da terminologia de engenharia de software e desenvolvimento com agentes nas duas variantes ativas.</li>
+      </ul>
+      <p>As referências dos encerramentos e a numeração anterior estão no <a href="../CHANGELOG.md">histórico de mudanças</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Registre cada tarefa com ID, origem, responsável e próximo passo. Revise a lista ao fim de cada marco e antes de publicar.</p>
+      <p>Ao concluir uma tarefa, mova-a para <a href="#resolvidas">Pendências resolvidas</a> e registre o encerramento no <a href="../CHANGELOG.md">histórico de mudanças</a>. Mantenha a numeração das tarefas vigentes em sequência.</p>
+    </div>
+  </footer>
+</body>
+</html>

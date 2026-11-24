@@ -2,7 +2,7 @@
 
 Este é o guia operacional.
 As regras gerais estão em [AGENTS.md](../AGENTS.md).
-O estado atual está em [Requisitos](requisitos.md), §11.
+As tarefas em aberto estão em [Pendências](pendencias.html).
 O registro histórico está em [Histórico](historico/historico.md).
 
 ## Conteúdo e idiomas
@@ -127,7 +127,7 @@ Antes de publicar um texto, confira:
 - texto alternativo e nome compreensível para links e controles;
 - teclado, foco, contraste, 320 CSS px, zoom, temas e impressão.
 
-Registre cada achado na lista vigente de [Requisitos](requisitos.md), §11.
+Registre cada achado na lista de [Pendências](pendencias.html#tecnicas).
 Não declare conformidade com a WCAG ou com o STE100.
 
 ### Limites
@@ -274,7 +274,7 @@ Não há SLA nem monitoramento contínuo. Incidente: resposta em até um dia.
 - Confira que nenhum marcador `{{` permanece em `static/`.
 - Confira que a soma das tags visíveis com as listas expansíveis é igual à da cópia oculta. Na impressão, as competências colapsadas não aparecem.
 - Execute `git diff --check`.
-- Atualize o `CHANGELOG.md` e a situação em [Requisitos](requisitos.md), §11.
+- Atualize o `CHANGELOG.md`, a lista de [Pendências](pendencias.html) e os requisitos afetados.
 
 ### Definition of Done
 
@@ -305,15 +305,15 @@ Fluxo: aberto, em análise, corrigido, em confirmação, fechado.
 
 Controles atuais:
 
-- 2FA e proteção da `main`: pendentes (P-07).
+- O responsável confirmou em 24/11/2026 a conclusão do 2FA e da proteção da `main` ([PR-04](pendencias.html#protecao-main)).
 - Apenas o responsável é administrador; alterações na `main` exigem autorização.
 - Workflow com permissões mínimas e ações fixadas por SHA.
 - Nenhum segredo no repositório.
 - `dados-pessoais/` e a base local fora do Git.
 - Licença dos ícones preservada.
-- Backups: RAR da v1; base técnica arquivada em `_arquivo/`; cópia externa pendente (P-08).
+- Backups: RAR da v1 e base técnica arquivada em `_arquivo/`. A [cópia externa](pendencias.html#copia-externa) está pendente.
 - Página 404 publicada.
-- Cópia limpa sem dados pessoais planejada.
+- Transformação do site em template reutilizável planejada ([P-09](pendencias.html#template-reutilizavel)).
 - Sem teste de intrusão, análise de dependências ou auditoria externa.
 
 ### Incidente
@@ -338,7 +338,7 @@ Controles atuais:
 4. Faça uma mudança pequena, com um propósito.
 5. Verifique HTML, links internos e temas; acrescente as verificações da área afetada.
 6. Use mensagem de commit clara, com o motivo.
-7. Registre no `CHANGELOG.md` e atualize a situação em [Requisitos](requisitos.md), §11.
+7. Registre no `CHANGELOG.md` e atualize a situação em [Pendências](pendencias.html).
 8. Depois do push, confira a página publicada.
 
 Reversão: use `git revert` em até cinco commits.
