@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-25 | Corrige foco visível de skip-link, contraste no modo escuro, borda do cartão e metadados (`canonical`, `prefetch`, `hreflang`) nos redirecionamentos experimentais em pt-BR e en, e registra a rodada na página de evolução. | Revisão via `diff-security-auditor` + `review-diff` + `sec-scanner-lite`; [evolução](static/pt-BR/documentacao/evolucao.html#em-avaliacao). |
 | 2026-11-24 | Aplica otimizações de acessibilidade, desempenho e paridade de idiomas nas páginas experimentais em pt-BR e en. | Auditoria por subagentes especializados; [painel experimental](static/pt-BR/painel.html). |
 | 2026-11-24 | Apresenta três correspondências de tarefas NICE de suporte técnico abaixo do SFIA nas homes ativas e no painel experimental. Encerra a pendência P-02 (antiga P-05) como PR-09 e renumera as pendências vigentes P-03 a P-10 para P-02 a P-09. | [Decisão 0019](docs/decisoes.md#0019--correspondência-de-tarefas-nice-abaixo-do-sfia). |
 | 2026-11-24 | Publica Pendências e Roadmap no guia de documentação técnica e restaura os atalhos ⇄ nos rodapés da home e de Projetos em pt-BR. | [Guia de documentação](static/pt-BR/documentacao/index.html), [decisões 0017 e 0018](docs/decisoes.md#0017--nova-rodada-de-prévias-da-home-e-de-projetos-em-pt-br). |
