@@ -6,8 +6,22 @@
   <title>Projetos e pesquisas (experimental) — Nicolas Beraldes Tarifa</title>
   <meta name="description" content="Projetos de Nicolas Beraldes Tarifa, incluindo Optigrow e SGCS, e uma publicação acadêmica sobre gestão condominial.">
   <meta name="robots" content="noindex">
+  <link rel="canonical" href="projetos.html">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20261124-pesquisas">
+  <link rel="alternate" hreflang="pt-BR" href="projetos.html">
+  <link rel="alternate" hreflang="en-US" href="../en/projetos.html">
+  <link rel="alternate" hreflang="x-default" href="projetos.html">
+  <link rel="preload" href="../assets/icons/folder-code.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="../assets/icons/code-2.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20261124-exp">
+  <style>
+    @media screen {
+      #publicacoes {
+        content-visibility: auto;
+        contain-intrinsic-size: 1px 400px;
+      }
+    }
+  </style>
 </head>
 <body class="preview-page preview-projects">
   <a class="skip-link" href="#main">Ir para o conteúdo</a>
@@ -40,7 +54,7 @@
             <li>GitHub Actions</li>
             <li>CI/CD</li>
             <li>GitHub Pages</li>
-            <li>Lucide Icons</li>
+            <li lang="en">Lucide Icons</li>
             <li>Ícones SVG</li>
           </ul>
           <h5 class="skill-subheading">Desenvolvimento e qualidade</h5>
@@ -55,7 +69,7 @@
             <li>Design responsivo</li>
             <li>Otimização de desempenho</li>
             <li>Otimização de imagens</li>
-            <li>Otimização para ATS</li>
+            <li>Otimização para <abbr title="Applicant Tracking System" lang="en">ATS</abbr></li>
             <li>Sites multilíngues</li>
             <li>Testes de interface</li>
             <li>Validação HTML</li>
@@ -100,9 +114,9 @@
           <p>Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)</p>
         </article>
         <article class="card">
-          <p class="meta">Pesquisa acadêmica · SaaS em desenvolvimento</p>
+          <p class="meta">Pesquisa acadêmica · <span lang="en">SaaS</span> em desenvolvimento</p>
           <h4><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h4>
-          <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O objetivo é oferecer aos síndicos profissionais uma forma simples e acessível de registrar, classificar e acompanhar chamados. O produto segue o modelo de software como serviço (SaaS) e está em desenvolvimento.</p>
+          <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O objetivo é oferecer aos síndicos profissionais uma forma simples e acessível de registrar, classificar e acompanhar chamados. O produto segue o modelo de software como serviço (<span lang="en">SaaS</span>) e está em desenvolvimento.</p>
           <p>O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda <a href="https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659">em discussão no Congresso Nacional</a>.</p>
           <p>Gerenciei o projeto, coordenei a equipe e acompanhei o cronograma e os entregáveis. Administrei e integrei as ferramentas do projeto.</p>
           <p>O trabalho recebeu menção honrosa no VI SIMBAJU – Energia e Tecnologia, em 2026.</p>
@@ -116,7 +130,7 @@
           <ul class="skill-list">
             <li>Gestão condominial</li>
             <li>Gestão de chamados</li>
-            <li>Prototipação low-code</li>
+            <li>Prototipação <span lang="en">low-code</span></li>
           </ul>
           <h5 class="skill-subheading">Tecnologias de desenvolvimento</h5>
           <ul class="skill-list">
@@ -209,7 +223,7 @@
       <nav class="lang-switch" aria-label="Idioma">
         <span class="is-current" aria-current="page" lang="pt-BR">Português (Brasil)</span>
         <a href="../en/projetos.html" hreflang="en-US" lang="en-US">English</a>
-        <a href="../wip.html">Outros idiomas em preparação</a>
+        <a href="../wip.html" lang="pt-BR">Outros idiomas em preparação</a>
       </nav>
     </div>
   </header>
@@ -218,10 +232,14 @@
     <section class="hero wrap">
       <p class="kicker noprint">Prévia</p>
       <h1>Projetos e pesquisas</h1>
+      <nav class="section-nav noprint" aria-label="Nesta página">
+        <a class="btn ghost" href="#projetos">Projetos</a>
+        <a class="btn ghost" href="#publicacoes">Publicações</a>
+      </nav>
     </section>
 
     <section class="wrap preview-collection">
-      <details>
+      <details open class="preview-details">
         <summary class="noprint">Ver meus projetos</summary>
         <h2 data-icon="folder-code">Projetos</h2>
         <div id="projetos" class="grid" tabindex="-1">
@@ -238,7 +256,7 @@
             </dl>
             <p><a href="https://github.com/nicolas-b-t/portfolio">Código deste portfólio</a></p>
             <details class="project-details">
-              <summary>Práticas e ferramentas</summary>
+              <summary aria-label="Práticas e ferramentas do portfólio">Práticas e ferramentas</summary>
               <h4 class="skill-subheading">Palavras-chave</h4>
               <ul class="skill-list" role="list">
                 <li>Portfólio profissional</li>
@@ -253,17 +271,18 @@
                 <li>GitHub</li>
                 <li>GitHub Actions</li>
                 <li>GitHub Pages</li>
-                <li>Lucide Icons</li>
+                <li lang="en">Lucide Icons</li>
               </ul>
               <h4 class="skill-subheading">Desenvolvimento e qualidade</h4>
               <ul class="skill-list" role="list">
                 <li>Desenvolvimento com agentes de IA</li>
                 <li>Documentação técnica</li>
                 <li>Acessibilidade web</li>
+                <li><abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr></li>
                 <li>Design responsivo</li>
                 <li>Otimização de desempenho</li>
                 <li>Otimização de imagens</li>
-                <li>Otimização para ATS</li>
+                <li>Otimização para <abbr title="Applicant Tracking System" lang="en">ATS</abbr></li>
                 <li>Sites multilíngues</li>
                 <li>Testes de interface</li>
                 <li>Validação HTML</li>
@@ -286,7 +305,7 @@
               <dd>Criamos uma ferramenta de marketing e tecnologia para óticas da região do Porto.</dd>
             </dl>
             <details class="project-details">
-              <summary>Práticas e ferramentas</summary>
+              <summary aria-label="Práticas e ferramentas do Optigrow">Práticas e ferramentas</summary>
               <h4 class="skill-subheading">Palavras-chave</h4>
               <ul class="skill-list" role="list">
                 <li>Marketing digital</li>
@@ -316,7 +335,9 @@
             </details>
           </article>
           <article class="card" id="proximos-projetos" tabindex="-1">
-            <p class="meta">Pesquisa acadêmica · SaaS em desenvolvimento</p>
+            <span id="sgcs" aria-hidden="true"></span>
+            <span id="upcoming-projects" aria-hidden="true"></span>
+            <p class="meta">Pesquisa acadêmica · <span lang="en">SaaS</span> em desenvolvimento</p>
             <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
             <dl class="project-summary">
               <dt>Objetivo</dt>
@@ -328,12 +349,12 @@
             </dl>
             <p><a href="#publicacao-sgcs">Ler sobre o estudo de caso do SGCS</a></p>
             <details class="project-details">
-              <summary>Práticas, ferramentas e créditos</summary>
+              <summary aria-label="Práticas, ferramentas e créditos do SGCS">Práticas, ferramentas e créditos</summary>
               <h4 class="skill-subheading">Palavras-chave</h4>
               <ul class="skill-list" role="list">
                 <li>Gestão condominial</li>
                 <li>Gestão de chamados</li>
-                <li>Prototipação low-code</li>
+                <li>Prototipação <span lang="en">low-code</span></li>
               </ul>
               <h4>Equipe do trabalho premiado no VI SIMBAJU</h4>
               <p><a href="rede.html#ismael-jackson">Ismael Jackson Barbosa Silveira</a>, <a href="rede.html#rikelme-fernandes-lopes">Rikelme Fernandes Lopes</a>, Miller de Souza Reis, Nicolas Beraldes Tarifa e <a href="rede.html#rodrigo-nascimento">Rodrigo do Nascimento Kussano Carneiro</a>.</p>
@@ -404,10 +425,11 @@
             </details>
           </article>
         </div>
+        <p class="preview-return noprint"><a href="#main">Voltar ao início</a></p>
       </details>
     </section>
     <section class="wrap preview-collection">
-      <details>
+      <details open class="preview-details">
         <summary class="noprint">Ver minhas pesquisas</summary>
         <h2 data-icon="book-open">Pesquisas e publicações</h2>
         <div id="publicacoes" class="grid" tabindex="-1">
@@ -420,6 +442,7 @@
             <p><a href="#proximos-projetos">Conhecer o protótipo SGCS</a></p>
           </article>
         </div>
+        <p class="preview-return noprint"><a href="#main">Voltar ao início</a></p>
       </details>
     </section>
   </main>

@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-24 | Aplica otimizações de acessibilidade, desempenho e paridade de idiomas nas páginas experimentais em pt-BR e en. | Auditoria por subagentes especializados; [painel experimental](static/pt-BR/painel.html). |
 | 2026-11-24 | Apresenta três correspondências de tarefas NICE de suporte técnico abaixo do SFIA nas homes ativas e no painel experimental. Encerra a pendência P-02 (antiga P-05) como PR-09 e renumera as pendências vigentes P-03 a P-10 para P-02 a P-09. | [Decisão 0019](docs/decisoes.md#0019--correspondência-de-tarefas-nice-abaixo-do-sfia). |
 | 2026-11-24 | Publica Pendências e Roadmap no guia de documentação técnica e restaura os atalhos ⇄ nos rodapés da home e de Projetos em pt-BR. | [Guia de documentação](static/pt-BR/documentacao/index.html), [decisões 0017 e 0018](docs/decisoes.md#0017--nova-rodada-de-prévias-da-home-e-de-projetos-em-pt-br). |
 | 2026-11-24 | Renumera as tarefas vigentes em sequência. P-03 → P-01, P-05 → P-02, P-06 → P-03, P-08 → P-04, P-10 → P-05, P-11 → P-06, P-12 → P-07, P-15 → P-08, P-09 → P-09 e P-21 → P-10. Transfere os itens concluídos para Pendências resolvidas. P-01 → PR-01, P-14 → PR-02, P-02 → PR-03, P-07 → PR-04, P-17 → PR-05, P-22 → PR-06, P-19 → PR-07 e P-24 → PR-08. | [Pendências vigentes](static/pt-BR/documentacao/pendencias.html#tecnicas), [Pendências resolvidas](static/pt-BR/documentacao/pendencias.html#resolvidas), [Roadmap](static/pt-BR/documentacao/roadmap.html#proximos) |
