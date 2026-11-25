@@ -3,15 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projetos — Nicolas Beraldes Tarifa</title>
+  <title>Projetos e pesquisas — Nicolas Beraldes Tarifa</title>
   <meta name="description" content="Projetos de Nicolas Beraldes Tarifa, incluindo Optigrow e SGCS, e uma publicação acadêmica sobre gestão condominial.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20261119-detalhes">
   <link rel="alternate" hreflang="pt-BR" href="projetos.html">
   <link rel="alternate" hreflang="en-US" href="../en/projetos.html">
   <link rel="alternate" hreflang="x-default" href="projetos.html">
+  <link rel="preload" href="../assets/icons/folder-code.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="../assets/icons/code-2.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20261125-prod">
+  <style>
+    @media screen {
+      #publicacoes {
+        content-visibility: auto;
+        contain-intrinsic-size: 1px 400px;
+      }
+    }
+  </style>
 </head>
-<body>
+<body class="preview-page preview-projects">
   <a class="skip-link" href="#main">Ir para o conteúdo</a>
   <!-- Cópia estruturada dos projetos e das publicações desta página. -->
   <section id="dados-projetos" hidden="">
@@ -42,7 +52,7 @@
             <li>GitHub Actions</li>
             <li>CI/CD</li>
             <li>GitHub Pages</li>
-            <li>Lucide Icons</li>
+            <li lang="en">Lucide Icons</li>
             <li>Ícones SVG</li>
           </ul>
           <h5 class="skill-subheading">Desenvolvimento e qualidade</h5>
@@ -57,7 +67,7 @@
             <li>Design responsivo</li>
             <li>Otimização de desempenho</li>
             <li>Otimização de imagens</li>
-            <li>Otimização para ATS</li>
+            <li>Otimização para <abbr title="Applicant Tracking System" lang="en">ATS</abbr></li>
             <li>Sites multilíngues</li>
             <li>Testes de interface</li>
             <li>Validação HTML</li>
@@ -102,9 +112,9 @@
           <p>Repositório do projeto: https://github.com/RodrigoNKC/optigrow (privado)</p>
         </article>
         <article class="card">
-          <p class="meta">Pesquisa acadêmica · SaaS em desenvolvimento</p>
+          <p class="meta">Pesquisa acadêmica · <span lang="en">SaaS</span> em desenvolvimento</p>
           <h4><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h4>
-          <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O objetivo é oferecer aos síndicos profissionais uma forma simples e acessível de registrar, classificar e acompanhar chamados. O produto segue o modelo de software como serviço (SaaS) e está em desenvolvimento.</p>
+          <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O objetivo é oferecer aos síndicos profissionais uma forma simples e acessível de registrar, classificar e acompanhar chamados. O produto segue o modelo de software como serviço (<span lang="en">SaaS</span>) e está em desenvolvimento.</p>
           <p>O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda <a href="https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659">em discussão no Congresso Nacional</a>.</p>
           <p>Gerenciei o projeto, coordenei a equipe e acompanhei o cronograma e os entregáveis. Administrei e integrei as ferramentas do projeto.</p>
           <p>O trabalho recebeu menção honrosa no VI SIMBAJU – Energia e Tecnologia, em 2026.</p>
@@ -118,7 +128,7 @@
           <ul class="skill-list">
             <li>Gestão condominial</li>
             <li>Gestão de chamados</li>
-            <li>Prototipação low-code</li>
+            <li>Prototipação <span lang="en">low-code</span></li>
           </ul>
           <h5 class="skill-subheading">Tecnologias de desenvolvimento</h5>
           <ul class="skill-list">
@@ -202,8 +212,8 @@
     <div class="wrap header-inner">
       <a class="brand" href="index.html">Nicolas Beraldes Tarifa</a>
       <nav class="nav" aria-label="Navegação">
-        <a href="index.html">Página principal</a>
-        <a href="projetos.html" aria-current="page">Projetos</a>
+        <a href="index.html">Início</a>
+        <a href="projetos.html" aria-current="page">Projetos e pesquisas</a>
         <a href="index.html#contato">Contato</a>
         <a href="galeria.html">Galeria de trabalho</a>
         <a href="recomendacoes.html">Minha seleção</a>
@@ -211,217 +221,227 @@
       <nav class="lang-switch" aria-label="Idioma">
         <span class="is-current" aria-current="page" lang="pt-BR">Português (Brasil)</span>
         <a href="../en/projetos.html" hreflang="en-US" lang="en-US">English</a>
-        <a href="../wip.html">Outros idiomas em preparação</a>
+        <a href="../wip.html" lang="pt-BR">Outros idiomas em preparação</a>
       </nav>
     </div>
   </header>
 
   <main id="main" tabindex="-1">
     <section class="hero wrap">
-      <p class="kicker">Portfólio profissional e acadêmico</p>
-      <h1>Projetos</h1>
-      <p class="lead">Conheça meus projetos, minha participação em cada um e minha produção acadêmica.</p>
+      <h1>Projetos e pesquisas</h1>
       <nav class="section-nav noprint" aria-label="Nesta página">
         <a class="btn ghost" href="#projetos">Projetos</a>
         <a class="btn ghost" href="#publicacoes">Publicações</a>
       </nav>
     </section>
 
-    <section id="projetos" class="wrap">
-      <h2 data-icon="folder-code">Projetos em destaque</h2>
-      <div class="grid">
-        <article class="card" id="portfolio-pessoal">
-          <p class="meta">Projeto pessoal</p>
-          <h3 data-icon="code-2"><a href="index.html">Este portfólio</a></h3>
-          <dl class="project-summary">
-            <dt>Objetivo</dt>
-            <dd>Reunir currículo, projetos e produção acadêmica em um site pessoal.</dd>
-            <dt>Minha contribuição</dt>
-            <dd>Defini o escopo e orquestrei o trabalho dos agentes de IA que implementaram o site em HTML e CSS. Revisei as alterações com foco em desempenho e acessibilidade.</dd>
-            <dt>Resultado</dt>
-            <dd>Site disponível em português e inglês, com temas claro e escuro e estilos de impressão. O GitHub Actions automatiza a publicação no GitHub Pages.</dd>
-          </dl>
-          <h4 class="skill-subheading">Palavras-chave</h4>
-          <ul class="skill-list" role="list">
-            <li>Portfólio profissional</li>
-            <li>Acessibilidade web</li>
-            <li>HTML e CSS</li>
-          </ul>
-          <p><a href="https://github.com/nicolas-b-t/portfolio">Código deste portfólio</a></p>
-          <details class="project-details">
-            <summary>Práticas e ferramentas</summary>
-            <h4 class="skill-subheading">Tecnologias</h4>
-            <ul class="skill-list" role="list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>GitHub Actions</li>
-              <li>GitHub Pages</li>
-              <li>Lucide Icons</li>
-            </ul>
-            <h4 class="skill-subheading">Desenvolvimento e qualidade</h4>
-            <ul class="skill-list" role="list">
-              <li>Desenvolvimento com agentes de IA</li>
-              <li>Documentação técnica</li>
-              <li>Acessibilidade web</li>
-              <li>Design responsivo</li>
-              <li>Otimização de desempenho</li>
-              <li>Otimização de imagens</li>
-              <li>Otimização para ATS</li>
-              <li>Sites multilíngues</li>
-              <li>Testes de interface</li>
-              <li>Validação HTML</li>
-            </ul>
-            <h4 class="skill-subheading">Gestão e colaboração</h4>
-            <ul class="skill-list" role="list">
-              <li>Gestão de escopo</li>
-            </ul>
-          </details>
-        </article>
-        <article class="card" id="optigrow">
-          <p class="meta">Ferramenta de marketing para óticas · Portugal</p>
-          <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
-          <dl class="project-summary">
-            <dt>Objetivo</dt>
-            <dd>Entender o mercado digital de óticas da região do Porto.</dd>
-            <dt>Minha contribuição</dt>
-            <dd>Colaborei com Rodrigo Nascimento na pesquisa de mercado e no desenvolvimento do produto. Foi nosso primeiro projeto em parceria.</dd>
-            <dt>Resultado</dt>
-            <dd>Criamos uma ferramenta de marketing e tecnologia para óticas da região do Porto.</dd>
-          </dl>
-          <h4 class="skill-subheading">Palavras-chave</h4>
-          <ul class="skill-list" role="list">
-            <li>Marketing digital</li>
-            <li>Óticas</li>
-            <li>Pesquisa de mercado</li>
-          </ul>
-          <p><a href="https://github.com/RodrigoNKC/optigrow">Repositório privado do Optigrow</a></p>
-          <p><a href="rede.html#rodrigo-nascimento">Conhecer Rodrigo Nascimento</a></p>
-          <details class="project-details">
-            <summary>Práticas e ferramentas</summary>
-            <h4 class="skill-subheading">Tecnologias</h4>
-            <ul class="skill-list" role="list">
-              <li>Google AI Studio</li>
-              <li>Supabase</li>
-              <li>Vercel</li>
-              <li>GitHub</li>
-            </ul>
-            <h4 class="skill-subheading">Desenvolvimento e qualidade</h4>
-            <ul class="skill-list" role="list">
-              <li>Documentação técnica</li>
-              <li>Formulários web</li>
-              <li>Preparação de infraestrutura</li>
-            </ul>
-            <h4 class="skill-subheading">Gestão e pesquisa</h4>
-            <ul class="skill-list" role="list">
-              <li>Desenvolvimento colaborativo</li>
-              <li>Pesquisa de mercado</li>
-            </ul>
-          </details>
-        </article>
-        <article class="card" id="proximos-projetos">
-          <p class="meta">Pesquisa acadêmica · SaaS em desenvolvimento</p>
-          <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
-          <dl class="project-summary">
-            <dt>Objetivo</dt>
-            <dd>Oferecer aos síndicos profissionais uma forma simples e acessível de registrar, classificar e acompanhar chamados condominiais.</dd>
-            <dt>Minha contribuição</dt>
-            <dd>Gerenciei o projeto, coordenei a equipe e acompanhei o cronograma e os entregáveis. Administrei e integrei as ferramentas do projeto.</dd>
-            <dt>Resultado</dt>
-            <dd>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O trabalho recebeu menção honrosa no VI SIMBAJU, em 2026. O produto segue o modelo de software como serviço (SaaS) e está em desenvolvimento.</dd>
-          </dl>
-          <h4 class="skill-subheading">Palavras-chave</h4>
-          <ul class="skill-list" role="list">
-            <li>Gestão condominial</li>
-            <li>Gestão de chamados</li>
-            <li>Prototipação low-code</li>
-          </ul>
-          <p><a href="#publicacao-sgcs">Ler sobre o estudo de caso do SGCS</a></p>
-          <h4>Equipe do trabalho premiado no VI SIMBAJU</h4>
-          <p><a href="rede.html#ismael-jackson">Ismael Jackson Barbosa Silveira</a>, <a href="rede.html#rikelme-fernandes-lopes">Rikelme Fernandes Lopes</a>, Miller de Souza Reis, Nicolas Beraldes Tarifa e <a href="rede.html#rodrigo-nascimento">Rodrigo do Nascimento Kussano Carneiro</a>.</p>
-          <ul class="profile-links" aria-label="Perfis públicos de Nicolas Beraldes Tarifa">
-            <li><a href="https://lattes.cnpq.br/1293729943180703">Lattes de Nicolas Beraldes Tarifa</a></li>
-            <li><a href="https://www.linkedin.com/in/nicolas-t-a1ab74321/">LinkedIn de Nicolas Beraldes Tarifa</a></li>
-          </ul>
-          <details class="project-details">
-            <summary>Práticas e ferramentas</summary>
-            <p>O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda <a href="https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659">em discussão no Congresso Nacional</a>.</p>
-            <h4 class="skill-subheading">Tecnologias de desenvolvimento</h4>
-            <ul class="skill-list" role="list">
-              <li>Google AI Studio</li>
-              <li>Firebase</li>
-              <li>Vercel</li>
-              <li>GitHub</li>
-            </ul>
-            <h4 class="skill-subheading">Desenvolvimento de software</h4>
-            <ul class="skill-list" role="list">
-              <li>Engenharia de software</li>
-              <li>Engenharia de requisitos</li>
-              <li>Elicitação de requisitos</li>
-              <li>Requisitos funcionais</li>
-              <li>Requisitos não funcionais</li>
-              <li>Modelagem de processos</li>
-              <li>Documentação técnica</li>
-              <li>Prototipação</li>
-              <li>Avaliação de ferramentas</li>
-            </ul>
-            <h4 class="skill-subheading">Pesquisa acadêmica</h4>
-            <ul class="skill-list" role="list">
-              <li>Pesquisa aplicada</li>
-              <li>Pesquisa bibliográfica</li>
-              <li>Estudo de caso</li>
-              <li>Estudo de campo</li>
-              <li>Entrevistas</li>
-              <li>Questionários</li>
-              <li>Análise de dados qualitativos</li>
-              <li>Análise de conteúdo</li>
-              <li>Diagrama de Ishikawa</li>
-            </ul>
-            <h4 class="skill-subheading">Pesquisa de mercado</h4>
-            <ul class="skill-list" role="list">
-              <li>Pesquisa de mercado</li>
-              <li>Definição de personas</li>
-              <li>Mapa de empatia</li>
-              <li>Análise de necessidades</li>
-            </ul>
-            <h4 class="skill-subheading">Gestão e colaboração</h4>
-            <ul class="skill-list" role="list">
-              <li>Gestão de projetos</li>
-              <li>Planejamento de atividades</li>
-              <li>Gestão de escopo</li>
-              <li>Liderança de equipe</li>
-              <li>Gestão de entregáveis</li>
-              <li>Integração de ferramentas</li>
-              <li>Desenvolvimento colaborativo</li>
-            </ul>
-            <h4 class="skill-subheading">Ferramentas de gestão e pesquisa</h4>
-            <ul class="skill-list" role="list">
-              <li>Google Drive</li>
-              <li>Microsoft Word</li>
-              <li>Microsoft Teams</li>
-              <li>Trello</li>
-              <li>Google Acadêmico</li>
-              <li>ResearchGate</li>
-              <li>WhatsApp</li>
-              <li>Canva</li>
-            </ul>
-          </details>
-        </article>
-      </div>
+    <section class="wrap preview-collection">
+      <details open class="preview-details">
+        <summary class="noprint">Ver meus projetos</summary>
+        <h2 data-icon="folder-code">Projetos</h2>
+        <div id="projetos" class="grid" tabindex="-1">
+          <article class="card" id="portfolio-pessoal" tabindex="-1">
+            <p class="meta">Projeto pessoal</p>
+            <h3 data-icon="code-2"><a href="index.html">Este portfólio</a></h3>
+            <dl class="project-summary">
+              <dt>Objetivo</dt>
+              <dd>Reunir currículo, projetos e produção acadêmica em um site pessoal.</dd>
+              <dt>Minha contribuição</dt>
+              <dd>Defini o escopo e coordenei os agentes de IA na implementação em HTML e CSS. Revisei o trabalho com foco em desempenho e acessibilidade.</dd>
+              <dt>Resultado</dt>
+              <dd>Site em português e inglês, com temas claro e escuro, impressão e publicação automatizada no GitHub Pages.</dd>
+            </dl>
+            <p><a href="https://github.com/nicolas-b-t/portfolio">Código deste portfólio</a></p>
+            <p><a href="documentacao/index.html">Documentação deste portfólio</a></p>
+            <details class="project-details">
+              <summary aria-label="Práticas e ferramentas do portfólio">Práticas e ferramentas</summary>
+              <h4 class="skill-subheading">Palavras-chave</h4>
+              <ul class="skill-list" role="list">
+                <li>Portfólio profissional</li>
+                <li>Acessibilidade web</li>
+                <li>HTML e CSS</li>
+              </ul>
+              <h4 class="skill-subheading">Tecnologias</h4>
+              <ul class="skill-list" role="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>GitHub Actions</li>
+                <li>GitHub Pages</li>
+                <li lang="en">Lucide Icons</li>
+              </ul>
+              <h4 class="skill-subheading">Desenvolvimento e qualidade</h4>
+              <ul class="skill-list" role="list">
+                <li>Desenvolvimento com agentes de IA</li>
+                <li>Documentação técnica</li>
+                <li>Acessibilidade web</li>
+                <li><abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr></li>
+                <li>Design responsivo</li>
+                <li>Otimização de desempenho</li>
+                <li>Otimização de imagens</li>
+                <li>Otimização para <abbr title="Applicant Tracking System" lang="en">ATS</abbr></li>
+                <li>Sites multilíngues</li>
+                <li>Testes de interface</li>
+                <li>Validação HTML</li>
+              </ul>
+              <h4 class="skill-subheading">Gestão e colaboração</h4>
+              <ul class="skill-list" role="list">
+                <li>Gestão de escopo</li>
+              </ul>
+            </details>
+          </article>
+          <article class="card" id="optigrow" tabindex="-1">
+            <p class="meta">Ferramenta de marketing para óticas · Portugal</p>
+            <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
+            <dl class="project-summary">
+              <dt>Objetivo</dt>
+              <dd>Entender o mercado digital de óticas da região do Porto.</dd>
+              <dt>Minha contribuição</dt>
+              <dd>Pesquisei o mercado e desenvolvi o produto com Rodrigo Nascimento, na nossa primeira parceria.</dd>
+              <dt>Resultado</dt>
+              <dd>Criamos uma ferramenta de marketing e tecnologia para óticas da região do Porto.</dd>
+            </dl>
+            <details class="project-details">
+              <summary aria-label="Práticas e ferramentas do Optigrow">Práticas e ferramentas</summary>
+              <h4 class="skill-subheading">Palavras-chave</h4>
+              <ul class="skill-list" role="list">
+                <li>Marketing digital</li>
+                <li>Óticas</li>
+                <li>Pesquisa de mercado</li>
+              </ul>
+              <p><a href="https://github.com/RodrigoNKC/optigrow">Repositório privado do Optigrow</a></p>
+              <p><a href="rede.html#rodrigo-nascimento">Conhecer Rodrigo Nascimento</a></p>
+              <h4 class="skill-subheading">Tecnologias</h4>
+              <ul class="skill-list" role="list">
+                <li>Google AI Studio</li>
+                <li>Supabase</li>
+                <li>Vercel</li>
+                <li>GitHub</li>
+              </ul>
+              <h4 class="skill-subheading">Desenvolvimento e qualidade</h4>
+              <ul class="skill-list" role="list">
+                <li>Documentação técnica</li>
+                <li>Formulários web</li>
+                <li>Preparação de infraestrutura</li>
+              </ul>
+              <h4 class="skill-subheading">Gestão e pesquisa</h4>
+              <ul class="skill-list" role="list">
+                <li>Desenvolvimento colaborativo</li>
+                <li>Pesquisa de mercado</li>
+              </ul>
+            </details>
+          </article>
+          <article class="card" id="proximos-projetos" tabindex="-1">
+            <span id="sgcs" aria-hidden="true"></span>
+            <span id="upcoming-projects" aria-hidden="true"></span>
+            <p class="meta">Pesquisa acadêmica · <span lang="en">SaaS</span> em desenvolvimento</p>
+            <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
+            <dl class="project-summary">
+              <dt>Objetivo</dt>
+              <dd>Facilitar o registro, a classificação e o acompanhamento de chamados por síndicos profissionais.</dd>
+              <dt>Minha contribuição</dt>
+              <dd>Gerenciei o projeto, coordenei a equipe e acompanhei prazos e entregas. Administrei e integrei as ferramentas de trabalho.</dd>
+              <dt>Resultado</dt>
+              <dd>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional. O trabalho recebeu menção honrosa no VI SIMBAJU, em 2026.</dd>
+            </dl>
+            <p><a href="#publicacao-sgcs">Ler sobre o estudo de caso do SGCS</a></p>
+            <details class="project-details">
+              <summary aria-label="Práticas, ferramentas e créditos do SGCS">Práticas, ferramentas e créditos</summary>
+              <h4 class="skill-subheading">Palavras-chave</h4>
+              <ul class="skill-list" role="list">
+                <li>Gestão condominial</li>
+                <li>Gestão de chamados</li>
+                <li>Prototipação <span lang="en">low-code</span></li>
+              </ul>
+              <h4>Equipe do trabalho premiado no VI SIMBAJU</h4>
+              <p><a href="rede.html#ismael-jackson">Ismael Jackson Barbosa Silveira</a>, <a href="rede.html#rikelme-fernandes-lopes">Rikelme Fernandes Lopes</a>, Miller de Souza Reis, Nicolas Beraldes Tarifa e <a href="rede.html#rodrigo-nascimento">Rodrigo do Nascimento Kussano Carneiro</a>.</p>
+              <ul class="profile-links" aria-label="Perfis públicos de Nicolas Beraldes Tarifa">
+                <li><a href="https://lattes.cnpq.br/1293729943180703">Lattes de Nicolas Beraldes Tarifa</a></li>
+                <li><a href="https://www.linkedin.com/in/nicolas-t-a1ab74321/">LinkedIn de Nicolas Beraldes Tarifa</a></li>
+              </ul>
+              <p>O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda <a href="https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476659">em discussão no Congresso Nacional</a>.</p>
+              <h4 class="skill-subheading">Tecnologias de desenvolvimento</h4>
+              <ul class="skill-list" role="list">
+                <li>Google AI Studio</li>
+                <li>Firebase</li>
+                <li>Vercel</li>
+                <li>GitHub</li>
+              </ul>
+              <h4 class="skill-subheading">Desenvolvimento de software</h4>
+              <ul class="skill-list" role="list">
+                <li>Engenharia de software</li>
+                <li>Engenharia de requisitos</li>
+                <li>Elicitação de requisitos</li>
+                <li>Requisitos funcionais</li>
+                <li>Requisitos não funcionais</li>
+                <li>Modelagem de processos</li>
+                <li>Documentação técnica</li>
+                <li>Prototipação</li>
+                <li>Avaliação de ferramentas</li>
+              </ul>
+              <h4 class="skill-subheading">Pesquisa acadêmica</h4>
+              <ul class="skill-list" role="list">
+                <li>Pesquisa aplicada</li>
+                <li>Pesquisa bibliográfica</li>
+                <li>Estudo de caso</li>
+                <li>Estudo de campo</li>
+                <li>Entrevistas</li>
+                <li>Questionários</li>
+                <li>Análise de dados qualitativos</li>
+                <li>Análise de conteúdo</li>
+                <li>Diagrama de Ishikawa</li>
+              </ul>
+              <h4 class="skill-subheading">Pesquisa de mercado</h4>
+              <ul class="skill-list" role="list">
+                <li>Pesquisa de mercado</li>
+                <li>Definição de personas</li>
+                <li>Mapa de empatia</li>
+                <li>Análise de necessidades</li>
+              </ul>
+              <h4 class="skill-subheading">Gestão e colaboração</h4>
+              <ul class="skill-list" role="list">
+                <li>Gestão de projetos</li>
+                <li>Planejamento de atividades</li>
+                <li>Gestão de escopo</li>
+                <li>Liderança de equipe</li>
+                <li>Gestão de entregáveis</li>
+                <li>Integração de ferramentas</li>
+                <li>Desenvolvimento colaborativo</li>
+              </ul>
+              <h4 class="skill-subheading">Ferramentas de gestão e pesquisa</h4>
+              <ul class="skill-list" role="list">
+                <li>Google Drive</li>
+                <li>Microsoft Word</li>
+                <li>Microsoft Teams</li>
+                <li>Trello</li>
+                <li>Google Acadêmico</li>
+                <li>ResearchGate</li>
+                <li>WhatsApp</li>
+                <li>Canva</li>
+              </ul>
+            </details>
+          </article>
+        </div>
+        <p class="preview-return noprint"><a href="#main">Voltar ao início</a></p>
+      </details>
     </section>
-    <section id="publicacoes" class="wrap">
-      <h2>Publicações</h2>
-      <div class="grid">
-        <article class="card" id="publicacao-sgcs">
-          <p class="meta">Capítulo de livro · <time datetime="2026">2026</time> · Coautoria</p>
-          <h3>Gestão condominial com síndico profissional em múltiplos condomínios: estudo de caso sobre comunicação e atendimento de chamados</h3>
-          <p><cite>Ciências Humanas, Sociais e Sociais Aplicadas: Pesquisas e Estudos</cite>. Aurum Editora, 2026, capítulo 39, p. 550–571.</p>
-          <p>A equipe estudou como síndicos e moradores registram e acompanham chamados. Usou entrevistas e questionários para identificar necessidades e definir os requisitos do protótipo do SGCS.</p>
-          <p><a href="https://doi.org/10.63330/aurumpub.069-039">Ler capítulo publicado</a></p>
-          <p><a href="#proximos-projetos">Conhecer o protótipo SGCS</a></p>
-        </article>
-      </div>
+    <section class="wrap preview-collection">
+      <details open class="preview-details">
+        <summary class="noprint">Ver minhas pesquisas</summary>
+        <h2 data-icon="book-open">Pesquisas e publicações</h2>
+        <div id="publicacoes" class="grid" tabindex="-1">
+          <article class="card" id="publicacao-sgcs" tabindex="-1">
+            <p class="meta">Capítulo de livro · <time datetime="2026">2026</time> · Coautoria</p>
+            <h3>Gestão condominial com síndico profissional em múltiplos condomínios: estudo de caso sobre comunicação e atendimento de chamados</h3>
+            <p><cite>Ciências Humanas, Sociais e Sociais Aplicadas: Pesquisas e Estudos</cite>. Aurum Editora, 2026, capítulo 39, p. 550–571.</p>
+            <p>A equipe estudou como síndicos e moradores registram e acompanham chamados. Usou entrevistas e questionários para identificar necessidades e definir os requisitos do protótipo do SGCS.</p>
+            <p><a href="https://doi.org/10.63330/aurumpub.069-039">Ler capítulo publicado</a></p>
+            <p><a href="#proximos-projetos">Conhecer o protótipo SGCS</a></p>
+          </article>
+        </div>
+        <p class="preview-return noprint"><a href="#main">Voltar ao início</a></p>
+      </details>
     </section>
   </main>
 
@@ -430,7 +450,7 @@
       <p class="noprint"><a href="index.html">Página principal</a> · <a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
       <p>&copy; 2026 Nicolas Beraldes Tarifa.</p>
       <div class="footer-tools noprint">
-        <a class="version-switch" href="projetos-experimental.html" title="Abrir prévia de Projetos e Pesquisas" aria-label="Abrir prévia de Projetos e Pesquisas"><span aria-hidden="true">⇄</span></a>
+        <a class="version-switch" href="projetos-experimental.html" title="Abrir prévia de Projetos e pesquisas" aria-label="Abrir prévia de Projetos e pesquisas"><span aria-hidden="true">⇄</span></a>
       </div>
     </div>
   </footer>
