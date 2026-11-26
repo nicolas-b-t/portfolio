@@ -9,22 +9,892 @@
   <link rel="alternate" hreflang="pt-BR" href="index.html">
   <link rel="alternate" hreflang="en-US" href="../en/index.html">
   <link rel="alternate" hreflang="x-default" href="../index.html">
-  <link rel="preload" href="../assets/icons/briefcase.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="../assets/icons/sliders-horizontal.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="../assets/icons/graduation-cap.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="../assets/icons/folder-code.svg" as="image" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/css/styles.css?v=20261125-prod">
-  <style>
-    @media screen {
-      #habilidades, #formacao, #contato {
-        content-visibility: auto;
-        contain-intrinsic-size: 1px 800px;
-      }
-    }
-  </style>
 </head>
 <body class="style-lab preview-page preview-home">
   <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+
+
+
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Nicolas Beraldes Tarifa</a>
+      <nav class="lang-switch" aria-label="Idioma">
+        <span class="is-current" aria-current="page" lang="pt-BR">Português (Brasil)</span>
+        <a href="../en/index.html" hreflang="en-US" lang="en-US">English</a>
+        <a href="../wip.html" lang="pt-BR">Outros idiomas em preparação</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="visao-geral" class="hero panel wrap" aria-labelledby="painel-nome" tabindex="-1">
+      <div class="panel-main">
+        <p class="kicker">Portfólio profissional</p>
+        <h1 id="painel-nome">Nicolas Beraldes Tarifa</h1>
+        <p class="lead">Trabalho com tecnologia e curso Gestão da Tecnologia da Informação.</p>
+        <nav class="hero-actions preview-primary" aria-label="Ações principais">
+          <a class="btn" href="#experiencia">Experiência</a>
+          <a class="btn ghost" href="projetos.html">Projetos e pesquisas</a>
+          <a class="btn ghost" href="#contato">Contato</a>
+        </nav>
+        <p class="preview-context">Já atuei em suporte, redes e comércio eletrônico. Hoje também desenvolvo projetos de software e reúno neste site alguns trabalhos dessa trajetória.</p>
+        <p class="panel-now"><strong>Atualmente:</strong> gestor de tráfego pago na Aquecedores e Piscinas Mairiporã, desde <time datetime="2026-01">janeiro de 2026</time>.</p>
+        <div class="hero-actions">
+          <a class="btn ghost" href="rede.html">Minha rede</a>
+          <details class="cv-download">
+            <summary class="btn ghost">Baixar currículo</summary>
+            <ul class="cv-download-options">
+              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-padrao-pt-BR.pdf" download="CV-NicolasBt-2026-11-04-padrao-pt-BR.pdf">CV geral (PDF)</a></li>
+              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.pdf" download="CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.pdf">CV com barra lateral (PDF)</a></li>
+            </ul>
+          </details>
+        </div>
+
+        <nav class="panel-nav" aria-label="Acesso rápido">
+          <ul class="panel-doors" role="list">
+            <li>
+              <a class="panel-door" data-icon="briefcase" href="#experiencia">
+                <span class="panel-door-title">Experiência</span>
+                <span class="panel-door-note">Suporte de TI, redes e tráfego pago</span>
+              </a>
+            </li>
+            <li>
+              <a class="panel-door" data-icon="sliders-horizontal" href="#habilidades">
+                <span class="panel-door-title">Competências</span>
+                <span class="panel-door-note">Técnicas, sociais e práticas</span>
+              </a>
+            </li>
+            <li>
+              <a class="panel-door" data-icon="graduation-cap" href="#formacao">
+                <span class="panel-door-title">Formação</span>
+                <span class="panel-door-note">Gestão de TI · conclusão prevista em 2027</span>
+              </a>
+            </li>
+          </ul>
+          <p class="panel-label" id="painel-competencias">Competências técnicas</p>
+          <ul class="panel-chips" role="list" aria-labelledby="painel-competencias">
+            <li><a data-icon="sliders-horizontal" href="#gestao-projetos">Gestão de projetos</a></li>
+            <li><a data-icon="megaphone" href="#trafego-pago">Tráfego pago</a></li>
+            <li><a data-icon="monitor" href="#sistemas-operacionais">Sistemas operacionais</a></li>
+            <li><a data-icon="code-2" href="#programacao-dados">Programação e dados</a></li>
+            <li><a data-icon="network" href="#redes">Redes</a></li>
+            <li><a data-icon="headset" href="#suporte-ti">Suporte de TI</a></li>
+          </ul>
+        </nav>
+
+        <div class="panel-projects">
+          <h2 data-icon="folder-code">Projetos em destaque</h2>
+          <div class="grid">
+            <article class="card">
+              <p class="meta">Ferramenta de marketing para óticas · Portugal</p>
+              <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
+              <p>Ferramenta de marketing e tecnologia para óticas da região do Porto. <a href="projetos.html#optigrow">Ver detalhes do Optigrow</a></p>
+            </article>
+            <article class="card">
+              <p class="meta">Pesquisa acadêmica · <span lang="en">SaaS</span> em desenvolvimento</p>
+              <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
+              <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. <a href="projetos.html#proximos-projetos">Ver detalhes do SGCS</a></p>
+            </article>
+          </div>
+          <p class="panel-more"><a href="projetos.html">Ver todos os projetos e pesquisas</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="desenvolvimento-com-agentes-de-ia" class="wrap">
+      <h2 data-icon="code-2">Princípios de desenvolvimento</h2>
+      <p>Antes de escolher a tecnologia, procuro entender como o trabalho acontece, quem vai usar a solução e o que precisa mudar. Em software, servidores, redes e cibersegurança, adoto uma postura "seguro por padrão", o que se alinha naturalmente a um desenvolvimento minimalista, estável e funcional.</p>
+    </section>
+
+    <section id="experiencia" class="wrap" tabindex="-1">
+      <h2 data-icon="briefcase">Experiência profissional</h2>
+      <ol class="timeline" role="list">
+        <li>
+          <h3 data-icon="trending-up">Gestor de tráfego pago - Prestação de serviços</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd>Aquecedores e Piscinas Mairiporã</dd>
+            <dt>Período</dt>
+            <dd><time datetime="2026-01">janeiro de 2026</time> – atual</dd>
+            <dt>Local</dt>
+            <dd>Mairiporã, SP, Brasil</dd>
+          </dl>
+          <p>Implantei e gerencio o site, as páginas e os canais no Mercado Livre e Shopee. Planejo, executo e otimizo campanhas no <span lang="en">Google Ads</span> e <span lang="en">Meta Ads</span>.</p>
+          <p>Treinei os sócios administradores em Facebook, Instagram e Meta e presto suporte de TI a serviços e contas digitais sob demanda.</p>
+        </li>
+        <li>
+          <h3 data-icon="cable">Auxiliar de instalação de fibra óptica</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://realfortsistemas.com.br/">RealFort Sistemas</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2026-08-28">28 de agosto de 2026</time> – <time datetime="2026-09-28">28 de setembro de 2026</time></dd>
+            <dt>Local</dt>
+            <dd>São Paulo, SP, Brasil</dd>
+          </dl>
+          <p>Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos <span lang="en">drop</span> e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.</p>
+          <p>Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes <span lang="en">mesh</span>.</p>
+          <p>Realizei diagnósticos por meio de medições com <span lang="en">power meter</span> e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.</p>
+          <p><a href="galeria.html">Ver registros fotográficos de redes e eletrônica</a></p>
+        </li>
+        <li>
+          <h3 data-icon="headset">Técnico de suporte <span lang="en">Help Desk</span></h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://lukos.com.br/">Lukos Tecnologia</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2025-09">setembro de 2025</time> – <time datetime="2025-12">dezembro de 2025</time></dd>
+            <dt>Local</dt>
+            <dd>São Paulo, SP, Brasil</dd>
+          </dl>
+          <p>Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei os sistemas conforme os requisitos dos clientes. Escalonei chamados para outros níveis de suporte.</p>
+          <p>Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.</p>
+          <p>Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.</p>
+        </li>
+        <li>
+          <h3 data-icon="monitor">Técnico de suporte de TI</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://alphainstituto.com.br/">Instituto Alpha de Saúde Integral</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2023-04">abril de 2023</time> – <time datetime="2024-06">junho de 2024</time></dd>
+            <dt>Local</dt>
+            <dd>São Paulo, SP, Brasil</dd>
+          </dl>
+          <p>Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.</p>
+          <p>Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.</p>
+          <p>Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).</p>
+          <p>Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.</p>
+        </li>
+        <li>
+          <h3 data-icon="globe">Assistente de E-commerce - Prestação de serviços</h3>
+          <dl class="experience-meta">
+            <dt>Empresa</dt>
+            <dd><a href="https://institucional.jheletronico.com.br/">JH Eletrônico</a></dd>
+            <dt>Período</dt>
+            <dd><time datetime="2022-07">julho de 2022</time> – <time datetime="2023-01">janeiro de 2023</time></dd>
+            <dt>Local</dt>
+            <dd>Mairiporã, SP, Brasil</dd>
+          </dl>
+          <p>Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.</p>
+          <p>Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.</p>
+          <p>Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.</p>
+        </li>
+      </ol>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
+    </section>
+
+    <section id="habilidades" class="wrap" tabindex="-1">
+      <h2 data-icon="sliders-horizontal">Competências e habilidades</h2>
+      <div class="skill-category">
+        <h3 data-icon="code-2">Competências técnicas <span lang="en">(Hard skills)</span></h3>
+        <h4 class="skill-subheading">Gestão administrativa e produtividade</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Indicadores estratégicos</li>
+          <li>Melhoria de processos</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Ver mais competências de Gestão administrativa e produtividade">[ver mais]</summary>
+          <ul class="skill-list" role="list">
+            <li>Canva</li>
+            <li>Google Drive</li>
+            <li>LibreOffice</li>
+            <li>Trello</li>
+            <li>White Belt Six Sigma<span class="skill-note">, introdutório</span></li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Finanças</h4>
+        <ul class="skill-list" role="list">
+          <li>Capitalização</li>
+          <li>Fluxo de caixa</li>
+          <li>Gestão financeira</li>
+        </ul>
+        <h4 class="skill-subheading">Ferramentas Microsoft</h4>
+        <ul class="skill-list" role="list">
+          <li>Microsoft Excel</li>
+          <li>Microsoft Office</li>
+          <li>Microsoft Teams</li>
+          <li>Microsoft Word</li>
+          <li>Microsoft 365</li>
+          <li>OneDrive</li>
+        </ul>
+        <h4 class="skill-subheading" id="gestao-projetos" tabindex="-1">Gestão de projetos</h4>
+        <ul class="skill-list" role="list">
+          <li>Gestão de projetos</li>
+          <li>Metodologias ágeis</li>
+          <li>Planejamento de metas</li>
+          <li>Scrum</li>
+        </ul>
+        <h4 class="skill-subheading" id="trafego-pago" tabindex="-1">Marketing digital e comércio eletrônico</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Gestão de tráfego pago</li>
+          <li>Comércio eletrônico</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Ver mais competências de Marketing digital e comércio eletrônico">[ver mais]</summary>
+          <ul class="skill-list" role="list">
+            <li>Atendimento B2C e B2B</li>
+            <li>Bling ERP</li>
+            <li>Cadastro de produtos</li>
+            <li>Conferência pré-expedição</li>
+            <li>Elaboração de orçamentos</li>
+            <li>Facebook</li>
+            <li>Gestão de catálogo</li>
+            <li>Gestão de pedidos</li>
+            <li>Google Ads</li>
+            <li>Google Ads Editor</li>
+            <li>Instagram</li>
+            <li>Mercado Livre</li>
+            <li>Meta Ads</li>
+            <li>Meta Ads Manager</li>
+            <li>Meta Business Suite</li>
+            <li>Otimização de campanhas</li>
+            <li>Prospecção de leads</li>
+            <li>Shopee</li>
+            <li>Vendas diretas</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading" id="sistemas-operacionais" tabindex="-1">Sistemas operacionais</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Microsoft Windows</li>
+          <li>Microsoft Windows Server</li>
+          <li>Linux</li>
+          <li>Debian</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Ver mais competências de Sistemas operacionais">[ver mais]</summary>
+          <ul class="skill-list" role="list">
+            <li>Ubuntu</li>
+            <li>Windows 10</li>
+            <li>Windows 11</li>
+            <li>Windows Server 2008 R2</li>
+            <li>Windows Server 2016</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading" id="programacao-dados" tabindex="-1">Programação e dados</h4>
+        <ul class="skill-list" role="list">
+          <li>Aprendizado de máquina</li>
+          <li>Inteligência artificial (IA)</li>
+          <li>JavaScript</li>
+          <li>Lógica de programação</li>
+          <li>Modelagem de dados</li>
+          <li>Python</li>
+        </ul>
+        <h4 class="skill-subheading">Desenvolvimento com IA</h4>
+        <ul class="skill-list" role="list">
+          <li>OpenAI ChatGPT</li>
+          <li>Codex (OpenAI)</li>
+          <li>Claude</li>
+          <li>Claude Code</li>
+          <li>Desenvolvimento com agentes de IA</li>
+          <li>OpenCode</li>
+        </ul>
+        <h4 class="skill-subheading">Desenvolvimento de software</h4>
+        <ul class="skill-list" role="list">
+          <li>Desenvolvimento ágil</li>
+          <li>Desenvolvimento em cascata</li>
+          <li>Desenvolvimento orientado por especificações</li>
+          <li>Prototipação</li>
+          <li>Produto mínimo viável (MVP)</li>
+        </ul>
+        <h4 class="skill-subheading">Bancos de dados</h4>
+        <ul class="skill-list" role="list">
+          <li>Consultas SQL</li>
+          <li>PostgreSQL</li>
+          <li>SQLite</li>
+        </ul>
+        <h4 class="skill-subheading" id="redes" tabindex="-1">Redes</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>FTTH</li>
+          <li>Redes locais (LAN)</li>
+          <li>OTDR</li>
+          <li>Fusão de fibra óptica<span class="skill-note">, aprendiz</span></li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Ver mais competências de Redes">[ver mais]</summary>
+          <ul class="skill-list" role="list">
+            <li>Cabeamento de redes</li>
+            <li>Cabo <span lang="en">drop</span></li>
+            <li>Comutadores de rede</li>
+            <li>Conexões a rádio</li>
+            <li>Configuração de roteadores</li>
+            <li>Manutenção de caixas de terminação óptica (CTO)</li>
+            <li>Medidor de potência óptica (<span lang="en">power meter</span>)</li>
+            <li>ONT</li>
+            <li>ONU</li>
+            <li>Organização de cabos</li>
+            <li>PoE</li>
+            <li>PPPoE</li>
+            <li>Preparação de postes para passagem de fibra</li>
+            <li>Redes <span lang="en">mesh</span></li>
+            <li>RJ45</li>
+            <li>SC/APC</li>
+            <li>Servidores</li>
+            <li>VFL</li>
+            <li>Wi-Fi</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Sistemas para redes</h4>
+        <ul class="skill-list" role="list">
+          <li>OpenWrt</li>
+          <li>OPNsense</li>
+          <li>pfSense</li>
+        </ul>
+        <h4 class="skill-subheading" id="suporte-ti" tabindex="-1">Suporte de TI</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Suporte a ERP<span class="skill-note">, N1</span></li>
+          <li>Suporte técnico hospitalar<span class="skill-note">, N1/N2</span></li>
+          <li>Manutenção de computadores</li>
+          <li>Resolução de incidentes</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Ver mais competências de Suporte de TI">[ver mais]</summary>
+          <ul class="skill-list" role="list">
+            <li>Configuração de contas digitais</li>
+            <li>Documentação técnica</li>
+            <li>Escalonamento de chamados</li>
+            <li>Gestão de ativos de TI</li>
+            <li>Manuais de usuário</li>
+            <li>Manutenção corretiva</li>
+            <li>Manutenção de impressoras</li>
+            <li>Manutenção de periféricos</li>
+            <li>Manutenção preventiva</li>
+            <li>Microsoft Active Directory</li>
+            <li>NF-e</li>
+            <li>NFC-e</li>
+            <li>Orientação de usuários</li>
+            <li>Procedimentos operacionais padrão (POPs)</li>
+            <li>Suporte a PDV<span class="skill-note">, N1</span></li>
+            <li>Suporte de <span lang="en">help desk</span><span class="skill-note">, N1</span></li>
+            <li>Suporte remoto</li>
+            <li>Treinamento de usuários</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Web</h4>
+        <ul class="skill-list" role="list">
+          <li>Acessibilidade web</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>GitHub Actions</li>
+          <li>GitHub Pages</li>
+          <li>HTML</li>
+          <li>Sites multilíngues</li>
+        </ul>
+        <h4 class="skill-subheading">Servidores web</h4>
+        <ul class="skill-list" role="list">
+          <li>Apache HTTP Server</li>
+          <li>NGINX</li>
+        </ul>
+        <h4 class="skill-subheading">Plataformas de desenvolvimento e hospedagem</h4>
+        <ul class="skill-list" role="list">
+          <li>Amazon Web Services (AWS)</li>
+          <li>Firebase</li>
+          <li>Microsoft Azure</li>
+          <li>Supabase</li>
+          <li>Vercel</li>
+        </ul>
+        <h4 class="skill-subheading">Idiomas</h4>
+        <ul class="skill-list" role="list">
+          <li>Inglês<span class="skill-note">, TOEIC Listening &amp; Reading 910</span></li>
+          <li>Português brasileiro</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3 data-icon="users-round">Competências sociais <span lang="en">(Soft skills)</span></h3>
+        <h4 class="skill-subheading">Organização e desenvolvimento</h4>
+        <ul class="skill-list" role="list">
+          <li>Adaptabilidade</li>
+          <li>Atenção a detalhes</li>
+          <li>Autonomia</li>
+          <li>Pensamento analítico</li>
+          <li>Resolução de problemas</li>
+        </ul>
+        <h4 class="skill-subheading">Relacionamento</h4>
+        <ul class="skill-list" role="list">
+          <li>Comunicação</li>
+          <li>Compreensão das necessidades do cliente</li>
+          <li>Trabalho em equipe</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3 data-icon="wrench">Habilidades práticas e operacionais</h3>
+        <h4 class="skill-subheading">Campo e ferramentas</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Máquina de fusão de fibra óptica</li>
+          <li>Multímetro</li>
+          <li>Ferramentas elétricas</li>
+          <li>Trabalho em altura</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Ver mais competências de Campo e ferramentas">[ver mais]</summary>
+          <ul class="skill-list" role="list">
+            <li>Clivador</li>
+            <li>Ferramentas manuais</li>
+            <li>Fusimech</li>
+            <li>Organização de ferramentas</li>
+            <li>Organização de insumos</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Condução</h4>
+        <ul class="skill-list" role="list">
+          <li>Condução de carros</li>
+          <li>Condução de motos</li>
+          <li>CNH AB</li>
+          <li>Permissão Internacional para Dirigir (PID)</li>
+        </ul>
+        <p>A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. Lista de países que aceitam a <a href="https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS" hreflang="pt-BR">CNH</a> e a <a href="https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&amp;mtdsg_no=XI-B-19&amp;chapter=11" hreflang="en">PID</a>.</p>
+      </div>
+
+      <h3 id="sfia-title" data-icon="user-check">Perfil SFIA</h3>
+      <details class="sfia-profile">
+        <summary class="sfia-summary">Ver perfil SFIA</summary>
+        <div class="sfia-profile-body">
+        <p>Autoavaliação de responsabilidade baseada no SFIA 9.</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">USUP</span> Gestão de incidentes</p>
+            <p class="sfia-level">Nível 3 · Aplica</p>
+            <p class="sfia-evidence">Atendo e diagnostico incidentes de N1/N2 em ERP/PDV e ambiente hospitalar; oriento usuários e escalono o que não resolvo.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Suporte a redes</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Instalo e mantenho redes FTTH e rádio, com cabo <span lang="en">drop</span>, SC/APC, ONU/ONT e roteadores; diagnostico com <span lang="en">power meter</span>, OTDR e VFL.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Instalação e remoção de sistemas</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Instalo, configuro e mantenho estações, periféricos e ativos em ambiente corporativo e hospitalar.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Suporte a aplicações</p>
+            <p class="sfia-level">Nível 3 · Aplica</p>
+            <p class="sfia-evidence">Presto suporte a ERP/PDV, configuro sistemas, diagnostico remotamente e oriento usuários em NF-e/NFC-e.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Operações de infraestrutura</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Apoio o monitoramento e a manutenção de infraestrutura, registro incidentes e executo rotinas de suporte.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programação/<wbr>desenvolvimento de software</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Orquestro o trabalho dos agentes de IA que implementam este portfólio em HTML e CSS. Reviso as alterações. O projeto usa controle de versão e publicação automatizada.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Controle de mudanças</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Avalio o impacto das mudanças no portfólio e reviso as alterações. Registro as mudanças em <span lang="en">commits</span> para acompanhar o histórico e permitir reversões.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Níveis 2 e 3. As evidências vêm das experiências, dos projetos e dos cursos descritos nesta página.</p>
+        </div>
+      </details>
+
+      <!-- Espelho de impressão. Mantenha em sincronia com .sfia-profile. -->
+      <section class="sfia-print">
+        <h3 data-icon="user-check">Perfil SFIA</h3>
+        <p>Autoavaliação de responsabilidade baseada no SFIA 9.</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">USUP</span> Gestão de incidentes</p>
+            <p class="sfia-level">Nível 3 · Aplica</p>
+            <p class="sfia-evidence">Atendo e diagnostico incidentes de N1/N2 em ERP/PDV e ambiente hospitalar; oriento usuários e escalono o que não resolvo.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Suporte a redes</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Instalo e mantenho redes FTTH e rádio, com cabo <span lang="en">drop</span>, SC/APC, ONU/ONT e roteadores; diagnostico com <span lang="en">power meter</span>, OTDR e VFL.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Instalação e remoção de sistemas</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Instalo, configuro e mantenho estações, periféricos e ativos em ambiente corporativo e hospitalar.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Suporte a aplicações</p>
+            <p class="sfia-level">Nível 3 · Aplica</p>
+            <p class="sfia-evidence">Presto suporte a ERP/PDV, configuro sistemas, diagnostico remotamente e oriento usuários em NF-e/NFC-e.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Operações de infraestrutura</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Apoio o monitoramento e a manutenção de infraestrutura, registro incidentes e executo rotinas de suporte.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programação/<wbr>desenvolvimento de software</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Orquestro o trabalho dos agentes de IA que implementam este portfólio em HTML e CSS. Reviso as alterações. O projeto usa controle de versão e publicação automatizada.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Controle de mudanças</p>
+            <p class="sfia-level">Nível 2 · Auxilia</p>
+            <p class="sfia-evidence">Avalio o impacto das mudanças no portfólio e reviso as alterações. Registro as mudanças em <span lang="en">commits</span> para acompanhar o histórico e permitir reversões.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Níveis 2 e 3.</p>
+      </section>
+
+      <h3 id="nice-title" data-icon="headset">NICE — Correspondência de tarefas</h3>
+      <details id="nice" class="nice-profile">
+        <summary class="nice-summary">Ver correspondência de tarefas NICE</summary>
+        <p>Tarefas selecionadas do papel <span lang="en">Technical Support</span> (<code>IO-WRL-007</code>).</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T0237</span> Diagnóstico de hardware e software</p>
+            <p class="sfia-evidence">Na Lukos, diagnostiquei e resolvi problemas no ERP, na rede e nos dispositivos dos clientes por acesso remoto.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1412</span> Treinamento técnico a clientes</p>
+            <p class="sfia-evidence">Na Lukos, treinei e orientei clientes no uso do sistema ERP e PDV.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuração de software e periféricos</p>
+            <p class="sfia-evidence">Configurei sistemas para clientes da Lukos e impressoras no Instituto Alpha.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Correspondência baseada nas atividades descritas na <a href="#experiencia">experiência profissional</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
+      </details>
+
+      <!-- Espelho de impressão das tarefas NICE. -->
+      <section class="nice-print">
+        <h3 data-icon="headset">NICE — Correspondência de tarefas</h3>
+        <p>Tarefas selecionadas do papel <span lang="en">Technical Support</span> (<code>IO-WRL-007</code>).</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T0237</span> Diagnóstico de hardware e software</p>
+            <p class="sfia-evidence">Na Lukos, diagnostiquei e resolvi problemas no ERP, na rede e nos dispositivos dos clientes por acesso remoto.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1412</span> Treinamento técnico a clientes</p>
+            <p class="sfia-evidence">Na Lukos, treinei e orientei clientes no uso do sistema ERP e PDV.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuração de software e periféricos</p>
+            <p class="sfia-evidence">Configurei sistemas para clientes da Lukos e impressoras no Instituto Alpha.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Correspondência baseada nas atividades descritas na <a href="#experiencia">experiência profissional</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
+      </section>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
+    </section>
+
+
+    <section id="formacao" class="wrap" tabindex="-1">
+      <h2 data-icon="graduation-cap">Formação acadêmica</h2>
+      <p class="meta">Instituição: <a href="https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/">Fatec Franco da Rocha – Giuliano Cecchettini</a></p>
+      <h3 data-icon="book-open">Curso superior de tecnologia em Gestão da Tecnologia da Informação</h3>
+      <p>Início: <time datetime="2024-07">julho de 2024</time> · Conclusão prevista: <time datetime="2027-07">julho de 2027</time></p>
+      <p class="meta"><a href="https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view">Conforme o projeto pedagógico do curso (PPC)</a>.</p>
+      <p class="section-nav noprint"><a href="rede.html#professores">Professores e apoio acadêmico</a></p>
+      <h3 id="grad-contents-title" data-icon="list-checks">Conteúdos previstos da graduação</h3>
+      <details class="skill-group graduation-details">
+        <summary>Ver conteúdos previstos da graduação</summary>
+        <h4 class="skill-subheading">Gestão e negócios</h4>
+        <ul class="skill-list" role="list">
+          <li>Avaliação de soluções</li>
+          <li>Gestão de pessoas</li>
+          <li>Gestão de processos</li>
+          <li>Gestão de projetos de TI</li>
+          <li>Gestão financeira</li>
+          <li>Planejamento estratégico</li>
+        </ul>
+        <h4 class="skill-subheading">Pesquisa e competências sociais</h4>
+        <ul class="skill-list" role="list">
+          <li>Comunicação</li>
+          <li>Negociação</li>
+          <li>Gestão de conflitos</li>
+          <li>Pensamento crítico</li>
+          <li>Pesquisa acadêmica</li>
+          <li>Resolução de problemas</li>
+          <li>Trabalho em equipe</li>
+          <li>Visão sistêmica</li>
+        </ul>
+        <h4 class="skill-subheading">Tecnologia e sistemas</h4>
+        <ul class="skill-list" role="list">
+          <li>Bancos de dados</li>
+          <li>Diagnóstico de infraestrutura</li>
+          <li>Engenharia de software</li>
+          <li>Inteligência de negócios</li>
+          <li>Programação para internet</li>
+          <li>Redes de computadores</li>
+          <li>Sistemas operacionais</li>
+        </ul>
+      </details>
+
+      <h3 data-icon="award">Cursos e certificados</h3>
+      <p>Fiz cursos de JavaScript e Python e tenho prática em programação. Meu conhecimento em aprendizado de máquina é introdutório.</p>
+      <details class="course-details courses-screen">
+        <summary>Ver 18 cursos e formações complementares</summary>
+        <div class="skill-category">
+          <h4 class="course-group">Competências técnicas <span lang="en">(Hard skills)</span></h4>
+          <h5 class="skill-subheading">Gestão e produtividade</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
+              <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
+              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-11-13">13/11/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Microsoft Office Specialist Associate</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Curso preparatório do SENAI para a prova de certificação · 60 h · Conclusão: <time datetime="2026-07-25">25/07/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
+              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
+              <p>Formação introdutória · 2 h · Conclusão: <time datetime="2026-04-17">17/04/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2026-01-09">09/01/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Gestão Financeira</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-12-29">29/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
+              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
+              <p>Participação · 8 h · Conclusão: <time datetime="2025-12-20">20/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Excel Básico</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2025-09-02">02/09/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
+              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-03-18">18/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-01-19">19/01/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 12 h · Conclusão: <time datetime="2024-11-27">27/11/2024</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
+              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
+              <p>Participação · 40 h · Conclusão: <time datetime="2024-11-11">11/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Programação e dados</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">JavaScript Essentials 1</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://jsinstitute.org/" hreflang="en">OpenEDG JavaScript Institute</a></p>
+              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-05-16">16/05/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Modelagem de Dados</h6>
+              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Conclusão de curso · 8 h · Conclusão: <time datetime="2025-11-25">25/11/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Python Essentials 1</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://pythoninstitute.org/" hreflang="en">OpenEDG Python Institute</a></p>
+              <p>Conclusão de curso · 30 h · Conclusão: <time datetime="2025-03-22">22/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://skillsbuild.org/" hreflang="en">IBM SkillsBuild</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2024-11-05">05/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Redes</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Conclusão de curso · 48 h · Conclusão: <time datetime="2026-05-13">13/05/2026</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Suporte de TI</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">Computer Hardware Basics</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a></p>
+              <p>Conclusão de curso · 6 h · Conclusão: <time datetime="2025-02-18">18/02/2025</time></p>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4 class="course-group">Competências sociais <span lang="en">(Soft skills)</span></h4>
+          <h5 class="skill-subheading">Organização e desenvolvimento</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 2 h · Conclusão: <time datetime="2024-11-25">25/11/2024</time></p>
+            </li>
+          </ul>
+        </div>
+      </details>
+      <!-- Mantenha esta cópia igual aos cursos da seção recolhível. -->
+      <div class="courses-print">
+        <div class="skill-category">
+          <h4 class="course-group">Competências técnicas <span lang="en">(Hard skills)</span></h4>
+          <h5 class="skill-subheading">Gestão e produtividade</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
+              <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
+              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-11-13">13/11/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Microsoft Office Specialist Associate</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Curso preparatório do SENAI para a prova de certificação · 60 h · Conclusão: <time datetime="2026-07-25">25/07/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
+              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
+              <p>Formação introdutória · 2 h · Conclusão: <time datetime="2026-04-17">17/04/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2026-01-09">09/01/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Gestão Financeira</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-12-29">29/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
+              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
+              <p>Participação · 8 h · Conclusão: <time datetime="2025-12-20">20/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Excel Básico</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2025-09-02">02/09/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
+              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-03-18">18/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-01-19">19/01/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 12 h · Conclusão: <time datetime="2024-11-27">27/11/2024</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
+              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
+              <p>Participação · 40 h · Conclusão: <time datetime="2024-11-11">11/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Programação e dados</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">JavaScript Essentials 1</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://jsinstitute.org/" hreflang="en">OpenEDG JavaScript Institute</a></p>
+              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-05-16">16/05/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Modelagem de Dados</h6>
+              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Conclusão de curso · 8 h · Conclusão: <time datetime="2025-11-25">25/11/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Python Essentials 1</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://pythoninstitute.org/" hreflang="en">OpenEDG Python Institute</a></p>
+              <p>Conclusão de curso · 30 h · Conclusão: <time datetime="2025-03-22">22/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://skillsbuild.org/" hreflang="en">IBM SkillsBuild</a></p>
+              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2024-11-05">05/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Redes</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Conclusão de curso · 48 h · Conclusão: <time datetime="2026-05-13">13/05/2026</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Suporte de TI</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">Computer Hardware Basics</h6>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a></p>
+              <p>Conclusão de curso · 6 h · Conclusão: <time datetime="2025-02-18">18/02/2025</time></p>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4 class="course-group">Competências sociais <span lang="en">(Soft skills)</span></h4>
+          <h5 class="skill-subheading">Organização e desenvolvimento</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
+              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p>Conclusão de curso · 2 h · Conclusão: <time datetime="2024-11-25">25/11/2024</time></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h3 data-icon="languages">Inglês — <span lang="en">TOEIC Listening &amp; Reading</span></h3>
+      <p><a href="https://www.ets.org/toeic.html" hreflang="en">ETS — <span lang="en">Educational Testing Service</span></a>. Aplicado pelo <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
+      <p>Total: <strong>910 pontos</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
+    </section>
+
+
+    <section id="contato" class="wrap contact-section" tabindex="-1">
+      <h2 data-icon="at-sign">Contato</h2>
+      <ul class="contact-list" role="list">
+        <li><a data-icon="mail" href="mailto:beraldesnicolas@gmail.com">E-mail — beraldesnicolas@gmail.com</a></li>
+        <li><a data-icon="linkedin" href="https://www.linkedin.com/in/nicolas-t-a1ab74321/">LinkedIn — Nicolas Beraldes Tarifa</a></li>
+        <li><a data-icon="github" href="https://github.com/nicolas-b-t">GitHub — nicolas-b-t</a></li>
+        <li><a data-icon="graduation-cap" href="https://lattes.cnpq.br/1293729943180703">Currículo Lattes — lattes.cnpq.br/1293729943180703</a></li>
+      </ul>
+      <p class="contact-related"><a href="recomendacoes.html">Conheça minha seleção</a></p>
+      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="noprint"><a href="projetos.html">Projetos e pesquisas</a> · <a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
+      <p>&copy; <span>2026</span> Nicolas Beraldes Tarifa.</p>
+      <div class="footer-tools noprint">
+        <a class="version-switch" href="experimentais.html" title="Abrir páginas experimentais" aria-label="Abrir páginas experimentais"><span aria-hidden="true">⇄</span></a>
+        <details class="style-switch">
+          <summary title="Estilos experimentais"><span aria-hidden="true">◇</span><span class="visually-hidden">Estilos experimentais</span></summary>
+          <fieldset>
+            <legend>Estilo da página</legend>
+            <label for="style-padrao"><input type="radio" name="estilo-visual" value="padrao" id="style-padrao" checked> Padrão</label>
+            <label for="style-nato"><input type="radio" name="estilo-visual" value="nato" id="style-nato"> <span lang="en">NATO</span></label>
+            <label for="style-warsaw"><input type="radio" name="estilo-visual" value="warsaw" id="style-warsaw"> <span lang="en">Warsaw Pact</span></label>
+          </fieldset>
+        </details>
+      </div>
+    </div>
+  </footer>
+
   <!-- Cópia hierárquica dos dados públicos. Conteúdo oculto pode ser ignorado por extratores. -->
   <section id="dados-curriculo" hidden="">
     <h2>Nicolas Beraldes Tarifa</h2>
@@ -56,7 +926,7 @@
     </section>
     <section>
       <h3>Princípios de desenvolvimento</h3>
-      <p>Antes de escolher a tecnologia, procuro entender como o trabalho acontece, quem vai usar a solução e o que precisa mudar. Em software, redes e cibersegurança, adoto uma postura "seguro por padrão" — próxima à filosofia <span lang="en">OpenBSD</span> —, o que se alinha naturalmente a um desenvolvimento minimalista, estável e funcional.</p>
+      <p>Antes de escolher a tecnologia, procuro entender como o trabalho acontece, quem vai usar a solução e o que precisa mudar. Em software, servidores, redes e cibersegurança, adoto uma postura "seguro por padrão", o que se alinha naturalmente a um desenvolvimento minimalista, estável e funcional.</p>
     </section>
     <section>
       <h3>Competências e habilidades</h3>
@@ -750,7 +1620,7 @@
               <p lang="en">
                 <strong>JavaScript Essentials 1</strong>
               </p>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://jsinstitute.org/" hreflang="en">OpenEDG JavaScript Institute</a></p>
               <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-05-16">16/05/2026</time>
               </p>
             </li>
@@ -766,7 +1636,7 @@
               <p lang="en">
                 <strong>Python Essentials 1</strong>
               </p>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://pythoninstitute.org/" hreflang="en">OpenEDG Python Institute</a></p>
               <p>Conclusão de curso · 30 h · Conclusão: <time datetime="2025-03-22">22/03/2025</time>
               </p>
             </li>
@@ -774,7 +1644,7 @@
               <p lang="en">
                 <strong>AI Fundamentals with IBM SkillsBuild</strong>
               </p>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a>, em colaboração com <a href="https://skillsbuild.org/" hreflang="en">IBM SkillsBuild</a></p>
               <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2024-11-05">05/11/2024</time>
               </p>
             </li>
@@ -796,7 +1666,7 @@
               <p lang="en">
                 <strong>Computer Hardware Basics</strong>
               </p>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
+              <p><a href="https://www.netacad.com/" hreflang="en">Cisco Networking Academy</a></p>
               <p>Conclusão de curso · 6 h · Conclusão: <time datetime="2025-02-18">18/02/2025</time>
               </p>
             </li>
@@ -820,7 +1690,7 @@
       </div>
       <h4>Inglês — <span lang="en">TOEIC Listening &amp; Reading</span>
       </h4>
-      <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Aplicado pelo <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
+      <p><a href="https://www.ets.org/toeic.html" hreflang="en">ETS — Educational Testing Service</a>. Aplicado pelo <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
       <p>Total: <strong>910 pontos</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
     </section>
     <section>
@@ -828,885 +1698,5 @@
       <p><a href="projetos.html">Consulte os projetos pessoais, colaborativos e acadêmicos.</a></p>
     </section>
   </section>
-
-
-
-
-
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html">Nicolas Beraldes Tarifa</a>
-      <nav class="lang-switch" aria-label="Idioma">
-        <span class="is-current" aria-current="page" lang="pt-BR">Português (Brasil)</span>
-        <a href="../en/index.html" hreflang="en-US" lang="en-US">English</a>
-        <a href="../wip.html" lang="pt-BR">Outros idiomas em preparação</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <section id="visao-geral" class="hero panel wrap" aria-labelledby="painel-nome" tabindex="-1">
-      <div class="panel-main">
-        <p class="kicker">Portfólio profissional</p>
-        <h1 id="painel-nome">Nicolas Beraldes Tarifa</h1>
-        <p class="lead">Trabalho com tecnologia e curso Gestão da Tecnologia da Informação.</p>
-        <nav class="hero-actions preview-primary" aria-label="Ações principais">
-          <a class="btn" href="#experiencia">Experiência</a>
-          <a class="btn ghost" href="projetos.html">Projetos e pesquisas</a>
-          <a class="btn ghost" href="#contato">Contato</a>
-        </nav>
-        <p class="preview-context">Já atuei em suporte, redes e comércio eletrônico. Hoje também desenvolvo projetos de software e reúno neste site alguns trabalhos dessa trajetória.</p>
-        <p class="panel-now"><strong>Atualmente:</strong> gestor de tráfego pago na Aquecedores e Piscinas Mairiporã, desde <time datetime="2026-01">janeiro de 2026</time>.</p>
-        <div class="hero-actions">
-          <a class="btn ghost" href="rede.html">Minha rede</a>
-          <details class="cv-download">
-            <summary class="btn ghost">Baixar currículo</summary>
-            <ul class="cv-download-options">
-              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-padrao-pt-BR.pdf" download="CV-NicolasBt-2026-11-04-padrao-pt-BR.pdf">CV geral (PDF)</a></li>
-              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.pdf" download="CV-NicolasBt-2026-11-04-barra-lateral-pt-BR.pdf">CV com barra lateral (PDF)</a></li>
-            </ul>
-          </details>
-        </div>
-
-        <nav class="panel-nav" aria-label="Acesso rápido">
-          <ul class="panel-doors" role="list">
-            <li>
-              <a class="panel-door" data-icon="briefcase" href="#experiencia">
-                <span class="panel-door-title">Experiência</span>
-                <span class="panel-door-note">Suporte de TI, redes e tráfego pago</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-door" data-icon="sliders-horizontal" href="#habilidades">
-                <span class="panel-door-title">Competências</span>
-                <span class="panel-door-note">Técnicas, sociais e práticas</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-door" data-icon="graduation-cap" href="#formacao">
-                <span class="panel-door-title">Formação</span>
-                <span class="panel-door-note">Gestão de TI · conclusão prevista em 2027</span>
-              </a>
-            </li>
-          </ul>
-          <p class="panel-label" id="painel-competencias">Competências técnicas</p>
-          <ul class="panel-chips" role="list" aria-labelledby="painel-competencias">
-            <li><a data-icon="sliders-horizontal" href="#gestao-projetos">Gestão de projetos</a></li>
-            <li><a data-icon="megaphone" href="#trafego-pago">Tráfego pago</a></li>
-            <li><a data-icon="monitor" href="#sistemas-operacionais">Sistemas operacionais</a></li>
-            <li><a data-icon="code-2" href="#programacao-dados">Programação e dados</a></li>
-            <li><a data-icon="network" href="#redes">Redes</a></li>
-            <li><a data-icon="headset" href="#suporte-ti">Suporte de TI</a></li>
-          </ul>
-        </nav>
-
-        <div class="panel-projects">
-          <h2 data-icon="folder-code">Projetos em destaque</h2>
-          <div class="grid">
-            <article class="card">
-              <p class="meta">Ferramenta de marketing para óticas · Portugal</p>
-              <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
-              <p>Ferramenta de marketing e tecnologia para óticas da região do Porto. <a href="projetos.html#optigrow">Ver detalhes do Optigrow</a></p>
-            </article>
-            <article class="card">
-              <p class="meta">Pesquisa acadêmica · SaaS em desenvolvimento</p>
-              <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
-              <p>A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. <a href="projetos.html#proximos-projetos">Ver detalhes do SGCS</a></p>
-            </article>
-          </div>
-          <p class="panel-more"><a href="projetos.html">Ver todos os projetos e pesquisas</a></p>
-        </div>
-      </div>
-    </section>
-
-    <section id="desenvolvimento-com-agentes-de-ia" class="wrap">
-      <h2 data-icon="code-2">Princípios de desenvolvimento</h2>
-      <p>Antes de escolher a tecnologia, procuro entender como o trabalho acontece, quem vai usar a solução e o que precisa mudar. Em software, redes e cibersegurança, adoto uma postura "seguro por padrão" — próxima à filosofia <span lang="en">OpenBSD</span> —, o que se alinha naturalmente a um desenvolvimento minimalista, estável e funcional.</p>
-    </section>
-
-    <section id="experiencia" class="wrap" tabindex="-1">
-      <h2 data-icon="briefcase">Experiência profissional</h2>
-      <ol class="timeline" role="list">
-        <li>
-          <h3 data-icon="trending-up">Gestor de tráfego pago - Prestação de serviços</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd>Aquecedores e Piscinas Mairiporã</dd>
-            <dt>Período</dt>
-            <dd><time datetime="2026-01">janeiro de 2026</time> – atual</dd>
-            <dt>Local</dt>
-            <dd>Mairiporã, SP, Brasil</dd>
-          </dl>
-          <p>Implantei e gerencio o site, as páginas e os canais no Mercado Livre e Shopee. Planejo, executo e otimizo campanhas no <span lang="en">Google Ads</span> e <span lang="en">Meta Ads</span>.</p>
-          <p>Treinei os sócios administradores em Facebook, Instagram e Meta e presto suporte de TI a serviços e contas digitais sob demanda.</p>
-        </li>
-        <li>
-          <h3 data-icon="cable">Auxiliar de instalação de fibra óptica</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://realfortsistemas.com.br/">RealFort Sistemas</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2026-08-28">28 de agosto de 2026</time> – <time datetime="2026-09-28">28 de setembro de 2026</time></dd>
-            <dt>Local</dt>
-            <dd>São Paulo, SP, Brasil</dd>
-          </dl>
-          <p>Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos <span lang="en">drop</span> e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.</p>
-          <p>Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes <span lang="en">mesh</span>.</p>
-          <p>Realizei diagnósticos por meio de medições com <span lang="en">power meter</span> e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.</p>
-          <p><a href="galeria.html">Ver registros fotográficos de redes e eletrônica</a></p>
-        </li>
-        <li>
-          <h3 data-icon="headset">Técnico de suporte <span lang="en">Help Desk</span></h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://lukos.com.br/">Lukos Tecnologia</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2025-09">setembro de 2025</time> – <time datetime="2025-12">dezembro de 2025</time></dd>
-            <dt>Local</dt>
-            <dd>São Paulo, SP, Brasil</dd>
-          </dl>
-          <p>Prestei suporte N1 a usuários de sistemas de gestão empresarial (ERP) e ponto de venda (PDV). Configurei os sistemas conforme os requisitos dos clientes. Escalonei chamados para outros níveis de suporte.</p>
-          <p>Diagnostiquei e resolvi problemas no sistema proprietário, na rede e nos dispositivos dos clientes por acesso remoto. Treinei e orientei clientes no uso do sistema.</p>
-          <p>Processei e analisei NF-e e NFC-e. Verifiquei a integridade dos dados e identifiquei inconsistências.</p>
-        </li>
-        <li>
-          <h3 data-icon="monitor">Técnico de suporte de TI</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://alphainstituto.com.br/">Instituto Alpha de Saúde Integral</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2023-04">abril de 2023</time> – <time datetime="2024-06">junho de 2024</time></dd>
-            <dt>Local</dt>
-            <dd>São Paulo, SP, Brasil</dd>
-          </dl>
-          <p>Prestei suporte N1 e N2 a sistemas hospitalares. Diagnostiquei, resolvi e acompanhei incidentes. Treinei e orientei usuários.</p>
-          <p>Fiz manutenção preventiva e corretiva de computadores de mesa, notebooks e periféricos. Instalei, configurei e realizei manutenção de impressoras.</p>
-          <p>Elaborei documentação técnica, relatórios internos, manuais de usuário e procedimentos operacionais padrão (POPs).</p>
-          <p>Gerenciei e organizei ativos de TI. Realizei a gestão do Microsoft Active Directory.</p>
-        </li>
-        <li>
-          <h3 data-icon="globe">Assistente de E-commerce - Prestação de serviços</h3>
-          <dl class="experience-meta">
-            <dt>Empresa</dt>
-            <dd><a href="https://institucional.jheletronico.com.br/">JH Eletrônico</a></dd>
-            <dt>Período</dt>
-            <dd><time datetime="2022-07">julho de 2022</time> – <time datetime="2023-01">janeiro de 2023</time></dd>
-            <dt>Local</dt>
-            <dd>Mairiporã, SP, Brasil</dd>
-          </dl>
-          <p>Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.</p>
-          <p>Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.</p>
-          <p>Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.</p>
-        </li>
-      </ol>
-      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
-    </section>
-
-    <section id="habilidades" class="wrap" tabindex="-1">
-      <h2 data-icon="sliders-horizontal">Competências e habilidades</h2>
-      <div class="skill-category">
-        <h3 data-icon="code-2">Competências técnicas <span lang="en">(Hard skills)</span></h3>
-        <h4 class="skill-subheading">Gestão administrativa e produtividade</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Indicadores estratégicos</li>
-          <li>Melhoria de processos</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Ver mais competências de Gestão administrativa e produtividade">[ver mais]</summary>
-          <ul class="skill-list" role="list">
-            <li>Canva</li>
-            <li>Google Drive</li>
-            <li>LibreOffice</li>
-            <li>Trello</li>
-            <li>White Belt Six Sigma<span class="skill-note">, introdutório</span></li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Finanças</h4>
-        <ul class="skill-list" role="list">
-          <li>Capitalização</li>
-          <li>Fluxo de caixa</li>
-          <li>Gestão financeira</li>
-        </ul>
-        <h4 class="skill-subheading">Ferramentas Microsoft</h4>
-        <ul class="skill-list" role="list">
-          <li>Microsoft Excel</li>
-          <li>Microsoft Office</li>
-          <li>Microsoft Teams</li>
-          <li>Microsoft Word</li>
-          <li>Microsoft 365</li>
-          <li>OneDrive</li>
-        </ul>
-        <h4 class="skill-subheading" id="gestao-projetos" tabindex="-1">Gestão de projetos</h4>
-        <ul class="skill-list" role="list">
-          <li>Gestão de projetos</li>
-          <li>Metodologias ágeis</li>
-          <li>Planejamento de metas</li>
-          <li>Scrum</li>
-        </ul>
-        <h4 class="skill-subheading" id="trafego-pago" tabindex="-1">Marketing digital e comércio eletrônico</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Gestão de tráfego pago</li>
-          <li>Comércio eletrônico</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Ver mais competências de Marketing digital e comércio eletrônico">[ver mais]</summary>
-          <ul class="skill-list" role="list">
-            <li>Atendimento B2C e B2B</li>
-            <li>Bling ERP</li>
-            <li>Cadastro de produtos</li>
-            <li>Conferência pré-expedição</li>
-            <li>Elaboração de orçamentos</li>
-            <li>Facebook</li>
-            <li>Gestão de catálogo</li>
-            <li>Gestão de pedidos</li>
-            <li>Google Ads</li>
-            <li>Google Ads Editor</li>
-            <li>Instagram</li>
-            <li>Mercado Livre</li>
-            <li>Meta Ads</li>
-            <li>Meta Ads Manager</li>
-            <li>Meta Business Suite</li>
-            <li>Otimização de campanhas</li>
-            <li>Prospecção de leads</li>
-            <li>Shopee</li>
-            <li>Vendas diretas</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading" id="sistemas-operacionais" tabindex="-1">Sistemas operacionais</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Microsoft Windows</li>
-          <li>Microsoft Windows Server</li>
-          <li>Linux</li>
-          <li>Debian</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Ver mais competências de Sistemas operacionais">[ver mais]</summary>
-          <ul class="skill-list" role="list">
-            <li>Ubuntu</li>
-            <li>Windows 10</li>
-            <li>Windows 11</li>
-            <li>Windows Server 2008 R2</li>
-            <li>Windows Server 2016</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading" id="programacao-dados" tabindex="-1">Programação e dados</h4>
-        <ul class="skill-list" role="list">
-          <li>Aprendizado de máquina</li>
-          <li>Inteligência artificial (IA)</li>
-          <li>JavaScript</li>
-          <li>Lógica de programação</li>
-          <li>Modelagem de dados</li>
-          <li>Python</li>
-        </ul>
-        <h4 class="skill-subheading">Desenvolvimento com IA</h4>
-        <ul class="skill-list" role="list">
-          <li>OpenAI ChatGPT</li>
-          <li>Codex (OpenAI)</li>
-          <li>Claude</li>
-          <li>Claude Code</li>
-          <li>Desenvolvimento com agentes de IA</li>
-          <li>OpenCode</li>
-        </ul>
-        <h4 class="skill-subheading">Desenvolvimento de software</h4>
-        <ul class="skill-list" role="list">
-          <li>Desenvolvimento ágil</li>
-          <li>Desenvolvimento em cascata</li>
-          <li>Desenvolvimento orientado por especificações</li>
-          <li>Prototipação</li>
-          <li>Produto mínimo viável (MVP)</li>
-        </ul>
-        <h4 class="skill-subheading">Bancos de dados</h4>
-        <ul class="skill-list" role="list">
-          <li>Consultas SQL</li>
-          <li>PostgreSQL</li>
-          <li>SQLite</li>
-        </ul>
-        <h4 class="skill-subheading" id="redes" tabindex="-1">Redes</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>FTTH</li>
-          <li>Redes locais (LAN)</li>
-          <li>OTDR</li>
-          <li>Fusão de fibra óptica<span class="skill-note">, aprendiz</span></li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Ver mais competências de Redes">[ver mais]</summary>
-          <ul class="skill-list" role="list">
-            <li>Cabeamento de redes</li>
-            <li>Cabo <span lang="en">drop</span></li>
-            <li>Comutadores de rede</li>
-            <li>Conexões a rádio</li>
-            <li>Configuração de roteadores</li>
-            <li>Manutenção de caixas de terminação óptica (CTO)</li>
-            <li>Medidor de potência óptica (<span lang="en">power meter</span>)</li>
-            <li>ONT</li>
-            <li>ONU</li>
-            <li>Organização de cabos</li>
-            <li>PoE</li>
-            <li>PPPoE</li>
-            <li>Preparação de postes para passagem de fibra</li>
-            <li>Redes <span lang="en">mesh</span></li>
-            <li>RJ45</li>
-            <li>SC/APC</li>
-            <li>Servidores</li>
-            <li>VFL</li>
-            <li>Wi-Fi</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Sistemas para redes</h4>
-        <ul class="skill-list" role="list">
-          <li>OpenWrt</li>
-          <li>OPNsense</li>
-          <li>pfSense</li>
-        </ul>
-        <h4 class="skill-subheading" id="suporte-ti" tabindex="-1">Suporte de TI</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Suporte a ERP<span class="skill-note">, N1</span></li>
-          <li>Suporte técnico hospitalar<span class="skill-note">, N1/N2</span></li>
-          <li>Manutenção de computadores</li>
-          <li>Resolução de incidentes</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Ver mais competências de Suporte de TI">[ver mais]</summary>
-          <ul class="skill-list" role="list">
-            <li>Configuração de contas digitais</li>
-            <li>Documentação técnica</li>
-            <li>Escalonamento de chamados</li>
-            <li>Gestão de ativos de TI</li>
-            <li>Manuais de usuário</li>
-            <li>Manutenção corretiva</li>
-            <li>Manutenção de impressoras</li>
-            <li>Manutenção de periféricos</li>
-            <li>Manutenção preventiva</li>
-            <li>Microsoft Active Directory</li>
-            <li>NF-e</li>
-            <li>NFC-e</li>
-            <li>Orientação de usuários</li>
-            <li>Procedimentos operacionais padrão (POPs)</li>
-            <li>Suporte a PDV<span class="skill-note">, N1</span></li>
-            <li>Suporte de <span lang="en">help desk</span><span class="skill-note">, N1</span></li>
-            <li>Suporte remoto</li>
-            <li>Treinamento de usuários</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Web</h4>
-        <ul class="skill-list" role="list">
-          <li>Acessibilidade web</li>
-          <li>CSS</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>GitHub Actions</li>
-          <li>GitHub Pages</li>
-          <li>HTML</li>
-          <li>Sites multilíngues</li>
-        </ul>
-        <h4 class="skill-subheading">Servidores web</h4>
-        <ul class="skill-list" role="list">
-          <li>Apache HTTP Server</li>
-          <li>NGINX</li>
-        </ul>
-        <h4 class="skill-subheading">Plataformas de desenvolvimento e hospedagem</h4>
-        <ul class="skill-list" role="list">
-          <li>Amazon Web Services (AWS)</li>
-          <li>Firebase</li>
-          <li>Microsoft Azure</li>
-          <li>Supabase</li>
-          <li>Vercel</li>
-        </ul>
-        <h4 class="skill-subheading">Idiomas</h4>
-        <ul class="skill-list" role="list">
-          <li>Inglês<span class="skill-note">, TOEIC Listening &amp; Reading 910</span></li>
-          <li>Português brasileiro</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3 data-icon="users-round">Competências sociais <span lang="en">(Soft skills)</span></h3>
-        <h4 class="skill-subheading">Organização e desenvolvimento</h4>
-        <ul class="skill-list" role="list">
-          <li>Adaptabilidade</li>
-          <li>Atenção a detalhes</li>
-          <li>Autonomia</li>
-          <li>Pensamento analítico</li>
-          <li>Resolução de problemas</li>
-        </ul>
-        <h4 class="skill-subheading">Relacionamento</h4>
-        <ul class="skill-list" role="list">
-          <li>Comunicação</li>
-          <li>Compreensão das necessidades do cliente</li>
-          <li>Trabalho em equipe</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3 data-icon="wrench">Habilidades práticas e operacionais</h3>
-        <h4 class="skill-subheading">Campo e ferramentas</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Máquina de fusão de fibra óptica</li>
-          <li>Multímetro</li>
-          <li>Ferramentas elétricas</li>
-          <li>Trabalho em altura</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Ver mais competências de Campo e ferramentas">[ver mais]</summary>
-          <ul class="skill-list" role="list">
-            <li>Clivador</li>
-            <li>Ferramentas manuais</li>
-            <li>Fusimech</li>
-            <li>Organização de ferramentas</li>
-            <li>Organização de insumos</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Condução</h4>
-        <ul class="skill-list" role="list">
-          <li>Condução de carros</li>
-          <li>Condução de motos</li>
-          <li>CNH AB</li>
-          <li>Permissão Internacional para Dirigir (PID)</li>
-        </ul>
-        <p>A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. Lista de países que aceitam a <a href="https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS" hreflang="pt-BR">CNH</a> e a <a href="https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&amp;mtdsg_no=XI-B-19&amp;chapter=11" hreflang="en">PID</a>.</p>
-      </div>
-
-      <details class="sfia-profile" aria-labelledby="sfia-title">
-        <summary class="sfia-summary">
-          <h3 id="sfia-title" data-icon="user-check">Perfil SFIA</h3>
-        </summary>
-        <div class="sfia-profile-body">
-        <p>Autoavaliação de responsabilidade baseada no SFIA 9.</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">USUP</span> Gestão de incidentes</p>
-            <p class="sfia-level">Nível 3 · Aplica</p>
-            <p class="sfia-evidence">Atendo e diagnostico incidentes de N1/N2 em ERP/PDV e ambiente hospitalar; oriento usuários e escalono o que não resolvo.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Suporte a redes</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Instalo e mantenho redes FTTH e rádio, com cabo <span lang="en">drop</span>, SC/APC, ONU/ONT e roteadores; diagnostico com <span lang="en">power meter</span>, OTDR e VFL.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Instalação e remoção de sistemas</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Instalo, configuro e mantenho estações, periféricos e ativos em ambiente corporativo e hospitalar.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Suporte a aplicações</p>
-            <p class="sfia-level">Nível 3 · Aplica</p>
-            <p class="sfia-evidence">Presto suporte a ERP/PDV, configuro sistemas, diagnostico remotamente e oriento usuários em NF-e/NFC-e.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Operações de infraestrutura</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Apoio o monitoramento e a manutenção de infraestrutura, registro incidentes e executo rotinas de suporte.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programação/<wbr>desenvolvimento de software</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Orquestro o trabalho dos agentes de IA que implementam este portfólio em HTML e CSS. Reviso as alterações. O projeto usa controle de versão e publicação automatizada.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Controle de mudanças</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Avalio o impacto das mudanças no portfólio e reviso as alterações. Registro as mudanças em <span lang="en">commits</span> para acompanhar o histórico e permitir reversões.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Níveis 2 e 3. As evidências vêm das experiências, dos projetos e dos cursos descritos nesta página.</p>
-        </div>
-      </details>
-
-      <!-- Espelho de impressão. Mantenha em sincronia com .sfia-profile. -->
-      <section class="sfia-print" aria-hidden="true">
-        <h3 data-icon="user-check">Perfil SFIA</h3>
-        <p>Autoavaliação de responsabilidade baseada no SFIA 9.</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">USUP</span> Gestão de incidentes</p>
-            <p class="sfia-level">Nível 3 · Aplica</p>
-            <p class="sfia-evidence">Atendo e diagnostico incidentes de N1/N2 em ERP/PDV e ambiente hospitalar; oriento usuários e escalono o que não resolvo.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Suporte a redes</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Instalo e mantenho redes FTTH e rádio, com cabo <span lang="en">drop</span>, SC/APC, ONU/ONT e roteadores; diagnostico com <span lang="en">power meter</span>, OTDR e VFL.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Instalação e remoção de sistemas</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Instalo, configuro e mantenho estações, periféricos e ativos em ambiente corporativo e hospitalar.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Suporte a aplicações</p>
-            <p class="sfia-level">Nível 3 · Aplica</p>
-            <p class="sfia-evidence">Presto suporte a ERP/PDV, configuro sistemas, diagnostico remotamente e oriento usuários em NF-e/NFC-e.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Operações de infraestrutura</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Apoio o monitoramento e a manutenção de infraestrutura, registro incidentes e executo rotinas de suporte.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programação/<wbr>desenvolvimento de software</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Orquestro o trabalho dos agentes de IA que implementam este portfólio em HTML e CSS. Reviso as alterações. O projeto usa controle de versão e publicação automatizada.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Controle de mudanças</p>
-            <p class="sfia-level">Nível 2 · Auxilia</p>
-            <p class="sfia-evidence">Avalio o impacto das mudanças no portfólio e reviso as alterações. Registro as mudanças em <span lang="en">commits</span> para acompanhar o histórico e permitir reversões.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Níveis 2 e 3.</p>
-      </section>
-
-      <details id="nice" class="nice-profile" aria-labelledby="nice-title">
-        <summary class="nice-summary"><h3 id="nice-title" data-icon="headset">NICE — Correspondência de tarefas</h3></summary>
-        <p>Tarefas selecionadas do papel <span lang="en">Technical Support</span> (<code>IO-WRL-007</code>).</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T0237</span> Diagnóstico de hardware e software</p>
-            <p class="sfia-evidence">Na Lukos, diagnostiquei e resolvi problemas no ERP, na rede e nos dispositivos dos clientes por acesso remoto.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1412</span> Treinamento técnico a clientes</p>
-            <p class="sfia-evidence">Na Lukos, treinei e orientei clientes no uso do sistema ERP e PDV.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuração de software e periféricos</p>
-            <p class="sfia-evidence">Configurei sistemas para clientes da Lukos e impressoras no Instituto Alpha.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Correspondência baseada nas atividades descritas na <a href="#experiencia">experiência profissional</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
-      </details>
-
-      <!-- Espelho de impressão das tarefas NICE. -->
-      <section class="nice-print" aria-hidden="true">
-        <h3 data-icon="headset">NICE — Correspondência de tarefas</h3>
-        <p>Tarefas selecionadas do papel <span lang="en">Technical Support</span> (<code>IO-WRL-007</code>).</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T0237</span> Diagnóstico de hardware e software</p>
-            <p class="sfia-evidence">Na Lukos, diagnostiquei e resolvi problemas no ERP, na rede e nos dispositivos dos clientes por acesso remoto.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1412</span> Treinamento técnico a clientes</p>
-            <p class="sfia-evidence">Na Lukos, treinei e orientei clientes no uso do sistema ERP e PDV.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuração de software e periféricos</p>
-            <p class="sfia-evidence">Configurei sistemas para clientes da Lukos e impressoras no Instituto Alpha.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Correspondência baseada nas atividades descritas na <a href="#experiencia">experiência profissional</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
-      </section>
-      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
-    </section>
-
-
-    <section id="formacao" class="wrap" tabindex="-1">
-      <h2 data-icon="graduation-cap">Formação acadêmica</h2>
-      <p class="meta">Instituição: <a href="https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/">Fatec Franco da Rocha – Giuliano Cecchettini</a></p>
-      <h3 data-icon="book-open">Curso superior de tecnologia em Gestão da Tecnologia da Informação</h3>
-      <p>Início: <time datetime="2024-07">julho de 2024</time> · Conclusão prevista: <time datetime="2027-07">julho de 2027</time></p>
-      <p class="meta"><a href="https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view">Conforme o projeto pedagógico do curso (PPC)</a>.</p>
-      <p class="section-nav noprint"><a href="rede.html#professores">Professores e apoio acadêmico</a></p>
-      <details class="skill-group graduation-details" aria-labelledby="grad-contents-title">
-        <summary><h3 id="grad-contents-title" data-icon="list-checks">Conteúdos previstos da graduação</h3></summary>
-        <h4 class="skill-subheading">Gestão e negócios</h4>
-        <ul class="skill-list" role="list">
-          <li>Avaliação de soluções</li>
-          <li>Gestão de pessoas</li>
-          <li>Gestão de processos</li>
-          <li>Gestão de projetos de TI</li>
-          <li>Gestão financeira</li>
-          <li>Planejamento estratégico</li>
-        </ul>
-        <h4 class="skill-subheading">Pesquisa e competências sociais</h4>
-        <ul class="skill-list" role="list">
-          <li>Comunicação</li>
-          <li>Negociação</li>
-          <li>Gestão de conflitos</li>
-          <li>Pensamento crítico</li>
-          <li>Pesquisa acadêmica</li>
-          <li>Resolução de problemas</li>
-          <li>Trabalho em equipe</li>
-          <li>Visão sistêmica</li>
-        </ul>
-        <h4 class="skill-subheading">Tecnologia e sistemas</h4>
-        <ul class="skill-list" role="list">
-          <li>Bancos de dados</li>
-          <li>Diagnóstico de infraestrutura</li>
-          <li>Engenharia de software</li>
-          <li>Inteligência de negócios</li>
-          <li>Programação para internet</li>
-          <li>Redes de computadores</li>
-          <li>Sistemas operacionais</li>
-        </ul>
-      </details>
-
-      <h3 data-icon="award">Cursos e certificados</h3>
-      <p>Fiz cursos de JavaScript e Python e tenho prática em programação. Meu conhecimento em aprendizado de máquina é introdutório.</p>
-      <details class="course-details courses-screen">
-        <summary>Ver 18 cursos e formações complementares</summary>
-        <div class="skill-category">
-          <h4 class="course-group">Competências técnicas <span lang="en">(Hard skills)</span></h4>
-          <h5 class="skill-subheading">Gestão e produtividade</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
-              <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
-              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-11-13">13/11/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Microsoft Office Specialist Associate</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Curso preparatório do SENAI para a prova de certificação · 60 h · Conclusão: <time datetime="2026-07-25">25/07/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
-              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
-              <p>Formação introdutória · 2 h · Conclusão: <time datetime="2026-04-17">17/04/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2026-01-09">09/01/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Gestão Financeira</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-12-29">29/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
-              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
-              <p>Participação · 8 h · Conclusão: <time datetime="2025-12-20">20/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Excel Básico</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2025-09-02">02/09/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-03-18">18/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-01-19">19/01/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 12 h · Conclusão: <time datetime="2024-11-27">27/11/2024</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
-              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
-              <p>Participação · 40 h · Conclusão: <time datetime="2024-11-11">11/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Programação e dados</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">JavaScript Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
-              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-05-16">16/05/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Modelagem de Dados</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Conclusão de curso · 8 h · Conclusão: <time datetime="2025-11-25">25/11/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Python Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
-              <p>Conclusão de curso · 30 h · Conclusão: <time datetime="2025-03-22">22/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2024-11-05">05/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Redes</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Conclusão de curso · 48 h · Conclusão: <time datetime="2026-05-13">13/05/2026</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Suporte de TI</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">Computer Hardware Basics</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
-              <p>Conclusão de curso · 6 h · Conclusão: <time datetime="2025-02-18">18/02/2025</time></p>
-            </li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h4 class="course-group">Competências sociais <span lang="en">(Soft skills)</span></h4>
-          <h5 class="skill-subheading">Organização e desenvolvimento</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 2 h · Conclusão: <time datetime="2024-11-25">25/11/2024</time></p>
-            </li>
-          </ul>
-        </div>
-      </details>
-      <!-- Mantenha esta cópia igual aos cursos da seção recolhível. -->
-      <div class="courses-print" aria-hidden="true">
-        <div class="skill-category">
-          <h4 class="course-group">Competências técnicas <span lang="en">(Hard skills)</span></h4>
-          <h5 class="skill-subheading">Gestão e produtividade</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
-              <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
-              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-11-13">13/11/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Microsoft Office Specialist Associate</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Curso preparatório do SENAI para a prova de certificação · 60 h · Conclusão: <time datetime="2026-07-25">25/07/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
-              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
-              <p>Formação introdutória · 2 h · Conclusão: <time datetime="2026-04-17">17/04/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2026-01-09">09/01/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Gestão Financeira</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-12-29">29/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
-              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
-              <p>Participação · 8 h · Conclusão: <time datetime="2025-12-20">20/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Excel Básico</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2025-09-02">02/09/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-03-18">18/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2025-01-19">19/01/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 12 h · Conclusão: <time datetime="2024-11-27">27/11/2024</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
-              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
-              <p>Participação · 40 h · Conclusão: <time datetime="2024-11-11">11/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Programação e dados</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">JavaScript Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
-              <p>Conclusão de curso · 40 h · Conclusão: <time datetime="2026-05-16">16/05/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Modelagem de Dados</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Conclusão de curso · 8 h · Conclusão: <time datetime="2025-11-25">25/11/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Python Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
-              <p>Conclusão de curso · 30 h · Conclusão: <time datetime="2025-03-22">22/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, em colaboração com <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
-              <p>Conclusão de curso · 10 h · Conclusão: <time datetime="2024-11-05">05/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Redes</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Conclusão de curso · 48 h · Conclusão: <time datetime="2026-05-13">13/05/2026</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Suporte de TI</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">Computer Hardware Basics</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
-              <p>Conclusão de curso · 6 h · Conclusão: <time datetime="2025-02-18">18/02/2025</time></p>
-            </li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h4 class="course-group">Competências sociais <span lang="en">(Soft skills)</span></h4>
-          <h5 class="skill-subheading">Organização e desenvolvimento</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Conclusão de curso · 2 h · Conclusão: <time datetime="2024-11-25">25/11/2024</time></p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <h3 data-icon="languages">Inglês — <span lang="en">TOEIC Listening &amp; Reading</span></h3>
-      <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Aplicado pelo <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
-      <p>Total: <strong>910 pontos</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
-      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
-    </section>
-
-
-    <section id="contato" class="wrap contact-section" tabindex="-1">
-      <h2 data-icon="at-sign">Contato</h2>
-      <ul class="contact-list" role="list">
-        <li><a data-icon="mail" href="mailto:beraldesnicolas@gmail.com">E-mail — beraldesnicolas@gmail.com</a></li>
-        <li><a data-icon="linkedin" href="https://www.linkedin.com/in/nicolas-t-a1ab74321/">LinkedIn — Nicolas Beraldes Tarifa</a></li>
-        <li><a data-icon="github" href="https://github.com/nicolas-b-t">GitHub — nicolas-b-t</a></li>
-        <li><a data-icon="graduation-cap" href="https://lattes.cnpq.br/1293729943180703">Currículo Lattes — lattes.cnpq.br/1293729943180703</a></li>
-      </ul>
-      <p class="contact-related"><a href="recomendacoes.html">Conheça minha seleção</a></p>
-      <p class="preview-return noprint"><a href="#visao-geral">Voltar à visão geral</a></p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p class="noprint"><a href="projetos.html">Projetos e pesquisas</a> · <a href="galeria.html">Galeria de trabalho</a> · <a href="rede.html">Agradecimentos à minha rede</a> · <a href="recomendacoes.html">Minha seleção</a></p>
-      <p>&copy; <span>2026</span> Nicolas Beraldes Tarifa.</p>
-      <div class="footer-tools noprint">
-        <a class="version-switch" href="painel.html" title="Abrir páginas experimentais" aria-label="Abrir páginas experimentais"><span aria-hidden="true">⇄</span></a>
-        <details class="style-switch">
-          <summary title="Estilos experimentais" aria-label="Estilos experimentais"><span aria-hidden="true">◇</span><span class="visually-hidden">Estilos experimentais</span></summary>
-          <fieldset>
-            <legend>Estilo da página</legend>
-            <label for="style-padrao"><input type="radio" name="estilo-visual" value="padrao" id="style-padrao" checked> Padrão</label>
-            <label for="style-nato"><input type="radio" name="estilo-visual" value="nato" id="style-nato"> NATO</label>
-            <label for="style-warsaw"><input type="radio" name="estilo-visual" value="warsaw" id="style-warsaw"> <span lang="en">Warsaw Pact</span></label>
-          </fieldset>
-        </details>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>

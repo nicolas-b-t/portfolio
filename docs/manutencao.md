@@ -31,7 +31,7 @@ Os aliases auxiliam consultas específicas; não garantem reconhecimento por tod
 ### Painel das homes em `pt-BR` e `en`
 
 As páginas oficiais `pt-BR/index.html` e `en/index.html` abrem com o painel `section.hero.panel`.
-Mantenha no painel as três portas e os seis atalhos de competência. Em `pt-BR`, o painel destaca Optigrow e SGCS; em `en`, mantém três cartões de projeto.
+Mantenha no painel as três portas e os seis atalhos de competência. Tanto em `pt-BR` quanto em `en`, o painel destaca dois cartões de projeto (Optigrow e SGCS).
 Cada cartão de `pt-BR` repete uma frase do cartão correspondente em `projetos.html`; ao alterar a ficha, sincronize o painel.
 Os seis atalhos apontam para os `h4.skill-subheading` com `id`: `gestao-projetos`, `trafego-pago`, `sistemas-operacionais`, `programacao-dados`, `redes` e `suporte-ti`. Não aponte para o interior de um `details` fechado.
 Não inclua contagens no painel, porque não há build para mantê-las sincronizadas.
@@ -142,9 +142,8 @@ Aplique a revisão aos comentários e às instruções que escrevemos sobre essa
 ## Páginas de projetos
 
 A página `static/pt-BR/projetos.html` reúne os projetos, as publicações e a cópia estruturada.
-A página principal mantém o botão “Meus projetos”, os links dos destaques, o acesso no rodapé e uma referência no resumo oculto.
-A âncora antiga `index.html#projetos` leva ao acesso da apresentação.
-A versão em inglês tem a mesma estrutura de projetos e publicações. As variantes suspensas seguem em preparação.
+A página principal mantém o botão “Projetos e pesquisas” (“Projects and research” em `en`), os links dos destaques, o acesso no rodapé e uma referência no resumo oculto.
+A versão em inglês (`static/en/projetos.html`) tem a mesma estrutura de projetos e publicações. As variantes suspensas seguem em preparação.
 
 Para editar, use a página de projetos e confira a cópia estruturada, as atribuições em [Conteúdo e fontes](conteudo-e-fontes.md#projetos) e as listas de consulta.
 A impressão da página principal mostra o currículo. A página de projetos permite imprimir as fichas e as publicações.
@@ -222,13 +221,13 @@ Ordem das experiências: data de término decrescente, com a experiência atual 
 Antes de mudar a estrutura do site, consulte [Decisões](decisoes.md).
 Uma decisão estrutural nova exige uma decisão registrada.
 
-### Ícones Lucide em pt-BR
+### Ícones Lucide em pt-BR e en
 
-A pasta `static/assets/icons/` armazena 28 SVGs da biblioteca Lucide Icons.
+A pasta `static/assets/icons/` armazena 28 SVGs da biblioteca Lucide Icons (usados como fonte para os `data:image/svg+xml` embutidos em `styles.css`).
 A licença com a lista de ícones derivados do Feather está em `static/assets/icons/LICENSE.txt`.
 O arquivo `LICENSE` é a cópia genérica recebida.
 O CSS comum alimenta os ícones por `[data-icon]::before` com `background-color: currentColor` e `mask`.
-Nesta etapa, `data-icon` aparece apenas em `static/pt-BR/`.
+`data-icon` é utilizado nas páginas ativas de `static/pt-BR/` e `static/en/`.
 Não altere os blocos ocultos de extração nem as demais variantes sem decisão.
 
 ### Servidor local
@@ -313,7 +312,7 @@ Controles atuais:
 - Licença dos ícones preservada.
 - Backups: RAR da v1 e base técnica arquivada em `_arquivo/`. A [cópia externa](../static/pt-BR/documentacao/pendencias.html#copia-externa) está pendente.
 - Página 404 publicada.
-- Transformação do site em template reutilizável planejada ([P-09](../static/pt-BR/documentacao/pendencias.html#template-reutilizavel)).
+- Transformação do site em template reutilizável planejada ([P-08](../static/pt-BR/documentacao/pendencias.html#template-reutilizavel)).
 - Sem teste de intrusão, análise de dependências ou auditoria externa.
 
 ### Incidente

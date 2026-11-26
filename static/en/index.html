@@ -9,22 +9,898 @@
   <link rel="alternate" hreflang="pt-BR" href="../pt-BR/index.html">
   <link rel="alternate" hreflang="en-US" href="index.html">
   <link rel="alternate" hreflang="x-default" href="../index.html">
-  <link rel="preload" href="../assets/icons/briefcase.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="../assets/icons/sliders-horizontal.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="../assets/icons/graduation-cap.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="../assets/icons/folder-code.svg" as="image" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/css/styles.css?v=20261125-prod">
-  <style>
-    @media screen {
-      #skills, #education, #contact {
-        content-visibility: auto;
-        contain-intrinsic-size: 1px 800px;
-      }
-    }
-  </style>
 </head>
 <body class="style-lab preview-page preview-home">
   <a class="skip-link" href="#main">Skip to content</a>
+
+
+
+
+
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Nicolas Beraldes Tarifa</a>
+      <nav class="lang-switch" aria-label="Language">
+        <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+        <span class="is-current" aria-current="page" lang="en-US">English</span>
+        <a href="../wip.html" lang="en">Other languages in preparation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="overview" class="hero panel wrap" aria-labelledby="panel-name" tabindex="-1">
+      <div class="panel-main">
+        <p class="kicker">Professional portfolio</p>
+        <h1 id="panel-name">Nicolas Beraldes Tarifa</h1>
+        <p class="lead">I work in technology and am studying Information Technology Management.</p>
+        <nav class="hero-actions preview-primary" aria-label="Primary actions">
+          <a class="btn" href="#experience">Experience</a>
+          <a class="btn ghost" href="projetos.html">Projects and research</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </nav>
+        <p class="preview-context">I have worked in IT support, networking, and e-commerce. Today I also develop software projects and share some of that work on this site.</p>
+        <p class="panel-now"><strong>Currently:</strong> paid traffic manager at Aquecedores e Piscinas Mairiporã since <time datetime="2026-01">January 2026</time>.</p>
+        <div class="hero-actions">
+          <a class="btn ghost" href="rede.html">My network</a>
+          <details class="cv-download">
+            <summary class="btn ghost">Download resume</summary>
+            <ul class="cv-download-options">
+              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-padrao-en-US.pdf" hreflang="en-US" download="CV-NicolasBt-2026-11-04-padrao-en-US.pdf">General resume (PDF, English)</a></li>
+              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-barra-lateral-en-US.pdf" hreflang="en-US" download="CV-NicolasBt-2026-11-04-barra-lateral-en-US.pdf">Sidebar resume (PDF, English)</a></li>
+            </ul>
+          </details>
+        </div>
+
+        <nav class="panel-nav" aria-label="Quick access">
+          <ul class="panel-doors" role="list">
+            <li>
+              <a class="panel-door" data-icon="briefcase" href="#experience">
+                <span class="panel-door-title">Experience</span>
+                <span class="panel-door-note">IT support, networks, and paid traffic</span>
+              </a>
+            </li>
+            <li>
+              <a class="panel-door" data-icon="sliders-horizontal" href="#skills">
+                <span class="panel-door-title">Skills</span>
+                <span class="panel-door-note">Technical, interpersonal, and practical</span>
+              </a>
+            </li>
+            <li>
+              <a class="panel-door" data-icon="graduation-cap" href="#education">
+                <span class="panel-door-title">Education</span>
+                <span class="panel-door-note">IT management · expected completion in 2027</span>
+              </a>
+            </li>
+          </ul>
+          <p class="panel-label" id="panel-skills">Technical skills</p>
+          <ul class="panel-chips" role="list" aria-labelledby="panel-skills">
+            <li><a data-icon="sliders-horizontal" href="#project-management">Project management</a></li>
+            <li><a data-icon="megaphone" href="#paid-traffic">Paid traffic</a></li>
+            <li><a data-icon="monitor" href="#operating-systems">Operating systems</a></li>
+            <li><a data-icon="code-2" href="#programming-data">Programming and data</a></li>
+            <li><a data-icon="network" href="#networks">Networks</a></li>
+            <li><a data-icon="headset" href="#it-support">IT support</a></li>
+          </ul>
+        </nav>
+
+        <div class="panel-projects">
+          <h2 data-icon="folder-code">Featured projects</h2>
+          <div class="grid">
+            <article class="card">
+              <p class="meta">Marketing tool for optical stores · Portugal</p>
+              <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
+              <p>Marketing and technology tool for optical stores in the Porto area. <a href="projetos.html#optigrow">View Optigrow details</a></p>
+            </article>
+            <article class="card">
+              <p class="meta">Academic research · SaaS in development</p>
+              <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/" lang="pt-BR">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
+              <p>Our team at Fatec Franco da Rocha developed a working prototype for condominium service request management. <a href="projetos.html#upcoming-projects">View SGCS details</a></p>
+            </article>
+          </div>
+          <p class="panel-more"><a href="projetos.html">View all projects and research</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="development-with-ai-agents" class="wrap">
+      <h2 data-icon="code-2">Development principles</h2>
+      <p>Before choosing a technology, I try to understand how the work is done, who will use the solution, and what needs to change. In software, servers, networks, and cybersecurity, I follow a "secure by default" posture, which naturally aligns with minimalist, stable, and functional development.</p>
+    </section>
+
+    <section id="experience" class="wrap" tabindex="-1">
+      <h2 data-icon="briefcase">Professional experience</h2>
+      <ol class="timeline" role="list">
+        <li>
+          <h3 data-icon="trending-up">Paid Traffic Manager - Contractor</h3>
+          <dl class="experience-meta">
+            <dt>Company</dt>
+            <dd>Aquecedores e Piscinas Mairiporã</dd>
+            <dt>Period</dt>
+            <dd><time datetime="2026-01">January 2026</time> – present</dd>
+            <dt>Location</dt>
+            <dd>Mairiporã, SP, Brazil</dd>
+          </dl>
+          <p>I launched and manage the website, company pages, and sales channels on Mercado Livre and Shopee. I plan, run, and optimize Google Ads and Meta Ads campaigns.</p>
+          <p>I trained the managing partners in Facebook, Instagram, and Meta tools and provide IT support for digital services and accounts on demand.</p>
+        </li>
+        <li>
+          <h3 data-icon="cable">Fiber Optic Installation Assistant</h3>
+          <dl class="experience-meta">
+            <dt>Company</dt>
+            <dd><a href="https://realfortsistemas.com.br/" hreflang="pt-BR">RealFort Sistemas</a></dd>
+            <dt>Period</dt>
+            <dd><time datetime="2026-08-28">August 28, 2026</time> – <time datetime="2026-09-28">September 28, 2026</time></dd>
+            <dt>Location</dt>
+            <dd>São Paulo, SP, Brazil</dd>
+          </dl>
+          <p>Installation and maintenance of FTTH networks and radio links. I laid drop cables and terminated SC/APC connectors. I joined fibers using connectors. I performed fusion splicing as an apprentice. I worked on overhead networks at commercial and residential sites.</p>
+          <p>I assembled RJ45 connectors. I installed and configured ONUs, ONTs, and routers with PPPoE, Wi-Fi, and mesh networks.</p>
+          <p>I diagnosed issues using measurements from an optical power meter and OTDR and checks with a VFL. I identified and resolved network problems.</p>
+          <p><a href="galeria.html">View photographs of network and electronics work</a></p>
+        </li>
+        <li>
+          <h3 data-icon="headset">Help Desk Support Technician</h3>
+          <dl class="experience-meta">
+            <dt>Company</dt>
+            <dd><a href="https://lukos.com.br/" hreflang="pt-BR">Lukos Tecnologia</a></dd>
+            <dt>Period</dt>
+            <dd><time datetime="2025-09">September 2025</time> – <time datetime="2025-12">December 2025</time></dd>
+            <dt>Location</dt>
+            <dd>São Paulo, SP, Brazil</dd>
+          </dl>
+          <p>I provided L1 support for enterprise resource planning (ERP) and point-of-sale (POS) system users. I configured the systems to meet customer requirements. I escalated tickets to other support levels.</p>
+          <p>I remotely diagnosed and resolved problems in the proprietary system, customer networks, and customer devices. I trained and guided customers in using the system.</p>
+          <p>I processed and analyzed NF-e and NFC-e, Brazilian electronic invoices. I checked data integrity and identified inconsistencies.</p>
+        </li>
+        <li>
+          <h3 data-icon="monitor">IT Support Technician</h3>
+          <dl class="experience-meta">
+            <dt>Company</dt>
+            <dd><a href="https://alphainstituto.com.br/" hreflang="pt-BR">Instituto Alpha de Saúde Integral</a></dd>
+            <dt>Period</dt>
+            <dd><time datetime="2023-04">April 2023</time> – <time datetime="2024-06">June 2024</time></dd>
+            <dt>Location</dt>
+            <dd>São Paulo, SP, Brazil</dd>
+          </dl>
+          <p>I provided L1 and L2 support for hospital systems. I diagnosed, resolved, and tracked incidents. I trained and guided users.</p>
+          <p>I performed preventive and corrective maintenance on desktop computers, laptops, and peripherals. I installed, configured, and maintained printers.</p>
+          <p>I wrote technical documentation, internal reports, user manuals, and standard operating procedures (SOPs).</p>
+          <p>I managed and organized IT assets. I managed Microsoft Active Directory.</p>
+        </li>
+        <li>
+          <h3 data-icon="globe">E-commerce Assistant - Contractor</h3>
+          <dl class="experience-meta">
+            <dt>Company</dt>
+            <dd><a href="https://institucional.jheletronico.com.br/" hreflang="pt-BR">JH Eletrônico</a></dd>
+            <dt>Period</dt>
+            <dd><time datetime="2022-07">July 2022</time> – <time datetime="2023-01">January 2023</time></dd>
+            <dt>Location</dt>
+            <dd>Mairiporã, SP, Brazil</dd>
+          </dl>
+          <p>I created and updated product listings and managed ads on e-commerce platforms. I produced images and organized the catalog of electronic products and components.</p>
+          <p>I prospected leads and provided sales support to B2C and B2B customers. I prepared quotations and made direct sales by phone and digital channels.</p>
+          <p>I tracked orders and performed pre-shipment checks with Bling ERP. I handled discussions with Mercado Livre and negotiated a proposal to resolve outstanding issues.</p>
+        </li>
+      </ol>
+      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
+    </section>
+
+    <section id="skills" class="wrap" tabindex="-1">
+      <h2 data-icon="sliders-horizontal">Skills and abilities</h2>
+      <div class="skill-category">
+        <h3 data-icon="code-2">Technical skills <span lang="en">(Hard skills)</span></h3>
+        <h4 class="skill-subheading">Administrative management and productivity</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Strategic indicators</li>
+          <li>Process improvement</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Show more administrative management and productivity skills">[show more]</summary>
+          <ul class="skill-list" role="list">
+            <li>Canva</li>
+            <li>Google Drive</li>
+            <li>LibreOffice</li>
+            <li>Trello</li>
+            <li>White Belt Six Sigma<span class="skill-note">, introductory</span></li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Finance</h4>
+        <ul class="skill-list" role="list">
+          <li>Compounding</li>
+          <li>Cash flow</li>
+          <li>Financial management</li>
+        </ul>
+        <h4 class="skill-subheading">Microsoft tools</h4>
+        <ul class="skill-list" role="list">
+          <li>Microsoft Excel</li>
+          <li>Microsoft Office</li>
+          <li>Microsoft Teams</li>
+          <li>Microsoft Word</li>
+          <li>Microsoft 365</li>
+          <li>OneDrive</li>
+        </ul>
+        <h4 class="skill-subheading" id="project-management" tabindex="-1">Project management</h4>
+        <ul class="skill-list" role="list">
+          <li>Project management</li>
+          <li>Agile methodologies</li>
+          <li>Goal planning</li>
+          <li>Scrum</li>
+        </ul>
+        <h4 class="skill-subheading" id="paid-traffic" tabindex="-1">Digital marketing and e-commerce</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Paid traffic management</li>
+          <li>E-commerce</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Show more Digital marketing and e-commerce skills">[show more]</summary>
+          <ul class="skill-list" role="list">
+            <li>B2C and B2B customer service</li>
+            <li>Bling ERP</li>
+            <li>Campaign optimization</li>
+            <li>Catalog management</li>
+            <li>Direct sales</li>
+            <li>Facebook</li>
+            <li>Google Ads</li>
+            <li>Google Ads Editor</li>
+            <li>Instagram</li>
+            <li>Lead prospecting</li>
+            <li>Mercado Livre</li>
+            <li>Meta Ads</li>
+            <li>Meta Ads Manager</li>
+            <li>Meta Business Suite</li>
+            <li>Order management</li>
+            <li>Pre-shipment checks</li>
+            <li>Price quotations</li>
+            <li>Product registration</li>
+            <li>Shopee</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading" id="operating-systems" tabindex="-1">Operating systems</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Microsoft Windows</li>
+          <li>Microsoft Windows Server</li>
+          <li>Linux</li>
+          <li>Debian</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Show more Operating systems skills">[show more]</summary>
+          <ul class="skill-list" role="list">
+            <li>Ubuntu</li>
+            <li>Windows 10</li>
+            <li>Windows 11</li>
+            <li>Windows Server 2008 R2</li>
+            <li>Windows Server 2016</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading" id="programming-data" tabindex="-1">Programming and data</h4>
+        <ul class="skill-list" role="list">
+          <li>Machine learning</li>
+          <li>Artificial intelligence (AI)</li>
+          <li>JavaScript</li>
+          <li>Programming logic</li>
+          <li>Data modeling</li>
+          <li>Python</li>
+        </ul>
+        <h4 class="skill-subheading">Development with AI</h4>
+        <ul class="skill-list" role="list">
+          <li>OpenAI ChatGPT</li>
+          <li>Codex (OpenAI)</li>
+          <li>Claude</li>
+          <li>Claude Code</li>
+          <li>Development with AI agents</li>
+          <li>OpenCode</li>
+        </ul>
+        <h4 class="skill-subheading">Software development</h4>
+        <ul class="skill-list" role="list">
+          <li>Agile development</li>
+          <li>Waterfall development</li>
+          <li>Specification-driven development</li>
+          <li>Prototyping</li>
+          <li>Minimum viable product (MVP)</li>
+        </ul>
+        <h4 class="skill-subheading">Databases</h4>
+        <ul class="skill-list" role="list">
+          <li>SQL queries</li>
+          <li>PostgreSQL</li>
+          <li>SQLite</li>
+        </ul>
+        <h4 class="skill-subheading" id="networks" tabindex="-1">Networks</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>FTTH</li>
+          <li>Local area networks (LAN)</li>
+          <li>OTDR</li>
+          <li>Fiber optic fusion splicing<span class="skill-note">, apprentice</span></li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Show more Networks skills">[show more]</summary>
+          <ul class="skill-list" role="list">
+            <li>Cable management</li>
+            <li>Drop cable</li>
+            <li>Mesh networks</li>
+            <li>Network cabling</li>
+            <li>Network switches</li>
+            <li>ONT</li>
+            <li>ONU</li>
+            <li>Optical power meter</li>
+            <li>Optical termination box (CTO) maintenance</li>
+            <li>PoE</li>
+            <li>Pole preparation for fiber installation</li>
+            <li>PPPoE</li>
+            <li>Radio links</li>
+            <li>RJ45</li>
+            <li>Router configuration</li>
+            <li>SC/APC</li>
+            <li>Servers</li>
+            <li>VFL</li>
+            <li>Wi-Fi</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Network systems</h4>
+        <ul class="skill-list" role="list">
+          <li>OpenWrt</li>
+          <li>OPNsense</li>
+          <li>pfSense</li>
+        </ul>
+        <h4 class="skill-subheading" id="it-support" tabindex="-1">IT support</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>ERP support<span class="skill-note">, L1</span></li>
+          <li>Hospital IT support<span class="skill-note">, L1/L2</span></li>
+          <li>Computer maintenance</li>
+          <li>Incident resolution</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Show more IT support skills">[show more]</summary>
+          <ul class="skill-list" role="list">
+            <li>Help desk support<span class="skill-note">, L1</span></li>
+            <li>Microsoft Active Directory</li>
+            <li>IT asset management</li>
+            <li>NF-e</li>
+            <li>NFC-e</li>
+            <li>Peripheral maintenance</li>
+            <li>POS support<span class="skill-note">, L1</span></li>
+            <li>Printer maintenance</li>
+            <li>Standard operating procedures (SOPs)</li>
+            <li>Technical documentation</li>
+            <li>Ticket escalation</li>
+            <li>User guidance</li>
+            <li>User manuals</li>
+          <li>Digital account configuration</li>
+          <li>Corrective maintenance</li>
+          <li>Preventive maintenance</li>
+          <li>Remote support</li>
+          <li>User training</li>
+        </ul>
+        </details>
+        <h4 class="skill-subheading">Web</h4>
+        <ul class="skill-list" role="list">
+          <li>Web accessibility</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>GitHub Actions</li>
+          <li>GitHub Pages</li>
+          <li>HTML</li>
+          <li>Multilingual websites</li>
+        </ul>
+        <h4 class="skill-subheading">Web servers</h4>
+        <ul class="skill-list" role="list">
+          <li>Apache HTTP Server</li>
+          <li>NGINX</li>
+        </ul>
+        <h4 class="skill-subheading">Development and hosting platforms</h4>
+        <ul class="skill-list" role="list">
+          <li>Amazon Web Services (AWS)</li>
+          <li>Firebase</li>
+          <li>Microsoft Azure</li>
+          <li>Supabase</li>
+          <li>Vercel</li>
+        </ul>
+        <h4 class="skill-subheading">Languages</h4>
+        <ul class="skill-list" role="list">
+          <li>English<span class="skill-note">, TOEIC Listening &amp; Reading 910</span></li>
+          <li>Brazilian Portuguese</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3 data-icon="users-round">Interpersonal skills <span lang="en">(Soft skills)</span></h3>
+        <h4 class="skill-subheading">Organization and development</h4>
+        <ul class="skill-list" role="list">
+          <li>Adaptability</li>
+          <li>Attention to detail</li>
+          <li>Analytical thinking</li>
+          <li>Autonomy</li>
+          <li>Problem solving</li>
+        </ul>
+        <h4 class="skill-subheading">Relationships</h4>
+        <ul class="skill-list" role="list">
+          <li>Communication</li>
+          <li>Understanding customer needs</li>
+          <li>Teamwork</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3 data-icon="wrench">Practical and operational skills</h3>
+        <h4 class="skill-subheading">Fieldwork and tools</h4>
+        <ul class="skill-list skill-anchors" role="list">
+          <li>Fiber optic fusion splicer</li>
+          <li>Multimeter</li>
+          <li>Power tools</li>
+          <li>Work at height</li>
+        </ul>
+        <details class="skill-group">
+          <summary class="skill-more" aria-label="Show more fieldwork and tools skills">[show more]</summary>
+          <ul class="skill-list" role="list">
+            <li>Fiber cleaver</li>
+            <li>Fusimech</li>
+            <li>Hand tools</li>
+            <li>Supply organization</li>
+            <li>Tool organization</li>
+          </ul>
+        </details>
+        <h4 class="skill-subheading">Driving</h4>
+        <ul class="skill-list" role="list">
+          <li>Car driving</li>
+          <li>Motorcycle riding</li>
+          <li>CNH AB</li>
+          <li>International Driving Permit (PID, Brazil)</li>
+        </ul>
+        <p>The CNH is the Brazilian driver’s license. Category AB covers cars and motorcycles. List of countries that accept the <a href="https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS" hreflang="pt-BR">CNH</a> and the <a href="https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&amp;mtdsg_no=XI-B-19&amp;chapter=11" hreflang="en">PID</a>.</p>
+      </div>
+      <h3 id="sfia-title" data-icon="user-check">SFIA profile</h3>
+      <details class="sfia-profile">
+        <summary class="sfia-summary">View SFIA profile</summary>
+        <div class="sfia-profile-body">
+        <p>Self-assessment of responsibility based on SFIA 9.</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">USUP</span> Incident management</p>
+            <p class="sfia-level">Level 3 · Apply</p>
+            <p class="sfia-evidence">I handle and diagnose L1/L2 incidents in ERP/POS systems and hospital environments, guide users, and escalate unresolved issues.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Network support</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I install and maintain FTTH networks and radio links using drop cables, SC/APC, ONUs/ONTs, and routers. I diagnose issues with an optical power meter, OTDR, and VFL.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Systems installation and removal</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I install, configure, and maintain workstations, peripherals, and assets in corporate and hospital environments.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Application support</p>
+            <p class="sfia-level">Level 3 · Apply</p>
+            <p class="sfia-evidence">I support ERP/POS systems, configure systems, diagnose issues remotely, and guide users on NF-e/NFC-e, Brazilian electronic invoices.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Infrastructure operations</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I assist with infrastructure monitoring and maintenance, record incidents, and carry out support routines.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programming/<wbr>software development</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I orchestrate the work of the AI agents that implement this portfolio in HTML and CSS. I review their changes. The project uses version control and automated publishing.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Change control</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I assess the impact of portfolio changes and review them. I record changes in commits to track the history and support reverts.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Levels 2 and 3. Evidence comes from the experience, projects, and courses described on this page.</p>
+        </div>
+      </details>
+
+      <!-- Print copy. Keep synchronized with .sfia-profile. -->
+      <section class="sfia-print">
+        <h3 data-icon="user-check">SFIA profile</h3>
+        <p>Self-assessment of responsibility based on SFIA 9.</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">USUP</span> Incident management</p>
+            <p class="sfia-level">Level 3 · Apply</p>
+            <p class="sfia-evidence">I handle and diagnose L1/L2 incidents in ERP/POS systems and hospital environments, guide users, and escalate unresolved issues.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Network support</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I install and maintain FTTH networks and radio links using drop cables, SC/APC, ONUs/ONTs, and routers. I diagnose issues with an optical power meter, OTDR, and VFL.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Systems installation and removal</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I install, configure, and maintain workstations, peripherals, and assets in corporate and hospital environments.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Application support</p>
+            <p class="sfia-level">Level 3 · Apply</p>
+            <p class="sfia-evidence">I support ERP/POS systems, configure systems, diagnose issues remotely, and guide users on NF-e/NFC-e, Brazilian electronic invoices.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Infrastructure operations</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I assist with infrastructure monitoring and maintenance, record incidents, and carry out support routines.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programming/<wbr>software development</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I orchestrate the work of the AI agents that implement this portfolio in HTML and CSS. I review their changes. The project uses version control and automated publishing.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Change control</p>
+            <p class="sfia-level">Level 2 · Assist</p>
+            <p class="sfia-evidence">I assess the impact of portfolio changes and review them. I record changes in commits to track the history and support reverts.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Levels 2 and 3.</p>
+      </section>
+
+      <h3 id="nice-title" data-icon="headset">NICE task mapping</h3>
+      <details id="nice" class="nice-profile">
+        <summary class="nice-summary">View NICE task mapping</summary>
+        <p>Selected tasks associated with Technical Support (<code>IO-WRL-007</code>).</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T0237</span> Troubleshooting hardware and software</p>
+            <p class="sfia-evidence">At Lukos, I remotely diagnosed and resolved issues with the ERP system, networks, and customer devices.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1412</span> Technical training for customers</p>
+            <p class="sfia-evidence">At Lukos, I trained and guided customers in using the ERP and POS system.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuring software and peripherals</p>
+            <p class="sfia-evidence">I configured systems for Lukos customers and printers at Instituto Alpha.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Mapping based on the activities described in <a href="#experience">professional experience</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
+      </details>
+
+      <!-- Print copy of the NICE tasks. -->
+      <section class="nice-print">
+        <h3 data-icon="headset">NICE task mapping</h3>
+        <p>Selected tasks associated with Technical Support (<code>IO-WRL-007</code>).</p>
+        <ul class="sfia-list" role="list">
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T0237</span> Troubleshooting hardware and software</p>
+            <p class="sfia-evidence">At Lukos, I remotely diagnosed and resolved issues with the ERP system, networks, and customer devices.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1412</span> Technical training for customers</p>
+            <p class="sfia-evidence">At Lukos, I trained and guided customers in using the ERP and POS system.</p>
+          </li>
+          <li class="sfia-item">
+            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuring software and peripherals</p>
+            <p class="sfia-evidence">I configured systems for Lukos customers and printers at Instituto Alpha.</p>
+          </li>
+        </ul>
+        <p class="sfia-note">Mapping based on the activities described in <a href="#experience">professional experience</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
+      </section>
+      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
+    </section>
+
+    <section id="education" class="wrap" tabindex="-1">
+      <h2 data-icon="graduation-cap">Education</h2>
+      <p class="meta">Institution: <a href="https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/" hreflang="pt-BR">Fatec Franco da Rocha – Giuliano Cecchettini</a></p>
+      <h3 data-icon="book-open">Brazilian higher education technology program in Information Technology Management</h3>
+      <p>Start: <time datetime="2024-07">July 2024</time> · Expected completion: <time datetime="2027-07">July 2027</time></p>
+      <p class="meta"><a href="https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view">According to the Course Pedagogical Project (PPC)</a>.</p>
+      <p class="section-nav noprint"><a href="rede.html#professores">Faculty and academic support</a></p>
+      <h3 id="grad-contents-title" data-icon="list-checks">Planned degree content</h3>
+      <details class="skill-group graduation-details">
+        <summary>View planned degree content</summary>
+      <h4 class="skill-subheading">Management and business</h4>
+      <ul class="skill-list" role="list">
+        <li>Solution evaluation</li>
+        <li>People management</li>
+        <li>Process management</li>
+        <li>IT project management</li>
+        <li>Financial management</li>
+        <li>Strategic planning</li>
+      </ul>
+      <h4 class="skill-subheading">Research and interpersonal skills</h4>
+      <ul class="skill-list" role="list">
+        <li>Communication</li>
+        <li>Negotiation</li>
+        <li>Conflict management</li>
+        <li>Critical thinking</li>
+        <li>Academic research</li>
+        <li>Problem solving</li>
+        <li>Teamwork</li>
+        <li>Systems thinking</li>
+      </ul>
+      <h4 class="skill-subheading">Technology and systems</h4>
+      <ul class="skill-list" role="list">
+        <li>Databases</li>
+        <li>Infrastructure diagnostics</li>
+        <li>Software engineering</li>
+        <li>Business intelligence</li>
+        <li>Web programming</li>
+        <li>Computer networks</li>
+        <li>Operating systems</li>
+      </ul>
+
+      </details>
+
+      <h3 data-icon="award">Courses and certificates</h3>
+      <p>I took courses in JavaScript and Python and have hands-on programming practice. My knowledge of machine learning is introductory.</p>
+      <details class="course-details courses-screen">
+        <summary>View 18 courses and additional training programs</summary>
+        <div class="skill-category">
+          <h4 class="course-group">Technical skills <span lang="en">(Hard skills)</span></h4>
+          <h5 class="skill-subheading">Management and productivity</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
+              <p lang="pt-BR">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
+              <p>Course completion · 40 h · Completion: <time datetime="2026-11-13">13/11/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Microsoft Office Specialist Associate</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>SENAI preparatory course for the certification exam · 60 h · Completion: <time datetime="2026-07-25">25/07/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
+              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
+              <p>Introductory training · 2 h · Completion: <time datetime="2026-04-17">17/04/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2026-01-09">09/01/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Gestão Financeira</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2025-12-29">29/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
+              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
+              <p>Participation · 8 h · Completion: <time datetime="2025-12-20">20/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Excel Básico</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Course completion · 40 h · Completion: <time datetime="2025-09-02">02/09/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
+              <p><a href="https://www.ev.org.br/" hreflang="pt-BR">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2025-03-18">18/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2025-01-19">19/01/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 12 h · Completion: <time datetime="2024-11-27">27/11/2024</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
+              <p><a href="https://inova.cps.sp.gov.br/" hreflang="pt-BR">INOVA CPS — Centro Paula Souza</a></p>
+              <p>Participation · 40 h · Completion: <time datetime="2024-11-11">11/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Programming and data</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">JavaScript Essentials 1</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
+              <p>Course completion · 40 h · Completion: <time datetime="2026-05-16">16/05/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Modelagem de Dados</h6>
+              <p><a href="https://www.ev.org.br/" hreflang="pt-BR">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Course completion · 8 h · Completion: <time datetime="2025-11-25">25/11/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Python Essentials 1</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
+              <p>Course completion · 30 h · Completion: <time datetime="2025-03-22">22/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2024-11-05">05/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Networks</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Course completion · 48 h · Completion: <time datetime="2026-05-13">13/05/2026</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">IT support</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">Computer Hardware Basics</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
+              <p>Course completion · 6 h · Completion: <time datetime="2025-02-18">18/02/2025</time></p>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4 class="course-group">Interpersonal skills <span lang="en">(Soft skills)</span></h4>
+          <h5 class="skill-subheading">Organization and development</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 2 h · Completion: <time datetime="2024-11-25">25/11/2024</time></p>
+            </li>
+          </ul>
+        </div>
+      </details>
+      <!-- Mantenha esta cópia igual aos cursos da seção recolhível. -->
+      <div class="courses-print">
+        <div class="skill-category">
+          <h4 class="course-group">Technical skills <span lang="en">(Hard skills)</span></h4>
+          <h5 class="skill-subheading">Management and productivity</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
+              <p lang="pt-BR">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
+              <p>Course completion · 40 h · Completion: <time datetime="2026-11-13">13/11/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Microsoft Office Specialist Associate</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>SENAI preparatory course for the certification exam · 60 h · Completion: <time datetime="2026-07-25">25/07/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
+              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
+              <p>Introductory training · 2 h · Completion: <time datetime="2026-04-17">17/04/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2026-01-09">09/01/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Gestão Financeira</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2025-12-29">29/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
+              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
+              <p>Participation · 8 h · Completion: <time datetime="2025-12-20">20/12/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Excel Básico</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Course completion · 40 h · Completion: <time datetime="2025-09-02">02/09/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
+              <p><a href="https://www.ev.org.br/" hreflang="pt-BR">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2025-03-18">18/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2025-01-19">19/01/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 12 h · Completion: <time datetime="2024-11-27">27/11/2024</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
+              <p><a href="https://inova.cps.sp.gov.br/" hreflang="pt-BR">INOVA CPS — Centro Paula Souza</a></p>
+              <p>Participation · 40 h · Completion: <time datetime="2024-11-11">11/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Programming and data</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">JavaScript Essentials 1</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
+              <p>Course completion · 40 h · Completion: <time datetime="2026-05-16">16/05/2026</time></p>
+            </li>
+            <li>
+              <h6 lang="pt-BR">Modelagem de Dados</h6>
+              <p><a href="https://www.ev.org.br/" hreflang="pt-BR">Fundação Bradesco — Escola Virtual</a></p>
+              <p>Course completion · 8 h · Completion: <time datetime="2025-11-25">25/11/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">Python Essentials 1</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
+              <p>Course completion · 30 h · Completion: <time datetime="2025-03-22">22/03/2025</time></p>
+            </li>
+            <li>
+              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
+              <p>Course completion · 10 h · Completion: <time datetime="2024-11-05">05/11/2024</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">Networks</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p>Course completion · 48 h · Completion: <time datetime="2026-05-13">13/05/2026</time></p>
+            </li>
+          </ul>
+          <h5 class="skill-subheading">IT support</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="en">Computer Hardware Basics</h6>
+              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
+              <p>Course completion · 6 h · Completion: <time datetime="2025-02-18">18/02/2025</time></p>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4 class="course-group">Interpersonal skills <span lang="en">(Soft skills)</span></h4>
+          <h5 class="skill-subheading">Organization and development</h5>
+          <ul class="course-list">
+            <li>
+              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
+              <p>Course completion · 2 h · Completion: <time datetime="2024-11-25">25/11/2024</time></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h3 data-icon="languages">English — <span lang="en">TOEIC Listening &amp; Reading</span></h3>
+      <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Test administered under the auspices of <a href="https://www.cps.sp.gov.br/" hreflang="pt-BR">Centro Paula Souza</a></p>
+      <p>Total: <strong>910 points</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
+      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
+    </section>
+
+    <section id="projects" class="wrap noprint">
+      <h2 data-icon="folder-code">Projects and research</h2>
+      <ul>
+        <li id="optigrow"><a href="projetos.html#optigrow">Optigrow</a></li>
+        <li id="upcoming-projects"><a href="projetos.html#upcoming-projects">SGCS</a></li>
+      </ul>
+      <p><a href="projetos.html">View all projects and research</a></p>
+    </section>
+
+    <section id="contact" class="wrap contact-section" tabindex="-1">
+      <h2 data-icon="at-sign">Contact</h2>
+      <ul class="contact-list" role="list">
+        <li><a data-icon="mail" href="mailto:beraldesnicolas@gmail.com">E-mail — beraldesnicolas@gmail.com</a></li>
+        <li><a data-icon="linkedin" href="https://www.linkedin.com/in/nicolas-t-a1ab74321/">LinkedIn — Nicolas Beraldes Tarifa</a></li>
+        <li><a data-icon="github" href="https://github.com/nicolas-b-t">GitHub - nicolas-b-t</a></li>
+        <li><a data-icon="graduation-cap" href="https://lattes.cnpq.br/1293729943180703" hreflang="pt-BR">Lattes CV — Brazil’s national academic CV platform (CNPq)</a></li>
+      </ul>
+      <p class="contact-related"><a href="recomendacoes.html">Explore my selection</a></p>
+      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="noprint"><a href="projetos.html">Projects and research</a> · <a href="galeria.html">Work gallery</a> · <a href="rede.html">Thanks to my network</a> · <a href="recomendacoes.html">My selection</a></p>
+      <p>© <span>2026</span> Nicolas Beraldes Tarifa. <span class="noprint">Static website, without trackers.</span></p>
+      <div class="footer-tools noprint">
+        <details class="style-switch">
+          <summary title="Experimental styles"><span aria-hidden="true">◇</span><span class="visually-hidden">Experimental styles</span></summary>
+          <fieldset>
+            <legend>Page style</legend>
+            <label for="style-padrao"><input type="radio" name="estilo-visual" value="padrao" id="style-padrao" checked> Default</label>
+            <label for="style-nato"><input type="radio" name="estilo-visual" value="nato" id="style-nato"> NATO</label>
+            <label for="style-warsaw"><input type="radio" name="estilo-visual" value="warsaw" id="style-warsaw"> Warsaw Pact</label>
+          </fieldset>
+        </details>
+      </div>
+    </div>
+  </footer>
 
   <section id="dados-curriculo" hidden="">
     <h2>Nicolas Beraldes Tarifa</h2>
@@ -35,7 +911,6 @@
       <p>Instruction: Preserve knowledge levels and attribution to the individual or the team.</p>
       <p>Instruction: Do not interpret studies in progress as completed education.</p>
     </div>
-    <p>IT Support · Networks · IT Management</p>
     <p>I work in technology and am studying Information Technology Management. I have worked in IT support, networking, and e-commerce. I also develop software projects and share some of that work on this site.</p>
     <section>
       <h3>Contact</h3>
@@ -57,7 +932,7 @@
     </section>
     <section>
       <h3>Development principles</h3>
-      <p>Before choosing a technology, I try to understand how the work is done, who will use the solution, and what needs to change. In software, networks, and cybersecurity, I follow a "secure by default" posture — close to the OpenBSD philosophy —, which naturally aligns with minimalist, stable, and functional development.</p>
+      <p>Before choosing a technology, I try to understand how the work is done, who will use the solution, and what needs to change. In software, servers, networks, and cybersecurity, I follow a "secure by default" posture, which naturally aligns with minimalist, stable, and functional development.</p>
     </section>
     <section>
       <h3>Skills and abilities</h3>
@@ -308,6 +1183,20 @@
         <p>The CNH is the Brazilian driver’s license. Category AB covers cars and motorcycles. List of countries that accept the <a href="https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS" hreflang="pt-BR">CNH</a> and the <a href="https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&amp;mtdsg_no=XI-B-19&amp;chapter=11" hreflang="en">PID</a>.</p>
       </div>
       <section>
+        <h3>SFIA profile</h3>
+        <p>Self-assessment of responsibility based on SFIA 9.</p>
+        <ul>
+          <li>USUP — Incident management · Level 3 · Apply. I handle and diagnose L1/L2 incidents in ERP/POS systems and hospital environments, guide users, and escalate unresolved issues.</li>
+          <li>NTAS — Network support · Level 2 · Assist. I install and maintain FTTH networks and radio links using drop cables, SC/APC, ONUs/ONTs, and routers. I diagnose issues with an optical power meter, OTDR, and VFL.</li>
+          <li>HSIN — Systems installation and removal · Level 2 · Assist. I install, configure, and maintain workstations, peripherals, and assets in corporate and hospital environments.</li>
+          <li>ASUP — Application support · Level 3 · Apply. I support ERP/POS systems, configure systems, diagnose issues remotely, and guide users on NF-e/NFC-e, Brazilian electronic invoices.</li>
+          <li>ITOP — Infrastructure operations · Level 2 · Assist. I assist with infrastructure monitoring and maintenance, record incidents, and carry out support routines.</li>
+          <li>PROG — Programming/software development · Level 2 · Assist. I orchestrate the work of the AI agents that implement this portfolio in HTML and CSS. I review their changes. The project uses version control and automated publishing.</li>
+          <li>CHMG — Change control · Level 2 · Assist. I assess the impact of portfolio changes and review them. I record changes in commits to track the history and support reverts.</li>
+        </ul>
+        <p>Levels 2 and 3. Evidence comes from the experience, projects, and courses described on this page.</p>
+      </section>
+      <section>
         <h3>NICE task mapping</h3>
         <p>Selected tasks associated with Technical Support (<code>IO-WRL-007</code>).</p>
         <ul>
@@ -335,7 +1224,7 @@
           <h4 lang="en">Fiber Optic Installation Assistant</h4>
           <p class="meta">
             <strong>
-              <a href="https://realfortsistemas.com.br/">RealFort Sistemas</a>
+              <a href="https://realfortsistemas.com.br/" hreflang="pt-BR">RealFort Sistemas</a>
             </strong>
           </p>
           <p class="meta">Period: <time datetime="2026-08-28">August 28, 2026</time> – <time datetime="2026-09-28">September 28, 2026</time></p>
@@ -350,7 +1239,7 @@
           <h4 lang="en">Help Desk Support Technician</h4>
           <p class="meta">
             <strong>
-              <a href="https://lukos.com.br/">Lukos Tecnologia</a>
+              <a href="https://lukos.com.br/" hreflang="pt-BR">Lukos Tecnologia</a>
             </strong>
           </p>
           <p class="meta">Period: <time datetime="2025-09">September 2025</time> – <time datetime="2025-12">December 2025</time>
@@ -366,7 +1255,7 @@
           <h4 lang="en">IT Support Technician</h4>
           <p class="meta">
             <strong>
-              <a href="https://alphainstituto.com.br/">Instituto Alpha de Saúde Integral</a>
+              <a href="https://alphainstituto.com.br/" hreflang="pt-BR">Instituto Alpha de Saúde Integral</a>
             </strong>
           </p>
           <p class="meta">Period: <time datetime="2023-04">April 2023</time> – <time datetime="2024-06">June 2024</time>
@@ -381,7 +1270,7 @@
         </li>
         <li>
           <h4>E-commerce Assistant - Contractor</h4>
-          <p class="meta"><strong><a href="https://institucional.jheletronico.com.br/">JH Eletrônico</a></strong></p>
+          <p class="meta"><strong><a href="https://institucional.jheletronico.com.br/" hreflang="pt-BR">JH Eletrônico</a></strong></p>
           <p class="meta">Period: <time datetime="2022-07">July 2022</time> – <time datetime="2023-01">January 2023</time></p>
           <p class="meta">Location: Mairiporã, SP, Brazil</p>
           <ul class="experience-details">
@@ -395,7 +1284,7 @@
     <section>
       <h3>Education</h3>
       <ul class="academic-records">
-        <li>• Brazilian higher education technology program in Information Technology Management — <a href="https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/">Fatec Franco da Rocha – Giuliano Cecchettini</a> (Start: <time datetime="2024-07">July 2024</time> · Expected completion: <time datetime="2027-07">July 2027</time>)</li>
+        <li>Brazilian higher education technology program in Information Technology Management — <a href="https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/" hreflang="pt-BR">Fatec Franco da Rocha – Giuliano Cecchettini</a> (Start: <time datetime="2024-07">July 2024</time> · Expected completion: <time datetime="2027-07">July 2027</time>)</li>
       </ul>
       <h4>Additional information</h4>
       <p class="meta">
@@ -451,7 +1340,7 @@
               <p lang="en">
                 <strong>Microsoft Office Specialist Associate</strong>
               </p>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
               <p>SENAI preparatory course for the certification exam · 60 h · Completion: <time datetime="2026-07-25">25/07/2026</time>
               </p>
             </li>
@@ -467,7 +1356,7 @@
               <p lang="pt-BR">
                 <strong>Como Controlar o Fluxo de Caixa</strong>
               </p>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
               <p>Course completion · 10 h · Completion: <time datetime="2026-01-09">09/01/2026</time>
               </p>
             </li>
@@ -475,7 +1364,7 @@
               <p lang="pt-BR">
                 <strong>Gestão Financeira</strong>
               </p>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
               <p>Course completion · 10 h · Completion: <time datetime="2025-12-29">29/12/2025</time>
               </p>
             </li>
@@ -491,7 +1380,7 @@
               <p lang="pt-BR">
                 <strong>Excel Básico</strong>
               </p>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
               <p>Course completion · 40 h · Completion: <time datetime="2025-09-02">02/09/2025</time>
               </p>
             </li>
@@ -499,7 +1388,7 @@
               <p lang="pt-BR">
                 <strong>Introdução à Gestão de Projetos</strong>
               </p>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
+              <p><a href="https://www.ev.org.br/" hreflang="pt-BR">Fundação Bradesco — Escola Virtual</a></p>
               <p>Course completion · 10 h · Completion: <time datetime="2025-03-18">18/03/2025</time>
               </p>
             </li>
@@ -507,7 +1396,7 @@
               <p lang="pt-BR">
                 <strong>Inovação em Gestão de Projetos</strong>
               </p>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
               <p>Course completion · 10 h · Completion: <time datetime="2025-01-19">19/01/2025</time>
               </p>
             </li>
@@ -515,7 +1404,7 @@
               <p lang="pt-BR">
                 <strong>Indicadores Estratégicos - Descomplica</strong>
               </p>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
               <p>Course completion · 12 h · Completion: <time datetime="2024-11-27">27/11/2024</time>
               </p>
             </li>
@@ -523,7 +1412,7 @@
               <p lang="pt-BR">
                 <strong>19ª Edição da Escola de Inovadores (2024-2)</strong>
               </p>
-              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
+              <p><a href="https://inova.cps.sp.gov.br/" hreflang="pt-BR">INOVA CPS — Centro Paula Souza</a></p>
               <p>Participation · 40 h · Completion: <time datetime="2024-11-11">11/11/2024</time>
               </p>
             </li>
@@ -535,14 +1424,14 @@
                 <strong>JavaScript Essentials 1</strong>
               </p>
               <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
-              <p>Course completion · Completion: <time datetime="2026-05-16">16/05/2026</time>
+              <p>Course completion · 40 h · Completion: <time datetime="2026-05-16">16/05/2026</time>
               </p>
             </li>
             <li>
               <p lang="pt-BR">
                 <strong>Modelagem de Dados</strong>
               </p>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
+              <p><a href="https://www.ev.org.br/" hreflang="pt-BR">Fundação Bradesco — Escola Virtual</a></p>
               <p>Course completion · 8 h · Completion: <time datetime="2025-11-25">25/11/2025</time>
               </p>
             </li>
@@ -551,7 +1440,7 @@
                 <strong>Python Essentials 1</strong>
               </p>
               <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
-              <p>Course completion · Completion: <time datetime="2025-03-22">22/03/2025</time>
+              <p>Course completion · 30 h · Completion: <time datetime="2025-03-22">22/03/2025</time>
               </p>
             </li>
             <li>
@@ -559,7 +1448,7 @@
                 <strong>AI Fundamentals with IBM SkillsBuild</strong>
               </p>
               <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
-              <p>Course completion · Completion: <time datetime="2024-11-05">05/11/2024</time>
+              <p>Course completion · 10 h · Completion: <time datetime="2024-11-05">05/11/2024</time>
               </p>
             </li>
           </ul>
@@ -569,7 +1458,7 @@
               <p lang="pt-BR">
                 <strong>Redes de Computadores - Implantação de Redes Locais</strong>
               </p>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
+              <p><a href="https://www.sp.senai.br/unidade/guarulhos" hreflang="pt-BR">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
               <p>Course completion · 48 h · Completion: <time datetime="2026-05-13">13/05/2026</time>
               </p>
             </li>
@@ -581,7 +1470,7 @@
                 <strong>Computer Hardware Basics</strong>
               </p>
               <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
-              <p>Course completion · Completion: <time datetime="2025-02-18">18/02/2025</time>
+              <p>Course completion · 6 h · Completion: <time datetime="2025-02-18">18/02/2025</time>
               </p>
             </li>
           </ul>
@@ -595,7 +1484,7 @@
               <p lang="pt-BR">
                 <strong>Planeje Suas Metas e Resultados</strong>
               </p>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
+              <p><a href="https://loja.sebrae.com.br/" hreflang="pt-BR">Sebrae</a></p>
               <p>Course completion · 2 h · Completion: <time datetime="2024-11-25">25/11/2024</time>
               </p>
             </li>
@@ -604,901 +1493,13 @@
       </div>
       <h4>English — <span lang="en">TOEIC Listening &amp; Reading</span>
       </h4>
-      <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Test administered under the auspices of <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
+      <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Test administered under the auspices of <a href="https://www.cps.sp.gov.br/" hreflang="pt-BR">Centro Paula Souza</a></p>
       <p>Total: <strong>910 points</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
-      <p>Test: <time datetime="2025-02-26">26/02/2025</time> · Score valid until: <time datetime="2027-02-26">26/02/2027</time>
-      </p>
     </section>
     <section>
       <h3>Projects</h3>
       <p><a href="projetos.html">Explore my projects and publications.</a></p>
     </section>
   </section>
-
-
-
-
-
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html">Nicolas Beraldes Tarifa</a>
-      <nav class="lang-switch" aria-label="Language">
-        <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-        <span class="is-current" aria-current="page" lang="en-US">English</span>
-        <a href="../wip.html" lang="en">Other languages in preparation</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <section id="overview" class="hero panel wrap" aria-labelledby="panel-name" tabindex="-1">
-      <div class="panel-main">
-        <p class="kicker">Professional portfolio</p>
-        <h1 id="panel-name">Nicolas Beraldes Tarifa</h1>
-        <p class="lead">I work in technology and am studying Information Technology Management.</p>
-        <nav class="hero-actions preview-primary" aria-label="Primary actions">
-          <a class="btn" href="#experience">Experience</a>
-          <a class="btn ghost" href="projetos.html">Projects and research</a>
-          <a class="btn ghost" href="#contact">Contact</a>
-        </nav>
-        <p class="preview-context">I have worked in IT support, networking, and e-commerce. Today I also develop software projects and share some of that work on this site.</p>
-        <p class="panel-now"><strong>Currently:</strong> paid traffic manager at Aquecedores e Piscinas Mairiporã since <time datetime="2026-01">January 2026</time>.</p>
-        <div class="hero-actions">
-          <a class="btn ghost" href="rede.html">My network</a>
-          <details class="cv-download">
-            <summary class="btn ghost">Download resume</summary>
-            <ul class="cv-download-options">
-              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-padrao-en-US.pdf" hreflang="en-US" download="CV-NicolasBt-2026-11-04-padrao-en-US.pdf">General resume (PDF, English)</a></li>
-              <li><a href="../assets/curriculos/CV-NicolasBt-2026-11-04-barra-lateral-en-US.pdf" hreflang="en-US" download="CV-NicolasBt-2026-11-04-barra-lateral-en-US.pdf">Sidebar resume (PDF, English)</a></li>
-            </ul>
-          </details>
-        </div>
-
-        <nav class="panel-nav" aria-label="Quick access">
-          <ul class="panel-doors" role="list">
-            <li>
-              <a class="panel-door" data-icon="briefcase" href="#experience">
-                <span class="panel-door-title">Experience</span>
-                <span class="panel-door-note">IT support, networks, and paid traffic</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-door" data-icon="sliders-horizontal" href="#skills">
-                <span class="panel-door-title">Skills</span>
-                <span class="panel-door-note">Technical, interpersonal, and practical</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-door" data-icon="graduation-cap" href="#education">
-                <span class="panel-door-title">Education</span>
-                <span class="panel-door-note">IT management · expected completion in 2027</span>
-              </a>
-            </li>
-          </ul>
-          <p class="panel-label" id="panel-skills">Technical skills</p>
-          <ul class="panel-chips" role="list" aria-labelledby="panel-skills">
-            <li><a data-icon="sliders-horizontal" href="#project-management">Project management</a></li>
-            <li><a data-icon="megaphone" href="#paid-traffic">Paid traffic</a></li>
-            <li><a data-icon="monitor" href="#operating-systems">Operating systems</a></li>
-            <li><a data-icon="code-2" href="#programming-data">Programming and data</a></li>
-            <li><a data-icon="network" href="#networks">Networks</a></li>
-            <li><a data-icon="headset" href="#it-support">IT support</a></li>
-          </ul>
-        </nav>
-
-        <div class="panel-projects">
-          <h2 data-icon="folder-code">Featured projects</h2>
-          <div class="grid">
-            <article class="card">
-              <p class="meta">Marketing tool for optical stores · Portugal</p>
-              <h3 data-icon="globe"><a href="https://optigrow.vercel.app/">Optigrow</a></h3>
-              <p>Marketing and technology tool for optical stores in the Porto area. <a href="projetos.html#optigrow">View Optigrow details</a></p>
-            </article>
-            <article class="card">
-              <p class="meta">Academic research · SaaS in development</p>
-              <h3 data-icon="building-2"><a href="https://sgcs-seven.vercel.app/" lang="pt-BR">SGCS — Sistema de Gestão de Chamados para Síndicos</a></h3>
-              <p>Our team at Fatec Franco da Rocha developed a working prototype for condominium service request management. <a href="projetos.html#upcoming-projects">View SGCS details</a></p>
-            </article>
-          </div>
-          <p class="panel-more"><a href="projetos.html">View all projects and research</a></p>
-        </div>
-      </div>
-    </section>
-
-    <section id="development-with-ai-agents" class="wrap">
-      <h2 data-icon="code-2">Development principles</h2>
-      <p>Before choosing a technology, I try to understand how the work is done, who will use the solution, and what needs to change. In software, networks, and cybersecurity, I follow a "secure by default" posture — close to the OpenBSD philosophy —, which naturally aligns with minimalist, stable, and functional development.</p>
-    </section>
-
-    <section id="experience" class="wrap" tabindex="-1">
-      <h2 data-icon="briefcase">Professional experience</h2>
-      <ol class="timeline" role="list">
-        <li>
-          <h3 data-icon="trending-up">Paid Traffic Manager - Contractor</h3>
-          <dl class="experience-meta">
-            <dt>Company</dt>
-            <dd>Aquecedores e Piscinas Mairiporã</dd>
-            <dt>Period</dt>
-            <dd><time datetime="2026-01">January 2026</time> – present</dd>
-            <dt>Location</dt>
-            <dd>Mairiporã, SP, Brazil</dd>
-          </dl>
-          <p>I launched and manage the website, company pages, and sales channels on Mercado Livre and Shopee. I plan, run, and optimize Google Ads and Meta Ads campaigns.</p>
-          <p>I trained the managing partners in Facebook, Instagram, and Meta tools and provide IT support for digital services and accounts on demand.</p>
-        </li>
-        <li>
-          <h3 data-icon="cable">Fiber Optic Installation Assistant</h3>
-          <dl class="experience-meta">
-            <dt>Company</dt>
-            <dd><a href="https://realfortsistemas.com.br/">RealFort Sistemas</a></dd>
-            <dt>Period</dt>
-            <dd><time datetime="2026-08-28">August 28, 2026</time> – <time datetime="2026-09-28">September 28, 2026</time></dd>
-            <dt>Location</dt>
-            <dd>São Paulo, SP, Brazil</dd>
-          </dl>
-          <p>Installation and maintenance of FTTH networks and radio links. I laid drop cables and terminated SC/APC connectors. I joined fibers using connectors. I performed fusion splicing as an apprentice. I worked on overhead networks at commercial and residential sites.</p>
-          <p>I assembled RJ45 connectors. I installed and configured ONUs, ONTs, and routers with PPPoE, Wi-Fi, and mesh networks.</p>
-          <p>I diagnosed issues using measurements from an optical power meter and OTDR and checks with a VFL. I identified and resolved network problems.</p>
-          <p><a href="galeria.html">View photographs of network and electronics work</a></p>
-        </li>
-        <li>
-          <h3 data-icon="headset">Help Desk Support Technician</h3>
-          <dl class="experience-meta">
-            <dt>Company</dt>
-            <dd><a href="https://lukos.com.br/">Lukos Tecnologia</a></dd>
-            <dt>Period</dt>
-            <dd><time datetime="2025-09">September 2025</time> – <time datetime="2025-12">December 2025</time></dd>
-            <dt>Location</dt>
-            <dd>São Paulo, SP, Brazil</dd>
-          </dl>
-          <p>I provided L1 support for enterprise resource planning (ERP) and point-of-sale (POS) system users. I configured the systems to meet customer requirements. I escalated tickets to other support levels.</p>
-          <p>I remotely diagnosed and resolved problems in the proprietary system, customer networks, and customer devices. I trained and guided customers in using the system.</p>
-          <p>I processed and analyzed NF-e and NFC-e, Brazilian electronic invoices. I checked data integrity and identified inconsistencies.</p>
-        </li>
-        <li>
-          <h3 data-icon="monitor">IT Support Technician</h3>
-          <dl class="experience-meta">
-            <dt>Company</dt>
-            <dd><a href="https://alphainstituto.com.br/">Instituto Alpha de Saúde Integral</a></dd>
-            <dt>Period</dt>
-            <dd><time datetime="2023-04">April 2023</time> – <time datetime="2024-06">June 2024</time></dd>
-            <dt>Location</dt>
-            <dd>São Paulo, SP, Brazil</dd>
-          </dl>
-          <p>I provided L1 and L2 support for hospital systems. I diagnosed, resolved, and tracked incidents. I trained and guided users.</p>
-          <p>I performed preventive and corrective maintenance on desktop computers, laptops, and peripherals. I installed, configured, and maintained printers.</p>
-          <p>I wrote technical documentation, internal reports, user manuals, and standard operating procedures (SOPs).</p>
-          <p>I managed and organized IT assets. I managed Microsoft Active Directory.</p>
-        </li>
-        <li>
-          <h3 data-icon="globe">E-commerce Assistant - Contractor</h3>
-          <dl class="experience-meta">
-            <dt>Company</dt>
-            <dd><a href="https://institucional.jheletronico.com.br/">JH Eletrônico</a></dd>
-            <dt>Period</dt>
-            <dd><time datetime="2022-07">July 2022</time> – <time datetime="2023-01">January 2023</time></dd>
-            <dt>Location</dt>
-            <dd>Mairiporã, SP, Brazil</dd>
-          </dl>
-          <p>I created and updated product listings and managed ads on e-commerce platforms. I produced images and organized the catalog of electronic products and components.</p>
-          <p>I prospected leads and provided sales support to B2C and B2B customers. I prepared quotations and made direct sales by phone and digital channels.</p>
-          <p>I tracked orders and performed pre-shipment checks with Bling ERP. I handled discussions with Mercado Livre and negotiated a proposal to resolve outstanding issues.</p>
-        </li>
-      </ol>
-      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
-    </section>
-
-    <section id="skills" class="wrap" tabindex="-1">
-      <h2 data-icon="sliders-horizontal">Skills and abilities</h2>
-      <div class="skill-category">
-        <h3 data-icon="code-2">Technical skills <span lang="en">(Hard skills)</span></h3>
-        <h4 class="skill-subheading">Administrative management and productivity</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Strategic indicators</li>
-          <li>Process improvement</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Show more administrative management and productivity skills">[show more]</summary>
-          <ul class="skill-list" role="list">
-            <li>Canva</li>
-            <li>Google Drive</li>
-            <li>LibreOffice</li>
-            <li>Trello</li>
-            <li>White Belt Six Sigma<span class="skill-note">, introductory</span></li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Finance</h4>
-        <ul class="skill-list" role="list">
-          <li>Compounding</li>
-          <li>Cash flow</li>
-          <li>Financial management</li>
-        </ul>
-        <h4 class="skill-subheading">Microsoft tools</h4>
-        <ul class="skill-list" role="list">
-          <li>Microsoft Excel</li>
-          <li>Microsoft Office</li>
-          <li>Microsoft Teams</li>
-          <li>Microsoft Word</li>
-          <li>Microsoft 365</li>
-          <li>OneDrive</li>
-        </ul>
-        <h4 class="skill-subheading" id="project-management">Project management</h4>
-        <ul class="skill-list" role="list">
-          <li>Project management</li>
-          <li>Agile methodologies</li>
-          <li>Goal planning</li>
-          <li>Scrum</li>
-        </ul>
-        <h4 class="skill-subheading" id="paid-traffic">Digital marketing and e-commerce</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Paid traffic management</li>
-          <li>E-commerce</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Show more Digital marketing and e-commerce skills">[show more]</summary>
-          <ul class="skill-list" role="list">
-            <li>B2C and B2B customer service</li>
-            <li>Bling ERP</li>
-            <li>Campaign optimization</li>
-            <li>Catalog management</li>
-            <li>Direct sales</li>
-            <li>Facebook</li>
-            <li>Google Ads</li>
-            <li>Google Ads Editor</li>
-            <li>Instagram</li>
-            <li>Lead prospecting</li>
-            <li>Mercado Livre</li>
-            <li>Meta Ads</li>
-            <li>Meta Ads Manager</li>
-            <li>Meta Business Suite</li>
-            <li>Order management</li>
-            <li>Pre-shipment checks</li>
-            <li>Price quotations</li>
-            <li>Product registration</li>
-            <li>Shopee</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading" id="operating-systems">Operating systems</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Microsoft Windows</li>
-          <li>Microsoft Windows Server</li>
-          <li>Linux</li>
-          <li>Debian</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Show more Operating systems skills">[show more]</summary>
-          <ul class="skill-list" role="list">
-            <li>Ubuntu</li>
-            <li>Windows 10</li>
-            <li>Windows 11</li>
-            <li>Windows Server 2008 R2</li>
-            <li>Windows Server 2016</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading" id="programming-data">Programming and data</h4>
-        <ul class="skill-list" role="list">
-          <li>Machine learning</li>
-          <li>Artificial intelligence (AI)</li>
-          <li>JavaScript</li>
-          <li>Programming logic</li>
-          <li>Data modeling</li>
-          <li>Python</li>
-        </ul>
-        <h4 class="skill-subheading">Development with AI</h4>
-        <ul class="skill-list" role="list">
-          <li>OpenAI ChatGPT</li>
-          <li>Codex (OpenAI)</li>
-          <li>Claude</li>
-          <li>Claude Code</li>
-          <li>Development with AI agents</li>
-          <li>OpenCode</li>
-        </ul>
-        <h4 class="skill-subheading">Software development</h4>
-        <ul class="skill-list" role="list">
-          <li>Agile development</li>
-          <li>Waterfall development</li>
-          <li>Specification-driven development</li>
-          <li>Prototyping</li>
-          <li>Minimum viable product (MVP)</li>
-        </ul>
-        <h4 class="skill-subheading">Databases</h4>
-        <ul class="skill-list" role="list">
-          <li>SQL queries</li>
-          <li>PostgreSQL</li>
-          <li>SQLite</li>
-        </ul>
-        <h4 class="skill-subheading" id="networks">Networks</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>FTTH</li>
-          <li>Local area networks (LAN)</li>
-          <li>OTDR</li>
-          <li>Fiber optic fusion splicing<span class="skill-note">, apprentice</span></li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Show more Networks skills">[show more]</summary>
-          <ul class="skill-list" role="list">
-            <li>Cable management</li>
-            <li>Drop cable</li>
-            <li>Mesh networks</li>
-            <li>Network cabling</li>
-            <li>Network switches</li>
-            <li>ONT</li>
-            <li>ONU</li>
-            <li>Optical power meter</li>
-            <li>Optical termination box (CTO) maintenance</li>
-            <li>PoE</li>
-            <li>Pole preparation for fiber installation</li>
-            <li>PPPoE</li>
-            <li>Radio links</li>
-            <li>RJ45</li>
-            <li>Router configuration</li>
-            <li>SC/APC</li>
-            <li>Servers</li>
-            <li>VFL</li>
-            <li>Wi-Fi</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Network systems</h4>
-        <ul class="skill-list" role="list">
-          <li>OpenWrt</li>
-          <li>OPNsense</li>
-          <li>pfSense</li>
-        </ul>
-        <h4 class="skill-subheading" id="it-support">IT support</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>ERP support<span class="skill-note">, L1</span></li>
-          <li>Hospital IT support<span class="skill-note">, L1/L2</span></li>
-          <li>Computer maintenance</li>
-          <li>Incident resolution</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Show more IT support skills">[show more]</summary>
-          <ul class="skill-list" role="list">
-            <li>Help desk support<span class="skill-note">, L1</span></li>
-            <li>Microsoft Active Directory</li>
-            <li>IT asset management</li>
-            <li>NF-e</li>
-            <li>NFC-e</li>
-            <li>Peripheral maintenance</li>
-            <li>POS support<span class="skill-note">, L1</span></li>
-            <li>Printer maintenance</li>
-            <li>Standard operating procedures (SOPs)</li>
-            <li>Technical documentation</li>
-            <li>Ticket escalation</li>
-            <li>User guidance</li>
-            <li>User manuals</li>
-          <li>Digital account configuration</li>
-          <li>Corrective maintenance</li>
-          <li>Preventive maintenance</li>
-          <li>Remote support</li>
-          <li>User training</li>
-        </ul>
-        </details>
-        <h4 class="skill-subheading">Web</h4>
-        <ul class="skill-list" role="list">
-          <li>Web accessibility</li>
-          <li>CSS</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>GitHub Actions</li>
-          <li>GitHub Pages</li>
-          <li>HTML</li>
-          <li>Multilingual websites</li>
-        </ul>
-        <h4 class="skill-subheading">Web servers</h4>
-        <ul class="skill-list" role="list">
-          <li>Apache HTTP Server</li>
-          <li>NGINX</li>
-        </ul>
-        <h4 class="skill-subheading">Development and hosting platforms</h4>
-        <ul class="skill-list" role="list">
-          <li>Amazon Web Services (AWS)</li>
-          <li>Firebase</li>
-          <li>Microsoft Azure</li>
-          <li>Supabase</li>
-          <li>Vercel</li>
-        </ul>
-        <h4 class="skill-subheading">Languages</h4>
-        <ul class="skill-list" role="list">
-          <li>English<span class="skill-note">, TOEIC Listening &amp; Reading 910</span></li>
-          <li>Brazilian Portuguese</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3 data-icon="users-round">Interpersonal skills <span lang="en">(Soft skills)</span></h3>
-        <h4 class="skill-subheading">Organization and development</h4>
-        <ul class="skill-list" role="list">
-          <li>Adaptability</li>
-          <li>Attention to detail</li>
-          <li>Analytical thinking</li>
-          <li>Autonomy</li>
-          <li>Problem solving</li>
-        </ul>
-        <h4 class="skill-subheading">Relationships</h4>
-        <ul class="skill-list" role="list">
-          <li>Communication</li>
-          <li>Understanding customer needs</li>
-          <li>Teamwork</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3 data-icon="wrench">Practical and operational skills</h3>
-        <h4 class="skill-subheading">Fieldwork and tools</h4>
-        <ul class="skill-list skill-anchors" role="list">
-          <li>Fiber optic fusion splicer</li>
-          <li>Multimeter</li>
-          <li>Power tools</li>
-          <li>Work at height</li>
-        </ul>
-        <details class="skill-group">
-          <summary class="skill-more" aria-label="Show more fieldwork and tools skills">[show more]</summary>
-          <ul class="skill-list" role="list">
-            <li>Fiber cleaver</li>
-            <li>Fusimech</li>
-            <li>Hand tools</li>
-            <li>Supply organization</li>
-            <li>Tool organization</li>
-          </ul>
-        </details>
-        <h4 class="skill-subheading">Driving</h4>
-        <ul class="skill-list" role="list">
-          <li>Car driving</li>
-          <li>Motorcycle riding</li>
-          <li>CNH AB</li>
-          <li>International Driving Permit (PID, Brazil)</li>
-        </ul>
-        <p>The CNH is the Brazilian driver’s license. Category AB covers cars and motorcycles. List of countries that accept the <a href="https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS" hreflang="pt-BR">CNH</a> and the <a href="https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&amp;mtdsg_no=XI-B-19&amp;chapter=11" hreflang="en">PID</a>.</p>
-      </div>
-      <details class="sfia-profile" aria-labelledby="sfia-title">
-        <summary class="sfia-summary">
-          <h3 id="sfia-title" data-icon="user-check">SFIA profile</h3>
-        </summary>
-        <div class="sfia-profile-body">
-        <p>Self-assessment of responsibility based on SFIA 9.</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">USUP</span> Incident management</p>
-            <p class="sfia-level">Level 3 · Apply</p>
-            <p class="sfia-evidence">I handle and diagnose L1/L2 incidents in ERP/POS systems and hospital environments, guide users, and escalate unresolved issues.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Network support</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I install and maintain FTTH networks and radio links using drop cables, SC/APC, ONUs/ONTs, and routers. I diagnose issues with an optical power meter, OTDR, and VFL.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Systems installation and removal</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I install, configure, and maintain workstations, peripherals, and assets in corporate and hospital environments.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Application support</p>
-            <p class="sfia-level">Level 3 · Apply</p>
-            <p class="sfia-evidence">I support ERP/POS systems, configure systems, diagnose issues remotely, and guide users on NF-e/NFC-e, Brazilian electronic invoices.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Infrastructure operations</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I assist with infrastructure monitoring and maintenance, record incidents, and carry out support routines.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programming/<wbr>software development</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I orchestrate the work of the AI agents that implement this portfolio in HTML and CSS. I review their changes. The project uses version control and automated publishing.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Change control</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I assess the impact of portfolio changes and review them. I record changes in commits to track the history and support reverts.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Levels 2 and 3. Evidence comes from the experience, projects, and courses described on this page.</p>
-        </div>
-      </details>
-
-      <!-- Print copy. Keep synchronized with .sfia-profile. -->
-      <section class="sfia-print" aria-hidden="true">
-        <h3 data-icon="user-check">SFIA profile</h3>
-        <p>Self-assessment of responsibility based on SFIA 9.</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">USUP</span> Incident management</p>
-            <p class="sfia-level">Level 3 · Apply</p>
-            <p class="sfia-evidence">I handle and diagnose L1/L2 incidents in ERP/POS systems and hospital environments, guide users, and escalate unresolved issues.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">NTAS</span> Network support</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I install and maintain FTTH networks and radio links using drop cables, SC/APC, ONUs/ONTs, and routers. I diagnose issues with an optical power meter, OTDR, and VFL.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">HSIN</span> Systems installation and removal</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I install, configure, and maintain workstations, peripherals, and assets in corporate and hospital environments.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ASUP</span> Application support</p>
-            <p class="sfia-level">Level 3 · Apply</p>
-            <p class="sfia-evidence">I support ERP/POS systems, configure systems, diagnose issues remotely, and guide users on NF-e/NFC-e, Brazilian electronic invoices.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">ITOP</span> Infrastructure operations</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I assist with infrastructure monitoring and maintenance, record incidents, and carry out support routines.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">PROG</span> Programming/<wbr>software development</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I orchestrate the work of the AI agents that implement this portfolio in HTML and CSS. I review their changes. The project uses version control and automated publishing.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">CHMG</span> Change control</p>
-            <p class="sfia-level">Level 2 · Assist</p>
-            <p class="sfia-evidence">I assess the impact of portfolio changes and review them. I record changes in commits to track the history and support reverts.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Levels 2 and 3.</p>
-      </section>
-
-      <details id="nice" class="nice-profile" aria-labelledby="nice-title">
-        <summary class="nice-summary"><h3 id="nice-title" data-icon="headset">NICE task mapping</h3></summary>
-        <p>Selected tasks associated with Technical Support (<code>IO-WRL-007</code>).</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T0237</span> Troubleshooting hardware and software</p>
-            <p class="sfia-evidence">At Lukos, I remotely diagnosed and resolved issues with the ERP system, networks, and customer devices.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1412</span> Technical training for customers</p>
-            <p class="sfia-evidence">At Lukos, I trained and guided customers in using the ERP and POS system.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuring software and peripherals</p>
-            <p class="sfia-evidence">I configured systems for Lukos customers and printers at Instituto Alpha.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Mapping based on the activities described in <a href="#experience">professional experience</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
-      </details>
-
-      <!-- Print copy of the NICE tasks. -->
-      <section class="nice-print" aria-hidden="true">
-        <h3 data-icon="headset">NICE task mapping</h3>
-        <p>Selected tasks associated with Technical Support (<code>IO-WRL-007</code>).</p>
-        <ul class="sfia-list" role="list">
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T0237</span> Troubleshooting hardware and software</p>
-            <p class="sfia-evidence">At Lukos, I remotely diagnosed and resolved issues with the ERP system, networks, and customer devices.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1412</span> Technical training for customers</p>
-            <p class="sfia-evidence">At Lukos, I trained and guided customers in using the ERP and POS system.</p>
-          </li>
-          <li class="sfia-item">
-            <p class="sfia-skill"><span class="sfia-code">T1567</span> Configuring software and peripherals</p>
-            <p class="sfia-evidence">I configured systems for Lukos customers and printers at Instituto Alpha.</p>
-          </li>
-        </ul>
-        <p class="sfia-note">Mapping based on the activities described in <a href="#experience">professional experience</a>. <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions" hreflang="en">NICE Framework Components v2.2.0</a>.</p>
-      </section>
-    </section>
-
-    <section id="education" class="wrap" tabindex="-1">
-      <h2 data-icon="graduation-cap">Education</h2>
-      <p class="meta">Institution: <a href="https://fatecfrancodarocha.cps.sp.gov.br/gestao-da-tecnologia-da-informacao/">Fatec Franco da Rocha – Giuliano Cecchettini</a></p>
-      <h3>Brazilian higher education technology program in Information Technology Management</h3>
-      <p>Start: <time datetime="2024-07">July 2024</time> · Expected completion: <time datetime="2027-07">July 2027</time></p>
-      <p class="meta"><a href="https://drive.google.com/file/d/1O5X9gsj7BQaJ470DdjVFDnc6zIYAIHAI/view">According to the Course Pedagogical Project (PPC)</a>.</p>
-      <p class="section-nav noprint"><a href="rede.html#professores">Faculty and academic support</a></p>
-      <details class="skill-group graduation-details">
-        <summary><h3>Planned degree content</h3></summary>
-      <h4 class="skill-subheading">Management and business</h4>
-      <ul class="skill-list" role="list">
-        <li>Solution evaluation</li>
-        <li>People management</li>
-        <li>Process management</li>
-        <li>IT project management</li>
-        <li>Financial management</li>
-        <li>Strategic planning</li>
-      </ul>
-      <h4 class="skill-subheading">Research and interpersonal skills</h4>
-      <ul class="skill-list" role="list">
-        <li>Communication</li>
-        <li>Negotiation</li>
-        <li>Conflict management</li>
-        <li>Critical thinking</li>
-        <li>Academic research</li>
-        <li>Problem solving</li>
-        <li>Teamwork</li>
-        <li>Systems thinking</li>
-      </ul>
-      <h4 class="skill-subheading">Technology and systems</h4>
-      <ul class="skill-list" role="list">
-        <li>Databases</li>
-        <li>Infrastructure diagnostics</li>
-        <li>Software engineering</li>
-        <li>Business intelligence</li>
-        <li>Web programming</li>
-        <li>Computer networks</li>
-        <li>Operating systems</li>
-      </ul>
-
-      </details>
-
-      <h3>Courses and certificates</h3>
-      <p>I took courses in JavaScript and Python and have hands-on programming practice. My knowledge of machine learning is introductory.</p>
-      <details class="course-details courses-screen">
-        <summary>View 18 courses and additional training programs</summary>
-        <div class="skill-category">
-          <h4 class="course-group">Technical skills <span lang="en">(Hard skills)</span></h4>
-          <h5 class="skill-subheading">Management and productivity</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
-              <p lang="pt-BR">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
-              <p>Course completion · 40 h · Completion: <time datetime="2026-11-13">13/11/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Microsoft Office Specialist Associate</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>SENAI preparatory course for the certification exam · 60 h · Completion: <time datetime="2026-07-25">25/07/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
-              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
-              <p>Introductory training · 2 h · Completion: <time datetime="2026-04-17">17/04/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2026-01-09">09/01/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Gestão Financeira</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2025-12-29">29/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
-              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
-              <p>Participation · 8 h · Completion: <time datetime="2025-12-20">20/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Excel Básico</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Course completion · 40 h · Completion: <time datetime="2025-09-02">02/09/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2025-03-18">18/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2025-01-19">19/01/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 12 h · Completion: <time datetime="2024-11-27">27/11/2024</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
-              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
-              <p>Participation · 40 h · Completion: <time datetime="2024-11-11">11/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Programming and data</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">JavaScript Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
-              <p>Course completion · Completion: <time datetime="2026-05-16">16/05/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Modelagem de Dados</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Course completion · 8 h · Completion: <time datetime="2025-11-25">25/11/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Python Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
-              <p>Course completion · Completion: <time datetime="2025-03-22">22/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
-              <p>Course completion · Completion: <time datetime="2024-11-05">05/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Networks</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Course completion · 48 h · Completion: <time datetime="2026-05-13">13/05/2026</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">IT support</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">Computer Hardware Basics</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
-              <p>Course completion · Completion: <time datetime="2025-02-18">18/02/2025</time></p>
-            </li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h4 class="course-group">Interpersonal skills <span lang="en">(Soft skills)</span></h4>
-          <h5 class="skill-subheading">Organization and development</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 2 h · Completion: <time datetime="2024-11-25">25/11/2024</time></p>
-            </li>
-          </ul>
-        </div>
-      </details>
-      <!-- Mantenha esta cópia igual aos cursos da seção recolhível. -->
-      <div class="courses-print">
-        <div class="skill-category">
-          <h4 class="course-group">Technical skills <span lang="en">(Hard skills)</span></h4>
-          <h5 class="skill-subheading">Management and productivity</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">SCRUM: Gerenciando Projetos de Software com Agilidade</h6>
-              <p lang="pt-BR">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</p>
-              <p>Course completion · 40 h · Completion: <time datetime="2026-11-13">13/11/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Microsoft Office Specialist Associate</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>SENAI preparatory course for the certification exam · 60 h · Completion: <time datetime="2026-07-25">25/07/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Formação White Belt Six Sigma</h6>
-              <p><a href="https://rlassociados.com.br/">RL&amp;Associados</a></p>
-              <p>Introductory training · 2 h · Completion: <time datetime="2026-04-17">17/04/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Como Controlar o Fluxo de Caixa</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2026-01-09">09/01/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Gestão Financeira</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2025-12-29">29/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Matemática Financeira: Regimes de Capitalização</h6>
-              <p><a href="https://educacao-executiva.fgv.br/">Fundação Getulio Vargas — FGV Online</a></p>
-              <p>Participation · 8 h · Completion: <time datetime="2025-12-20">20/12/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Excel Básico</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Course completion · 40 h · Completion: <time datetime="2025-09-02">02/09/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Introdução à Gestão de Projetos</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2025-03-18">18/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Inovação em Gestão de Projetos</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 10 h · Completion: <time datetime="2025-01-19">19/01/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Indicadores Estratégicos - Descomplica</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 12 h · Completion: <time datetime="2024-11-27">27/11/2024</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">19ª Edição da Escola de Inovadores (2024-2)</h6>
-              <p><a href="https://inova.cps.sp.gov.br/">INOVA CPS — Centro Paula Souza</a></p>
-              <p>Participation · 40 h · Completion: <time datetime="2024-11-11">11/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Programming and data</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">JavaScript Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://jsinstitute.org/">OpenEDG JavaScript Institute</a></p>
-              <p>Course completion · Completion: <time datetime="2026-05-16">16/05/2026</time></p>
-            </li>
-            <li>
-              <h6 lang="pt-BR">Modelagem de Dados</h6>
-              <p><a href="https://www.ev.org.br/">Fundação Bradesco — Escola Virtual</a></p>
-              <p>Course completion · 8 h · Completion: <time datetime="2025-11-25">25/11/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">Python Essentials 1</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a></p>
-              <p>Course completion · Completion: <time datetime="2025-03-22">22/03/2025</time></p>
-            </li>
-            <li>
-              <h6 lang="en">AI Fundamentals with IBM SkillsBuild</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a>, in collaboration with <a href="https://skillsbuild.org/">IBM SkillsBuild</a></p>
-              <p>Course completion · Completion: <time datetime="2024-11-05">05/11/2024</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">Networks</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Redes de Computadores - Implantação de Redes Locais</h6>
-              <p><a href="https://www.sp.senai.br/unidade/guarulhos">SENAI São Paulo — Escola Hermenegildo Campos de Almeida</a></p>
-              <p>Course completion · 48 h · Completion: <time datetime="2026-05-13">13/05/2026</time></p>
-            </li>
-          </ul>
-          <h5 class="skill-subheading">IT support</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="en">Computer Hardware Basics</h6>
-              <p><a href="https://www.netacad.com/">Cisco Networking Academy</a></p>
-              <p>Course completion · Completion: <time datetime="2025-02-18">18/02/2025</time></p>
-            </li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h4 class="course-group">Interpersonal skills <span lang="en">(Soft skills)</span></h4>
-          <h5 class="skill-subheading">Organization and development</h5>
-          <ul class="course-list">
-            <li>
-              <h6 lang="pt-BR">Planeje Suas Metas e Resultados</h6>
-              <p><a href="https://loja.sebrae.com.br/">Sebrae</a></p>
-              <p>Course completion · 2 h · Completion: <time datetime="2024-11-25">25/11/2024</time></p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <h3>English — <span lang="en">TOEIC Listening &amp; Reading</span></h3>
-      <p><a href="https://www.ets.org/toeic.html">ETS — Educational Testing Service</a>. Test administered under the auspices of <a href="https://www.cps.sp.gov.br/">Centro Paula Souza</a></p>
-      <p>Total: <strong>910 points</strong> · <span lang="en">Listening</span>: 450 · <span lang="en">Reading</span>: 460</p>
-      <p>Test: <time datetime="2025-02-26">26/02/2025</time> · Score valid until: <time datetime="2027-02-26">26/02/2027</time></p>
-      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
-    </section>
-
-    <section id="projects" class="wrap noprint">
-      <h2 data-icon="folder-code">Projects and research</h2>
-      <ul>
-        <li id="optigrow"><a href="projetos.html#optigrow">Optigrow</a></li>
-        <li id="upcoming-projects"><a href="projetos.html#upcoming-projects">SGCS</a></li>
-      </ul>
-      <p><a href="projetos.html">View all projects and research</a></p>
-    </section>
-
-    <section id="contact" class="wrap contact-section" tabindex="-1">
-      <h2 data-icon="at-sign">Contact</h2>
-      <ul class="contact-list" role="list">
-        <li><a href="mailto:beraldesnicolas@gmail.com">E-mail — beraldesnicolas@gmail.com</a></li>
-        <li><a href="https://www.linkedin.com/in/nicolas-t-a1ab74321/">LinkedIn — Nicolas Beraldes Tarifa</a></li>
-        <li><a href="https://github.com/nicolas-b-t">GitHub - nicolas-b-t</a></li>
-        <li><a href="https://lattes.cnpq.br/1293729943180703" hreflang="pt-BR">Lattes CV — Brazil’s national academic CV platform (CNPq)</a></li>
-      </ul>
-      <p class="contact-related"><a href="recomendacoes.html">Explore my selection</a></p>
-      <p class="preview-return noprint"><a href="#overview">Back to overview</a></p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p class="noprint"><a href="projetos.html">Projects and research</a> · <a href="galeria.html">Work gallery</a> · <a href="rede.html">Thanks to my network</a> · <a href="recomendacoes.html">My selection</a></p>
-      <p>© <span>2026</span> Nicolas Beraldes Tarifa. <span class="noprint">Static website, without trackers.</span></p>
-      <div class="footer-tools noprint">
-        <details class="style-switch">
-          <summary title="Experimental styles" aria-label="Experimental styles"><span aria-hidden="true">◇</span><span class="visually-hidden">Experimental styles</span></summary>
-          <fieldset>
-            <legend>Page style</legend>
-            <label for="style-padrao"><input type="radio" name="estilo-visual" value="padrao" id="style-padrao" checked> Default</label>
-            <label for="style-nato"><input type="radio" name="estilo-visual" value="nato" id="style-nato"> NATO</label>
-            <label for="style-warsaw"><input type="radio" name="estilo-visual" value="warsaw" id="style-warsaw"> Warsaw Pact</label>
-          </fieldset>
-        </details>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>

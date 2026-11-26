@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Gestão de portfólio e governança (experimental) — Nicolas Beraldes Tarifa</title>
+  <meta name="description" content="Visão experimental de gestão de portfólio, governança leve e priorização Valor × Complexidade das pendências técnicas do site.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20261125-prod">
+  <link rel="stylesheet" href="../assets/css/planejamento.css">
+</head>
+<body class="preview-page planning">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Portfólio</a>
+      <nav class="nav" aria-label="Páginas experimentais">
+        <a href="experimentais.html">Menu experimental</a>
+        <a href="painel.html">Painel</a>
+        <a href="projetos-experimental.html">Projetos</a>
+        <a href="portfolio-experimental.html" aria-current="page">Portfólio e governança</a>
+        <a href="index.html">Página principal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <header class="wrap hero planning-hero">
+      <p class="meta">Prévia experimental · Revisão em <time datetime="2026-11-26">26 de novembro de 2026</time></p>
+      <h1>Gestão de portfólio e governança</h1>
+      <p class="lead">Adaptação leve (<span lang="en">tailoring</span>) de conceitos de gestão de portfólio de projetos aplicada à evolução deste site e das iniciativas associadas.</p>
+      <nav class="nav" aria-label="Nesta página">
+        <a href="#governanca">Enquadramento e governança</a>
+        <a href="#artefatos">Mapa de artefatos</a>
+        <a href="#priorizacao">Priorização Valor × Complexidade</a>
+      </nav>
+    </header>
+
+    <section class="wrap planning-section" id="governanca">
+      <h2>Enquadramento e governança</h2>
+      <p>Enquanto a <strong>gestão de projetos</strong> concentra-se em entregar cada iniciativa com qualidade, prazo e escopo definidos (<em>fazer do jeito certo</em>), a <strong>gestão de portfólio</strong> concentra-se em selecionar, priorizar e balancear o conjunto de iniciativas frente aos objetivos e à capacidade disponível (<em>fazer as coisas certas</em>).</p>
+      <dl class="project-summary">
+        <dt>Escopo do portfólio</dt>
+        <dd>Reúne este site de currículo e portfólio, iniciativas de produto em parceria (<a href="projetos.html#optigrow">Optigrow</a>), pesquisa e protótipo acadêmico (<a href="projetos.html#proximos-projetos">SGCS</a>) e estudos técnicos contínuos.</dd>
+        <dt>Dono e decisor</dt>
+        <dd>Responsável pelo portfólio: aprova escopo, prioriza pendências, valida fatos públicos e autoriza a promoção de prévias e publicações.</dd>
+        <dt>Apoio operacional</dt>
+        <dd>Agentes de IA atuam sob aprovação em pesquisa, implementação estática, revisão de acessibilidade, desempenho, paridade bilíngue e documentação.</dd>
+        <dt>Limites do <span lang="en">tailoring</span></dt>
+        <dd>Adoção proporcional a um portfólio individual: não utiliza métricas financeiras artificiais, não cria comitês formais e não declara certificação ou conformidade integral com frameworks institucionais.</dd>
+      </dl>
+    </section>
+
+    <section class="wrap planning-section" id="artefatos">
+      <h2>Mapa de artefatos do portfólio</h2>
+      <p>Correspondência entre os artefatos usuais de gestão de portfólio e os documentos já mantidos neste repositório.</p>
+      <div class="grid">
+        <article class="card">
+          <p class="meta">Inventário</p>
+          <h3>Repositório do portfólio</h3>
+          <p>Consolida os projetos pessoais, colaborativos, acadêmicos e publicações com links verificados.</p>
+          <p class="task-source">Artefato vigente: <a href="projetos.html">Projetos e pesquisas</a>.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Governança</p>
+          <h3>Registro de decisões</h3>
+          <p>Documenta escolhas arquiteturais, substituições e critérios de confirmação em formato enxuto de ADR.</p>
+          <p class="task-source">Artefato vigente: <a href="https://github.com/nicolas-b-t/portfolio/blob/main/docs/decisoes.md">docs/decisoes.md</a>.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Controle e priorização</p>
+          <h3>Registro de pendências</h3>
+          <p>Lista tarefas técnicas vigentes, lacunas de comprovação de competências e encerramentos.</p>
+          <p class="task-source">Artefato vigente: <a href="documentacao/pendencias.html">Documentação · Pendências</a>.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Acompanhamento</p>
+          <h3>Roadmap e evolução</h3>
+          <p>Registra marcos concluídos, entregas promovidas às páginas oficiais e próximos passos.</p>
+          <p class="task-source">Artefatos vigentes: <a href="documentacao/roadmap.html">Roadmap</a> e <a href="documentacao/evolucao.html">Evolução</a>.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Partes interessadas</p>
+          <h3>Análise de personas</h3>
+          <p>Mapeia tarefas de recrutadores, avaliadores técnicos e leitores acadêmicos para orientar valor.</p>
+          <p class="task-source">Artefato vigente: <a href="documentacao/personas.html">Personas e jornadas</a>.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Restrições técnicas</p>
+          <h3>Arquitetura e requisitos</h3>
+          <p>Define limites de escopo (HTML/CSS puro, sem JavaScript, publicação restrita a <code>static/</code>).</p>
+          <p class="task-source">Artefatos vigentes: <a href="documentacao/arquitetura.html">Arquitetura</a> e <a href="documentacao/requisitos.html">Requisitos</a>.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap planning-section" id="priorizacao">
+      <h2>Priorização Valor × Complexidade</h2>
+      <p>Classificação experimental das nove pendências técnicas vigentes (<a href="documentacao/pendencias.html#tecnicas">P-01 a P-09</a>) para apoiar a ordem de execução sem alterar a numeração oficial.</p>
+
+      <section class="task-group">
+        <h3>Vitórias rápidas — Alto valor · Baixa complexidade</h3>
+        <div class="grid">
+          <article class="card">
+            <p class="meta">P-01 · Alto valor · Baixa complexidade</p>
+            <h4><a href="documentacao/pendencias.html#revisao-ats">Revisar as frases de ATS em inglês</a></h4>
+            <p>Impacto direto na clareza para recrutamento internacional com esforço editorial concentrado.</p>
+          </article>
+          <article class="card">
+            <p class="meta">P-02 · Alto valor · Baixa complexidade</p>
+            <h4><a href="documentacao/pendencias.html#licenca-icones">Confirmar a licença dos ícones</a></h4>
+            <p>Elimina pendência de conformidade de licença (Lucide ISC/MIT) com verificação rápida.</p>
+          </article>
+          <article class="card">
+            <p class="meta">P-09 · Alto valor · Baixa complexidade</p>
+            <h4><a href="documentacao/pendencias.html#espacamento-controles-idioma">Conferir o espaçamento dos controles de idioma</a></h4>
+            <p>Fecha o achado A-03 de auditoria visual nas páginas <code>404.html</code> e <code>wip.html</code>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-group">
+        <h3>Prioridades estratégicas — Alto valor · Média/Alta complexidade</h3>
+        <div class="grid">
+          <article class="card">
+            <p class="meta">P-04 · Alto valor · Média/Alta complexidade</p>
+            <h4><a href="documentacao/pendencias.html#ensaios-acessibilidade">Testar zoom, tema escuro, impressão e leitor de tela</a></h4>
+            <p>Garante acessibilidade real e encerra o critério TEST-01 em dispositivos e leitores de tela.</p>
+          </article>
+          <article class="card">
+            <p class="meta">P-05 · Alto valor · Média complexidade</p>
+            <h4><a href="documentacao/pendencias.html#validacao-html">Validar HTML e hierarquia de títulos</a></h4>
+            <p>Consolida a conformidade com o HTML Living Standard em todas as páginas publicadas.</p>
+          </article>
+          <article class="card">
+            <p class="meta">P-06 · Alto valor · Média complexidade</p>
+            <h4><a href="documentacao/pendencias.html#ensaio-navegador-celular">Testar o site em navegador atual e em celular</a></h4>
+            <p>Valida comportamento em aparelho físico e registra evidência de largura e versão.</p>
+          </article>
+          <article class="card">
+            <p class="meta">P-07 · Alto valor · Alta complexidade</p>
+            <h4><a href="documentacao/pendencias.html#verificacoes-automatizadas">Automatizar as verificações do site</a></h4>
+            <p>Previne regressões de links, HTML e paridade bilíngue a cada alteração publicada no GitHub Actions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-group">
+        <h3>Manutenção tática — Valor médio · Baixa complexidade</h3>
+        <div class="grid">
+          <article class="card">
+            <p class="meta">P-03 · Valor médio · Baixa complexidade</p>
+            <h4><a href="documentacao/pendencias.html#copia-externa">Manter uma cópia externa da base técnica</a></h4>
+            <p>Aumenta resiliência do acervo arquivado sem depender de alterações no código publicado.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-group">
+        <h3>Horizonte futuro — Médio/Alto valor · Alta complexidade</h3>
+        <div class="grid">
+          <article class="card">
+            <p class="meta">P-08 · Médio/Alto valor · Alta complexidade</p>
+            <h4><a href="documentacao/pendencias.html#template-reutilizavel">Transformar o site em template reutilizável</a></h4>
+            <p>Requer estabilizar a base bilíngue, remover dados pessoais em cópia de exemplo e documentar adaptação.</p>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="noprint"><a href="experimentais.html">Menu de páginas experimentais</a> · <a href="index.html">Página principal</a> · <a href="documentacao/index.html">Documentação</a> · <a href="documentacao/pendencias.html">Pendências oficiais</a></p>
+      <p>&copy; 2026 Nicolas Beraldes Tarifa.</p>
+    </div>
+  </footer>
+</body>
+</html>

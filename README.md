@@ -15,7 +15,7 @@ python3 -m http.server 8001 --bind 127.0.0.1 --directory static
 
 Abra `http://127.0.0.1:8001/`.
 As páginas ativas ficam em `/pt-BR/` e `/en/`.
-Cada variante ativa tem currículo e portfólio, galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`). Em pt-BR, `projetos.html` separa os projetos.
+Cada variante ativa tem currículo e portfólio (`index.html`), projetos e pesquisas (`projetos.html`), galeria, agradecimentos e uma página de recomendações (`recomendacoes.html`).
 As pastas `/pt-PT/`, `/es-419/` e `/es-ES/` redirecionam para `/wip.html` até a conclusão da base e da tradução.
 Use outra porta se necessário. Encerre o servidor com Ctrl+C.
 
@@ -45,7 +45,7 @@ A disponibilidade depende do GitHub Pages e não há SLA.
 Depois do push, confira a página publicada, a troca de idioma e uma URL inexistente.
 
 Use pt-BR como base factual e sincronize o conteúdo comum nas variantes ativas.
-Todas as páginas compartilham `static/assets/css/styles.css`.
+Todas as páginas compartilham `static/assets/css/styles.css` (com `planejamento.css` como folha complementar nas páginas de Pendências e Roadmap em `static/pt-BR/documentacao/`).
 A documentação e os currículos em `docs/` acompanham o repositório, fora do site publicado.
 A base técnica foi arquivada fora do projeto; o catálogo fica em `docs/referencias/repertorio-tecnico-site/`. Os dados pessoais ficam em `dados-pessoais/`, ignorados pelo Git.
 

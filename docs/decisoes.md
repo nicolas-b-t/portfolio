@@ -17,15 +17,16 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0009 | Competências com âncoras e detalhe expansível | Aceita |
 | 0010 | Home de `pt-BR` em painel de atalhos | Aceita |
 | 0011 | Comparação da home de `pt-BR` em duas versões | superseded |
-| 0012 | Painel como home oficial somente em `pt-BR` | Aceita |
+| 0012 *(duplicado histórico)* | Painel como home oficial somente em `pt-BR` | Aceita |
 | 0012 | Gestão de projetos como subcategoria própria | Aceita |
 | 0013 | Finanças e ferramentas Microsoft como subcategorias | Aceita |
 | 0014 | Páginas experimentais de Projetos e Agradecimentos | Aceita |
 | 0015 | Projetos e publicações nas duas variantes ativas | Aceita |
 | 0016 | Arquivo de currículos legados e nomeação de novas edições | Aceita |
-| 0017 | Nova rodada de prévias da home e de Projetos em `pt-BR` | Em avaliação |
-| 0018 | Guia público de documentação na área experimental | Aceita |
+| 0017 | Nova rodada de prévias da home e de Projetos (promovida em `pt-BR` e `en`) | Aceita |
+| 0018 | Guia público de documentação do portfólio | Aceita |
 | 0019 | Correspondência de tarefas NICE abaixo do SFIA | Aceita |
+| 0020 | Menu centralizado de páginas experimentais e visão experimental de portfólio | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -129,7 +130,7 @@ Esta decisão foi substituída pela decisão 0015.
 
 ### Extensão da decisão 0012 — sincronização de `en`
 
-Em pedido posterior, o responsável autorizou atualizar a home em inglês. O painel, a ordem das seções, os conteúdos previstos colapsados, o perfil SFIA e as competências seguem a base `pt-BR`, com redação en-US. As fichas completas dos projetos permanecem em `en/index.html`, e os três destaques apontam para suas âncoras. As regras visuais são compartilhadas no CSS comum; o escopo adicional é somente a home inglesa. A restrição anterior de manter a estrutura de `en` deixa de valer.
+Em pedido posterior, o responsável autorizou atualizar a home em inglês. O painel, a ordem das seções, os conteúdos previstos colapsados, o perfil SFIA e as competências seguem a base `pt-BR`, com redação en-US. *(Nota: o trecho anterior que mantinha fichas completas em `en/index.html` foi superado pela decisão 0015 e pela promoção da decisão 0017, com `en/projetos.html` e dois cartões no painel.)* As regras visuais são compartilhadas no CSS comum. A restrição anterior de manter a estrutura de `en` deixa de valer.
 
 ## 0014 — Páginas experimentais de Projetos e Agradecimentos
 
@@ -168,13 +169,13 @@ Em 24/11/2026, o responsável aprovou a publicação de duas prévias para avali
 
 Os dois endereços usam `noindex`, acesso direto e links para comparar com as páginas oficiais. O CSS comum restringe os ajustes às prévias. A promoção das mudanças depende da avaliação do responsável.
 
-Após avaliar a prévia de Projetos, o responsável substituiu o índice por dois grupos recolhíveis na mesma página. **Ver meus projetos** abre as fichas de projetos. **Ver minhas pesquisas** abre a seção de pesquisas e publicações. Os grupos começam fechados e as âncoras levam às fichas e publicações correspondentes.
+Após avaliar a prévia de Projetos, o responsável substituiu o índice por dois grupos recolhíveis na mesma página (**Projetos** e **Publicações**), iniciando **abertos** (`<details open>`) para acesso direto às fichas e publicações.
 
-O atalho ⇄ no rodapé da página inicial de pt-BR abre o painel experimental. O atalho correspondente em Projetos abre a prévia de Projetos e Pesquisas.
+Em 25/11/2026, o responsável aprovou a promoção das prévias para as páginas principais (`pt-BR/index.html` e `pt-BR/projetos.html`) e o alinhamento técnico e de conteúdo em `en/index.html` e `en/projetos.html` (incluindo a seção **Princípios de desenvolvimento** / **Development principles**). As prévias (`painel.html` e `projetos-experimental.html`) permanecem acessíveis com `noindex` pelo atalho `⇄` no rodapé de `pt-BR`.
 
-## 0018 — Guia público de documentação na área experimental
+## 0018 — Guia público de documentação do portfólio
 
-Em 24/11/2026, o responsável autorizou a publicação de uma seleção da documentação técnica. O [guia experimental](../static/pt-BR/documentacao/index.html) apresenta versões públicas de Requisitos, Personas, Arquitetura e Evolução. Os links para o guia ficam no painel e na página de Projetos e Pesquisas experimentais. As páginas do guia usam `noindex` e o CSS comum do site.
+Em 24/11/2026, o responsável autorizou a publicação de uma seleção da documentação técnica. O [guia público](../static/pt-BR/documentacao/index.html) apresenta versões de Requisitos, Personas, Arquitetura e Evolução. Com a promoção da decisão 0017 (25/11/2026), o link para o guia foi movido do destaque inicial para o card "Este portfólio" / "This portfolio" em `pt-BR/projetos.html` e `en/projetos.html` (além de `projetos-experimental.html`), removendo-o do destaque inicial de `painel.html`. As páginas do guia usam `noindex`, `styles.css` e `planejamento.css` (em Pendências e Roadmap).
 
 Ao atualizar o guia, revise a versão pública de cada documento e confira seus links. O workflow publica os arquivos revisados em `static/`.
 
@@ -183,3 +184,11 @@ As páginas [Pendências](../static/pt-BR/documentacao/pendencias.html) e [Roadm
 ## 0019 — Correspondência de tarefas NICE abaixo do SFIA
 
 Em 24/11/2026, o responsável aprovou um bloco recolhível abaixo do SFIA nas duas homes ativas e no painel experimental. O bloco relaciona as tarefas `T0237`, `T1412` e `T1567` de Technical Support (`IO-WRL-007`) às atividades profissionais já descritas. A cópia estruturada, a impressão e a lista de consulta acompanham as fichas visíveis. [Catálogo NICE](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions)
+
+## 0020 — Menu centralizado de páginas experimentais e visão experimental de portfólio
+
+**Contexto:** após a promoção da decisão 0017, as prévias (`painel.html` e `projetos-experimental.html`) continuaram acessíveis, e o responsável aprovou testar uma visão leve de gestão de portfólio e priorização (Valor × Complexidade) sem alterar a documentação oficial consolidada.
+**Decisão:** criar o menu centralizado `static/pt-BR/experimentais.html` (com `noindex`) e redirecionar o botão `⇄` no rodapé de `static/pt-BR/index.html` para esse menu. Criar `static/pt-BR/portfolio-experimental.html` (com `noindex`) reunindo o enquadramento de governança leve (*tailoring*), o mapa de artefatos do site e a classificação Valor × Complexidade das pendências vigentes (`P-01`–`P-09`, vinculadas às âncoras de `documentacao/pendencias.html`). Adicionar link de retorno ao menu experimental nos rodapés de `painel.html` e `projetos-experimental.html`.
+**Procedência e limites:** a estrutura conceitual decorre de consulta local em modo somente leitura a referências de gestão de portfólio (PM² Portfolio Management Guide v1.5 e Guia Referencial para Gerenciamento de Projetos e Portfólios), sem copiar arquivos privados para este repositório e sem declarar certificação ou conformidade integral com frameworks institucionais.
+**Consequências:** todas as prévias passam a ter um ponto único de entrada a partir da home `pt-BR`; as páginas oficiais de documentação permanecem inalteradas até eventual promoção; nenhuma alteração de CSS ou JavaScript é necessária.
+**Confirmação:** verificar navegação `index.html` → `experimentais.html` → `painel.html` / `projetos-experimental.html` / `portfolio-experimental.html` e retorno, validar âncoras `P-01`–`P-09`, confirmar `noindex` e ausência de `<script>`/`<form>`/`<iframe>`, e executar `git diff --check`.
