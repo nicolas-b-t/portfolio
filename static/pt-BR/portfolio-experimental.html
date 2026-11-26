@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Gestão de portfólio e governança (experimental) — Nicolas Beraldes Tarifa</title>
-  <meta name="description" content="Visão experimental de gestão de portfólio, governança leve e priorização Valor × Complexidade das pendências técnicas do site.">
+  <title>Gestão de portfólio e documentação técnica (experimental) — Nicolas Beraldes Tarifa</title>
+  <meta name="description" content="Página experimental unificada com gestão de portfólio, governança leve, documentação técnica do site e priorização Valor × Complexidade.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20261125-prod">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20261126-prod">
   <link rel="stylesheet" href="../assets/css/planejamento.css">
 </head>
 <body class="preview-page planning">
@@ -17,9 +17,8 @@
       <a class="brand" href="index.html">Portfólio</a>
       <nav class="nav" aria-label="Páginas experimentais">
         <a href="experimentais.html">Menu experimental</a>
-        <a href="painel.html">Painel</a>
-        <a href="projetos-experimental.html">Projetos</a>
-        <a href="portfolio-experimental.html" aria-current="page">Portfólio e governança</a>
+        <a href="portfolio-experimental.html" aria-current="page">Portfólio e documentação</a>
+        <a href="carreira-experimental.html">Plano de carreira</a>
         <a href="index.html">Página principal</a>
       </nav>
     </div>
@@ -28,10 +27,11 @@
   <main id="conteudo" tabindex="-1">
     <header class="wrap hero planning-hero">
       <p class="meta">Prévia experimental · Revisão em <time datetime="2026-11-26">26 de novembro de 2026</time></p>
-      <h1>Gestão de portfólio e governança</h1>
-      <p class="lead">Adaptação leve (<span lang="en">tailoring</span>) de conceitos de gestão de portfólio de projetos aplicada à evolução deste site e das iniciativas associadas.</p>
+      <h1>Gestão de portfólio e documentação técnica</h1>
+      <p class="lead">Unifica a visão leve de gestão de portfólio (<span lang="en">tailoring</span>), a documentação técnica do site e a priorização das pendências vigentes em um único ponto experimental.</p>
       <nav class="nav" aria-label="Nesta página">
         <a href="#governanca">Enquadramento e governança</a>
+        <a href="#documentacao">Documentação técnica</a>
         <a href="#artefatos">Mapa de artefatos</a>
         <a href="#priorizacao">Priorização Valor × Complexidade</a>
       </nav>
@@ -52,9 +52,40 @@
       </dl>
     </section>
 
+    <section class="wrap planning-section" id="documentacao">
+      <h2>Documentação técnica do portfólio</h2>
+      <p>Documentos técnicos mantidos em ambiente experimental (<code>noindex</code>) para registrar requisitos, jornadas, arquitetura, histórico de evolução, pendências e roadmap.</p>
+      <div class="grid">
+        <article class="card">
+          <h3 data-icon="list-checks"><a href="documentacao/requisitos.html">Requisitos</a></h3>
+          <p>Funcionalidades, acessibilidade, desempenho e critérios de verificação.</p>
+        </article>
+        <article class="card">
+          <h3 data-icon="users"><a href="documentacao/personas.html">Personas e jornadas</a></h3>
+          <p>Tarefas de recrutamento, avaliação técnica e consulta acadêmica.</p>
+        </article>
+        <article class="card">
+          <h3 data-icon="network"><a href="documentacao/arquitetura.html">Arquitetura</a></h3>
+          <p>Estrutura das páginas e publicação dos arquivos estáticos.</p>
+        </article>
+        <article class="card">
+          <h3 data-icon="trending-up"><a href="documentacao/evolucao.html">Evolução</a></h3>
+          <p>Entregas promovidas às páginas principais e histórico de rodadas de revisão.</p>
+        </article>
+        <article class="card">
+          <h3 data-icon="wrench"><a href="documentacao/pendencias.html">Pendências</a></h3>
+          <p>Tarefas vigentes, itens resolvidos e habilidades com comprovação pendente.</p>
+        </article>
+        <article class="card">
+          <h3 data-icon="book-open"><a href="documentacao/roadmap.html">Roadmap</a></h3>
+          <p>Linha do tempo dos commits e próximos passos do projeto.</p>
+        </article>
+      </div>
+    </section>
+
     <section class="wrap planning-section" id="artefatos">
       <h2>Mapa de artefatos do portfólio</h2>
-      <p>Correspondência entre os artefatos usuais de gestão de portfólio e os documentos já mantidos neste repositório.</p>
+      <p>Correspondência entre os artefatos usuais de gestão de portfólio e os documentos mantidos neste repositório.</p>
       <div class="grid">
         <article class="card">
           <p class="meta">Inventário</p>
@@ -72,7 +103,7 @@
           <p class="meta">Controle e priorização</p>
           <h3>Registro de pendências</h3>
           <p>Lista tarefas técnicas vigentes, lacunas de comprovação de competências e encerramentos.</p>
-          <p class="task-source">Artefato vigente: <a href="documentacao/pendencias.html">Documentação · Pendências</a>.</p>
+          <p class="task-source">Artefato vigente: <a href="documentacao/pendencias.html">Pendências</a>.</p>
         </article>
         <article class="card">
           <p class="meta">Acompanhamento</p>
@@ -172,7 +203,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p class="noprint"><a href="experimentais.html">Menu de páginas experimentais</a> · <a href="index.html">Página principal</a> · <a href="documentacao/index.html">Documentação</a> · <a href="documentacao/pendencias.html">Pendências oficiais</a></p>
+      <p class="noprint"><a href="experimentais.html">Menu experimental</a> · <a href="carreira-experimental.html">Plano de carreira</a> · <a href="index.html">Página principal</a></p>
       <p>&copy; 2026 Nicolas Beraldes Tarifa.</p>
     </div>
   </footer>

@@ -27,6 +27,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0018 | Guia público de documentação do portfólio | Aceita |
 | 0019 | Correspondência de tarefas NICE abaixo do SFIA | Aceita |
 | 0020 | Menu centralizado de páginas experimentais e visão experimental de portfólio | Aceita |
+| 0021 | Unificação de documentação técnica ao portfólio experimental, criação do plano de carreira experimental e aposentadoria das prévias promovidas | Aceita |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -192,3 +193,10 @@ Em 24/11/2026, o responsável aprovou um bloco recolhível abaixo do SFIA nas du
 **Procedência e limites:** a estrutura conceitual decorre de consulta local em modo somente leitura a referências de gestão de portfólio (PM² Portfolio Management Guide v1.5 e Guia Referencial para Gerenciamento de Projetos e Portfólios), sem copiar arquivos privados para este repositório e sem declarar certificação ou conformidade integral com frameworks institucionais.
 **Consequências:** todas as prévias passam a ter um ponto único de entrada a partir da home `pt-BR`; as páginas oficiais de documentação permanecem inalteradas até eventual promoção; nenhuma alteração de CSS ou JavaScript é necessária.
 **Confirmação:** verificar navegação `index.html` → `experimentais.html` → `painel.html` / `projetos-experimental.html` / `portfolio-experimental.html` e retorno, validar âncoras `P-01`–`P-09`, confirmar `noindex` e ausência de `<script>`/`<form>`/`<iframe>`, e executar `git diff --check`.
+
+## 0021 — Unificação de documentação técnica ao portfólio experimental, plano de carreira experimental e aposentadoria das prévias promovidas
+
+**Contexto:** as prévias `painel.html` e `projetos-experimental.html` já haviam sido promovidas às páginas principais (`pt-BR/index.html` e `pt-BR/projetos.html`) e o responsável solicitou manter a documentação técnica unificada à gestão de portfólio apenas em ambiente experimental, além de criar uma página experimental de plano de carreira.
+**Decisão:** converter `static/pt-BR/painel.html` e `static/pt-BR/projetos-experimental.html` em redirecionamentos estáticos (`meta refresh` + `canonical` + `noindex`) para `index.html` e `projetos.html`, removendo o atalho `⇄` do rodapé de `pt-BR/projetos.html`. Unificar o índice da documentação técnica dentro de `static/pt-BR/portfolio-experimental.html`, converter `static/pt-BR/documentacao/index.html` em redirecionamento para `../portfolio-experimental.html`, atualizar o menu das seis subpáginas de `documentacao/` e remover o link público da documentação nos cards de `pt-BR/projetos.html` e `en/projetos.html`. Criar `static/pt-BR/carreira-experimental.html` (com `noindex`) baseado nos dados verificados do portfólio e atualizar `static/pt-BR/experimentais.html` para listar apenas as duas prévias ativas (`portfolio-experimental.html` e `carreira-experimental.html`).
+**Consequências:** as páginas principais ficam livres de links para documentação experimental e prévias antigas; endereços antigos não quebram graças aos redirecionamentos estáticos; o menu experimental concentra apenas iniciativas em evolução ativa.
+**Confirmação:** verificar redirecionamentos, links e âncoras em todas as páginas alteradas, ausência de `<script>`/`<form>`/`<iframe>`, `noindex` nas páginas experimentais e `git diff --check`.
