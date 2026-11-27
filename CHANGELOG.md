@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-27 | Simplifica a redação em pt-BR, esclarece as evidências do SFIA 9 e resume o contexto legislativo e os requisitos do SGCS. Sincroniza a impressão, os resumos estruturados e a lista de consulta. | Este commit. |
 | 2026-11-25 | Promove as páginas experimentais (`painel.html` e `projetos-experimental.html`) como páginas principais (`pt-BR/index.html` e `pt-BR/projetos.html`) preservando acesso às prévias, e realiza o alinhamento técnico e de conteúdo com `en/index.html` e `en/projetos.html` (incluindo `Princípios de desenvolvimento` / `Development principles`, `Projetos e pesquisas` / `Projects and research`, `preload` e `content-visibility`). | [evolução](static/pt-BR/documentacao/evolucao.html#em-avaliacao); [painel](static/pt-BR/index.html); [projetos](static/pt-BR/projetos.html). |
 | 2026-11-25 | Corrige foco visível de skip-link, contraste no modo escuro, borda do cartão e metadados (`canonical`, `prefetch`, `hreflang`) nos redirecionamentos experimentais em pt-BR e en, e registra a rodada na página de evolução. | Revisão via `diff-security-auditor` + `review-diff` + `sec-scanner-lite`; [evolução](static/pt-BR/documentacao/evolucao.html#em-avaliacao). |
 | 2026-11-24 | Aplica otimizações de acessibilidade, desempenho e paridade de idiomas nas páginas experimentais em pt-BR e en. | Auditoria por subagentes especializados; [painel experimental](static/pt-BR/painel.html). |

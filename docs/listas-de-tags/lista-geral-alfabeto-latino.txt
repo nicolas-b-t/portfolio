@@ -173,6 +173,8 @@ Programação e dados
 • Modelos de dados
 • Python
 
+Tenho conhecimento introdutório em aprendizado de máquina.
+
 Desenvolvimento com IA
 • OpenAI ChatGPT
 • ChatGPT
@@ -414,13 +416,12 @@ Campo e ferramentas
 Condução
 • Condução de carros
 • Condução de motos
-• CNH AB
+• CNH AB (carros e motos)
 • Carteira Nacional de Habilitação (CNH)
 • CNH Categoria A
 • CNH Categoria B
 • Driver's license
 • Permissão Internacional para Dirigir (PID)
-A CNH é a licença para dirigir brasileira. A categoria AB contempla carros e motos. Lista de países que aceitam a CNH: https://www.detran.pr.gov.br/Pagina/PAISES-SIGNATARIOS. Lista de países que aceitam a PID: https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11.
 
 NICE — Correspondência de tarefas
 Tarefas selecionadas do papel Technical Support (IO-WRL-007).
@@ -445,7 +446,7 @@ RealFort Sistemas
 Período: 28 de agosto de 2026 – 28 de setembro de 2026
 Local: São Paulo, SP, Brasil
 • Cargo declarado: Auxiliar de instalação de fibra óptica
-• Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Realizei emendas por conectorização. Realizei emendas por fusão como aprendiz. Trabalhei em redes aéreas em locais comerciais e residenciais.
+• Instalação e manutenção de redes FTTH e conexões a rádio. Lancei cabos drop e realizei conectorização SC/APC. Fiz emendas com conectores e, como aprendiz, também fiz emendas por fusão. Trabalhei em redes aéreas em locais comerciais e residenciais.
 • Montei conectores RJ45. Instalei e configurei ONU, ONT e roteadores, com PPPoE, Wi-Fi e redes mesh.
 • Realizei diagnósticos por meio de medições com power meter e OTDR e verificações com VFL. Identifiquei e resolvi problemas de rede.
 
@@ -478,15 +479,13 @@ Local: Mairiporã, SP, Brasil
 • Cargo declarado: Assistente de E-commerce
 • Cadastrei e atualizei produtos e gerenciei anúncios em plataformas de comércio eletrônico. Produzi imagens e organizei o catálogo de produtos e componentes eletrônicos.
 • Prospectei leads e prestei atendimento comercial a clientes B2C e B2B. Elaborei orçamentos e realizei vendas diretas por telefone e canais digitais.
-• Acompanhei pedidos e realizei conferência pré-expedição com o ERP Bling. Conduzi tratativas com o Mercado Livre e negociei proposta para regularização de pendências.
+• Acompanhei pedidos e usei o ERP Bling para conferi-los antes do envio. Negociei com o Mercado Livre uma proposta para regularizar pendências.
 
 Formação acadêmica
 • Curso superior de tecnologia em Gestão da Tecnologia da Informação — Fatec Franco da Rocha – Giuliano Cecchettini (Início: julho de 2024 · Conclusão prevista: julho de 2027)
 
-Informações adicionais
-Conforme o projeto pedagógico do curso (PPC).
-
 Conteúdos previstos da graduação
+Projeto pedagógico do curso (PPC)
 
 Gestão e negócios
 • Avaliação de soluções
@@ -534,11 +533,11 @@ Formação introdutória · 2 h · Conclusão: 17/04/2026
 
 Como Controlar o Fluxo de Caixa
 Sebrae
-Conclusão de curso · 10 h · Conclusão: 09/01/2026
+10 h · Conclusão: 09/01/2026
 
 Gestão Financeira
 Sebrae
-Conclusão de curso · 10 h · Conclusão: 29/12/2025
+10 h · Conclusão: 29/12/2025
 
 Introdução à Matemática Financeira: Regimes de Capitalização
 Fundação Getulio Vargas — FGV Online
@@ -546,19 +545,19 @@ Participação · 8 h · Conclusão: 20/12/2025
 
 Excel Básico
 SENAI São Paulo — Escola Hermenegildo Campos de Almeida
-Conclusão de curso · 40 h · Conclusão: 02/09/2025
+40 h · Conclusão: 02/09/2025
 
 Introdução à Gestão de Projetos
 Fundação Bradesco — Escola Virtual
-Conclusão de curso · 10 h · Conclusão: 18/03/2025
+10 h · Conclusão: 18/03/2025
 
 Inovação em Gestão de Projetos
 Sebrae
-Conclusão de curso · 10 h · Conclusão: 19/01/2025
+10 h · Conclusão: 19/01/2025
 
 Indicadores Estratégicos - Descomplica
 Sebrae
-Conclusão de curso · 12 h · Conclusão: 27/11/2024
+12 h · Conclusão: 27/11/2024
 
 19ª Edição da Escola de Inovadores (2024-2)
 INOVA CPS — Centro Paula Souza
@@ -568,31 +567,31 @@ Programação e dados
 
 JavaScript Essentials 1
 Cisco Networking Academy, em colaboração com OpenEDG JavaScript Institute
-Conclusão de curso · 40 h · Conclusão: 16/05/2026
+40 h · Conclusão: 16/05/2026
 
 Modelagem de Dados
 Fundação Bradesco — Escola Virtual
-Conclusão de curso · 8 h · Conclusão: 25/11/2025
+8 h · Conclusão: 25/11/2025
 
 Python Essentials 1
 Cisco Networking Academy, em colaboração com OpenEDG Python Institute
-Conclusão de curso · 30 h · Conclusão: 22/03/2025
+30 h · Conclusão: 22/03/2025
 
 AI Fundamentals with IBM SkillsBuild
 Cisco Networking Academy, em colaboração com IBM SkillsBuild
-Conclusão de curso · 10 h · Conclusão: 05/11/2024
+10 h · Conclusão: 05/11/2024
 
 Redes
 
 Redes de Computadores - Implantação de Redes Locais
 SENAI São Paulo — Escola Hermenegildo Campos de Almeida
-Conclusão de curso · 48 h · Conclusão: 13/05/2026
+48 h · Conclusão: 13/05/2026
 
 Suporte de TI
 
 Computer Hardware Basics
 Cisco Networking Academy
-Conclusão de curso · 6 h · Conclusão: 18/02/2025
+6 h · Conclusão: 18/02/2025
 
 Competências sociais (Soft skills)
 
@@ -600,7 +599,7 @@ Organização e desenvolvimento
 
 Planeje Suas Metas e Resultados
 Sebrae
-Conclusão de curso · 2 h · Conclusão: 25/11/2024
+2 h · Conclusão: 25/11/2024
 
 Inglês — TOEIC Listening & Reading
 ETS — Educational Testing Service. Aplicação sob os auspícios do Centro Paula Souza
@@ -675,8 +674,7 @@ Pesquisa acadêmica · SaaS em desenvolvimento
 
 SGCS — Sistema de Gestão de Chamados para Síndicos
 A equipe da Fatec Franco da Rocha desenvolveu um protótipo funcional para a gestão de chamados condominiais. O trabalho recebeu menção honrosa no VI SIMBAJU, em 2026. O produto segue o modelo de software como serviço (SaaS) e está em desenvolvimento.
-O projeto considera a profissionalização do setor e possíveis necessidades de uma futura regulamentação, ainda em discussão no Congresso Nacional.
-Gerenciei o projeto, coordenei a equipe e acompanhei o cronograma e os entregáveis. Administrei e integrei as ferramentas do projeto.
+Gerenciei o projeto, coordenei a equipe e acompanhei prazos e entregas. Administrei e integrei as ferramentas de trabalho.
 
 Tecnologias de desenvolvimento
 • Google AI Studio
@@ -685,11 +683,8 @@ Tecnologias de desenvolvimento
 • GitHub
 
 Desenvolvimento de software
+A equipe levantou os requisitos funcionais e não funcionais do sistema.
 • Engenharia de software
-• Engenharia de requisitos
-• Elicitação de requisitos
-• Requisitos funcionais
-• Requisitos não funcionais
 • Modelagem de processos
 • Documentação técnica
 • Technical documentation
@@ -697,6 +692,7 @@ Desenvolvimento de software
 • Avaliação de ferramentas
 
 Pesquisa acadêmica
+A pesquisa também considera a proposta de regulamentação da atividade de síndico profissional (PL 4739/2024).
 • Pesquisa aplicada
 • Pesquisa bibliográfica
 • Estudo de caso
@@ -717,8 +713,6 @@ Gestão e colaboração
 • Gestão de projetos
 • Planejamento de atividades
 • Gestão de escopo
-• Liderança de equipe
-• Gestão de entregáveis
 • Integração de ferramentas
 • Desenvolvimento colaborativo
 
