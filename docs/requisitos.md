@@ -132,5 +132,7 @@ Limites:
 
 ## 11. Pendências
 
+Revisão de 27/11/2026: a série de seis propostas visuais está implementada para avaliação, conforme a decisão 0022. A inspeção cobriu Chromium, temas, quatro larguras, teclado, HTML, links, contraste automático e impressão. A escolha de uma direção pertence ao responsável. Ensaios com leitor de tela e outros navegadores continuam pendentes; não há declaração de conformidade.
+
 As tarefas técnicas, as comprovações de habilidades e os itens resolvidos estão na [página de pendências](../static/pt-BR/documentacao/pendencias.html).
 O [roadmap](../static/pt-BR/documentacao/roadmap.html) reúne os marcos do projeto e a sequência proposta para o trabalho restante.

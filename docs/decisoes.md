@@ -28,6 +28,7 @@ Uma decisão nova recebe o próximo número. Uma decisão substituída mantém o
 | 0019 | Correspondência de tarefas NICE abaixo do SFIA | Aceita |
 | 0020 | Menu centralizado de páginas experimentais e visão experimental de portfólio | Aceita |
 | 0021 | Unificação de documentação técnica ao portfólio experimental, criação do plano de carreira experimental e aposentadoria das prévias promovidas | Aceita |
+| 0022 | Seis propostas experimentais de estética e organização | Aceita para avaliação |
 
 ## 0001 — Site estático sem JavaScript
 
@@ -200,3 +201,24 @@ Em 24/11/2026, o responsável aprovou um bloco recolhível abaixo do SFIA nas du
 **Decisão:** converter `static/pt-BR/painel.html` e `static/pt-BR/projetos-experimental.html` em redirecionamentos estáticos (`meta refresh` + `canonical` + `noindex`) para `index.html` e `projetos.html`, removendo o atalho `⇄` do rodapé de `pt-BR/projetos.html`. Unificar o índice da documentação técnica dentro de `static/pt-BR/portfolio-experimental.html`, converter `static/pt-BR/documentacao/index.html` em redirecionamento para `../portfolio-experimental.html`, atualizar o menu das seis subpáginas de `documentacao/` e remover o link público da documentação nos cards de `pt-BR/projetos.html` e `en/projetos.html`. Criar `static/pt-BR/carreira-experimental.html` (com `noindex`) baseado nos dados verificados do portfólio e atualizar `static/pt-BR/experimentais.html` para listar apenas as duas prévias ativas (`portfolio-experimental.html` e `carreira-experimental.html`).
 **Consequências:** as páginas principais ficam livres de links para documentação experimental e prévias antigas; endereços antigos não quebram graças aos redirecionamentos estáticos; o menu experimental concentra apenas iniciativas em evolução ativa.
 **Confirmação:** verificar redirecionamentos, links e âncoras em todas as páginas alteradas, ausência de `<script>`/`<form>`/`<iframe>`, `noindex` nas páginas experimentais e `git diff --check`.
+
+## 0022 — Seis propostas experimentais de estética e organização
+
+**Contexto:** em 27/11/2026, o responsável pediu novas propostas minimalistas, brutalistas, de terminal, militaristas, NATO e construtivistas, com publicação experimental e foco em funcionalidade. Esclareceu que o repositório da nuvem é a fonte e que o Lovable só deve fornecer recursos sem geração paga.
+
+**Decisão:** publicar `pt-BR/estudos-visuais.html` e seis páginas `estudo-*.html`, acessíveis pelo menu experimental existente. Cada proposta combina uma hierarquia de conteúdo com uma composição própria. A série usa HTML e CSS locais, fontes do sistema, links diretos e controles `details` nativos. Todas as páginas recebem `noindex` e links para comparar propostas e voltar ao portfólio atual. Os estilos ficam no CSS comum, restritos a `.lab-page` e classes `lab-*`.
+
+| Página | Direção | Estrutura de consulta |
+| --- | --- | --- |
+| `estudo-minimalista.html` | Índice editorial | Coluna de identidade e experiência antes dos projetos. |
+| `estudo-brutalista.html` | Estrutura bruta | Projetos numerados e experiências em blocos. |
+| `estudo-terminal.html` | Diretório pessoal | Índice lateral, campos alinhados e listas expansíveis. |
+| `estudo-campo.html` | Manual de campo | Competências antes da experiência, com fichas de consulta. |
+| `estudo-nato.html` | Dossiê técnico | Projetos comparáveis por objetivo, contribuição e resultado. |
+| `estudo-construtivista.html` | Forma e função | Composição assimétrica, numeração e sequência editorial. |
+
+**Conteúdo e limites:** a base é `d75baf3`, com os textos vigentes de `index.html` e `projetos.html`. As cinco experiências, as três categorias de competências e suas subcategorias preservam os fatos e qualificadores. Os três projetos mantêm atribuições individuais e de equipe. A formação é resumida, com acesso ao conteúdo completo e aos PDFs existentes. As prévias não acrescentam competências ou resultados. SFIA e NICE remetem às seções oficiais. As referências NATO e militares são visuais, sem insígnias ou alegação de vínculo institucional.
+
+**Consequências:** esta série é uma experiência apenas em `pt-BR`, seguindo o escopo das prévias existentes. Não modifica as homes oficiais nem seus resumos ocultos. Cada prévia apresenta os dados em HTML semântico e dispensa uma segunda cópia oculta dos mesmos trechos; a cópia estruturada completa continua na página oficial. Tradução, adoção como página principal e eventual consolidação dependem da escolha posterior do responsável. As seis cópias exigem sincronização quando a base factual mudar. As consultas ao Lovable não encontraram modelos ou sistemas de design reutilizáveis; nenhuma geração foi solicitada.
+
+**Verificação:** Chromium 151, sete páginas novas, 56 combinações de largura (320, 390, 768 e 1440 CSS px) e tema; sem transbordamento horizontal. Controles por teclado, links locais, âncoras, downloads e impressão conferidos. HTML-Validate 11.23.0 sem erros no perfil recomendado, com exceção documentada para `role="list"` em listas sem marcadores (preserva semântica no Safari) e regras editoriais de título/espaçamento. Axe-core 4.14.1 sem violações automáticas nos critérios selecionados de WCAG A/AA, nas sete páginas em ambos os temas com detalhes abertos. Esses ensaios não certificam acessibilidade. A captura da home oficial em 1440 px permaneceu idêntica antes e depois. Leitor de tela, Safari, Firefox e dispositivos físicos não foram ensaiados.

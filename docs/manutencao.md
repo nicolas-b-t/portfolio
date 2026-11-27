@@ -186,6 +186,16 @@ Os DOCX V3 estão na [pasta de currículos no Drive](https://drive.google.com/dr
 
 ## HTML, CSS e publicação
 
+### Série experimental de apresentação
+
+O menu `pt-BR/experimentais.html` liga ao índice `estudos-visuais.html` e às seis propostas `estudo-*.html` (decisão 0022). A série está em avaliação apenas em português. Mantenha `noindex`, os links de comparação, os downloads existentes e o retorno à versão atual.
+
+As páginas usam o mesmo `styles.css`, com regras restritas a `.lab-page` e classes `lab-*`. Não aplique seus estilos às homes oficiais. Ao atualizar experiência, competências, projetos ou PDFs da base, confira as seis cópias experimentais. As competências preservam as três categorias e todas as subcategorias; cada categoria usa um `details` nativo. A formação é um resumo com acesso à fonte completa. SFIA e NICE remetem à página oficial.
+
+Confira teclado, temas, reflow, impressão com detalhes abertos e fechados e links relativos antes de publicar. A adoção de uma proposta como principal depende de novo pedido do responsável. A validação de 27/11/2026 está registrada na decisão 0022.
+
+### Regras comuns
+
 Todas as páginas usam `static/assets/css/styles.css`.
 Calcule os caminhos relativos conforme a profundidade de cada página. A página 404 é a exceção: usa caminhos absolutos sob `/portfolio/` para funcionar em URLs aninhadas.
 Preserve fontes do sistema, recursos locais e as imagens WebP/JPEG em `static/media/realfort/`.
