@@ -64,7 +64,7 @@ Cargas horárias e datas dos 17 cursos iniciais da página pt-BR, consultadas em
 
 O certificado do IFRS confirma conclusão em 13/11/2026, carga de 40 horas e período de 07/10/2026 a 13/11/2026. O PDF contém dados pessoais e permanece fora do site e do Git. A cópia em imagem com CPF oculto também está na pasta de origem.
 
-O certificado da Enap, consultado no Google Drive em 27/11/2026, confirma a conclusão de Gestão de projetos (turma OUT/2026), com carga de 10 horas. O documento informa o período de 26/11/2026 a 26/12/2026, sem especificar a data individual de conclusão. O original permanece no Google Drive. [Portal da Enap](https://www.enap.gov.br/).
+O certificado da Enap, consultado no Google Drive em 27/11/2026, confirma a conclusão de Gestão de projetos (turma OUT/2026), com carga de 10 horas. O documento informa o período da turma, de 26/11/2026 a 26/12/2026. O responsável informou a data individual de conclusão, 26/11/2026. O original permanece no Google Drive. [Portal da Enap](https://www.enap.gov.br/).
 
 As variantes ativas usam o rótulo **Conclusão** por solicitação do responsável.
 A coluna de origem preserva a distinção entre conclusão e emissão; quando havia as duas, a data exibida é a de conclusão.
@@ -72,7 +72,7 @@ A variante en-US foi padronizada para exibir somente a data de conclusão.
 
 | Curso | Horas | Data | Origem |
 | --- | --- | --- | --- |
-| Gestão de projetos | 10 h | — | Conclusão confirmada por certificado da Escola Nacional de Administração Pública (Enap). |
+| Gestão de projetos | 10 h | 26/11/2026 | Conclusão confirmada por certificado da Escola Nacional de Administração Pública (Enap). Data informada pelo responsável. |
 | SCRUM: Gerenciando Projetos de Software com Agilidade | 40 h | 13/11/2026 | Conclusão; certificado do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS). |
 | Microsoft Office Specialist Associate | 60 h | 25/07/2026 | Curso preparatório do SENAI para a prova de certificação. Conclusão em 25/07/2026. Emissão em 30/07/2026. |
 | Formação White Belt Six Sigma | 2 h | 17/04/2026 | Emissão. |

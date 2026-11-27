@@ -7,6 +7,7 @@ As datas usam o formato AAAA-MM-DD.
 
 | Data | Mudança | Evidência |
 | --- | --- | --- |
+| 2026-11-27 | Registra 26/11/2026 como data de conclusão do curso Gestão de projetos nas duas versões do portfólio. | [Conteúdo e fontes](docs/conteudo-e-fontes.md#cursos-complementares). |
 | 2026-11-27 | Adiciona o curso Gestão de projetos, da Enap, às versões em português e inglês do portfólio, incluindo impressão e resumo estruturado. | [Conteúdo e fontes](docs/conteudo-e-fontes.md#cursos-complementares). |
 | 2026-11-27 | Simplifica a redação em pt-BR, esclarece as evidências do SFIA 9 e resume o contexto legislativo e os requisitos do SGCS. Sincroniza a impressão, os resumos estruturados e a lista de consulta. | Este commit. |
 | 2026-11-25 | Promove as páginas experimentais (`painel.html` e `projetos-experimental.html`) como páginas principais (`pt-BR/index.html` e `pt-BR/projetos.html`) preservando acesso às prévias, e realiza o alinhamento técnico e de conteúdo com `en/index.html` e `en/projetos.html` (incluindo `Princípios de desenvolvimento` / `Development principles`, `Projetos e pesquisas` / `Projects and research`, `preload` e `content-visibility`). | [evolução](static/pt-BR/documentacao/evolucao.html#em-avaliacao); [painel](static/pt-BR/index.html); [projetos](static/pt-BR/projetos.html). |
