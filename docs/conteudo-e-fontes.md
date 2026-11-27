@@ -64,7 +64,7 @@ Cargas horárias e datas dos 17 cursos iniciais da página pt-BR, consultadas em
 
 O certificado do IFRS confirma conclusão em 13/11/2026, carga de 40 horas e período de 07/10/2026 a 13/11/2026. O PDF contém dados pessoais e permanece fora do site e do Git. A cópia em imagem com CPF oculto também está na pasta de origem.
 
-O certificado da Enap, consultado no Google Drive em 27/11/2026, confirma a conclusão de Gestão de projetos (turma OUT/2026), com carga de 10 horas. O documento informa o período de 26/11/2026 a 26/12/2026. A data individual de conclusão não consta no certificado. O original permanece no Google Drive. [Catálogo da Escola Virtual de Governo](https://www.cdn.escolavirtual.gov.br/programa/362/curso/787).
+O certificado da Enap, consultado no Google Drive em 27/11/2026, confirma a conclusão de Gestão de projetos (turma OUT/2026), com carga de 10 horas. O documento informa o período de 26/11/2026 a 26/12/2026, sem especificar a data individual de conclusão. O original permanece no Google Drive. [Portal da Enap](https://www.enap.gov.br/).
 
 As variantes ativas usam o rótulo **Conclusão** por solicitação do responsável.
 A coluna de origem preserva a distinção entre conclusão e emissão; quando havia as duas, a data exibida é a de conclusão.
