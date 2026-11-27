@@ -577,11 +577,16 @@ p {
 
 /* ---------- Competency framework profiles ---------- */
 
-.sfia-profile,
-.nice-profile {
+#sfia-title,
+#nice-title {
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: var(--line) solid var(--ink);
+}
+
+.sfia-profile,
+.nice-profile {
+  margin-top: 0.5rem;
 }
 
 .sfia-print,
@@ -1018,6 +1023,8 @@ p {
     margin-top: 0.5rem;
   }
 
+  #sfia-title,
+  #nice-title,
   .sfia-profile,
   .nice-profile {
     display: none;
